@@ -1,0 +1,3 @@
+case_id,disease_name,final_label,final_total_score,reject_reasons
+bcf6cdde-7d10-52f2-a33a-c706cc41ea21,猪大肠杆菌病,pass,87.0,target_disease_alias_not_in_diagnosis
+55c41deb-e40b-50c1-ac91-eb08618d1f0d,猪繁殖与呼吸综合征,pass,83.0,score_below_min

@@ -1,0 +1,1732 @@
+{
+  "generated_at": "2026-05-09T20:39:03+08:00",
+  "purpose": "Phase 8 page-level insertion of RC-CITATION-001 anchors for runtime dataset provenance gates.",
+  "target_entity_types": [
+    "comparison",
+    "disease",
+    "drug",
+    "syndrome"
+  ],
+  "records": [
+    {
+      "page_id": "DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5338,
+      "bytes_after": 5819
+    },
+    {
+      "page_id": "DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 12945,
+      "bytes_after": 13440
+    },
+    {
+      "page_id": "DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "changed": false,
+      "reason": "anchor_already_present"
+    },
+    {
+      "page_id": "DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "changed": false,
+      "reason": "anchor_already_present"
+    },
+    {
+      "page_id": "DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5676,
+      "bytes_after": 6157
+    },
+    {
+      "page_id": "DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5754,
+      "bytes_after": 6235
+    },
+    {
+      "page_id": "DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6478,
+      "bytes_after": 6953
+    },
+    {
+      "page_id": "DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8230,
+      "bytes_after": 8705
+    },
+    {
+      "page_id": "DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 7976,
+      "bytes_after": 8451
+    },
+    {
+      "page_id": "DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6898,
+      "bytes_after": 7379
+    },
+    {
+      "page_id": "DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5927,
+      "bytes_after": 6402
+    },
+    {
+      "page_id": "DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6183,
+      "bytes_after": 6664
+    },
+    {
+      "page_id": "DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6207,
+      "bytes_after": 6688
+    },
+    {
+      "page_id": "DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5734,
+      "bytes_after": 6215
+    },
+    {
+      "page_id": "DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6396,
+      "bytes_after": 6891
+    },
+    {
+      "page_id": "DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5676,
+      "bytes_after": 6157
+    },
+    {
+      "page_id": "DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6011,
+      "bytes_after": 6492
+    },
+    {
+      "page_id": "DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 7086,
+      "bytes_after": 7581
+    },
+    {
+      "page_id": "DIS-019",
+      "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5406,
+      "bytes_after": 5887
+    },
+    {
+      "page_id": "DIS-020",
+      "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5502,
+      "bytes_after": 5983
+    },
+    {
+      "page_id": "DIS-021",
+      "path": "wiki/diseases/DIS-021-influenza-viruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 10670,
+      "bytes_after": 11145
+    },
+    {
+      "page_id": "DIS-022",
+      "path": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5377,
+      "bytes_after": 5858
+    },
+    {
+      "page_id": "DIS-023",
+      "path": "wiki/diseases/DIS-023-parvoviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6117,
+      "bytes_after": 6592
+    },
+    {
+      "page_id": "DIS-024",
+      "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8113,
+      "bytes_after": 8608
+    },
+    {
+      "page_id": "DIS-025",
+      "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5841,
+      "bytes_after": 6322
+    },
+    {
+      "page_id": "DIS-026",
+      "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 10416,
+      "bytes_after": 10911
+    },
+    {
+      "page_id": "DIS-027",
+      "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6370,
+      "bytes_after": 6851
+    },
+    {
+      "page_id": "DIS-028",
+      "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8651,
+      "bytes_after": 9146
+    },
+    {
+      "page_id": "DIS-029",
+      "path": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5370,
+      "bytes_after": 5851
+    },
+    {
+      "page_id": "DIS-030",
+      "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6643,
+      "bytes_after": 7118
+    },
+    {
+      "page_id": "DIS-031",
+      "path": "wiki/diseases/DIS-031-retroviruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5376,
+      "bytes_after": 5857
+    },
+    {
+      "page_id": "DIS-032",
+      "path": "wiki/diseases/DIS-032-rabies-virus.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5885,
+      "bytes_after": 6366
+    },
+    {
+      "page_id": "DIS-033",
+      "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5815,
+      "bytes_after": 6310
+    },
+    {
+      "page_id": "DIS-034",
+      "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5726,
+      "bytes_after": 6207
+    },
+    {
+      "page_id": "DIS-035",
+      "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 9860,
+      "bytes_after": 10335
+    },
+    {
+      "page_id": "DIS-036",
+      "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5509,
+      "bytes_after": 5990
+    },
+    {
+      "page_id": "DIS-037",
+      "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6622,
+      "bytes_after": 7097
+    },
+    {
+      "page_id": "DIS-038",
+      "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "changed": false,
+      "reason": "anchor_already_present"
+    },
+    {
+      "page_id": "DIS-039",
+      "path": "wiki/diseases/DIS-039-clostridial-diseases.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6506,
+      "bytes_after": 6981
+    },
+    {
+      "page_id": "DIS-040",
+      "path": "wiki/diseases/DIS-040-colibacillosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8466,
+      "bytes_after": 8941
+    },
+    {
+      "page_id": "DIS-041",
+      "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 9034,
+      "bytes_after": 9509
+    },
+    {
+      "page_id": "DIS-042",
+      "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6160,
+      "bytes_after": 6635
+    },
+    {
+      "page_id": "DIS-043",
+      "path": "wiki/diseases/DIS-043-erysipelas.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5659,
+      "bytes_after": 6134
+    },
+    {
+      "page_id": "DIS-044",
+      "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 7609,
+      "bytes_after": 8084
+    },
+    {
+      "page_id": "DIS-045",
+      "path": "wiki/diseases/DIS-045-leptospirosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6464,
+      "bytes_after": 6959
+    },
+    {
+      "page_id": "DIS-046",
+      "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8302,
+      "bytes_after": 8777
+    },
+    {
+      "page_id": "DIS-047",
+      "path": "wiki/diseases/DIS-047-pasteurellosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6507,
+      "bytes_after": 6982
+    },
+    {
+      "page_id": "DIS-048",
+      "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8883,
+      "bytes_after": 9358
+    },
+    {
+      "page_id": "DIS-049",
+      "path": "wiki/diseases/DIS-049-salmonellosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8952,
+      "bytes_after": 9427
+    },
+    {
+      "page_id": "DIS-050",
+      "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5297,
+      "bytes_after": 5772
+    },
+    {
+      "page_id": "DIS-051",
+      "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6936,
+      "bytes_after": 7431
+    },
+    {
+      "page_id": "DIS-052",
+      "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 9828,
+      "bytes_after": 10303
+    },
+    {
+      "page_id": "DIS-053",
+      "path": "wiki/diseases/DIS-053-tuberculosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5352,
+      "bytes_after": 5833
+    },
+    {
+      "page_id": "DIS-054",
+      "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5459,
+      "bytes_after": 5940
+    },
+    {
+      "page_id": "DIS-055",
+      "path": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 8729,
+      "bytes_after": 9204
+    },
+    {
+      "page_id": "DIS-056",
+      "path": "wiki/diseases/DIS-056-external-parasites-lice.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5207,
+      "bytes_after": 5682
+    },
+    {
+      "page_id": "DIS-057",
+      "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6773,
+      "bytes_after": 7248
+    },
+    {
+      "page_id": "DIS-058",
+      "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6350,
+      "bytes_after": 6845
+    },
+    {
+      "page_id": "DIS-059",
+      "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5929,
+      "bytes_after": 6410
+    },
+    {
+      "page_id": "DIS-060",
+      "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5779,
+      "bytes_after": 6254
+    },
+    {
+      "page_id": "DIS-061",
+      "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5316,
+      "bytes_after": 5791
+    },
+    {
+      "page_id": "DIS-062",
+      "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5607,
+      "bytes_after": 6088
+    },
+    {
+      "page_id": "DIS-063",
+      "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5735,
+      "bytes_after": 6216
+    },
+    {
+      "page_id": "DIS-064",
+      "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5598,
+      "bytes_after": 6079
+    },
+    {
+      "page_id": "DIS-065",
+      "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6300,
+      "bytes_after": 6781
+    },
+    {
+      "page_id": "DIS-066",
+      "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4944,
+      "bytes_after": 5419
+    },
+    {
+      "page_id": "DIS-067",
+      "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4165,
+      "bytes_after": 4640
+    },
+    {
+      "page_id": "DIS-068",
+      "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4428,
+      "bytes_after": 4903
+    },
+    {
+      "page_id": "DIS-069",
+      "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5910,
+      "bytes_after": 6391
+    },
+    {
+      "page_id": "DIS-070",
+      "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5680,
+      "bytes_after": 6161
+    },
+    {
+      "page_id": "DIS-071",
+      "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6221,
+      "bytes_after": 6702
+    },
+    {
+      "page_id": "DIS-072",
+      "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5893,
+      "bytes_after": 6374
+    },
+    {
+      "page_id": "DIS-073",
+      "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md",
+      "entity_type": "disease",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6087,
+      "bytes_after": 6562
+    },
+    {
+      "page_id": "DRUG-001-avermectins",
+      "path": "wiki/drugs/DRUG-001-avermectins.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4173,
+      "bytes_after": 4654
+    },
+    {
+      "page_id": "DRUG-002-ivermectin",
+      "path": "wiki/drugs/DRUG-002-ivermectin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4138,
+      "bytes_after": 4619
+    },
+    {
+      "page_id": "DRUG-003-doramectin",
+      "path": "wiki/drugs/DRUG-003-doramectin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4151,
+      "bytes_after": 4632
+    },
+    {
+      "page_id": "DRUG-004-fenbendazole",
+      "path": "wiki/drugs/DRUG-004-fenbendazole.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3764,
+      "bytes_after": 4245
+    },
+    {
+      "page_id": "DRUG-005-benzimidazoles",
+      "path": "wiki/drugs/DRUG-005-benzimidazoles.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3740,
+      "bytes_after": 4221
+    },
+    {
+      "page_id": "DRUG-006-anticoccidials",
+      "path": "wiki/drugs/DRUG-006-anticoccidials.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3493,
+      "bytes_after": 3974
+    },
+    {
+      "page_id": "DRUG-007-antimicrobials",
+      "path": "wiki/drugs/DRUG-007-antimicrobials.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3981,
+      "bytes_after": 4462
+    },
+    {
+      "page_id": "DRUG-008-food-animal-banned-drug-list",
+      "path": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3448,
+      "bytes_after": 3920
+    },
+    {
+      "page_id": "DRUG-009-penicillin-g",
+      "path": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5057,
+      "bytes_after": 5538
+    },
+    {
+      "page_id": "DRUG-010-amoxicillin",
+      "path": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6283,
+      "bytes_after": 6764
+    },
+    {
+      "page_id": "DRUG-011-ceftiofur",
+      "path": "wiki/drugs/DRUG-011-ceftiofur.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4501,
+      "bytes_after": 4982
+    },
+    {
+      "page_id": "DRUG-012-florfenicol",
+      "path": "wiki/drugs/DRUG-012-florfenicol.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 7208,
+      "bytes_after": 7689
+    },
+    {
+      "page_id": "DRUG-013-tiamulin",
+      "path": "wiki/drugs/DRUG-013-tiamulin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5601,
+      "bytes_after": 6082
+    },
+    {
+      "page_id": "DRUG-014-lincomycin",
+      "path": "wiki/drugs/DRUG-014-lincomycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4954,
+      "bytes_after": 5435
+    },
+    {
+      "page_id": "DRUG-015-tylosin",
+      "path": "wiki/drugs/DRUG-015-tylosin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5315,
+      "bytes_after": 5796
+    },
+    {
+      "page_id": "DRUG-016-tylvalosin",
+      "path": "wiki/drugs/DRUG-016-tylvalosin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3955,
+      "bytes_after": 4436
+    },
+    {
+      "page_id": "DRUG-017-tulathromycin",
+      "path": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4635,
+      "bytes_after": 5103
+    },
+    {
+      "page_id": "DRUG-018-enrofloxacin",
+      "path": "wiki/drugs/DRUG-018-enrofloxacin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 7038,
+      "bytes_after": 7519
+    },
+    {
+      "page_id": "DRUG-019-oxytetracycline",
+      "path": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5934,
+      "bytes_after": 6415
+    },
+    {
+      "page_id": "DRUG-020-chlortetracycline",
+      "path": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5101,
+      "bytes_after": 5582
+    },
+    {
+      "page_id": "DRUG-021-doxycycline",
+      "path": "wiki/drugs/DRUG-021-doxycycline.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5664,
+      "bytes_after": 6145
+    },
+    {
+      "page_id": "DRUG-022-sulfonamide-trimethoprim",
+      "path": "wiki/drugs/DRUG-022-sulfonamide-trimethoprim.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4955,
+      "bytes_after": 5436
+    },
+    {
+      "page_id": "DRUG-023-gentamicin",
+      "path": "wiki/drugs/DRUG-023-gentamicin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4826,
+      "bytes_after": 5307
+    },
+    {
+      "page_id": "DRUG-024-neomycin",
+      "path": "wiki/drugs/DRUG-024-neomycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4703,
+      "bytes_after": 5184
+    },
+    {
+      "page_id": "DRUG-025-apramycin",
+      "path": "wiki/drugs/DRUG-025-apramycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3706,
+      "bytes_after": 4187
+    },
+    {
+      "page_id": "DRUG-026-spectinomycin",
+      "path": "wiki/drugs/DRUG-026-spectinomycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4624,
+      "bytes_after": 5105
+    },
+    {
+      "page_id": "DRUG-027-toltrazuril",
+      "path": "wiki/drugs/DRUG-027-toltrazuril.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4247,
+      "bytes_after": 4728
+    },
+    {
+      "page_id": "DRUG-028-iron-dextran",
+      "path": "wiki/drugs/DRUG-028-iron-dextran.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3976,
+      "bytes_after": 4457
+    },
+    {
+      "page_id": "DRUG-029-nsaids",
+      "path": "wiki/drugs/DRUG-029-nsaids.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4239,
+      "bytes_after": 4720
+    },
+    {
+      "page_id": "DRUG-030-tetracyclines",
+      "path": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4366,
+      "bytes_after": 4847
+    },
+    {
+      "page_id": "DRUG-031-macrolides",
+      "path": "wiki/drugs/DRUG-031-macrolides.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3752,
+      "bytes_after": 4233
+    },
+    {
+      "page_id": "DRUG-032-pleuromutilins",
+      "path": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3753,
+      "bytes_after": 4221
+    },
+    {
+      "page_id": "DRUG-033-aminoglycosides",
+      "path": "wiki/drugs/DRUG-033-aminoglycosides.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3762,
+      "bytes_after": 4243
+    },
+    {
+      "page_id": "DRUG-034-sulfonamides",
+      "path": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 6251,
+      "bytes_after": 6732
+    },
+    {
+      "page_id": "DRUG-035-beta-lactams",
+      "path": "wiki/drugs/DRUG-035-beta-lactams.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3716,
+      "bytes_after": 4197
+    },
+    {
+      "page_id": "DRUG-036-lincosamides",
+      "path": "wiki/drugs/DRUG-036-lincosamides.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4280,
+      "bytes_after": 4761
+    },
+    {
+      "page_id": "DRUG-037-sulfamethazine",
+      "path": "wiki/drugs/DRUG-037-sulfamethazine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4354,
+      "bytes_after": 4835
+    },
+    {
+      "page_id": "DRUG-038-trimethoprim-sulfadiazine",
+      "path": "wiki/drugs/DRUG-038-trimethoprim-sulfadiazine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3461,
+      "bytes_after": 3942
+    },
+    {
+      "page_id": "DRUG-039-sulfadimethoxine",
+      "path": "wiki/drugs/DRUG-039-sulfadimethoxine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4260,
+      "bytes_after": 4741
+    },
+    {
+      "page_id": "DRUG-040-trimethoprim-sulfamethoxazole",
+      "path": "wiki/drugs/DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3489,
+      "bytes_after": 3970
+    },
+    {
+      "page_id": "DRUG-041-sulfadimidine-sulfathiazole-combinations",
+      "path": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4558,
+      "bytes_after": 5026
+    },
+    {
+      "page_id": "DRUG-042-ampicillin",
+      "path": "wiki/drugs/DRUG-042-ampicillin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5723,
+      "bytes_after": 6204
+    },
+    {
+      "page_id": "DRUG-043-amoxicillin-clavulanic-acid",
+      "path": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4430,
+      "bytes_after": 4898
+    },
+    {
+      "page_id": "DRUG-044-cefquinome",
+      "path": "wiki/drugs/DRUG-044-cefquinome.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4976,
+      "bytes_after": 5457
+    },
+    {
+      "page_id": "DRUG-045-tilmicosin",
+      "path": "wiki/drugs/DRUG-045-tilmicosin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 5086,
+      "bytes_after": 5567
+    },
+    {
+      "page_id": "DRUG-046-valnemulin",
+      "path": "wiki/drugs/DRUG-046-valnemulin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3698,
+      "bytes_after": 4179
+    },
+    {
+      "page_id": "DRUG-047-chloramphenicol",
+      "path": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4177,
+      "bytes_after": 4645
+    },
+    {
+      "page_id": "DRUG-048-carbadox",
+      "path": "wiki/drugs/DRUG-048-carbadox.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3759,
+      "bytes_after": 4240
+    },
+    {
+      "page_id": "DRUG-049-olaquindox",
+      "path": "wiki/drugs/DRUG-049-olaquindox.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4128,
+      "bytes_after": 4609
+    },
+    {
+      "page_id": "DRUG-050-dimetridazole-ronidazole",
+      "path": "wiki/drugs/DRUG-050-dimetridazole-ronidazole.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4506,
+      "bytes_after": 4987
+    },
+    {
+      "page_id": "DRUG-051-danofloxacin-marbofloxacin",
+      "path": "wiki/drugs/DRUG-051-danofloxacin-marbofloxacin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4027,
+      "bytes_after": 4508
+    },
+    {
+      "page_id": "DRUG-052-colistin",
+      "path": "wiki/drugs/DRUG-052-colistin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3849,
+      "bytes_after": 4330
+    },
+    {
+      "page_id": "DRUG-053-bacitracin-methylene-disalicylate",
+      "path": "wiki/drugs/DRUG-053-bacitracin-methylene-disalicylate.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3486,
+      "bytes_after": 3967
+    },
+    {
+      "page_id": "DRUG-054-virginiamycin",
+      "path": "wiki/drugs/DRUG-054-virginiamycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3416,
+      "bytes_after": 3897
+    },
+    {
+      "page_id": "DRUG-055-moxidectin",
+      "path": "wiki/drugs/DRUG-055-moxidectin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3394,
+      "bytes_after": 3875
+    },
+    {
+      "page_id": "DRUG-056-levamisole",
+      "path": "wiki/drugs/DRUG-056-levamisole.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3670,
+      "bytes_after": 4151
+    },
+    {
+      "page_id": "DRUG-057-piperazine-pyrantel",
+      "path": "wiki/drugs/DRUG-057-piperazine-pyrantel.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3435,
+      "bytes_after": 3916
+    },
+    {
+      "page_id": "DRUG-058-amitraz",
+      "path": "wiki/drugs/DRUG-058-amitraz.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3391,
+      "bytes_after": 3872
+    },
+    {
+      "page_id": "DRUG-059-phosmet-coumaphos",
+      "path": "wiki/drugs/DRUG-059-phosmet-coumaphos.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3434,
+      "bytes_after": 3915
+    },
+    {
+      "page_id": "DRUG-060-permethrin-deltamethrin",
+      "path": "wiki/drugs/DRUG-060-permethrin-deltamethrin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3621,
+      "bytes_after": 4102
+    },
+    {
+      "page_id": "DRUG-061-ponazuril",
+      "path": "wiki/drugs/DRUG-061-ponazuril.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3502,
+      "bytes_after": 3970
+    },
+    {
+      "page_id": "DRUG-062-amprolium",
+      "path": "wiki/drugs/DRUG-062-amprolium.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3526,
+      "bytes_after": 4007
+    },
+    {
+      "page_id": "DRUG-063-meloxicam",
+      "path": "wiki/drugs/DRUG-063-meloxicam.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3892,
+      "bytes_after": 4373
+    },
+    {
+      "page_id": "DRUG-064-flunixin-meglumine",
+      "path": "wiki/drugs/DRUG-064-flunixin-meglumine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3932,
+      "bytes_after": 4413
+    },
+    {
+      "page_id": "DRUG-065-ketoprofen-sodium-salicylate-indomethacin",
+      "path": "wiki/drugs/DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3786,
+      "bytes_after": 4267
+    },
+    {
+      "page_id": "DRUG-066-dexamethasone",
+      "path": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4284,
+      "bytes_after": 4765
+    },
+    {
+      "page_id": "DRUG-067-oxytocin",
+      "path": "wiki/drugs/DRUG-067-oxytocin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4127,
+      "bytes_after": 4608
+    },
+    {
+      "page_id": "DRUG-068-altrenogest",
+      "path": "wiki/drugs/DRUG-068-altrenogest.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3658,
+      "bytes_after": 4139
+    },
+    {
+      "page_id": "DRUG-069-triptorelin",
+      "path": "wiki/drugs/DRUG-069-triptorelin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3382,
+      "bytes_after": 3863
+    },
+    {
+      "page_id": "DRUG-070-ractopamine",
+      "path": "wiki/drugs/DRUG-070-ractopamine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4190,
+      "bytes_after": 4658
+    },
+    {
+      "page_id": "DRUG-071-streptomycin",
+      "path": "wiki/drugs/DRUG-071-streptomycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3919,
+      "bytes_after": 4400
+    },
+    {
+      "page_id": "DRUG-072-tildipirosin",
+      "path": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3807,
+      "bytes_after": 4275
+    },
+    {
+      "page_id": "DRUG-073-erythromycin",
+      "path": "wiki/drugs/DRUG-073-erythromycin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4246,
+      "bytes_after": 4727
+    },
+    {
+      "page_id": "DRUG-074-amikacin",
+      "path": "wiki/drugs/DRUG-074-amikacin.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3709,
+      "bytes_after": 4190
+    },
+    {
+      "page_id": "DRUG-075-praziquantel",
+      "path": "wiki/drugs/DRUG-075-praziquantel.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4507,
+      "bytes_after": 4988
+    },
+    {
+      "page_id": "DRUG-076-dichlorvos",
+      "path": "wiki/drugs/DRUG-076-dichlorvos.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 4614,
+      "bytes_after": 5095
+    },
+    {
+      "page_id": "DRUG-077-azaperone",
+      "path": "wiki/drugs/DRUG-077-azaperone.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2675,
+      "bytes_after": 3156
+    },
+    {
+      "page_id": "DRUG-078-pentobarbital",
+      "path": "wiki/drugs/DRUG-078-pentobarbital.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2561,
+      "bytes_after": 3042
+    },
+    {
+      "page_id": "DRUG-079-atropine",
+      "path": "wiki/drugs/DRUG-079-atropine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2758,
+      "bytes_after": 3239
+    },
+    {
+      "page_id": "DRUG-080-epinephrine",
+      "path": "wiki/drugs/DRUG-080-epinephrine.md",
+      "entity_type": "drug",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2815,
+      "bytes_after": 3296
+    },
+    {
+      "page_id": "RC-ASF-001",
+      "path": "wiki/rule_cards/RC-ASF-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-VES-001",
+      "path": "wiki/rule_cards/RC-VES-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DRUG-001",
+      "path": "wiki/rule_cards/RC-DRUG-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DX-001",
+      "path": "wiki/rule_cards/RC-DX-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DIARRHEA-001",
+      "path": "wiki/rule_cards/RC-DIARRHEA-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-RESP-001",
+      "path": "wiki/rule_cards/RC-RESP-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-REPRO-001",
+      "path": "wiki/rule_cards/RC-REPRO-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-TOX-001",
+      "path": "wiki/rule_cards/RC-TOX-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-CITATION-001",
+      "path": "wiki/rule_cards/RC-CITATION-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-TRAIN-READY-001",
+      "path": "wiki/rule_cards/RC-TRAIN-READY-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-ALIAS-001",
+      "path": "wiki/rule_cards/RC-ALIAS-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DRUG-CLASS-001",
+      "path": "wiki/rule_cards/RC-DRUG-CLASS-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-WITHDRAWAL-MRL-001",
+      "path": "wiki/rule_cards/RC-WITHDRAWAL-MRL-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DRUG-GOLD-ROLE-001",
+      "path": "wiki/rule_cards/RC-DRUG-GOLD-ROLE-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "RC-DISEASE-REGULATORY-001",
+      "path": "wiki/rule_cards/RC-DISEASE-REGULATORY-001.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "CMP-001",
+      "path": "wiki/comparisons/CMP-001-neonatal-diarrhea.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3419,
+      "bytes_after": 3890
+    },
+    {
+      "page_id": "CMP-002",
+      "path": "wiki/comparisons/CMP-002-post-weaning-diarrhea.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2824,
+      "bytes_after": 3295
+    },
+    {
+      "page_id": "CMP-003",
+      "path": "wiki/comparisons/CMP-003-respiratory-disease.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2709,
+      "bytes_after": 3180
+    },
+    {
+      "page_id": "CMP-004",
+      "path": "wiki/comparisons/CMP-004-reproductive-failure.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2271,
+      "bytes_after": 2742
+    },
+    {
+      "page_id": "CMP-005",
+      "path": "wiki/comparisons/CMP-005-vesicular-disease.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1732,
+      "bytes_after": 2203
+    },
+    {
+      "page_id": "CMP-006",
+      "path": "wiki/comparisons/CMP-006-sudden-death-septicemia.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2380,
+      "bytes_after": 2851
+    },
+    {
+      "page_id": "CMP-007",
+      "path": "wiki/comparisons/CMP-007-skin-pruritus-crusts.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1845,
+      "bytes_after": 2316
+    },
+    {
+      "page_id": "CMP-008",
+      "path": "wiki/comparisons/CMP-008-neurologic-signs.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1900,
+      "bytes_after": 2371
+    },
+    {
+      "page_id": "CMP-009",
+      "path": "wiki/comparisons/CMP-009-lameness-arthritis.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1860,
+      "bytes_after": 2331
+    },
+    {
+      "page_id": "CMP-010",
+      "path": "wiki/comparisons/CMP-010-anemia-jaundice.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1842,
+      "bytes_after": 2313
+    },
+    {
+      "page_id": "CMP-011",
+      "path": "wiki/comparisons/CMP-011-feed-toxin-gas.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1996,
+      "bytes_after": 2467
+    },
+    {
+      "page_id": "CMP-012",
+      "path": "wiki/comparisons/CMP-012-parasite-wasting.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1868,
+      "bytes_after": 2339
+    },
+    {
+      "page_id": "CMP-013",
+      "path": "wiki/comparisons/CMP-013-sow-reproductive-lactation.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1881,
+      "bytes_after": 2352
+    },
+    {
+      "page_id": "CMP-014",
+      "path": "wiki/comparisons/CMP-014-handbook-disease-coverage-map.md",
+      "entity_type": "comparison",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2071,
+      "bytes_after": 2542
+    },
+    {
+      "page_id": "SYN-001-piglet-diarrhea",
+      "path": "wiki/syndromes/SYN-001-piglet-diarrhea.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2777,
+      "bytes_after": 3244
+    },
+    {
+      "page_id": "SYN-002-post-weaning-diarrhea",
+      "path": "wiki/syndromes/SYN-002-post-weaning-diarrhea.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3079,
+      "bytes_after": 3546
+    },
+    {
+      "page_id": "SYN-003-reproductive-failure",
+      "path": "wiki/syndromes/SYN-003-reproductive-failure.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2477,
+      "bytes_after": 2944
+    },
+    {
+      "page_id": "SYN-004-respiratory-syndrome",
+      "path": "wiki/syndromes/SYN-004-respiratory-syndrome.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3184,
+      "bytes_after": 3651
+    },
+    {
+      "page_id": "SYN-005-neurologic-signs",
+      "path": "wiki/syndromes/SYN-005-neurologic-signs.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2847,
+      "bytes_after": 3314
+    },
+    {
+      "page_id": "SYN-006-vesicular-disease",
+      "path": "wiki/syndromes/SYN-006-vesicular-disease.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 1796,
+      "bytes_after": 2263
+    },
+    {
+      "page_id": "SYN-007-sudden-death-septicemia",
+      "path": "wiki/syndromes/SYN-007-sudden-death-septicemia.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2191,
+      "bytes_after": 2658
+    },
+    {
+      "page_id": "SYN-008-skin-pruritus-crusts",
+      "path": "wiki/syndromes/SYN-008-skin-pruritus-crusts.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2402,
+      "bytes_after": 2869
+    },
+    {
+      "page_id": "SYN-009-lameness-arthritis",
+      "path": "wiki/syndromes/SYN-009-lameness-arthritis.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2683,
+      "bytes_after": 3150
+    },
+    {
+      "page_id": "SYN-010-anemia-jaundice",
+      "path": "wiki/syndromes/SYN-010-anemia-jaundice.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2654,
+      "bytes_after": 3121
+    },
+    {
+      "page_id": "SYN-011-poor-growth-wasting",
+      "path": "wiki/syndromes/SYN-011-poor-growth-wasting.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 3201,
+      "bytes_after": 3668
+    },
+    {
+      "page_id": "SYN-012-feed-toxin-gas",
+      "path": "wiki/syndromes/SYN-012-feed-toxin-gas.md",
+      "entity_type": "syndrome",
+      "changed": true,
+      "reason": "citation_gate_added",
+      "bytes_before": 2937,
+      "bytes_after": 3404
+    },
+    {
+      "page_id": "swine_case_generation_context",
+      "path": "wiki/synthesis/swine_case_generation_context.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "swine_answer_evaluation_rubric",
+      "path": "wiki/synthesis/swine_answer_evaluation_rubric.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "swine_regulatory_blocking_rules_china",
+      "path": "wiki/synthesis/swine_regulatory_blocking_rules_china.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    },
+    {
+      "page_id": "swine_drug_and_withdrawal_boundary",
+      "path": "wiki/synthesis/swine_drug_and_withdrawal_boundary.md",
+      "changed": false,
+      "reason": "entity_type_not_targeted"
+    }
+  ],
+  "summary": {
+    "runtime_entries_checked": 198,
+    "pages_changed": 176
+  }
+}

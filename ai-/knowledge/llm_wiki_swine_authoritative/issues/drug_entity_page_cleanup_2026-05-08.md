@@ -1,0 +1,90 @@
+# Drug Entity Page Cleanup / 2026-05-08
+
+- Drug pages processed: 80
+- Status counts: {'source_anchored_drug_evidence_page': 47, 'partial_drug_evidence_page': 32, 'regulatory_boundary_page': 1}
+- Drug index updated: False
+- Scope: front matter, unified drug-page availability boundaries, source normalization, and drug index status.
+- Guardrail: existing drug facts, citations, source_id/fact_id/page anchors, and batch evidence blocks were preserved.
+
+## Pages
+
+- `DRUG-001-avermectins.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0080,SRC-0082,SRC-0087,SRC-0089,SRC-0090; facts=11; pages=4; blocks=3
+- `DRUG-002-ivermectin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-LABEL-INSTRUCTION-RULES-2002,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0080,SRC-0082,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=42; pages=26; blocks=4
+- `DRUG-003-doramectin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0080,SRC-0082,SRC-0088,SRC-0089,SRC-0090; facts=15; pages=14; blocks=3
+- `DRUG-004-fenbendazole.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0082,SRC-0088,SRC-0090; facts=5; pages=4; blocks=2
+- `DRUG-005-benzimidazoles.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0082,SRC-0088; facts=8; pages=6; blocks=1
+- `DRUG-006-anticoccidials.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=SRC-0081; facts=1; pages=1; blocks=0
+- `DRUG-007-antimicrobials.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,RULE-HANDBOOK-PRESCRIPTION-001,SRC-0057,SRC-0087; facts=0; pages=0; blocks=1
+- `DRUG-008-food-animal-banned-drug-list.md`: regulatory_boundary_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY; facts=1; pages=0; blocks=0
+- `DRUG-009-penicillin-g.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0062,SRC-0065,SRC-0075,SRC-0087,SRC-0089,SRC-0090; facts=71; pages=55; blocks=3
+- `DRUG-010-amoxicillin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-AMOXICILLIN-INJECTION-332-2020,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0062,SRC-0063,SRC-0075,SRC-0088,SRC-0089,SRC-0090; facts=46; pages=34; blocks=3
+- `DRUG-011-ceftiofur.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-CEFTIOFUR-SODIUM-INJECTION-2024,A0-MOA-LABEL-INSTRUCTION-RULES-2002,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0059,SRC-0063,SRC-0070,SRC-0074,SRC-0075,SRC-0088,SRC-0089,SRC-0090; facts=24; pages=17; blocks=3
+- `DRUG-012-florfenicol.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-ANNOUNCEMENT-1738-VET-DRUG-CANCELLATION-2012,A0-MOA-ANNOUNCEMENT-995-FLORFENICOL-2026,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-FLORFENICOL-INJECTION-219-2019,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-VET-DRUG-SUPERVISION-2026,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0069,SRC-0073,SRC-0075,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=45; pages=38; blocks=4
+- `DRUG-013-tiamulin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0069,SRC-0071,SRC-0077,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=46; pages=38; blocks=4
+- `DRUG-014-lincomycin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0074,SRC-0075,SRC-0077,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=41; pages=38; blocks=4
+- `DRUG-015-tylosin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0059,SRC-0069,SRC-0071,SRC-0077,SRC-0088,SRC-0089,SRC-0090; facts=55; pages=52; blocks=3
+- `DRUG-016-tylvalosin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0071,SRC-0077; facts=0; pages=1; blocks=0
+- `DRUG-017-tulathromycin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0059,SRC-0070,SRC-0088; facts=1; pages=1; blocks=1
+- `DRUG-018-enrofloxacin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-ANNOUNCEMENT-1011-ENROFLOXACIN-2026,A0-MOA-ANNOUNCEMENT-1738-VET-DRUG-CANCELLATION-2012,A0-MOA-ANNOUNCEMENT-55-ENROFLOXACIN-2018,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-ENROFLOXACIN-SOLUTION-55-2018,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-VET-DRUG-SUPERVISION-2026,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,RULE-HANDBOOK-PRESCRIPTION-001,SRC-0012,SRC-0059,SRC-0063,SRC-0070,SRC-0075,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=29; pages=17; blocks=4
+- `DRUG-019-oxytetracycline.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-WITHDRAWAL-278,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0062,SRC-0065,SRC-0067,SRC-0069,SRC-0070,SRC-0075,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=58; pages=36; blocks=4
+- `DRUG-020-chlortetracycline.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0071,SRC-0077,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=30; pages=26; blocks=4
+- `DRUG-021-doxycycline.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0012,SRC-0067,SRC-0069,SRC-0070,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=41; pages=38; blocks=4
+- `DRUG-022-sulfonamide-trimethoprim.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0059,SRC-0063,SRC-0070,SRC-0074,SRC-0075,SRC-0088,SRC-0089,SRC-0090; facts=10; pages=6; blocks=3
+- `DRUG-023-gentamicin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0063,SRC-0075,SRC-0076,SRC-0087,SRC-0089,SRC-0090; facts=31; pages=29; blocks=3
+- `DRUG-024-neomycin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0063,SRC-0082,SRC-0088,SRC-0089,SRC-0090; facts=19; pages=19; blocks=3
+- `DRUG-025-apramycin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0063; facts=0; pages=1; blocks=0
+- `DRUG-026-spectinomycin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0077,SRC-0088,SRC-0089; facts=8; pages=7; blocks=2
+- `DRUG-027-toltrazuril.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-TOLTRAZURIL-SUSPENSION-216-2019,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0081,SRC-0088,SRC-0089,SRC-0090; facts=6; pages=4; blocks=3
+- `DRUG-028-iron-dextran.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0088; facts=6; pages=6; blocks=1
+- `DRUG-029-nsaids.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0066,SRC-0089,SRC-0090; facts=9; pages=10; blocks=2
+- `DRUG-030-tetracyclines.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-WITHDRAWAL-278,SRC-0012,SRC-0062,SRC-0065,SRC-0067,SRC-0069,SRC-0070,SRC-0075,SRC-0089,SRC-0090; facts=31; pages=32; blocks=2
+- `DRUG-031-macrolides.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0071,SRC-0077; facts=0; pages=1; blocks=0
+- `DRUG-032-pleuromutilins.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0069,SRC-0071,SRC-0077; facts=0; pages=1; blocks=0
+- `DRUG-033-aminoglycosides.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0063,SRC-0075,SRC-0076; facts=0; pages=1; blocks=0
+- `DRUG-034-sulfonamides.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-ANNOUNCEMENT-183-SULFADIAZINE-2019,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-MRL-GB31650-2019,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,SRC-0012,SRC-0059,SRC-0063,SRC-0070,SRC-0074,SRC-0075,SRC-0087,SRC-0089,SRC-0090; facts=78; pages=59; blocks=3
+- `DRUG-035-beta-lactams.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0065,SRC-0066,SRC-0069,SRC-0075; facts=0; pages=1; blocks=0
+- `DRUG-036-lincosamides.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-WITHDRAWAL-278,SRC-0012,SRC-0069,SRC-0077; facts=0; pages=1; blocks=0
+- `DRUG-037-sulfamethazine.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-MRL-GB31650-2019,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-038-trimethoprim-sulfadiazine.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-039-sulfadimethoxine.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-MRL-GB31650-2019,A0-MOA-WITHDRAWAL-278,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-040-trimethoprim-sulfamethoxazole.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-041-sulfadimidine-sulfathiazole-combinations.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-MRL-GB31650-2019,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-042-ampicillin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,SRC-0012,SRC-0089,SRC-0090; facts=21; pages=22; blocks=2
+- `DRUG-043-amoxicillin-clavulanic-acid.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-PRESCRIPTION-2471-2016,A0-MOA-WITHDRAWAL-278,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-044-cefquinome.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-ANNOUNCEMENT-661-CEFQUINOME-2006,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,A0-MOA-PRESCRIPTION-2471-2016,SRC-0012,SRC-0089,SRC-0090; facts=6; pages=7; blocks=2
+- `DRUG-045-tilmicosin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-ANNOUNCEMENT-70-TILMICOSIN-2018,A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-LABEL-INSTRUCTION-RULES-2002,SRC-0012,SRC-0089,SRC-0090; facts=21; pages=22; blocks=2
+- `DRUG-046-valnemulin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0089; facts=3; pages=4; blocks=1
+- `DRUG-047-chloramphenicol.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-ELIMINATED-DRUGS-839,A0-MOA-ILLEGAL-ADDITIVES-METHODS-2024,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-048-carbadox.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-CARBADOX-RESIDUE-2019,A0-MOA-ELIMINATED-DRUGS-839,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-049-olaquindox.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-CARBADOX-RESIDUE-2019,A0-MOA-ELIMINATED-DRUGS-839,A0-MOA-STOP-OLAQUINDOX-2638,SRC-0012,SRC-0089; facts=7; pages=8; blocks=1
+- `DRUG-050-dimetridazole-ronidazole.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-ELIMINATED-DRUGS-839,A0-MOA-ILLEGAL-ADDITIVES-METHODS-2024,SRC-0012,SRC-0089,SRC-0090; facts=5; pages=6; blocks=2
+- `DRUG-051-danofloxacin-marbofloxacin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-STOP-FLUOROQUINOLONES-2292,SRC-0012,SRC-0089,SRC-0090; facts=6; pages=9; blocks=2
+- `DRUG-052-colistin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0089,SRC-0090; facts=8; pages=14; blocks=2
+- `DRUG-053-bacitracin-methylene-disalicylate.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-054-virginiamycin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-055-moxidectin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-056-levamisole.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0087; facts=6; pages=1; blocks=1
+- `DRUG-057-piperazine-pyrantel.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-058-amitraz.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-059-phosmet-coumaphos.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-060-permethrin-deltamethrin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-061-ponazuril.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-062-amprolium.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-063-meloxicam.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0004,SRC-0012,SRC-0088; facts=6; pages=2; blocks=1
+- `DRUG-064-flunixin-meglumine.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0004,SRC-0012,SRC-0088; facts=3; pages=2; blocks=1
+- `DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0088; facts=7; pages=5; blocks=1
+- `DRUG-066-dexamethasone.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=53; pages=44; blocks=4
+- `DRUG-067-oxytocin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0088,SRC-0089,SRC-0090; facts=18; pages=18; blocks=3
+- `DRUG-068-altrenogest.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012,SRC-0088; facts=4; pages=2; blocks=1
+- `DRUG-069-triptorelin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-070-ractopamine.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-DRUG-RISK-MONITORING-2026,A0-MOA-ELIMINATED-DRUGS-839,SRC-0012; facts=0; pages=1; blocks=0
+- `DRUG-071-streptomycin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-MRL-GB31650-2019-RAW,SRC-0067,SRC-0068; facts=0; pages=1; blocks=0
+- `DRUG-072-tildipirosin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0060,SRC-0061; facts=0; pages=1; blocks=0
+- `DRUG-073-erythromycin.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,SRC-0067,SRC-0068,SRC-0074,SRC-0089,SRC-0090; facts=13; pages=14; blocks=2
+- `DRUG-074-amikacin.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A1-WOAH-SWINE-AMR-TRD-2025,SRC-0073; facts=0; pages=1; blocks=0
+- `DRUG-075-praziquantel.md`: partial_drug_evidence_page; evidence=NEEDS_REVIEW; sources=A1-WOAH-PORCINE-CYSTICERCOSIS,RC-DRUG-CLASS-001,RC-DRUG-GOLD-ROLE-001,RC-WITHDRAWAL-MRL-001,SRC-0082; facts=0; pages=1; blocks=0
+- `DRUG-076-dichlorvos.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-NOTICE,A0-MOA-ELIMINATED-DRUGS-839,SRC-0082,SRC-0087,SRC-0089,SRC-0090; facts=8; pages=3; blocks=3
+- `DRUG-077-azaperone.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0088; facts=6; pages=5; blocks=1
+- `DRUG-078-pentobarbital.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0088; facts=5; pages=3; blocks=1
+- `DRUG-079-atropine.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0089,SRC-0090; facts=1; pages=1; blocks=1
+- `DRUG-080-epinephrine.md`: source_anchored_drug_evidence_page; evidence=HUMAN_REVIEWED; sources=SRC-0090; facts=8; pages=8; blocks=1

@@ -1,0 +1,53 @@
+{
+  "timestamp": "20260507_121007",
+  "artifacts": {
+    "json": "results/swine_parallel_pilot/swine_parallel_pilot_20260507_121007.json",
+    "csv": "results/swine_parallel_pilot/swine_parallel_pilot_20260507_121007.csv",
+    "summary": "results/swine_parallel_pilot/swine_parallel_pilot_summary_20260507_121007.json"
+  },
+  "summary": {
+    "timestamp": "20260507_121008",
+    "sample_count": 12,
+    "score_avg": 82.0,
+    "score_min": 65.0,
+    "score_max": 88.0,
+    "pass_count": 9,
+    "review_count": 2,
+    "reject_count": 1,
+    "fatal_count": 1,
+    "specific_dose_count": 0,
+    "specific_withdrawal_count": 0,
+    "answer_anchor_avg": 2.33,
+    "elapsed_avg_seconds": 50.92,
+    "elapsed_p50_seconds": 50.35,
+    "elapsed_p90_seconds": 63.04,
+    "parallel": 6,
+    "wall_seconds": 121.19,
+    "throughput_cases_per_minute": 5.94
+  },
+  "fallback_events": [],
+  "error_categories": [],
+  "key_fingerprints_used_count": 19,
+  "key_fingerprints_used": [
+    "089989b20091",
+    "13cbb25a8cc3",
+    "1e8b06b345f7",
+    "232377ce6842",
+    "344c9291a027",
+    "408f1ccf2d63",
+    "4ae0cab1a311",
+    "50d7546f044f",
+    "6bb171346afa",
+    "75595635c32e",
+    "7b8b49842efc",
+    "8798281415b6",
+    "8a1384ec8046",
+    "8cb453872788",
+    "993313a8c81a",
+    "ca6a04186520",
+    "d242c7423361",
+    "d86bf62fd68d",
+    "fb3e9e31f56d"
+  ],
+  "api_key_recommendation": "no_new_keys_needed"
+}

@@ -1,0 +1,1480 @@
+{
+  "total_pages": 73,
+  "clinical_ready": 41,
+  "by_status": {
+    "NEEDS_REVIEW": 32,
+    "HUMAN_REVIEWED": 41
+  },
+  "disease_index_updated": false,
+  "pages": [
+    {
+      "file": "DIS-001-adenoviruses.md",
+      "disease_id": "DIS-001",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0030"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 4,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-002-african-swine-fever-virus.md",
+      "disease_id": "DIS-002",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-ASF-EMERGENCY-6TH",
+        "A0-MOA-ASF-LOW-VIRULENCE-2024",
+        "A0-MOA-ASF-NORMALIZED-GUIDE",
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A1-FAO-ASF",
+        "A1-USDA-APHIS-ASF",
+        "A1-WOAH-ASF",
+        "A1-WOAH-ASF-DISEASE",
+        "RC-ASF-001",
+        "RC-TRAIN-READY-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0028",
+        "SRC-0031",
+        "SRC-0035",
+        "SRC-0041"
+      ],
+      "fact_count": 20,
+      "page_anchor_count": 76,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "disease_id": "DIS-003",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "RC-ALIAS-001",
+        "RC-CITATION-001",
+        "RC-TRAIN-READY-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0032",
+        "SRC-0083"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 32,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-004-astroviruses.md",
+      "disease_id": "DIS-004",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "RC-ALIAS-001",
+        "RC-CITATION-001",
+        "RC-TRAIN-READY-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0032"
+      ],
+      "fact_count": 3,
+      "page_anchor_count": 23,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "disease_id": "DIS-005",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0033"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 15,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "disease_id": "DIS-006",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0034"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 13,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-007-circoviruses-pcvad.md",
+      "disease_id": "DIS-007",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "SRC-0001",
+        "SRC-0035",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 21,
+      "page_anchor_count": 25,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "disease_id": "DIS-008",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0037",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 30,
+      "page_anchor_count": 46,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-009-transmissible-gastroenteritis-virus.md",
+      "disease_id": "DIS-009",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 32,
+      "page_anchor_count": 45,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-010-porcine-deltacoronavirus.md",
+      "disease_id": "DIS-010",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-573",
+        "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0037"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "disease_id": "DIS-011",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0037",
+        "SRC-0088"
+      ],
+      "fact_count": 3,
+      "page_anchor_count": 11,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-012-porcine-respiratory-coronavirus.md",
+      "disease_id": "DIS-012",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0036"
+      ],
+      "fact_count": 2,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-013-porcine-torovirus.md",
+      "disease_id": "DIS-013",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0037"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "disease_id": "DIS-014",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0038"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 14,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-015-japanese-encephalitis-virus.md",
+      "disease_id": "DIS-015",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0039",
+        "SRC-0087",
+        "SRC-0089"
+      ],
+      "fact_count": 17,
+      "page_anchor_count": 29,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "disease_id": "DIS-016",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0039"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 13,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-017-hepatitis-e-virus.md",
+      "disease_id": "DIS-017",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0014",
+        "SRC-0040"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 17,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-018-pseudorabies-aujeszky-disease.md",
+      "disease_id": "DIS-018",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A2-MERCK-PSEUDORABIES-PIGS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0041",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 29,
+      "page_anchor_count": 43,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-019-porcine-cytomegalovirus.md",
+      "disease_id": "DIS-019",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0041"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "disease_id": "DIS-020",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0041"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-021-influenza-viruses.md",
+      "disease_id": "DIS-021",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-SWINE-FLU-EMERGENCY-2009",
+        "A2-MERCK-INFLUENZA-A-SWINE-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0009",
+        "SRC-0014",
+        "SRC-0042",
+        "SRC-0043",
+        "SRC-0049",
+        "SRC-0058",
+        "SRC-0069",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 28,
+      "page_anchor_count": 71,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-022-paramyxoviruses.md",
+      "disease_id": "DIS-022",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0044"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-023-parvoviruses.md",
+      "disease_id": "DIS-023",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "SRC-0001",
+        "SRC-0045",
+        "SRC-0089"
+      ],
+      "fact_count": 10,
+      "page_anchor_count": 15,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-024-classical-swine-fever-pestiviruses.md",
+      "disease_id": "DIS-024",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+        "A2-MERCK-CLASSICAL-SWINE-FEVER-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0046",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 60,
+      "page_anchor_count": 62,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "disease_id": "DIS-025",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0046"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "disease_id": "DIS-026",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-FMD-CONTROL-GUIDE-2024",
+        "A0-MOA-FMD-EMERGENCY-DRAFT-2026",
+        "A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024",
+        "A2-MERCK-FMD-ANIMALS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0047",
+        "SRC-0048",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 43,
+      "page_anchor_count": 47,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-027-senecavirus-a-picornaviruses.md",
+      "disease_id": "DIS-027",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0048"
+      ],
+      "fact_count": 2,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "disease_id": "DIS-028",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+        "A2-MERCK-PRRS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 33,
+      "page_anchor_count": 37,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-029-swinepox-virus.md",
+      "disease_id": "DIS-029",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0051"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-030-rotaviruses-and-reoviruses.md",
+      "disease_id": "DIS-030",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A2-MERCK-ROTAVIRAL-ENTERITIS-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 10,
+      "page_anchor_count": 16,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-031-retroviruses.md",
+      "disease_id": "DIS-031",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0053"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-032-rabies-virus.md",
+      "disease_id": "DIS-032",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0054"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 4,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-033-vesicular-stomatitis-viruses.md",
+      "disease_id": "DIS-033",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0054"
+      ],
+      "fact_count": 4,
+      "page_anchor_count": 13,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "disease_id": "DIS-034",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0055",
+        "SRC-0056"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "disease_id": "DIS-035",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "RULE-HANDBOOK-PRESCRIPTION-001",
+        "SRC-0058",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 47,
+      "page_anchor_count": 46,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "disease_id": "DIS-036",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0058"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "disease_id": "DIS-037",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0059",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0090"
+      ],
+      "fact_count": 25,
+      "page_anchor_count": 24,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-038-brucella-suis-brucellosis.md",
+      "disease_id": "DIS-038",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "A0-MOA-BRUCELLOSIS-2022-2026",
+        "A0-MOA-BRUCELLOSIS-KEY-POINTS-2023",
+        "A1-USDA-APHIS-SWINE-BRUCELLOSIS",
+        "RC-CITATION-001",
+        "RC-TRAIN-READY-001",
+        "SRC-0001",
+        "SRC-0060",
+        "SRC-0061"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 4,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-039-clostridial-diseases.md",
+      "disease_id": "DIS-039",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0062",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 22,
+      "page_anchor_count": 28,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-040-colibacillosis.md",
+      "disease_id": "DIS-040",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "A2-MERCK-ENTERIC-COLIBACILLOSIS-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "RULE-HANDBOOK-PRESCRIPTION-001",
+        "SRC-0001",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0090"
+      ],
+      "fact_count": 48,
+      "page_anchor_count": 51,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "disease_id": "DIS-041",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 36,
+      "page_anchor_count": 33,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-042-edema-disease-e-coli.md",
+      "disease_id": "DIS-042",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A2-MERCK-EDEMA-DISEASE-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0087",
+        "SRC-0089"
+      ],
+      "fact_count": 14,
+      "page_anchor_count": 12,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-043-erysipelas.md",
+      "disease_id": "DIS-043",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0065",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 24,
+      "page_anchor_count": 18,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-044-gl-sser-s-disease.md",
+      "disease_id": "DIS-044",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0066",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 42,
+      "page_anchor_count": 41,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-045-leptospirosis.md",
+      "disease_id": "DIS-045",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0067",
+        "SRC-0068",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 18,
+      "page_anchor_count": 24,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "disease_id": "DIS-046",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "A2-MERCK-MYCOPLASMAL-PNEUMONIA-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "RULE-HANDBOOK-PRESCRIPTION-001",
+        "SRC-0001",
+        "SRC-0069",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 63,
+      "page_anchor_count": 61,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-047-pasteurellosis.md",
+      "disease_id": "DIS-047",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0070",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 28,
+      "page_anchor_count": 25,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "disease_id": "DIS-048",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 34,
+      "page_anchor_count": 34,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-049-salmonellosis.md",
+      "disease_id": "DIS-049",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A2-MERCK-SALMONELLOSIS-ANIMALS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0073",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 37,
+      "page_anchor_count": 43,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "disease_id": "DIS-050",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0074",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 19,
+      "page_anchor_count": 20,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-051-streptococcosis-streptococcus-suis.md",
+      "disease_id": "DIS-051",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-STREP-SUIS-CONTROL-2005",
+        "SRC-0001",
+        "SRC-0075",
+        "SRC-0076",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 33,
+      "page_anchor_count": 29,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "disease_id": "DIS-052",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0077",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 61,
+      "page_anchor_count": 58,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-053-tuberculosis.md",
+      "disease_id": "DIS-053",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0078"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 2,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-054-miscellaneous-bacterial-infections.md",
+      "disease_id": "DIS-054",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0079"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-055-external-parasites-mange.md",
+      "disease_id": "DIS-055",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A2-MERCK-MANGE-PIGS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0020",
+        "SRC-0080",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 27,
+      "page_anchor_count": 51,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-056-external-parasites-lice.md",
+      "disease_id": "DIS-056",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0080",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 13,
+      "page_anchor_count": 7,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-057-coccidia-and-other-protozoa.md",
+      "disease_id": "DIS-057",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A2-MERCK-COCCIDIOSIS-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0081",
+        "SRC-0090"
+      ],
+      "fact_count": 11,
+      "page_anchor_count": 30,
+      "batch_blocks": [
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-058-toxoplasmosis-protozoa.md",
+      "disease_id": "DIS-058",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0014",
+        "SRC-0081",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 17,
+      "page_anchor_count": 33,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-059-cryptosporidiosis-protozoa.md",
+      "disease_id": "DIS-059",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0081"
+      ],
+      "fact_count": 2,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-060-ascaris-suum-internal-parasites.md",
+      "disease_id": "DIS-060",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0082",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 15,
+      "page_anchor_count": 8,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-061-trichuris-suis-internal-parasites.md",
+      "disease_id": "DIS-061",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0082",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "fact_count": 9,
+      "page_anchor_count": 8,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-062-strongyloides-internal-parasites.md",
+      "disease_id": "DIS-062",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0082"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-063-metastrongylus-lungworms.md",
+      "disease_id": "DIS-063",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0082"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "disease_id": "DIS-064",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0082"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-065-nutrient-deficiencies-and-excesses.md",
+      "disease_id": "DIS-065",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0084"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "disease_id": "DIS-066",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0085"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-067-aflatoxin-toxicosis.md",
+      "disease_id": "DIS-067",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0085"
+      ],
+      "fact_count": 4,
+      "page_anchor_count": 4,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-068-don-trichothecene-toxicosis.md",
+      "disease_id": "DIS-068",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0085"
+      ],
+      "fact_count": 4,
+      "page_anchor_count": 5,
+      "batch_blocks": [],
+      "clinical_ready": true
+    },
+    {
+      "file": "DIS-069-zearalenone-toxicosis.md",
+      "disease_id": "DIS-069",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0085"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 5,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-070-fumonisin-toxicosis.md",
+      "disease_id": "DIS-070",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0085"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 5,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "disease_id": "DIS-071",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0086"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 7,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-072-nitrite-toxicosis.md",
+      "disease_id": "DIS-072",
+      "status": "NEEDS_REVIEW",
+      "coverage": "partial_source_anchored_page",
+      "sources": [
+        "SRC-0001",
+        "SRC-0086"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 5,
+      "batch_blocks": [],
+      "clinical_ready": false
+    },
+    {
+      "file": "DIS-073-toxic-gases-ventilation-failure.md",
+      "disease_id": "DIS-073",
+      "status": "HUMAN_REVIEWED",
+      "coverage": "source_anchored_clinical_page",
+      "sources": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0086"
+      ],
+      "fact_count": 7,
+      "page_anchor_count": 9,
+      "batch_blocks": [],
+      "clinical_ready": true
+    }
+  ]
+}

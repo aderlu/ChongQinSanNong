@@ -1,0 +1,9 @@
+URL: https://www.moa.gov.cn/govpublic/xmsyj/202008/t20200810_6350130.htm
+TITLE: 农业农村部办公厅关于印发《非洲猪瘟常态化防控技术指南（试行版）》的通知
+SEARCH_TERMS_USED: 非洲猪瘟通知, 非洲猪瘟公告, 非洲猪瘟技术指南, 非洲猪瘟通报, 非洲猪瘟实施方案
+MATCHED: 非洲猪瘟 + 通知, 非洲猪瘟 + 技术指南
+DISCOVERED_FROM: suffix_search_seed
+DISCOVERY_METHOD: specified_suffix_search_seed
+ANCHOR_TEXT: 
+
+各省、自治区、直辖市农业农村(农牧、畜牧兽医)厅(局、委),新疆生产建设兵团农业农村局,部属有关事业单位:

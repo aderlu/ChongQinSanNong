@@ -1,0 +1,76 @@
+# MOA ASF suffix-focused crawl report
+
+- Date: 2026-05-07
+- Required search terms: 非洲猪瘟通知, 非洲猪瘟公告, 非洲猪瘟技术指南, 非洲猪瘟通报, 非洲猪瘟实施方案
+- Search rule: disease name was always paired with one of ??/??/????/??/????.
+- Save rule: official page/document must contain ???? and at least one requested suffix; titles may separate terms, e.g. ?????????...????????.
+- web-access status: installed at `C:\Users\admin\.codex\skills\web-access`; CDP mode was unavailable in this session because Chrome remote debugging was not connected and Node.js was v18, so this pull used the skill-allowed static official-page/download workflow.
+- Candidate URLs evaluated: 64
+- Matching pages/direct documents saved: 63
+- Downloaded attachments/direct documents: 46
+
+## Saved official items
+
+- 农业农村部办公厅 市场监督管理总局办公厅 关于做好非洲猪瘟病毒检测结果通报和发布的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201905/t20190516_6305477.htm
+- 农业农村部办公厅关于加强国家非洲猪瘟相关实验室管理的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201904/t20190428_6212985.htm
+- 农业农村部办公厅关于加强养殖环节非洲猪瘟疫情排查工作的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201904/t20190418_6190075.htm
+- 农业农村部关于加强屠宰环节非洲猪瘟检测工作的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201903/t20190319_6176857.htm
+- 农业农村部办公厅关于加强非洲猪瘟病毒相关实验活动生物安全监管工作的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201902/t20190218_6172054.htm
+- 农业农村部畜牧兽医局有关负责人就《非洲猪瘟疫情应急实施方案（2019版）》答记者问 | http://www.moa.gov.cn/xw/zwdt/201902/t20190202_6171163.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（2019年版）》的通知 | http://www.moa.gov.cn/govpublic/SYJ/201901/t20190129_6170838.htm
+- 农业农村部办公厅关于进一步加强非洲猪瘟综合防控技术科研攻关的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201901/t20190125_6170764.htm
+- 农业农村部办公厅关于近期两起规模养殖企业非洲猪瘟疫情调查情况的通报 | http://www.moa.gov.cn/govpublic/SYJ/201901/t20190118_6170359.htm
+- 农业农村部畜牧兽医局关于国家非洲猪瘟参考实验室候选实验室基本情况公示的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201901/t20190115_6166664.htm
+- 农业农村部办公厅关于非洲猪瘟病毒检测试剂盒有关事宜的通知 | http://www.moa.gov.cn/govpublic/SYJ/201901/t20190103_6166048.htm
+- 农业农村部畜牧兽医局关于组织申报国家非洲猪瘟参考实验室的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201901/t20190103_6166038.htm
+- 农业农村部办公厅关于进一步做好非洲猪瘟实验室检测工作的通知 | http://www.moa.gov.cn/gk/tzgg_1/tfw/201812/t20181218_6165085.htm
+- 农业农村部办公厅关于非洲猪瘟疫情防控中违法违规典型案例的通报 | https://www.moa.gov.cn/ztzl/fzzwfk/gzdt/201811/t20181128_6163913.htm
+- 农业农村部关于印发《非洲猪瘟疫情防控八条禁令》的通知 | http://www.moa.gov.cn/govpublic/SYJ/201811/t20181121_6163388.htm
+- 农业农村部办公厅关于非洲猪瘟疫情防控中违法违纪典型案例的通报 | http://www.moa.gov.cn/govpublic/SYJ/201809/t20180929_6159661.htm
+- P020190624400227144397.pdf | https://www.moa.gov.cn/ztzl/fzzwfk/gzjl/201906/P020190624400227144397.pdf
+- 国家邮政局发出通知要求进一步做好寄递渠道非洲猪瘟疫情防控工作 | https://www.moa.gov.cn/ztzl/fzzwfk/gzjl/201811/t20181107_6162513.htm
+- 农业农村部办公厅 市场监督管理总局办公厅 关于做好非洲猪瘟病毒检测结果通报和发布的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201905/t20190516_6305478.htm
+- 农业农村部办公厅关于加强国家非洲猪瘟相关实验室管理的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201904/t20190428_6212986.htm
+- 农业农村部办公厅关于加强养殖环节非洲猪瘟疫情排查工作的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201904/t20190428_6212987.htm
+- 农业农村部关于加强屠宰环节非洲猪瘟检测工作的通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201903/t20190319_6176858.htm
+- 农业农村部办公厅关于做好非洲猪瘟实验室检测工作的通知 | http://www.moa.gov.cn/gk/tzgg_1/tfw/201810/t20181026_6161573.htm
+- 农业农村部办公厅关于加强规模化猪场和种猪场非洲猪瘟防控工作的通知（农办牧〔2018〕第52号） | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201810/t20181022_6161262.htm
+- 海关总署 农业农村部公告2018年第133号（关于防止摩尔多瓦非洲猪瘟传入我国的公告） | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201810/t20181018_6161041.htm
+- 海关总署 农业农村部公告2018年第126号（关于防止保加利亚非洲猪瘟传入我国的公告） | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201810/t20181010_6160472.htm
+- 海关总署 农业农村部公告2018年第124号（关于防止比利时非洲猪瘟传入我国的公告） | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201810/t20181010_6160470.htm
+- 农业农村部办公厅关于做好非洲猪瘟防治工作的紧急通知 | https://www.moa.gov.cn/ztzl/fzzwfk/zcfg/201809/t20180928_6159502.htm
+- 农业农村部办公厅关于防治非洲猪瘟加强生猪移动监管的通知 | https://www.moa.gov.cn/govpublic/SYJ/201808/t20180810_6155550.htm
+- 农业部办公厅关于进一步加强非洲猪瘟风险防范工作的紧急通知 | https://www.moa.gov.cn/govpublic/SYJ/201704/t20170412_5557878.htm
+- 农业部关于印发《非洲猪瘟防治技术规范（试行）》的通知 | https://www.moa.gov.cn/govpublic/SYJ/201511/t20151125_4914796.htm
+- 感染非洲猪瘟养殖场恢复生产技术指南 | https://www.moa.gov.cn/ztzl/fzzwfk/fkzs/201909/t20190910_6327657.htm
+- 农业农村部畜牧兽医局有关负责人就《非洲猪瘟疫情应急实施方案（2019版）》答记者问 | https://www.moa.gov.cn/ztzl/fzzwfk/fkzs/201902/t20190226_6172830.htm
+- 非洲猪瘟防控远程培训讲义-典型案例通报解读 | https://www.moa.gov.cn/ztzl/fzzwfk/fkzs/201901/t20190110_6166424.htm
+- 视频信息 | https://www.moa.gov.cn/ztzl/fzzwfk/spxx/201812/t20181218_6165076.htm
+- 非洲猪瘟防控远程培训讲义-典型案例通报解读 | https://www.moa.gov.cn/ztzl/fzzwfk/rdgz/201901/t20190110_6166426.htm
+- 农业农村部畜牧兽医局关于暂停一批非洲猪瘟无疫小区资格的通知 | https://www.moa.gov.cn/xw/bmdt/202302/t20230228_6421704.htm
+- 农业农村部畜牧兽医局关于暂停一批非洲猪瘟无疫小区资格的通知 | https://xmsyj.moa.gov.cn/gzdt/202302/t20230228_6421704.htm
+- 农业农村部办公厅关于进一步严厉打击非洲猪瘟假疫苗有关违法行为的通知 | https://www.moa.gov.cn/nybgb/2021/202103/202110/t20211019_6379752.htm
+- 农业农村部办公厅关于印发《非洲猪瘟常态化防控技术指南（试行版）》的通知 | https://www.moa.gov.cn/nybgb/2020/202009/202011/t20201124_6356917.htm
+- 农业农村部办公厅关于印发《非洲猪瘟常态化防控技术指南（试行版）》的通知 | https://www.moa.gov.cn/govpublic/xmsyj/202008/t20200810_6350130.htm
+- 进一步强化非洲猪瘟防控措施落实——农业农村部畜牧兽医局负责人就落实《国务院办公厅关于做好非洲猪瘟等动物疫病防控工作的通知》要求答记者问 | https://www.moa.gov.cn/xw/zwdt/201808/t20180831_6156671.htm
+- 农业农村部办公厅关于进一步严厉打击违法研制生产经营使用非洲猪瘟疫苗行为的通知 | https://xmsyj.moa.gov.cn/gzdt/202008/t20200825_6350896.htm
+- 养猪场非洲猪瘟变异株监测技术指南 | https://www.moa.gov.cn/govpublic/xmsyj/202103/t20210322_6364254.htm
+- 养殖场非洲猪瘟病毒弱毒株防控技术指南 | https://xmsyj.moa.gov.cn/zcjd/202401/t20240109_6445226.htm
+- 农业农村部办公厅关于防治非洲猪瘟加强生猪移动监管的通知 | https://www.moa.gov.cn/gk/tzgg_1/tfw/201808/t20180810_6155550.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（第六版）》的通知 | https://www.moa.gov.cn/nybgb/2025/202502/202502/t20250218_6470101.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（第五版）》的通知 | https://www.moa.gov.cn/nybgb/2021/202105/202110/t20211021_6380183.htm
+- 农业农村部关于印发《非洲猪瘟等重大动物疫病分区防控工作方案（试行）》的通知 | https://www.moa.gov.cn/nybgb/2021/202105/202110/t20211021_6380177.htm
+- 农业农村部办公厅关于进一步严厉打击非洲猪瘟假疫苗有关违法行为的通知 | https://xmsyj.moa.gov.cn/gzdt/202103/t20210308_6363156.htm
+- 农业农村部办公厅 市场监督管理总局办公厅 关于做好非洲猪瘟病毒检测结果通报和发布的通知 | https://xmsyj.moa.gov.cn/zcjd/201905/t20190522_6313958.htm
+- 农业农村部办公厅关于非洲猪瘟病毒诊断制品生产经营使用有关事宜的通知 | https://xmsyj.moa.gov.cn/gzdt/202008/t20200828_6351128.htm
+- 农业农村部关于开展落实生猪屠宰环节非洲猪瘟自检和 官方兽医派驻制度百日行动的通知 | https://xmsyj.moa.gov.cn/jcyj/201904/t20190425_6314040.htm
+- 农业农村部办公厅关于部分生猪屠宰企业非洲猪瘟自检飞行检查情况的通报 | https://xmsyj.moa.gov.cn/gzdt/202001/t20200122_6336451.htm
+- 非洲猪瘟疫情有奖举报暂行办法 | https://fgs.moa.gov.cn/flfg/202002/t20200217_6337170.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（2019年版）》的通知 | https://fgs.moa.gov.cn/flfg/202002/t20200217_6337163.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（2020年版）》的通知 | https://www.moa.gov.cn/nybgb/2020/202004/202005/t20200507_6343244.htm
+- 农业农村部关于印发《非洲猪瘟疫情应急实施方案（2020年版）》的通知 | https://fgs.moa.gov.cn/flfg/202002/t20200229_6337974.htm
+- P020250224338524265883.pdf | https://www.moa.gov.cn/nybgb/2025/202502/202502/P020250224338524265883.pdf
+- P020200608629549214373.pdf | https://www.moa.gov.cn/nybgb/2020/202005/202006/P020200608629549214373.pdf
+- P020201130639635157980.pdf | https://www.moa.gov.cn/nybgb/2020/202009/202011/P020201130639635157980.pdf
+- P020211101350712832070.pdf | https://www.moa.gov.cn/nybgb/2021/202105/202111/P020211101350712832070.pdf
+- P020211103314584494255.pdf | https://www.moa.gov.cn/nybgb/2021/202103/202111/P020211103314584494255.pdf

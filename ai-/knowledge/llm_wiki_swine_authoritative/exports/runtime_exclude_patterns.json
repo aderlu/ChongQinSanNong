@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-14T00:21:22+08:00",
+  "purpose": "Default denylist for production/evaluation retrieval. The runtime manifest is the allowlist.",
+  "exclude_patterns": [
+    "raw/**",
+    "issues/**",
+    "wiki/sessions/**",
+    "wiki/exports/**",
+    "wiki/knowledge-graph.html",
+    "wiki/graph-data.json",
+    "wiki/knowledge-graph.md",
+    "wiki/evidence_expansions/**",
+    "wiki/phase*/**",
+    "wiki/synthesis/*treatment_matrix.md",
+    "wiki/synthesis/*prescription_matrix.md",
+    "wiki/synthesis/sessions/**",
+    "exports/*.p0_backup_*"
+  ],
+  "notes": [
+    "Raw files and issue notes remain available for audit or reprocessing, not default runtime retrieval.",
+    "Large treatment/prescription matrices should be loaded only by explicit evidence-expansion workflows.",
+    "Runtime callers should prefer runtime_core_manifest.json as the positive allowlist."
+  ]
+}

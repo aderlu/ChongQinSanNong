@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-14T09:40:33+08:00",
+  "phase": "phase16_export_layered_training_sets",
+  "input_samples": 10,
+  "accepted": 0,
+  "review": 0,
+  "rejected": 10,
+  "accept_reject_counts": {
+    "accepted": 0,
+    "rejected": 10
+  },
+  "accept_review_reject_counts": {
+    "accepted": 0,
+    "review": 0,
+    "rejected": 10
+  },
+  "phase15_decision_counts": {
+    "accepted": 8,
+    "rejected": 2
+  },
+  "phase18_semantic_decision_counts": {
+    "rejected": 10
+  },
+  "phase18_judge_status_counts": {
+    "rejected": 10
+  },
+  "phase18_judge_a_status_counts": {
+    "rejected": 8
+  },
+  "phase18_judge_b_status_counts": {
+    "rejected": 8
+  },
+  "phase18_arbiter_status_counts": {
+    "rejected": 3
+  },
+  "decision_counts": {
+    "rejected": 10
+  },
+  "layer_counts": {
+    "L1_retrieval_grounded": 0,
+    "L2_diagnosis_support": 0,
+    "L3_differential_support": 0,
+    "L4_control_boundary": 0,
+    "L5_drug_boundary_negative": 0,
+    "L6_regulatory_guardrail": 1,
+    "L7_judge_calibration": 10,
+    "L1_L4_high_value": 0,
+    "L1_L4_borderline": 0,
+    "boundary_refusal_train": 0,
+    "format_repair_queue": 1,
+    "review_queue": 0,
+    "rejected_queue": 10,
+    "sft_l1_retrieval_grounded.jsonl": 0,
+    "sft_l2_diagnosis_support.jsonl": 0,
+    "sft_l3_differential_support.jsonl": 0,
+    "sft_l4_control_boundary.jsonl": 0,
+    "sft_l5_drug_boundary_negative.jsonl": 0,
+    "eval_l6_regulatory_guardrail.jsonl": 1,
+    "eval_l7_judge_calibration.jsonl": 10,
+    "sft_l1_l4_high_value.jsonl": 0,
+    "sft_l1_l4_borderline.jsonl": 0,
+    "sft_boundary_refusal_train.jsonl": 0,
+    "training_set_format_repair_queue.jsonl": 1,
+    "training_set_review_queue.jsonl": 0,
+    "training_set_rejected_queue.jsonl": 10
+  },
+  "files": {
+    "L1_retrieval_grounded": "exports/training_sets/sft_l1_retrieval_grounded.jsonl",
+    "L2_diagnosis_support": "exports/training_sets/sft_l2_diagnosis_support.jsonl",
+    "L3_differential_support": "exports/training_sets/sft_l3_differential_support.jsonl",
+    "L4_control_boundary": "exports/training_sets/sft_l4_control_boundary.jsonl",
+    "L5_drug_boundary_negative": "exports/training_sets/sft_l5_drug_boundary_negative.jsonl",
+    "L6_regulatory_guardrail": "exports/training_sets/eval_l6_regulatory_guardrail.jsonl",
+    "L7_judge_calibration": "exports/training_sets/eval_l7_judge_calibration.jsonl",
+    "L1_L4_high_value": "exports/training_sets/sft_l1_l4_high_value.jsonl",
+    "L1_L4_borderline": "exports/training_sets/sft_l1_l4_borderline.jsonl",
+    "boundary_refusal_train": "exports/training_sets/sft_boundary_refusal_train.jsonl",
+    "format_repair_queue": "exports/training_sets/training_set_format_repair_queue.jsonl",
+    "review_queue": "exports/training_sets/training_set_review_queue.jsonl",
+    "rejected_queue": "exports/training_sets/training_set_rejected_queue.jsonl",
+    "production_csv": "exports/training_sets/swine_wiki_training_dataset_production_20260514_realflow_audit10_v2score.csv",
+    "production_train_ready_csv": "exports/training_sets/swine_wiki_training_dataset_production_train_ready_20260514_realflow_audit10_v2score.csv",
+    "training_main_csv": "exports/training_sets/swine_wiki_training_main_20260514_realflow_audit10_v2score.csv",
+    "training_main_train_ready_csv": "exports/training_sets/swine_wiki_training_main_train_ready_20260514_realflow_audit10_v2score.csv"
+  },
+  "input_files": {
+    "evaluated": "exports/evaluated_samples/fact_evaluated_samples_20260514_realflow_audit10.jsonl",
+    "generated": "exports/generated_samples/naturalized_samples_20260514_realflow_audit10.jsonl",
+    "phase18": "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260514_realflow_audit10_v2score.jsonl"
+  },
+  "input_file_hashes": {
+    "evaluated_sha256": "a68457f17a9e588c1c466d6bcd30755fd2253423acf77ebc2864a60ddc9f8999",
+    "generated_sha256": "8057a37faaab6c10c61a4b70079249bfd5054737dbe6ce7cafc18f1c5738ba39",
+    "phase18_sha256": "62478c71abc2011e26368d65177bb27805a437d548f40b18e509518e003f524b"
+  },
+  "phase18": {
+    "source_mode": "external_file",
+    "semantic_decision_counts": {
+      "rejected": 10
+    },
+    "judge_status_counts": {
+      "rejected": 10
+    },
+    "judge_a_status_counts": {
+      "rejected": 8
+    },
+    "judge_b_status_counts": {
+      "rejected": 8
+    },
+    "arbiter_status_counts": {
+      "rejected": 3
+    }
+  },
+  "empty_layer_reasons": {
+    "L1_retrieval_grounded": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L2_diagnosis_support": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L3_differential_support": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L4_control_boundary": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L5_drug_boundary_negative": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L1_L4_high_value": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L1_L4_borderline": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "boundary_refusal_train": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "review_queue": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch."
+  },
+  "manifest": "exports/training_sets/training_set_manifest_20260514_realflow_audit10_v2score.json",
+  "passed": true
+}

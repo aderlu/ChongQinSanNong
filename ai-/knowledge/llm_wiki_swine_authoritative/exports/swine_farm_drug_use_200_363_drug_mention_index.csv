@@ -1,0 +1,358 @@
+﻿drug_mention,fact_id,source_id,page,line_start,line_end,drug_page,disease_page,chapter,heading
+卡那霉素,SFDUT2-TX-0003,SRC-0090,192,41,41,,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+土霉素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-019-oxytetracycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+金霉素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-020-chlortetracycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+四环素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-030-tetracyclines.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+强力霉素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-021-doxycycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰乐菌素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+替米考星,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-045-tilmicosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+林可霉素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-014-lincomycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰妙菌素,SFDUT2-TX-0003,SRC-0090,192,41,41,DRUG-013-tiamulin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+恩诺沙星,SFDUT2-TX-0005,SRC-0090,192,45,45,DRUG-018-enrofloxacin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+林可霉素,SFDUT2-TX-0006,SRC-0090,192,46,46,DRUG-014-lincomycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰妙菌素,SFDUT2-TX-0007,SRC-0090,192,47,47,DRUG-013-tiamulin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰乐菌素,SFDUT2-TX-0008,SRC-0090,192,48,48,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+土霉素,SFDUT2-TX-0009,SRC-0090,192,49,49,DRUG-019-oxytetracycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+卡那霉素,SFDUT2-TX-0010,SRC-0090,193,50,50,,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+多西环素,SFDUT2-TX-0013,SRC-0090,193,60,60,DRUG-021-doxycycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰妙菌素,SFDUT2-TX-0013,SRC-0090,193,60,60,DRUG-013-tiamulin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+金霉素,SFDUT2-TX-0014,SRC-0090,193,61,61,DRUG-020-chlortetracycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰乐菌素,SFDUT2-TX-0014,SRC-0090,193,61,61,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+替米考星,SFDUT2-TX-0015,SRC-0090,193,62,62,DRUG-045-tilmicosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+泰乐菌素,SFDUT2-TX-0016,SRC-0090,194,63,63,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+青霉素,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-009-penicillin-g.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+氨苄西林,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-042-ampicillin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+阿莫西林,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-010-amoxicillin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+链霉素,SFDUT2-TX-0017,SRC-0090,194,65,65,,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+红霉素,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-073-erythromycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+黏菌素,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-052-colistin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+多黏菌素,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-052-colistin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+磺胺,SFDUT2-TX-0017,SRC-0090,194,65,65,DRUG-034-sulfonamides.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,7. 治疗
+土霉素,SFDUT2-TX-0031,SRC-0090,195,95,95,DRUG-019-oxytetracycline.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,9. 种猪场猪气喘病预防与净化
+泰乐菌素,SFDUT2-TX-0031,SRC-0090,195,95,95,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,9. 种猪场猪气喘病预防与净化
+泰妙菌素,SFDUT2-TX-0031,SRC-0090,195,95,95,DRUG-013-tiamulin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第八章 猪细菌性传染病,9. 种猪场猪气喘病预防与净化
+氨苄西林,SFDUT2-TX-0036,SRC-0090,199,137,137,DRUG-042-ampicillin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,3. 临床症状
+阿莫西林,SFDUT2-TX-0036,SRC-0090,199,137,137,DRUG-010-amoxicillin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,3. 临床症状
+磺胺,SFDUT2-TX-0036,SRC-0090,199,137,137,DRUG-034-sulfonamides.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,3. 临床症状
+葡萄糖,SFDUT2-TX-0042,SRC-0090,201,168,168,,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+地塞米松,SFDUT2-TX-0043,SRC-0090,201,169,169,DRUG-066-dexamethasone.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+维生素,SFDUT2-TX-0043,SRC-0090,201,169,169,,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+头孢噻呋,SFDUT2-TX-0044,SRC-0090,201,170,170,DRUG-011-ceftiofur.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+庆大霉素,SFDUT2-TX-0045,SRC-0090,201,171,171,DRUG-023-gentamicin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+氧氟沙星,SFDUT2-TX-0045,SRC-0090,201,171,171,,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+达氟沙星,SFDUT2-TX-0045,SRC-0090,201,171,171,DRUG-051-danofloxacin-marbofloxacin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+青霉素,SFDUT2-TX-0046,SRC-0090,201,172,172,DRUG-009-penicillin-g.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+氨苄西林,SFDUT2-TX-0046,SRC-0090,201,172,172,DRUG-042-ampicillin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+阿莫西林,SFDUT2-TX-0046,SRC-0090,201,172,172,DRUG-010-amoxicillin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+舒巴坦,SFDUT2-TX-0046,SRC-0090,201,172,172,,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+氟苯尼考,SFDUT2-TX-0048,SRC-0090,201,175,175,DRUG-012-florfenicol.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+磺胺,SFDUT2-TX-0049,SRC-0090,201,176,176,DRUG-034-sulfonamides.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,6. 治疗
+阿莫西林,SFDUT2-TX-0054,SRC-0090,202,191,191,DRUG-010-amoxicillin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,7. 综合防控措施
+强力霉素,SFDUT2-TX-0054,SRC-0090,202,191,191,DRUG-021-doxycycline.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,7. 综合防控措施
+替米考星,SFDUT2-TX-0055,SRC-0090,202,196,196,DRUG-045-tilmicosin.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,7. 综合防控措施
+氟苯尼考,SFDUT2-TX-0055,SRC-0090,202,196,196,DRUG-012-florfenicol.md,DIS-044-gl-sser-s-disease.md,第八章 猪细菌性传染病,7. 综合防控措施
+青霉素,SFDUT2-TX-0066,SRC-0090,209,287,287,DRUG-009-penicillin-g.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+磺胺,SFDUT2-TX-0066,SRC-0090,209,287,287,DRUG-034-sulfonamides.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+地塞米松,SFDUT2-TX-0067,SRC-0090,209,290,290,DRUG-066-dexamethasone.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+安乃近,SFDUT2-TX-0068,SRC-0090,209,292,292,DRUG-029-nsaids.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+青霉素,SFDUT2-TX-0070,SRC-0090,210,298,298,DRUG-009-penicillin-g.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+氨苄西林,SFDUT2-TX-0070,SRC-0090,210,298,298,DRUG-042-ampicillin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+阿莫西林,SFDUT2-TX-0070,SRC-0090,210,298,298,DRUG-010-amoxicillin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+卡那霉素,SFDUT2-TX-0070,SRC-0090,210,298,298,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+庆大霉素,SFDUT2-TX-0070,SRC-0090,210,298,298,DRUG-023-gentamicin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+阿米卡星,SFDUT2-TX-0070,SRC-0090,210,298,298,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+头孢噻呋,SFDUT2-TX-0071,SRC-0090,210,299,299,DRUG-011-ceftiofur.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+氟苯尼考,SFDUT2-TX-0072,SRC-0090,210,300,300,DRUG-012-florfenicol.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+氧氟沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+环丙沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+恩诺沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,DRUG-018-enrofloxacin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+沙拉沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+达氟沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,DRUG-051-danofloxacin-marbofloxacin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+二氟沙星,SFDUT2-TX-0073,SRC-0090,210,301,301,DRUG-051-danofloxacin-marbofloxacin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+地塞米松,SFDUT2-TX-0074,SRC-0090,210,303,303,DRUG-066-dexamethasone.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+链霉素,SFDUT2-TX-0075,SRC-0090,210,309,309,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+卡那霉素,SFDUT2-TX-0075,SRC-0090,210,309,309,,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+四环素,SFDUT2-TX-0075,SRC-0090,210,309,309,DRUG-030-tetracyclines.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+林可霉素,SFDUT2-TX-0075,SRC-0090,210,309,309,DRUG-014-lincomycin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,（1）治疗原则
+阿莫西林,SFDUT2-TX-0077,SRC-0090,210,316,316,DRUG-010-amoxicillin.md,DIS-051-streptococcosis-streptococcus-suis.md,第八章 猪细菌性传染病,8. 防制
+阿莫西林,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-010-amoxicillin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+头孢噻呋,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-011-ceftiofur.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+庆大霉素,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-023-gentamicin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+强力霉素,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-021-doxycycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+氟苯尼考,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-012-florfenicol.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-013-tiamulin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+磺胺,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-034-sulfonamides.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+恩诺沙星,SFDUT2-TX-0084,SRC-0090,216,379,379,DRUG-018-enrofloxacin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+头孢噻呋,SFDUT2-TX-0085,SRC-0090,216,380,380,DRUG-011-ceftiofur.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+氟苯尼考,SFDUT2-TX-0086,SRC-0090,216,381,381,DRUG-012-florfenicol.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+多西环素,SFDUT2-TX-0087,SRC-0090,216,382,382,DRUG-021-doxycycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+强力霉素,SFDUT2-TX-0087,SRC-0090,216,382,382,DRUG-021-doxycycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+阿莫西林,SFDUT2-TX-0088,SRC-0090,216,383,383,DRUG-010-amoxicillin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+克拉维酸,SFDUT2-TX-0088,SRC-0090,216,383,383,,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+庆大霉素,SFDUT2-TX-0088,SRC-0090,216,383,383,DRUG-023-gentamicin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+恩诺沙星,SFDUT2-TX-0089,SRC-0090,216,384,384,DRUG-018-enrofloxacin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+替米考星,SFDUT2-TX-0090,SRC-0090,216,388,388,DRUG-045-tilmicosin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+氨苄西林,SFDUT2-TX-0091,SRC-0090,217,390,390,DRUG-042-ampicillin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+链霉素,SFDUT2-TX-0091,SRC-0090,217,390,390,,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+四环素,SFDUT2-TX-0091,SRC-0090,217,390,390,DRUG-030-tetracyclines.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+安乃近,SFDUT2-TX-0091,SRC-0090,217,390,390,DRUG-029-nsaids.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+地塞米松,SFDUT2-TX-0091,SRC-0090,217,390,390,DRUG-066-dexamethasone.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+安钠咖,SFDUT2-TX-0091,SRC-0090,217,390,390,,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+氟苯尼考,SFDUT2-TX-0093,SRC-0090,217,394,394,DRUG-012-florfenicol.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+头孢噻呋,SFDUT2-TX-0094,SRC-0090,217,395,395,DRUG-011-ceftiofur.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+阿莫西林,SFDUT2-TX-0095,SRC-0090,217,396,396,DRUG-010-amoxicillin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+强力霉素,SFDUT2-TX-0096,SRC-0090,217,398,398,DRUG-021-doxycycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+替米考星,SFDUT2-TX-0097,SRC-0090,217,399,399,DRUG-045-tilmicosin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+金霉素,SFDUT2-TX-0098,SRC-0090,217,400,400,DRUG-020-chlortetracycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0098,SRC-0090,217,400,400,DRUG-015-tylosin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0098,SRC-0090,217,400,400,DRUG-013-tiamulin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+强力霉素,SFDUT2-TX-0100,SRC-0090,218,404,404,DRUG-021-doxycycline.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+阿莫西林,SFDUT2-TX-0101,SRC-0090,218,405,405,DRUG-010-amoxicillin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+替米考星,SFDUT2-TX-0102,SRC-0090,218,406,406,DRUG-045-tilmicosin.md,DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,第八章 猪细菌性传染病,6. 治疗
+青霉素,SFDUT2-TX-0107,SRC-0090,222,464,464,DRUG-009-penicillin-g.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+链霉素,SFDUT2-TX-0107,SRC-0090,222,464,464,,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+土霉素,SFDUT2-TX-0107,SRC-0090,222,464,464,DRUG-019-oxytetracycline.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+强力霉素,SFDUT2-TX-0107,SRC-0090,222,464,464,DRUG-021-doxycycline.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+磺胺,SFDUT2-TX-0107,SRC-0090,222,464,464,DRUG-034-sulfonamides.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+土霉素,SFDUT2-TX-0109,SRC-0090,222,468,468,DRUG-019-oxytetracycline.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+四环素,SFDUT2-TX-0109,SRC-0090,222,468,468,DRUG-030-tetracyclines.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+磺胺,SFDUT2-TX-0109,SRC-0090,222,468,468,DRUG-034-sulfonamides.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+青霉素,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-009-penicillin-g.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+氨苄西林,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-042-ampicillin.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+阿莫西林,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-010-amoxicillin.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+头孢噻呋,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-011-ceftiofur.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+卡那霉素,SFDUT2-TX-0110,SRC-0090,222,470,470,,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+土霉素,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-019-oxytetracycline.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+磺胺,SFDUT2-TX-0110,SRC-0090,222,470,470,DRUG-034-sulfonamides.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+强力霉素,SFDUT2-TX-0111,SRC-0090,222,472,472,DRUG-021-doxycycline.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+泰乐菌素,SFDUT2-TX-0111,SRC-0090,222,472,472,DRUG-015-tylosin.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+磺胺,SFDUT2-TX-0111,SRC-0090,222,472,472,DRUG-034-sulfonamides.md,DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,第八章 猪细菌性传染病,(1) 治疗
+头孢噻呋,SFDUT2-TX-0121,SRC-0090,226,535,535,DRUG-011-ceftiofur.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+卡那霉素,SFDUT2-TX-0121,SRC-0090,226,535,535,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+庆大霉素,SFDUT2-TX-0121,SRC-0090,226,535,535,DRUG-023-gentamicin.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+新霉素,SFDUT2-TX-0121,SRC-0090,226,535,535,DRUG-024-neomycin.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+安普霉素,SFDUT2-TX-0121,SRC-0090,226,535,535,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+磺胺,SFDUT2-TX-0121,SRC-0090,226,535,535,DRUG-034-sulfonamides.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+吡哌酸,SFDUT2-TX-0121,SRC-0090,226,535,535,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+恩诺沙星,SFDUT2-TX-0121,SRC-0090,226,535,535,DRUG-018-enrofloxacin.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+口服补液盐,SFDUT2-TX-0122,SRC-0090,226,536,536,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+葡萄糖,SFDUT2-TX-0122,SRC-0090,226,536,536,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+口服补液盐,SFDUT2-TX-0123,SRC-0090,227,538,538,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+葡萄糖,SFDUT2-TX-0123,SRC-0090,227,538,538,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+氯化钠,SFDUT2-TX-0123,SRC-0090,227,538,538,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+碳酸氢钠,SFDUT2-TX-0123,SRC-0090,227,538,538,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（6）综合防治
+维生素,SFDUT2-TX-0126,SRC-0090,228,562,562,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,（1）流行病学
+新霉素,SFDUT2-TX-0127,SRC-0090,229,574,574,DRUG-024-neomycin.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,(6) 防治
+土霉素,SFDUT2-TX-0127,SRC-0090,229,574,574,DRUG-019-oxytetracycline.md,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,(6) 防治
+葡萄糖,SFDUT2-TX-0128,SRC-0090,229,575,575,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,(6) 防治
+维生素,SFDUT2-TX-0128,SRC-0090,229,575,575,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,(6) 防治
+安钠咖,SFDUT2-TX-0128,SRC-0090,229,575,575,,DIS-040-colibacillosis.md,第八章 猪细菌性传染病,(6) 防治
+金霉素,SFDUT2-TX-0138,SRC-0090,235,667,667,DRUG-020-chlortetracycline.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+强力霉素,SFDUT2-TX-0138,SRC-0090,235,667,667,DRUG-021-doxycycline.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0138,SRC-0090,235,667,667,DRUG-015-tylosin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+林可霉素,SFDUT2-TX-0138,SRC-0090,235,667,667,DRUG-014-lincomycin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0138,SRC-0090,235,667,667,DRUG-013-tiamulin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0139,SRC-0090,235,669,669,DRUG-015-tylosin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+林可霉素,SFDUT2-TX-0139,SRC-0090,235,669,669,DRUG-014-lincomycin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0139,SRC-0090,235,669,669,DRUG-013-tiamulin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0140,SRC-0090,235,673,673,DRUG-015-tylosin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+氟苯尼考,SFDUT2-TX-0140,SRC-0090,235,673,673,DRUG-012-florfenicol.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+林可霉素,SFDUT2-TX-0140,SRC-0090,235,673,673,DRUG-014-lincomycin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0140,SRC-0090,235,673,673,DRUG-013-tiamulin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0141,SRC-0090,236,674,674,DRUG-015-tylosin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰乐菌素,SFDUT2-TX-0143,SRC-0090,236,679,679,DRUG-015-tylosin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+泰妙菌素,SFDUT2-TX-0143,SRC-0090,236,679,679,DRUG-013-tiamulin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,6. 治疗
+卡那霉素,SFDUT2-TX-0151,SRC-0090,240,754,754,,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+庆大霉素,SFDUT2-TX-0151,SRC-0090,240,754,754,DRUG-023-gentamicin.md,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+阿米卡星,SFDUT2-TX-0151,SRC-0090,240,754,754,,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+磺胺,SFDUT2-TX-0151,SRC-0090,240,754,754,DRUG-034-sulfonamides.md,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+地塞米松,SFDUT2-TX-0151,SRC-0090,240,754,754,DRUG-066-dexamethasone.md,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+新霉素,SFDUT2-TX-0152,SRC-0090,240,755,755,DRUG-024-neomycin.md,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+安普霉素,SFDUT2-TX-0152,SRC-0090,240,755,755,,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+磺胺,SFDUT2-TX-0152,SRC-0090,240,755,755,DRUG-034-sulfonamides.md,DIS-049-salmonellosis.md,第八章 猪细菌性传染病,5. 治疗
+口服补液盐,SFDUT2-TX-0159,SRC-0090,242,791,791,,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,3. 致病机理
+葡萄糖,SFDUT2-TX-0159,SRC-0090,242,791,791,,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,3. 致病机理
+林可霉素,SFDUT2-TX-0161,SRC-0090,244,823,823,DRUG-014-lincomycin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,7. 鉴别诊断
+泰妙菌素,SFDUT2-TX-0161,SRC-0090,244,823,823,DRUG-013-tiamulin.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第八章 猪细菌性传染病,7. 鉴别诊断
+乙酰甲喹,SFDUT2-TX-0163,SRC-0090,245,835,835,DRUG-050-dimetridazole-ronidazole.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,8. 治疗
+乙酰甲喹,SFDUT2-TX-0165,SRC-0090,245,839,839,DRUG-050-dimetridazole-ronidazole.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,8. 治疗
+泰乐菌素,SFDUT2-TX-0171,SRC-0090,246,852,852,DRUG-015-tylosin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（3）泰乐菌素
+泰乐菌素,SFDUT2-TX-0172,SRC-0090,246,853,853,DRUG-015-tylosin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（3）泰乐菌素
+泰乐菌素,SFDUT2-TX-0173,SRC-0090,246,854,854,DRUG-015-tylosin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（3）泰乐菌素
+林可霉素,SFDUT2-TX-0176,SRC-0090,246,863,863,DRUG-014-lincomycin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（5）林可霉素
+林可霉素,SFDUT2-TX-0177,SRC-0090,246,864,864,DRUG-014-lincomycin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（5）林可霉素
+林可霉素,SFDUT2-TX-0178,SRC-0090,246,865,865,DRUG-014-lincomycin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第八章 猪细菌性传染病,（5）林可霉素
+口服补液盐,SFDUT2-TX-0191,SRC-0090,251,938,938,,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,（1）治疗原则
+阿莫西林,SFDUT2-TX-0192,SRC-0090,251,940,940,DRUG-010-amoxicillin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,（1）治疗原则
+青霉素,SFDUT2-TX-0193,SRC-0090,251,944,944,DRUG-009-penicillin-g.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+氨苄西林,SFDUT2-TX-0193,SRC-0090,251,944,944,DRUG-042-ampicillin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+阿莫西林,SFDUT2-TX-0193,SRC-0090,251,944,944,DRUG-010-amoxicillin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+舒巴坦,SFDUT2-TX-0193,SRC-0090,251,944,944,,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+克拉维酸,SFDUT2-TX-0193,SRC-0090,251,944,944,,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+头孢噻呋,SFDUT2-TX-0193,SRC-0090,251,944,944,DRUG-011-ceftiofur.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+地塞米松,SFDUT2-TX-0193,SRC-0090,251,944,944,DRUG-066-dexamethasone.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+庆大霉素,SFDUT2-TX-0194,SRC-0090,251,945,945,DRUG-023-gentamicin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+林可霉素,SFDUT2-TX-0194,SRC-0090,251,945,945,DRUG-014-lincomycin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+地塞米松,SFDUT2-TX-0194,SRC-0090,251,945,945,DRUG-066-dexamethasone.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+氧氟沙星,SFDUT2-TX-0195,SRC-0090,251,946,946,,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+恩诺沙星,SFDUT2-TX-0195,SRC-0090,251,946,946,DRUG-018-enrofloxacin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+沙拉沙星,SFDUT2-TX-0195,SRC-0090,251,946,946,,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+磺胺,SFDUT2-TX-0196,SRC-0090,252,947,947,DRUG-034-sulfonamides.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+红霉素,SFDUT2-TX-0197,SRC-0090,252,951,951,DRUG-073-erythromycin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+林可霉素,SFDUT2-TX-0197,SRC-0090,252,951,951,DRUG-014-lincomycin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第八章 猪细菌性传染病,(2）全身治疗
+青霉素,SFDUT2-TX-0203,SRC-0090,256,1012,1012,DRUG-009-penicillin-g.md,,第八章 猪细菌性传染病,4. 临床症状
+磺胺,SFDUT2-TX-0203,SRC-0090,256,1012,1012,DRUG-034-sulfonamides.md,,第八章 猪细菌性传染病,4. 临床症状
+地塞米松,SFDUT2-TX-0203,SRC-0090,256,1012,1012,DRUG-066-dexamethasone.md,,第八章 猪细菌性传染病,4. 临床症状
+青霉素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-009-penicillin-g.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+土霉素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-019-oxytetracycline.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+金霉素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-020-chlortetracycline.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+四环素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-030-tetracyclines.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+强力霉素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-021-doxycycline.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+泰乐菌素,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-015-tylosin.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+氟苯尼考,SFDUT2-TX-0205,SRC-0090,257,1029,1029,DRUG-012-florfenicol.md,,第八章 猪细菌性传染病,7. 药物预防和治疗
+青霉素,SFDUT2-TX-0209,SRC-0090,259,1063,1063,DRUG-009-penicillin-g.md,,第八章 猪细菌性传染病,1. 病原学
+四环素,SFDUT2-TX-0209,SRC-0090,259,1063,1063,DRUG-030-tetracyclines.md,,第八章 猪细菌性传染病,1. 病原学
+强力霉素,SFDUT2-TX-0209,SRC-0090,259,1063,1063,DRUG-021-doxycycline.md,,第八章 猪细菌性传染病,1. 病原学
+维生素,SFDUT2-TX-0212,SRC-0090,262,1122,1122,,DIS-024-classical-swine-fever-pestiviruses.md,第八章 猪细菌性传染病,7. 诊断
+土霉素,SFDUT2-TX-0213,SRC-0090,263,1132,1132,DRUG-019-oxytetracycline.md,,第八章 猪细菌性传染病,8. 综合防治
+强力霉素,SFDUT2-TX-0213,SRC-0090,263,1132,1132,DRUG-021-doxycycline.md,,第八章 猪细菌性传染病,8. 综合防治
+金霉素,SFDUT2-TX-0215,SRC-0090,263,1136,1136,DRUG-020-chlortetracycline.md,,第八章 猪细菌性传染病,8. 综合防治
+四环素,SFDUT2-TX-0215,SRC-0090,263,1136,1136,DRUG-030-tetracyclines.md,,第八章 猪细菌性传染病,8. 综合防治
+多西环素,SFDUT2-TX-0215,SRC-0090,263,1136,1136,DRUG-021-doxycycline.md,,第八章 猪细菌性传染病,8. 综合防治
+强力霉素,SFDUT2-TX-0215,SRC-0090,263,1136,1136,DRUG-021-doxycycline.md,,第八章 猪细菌性传染病,8. 综合防治
+磺胺,SFDUT2-TX-0215,SRC-0090,263,1136,1136,DRUG-034-sulfonamides.md,,第八章 猪细菌性传染病,8. 综合防治
+阿散酸,SFDUT2-TX-0215,SRC-0090,263,1136,1136,,,第八章 猪细菌性传染病,8. 综合防治
+敌百虫,SFDUT2-TX-0216,SRC-0090,263,1138,1138,DRUG-076-dichlorvos.md,,第八章 猪细菌性传染病,8. 综合防治
+伊维菌素,SFDUT2-TX-0216,SRC-0090,263,1138,1138,DRUG-002-ivermectin.md,,第八章 猪细菌性传染病,8. 综合防治
+伊维菌素,SFDUT2-TX-0218,SRC-0090,265,1158,1158,DRUG-002-ivermectin.md,DIS-055-external-parasites-mange.md,第九章,1. 立即对有瘙痒临床表现的病猪隔离治疗
+多拉菌素,SFDUT2-TX-0218,SRC-0090,265,1158,1158,DRUG-003-doramectin.md,DIS-055-external-parasites-mange.md,第九章,1. 立即对有瘙痒临床表现的病猪隔离治疗
+伊维菌素,SFDUT2-TX-0220,SRC-0090,265,1162,1162,DRUG-002-ivermectin.md,DIS-055-external-parasites-mange.md,第九章,1. 立即对有瘙痒临床表现的病猪隔离治疗
+伊维菌素,SFDUT2-TX-0226,SRC-0090,265,1182,1182,DRUG-002-ivermectin.md,DIS-055-external-parasites-mange.md,第九章,3. 加强防控与净化
+磺胺,SFDUT2-TX-0232,SRC-0090,269,1227,1227,DRUG-034-sulfonamides.md,DIS-057-coccidia-and-other-protozoa.md,第九章,6. 治疗
+甲氧苄啶,SFDUT2-TX-0232,SRC-0090,269,1227,1227,DRUG-022-sulfonamide-trimethoprim.md,DIS-057-coccidia-and-other-protozoa.md,第九章,6. 治疗
+托曲珠利,SFDUT2-TX-0232,SRC-0090,269,1227,1227,DRUG-027-toltrazuril.md,DIS-057-coccidia-and-other-protozoa.md,第九章,6. 治疗
+磺胺,SFDUT2-TX-0234,SRC-0090,269,1234,1234,DRUG-034-sulfonamides.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+芬苯达唑,SFDUT2-TX-0234,SRC-0090,269,1234,1234,DRUG-004-fenbendazole.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+伊维菌素,SFDUT2-TX-0234,SRC-0090,269,1234,1234,DRUG-002-ivermectin.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+阿维菌素,SFDUT2-TX-0234,SRC-0090,269,1234,1234,DRUG-001-avermectins.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+地克珠利,SFDUT2-TX-0234,SRC-0090,269,1234,1234,,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+泰乐菌素,SFDUT2-TX-0235,SRC-0090,269,1238,1238,DRUG-015-tylosin.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+磺胺,SFDUT2-TX-0235,SRC-0090,269,1238,1238,DRUG-034-sulfonamides.md,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+口服补液盐,SFDUT2-TX-0235,SRC-0090,269,1238,1238,,DIS-057-coccidia-and-other-protozoa.md,第九章,7. 防制措施
+磺胺,SFDUT2-TX-0239,SRC-0090,273,1286,1286,DRUG-034-sulfonamides.md,DIS-058-toxoplasmosis-protozoa.md,第九章,7. 防制
+磺胺,SFDUT2-TX-0240,SRC-0090,273,1287,1287,DRUG-034-sulfonamides.md,DIS-058-toxoplasmosis-protozoa.md,第九章,7. 防制
+青霉素,SFDUT2-TX-0249,SRC-0090,280,1401,1401,DRUG-009-penicillin-g.md,,第九章,6. 治疗及处置
+头孢喹诺,SFDUT2-TX-0249,SRC-0090,280,1401,1401,DRUG-044-cefquinome.md,,第九章,6. 治疗及处置
+链霉素,SFDUT2-TX-0249,SRC-0090,280,1401,1401,,,第九章,6. 治疗及处置
+庆大霉素,SFDUT2-TX-0249,SRC-0090,280,1401,1401,DRUG-023-gentamicin.md,,第九章,6. 治疗及处置
+土霉素,SFDUT2-TX-0249,SRC-0090,280,1401,1401,DRUG-019-oxytetracycline.md,,第九章,6. 治疗及处置
+头孢喹诺,SFDUT2-TX-0250,SRC-0090,280,1403,1403,DRUG-044-cefquinome.md,,第九章,6. 治疗及处置
+庆大霉素,SFDUT2-TX-0250,SRC-0090,280,1403,1403,DRUG-023-gentamicin.md,,第九章,6. 治疗及处置
+氧氟沙星,SFDUT2-TX-0250,SRC-0090,280,1403,1403,,,第九章,6. 治疗及处置
+恩诺沙星,SFDUT2-TX-0250,SRC-0090,280,1403,1403,DRUG-018-enrofloxacin.md,,第九章,6. 治疗及处置
+地塞米松,SFDUT2-TX-0252,SRC-0090,281,1407,1407,DRUG-066-dexamethasone.md,,第九章,6. 治疗及处置
+缩宫素,SFDUT2-TX-0253,SRC-0090,281,1409,1409,DRUG-067-oxytocin.md,,第九章,6. 治疗及处置
+氯丙嗪,SFDUT2-TX-0254,SRC-0090,281,1413,1413,,,第九章,6. 治疗及处置
+地塞米松,SFDUT2-TX-0259,SRC-0090,282,1429,1429,DRUG-066-dexamethasone.md,,第九章,（8）其他疗法
+维生素,SFDUT2-TX-0260,SRC-0090,282,1430,1430,,,第九章,（8）其他疗法
+青霉素,SFDUT2-TX-0265,SRC-0090,283,1443,1443,DRUG-009-penicillin-g.md,,第九章,（2）预防传染性因素引起的PPDS
+链霉素,SFDUT2-TX-0265,SRC-0090,283,1443,1443,,,第九章,（2）预防传染性因素引起的PPDS
+金霉素,SFDUT2-TX-0266,SRC-0090,283,1445,1445,DRUG-020-chlortetracycline.md,,第九章,（2）预防传染性因素引起的PPDS
+泰乐菌素,SFDUT2-TX-0266,SRC-0090,283,1445,1445,DRUG-015-tylosin.md,,第九章,（2）预防传染性因素引起的PPDS
+泰妙菌素,SFDUT2-TX-0266,SRC-0090,283,1445,1445,DRUG-013-tiamulin.md,,第九章,（2）预防传染性因素引起的PPDS
+土霉素,SFDUT2-TX-0273,SRC-0090,284,1461,1461,DRUG-019-oxytetracycline.md,,第九章,（2）预防传染性因素引起的PPDS
+伊维菌素,SFDUT2-TX-0273,SRC-0090,284,1461,1461,DRUG-002-ivermectin.md,,第九章,（2）预防传染性因素引起的PPDS
+维生素,SFDUT2-TX-0273,SRC-0090,284,1461,1461,,,第九章,（2）预防传染性因素引起的PPDS
+青霉素,SFDUT2-TX-0282,SRC-0090,293,1582,1582,DRUG-009-penicillin-g.md,,第九章,2. 常规治疗方法
+链霉素,SFDUT2-TX-0282,SRC-0090,293,1582,1582,,,第九章,2. 常规治疗方法
+庆大霉素,SFDUT2-TX-0282,SRC-0090,293,1582,1582,DRUG-023-gentamicin.md,,第九章,2. 常规治疗方法
+土霉素,SFDUT2-TX-0282,SRC-0090,293,1582,1582,DRUG-019-oxytetracycline.md,,第九章,2. 常规治疗方法
+氧氟沙星,SFDUT2-TX-0282,SRC-0090,293,1582,1582,,,第九章,2. 常规治疗方法
+恩诺沙星,SFDUT2-TX-0282,SRC-0090,293,1582,1582,DRUG-018-enrofloxacin.md,,第九章,2. 常规治疗方法
+地塞米松,SFDUT2-TX-0284,SRC-0090,293,1586,1586,DRUG-066-dexamethasone.md,,第九章,2. 常规治疗方法
+青霉素,SFDUT2-TX-0285,SRC-0090,293,1594,1594,DRUG-009-penicillin-g.md,,第九章,（1）乳腺炎的治疗
+链霉素,SFDUT2-TX-0285,SRC-0090,293,1594,1594,,,第九章,（1）乳腺炎的治疗
+氨苄西林,SFDUT2-TX-0286,SRC-0090,294,1596,1596,DRUG-042-ampicillin.md,,第九章,（1）乳腺炎的治疗
+阿莫西林,SFDUT2-TX-0286,SRC-0090,294,1596,1596,DRUG-010-amoxicillin.md,,第九章,（1）乳腺炎的治疗
+克拉维酸,SFDUT2-TX-0286,SRC-0090,294,1596,1596,,,第九章,（1）乳腺炎的治疗
+环丙沙星,SFDUT2-TX-0286,SRC-0090,294,1596,1596,,,第九章,（1）乳腺炎的治疗
+地塞米松,SFDUT2-TX-0286,SRC-0090,294,1596,1596,DRUG-066-dexamethasone.md,,第九章,（1）乳腺炎的治疗
+青霉素,SFDUT2-TX-0287,SRC-0090,294,1598,1598,DRUG-009-penicillin-g.md,,第九章,（1）乳腺炎的治疗
+氧氟沙星,SFDUT2-TX-0288,SRC-0090,294,1600,1600,,,第九章,（1）乳腺炎的治疗
+地塞米松,SFDUT2-TX-0288,SRC-0090,294,1600,1600,DRUG-066-dexamethasone.md,,第九章,（1）乳腺炎的治疗
+葡萄糖,SFDUT2-TX-0288,SRC-0090,294,1600,1600,,,第九章,（1）乳腺炎的治疗
+氯化钠,SFDUT2-TX-0288,SRC-0090,294,1600,1600,,,第九章,（1）乳腺炎的治疗
+青霉素,SFDUT2-TX-0290,SRC-0090,294,1605,1605,DRUG-009-penicillin-g.md,,第九章,（1）乳腺炎的治疗
+庆大霉素,SFDUT2-TX-0290,SRC-0090,294,1605,1605,DRUG-023-gentamicin.md,,第九章,（1）乳腺炎的治疗
+四环素,SFDUT2-TX-0290,SRC-0090,294,1605,1605,DRUG-030-tetracyclines.md,,第九章,（1）乳腺炎的治疗
+氟苯尼考,SFDUT2-TX-0290,SRC-0090,294,1605,1605,DRUG-012-florfenicol.md,,第九章,（1）乳腺炎的治疗
+青霉素,SFDUT2-TX-0291,SRC-0090,295,1609,1609,DRUG-009-penicillin-g.md,,第九章,（1）乳腺炎的治疗
+阿莫西林,SFDUT2-TX-0291,SRC-0090,295,1609,1609,DRUG-010-amoxicillin.md,,第九章,（1）乳腺炎的治疗
+链霉素,SFDUT2-TX-0291,SRC-0090,295,1609,1609,,,第九章,（1）乳腺炎的治疗
+碳酸氢钠,SFDUT2-TX-0292,SRC-0090,295,1610,1610,,,第九章,（1）乳腺炎的治疗
+维生素,SFDUT2-TX-0292,SRC-0090,295,1610,1610,,,第九章,（1）乳腺炎的治疗
+安钠咖,SFDUT2-TX-0292,SRC-0090,295,1610,1610,,,第九章,（1）乳腺炎的治疗
+青霉素,SFDUT2-TX-0294,SRC-0090,295,1618,1618,DRUG-009-penicillin-g.md,,第九章,（1）药物预防
+头孢噻呋,SFDUT2-TX-0294,SRC-0090,295,1618,1618,DRUG-011-ceftiofur.md,,第九章,（1）药物预防
+链霉素,SFDUT2-TX-0294,SRC-0090,295,1618,1618,,,第九章,（1）药物预防
+土霉素,SFDUT2-TX-0294,SRC-0090,295,1618,1618,DRUG-019-oxytetracycline.md,,第九章,（1）药物预防
+金霉素,SFDUT2-TX-0295,SRC-0090,295,1619,1619,DRUG-020-chlortetracycline.md,,第九章,（1）药物预防
+泰乐菌素,SFDUT2-TX-0295,SRC-0090,295,1619,1619,DRUG-015-tylosin.md,,第九章,（1）药物预防
+泰妙菌素,SFDUT2-TX-0295,SRC-0090,295,1619,1619,DRUG-013-tiamulin.md,,第九章,（1）药物预防
+维生素,SFDUT2-TX-0311,SRC-0090,301,1702,1702,,,第十一章,6. 预防猪霉菌毒素中毒的措施
+维生素,SFDUT2-TX-0313,SRC-0090,301,1710,1710,,,第十一章,7. 猪霉菌毒素中毒后的控制
+葡萄糖,SFDUT2-TX-0314,SRC-0090,301,1711,1711,,,第十一章,7. 猪霉菌毒素中毒后的控制
+维生素,SFDUT2-TX-0314,SRC-0090,301,1711,1711,,,第十一章,7. 猪霉菌毒素中毒后的控制
+安钠咖,SFDUT2-TX-0314,SRC-0090,301,1711,1711,,,第十一章,7. 猪霉菌毒素中毒后的控制
+卡那霉素,SFDUT2-TX-0320,SRC-0090,304,1743,1743,,SYN-005-respiratory-distress-coughing.md,第十一章,(2）非传染性病因
+氟苯尼考,SFDUT2-TX-0320,SRC-0090,304,1743,1743,DRUG-012-florfenicol.md,SYN-005-respiratory-distress-coughing.md,第十一章,(2）非传染性病因
+磺胺,SFDUT2-TX-0320,SRC-0090,304,1743,1743,DRUG-034-sulfonamides.md,SYN-005-respiratory-distress-coughing.md,第十一章,(2）非传染性病因
+地塞米松,SFDUT2-TX-0320,SRC-0090,304,1743,1743,DRUG-066-dexamethasone.md,SYN-005-respiratory-distress-coughing.md,第十一章,(2）非传染性病因
+青霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-009-penicillin-g.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+氨苄西林,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-042-ampicillin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+阿莫西林,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-010-amoxicillin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+头孢噻呋,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-011-ceftiofur.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+卡那霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+庆大霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-023-gentamicin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+土霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-019-oxytetracycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+强力霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+泰乐菌素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-015-tylosin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+氟苯尼考,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-012-florfenicol.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+林可霉素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-014-lincomycin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+泰妙菌素,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-013-tiamulin.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+磺胺,SFDUT2-TX-0326,SRC-0090,306,1772,1772,DRUG-034-sulfonamides.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+安乃近,SFDUT2-TX-0329,SRC-0090,306,1775,1775,DRUG-029-nsaids.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+葡萄糖,SFDUT2-TX-0329,SRC-0090,306,1775,1775,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+氯化钠,SFDUT2-TX-0329,SRC-0090,306,1775,1775,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+碳酸氢钠,SFDUT2-TX-0329,SRC-0090,306,1775,1775,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+阿托品,SFDUT2-TX-0329,SRC-0090,306,1775,1775,DRUG-079-atropine.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+安钠咖,SFDUT2-TX-0329,SRC-0090,306,1775,1775,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+地塞米松,SFDUT2-TX-0330,SRC-0090,306,1776,1776,DRUG-066-dexamethasone.md,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+维生素,SFDUT2-TX-0330,SRC-0090,306,1776,1776,,SYN-005-respiratory-distress-coughing.md,第十一章,6. 治疗
+金霉素,SFDUT2-TX-0337,SRC-0090,307,1793,1793,DRUG-020-chlortetracycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+强力霉素,SFDUT2-TX-0337,SRC-0090,307,1793,1793,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+泰妙菌素,SFDUT2-TX-0337,SRC-0090,307,1793,1793,DRUG-013-tiamulin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+金霉素,SFDUT2-TX-0338,SRC-0090,307,1794,1794,DRUG-020-chlortetracycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+强力霉素,SFDUT2-TX-0338,SRC-0090,307,1794,1794,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+强力霉素,SFDUT2-TX-0339,SRC-0090,307,1795,1795,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+泰乐菌素,SFDUT2-TX-0339,SRC-0090,307,1795,1795,DRUG-015-tylosin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+替米考星,SFDUT2-TX-0339,SRC-0090,307,1795,1795,DRUG-045-tilmicosin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+金霉素,SFDUT2-TX-0340,SRC-0090,307,1796,1796,DRUG-020-chlortetracycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+林可霉素,SFDUT2-TX-0340,SRC-0090,307,1796,1796,DRUG-014-lincomycin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+泰乐菌素,SFDUT2-TX-0341,SRC-0090,307,1797,1797,DRUG-015-tylosin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+磺胺,SFDUT2-TX-0341,SRC-0090,307,1797,1797,DRUG-034-sulfonamides.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+金霉素,SFDUT2-TX-0342,SRC-0090,307,1798,1798,DRUG-020-chlortetracycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+强力霉素,SFDUT2-TX-0342,SRC-0090,307,1798,1798,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+泰乐菌素,SFDUT2-TX-0342,SRC-0090,307,1798,1798,DRUG-015-tylosin.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+强力霉素,SFDUT2-TX-0343,SRC-0090,307,1799,1799,DRUG-021-doxycycline.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+氟苯尼考,SFDUT2-TX-0343,SRC-0090,307,1799,1799,DRUG-012-florfenicol.md,SYN-005-respiratory-distress-coughing.md,第十一章,7. 综合防制
+肾上腺素,SFDUT2-TX-0356,SRC-0090,310,1835,1835,DRUG-080-epinephrine.md,,第十一章,3. 急性过敏反应的救治
+肾上腺素,SFDUT2-TX-0357,SRC-0090,310,1837,1837,DRUG-080-epinephrine.md,,第十一章,3. 急性过敏反应的救治
+肾上腺素,SFDUT2-TX-0358,SRC-0090,311,1839,1839,DRUG-080-epinephrine.md,,第十一章,3. 急性过敏反应的救治
+地塞米松,SFDUT2-TX-0360,SRC-0090,311,1843,1843,DRUG-066-dexamethasone.md,,第十一章,3. 急性过敏反应的救治
+肾上腺素,SFDUT2-TX-0360,SRC-0090,311,1843,1843,DRUG-080-epinephrine.md,,第十一章,3. 急性过敏反应的救治
+肾上腺素,SFDUT2-TX-0361,SRC-0090,311,1844,1844,DRUG-080-epinephrine.md,,第十一章,3. 急性过敏反应的救治
+地塞米松,SFDUT2-TX-0363,SRC-0090,311,1851,1851,DRUG-066-dexamethasone.md,,第十一章,4. 注意事项
+肾上腺素,SFDUT2-TX-0363,SRC-0090,311,1851,1851,DRUG-080-epinephrine.md,,第十一章,4. 注意事项
+肾上腺素,SFDUT2-TX-0365,SRC-0090,311,1854,1854,DRUG-080-epinephrine.md,,第十一章,4. 注意事项
+肾上腺素,SFDUT2-TX-0366,SRC-0090,311,1855,1855,DRUG-080-epinephrine.md,,第十一章,4. 注意事项

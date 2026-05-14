@@ -1,0 +1,11 @@
+sample_id,phase15_final_decision,semantic_route,semantic_final_decision,semantic_skip_reason,needed_arbitration,arbitration_trigger_codes,semantic_final_label,semantic_fatal_risk,semantic_reject_reasons
+GEN-000001,accepted,dual_judge,rejected,,False,,reject,False,judge_a:reject|judge_b:reject
+GEN-000002,accepted,dual_judge,rejected,,True,high_risk_sample|phase15_high_risk_class|phase15_high_risk_context,reject,False,arbiter:conservative_high_risk_merge|arbiter:high_risk_sample|arbiter:phase15_high_risk_class|arbiter:phase15_high_risk_context|judge_a:reject|judge_b:reject
+GEN-000003,accepted,dual_judge,rejected,,True,high_risk_sample|phase15_high_risk_class|phase15_high_risk_context,reject,False,arbiter:conservative_high_risk_merge|arbiter:high_risk_sample|arbiter:phase15_high_risk_class|arbiter:phase15_high_risk_context|judge_a:reject|judge_b:reject
+GEN-000004,accepted,dual_judge,rejected,,True,high_risk_sample|phase15_high_risk_class|phase15_high_risk_context,reject,False,arbiter:conservative_high_risk_merge|arbiter:high_risk_sample|arbiter:phase15_high_risk_class|arbiter:phase15_high_risk_context|judge_a:reject|judge_b:reject
+GEN-000005,rejected,skipped_hard_gate,rejected,phase15_hard_gate_failed,False,,reject,True,hard_gate:executive_content_missing_a0_source
+GEN-000006,rejected,skipped_hard_gate,rejected,phase15_hard_gate_failed,False,,reject,True,hard_gate:executive_content_missing_a0_source|hard_gate:english_template_label_output
+GEN-000007,accepted,dual_judge,rejected,,False,,reject,False,judge_a:reject|judge_b:reject
+GEN-000008,accepted,dual_judge,rejected,,False,,reject,False,judge_a:reject|judge_b:reject
+GEN-000009,accepted,dual_judge,rejected,,False,,reject,False,judge_a:reject|judge_b:reject
+GEN-000010,accepted,dual_judge,rejected,,False,,reject,False,judge_a:reject|judge_b:reject

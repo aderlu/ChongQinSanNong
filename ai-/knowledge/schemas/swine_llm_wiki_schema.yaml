@@ -1,0 +1,729 @@
+# Dedicated runtime schema for the swine disease LLM Wiki.
+# This file intentionally does not modify knowledge/schemas/llm_wiki_schema.yaml.
+
+schema_name: swine_llm_wiki_operations
+version: 1.0.0
+species:
+  canonical: swine
+  display_name: pig
+  chinese_name: 猪
+  accepted_species_values:
+    - swine
+    - pig
+    - porcine
+    - 猪
+    - 生猪
+
+description: >
+  Runtime contract for how the swine disease LLM Wiki knowledge base is
+  organized, maintained, validated, retrieved, audited, and used for
+  swine disease QA dataset generation and evaluation.
+
+scope:
+  applies_to:
+    - knowledge/llm_wiki_swine_authoritative
+    - swine disease dataset generation
+    - swine disease dataset evaluation
+  not_applies_to:
+    - chicken-specific wiki maintenance
+    - non-swine disease pages
+    - executable prescription dosage decisions without authoritative drug labels
+  compatible_with:
+    - knowledge/schemas/llm_wiki_schema.yaml
+  archived_dataset_schema: knowledge/schemas/archive/schema_final_v2.legacy.yaml
+
+wiki_root:
+  default_path: knowledge/llm_wiki_swine_authoritative
+  cache_file: .wiki-cache.json
+  cache_version: 1
+
+  required_root_files:
+    - index.md
+    - purpose.md
+    - .wiki-schema.md
+    - log.md
+
+  required_directories:
+    - raw
+    - raw/notes
+    - raw/html
+    - raw/pdfs
+    - raw/urls
+    - raw/md
+    - wiki
+    - wiki/diseases
+    - wiki/drugs
+    - wiki/rules
+    - wiki/rule_cards
+    - wiki/sources
+    - wiki/topics
+    - wiki/syndromes
+    - wiki/synthesis
+    - wiki/synthesis/sessions
+    - wiki/comparisons
+    - wiki/sessions
+    - wiki/queries
+    - exports
+    - issues
+
+  required_exports:
+    - knowledge_facts.json
+    - disease_index.csv
+    - rule_index.csv
+    - drug_page_index.csv
+    - source_index.csv
+    - alias_index.csv
+    - syndrome_index.csv
+    - rule_card_index.csv
+    - synthesis_index.csv
+
+organization:
+  page_types:
+    disease:
+      directory: wiki/diseases
+      role: swine disease page used for generation, retrieval, and disease-specific evaluation
+    drug:
+      directory: wiki/drugs
+      role: swine medication safety boundary and evidence page
+    rule:
+      directory: wiki/rules
+      role: detailed safety, diagnostic, regulatory, or dataset rule
+    rule_card:
+      directory: wiki/rule_cards
+      role: compact executable hard-block or review rule
+    source:
+      directory: wiki/sources
+      role: evidence source record
+    topic:
+      directory: wiki/topics
+      role: thematic swine health concept page
+    syndrome:
+      directory: wiki/syndromes
+      role: symptom/syndrome navigation page
+    synthesis:
+      directory: wiki/synthesis
+      role: derived synthesis page, not primary evidence
+    comparison:
+      directory: wiki/comparisons
+      role: derived comparison or differential diagnosis page
+    session:
+      directory: wiki/sessions
+      role: derived working session note
+    query:
+      directory: wiki/queries
+      role: derived saved retrieval answer
+
+  authoritative_page_types:
+    - disease
+    - drug
+    - rule
+    - rule_card
+    - source
+    - topic
+    - syndrome
+
+  derived_page_types:
+    - synthesis
+    - comparison
+    - session
+    - query
+
+  naming:
+    source_page_prefix: SRC-
+    disease_page_prefix: DIS-
+    drug_page_prefix: DRUG-
+    rule_page_prefix: RULE-
+    rule_card_prefix: RC-
+    syndrome_page_prefix: SYN-
+    relation_style: wiki links plus explicit source ids
+
+source_contract:
+  required_frontmatter_fields:
+    - type
+    - source_id
+    - source_path
+    - source_type
+    - authority_level
+    - evidence_status
+    - jurisdiction
+    - created
+    - updated
+    - sources
+
+  evidence_status_enum:
+    - HUMAN_REVIEWED
+    - EXTRACTED
+    - PROCESSED_SOURCE_ANCHORED
+    - INFERRED
+    - NEEDS_REVIEW
+    - UNVERIFIED
+
+  authority_levels:
+    - A0
+    - A1
+    - A2
+    - official
+    - guideline
+    - textbook
+    - paper
+    - field_note
+    - unknown
+
+  source_types:
+    markdown:
+      source_label: Markdown file
+      source_category: core_builtin
+      input_mode: file
+      raw_dir: raw/notes
+      adapter_name: builtin
+      dependency_name: ""
+      extensions:
+        - .md
+        - .markdown
+    text:
+      source_label: Text file
+      source_category: core_builtin
+      input_mode: file
+      raw_dir: raw/notes
+      adapter_name: builtin
+      dependency_name: ""
+      extensions:
+        - .txt
+    html:
+      source_label: HTML file
+      source_category: core_builtin
+      input_mode: file
+      raw_dir: raw/html
+      adapter_name: builtin
+      dependency_name: ""
+      extensions:
+        - .html
+        - .htm
+    pdf:
+      source_label: PDF file
+      source_category: core_builtin
+      input_mode: file
+      raw_dir: raw/pdfs
+      adapter_name: pypdf
+      dependency_name: pypdf
+      extensions:
+        - .pdf
+    textbook_pdf:
+      source_label: Swine textbook PDF
+      source_category: curated_textbook
+      input_mode: file
+      raw_dir: raw/pdfs
+      adapter_name: pypdf
+      dependency_name: pypdf
+      extensions:
+        - .pdf
+    textbook_pdf_chapter:
+      source_label: Swine textbook chapter extraction
+      source_category: curated_textbook
+      input_mode: file
+      raw_dir: raw/md
+      adapter_name: builtin
+      dependency_name: ""
+      extensions:
+        - .md
+    url:
+      source_label: Web URL
+      source_category: manual_or_fetch
+      input_mode: url
+      raw_dir: raw/urls
+      adapter_name: manual
+      dependency_name: ""
+      url_pattern: ^https?://
+    authoritative_web:
+      source_label: Authoritative web page
+      source_category: authoritative_web
+      input_mode: url
+      raw_dir: raw/html
+      adapter_name: browser_or_http
+      dependency_name: ""
+      url_pattern: ^https?://
+
+  adapter_states:
+    - available
+    - missing_dependency
+    - manual_only
+    - failed_retryable
+    - failed_manual_fallback
+
+disease_page_contract:
+  required_frontmatter_fields:
+    - type
+    - disease_id
+    - title
+    - category
+    - species
+    - evidence_status
+    - primary_source_id
+    - updated
+
+  required_sections:
+    - overview
+    - causative_agent
+    - host_stage_and_scenarios
+    - transmission_and_risk_factors
+    - clinical_signs
+    - gross_lesions
+    - laboratory_diagnosis
+    - differential_diagnosis
+    - treatment_direction
+    - control_and_prevention
+    - forbidden_boundaries
+    - dataset_generation_guidance
+    - evaluation_checklist
+    - evidence
+
+  core_section_quality:
+    minimum_chars_per_disease_page: 4000
+    recommended_chars_per_disease_page: 6000
+    minimum_facts_per_disease: 20
+    recommended_facts_per_disease: 40
+    maximum_needs_review_ratio_for_train_ready: 0.20
+    no_placeholder_sections_for_train_ready: true
+
+  clinical_requirements:
+    stages_to_cover_when_relevant:
+      - suckling_piglet
+      - nursery_pig
+      - grower_finisher
+      - gilt
+      - sow
+      - boar
+      - breeding_herd
+    must_distinguish:
+      - morbidity_pattern
+      - mortality_pattern
+      - age_or_stage_pattern
+      - fever_pattern
+      - digestive_signs
+      - respiratory_signs
+      - reproductive_signs
+      - neurologic_signs
+      - skin_or_vesicular_signs
+      - feed_or_environment_history
+
+  diagnostic_requirements:
+    each_disease_should_define:
+      - recommended_samples
+      - recommended_tests
+      - sampling_timing
+      - result_interpretation_limits
+      - differential_diagnoses
+      - when_to_report_or_restrict_movement
+
+  differential_matrix_requirements:
+    required_matrices:
+      - piglet_diarrhea
+      - post_weaning_diarrhea
+      - respiratory_disease
+      - reproductive_failure
+      - neurologic_signs
+      - vesicular_disease
+      - sudden_death_septicemia
+      - skin_pruritus_crusts
+      - lameness_arthritis
+      - feed_toxin_gas
+
+drug_page_contract:
+  required_frontmatter_fields:
+    - type
+    - drug_id
+    - title
+    - status
+    - evidence_status
+    - updated
+
+  required_sections:
+    - class_and_role
+    - swine_use_boundary
+    - evidence_supported_uses
+    - contraindications
+    - food_animal_safety
+    - withdrawal_boundary
+    - resistance_or_residue_risk
+    - dataset_generation_boundary
+    - evidence
+
+  safety_policy:
+    do_not_generate_specific_dose_without_label_source: true
+    do_not_generate_specific_withdrawal_period_without_jurisdictional_label_source: true
+    do_not_generalize_withdrawal_periods_across_countries: true
+    antimicrobial_use_requires_veterinary_context: true
+    banned_or_unapproved_drugs_are_hard_blocks: true
+
+rule_card_contract:
+  required_fields:
+    - card_id
+    - title
+    - severity
+    - jurisdiction
+    - hard_block
+    - trigger
+    - action
+    - evidence_source_id
+
+  required_high_risk_cards:
+    - african_swine_fever
+    - classical_swine_fever
+    - foot_and_mouth_disease
+    - vesicular_disease_differential
+    - brucellosis
+    - rabies
+    - zoonotic_disease
+    - near_market_drug_use
+    - specific_dose_block
+    - specific_withdrawal_period_block
+    - suspected_feed_toxin
+    - sudden_death_high_fever
+    - reproductive_failure_sampling
+    - antimicrobial_stewardship
+    - no_sale_no_transport_before_exclusion
+
+maintenance:
+  ingest_policy:
+    raw_first: true
+    create_source_page_before_fact_update: true
+    write_candidate_notes_only: true
+    candidate_directory: issues
+    direct_authoritative_mutation_allowed: false
+    cache_every_ingested_source: true
+
+  authority_discovery:
+    supported: true
+    llm_may_propose_sources: true
+    llm_may_extract_candidate_facts: true
+    allowlist_required: true
+    fetch_required_for_extraction: true
+    candidate_only: true
+    must_not_write_authoritative_facts: true
+    rejected_sources_are_not_landed: true
+    accepted_sources_require_source_page: true
+    accepted_sources_require_candidate_record: true
+    allowed_domains:
+      - moa.gov.cn
+      - std.cahec.cn
+      - openstd.samr.gov.cn
+      - samr.gov.cn
+      - woah.org
+      - merckvetmanual.com
+      - msdvetmanual.com
+      - fao.org
+      - cdc.gov
+      - efsa.europa.eu
+      - ema.europa.eu
+
+  batch_ingest_policy:
+    supported: true
+    file_inputs_only: true
+    continue_on_single_file_failure: true
+
+  delete_policy:
+    supported: true
+    dry_run_default: true
+    scan_references_before_delete: true
+    invalidate_cache_on_apply: true
+
+  crystallize_policy:
+    supported: true
+    output_directory: wiki/synthesis/sessions
+    derived_only: true
+
+  compatibility_policy:
+    inspect_supported: true
+    validate_supported: true
+    ensure_source_dir_supported: true
+
+  cache_schema:
+    version_field: version
+    updated_at_field: updated_at
+    entries_field: entries
+    entry_required_fields:
+      - source_path
+      - source_page
+      - title
+      - created_at
+      - updated_at
+
+  change_log:
+    file: log.md
+    required_for:
+      - init
+      - source-create
+      - ingest
+      - digest-save
+      - query-save
+      - disease-page-upgrade
+      - export-refresh
+
+validation:
+  normal_lint:
+    blocks:
+      - missing root files
+      - missing required directories
+      - missing required exports
+      - invalid JSON exports
+      - facts without evidence_status
+      - facts without evidence_source_id
+      - disease pages without disease_id
+      - generated train-ready rows with species not swine
+    warns:
+      - broken wiki links
+      - unresolved evidence source ids
+      - NEEDS_REVIEW facts
+      - disease pages under minimum_chars_per_disease_page
+      - placeholder disease sections
+      - source pages missing authority_level
+      - source pages missing source_type
+
+  strict_lint:
+    blocks:
+      - UNVERIFIED facts
+      - missing source ids in train-ready generation context
+      - missing disease page required sections
+      - placeholder clinical_signs section
+      - placeholder laboratory_diagnosis section
+      - placeholder differential_diagnosis section
+      - placeholder control_and_prevention section
+      - specific dosage in train-ready generated answer
+      - specific withdrawal period in train-ready generated answer
+      - major disease treated as ordinary medication scenario
+      - high-risk disease without report/isolate/test boundary
+      - invalid cache entries
+      - missing cache targets
+
+  readiness_thresholds:
+    train_ready_minimum_disease_pages: 73
+    train_ready_minimum_rule_cards: 30
+    train_ready_minimum_syndrome_pages: 12
+    train_ready_minimum_drug_pages: 76
+    train_ready_minimum_facts: 4000
+    train_ready_max_needs_review_fact_ratio: 0.10
+    train_ready_max_placeholder_core_sections: 0
+    weak_supervision_max_placeholder_core_sections: 80
+
+  fix_mode:
+    may_create_missing_directories: true
+    may_prune_invalid_cache_entries: true
+    may_generate_issue_backlog: true
+    must_not_edit_authoritative_pages_without_explicit_task: true
+
+  schema_check:
+    must_match_code_contracts: true
+    must_validate_current_wiki_root: true
+    suggested_command: swine-wiki schema-check --schema knowledge/schemas/swine_llm_wiki_schema.yaml --json
+
+retrieval:
+  query_sources:
+    - markdown wiki pages
+    - exports/knowledge_facts.json
+    - exports/disease_index.csv
+    - exports/alias_index.csv
+    - exports/rule_index.csv
+    - exports/rule_card_index.csv
+    - exports/drug_page_index.csv
+    - exports/syndrome_index.csv
+    - exports/synthesis_index.csv
+
+  required_result_fields:
+    - query
+    - hits
+    - fact_hits
+    - wiki_dir
+    - evidence_status_counts
+    - evidence_source_ids
+
+  generation_context:
+    include_disease_page: true
+    include_alias_hits: true
+    include_fact_hits: true
+    include_syndrome_page: true
+    include_differential_matrix: true
+    include_rule_cards: true
+    include_drug_boundaries_when_drug_is_mentioned: true
+    cite_source_ids: true
+    target_disease_query_must_include_disease_name: true
+    minimum_context_chars: 1800
+    maximum_context_chars: 4500
+
+  disease_query_expansion:
+    include_aliases: true
+    include_chinese_name: true
+    include_english_name_when_available: true
+    include_syndrome_terms: true
+    include_stage_terms: true
+
+  derived_answer_policy:
+    derived_pages_must_set_derived_true: true
+    derived_pages_are_not_primary_evidence: true
+    save_locations:
+      quick: wiki/synthesis
+      report: wiki/synthesis
+      comparison: wiki/comparisons
+      query: wiki/queries
+
+dataset_generation_contract:
+  row_shape:
+    align_with_existing_production_csv: true
+    required_output_fields:
+      - case_id
+      - disease_name
+      - species
+      - user_query
+      - diagnosis
+      - prescription
+      - withdrawal_period
+      - wiki_dir
+      - wiki_fact_count
+      - wiki_page_count
+      - wiki_context_query
+      - wiki_evidence_status_counts
+      - wiki_evidence_source_ids
+      - wiki_context_chars
+      - target_disease_in_diagnosis
+      - target_disease_mismatch
+      - final_fatal_risk
+      - final_label
+      - final_total_score
+
+  user_query_requirements:
+    must_look_like_real_farm_question: true
+    minimum_chars: 50
+    include_at_least:
+      - herd_size_or_batch_size
+      - age_stage_or_weight
+      - main_symptoms
+      - duration_or_progression
+      - management_or_environment_context
+    recommended_include:
+      - prior_medication_or_vaccination
+      - market_or_breeding_decision_pressure
+      - concern_about_contagion
+      - request_for_action
+
+  answer_requirements:
+    diagnosis_must_name_target_disease_or_accepted_alias: true
+    diagnosis_must_include_reasoning: true
+    prescription_must_be_directional_not_executable_dose: true
+    prescription_must_include_management_measures: true
+    prescription_must_include_sampling_or_testing_when_relevant: true
+    prescription_must_include_prohibited_boundaries_when_relevant: true
+    withdrawal_period_must_be_boundary_not_specific_number: true
+    do_not_claim_safe_sale_without_conditions: true
+
+  hard_blocks:
+    - species_not_swine
+    - target_disease_mismatch
+    - specific_dose_without_authoritative_label
+    - specific_withdrawal_period_without_authoritative_label
+    - major_notifiable_disease_treated_as_ordinary_case
+    - suspected_zoonosis_without_human_protection_boundary
+    - near_market_pigs_allowed_to_sell_despite_illness_or_unresolved_drug_use
+    - suspected_feed_toxin_advises_continued_suspect_feed
+    - antimicrobial_escalation_without_testing_or_veterinary_boundary
+
+evaluation_contract:
+  judge_a:
+    role: clinical_consistency_reviewer
+    scoring_dimensions:
+      diagnosis_accuracy: 30
+      pathology_logic: 25
+      prescription_safety: 25
+      data_quality: 20
+  judge_b:
+    role: safety_and_dataset_usability_reviewer
+    scoring_dimensions:
+      diagnosis_accuracy: 30
+      pathology_logic: 20
+      prescription_safety: 30
+      data_quality: 20
+  arbiter:
+    role: final_decision_reviewer
+    trigger_conditions:
+      - judge_a_label_differs_from_judge_b_label
+      - absolute_score_difference_gte_8
+      - fatal_risk_disagreement
+      - local_rule_triggered_but_judge_passed
+      - high_risk_disease
+      - near_market_drug_or_sale_scenario
+
+  final_label_rules:
+    pass:
+      all_required:
+        - judge_a_pass
+        - judge_b_pass_or_arbiter_pass
+        - final_score_gte_80
+        - final_fatal_risk_false
+        - no_local_hard_block
+        - target_disease_consistent
+        - no_specific_dose
+        - no_specific_withdrawal_period
+    review:
+      any_allowed:
+        - minor_differential_gap
+        - low_frequency_disease_with_safe_direction
+        - useful_but_needs_more_evidence
+        - score_between_75_and_80_without_fatal_risk
+    reject:
+      any_required:
+        - fatal_risk_true
+        - target_disease_mismatch
+        - prescription_conflicts_with_disease
+        - unsafe_sale_or_transport
+        - specific_dose_or_withdrawal_without_source
+        - species_not_swine
+        - unrealistic_farm_question
+
+audit:
+  output_csv_fields:
+    - wiki_dir
+    - wiki_fact_count
+    - wiki_page_count
+    - wiki_context_query
+    - wiki_evidence_status_counts
+    - wiki_evidence_source_ids
+    - wiki_context_chars
+    - target_disease_in_diagnosis
+    - target_disease_mismatch
+    - final_fatal_risk
+    - judge_a_model
+    - judge_a_total_score
+    - judge_b_model
+    - judge_b_total_score
+    - needed_arbitration
+    - arbiter_model
+    - arbiter_final_label
+    - final_label
+    - final_total_score
+
+  required_checks:
+    - knowledge context was retrieved
+    - evidence status counts were recorded
+    - evidence source ids were recorded when available
+    - species is swine
+    - target disease consistency was checked
+    - local hard-block rules were applied
+    - final fatal risk merged rule and judge outcomes
+    - high-risk diseases have safety boundary
+    - train-ready rows contain no specific dosage
+    - train-ready rows contain no specific withdrawal period
+
+  retention:
+    generated_rows_keep_audit_columns: true
+    source_pages_keep_original_source_path: true
+    raw_generation_json_kept: true
+    rejected_rows_kept_for_audit: true
+    log_records_maintenance_events: true
+
+graph:
+  graph_data_path: wiki/graph-data.json
+  graph_html_path: wiki/knowledge-graph.html
+  graph_mermaid_path: wiki/knowledge-graph.md
+  source_of_truth:
+    - wiki pages
+    - exports
+  derived_only: true
+  offline_renderable: true

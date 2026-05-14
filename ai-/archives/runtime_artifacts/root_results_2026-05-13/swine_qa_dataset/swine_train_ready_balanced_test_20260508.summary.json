@@ -1,0 +1,14 @@
+{
+  "input_csv": "ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305_dual_final100_20260508_172924.csv",
+  "output_jsonl": "ai-\\results\\swine_qa_dataset\\swine_train_ready_balanced_test_20260508.jsonl",
+  "rejects_csv": "ai-\\results\\swine_qa_dataset\\swine_train_ready_balanced_test_rejects_20260508.csv",
+  "accepted": 58,
+  "rejected": 0,
+  "min_score": 82.0,
+  "min_standard_citations": 2,
+  "policy": "balanced",
+  "accepted_task_use_counts": {
+    "generation_ready_limited": 39,
+    "train_ready": 19
+  }
+}

@@ -1,0 +1,513 @@
+[
+  {
+    "disease_id": "DIS-001",
+    "disease_name": "猪腺病毒感染",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-001-adenoviruses.md"
+  },
+  {
+    "disease_id": "DIS-002",
+    "disease_name": "非洲猪瘟",
+    "matched_fact_count": "29",
+    "sections_with_content": "6",
+    "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md"
+  },
+  {
+    "disease_id": "DIS-003",
+    "disease_name": "猪环曲病毒/托克特诺病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md"
+  },
+  {
+    "disease_id": "DIS-004",
+    "disease_name": "猪星状病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-004-astroviruses.md"
+  },
+  {
+    "disease_id": "DIS-005",
+    "disease_name": "猪布尼亚病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md"
+  },
+  {
+    "disease_id": "DIS-006",
+    "disease_name": "猪杯状病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md"
+  },
+  {
+    "disease_id": "DIS-007",
+    "disease_name": "猪圆环病毒相关疾病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md"
+  },
+  {
+    "disease_id": "DIS-008",
+    "disease_name": "猪流行性腹泻",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md"
+  },
+  {
+    "disease_id": "DIS-009",
+    "disease_name": "猪传染性胃肠炎",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md"
+  },
+  {
+    "disease_id": "DIS-010",
+    "disease_name": "猪δ冠状病毒感染",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md"
+  },
+  {
+    "disease_id": "DIS-011",
+    "disease_name": "猪血凝性脑脊髓炎",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md"
+  },
+  {
+    "disease_id": "DIS-012",
+    "disease_name": "猪呼吸道冠状病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md"
+  },
+  {
+    "disease_id": "DIS-013",
+    "disease_name": "猪托罗病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-013-porcine-torovirus.md"
+  },
+  {
+    "disease_id": "DIS-014",
+    "disease_name": "猪丝状病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md"
+  },
+  {
+    "disease_id": "DIS-015",
+    "disease_name": "猪乙型脑炎",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md"
+  },
+  {
+    "disease_id": "DIS-016",
+    "disease_name": "猪西尼罗病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md"
+  },
+  {
+    "disease_id": "DIS-017",
+    "disease_name": "猪戊型肝炎",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md"
+  },
+  {
+    "disease_id": "DIS-018",
+    "disease_name": "猪伪狂犬病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md"
+  },
+  {
+    "disease_id": "DIS-019",
+    "disease_name": "猪巨细胞病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md"
+  },
+  {
+    "disease_id": "DIS-020",
+    "disease_name": "猪恶性卡他热相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md"
+  },
+  {
+    "disease_id": "DIS-021",
+    "disease_name": "猪流感",
+    "matched_fact_count": "25",
+    "sections_with_content": "7",
+    "path": "wiki/diseases/DIS-021-influenza-viruses.md"
+  },
+  {
+    "disease_id": "DIS-022",
+    "disease_name": "猪副黏病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-022-paramyxoviruses.md"
+  },
+  {
+    "disease_id": "DIS-023",
+    "disease_name": "猪细小病毒病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-023-parvoviruses.md"
+  },
+  {
+    "disease_id": "DIS-024",
+    "disease_name": "猪瘟",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md"
+  },
+  {
+    "disease_id": "DIS-025",
+    "disease_name": "非典型猪瘟病毒感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md"
+  },
+  {
+    "disease_id": "DIS-026",
+    "disease_name": "猪口蹄疫",
+    "matched_fact_count": "2",
+    "sections_with_content": "2",
+    "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md"
+  },
+  {
+    "disease_id": "DIS-027",
+    "disease_name": "塞内卡病毒A感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md"
+  },
+  {
+    "disease_id": "DIS-028",
+    "disease_name": "猪繁殖与呼吸综合征",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md"
+  },
+  {
+    "disease_id": "DIS-029",
+    "disease_name": "猪痘",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-029-swinepox-virus.md"
+  },
+  {
+    "disease_id": "DIS-030",
+    "disease_name": "猪轮状病毒病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md"
+  },
+  {
+    "disease_id": "DIS-031",
+    "disease_name": "猪反转录病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-031-retroviruses.md"
+  },
+  {
+    "disease_id": "DIS-032",
+    "disease_name": "猪狂犬病风险",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-032-rabies-virus.md"
+  },
+  {
+    "disease_id": "DIS-033",
+    "disease_name": "猪水疱性口炎",
+    "matched_fact_count": "2",
+    "sections_with_content": "2",
+    "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md"
+  },
+  {
+    "disease_id": "DIS-034",
+    "disease_name": "猪甲病毒相关感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md"
+  },
+  {
+    "disease_id": "DIS-035",
+    "disease_name": "猪胸膜肺炎",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md"
+  },
+  {
+    "disease_id": "DIS-036",
+    "disease_name": "猪放线杆菌败血症",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md"
+  },
+  {
+    "disease_id": "DIS-037",
+    "disease_name": "猪萎缩性鼻炎",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md"
+  },
+  {
+    "disease_id": "DIS-038",
+    "disease_name": "猪布鲁氏菌病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md"
+  },
+  {
+    "disease_id": "DIS-039",
+    "disease_name": "仔猪梭菌性肠炎",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-039-clostridial-diseases.md"
+  },
+  {
+    "disease_id": "DIS-040",
+    "disease_name": "猪大肠杆菌病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-040-colibacillosis.md"
+  },
+  {
+    "disease_id": "DIS-041",
+    "disease_name": "仔猪黄白痢",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md"
+  },
+  {
+    "disease_id": "DIS-042",
+    "disease_name": "仔猪水肿病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md"
+  },
+  {
+    "disease_id": "DIS-043",
+    "disease_name": "猪丹毒",
+    "matched_fact_count": "12",
+    "sections_with_content": "6",
+    "path": "wiki/diseases/DIS-043-erysipelas.md"
+  },
+  {
+    "disease_id": "DIS-044",
+    "disease_name": "副猪嗜血杆菌病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md"
+  },
+  {
+    "disease_id": "DIS-045",
+    "disease_name": "猪钩端螺旋体病",
+    "matched_fact_count": "3",
+    "sections_with_content": "2",
+    "path": "wiki/diseases/DIS-045-leptospirosis.md"
+  },
+  {
+    "disease_id": "DIS-046",
+    "disease_name": "猪支原体肺炎",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md"
+  },
+  {
+    "disease_id": "DIS-047",
+    "disease_name": "猪多杀性巴氏杆菌病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-047-pasteurellosis.md"
+  },
+  {
+    "disease_id": "DIS-048",
+    "disease_name": "猪增生性肠炎",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md"
+  },
+  {
+    "disease_id": "DIS-049",
+    "disease_name": "猪沙门氏菌病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-049-salmonellosis.md"
+  },
+  {
+    "disease_id": "DIS-050",
+    "disease_name": "猪葡萄球菌病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md"
+  },
+  {
+    "disease_id": "DIS-051",
+    "disease_name": "猪链球菌病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md"
+  },
+  {
+    "disease_id": "DIS-052",
+    "disease_name": "猪痢疾",
+    "matched_fact_count": "16",
+    "sections_with_content": "7",
+    "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md"
+  },
+  {
+    "disease_id": "DIS-053",
+    "disease_name": "猪结核病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-053-tuberculosis.md"
+  },
+  {
+    "disease_id": "DIS-054",
+    "disease_name": "猪杂项细菌感染",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md"
+  },
+  {
+    "disease_id": "DIS-055",
+    "disease_name": "猪疥螨病",
+    "matched_fact_count": "9",
+    "sections_with_content": "5",
+    "path": "wiki/diseases/DIS-055-external-parasites-mange.md"
+  },
+  {
+    "disease_id": "DIS-056",
+    "disease_name": "猪虱病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-056-external-parasites-lice.md"
+  },
+  {
+    "disease_id": "DIS-057",
+    "disease_name": "猪球虫病",
+    "matched_fact_count": "3",
+    "sections_with_content": "2",
+    "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md"
+  },
+  {
+    "disease_id": "DIS-058",
+    "disease_name": "猪弓形虫病",
+    "matched_fact_count": "3",
+    "sections_with_content": "3",
+    "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md"
+  },
+  {
+    "disease_id": "DIS-059",
+    "disease_name": "猪隐孢子虫病",
+    "matched_fact_count": "2",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md"
+  },
+  {
+    "disease_id": "DIS-060",
+    "disease_name": "猪蛔虫病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md"
+  },
+  {
+    "disease_id": "DIS-061",
+    "disease_name": "猪鞭虫病",
+    "matched_fact_count": "1",
+    "sections_with_content": "1",
+    "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md"
+  },
+  {
+    "disease_id": "DIS-062",
+    "disease_name": "猪类圆线虫病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md"
+  },
+  {
+    "disease_id": "DIS-063",
+    "disease_name": "猪后圆线虫病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md"
+  },
+  {
+    "disease_id": "DIS-064",
+    "disease_name": "猪肾虫病",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md"
+  },
+  {
+    "disease_id": "DIS-065",
+    "disease_name": "猪营养缺乏与过量综合征",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md"
+  },
+  {
+    "disease_id": "DIS-066",
+    "disease_name": "猪霉菌毒素中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md"
+  },
+  {
+    "disease_id": "DIS-067",
+    "disease_name": "猪黄曲霉毒素中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md"
+  },
+  {
+    "disease_id": "DIS-068",
+    "disease_name": "猪呕吐毒素/DON中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md"
+  },
+  {
+    "disease_id": "DIS-069",
+    "disease_name": "猪玉米赤霉烯酮中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md"
+  },
+  {
+    "disease_id": "DIS-070",
+    "disease_name": "猪富马毒素中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md"
+  },
+  {
+    "disease_id": "DIS-071",
+    "disease_name": "猪矿物质与化学物中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md"
+  },
+  {
+    "disease_id": "DIS-072",
+    "disease_name": "猪亚硝酸盐中毒",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md"
+  },
+  {
+    "disease_id": "DIS-073",
+    "disease_name": "猪有毒气体与通风失败损伤",
+    "matched_fact_count": "0",
+    "sections_with_content": "0",
+    "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md"
+  }
+]

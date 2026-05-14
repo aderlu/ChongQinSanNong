@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-05-14T09:21:18+08:00",
+  "phase": "phase14b_naturalize_grounded_answers",
+  "input_generated": "exports/generated_samples/two_stage_samples_20260514_realflow_audit10.jsonl",
+  "output": "exports/generated_samples/naturalized_samples_20260514_realflow_audit10.jsonl",
+  "samples": 10,
+  "rewritten_samples": 0,
+  "rewrite_counts": {},
+  "passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-13T15:37:02+08:00",
+  "phase": "phase13_build_answer_skeletons",
+  "input_plan": "exports/planned_samples/wiki_sample_plan_20260513.jsonl",
+  "output": "exports/answer_skeletons/wiki_answer_skeletons_20260513_api30_source.jsonl",
+  "skeletons": 474,
+  "skeletons_generated": 474,
+  "gaps": 0,
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 186,
+    "L2_diagnosis_support": 53,
+    "L3_differential_support": 53,
+    "L4_control_boundary": 62,
+    "L6_regulatory_guardrail": 31,
+    "L5_drug_boundary_negative": 71,
+    "L7_judge_calibration": 18
+  },
+  "gap_sample": [],
+  "gap_report": [],
+  "passed": true
+}

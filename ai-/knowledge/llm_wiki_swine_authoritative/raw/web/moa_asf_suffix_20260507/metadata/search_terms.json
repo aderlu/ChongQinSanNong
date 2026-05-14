@@ -1,0 +1,10 @@
+{
+  "terms": [
+    "非洲猪瘟通知",
+    "非洲猪瘟公告",
+    "非洲猪瘟技术指南",
+    "非洲猪瘟通报",
+    "非洲猪瘟实施方案"
+  ],
+  "match_rule": "Search terms use disease+suffix. Saved pages must contain ASF and at least one requested suffix; official titles may separate the words."
+}

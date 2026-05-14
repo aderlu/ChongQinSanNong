@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-05-12T16:59:37+08:00",
+  "scope": "selected derived CSV indexes",
+  "reason": "Keep legacy review state explicit and separate from primary usability gates.",
+  "records": [
+    {
+      "path": "exports/balanced_task_use_index.csv",
+      "changed": true,
+      "rows": 154,
+      "old_field": "evidence_status",
+      "new_field": "legacy_evidence_status"
+    },
+    {
+      "path": "exports/comparison_index.csv",
+      "changed": true,
+      "rows": 14,
+      "old_field": "evidence_status",
+      "new_field": "legacy_evidence_status"
+    },
+    {
+      "path": "exports/rule_index.csv",
+      "changed": true,
+      "rows": 449,
+      "old_field": "evidence_status",
+      "new_field": "legacy_evidence_status"
+    },
+    {
+      "path": "exports/source_index.csv",
+      "changed": true,
+      "rows": 233,
+      "old_field": "evidence_status",
+      "new_field": "legacy_evidence_status"
+    },
+    {
+      "path": "exports/synthesis_index.csv",
+      "changed": true,
+      "rows": 24,
+      "old_field": "evidence_status",
+      "new_field": "legacy_evidence_status"
+    }
+  ]
+}

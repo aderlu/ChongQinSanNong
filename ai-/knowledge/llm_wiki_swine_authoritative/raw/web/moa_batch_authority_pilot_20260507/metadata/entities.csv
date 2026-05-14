@@ -1,0 +1,6 @@
+﻿entity_id,name,entity_type,aliases,priority
+MANUAL-001,猪瘟,disease,['猪瘟'],manual
+MANUAL-002,口蹄疫,disease,['口蹄疫'],manual
+MANUAL-003,猪繁殖与呼吸综合征,disease,['猪繁殖与呼吸综合征'],manual
+MANUAL-004,恩诺沙星,drug,['恩诺沙星'],manual
+MANUAL-005,氟苯尼考,drug,['氟苯尼考'],manual

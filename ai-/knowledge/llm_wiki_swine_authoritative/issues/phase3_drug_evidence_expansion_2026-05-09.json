@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-05-09T11:42:41+08:00",
+  "purpose": "Phase 3 migration of large drug batch evidence blocks to non-runtime evidence expansion files.",
+  "targets": [
+    "DRUG-034-sulfonamides.md",
+    "DRUG-014-lincomycin.md",
+    "DRUG-009-penicillin-g.md",
+    "DRUG-030-tetracyclines.md",
+    "DRUG-023-gentamicin.md",
+    "DRUG-020-chlortetracycline.md",
+    "DRUG-066-dexamethasone.md"
+  ],
+  "records": [
+    {
+      "page": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "skipped": false,
+      "blocks_moved": 6,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14",
+        "RAU_201_400_V14",
+        "RAU_401_600_V14"
+      ],
+      "candidate_fact_mentions_moved": 15,
+      "dose_route_course_mentions_moved": 16,
+      "source_id_mentions_moved": 81,
+      "bytes_before": 39086,
+      "bytes_after": 7028,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-034-sulfonamides-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-014-lincomycin.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "candidate_fact_mentions_moved": 11,
+      "dose_route_course_mentions_moved": 7,
+      "source_id_mentions_moved": 42,
+      "bytes_before": 26389,
+      "bytes_after": 6371,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-014-lincomycin-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14",
+        "RAU_201_400_V14"
+      ],
+      "candidate_fact_mentions_moved": 8,
+      "dose_route_course_mentions_moved": 14,
+      "source_id_mentions_moved": 74,
+      "bytes_before": 45618,
+      "bytes_after": 6571,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-009-penicillin-g-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "skipped": false,
+      "blocks_moved": 3,
+      "block_names": [
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "candidate_fact_mentions_moved": 8,
+      "dose_route_course_mentions_moved": 7,
+      "source_id_mentions_moved": 33,
+      "bytes_before": 24142,
+      "bytes_after": 4594,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-030-tetracyclines-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-023-gentamicin.md",
+      "skipped": false,
+      "blocks_moved": 4,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "candidate_fact_mentions_moved": 5,
+      "dose_route_course_mentions_moved": 8,
+      "source_id_mentions_moved": 32,
+      "bytes_before": 23180,
+      "bytes_after": 6051,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-023-gentamicin-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "candidate_fact_mentions_moved": 13,
+      "dose_route_course_mentions_moved": 4,
+      "source_id_mentions_moved": 31,
+      "bytes_before": 19405,
+      "bytes_after": 6455,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-020-chlortetracycline-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_201_400_V14"
+      ],
+      "candidate_fact_mentions_moved": 4,
+      "dose_route_course_mentions_moved": 9,
+      "source_id_mentions_moved": 54,
+      "bytes_before": 29935,
+      "bytes_after": 4902,
+      "expansion": "wiki/evidence_expansions/drugs/DRUG-066-dexamethasone-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "guardrail_added": true
+    }
+  ]
+}

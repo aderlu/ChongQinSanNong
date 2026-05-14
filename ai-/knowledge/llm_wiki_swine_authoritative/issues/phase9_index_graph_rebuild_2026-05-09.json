@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-05-14T00:21:22+08:00",
+  "index_reports": [
+    {
+      "index": "source_index.csv",
+      "rows": 235,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "disease_index.csv",
+      "rows": 73,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "drug_page_index.csv",
+      "rows": 84,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "rule_index.csv",
+      "rows": 449,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "rule_card_index.csv",
+      "rows": 21,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "comparison_index.csv",
+      "rows": 14,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    },
+    {
+      "index": "synthesis_index.csv",
+      "rows": 24,
+      "deduplicated": 0,
+      "missing_paths": [],
+      "rewritten": true
+    }
+  ],
+  "missing_index_paths": 0,
+  "graph": {
+    "json": "wiki/graph-data.json",
+    "md": "wiki/knowledge-graph.md",
+    "html": "wiki/knowledge-graph.html",
+    "nodes": 2618,
+    "links": 2995,
+    "facts_in_graph": 2242
+  },
+  "smoke_test": {
+    "passed": true,
+    "json": "issues/runtime_retrieval_smoke_test_2026-05-09.json",
+    "md": "issues/runtime_retrieval_smoke_test_2026-05-09.md"
+  }
+}

@@ -1,0 +1,2475 @@
+{
+  "timestamp": "20260507_114439",
+  "models": [
+    "swine_ernie45_turbo32k",
+    "swine_hunyuan20_instruct",
+    "swine_hunyuan_turbos",
+    "swine_deepseek_v4_flash",
+    "swine_deepseek_v32"
+  ],
+  "key_count": 19,
+  "records": [
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 1,
+      "key_fingerprint": "408f1ccf2d63",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 5.251,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 2,
+      "key_fingerprint": "8a1384ec8046",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.774,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 3,
+      "key_fingerprint": "8cb453872788",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.293,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 4,
+      "key_fingerprint": "993313a8c81a",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.213,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 5,
+      "key_fingerprint": "ca6a04186520",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.803,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 6,
+      "key_fingerprint": "1e8b06b345f7",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 5.055,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 7,
+      "key_fingerprint": "fb3e9e31f56d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 5.977,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 8,
+      "key_fingerprint": "344c9291a027",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.444,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 9,
+      "key_fingerprint": "7b8b49842efc",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.713,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 10,
+      "key_fingerprint": "089989b20091",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.509,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 11,
+      "key_fingerprint": "8798281415b6",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.431,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 12,
+      "key_fingerprint": "4ae0cab1a311",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 5.76,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 13,
+      "key_fingerprint": "d86bf62fd68d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 7.346,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 14,
+      "key_fingerprint": "6bb171346afa",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.309,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 15,
+      "key_fingerprint": "50d7546f044f",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.469,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 16,
+      "key_fingerprint": "75595635c32e",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.373,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 17,
+      "key_fingerprint": "d242c7423361",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.604,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 18,
+      "key_fingerprint": "232377ce6842",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.808,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "model": "ERNIE-4.5-Turbo-32K",
+      "key_index": 19,
+      "key_fingerprint": "13cbb25a8cc3",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 5.344,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 36,
+        "total_tokens": 79,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000166,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 1,
+      "key_fingerprint": "408f1ccf2d63",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.236,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 2,
+      "key_fingerprint": "8a1384ec8046",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 4.132,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 3,
+      "key_fingerprint": "8cb453872788",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.715,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 4,
+      "key_fingerprint": "993313a8c81a",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.478,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 5,
+      "key_fingerprint": "ca6a04186520",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.993,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 6,
+      "key_fingerprint": "1e8b06b345f7",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.232,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 7,
+      "key_fingerprint": "fb3e9e31f56d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.837,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 8,
+      "key_fingerprint": "344c9291a027",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.656,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 9,
+      "key_fingerprint": "7b8b49842efc",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.704,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 10,
+      "key_fingerprint": "089989b20091",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.824,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 11,
+      "key_fingerprint": "8798281415b6",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.516,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 12,
+      "key_fingerprint": "4ae0cab1a311",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.865,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 13,
+      "key_fingerprint": "d86bf62fd68d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.804,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 14,
+      "key_fingerprint": "6bb171346afa",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.094,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 15,
+      "key_fingerprint": "50d7546f044f",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.818,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 16,
+      "key_fingerprint": "75595635c32e",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.05,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 17,
+      "key_fingerprint": "d242c7423361",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.505,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 18,
+      "key_fingerprint": "232377ce6842",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.743,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "model": "hunyuan-2.0-instruct-20251111",
+      "key_index": 19,
+      "key_fingerprint": "13cbb25a8cc3",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.076,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 84,
+        "total_tokens": 116,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000735,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 1,
+      "key_fingerprint": "408f1ccf2d63",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.172,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 2,
+      "key_fingerprint": "8a1384ec8046",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.224,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 3,
+      "key_fingerprint": "8cb453872788",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.092,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 4,
+      "key_fingerprint": "993313a8c81a",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.436,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 5,
+      "key_fingerprint": "ca6a04186520",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.212,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 6,
+      "key_fingerprint": "1e8b06b345f7",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.214,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 7,
+      "key_fingerprint": "fb3e9e31f56d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.043,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 8,
+      "key_fingerprint": "344c9291a027",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.19,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 9,
+      "key_fingerprint": "7b8b49842efc",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.174,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 10,
+      "key_fingerprint": "089989b20091",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.292,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 11,
+      "key_fingerprint": "8798281415b6",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.139,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 12,
+      "key_fingerprint": "4ae0cab1a311",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.177,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 13,
+      "key_fingerprint": "d86bf62fd68d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.157,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 14,
+      "key_fingerprint": "6bb171346afa",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.486,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 15,
+      "key_fingerprint": "50d7546f044f",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.252,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 16,
+      "key_fingerprint": "75595635c32e",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 3.94,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 17,
+      "key_fingerprint": "d242c7423361",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.077,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 18,
+      "key_fingerprint": "232377ce6842",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.145,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 64,
+        "total_tokens": 96,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000104,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "model": "hunyuan-turbos-20250926",
+      "key_index": 19,
+      "key_fingerprint": "13cbb25a8cc3",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.138,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 56,
+        "total_tokens": 97,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "cost": 0.000114,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 1,
+      "key_fingerprint": "408f1ccf2d63",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 2.933,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 2,
+      "key_fingerprint": "8a1384ec8046",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.519,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 56,
+        "prompt_tokens": 39,
+        "total_tokens": 95,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 24,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000151,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 3,
+      "key_fingerprint": "8cb453872788",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 2.753,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 66,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 4,
+      "key_fingerprint": "993313a8c81a",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.682,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 39,
+        "total_tokens": 117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000195,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 5,
+      "key_fingerprint": "ca6a04186520",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.915,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 39,
+        "total_tokens": 117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000195,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 6,
+      "key_fingerprint": "1e8b06b345f7",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 3.057,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 51,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 7,
+      "key_fingerprint": "fb3e9e31f56d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.638,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 39,
+        "total_tokens": 89,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 18,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000139,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 8,
+      "key_fingerprint": "344c9291a027",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.796,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 39,
+        "total_tokens": 117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000195,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 9,
+      "key_fingerprint": "7b8b49842efc",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.382,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 47,
+        "prompt_tokens": 39,
+        "total_tokens": 86,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 15,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000133,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 10,
+      "key_fingerprint": "089989b20091",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 2.848,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 51,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 11,
+      "key_fingerprint": "8798281415b6",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.851,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 39,
+        "total_tokens": 117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000195,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 12,
+      "key_fingerprint": "4ae0cab1a311",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.524,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 39,
+        "total_tokens": 80,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 9,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000121,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 13,
+      "key_fingerprint": "d86bf62fd68d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.33,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 39,
+        "total_tokens": 87,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 16,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000135,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 14,
+      "key_fingerprint": "6bb171346afa",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 2.844,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 15,
+      "key_fingerprint": "50d7546f044f",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 3.074,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 80,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 16,
+      "key_fingerprint": "75595635c32e",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 2.829,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 54,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 17,
+      "key_fingerprint": "d242c7423361",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": false,
+      "elapsed_seconds": 3.048,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 80,
+        "prompt_tokens": 39,
+        "total_tokens": 119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000199,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 18,
+      "key_fingerprint": "232377ce6842",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.315,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 39,
+        "total_tokens": 88,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 17,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000137,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "model": "deepseek-v4-flash",
+      "key_index": 19,
+      "key_fingerprint": "13cbb25a8cc3",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 2.913,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 77,
+        "prompt_tokens": 39,
+        "total_tokens": 116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000193,
+        "cost_detail": "RMB@nonelinear.com",
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 39
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 1,
+      "key_fingerprint": "408f1ccf2d63",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 12.938,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 2,
+      "key_fingerprint": "8a1384ec8046",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 9.046,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 3,
+      "key_fingerprint": "8cb453872788",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 15.407,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 4,
+      "key_fingerprint": "993313a8c81a",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 17.225,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 5,
+      "key_fingerprint": "ca6a04186520",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 20.519,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 6,
+      "key_fingerprint": "1e8b06b345f7",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 11.858,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 7,
+      "key_fingerprint": "fb3e9e31f56d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 7.69,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 8,
+      "key_fingerprint": "344c9291a027",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 11.184,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 9,
+      "key_fingerprint": "7b8b49842efc",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 6.547,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 10,
+      "key_fingerprint": "089989b20091",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 6.195,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 11,
+      "key_fingerprint": "8798281415b6",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 26.521,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 12,
+      "key_fingerprint": "4ae0cab1a311",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 16.539,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 13,
+      "key_fingerprint": "d86bf62fd68d",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 19.665,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 14,
+      "key_fingerprint": "6bb171346afa",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 11.066,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 15,
+      "key_fingerprint": "50d7546f044f",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 6.444,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 16,
+      "key_fingerprint": "75595635c32e",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 6.389,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 17,
+      "key_fingerprint": "d242c7423361",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 9.058,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 39,
+        "total_tokens": 74,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000183,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 18,
+      "key_fingerprint": "232377ce6842",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 12.749,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "model": "DeepSeek-V3.2",
+      "key_index": 19,
+      "key_fingerprint": "13cbb25a8cc3",
+      "repeat": 1,
+      "success": true,
+      "parsed_json": true,
+      "elapsed_seconds": 10.192,
+      "error": "",
+      "error_category": "",
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 39,
+        "total_tokens": 70,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0
+        },
+        "cost": 0.000171,
+        "cost_detail": "RMB@nonelinear.com"
+      }
+    }
+  ],
+  "model_summary": [
+    {
+      "model_key": "swine_hunyuan_turbos",
+      "calls": 19,
+      "successes": 19,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 2.293,
+      "min_elapsed_seconds": 2.043,
+      "errors": []
+    },
+    {
+      "model_key": "swine_hunyuan20_instruct",
+      "calls": 19,
+      "successes": 19,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 2.909,
+      "min_elapsed_seconds": 2.478,
+      "errors": []
+    },
+    {
+      "model_key": "swine_ernie45_turbo32k",
+      "calls": 19,
+      "successes": 19,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.604,
+      "min_elapsed_seconds": 3.431,
+      "errors": []
+    },
+    {
+      "model_key": "swine_deepseek_v32",
+      "calls": 19,
+      "successes": 19,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 12.486,
+      "min_elapsed_seconds": 6.195,
+      "errors": []
+    },
+    {
+      "model_key": "swine_deepseek_v4_flash",
+      "calls": 19,
+      "successes": 11,
+      "success_rate": 0.5789,
+      "avg_elapsed_seconds": 2.624,
+      "min_elapsed_seconds": 2.315,
+      "errors": []
+    }
+  ],
+  "key_summary": [
+    {
+      "key_fingerprint": "7b8b49842efc",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 3.504,
+      "min_elapsed_seconds": 2.174,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "fb3e9e31f56d",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.237,
+      "min_elapsed_seconds": 2.043,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "8a1384ec8046",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.539,
+      "min_elapsed_seconds": 2.224,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "344c9291a027",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.654,
+      "min_elapsed_seconds": 2.19,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "13cbb25a8cc3",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.733,
+      "min_elapsed_seconds": 2.138,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "232377ce6842",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 4.952,
+      "min_elapsed_seconds": 2.145,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "993313a8c81a",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 5.807,
+      "min_elapsed_seconds": 2.436,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "4ae0cab1a311",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 5.973,
+      "min_elapsed_seconds": 2.177,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "ca6a04186520",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 6.488,
+      "min_elapsed_seconds": 2.212,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "d86bf62fd68d",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 6.86,
+      "min_elapsed_seconds": 2.157,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "8798281415b6",
+      "calls": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "avg_elapsed_seconds": 7.492,
+      "min_elapsed_seconds": 2.139,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "089989b20091",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 3.705,
+      "min_elapsed_seconds": 2.292,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "50d7546f044f",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 3.746,
+      "min_elapsed_seconds": 2.252,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "d242c7423361",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 4.311,
+      "min_elapsed_seconds": 2.077,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "75595635c32e",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 4.438,
+      "min_elapsed_seconds": 3.05,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "6bb171346afa",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 5.239,
+      "min_elapsed_seconds": 2.486,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "1e8b06b345f7",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 5.59,
+      "min_elapsed_seconds": 2.214,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "408f1ccf2d63",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 5.899,
+      "min_elapsed_seconds": 2.172,
+      "errors": []
+    },
+    {
+      "key_fingerprint": "8cb453872788",
+      "calls": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "avg_elapsed_seconds": 6.127,
+      "min_elapsed_seconds": 2.092,
+      "errors": []
+    }
+  ]
+}

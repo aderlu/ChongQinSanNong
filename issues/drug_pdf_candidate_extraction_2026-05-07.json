@@ -1,0 +1,827 @@
+{
+  "task_id": "D1",
+  "created_date": "2026-05-07",
+  "workspace": "D:/XF-ChongQin",
+  "source_pdf": "ai-\\docs\\Diseases of Swine, 11th Edition (Jeffrey J. Zimmerman,  Locke A. Karriker etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "parsers_used": [
+    "PyMuPDF full-document keyword/page extraction",
+    "pdfplumber text spot checks on key pages and table checks on sampled pages",
+    "pdfminer.high_level spot checks on key pages"
+  ],
+  "page_numbering": "PDF 1-based page numbers as reported by PyMuPDF document pages/TOC, not printed book pagination.",
+  "candidates": [
+    {
+      "drug_id_suggestion": "penicillin_g",
+      "zh_name": "青霉素G/青霉素类",
+      "en_name": "Penicillin G; penicillin",
+      "drug_class": "beta-lactam / penicillins",
+      "diseases": [
+        "Erysipelas",
+        "Streptococcosis",
+        "Clostridial diseases",
+        "Actinobacillosis",
+        "Anthrax",
+        "Listeriosis",
+        "Trueperella pyogenes abscesses"
+      ],
+      "pages": [
+        184,
+        186,
+        190,
+        784,
+        820,
+        825,
+        827,
+        865,
+        966,
+        967,
+        1006,
+        1009,
+        1018,
+        1022
+      ],
+      "context": "Chapter 10 major antimicrobial table plus disease-chapter treatment/susceptibility contexts, especially erysipelas, streptococcal, clostridial, anthrax, listeriosis, and abscess-related bacteria.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "amoxicillin",
+      "zh_name": "阿莫西林",
+      "en_name": "Amoxicillin",
+      "drug_class": "beta-lactam / aminopenicillin",
+      "diseases": [
+        "Clostridial enteritis prophylaxis",
+        "Actinobacillosis susceptibility",
+        "Colibacillosis context",
+        "Streptococcosis"
+      ],
+      "pages": [
+        184,
+        187,
+        190,
+        784,
+        820,
+        847,
+        967
+      ],
+      "context": "Beta-lactam/aminopenicillin candidate. Chapter 10 covers pharmacology and water-medication context; clostridial disease chapter mentions neonatal prophylaxis context.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "ceftiofur",
+      "zh_name": "头孢噻呋",
+      "en_name": "Ceftiofur",
+      "drug_class": "beta-lactam / third-generation cephalosporin",
+      "diseases": [
+        "Actinobacillosis",
+        "Bordetellosis mixed respiratory disease caution",
+        "Colibacillosis AMR context",
+        "Pasteurellosis pneumonia",
+        "Staphylococcosis",
+        "Streptococcosis"
+      ],
+      "pages": [
+        184,
+        187,
+        188,
+        190,
+        784,
+        787,
+        798,
+        836,
+        840,
+        847,
+        918,
+        919,
+        946,
+        954,
+        966,
+        967
+      ],
+      "context": "Cephalosporin candidate across respiratory/systemic bacterial chapters. Includes positive treatment/susceptibility contexts and a Bordetella mixed-infection caution.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "florfenicol",
+      "zh_name": "氟苯尼考",
+      "en_name": "Florfenicol",
+      "drug_class": "phenicol",
+      "diseases": [
+        "Actinobacillosis",
+        "Mycoplasmosis",
+        "Streptococcosis",
+        "Salmonellosis context"
+      ],
+      "pages": [
+        185,
+        784,
+        893,
+        966
+      ],
+      "context": "Phenicol candidate from Chapter 10 table and respiratory/streptococcal susceptibility contexts; includes label/extra-label boundary language in the textbook.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "tiamulin",
+      "zh_name": "泰妙菌素",
+      "en_name": "Tiamulin",
+      "drug_class": "pleuromutilin",
+      "diseases": [
+        "Swine dysentery",
+        "Brachyspiral colitis",
+        "Mycoplasmosis",
+        "Proliferative enteropathy",
+        "Actinobacillosis",
+        "Leptospirosis context"
+      ],
+      "pages": [
+        185,
+        188,
+        784,
+        787,
+        893,
+        931,
+        967,
+        983,
+        984,
+        990,
+        1099,
+        1100
+      ],
+      "context": "Pleuromutilin candidate for Brachyspira, Mycoplasma, chronic pneumonia, proliferative enteropathy, and swine dysentery; dose and ionophore-toxicity contexts are present.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "lincomycin",
+      "zh_name": "林可霉素",
+      "en_name": "Lincomycin",
+      "drug_class": "lincosamide",
+      "diseases": [
+        "Swine dysentery",
+        "Brachyspiral colitis",
+        "Mycoplasmosis",
+        "Staphylococcosis",
+        "Streptococcosis",
+        "Treponema pedis skin lesions context"
+      ],
+      "pages": [
+        184,
+        784,
+        893,
+        898,
+        954,
+        983,
+        984,
+        990,
+        1020
+      ],
+      "context": "Lincosamide candidate, often with swine dysentery/Brachyspira and lincomycin-spectinomycin contexts; Chapter 62 contains dose/duration table context.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "tylosin",
+      "zh_name": "泰乐菌素",
+      "en_name": "Tylosin",
+      "drug_class": "macrolide",
+      "diseases": [
+        "Proliferative enteropathy",
+        "Swine dysentery",
+        "Brachyspiral colitis",
+        "Mycoplasmosis",
+        "Atrophic rhinitis",
+        "Leptospirosis context"
+      ],
+      "pages": [
+        185,
+        784,
+        823,
+        884,
+        893,
+        931,
+        983,
+        984,
+        990,
+        1084,
+        1100
+      ],
+      "context": "Macrolide candidate for proliferative enteropathy, atrophic rhinitis, leptospirosis study context, and swine dysentery; resistance/adverse-effect boundaries present.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "tylvalosin",
+      "zh_name": "泰万菌素",
+      "en_name": "Tylvalosin",
+      "drug_class": "macrolide",
+      "diseases": [
+        "Proliferative enteropathy",
+        "Swine dysentery/control context"
+      ],
+      "pages": [
+        185,
+        931,
+        983,
+        984,
+        990
+      ],
+      "context": "Macrolide candidate, especially proliferative enteropathy and Brachyspira/swine dysentery control context.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "tulathromycin",
+      "zh_name": "泰拉霉素",
+      "en_name": "Tulathromycin",
+      "drug_class": "macrolide",
+      "diseases": [
+        "Actinobacillosis",
+        "Bordetellosis/Pasteurella mixed respiratory disease",
+        "Pasteurellosis pneumonia"
+      ],
+      "pages": [
+        185,
+        190,
+        784,
+        798,
+        918,
+        919
+      ],
+      "context": "Macrolide candidate appearing in Chapter 10 and respiratory disease chapters, including pulmonary Pasteurella parenteral-option context.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "enrofloxacin",
+      "zh_name": "恩诺沙星",
+      "en_name": "Enrofloxacin",
+      "drug_class": "fluoroquinolone",
+      "diseases": [
+        "Actinobacillosis",
+        "Bordetellosis",
+        "Colibacillosis/PPDS",
+        "Pasteurellosis pneumonia",
+        "Streptococcosis"
+      ],
+      "pages": [
+        185,
+        186,
+        187,
+        190,
+        784,
+        798,
+        836,
+        854,
+        918,
+        919,
+        954,
+        955,
+        966
+      ],
+      "context": "Fluoroquinolone candidate with pharmacodynamic, age-metabolism, immune-effect, respiratory, colibacillosis, and streptococcal contexts; high-importance antimicrobial boundary present.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "tetracyclines",
+      "zh_name": "四环素类（含土霉素/金霉素/多西环素）",
+      "en_name": "Tetracyclines; oxytetracycline; chlortetracycline; doxycycline",
+      "drug_class": "tetracycline antimicrobial class",
+      "diseases": [
+        "Actinobacillosis",
+        "Bordetellosis/atrophic rhinitis",
+        "Clostridial diseases",
+        "Erysipelas",
+        "Leptospirosis",
+        "Mycoplasmosis",
+        "Pasteurellosis",
+        "Streptococcosis"
+      ],
+      "pages": [
+        185,
+        186,
+        187,
+        190,
+        784,
+        798,
+        820,
+        825,
+        827,
+        865,
+        875,
+        884,
+        893,
+        898,
+        918,
+        919,
+        931,
+        937,
+        954,
+        955,
+        966,
+        970,
+        971,
+        1006,
+        1009,
+        1022
+      ],
+      "context": "Class candidate including oxytetracycline, chlortetracycline, and doxycycline. Broad disease spread, but textbook repeatedly notes resistance and context-specific susceptibility.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "pleuromutilins",
+      "zh_name": "截短侧耳素类",
+      "en_name": "Pleuromutilins",
+      "drug_class": "antimicrobial class",
+      "diseases": [
+        "Swine dysentery",
+        "Brachyspiral colitis",
+        "Mycoplasmosis",
+        "Proliferative enteropathy"
+      ],
+      "pages": [
+        185,
+        893,
+        931,
+        983,
+        984
+      ],
+      "context": "Class candidate represented chiefly by tiamulin/valnemulin; most relevant to Brachyspira/swine dysentery and Mycoplasma/proliferative enteropathy contexts.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "macrolides",
+      "zh_name": "大环内酯类",
+      "en_name": "Macrolides",
+      "drug_class": "antimicrobial class",
+      "diseases": [
+        "Mycoplasmosis",
+        "Proliferative enteropathy",
+        "Swine dysentery",
+        "Erysipelas susceptibility",
+        "Leptospirosis context"
+      ],
+      "pages": [
+        185,
+        186,
+        812,
+        865,
+        884,
+        893,
+        898,
+        899,
+        931,
+        983,
+        1015
+      ],
+      "context": "Class candidate represented by tylosin, tylvalosin, tulathromycin, and tilmicosin; recurring in Mycoplasma, Lawsonia, respiratory, and Brachyspira contexts.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "lincosamides",
+      "zh_name": "林可酰胺类",
+      "en_name": "Lincosamides",
+      "drug_class": "antimicrobial class",
+      "diseases": [
+        "Mycoplasmosis",
+        "Swine dysentery",
+        "Erysipelas susceptibility"
+      ],
+      "pages": [
+        184,
+        186,
+        893,
+        983,
+        984
+      ],
+      "context": "Class candidate represented by lincomycin; time-dependent pharmacology and swine dysentery dose-table contexts are present.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "beta_lactams",
+      "zh_name": "β-内酰胺类",
+      "en_name": "Beta-lactams",
+      "drug_class": "antimicrobial class",
+      "diseases": [
+        "Mycoplasmosis exclusion",
+        "Erysipelas/Streptococcus/Clostridia susceptible contexts",
+        "Gl?sser disease resistance context"
+      ],
+      "pages": [
+        184,
+        186,
+        875,
+        893,
+        971
+      ],
+      "context": "Class candidate including penicillins/aminopenicillins/cephalosporins; important negative boundary: Mycoplasma lacks a cell wall and is insensitive to beta-lactams.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "sulfonamides",
+      "zh_name": "磺胺类/磺胺增效组合",
+      "en_name": "Sulfonamides; trimethoprim-sulfonamide combinations",
+      "drug_class": "sulfonamide antimicrobial class",
+      "diseases": [
+        "Respiratory acute infections",
+        "Atrophic rhinitis",
+        "Colibacillosis",
+        "Actinobacillosis",
+        "Staphylococcosis",
+        "Streptococcosis",
+        "Salmonellosis context"
+      ],
+      "pages": [
+        184,
+        186,
+        192,
+        784,
+        787,
+        798,
+        840,
+        847,
+        854,
+        918,
+        923,
+        946,
+        954,
+        955,
+        966,
+        967,
+        1022
+      ],
+      "context": "Sulfonamide and trimethoprim-sulfonamide class candidate across acute respiratory, atrophic rhinitis, colibacillosis, actinobacillosis, streptococcal, and salmonellosis contexts.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "aminoglycosides",
+      "zh_name": "氨基糖苷类（含庆大/新霉素/安普霉素）",
+      "en_name": "Aminoglycosides; gentamicin; neomycin; apramycin",
+      "drug_class": "aminoglycoside antimicrobial class",
+      "diseases": [
+        "Colibacillosis",
+        "Actinobacillosis",
+        "Mycoplasmosis exclusion/variable",
+        "Streptococcosis",
+        "Listeriosis"
+      ],
+      "pages": [
+        184,
+        186,
+        189,
+        784,
+        787,
+        836,
+        840,
+        847,
+        849,
+        854,
+        884,
+        893,
+        931,
+        946,
+        955,
+        967,
+        971,
+        976,
+        983,
+        1018,
+        1020,
+        1024
+      ],
+      "context": "Class candidate including gentamicin, neomycin, apramycin, and spectinomycin; concentration-dependent/toxicity-limited pharmacology and colibacillosis treatment-list contexts.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "nsaids",
+      "zh_name": "非甾体抗炎药",
+      "en_name": "NSAIDs; nonsteroidal anti-inflammatory drugs",
+      "drug_class": "anti-inflammatory/supportive therapeutics",
+      "diseases": [
+        "Gl?sser disease supportive recovery",
+        "General pharmacology/supportive care contexts"
+      ],
+      "pages": [
+        193,
+        194,
+        209,
+        240,
+        355,
+        875,
+        946
+      ],
+      "context": "Supportive anti-inflammatory class candidate, not antimicrobial. Main disease context is adjunct recovery support in Glasser disease/systemic H. parasuis infection.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "iron_dextran",
+      "zh_name": "右旋糖酐铁/铁注射剂",
+      "en_name": "Iron dextran; injectable iron",
+      "drug_class": "mineral hematinic/supportive therapy",
+      "diseases": [
+        "Mycoplasma suis anemia supportive care",
+        "Iron deficiency in suckling pigs",
+        "Iron toxicity boundary"
+      ],
+      "pages": [
+        281,
+        901,
+        1075,
+        1076
+      ],
+      "context": "Supportive hematinic/mineral candidate. Appears in M. suis anemia supportive therapy, piglet iron deficiency, and iron-dextran toxicity boundary contexts.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "toltrazuril",
+      "zh_name": "托曲珠利",
+      "en_name": "Toltrazuril",
+      "drug_class": "anticoccidial / triazinone",
+      "diseases": [
+        "Cystoisospora suis coccidiosis in nursing piglets",
+        "Toxoplasmosis related compound context"
+      ],
+      "pages": [
+        1043,
+        1045
+      ],
+      "context": "Anticoccidial candidate for nursing piglet Cystoisospora suis coccidiosis; related-compound toxoplasmosis discussion is boundary-only.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "fenbendazole",
+      "zh_name": "芬苯达唑",
+      "en_name": "Fenbendazole",
+      "drug_class": "benzimidazole anthelmintic",
+      "diseases": [
+        "Internal parasites: Ascaris suum, Metastrongylus, Oesophagostomum, Hyostrongylus, Stephanurus, Trichuris",
+        "Giardia no-approved-drug boundary"
+      ],
+      "pages": [
+        192,
+        1049,
+        1063,
+        1064
+      ],
+      "context": "Benzimidazole anthelmintic candidate from common swine anthelmintic dose table and internal parasite label coverage; Giardia page is a no-approved-drug boundary.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "ivermectin",
+      "zh_name": "伊维菌素",
+      "en_name": "Ivermectin",
+      "drug_class": "avermectin antiparasitic",
+      "diseases": [
+        "Sarcoptic mange",
+        "Lice",
+        "Common swine anthelmintic table"
+      ],
+      "pages": [
+        192,
+        1031,
+        1032,
+        1033
+      ],
+      "context": "Avermectin antiparasitic candidate for mange/lice and anthelmintic table contexts; demodicosis page is a negative extrapolation boundary.",
+      "withdrawal_word": false,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    },
+    {
+      "drug_id_suggestion": "doramectin",
+      "zh_name": "多拉菌素",
+      "en_name": "Doramectin",
+      "drug_class": "avermectin antiparasitic",
+      "diseases": [
+        "External parasites: lice/mites/larval flies",
+        "Internal parasites: A. suum, Oesophagostomum, Strongyloides ransomi, Metastrongylus, Stephanurus"
+      ],
+      "pages": [
+        192,
+        1031,
+        1032,
+        1064
+      ],
+      "context": "Avermectin antiparasitic candidate for external parasites and labeled internal parasite coverage; Trichuris efficacy is variable in the textbook.",
+      "withdrawal_word": true,
+      "dose_word": true,
+      "evidence_note": "See listed PDF pages and textbook_context; source wording summarized without long quotes.",
+      "boundary": "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data."
+    }
+  ],
+  "not_found_or_negative_findings": [
+    {
+      "term": "decoquinate",
+      "zh_name": "地克珠利/癘氧喹酯候选核查项",
+      "status": "The string decoquinate was not detected in the PyMuPDF full-text scan or the pdfplumber/pdfminer spot-check workflow; no positive drug candidate generated.",
+      "pages": []
+    }
+  ],
+  "global_boundaries": [
+    "Summaries only; no long source passages copied.",
+    "Textbook evidence only. Do not infer current legal label, approved indication, dose, withdrawal interval, or prescription guidance for any jurisdiction; verify current local label/regulation, veterinary direction, and susceptibility data.",
+    "Class-level candidates are not concrete products; later wiki work must split active ingredient, formulation, jurisdiction, label status, and withdrawal interval."
+  ],
+  "cross_parser_spot_checks": [
+    {
+      "page": 184,
+      "terms": [
+        "penicillin",
+        "amoxicillin",
+        "sulfonamide"
+      ],
+      "hits": {
+        "pymupdf": [
+          "penicillin",
+          "amoxicillin",
+          "sulfonamide"
+        ],
+        "pdfplumber": [
+          "penicillin",
+          "amoxicillin",
+          "sulfonamide"
+        ],
+        "pdfminer": [
+          "penicillin",
+          "amoxicillin",
+          "sulfonamide"
+        ]
+      }
+    },
+    {
+      "page": 185,
+      "terms": [
+        "tylosin",
+        "tiamulin",
+        "florfenicol",
+        "enrofloxacin"
+      ],
+      "hits": {
+        "pymupdf": [
+          "tylosin",
+          "tiamulin",
+          "florfenicol",
+          "enrofloxacin"
+        ],
+        "pdfplumber": [
+          "tylosin",
+          "tiamulin",
+          "florfenicol",
+          "enrofloxacin"
+        ],
+        "pdfminer": [
+          "tylosin",
+          "tiamulin",
+          "florfenicol",
+          "enrofloxacin"
+        ]
+      }
+    },
+    {
+      "page": 192,
+      "terms": [
+        "doramectin",
+        "fenbendazole",
+        "ivermectin"
+      ],
+      "hits": {
+        "pymupdf": [
+          "doramectin",
+          "fenbendazole",
+          "ivermectin"
+        ],
+        "pdfplumber": [
+          "doramectin",
+          "fenbendazole",
+          "ivermectin"
+        ],
+        "pdfminer": [
+          "doramectin",
+          "fenbendazole",
+          "ivermectin"
+        ]
+      }
+    },
+    {
+      "page": 984,
+      "terms": [
+        "tiamulin",
+        "tylosin",
+        "lincomycin"
+      ],
+      "hits": {
+        "pymupdf": [
+          "tiamulin",
+          "tylosin",
+          "lincomycin"
+        ],
+        "pdfplumber": [
+          "tiamulin",
+          "tylosin",
+          "lincomycin"
+        ],
+        "pdfminer": [
+          "tiamulin",
+          "tylosin",
+          "lincomycin"
+        ]
+      }
+    },
+    {
+      "page": 1043,
+      "terms": [
+        "toltrazuril"
+      ],
+      "hits": {
+        "pymupdf": [
+          "toltrazuril"
+        ],
+        "pdfplumber": [
+          "toltrazuril"
+        ],
+        "pdfminer": [
+          "toltrazuril"
+        ]
+      }
+    },
+    {
+      "page": 1064,
+      "terms": [
+        "doramectin",
+        "fenbendazole"
+      ],
+      "hits": {
+        "pymupdf": [
+          "doramectin",
+          "fenbendazole"
+        ],
+        "pdfplumber": [
+          "doramectin",
+          "fenbendazole"
+        ],
+        "pdfminer": [
+          "doramectin",
+          "fenbendazole"
+        ]
+      }
+    }
+  ]
+}

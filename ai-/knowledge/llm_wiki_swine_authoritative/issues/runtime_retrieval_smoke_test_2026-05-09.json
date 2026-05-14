@@ -1,0 +1,99 @@
+{
+  "tests": [
+    {
+      "query": "仔猪腹泻 黄白痢 水样腹泻",
+      "top_page_ids": [
+        "DIS-040",
+        "DIS-041",
+        "CMP-001",
+        "SYN-001-piglet-diarrhea"
+      ],
+      "top_paths": [
+        "wiki/diseases/DIS-040-colibacillosis.md",
+        "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+        "wiki/comparisons/CMP-001-neonatal-diarrhea.md",
+        "wiki/syndromes/SYN-001-piglet-diarrhea.md"
+      ],
+      "hit_expected": true,
+      "hit_forbidden": false,
+      "passed": true
+    },
+    {
+      "query": "口蹄疫 水疱 调运 上报",
+      "top_page_ids": [
+        "DIS-026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-REGULATORY-CURRENT-001",
+        "CMP-005"
+      ],
+      "top_paths": [
+        "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+        "wiki/rule_cards/RC-DISEASE-REGULATORY-001.md",
+        "wiki/rule_cards/RC-REGULATORY-CURRENT-001.md",
+        "wiki/comparisons/CMP-005-vesicular-disease.md"
+      ],
+      "hit_expected": true,
+      "hit_forbidden": false,
+      "passed": true
+    },
+    {
+      "query": "恩诺沙星 休药期 残留",
+      "top_page_ids": [
+        "DRUG-018-enrofloxacin",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001"
+      ],
+      "top_paths": [
+        "wiki/drugs/DRUG-018-enrofloxacin.md",
+        "wiki/rule_cards/RC-DRUG-001.md",
+        "wiki/rule_cards/RC-WITHDRAWAL-MRL-001.md"
+      ],
+      "hit_expected": true,
+      "hit_forbidden": false,
+      "passed": true
+    },
+    {
+      "query": "PCR 阳性 Ct 值 是否确诊",
+      "top_page_ids": [
+        "RC-DX-001",
+        "RC-EVAL-RUBRIC-001",
+        "DIS-025",
+        "DIS-028",
+        "DIS-035",
+        "DIS-036",
+        "DIS-054",
+        "DRUG-001-avermectins"
+      ],
+      "top_paths": [
+        "wiki/rule_cards/RC-DX-001.md",
+        "wiki/rule_cards/RC-EVAL-RUBRIC-001.md",
+        "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+        "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+        "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+        "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+        "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+        "wiki/drugs/DRUG-001-avermectins.md"
+      ],
+      "hit_expected": true,
+      "hit_forbidden": false,
+      "passed": true
+    },
+    {
+      "query": "非洲猪瘟 扑杀 治疗",
+      "top_page_ids": [
+        "DIS-002",
+        "RC-ASF-001",
+        "RC-DISEASE-REGULATORY-001"
+      ],
+      "top_paths": [
+        "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+        "wiki/rule_cards/RC-ASF-001.md",
+        "wiki/rule_cards/RC-DISEASE-REGULATORY-001.md"
+      ],
+      "hit_expected": true,
+      "hit_forbidden": false,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

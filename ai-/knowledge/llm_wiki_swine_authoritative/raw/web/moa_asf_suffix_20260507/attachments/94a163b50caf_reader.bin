@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10;IE=9;IE=8;IE=EDGE">
+    <link rel="shortcut icon" href="./static/favicon.ico" type="image/x-icon">
+    <!--UI style-->
+    <link href="./static/4.0/pc/css/app.css?v=3001.29.0.250428.154919" rel=stylesheet>
+    <!--UI style end-->
+    <link href="./reader/static/style/static.css?v=3001.29.0.250428.154919" rel=stylesheet>
+    <link rel="stylesheet" type="text/css" href="./reader/static/style/reader-core-3.2.0.css?v=3001.29.0.250428.154919"/>
+    <!--
+    <link rel="stylesheet" type="text/css" href="./reader/static/style/jquery.contextmenu.css" />
+    <link rel="stylesheet" type="text/css" href="./reader/static/common/viewer/viewer.css" />
+    <link rel="stylesheet" type="text/css" href="./reader/static/common/viewer/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="./reader/static/style/reader-core-3.2.0.css" />
+    <link rel="stylesheet" type="text/css" href="./reader/static/zTree_v3/zTreeStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="./reader/static/mobile/common/layer/need/layer.css"/>
+    <link rel="stylesheet" type="text/css" href="./reader/static/grid/acw_client/menu.css" />
+    -->
+
+    <script type="text/javascript">
+        window._Origin = 'pc_4.0';
+    </script>
+    <script type="text/javascript" src="./reader/static/common/polyfill.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./static/4.0/pc/iconfont.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/script/jquery.min.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/mobile/common/js/hammer.min.js?v=3001.29.0.250428.154919"></script>
+    <!--<script type="text/javascript" src="./reader/static/common/zoom-jquery.min.js"></script>-->
+    <!--book style-->
+    <!--<script type="text/javascript" src="./reader/static/script/turn-4.1.0.min.js"></script>-->
+    <!--contextmeau style-->
+    <script type="text/javascript" src="./reader/static/script/jquery.extend.min.js?v=3001.29.0.250428.154919"></script>
+
+    <!-- <script type="text/javascript" src="./reader/static/zTree_v3/jquery.ztree.core.min.js" async></script>-->
+    <!--excel-->
+    <!--<script type='text/javascript' src='./reader/static/script/jquery.fullscreen-1.1.5.min.js' async></script>
+    &lt;!&ndash;jump to&ndash;&gt;
+    <script type="text/javascript" src="./reader/static/script/jquery.scrollTo-2.1.2.min.js" async></script>-->
+    <!--<script type="text/javascript" src="./reader/static/mobile/common/layer/layer.js"></script>-->
+    <script type="text/javascript" src="./reader/static/common/reader-config.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/common/md5.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/script/reader-base-3.2.0.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/common/crypto-js.js?v=3001.29.0.250428.154919"></script>
+    <!--<script type="text/javascript" src="./reader/static/common/reader-aes.js"></script>-->
+    <script type="text/javascript" src="./reader/static/common/reader-h5.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/script/reader-core-3.2.0.js?v=3001.29.0.250428.154919"></script>
+    <script src="./reader/static/common/clipboard.js?v=3001.29.0.250428.154919" type="text/javascript"></script>
+    <script type="text/javascript" src="./reader/static/common/reader-event-3.2.0.js?v=3001.29.0.250428.154919"></script>
+    <script type="text/javascript" src="./reader/static/rpc/xmlrpc.js?v=3001.29.0.250428.154919"></script>
+    <!--<script type="text/javascript" src="./reader/static/script/reader-sync-3.2.0.js" async></script>-->
+    <script type="text/javascript" src="./reader/static/script/reader-ops-4.0.0.js?v=3001.29.0.250428.154919"></script>
+    <!--    <script type="text/javascript" src="./reader/static/wx/jweixin-1.2.0.js" async></script>-->
+    <!--<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" async></script>-->
+
+    <!--    <script type="text/javascript" src="./reader/static/script/suwell_ofdReader.js" async></script>-->
+    <!--DONT MODIFY IT!-->
+    <style>.rDocument .rBackdrop > img { background-color: white; }</style>
+    <title>数科网页轻阅读</title>
+<script type='text/javascript'>
+window.Servlet = {"name":"reader","server":"./","folder":"./reader/static","version":"3001.29.0.250428.154919","birthday":"3001.250430.1.0-250428.154919"};
+var param = {"file":"https://www.moa.gov.cn/govpublic/SYJ/201511/P020151125628261658854.ceb","wr_hash":"639ced4ada4cff893c58ef3bdaf0de82204f78ee"};
+</script>
+
+    <style>
+        .rDocument .rMain, .rDocument .rBackdrop table td {
+            background: url("data:image/gif;base64,R0lGODlhHgAeAPIAADux9Ljl/oLP+9vw/AAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyOTUyZjk1OC1iYjMwLTVmNDMtOGJiMy0wNjRlMWU2YWUxYTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzNFQzdBNEY0NkFFMTFFQzk3OTdCQ0ZERTg5Q0RFMEUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzNFQzdBNEU0NkFFMTFFQzk3OTdCQ0ZERTg5Q0RFMEUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZmVjYTY4YzUtYjhhOC00MWZlLThlNTYtYTQ5YzMyNTU2NWRmIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NWMwMjZkOTctMTRhNS01ZTRlLWJiYmYtMjk3NjEzNTY4NGY4Ii8+IDwvcmRmOkRlc2NyaXB0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") no-repeat center;
+        }
+        .el-tree__empty-text {
+            position: static;
+            left: 0;
+            top: 0;
+            transform: translate(0, 0);
+            color: #909399;
+            font-size: 14px;
+            width: 160px;
+            display: inline-block;
+            margin-top: 130px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var checkSdk = "false" == "true";
+            var R = window.SWR, RL = R.Logger, RS = R.Supports, RC = R.Common.CmdPrefix, core = RS.core,
+                Config = R.Config;
+            var data = param || (function () {
+                function value(name) {
+                    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+                    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+                    var results = regex.exec(location.search);
+                    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+                }
+
+                return {
+                    file: value('file') || value('ticket'),
+                    zoom: value('zoom'),
+                    jump: value('jump'),
+                    layoutMode: value('layoutMode')
+                };
+            })();
+            if (data.file && core) {
+                var reader = new core.body({
+                    container: 'component',
+                    zoom: data.zoom,
+                    viewMode: 'image',
+                    layoutMode: data.layoutMode
+                }), namespace = '.index';
+
+                //document event
+                /*$.each([ 'view', 'zoom', 'layout', 'opening', 'opened', 'closed' ], function (_, n) {
+                 reader.on(RC.Book + n + namespace, function () {
+                 RL.log('Document event: ', $.makeArray(arguments));
+                 });
+                 });*/
+                // page event
+                /*$.each([ 'index', 'loading', 'loaded', 'imaged', 'texted' ], function (_, n) {
+                 reader.on(RC.Page + n + namespace, function () {
+                 RL.log('Page event: ', $.makeArray(arguments));
+                 });
+                 });*/
+
+                // command result
+                /*reader.on(RC.Action + core.name + namespace, function () {
+                 RL.log('Action: ', $.makeArray(arguments));
+                 });
+                 reader.on(RC.Action + 'ops' + namespace, function () {
+                 RL.log('Action: ', $.makeArray(arguments));
+                 });*/
+                // send command
+                checkSdk ? checkJsSdk() : doOpen();
+            } else {
+                RL.error('Reader core not inited');
+            }
+            // var scwidth = screen.width;
+            // $(window).resize(function () {
+            //     if (scwidth != screen.width) {
+            //         window.location.reload();
+            //     }
+            // })
+
+            function checkJsSdk() {
+                $.getScript(Config.static + "/wx/jweixin-1.2.0.js", function () {
+                    $.ajax({
+                        url: "./reader/config?",
+                        type: 'get',
+                        dataType: 'json',
+                        data: {
+                            'url': location.href.split('#')[0],
+                            file: data.file
+                        },
+                        success: function (data) {
+                            var jsApiList = ['checkJsApi',
+                                'showMenuItems',
+                                "hideAllNonBaseMenuItem"
+                            ], showMenuItems = [];
+                            if (data) {
+                                if (data["jsApiList"]) {
+                                    jsApiList = data.jsApiList.replace(/\s*/g, "").split(";");
+                                }
+                                if (data["showMenuItems"]) {
+                                    showMenuItems = data.showMenuItems.replace(/\s*/g, "").split(";")
+                                }
+                                wx.config({
+                                    debug: false,
+                                    appId: data.appId,
+                                    timestamp: data.timestamp,
+                                    nonceStr: data.nonceStr,
+                                    signature: data.signature,
+                                    jsApiList: jsApiList,
+                                    success: function () {
+                                        wx.hideAllNonBaseMenuItem();
+                                        wx.showMenuItems({
+                                            menuList: showMenuItems,
+                                        });
+                                        wx.hideMenuItems({
+                                            menuList: ["menuItem:copyUrl"]
+                                        });
+                                        doOpen();
+                                    }
+                                });
+                                wx.error(function (e) {
+                                    alert(e.errMsg);
+                                })
+                            } else {
+                                alert("获取参数错误");
+                            }
+                        }
+                    });
+                })
+            }
+
+            function doOpen() {
+                reader.fire(RC.Operate + core.name, ['open', data, {
+                    done: function (file, count, title) {
+                        Config.printMode == "auto" && setTimeout(function () {
+                            R.Util.initOFDReader();
+                        }, 1000);
+                        //兼容IE8
+                        RL.info('File ' + file + ' was opened, has ' + count + ' pages.');
+                        //自定义搜索&search=key
+                        // $.isNumeric(data['jump']) && reader.jump(data['jump']);
+                        // data['search'] && reader.fire(RC.Operate + "ops", ['search', 'searchAll', data.search]);
+                        if (title) {
+                            document.title = title;
+                            $('title').text(title)
+                        }
+                    },
+                    fail: RL.warn
+                }]);
+            }
+        };
+    </script>
+
+</head>
+
+<body>
+<button class="copyButton" style="display: none"></button>
+<div id="app"></div>
+<div id="OFDActiveXDIV" style="position: absolute;top: 50%;left: 50%;z-index: -10"></div>
+
+</body>
+<!--UI js-->
+<script type=text/javascript src="./static/4.0/pc/js/manifest.js?v=3001.29.0.250428.154919"></script>
+<script type=text/javascript src="./static/4.0/pc/js/app.js?v=3001.29.0.250428.154919"></script>
+<!--UI js end -->
+<!--<script type="text/javascript" src="./reader/static/wx/jweixin-1.2.0.js"></script>-->
+<!--<script type="text/javascript" src="./reader/static/script/suwell_ofdReader.js"></script>-->
+
+</html>

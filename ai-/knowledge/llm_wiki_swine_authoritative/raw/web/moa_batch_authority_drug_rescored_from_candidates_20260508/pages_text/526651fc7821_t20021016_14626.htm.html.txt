@@ -1,0 +1,69 @@
+URL: http://www.moa.gov.cn/gk/tzgg_1/gg/200210/t20021016_14626.htm
+TITLE: 批准日本武田药品工业株式会社等7家公司的7 种兽药产品在我国注册或再注册
+ENTITY: 二甲硝咪唑
+QUERY: 二甲硝咪唑通知
+SCORE: 38
+
+批准日本武田药品工业株式会社等7家公司的7 种兽药产品在我国注册或再注册
+$(function(){ if($(window).width() > 800){ $(".demo-y").mCustomScrollbar(); } })
+高级检索
+批准日本武田药品工业株式会社等7家公司的7 种兽药产品在我国注册或再注册
+发布时间：2001-04-02
+字体：[大 中 小]
+中华人民共和国农业部公告
+第153号
+根据《进口兽药管理办法》的规定，经审核，批准日本武田药品工业株式会社等7家公司的7 种兽药产品在我国注册或再注册，并核发《进口兽药登记许可证》（品种见进口兽药注册目录），以上产品的监督检验按农业部发布的进口兽药质量标准执行。
+二00一年四月二日
+进口兽药注册目录
+兽 药 名 称
+生 产 厂 家
+许可证号
+有效期限
+酒石酸乙酰异戊酰泰乐菌素粉（爱福乐新）
+ACETYLISOVALERYL TYLOSIN TARTRATE POWDER（AIVLOSIN）
+日本武田药品工业株式会社
+TAKEDA CHEMICAL INDUSTRIES LTD JAPAN
+（2001）外兽药准字01号
+2001.4-2006.3
+硫酸粘杆菌素预混剂4%、10%（硫酸抗敌素）
+COLISTIN SULFATE PREMIX 4%、10%
+日本旭化成工业株式会社
+ASAHI VET JAPAN CO LTD JAPAN
+（2001）外兽药准字02号
+2001.4-2006.3
+鸡传染性喉气管炎活疫苗
+BAL-ILT
+派斯德公司新加坡生产厂
+BESTAR LABORATORIES （S）PTE LTD SINGAPORE
+（2001）外兽药准字03号
+2001.4-2006.3
+复方二甲硝咪唑可溶性粉（施得福）
+COMPOUND DIMETRDAZOLIE SOLUBLE POWDER（SPECILAPIN BRASS COUR）
+法国威隆大药厂
+VETOQUINOL S.A.FRANCE
+（2001）外兽药准字04号
+2001.4-2006.3
+盐酸头孢噻呋注射液5%（速解灵）
+CEFTIOFUR HYDROCHLORIDE INJECTION（EXCENEL STERILE SUSPENSION）
+美国普强公司
+THE UPJOHN COMPANY U.S.A
+（2001）外兽药准字05号
+2001.4-2006.3
+伊维菌素注射液（净灭）
+IVERMECTIN INJECTION
+韩国LG化学有限公司
+LG CHEMICAL LTD KOREA
+（2001）外兽药准字06号
+2001.4-2006.3
+诺氟沙星溶液10%（安富利）
+NORFLOXACIN SOLUTION
+（ANFLOX）
+英国安劲亚大药厂
+ANGLIAN NUTRTION PRODUCTS COMPANY ENGLAND
+（2001）外兽药准字07号
+2001.4-2006.3
+解读：
+附件：
+$(function(){ var fileArray = ''; if (fileArray==''){ $("#tbl_file").css("display","none"); }; var filejdlj = ''; if (filejdlj==''){ $("#jdlj").css("display","none"); }; })
+扫一扫在手机打开当前页
+var _trackDataType = "web";var _trackData = _trackData || [];

@@ -1,0 +1,13 @@
+sample_id,final_decision,reject_reason
+GEN-000002,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000002,rejected,judge:deterministic_placeholder_failed
+GEN-000005,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000005,rejected,judge:deterministic_placeholder_failed
+GEN-000006,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000006,rejected,judge:deterministic_placeholder_failed
+GEN-000008,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000008,rejected,judge:deterministic_placeholder_failed
+GEN-000011,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000011,rejected,judge:deterministic_placeholder_failed
+GEN-000014,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000014,rejected,judge:deterministic_placeholder_failed

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-05-13T20:36:19+08:00",
+  "phase": "phase16_export_layered_training_sets",
+  "input_samples": 40,
+  "accepted": 25,
+  "review": 0,
+  "rejected": 15,
+  "accept_reject_counts": {
+    "accepted": 25,
+    "rejected": 15
+  },
+  "accept_review_reject_counts": {
+    "accepted": 25,
+    "review": 0,
+    "rejected": 15
+  },
+  "phase15_decision_counts": {
+    "rejected": 15,
+    "accepted": 25
+  },
+  "phase18_semantic_decision_counts": {
+    "rejected": 15,
+    "accepted": 25
+  },
+  "phase18_judge_status_counts": {
+    "rejected": 15,
+    "passed": 25
+  },
+  "phase18_judge_a_status_counts": {
+    "passed": 25
+  },
+  "phase18_judge_b_status_counts": {
+    "passed": 25
+  },
+  "phase18_arbiter_status_counts": {
+    "passed": 14
+  },
+  "decision_counts": {
+    "rejected": 15,
+    "accepted": 25
+  },
+  "layer_counts": {
+    "L1_retrieval_grounded": 2,
+    "L2_diagnosis_support": 6,
+    "L3_differential_support": 6,
+    "L4_control_boundary": 5,
+    "L5_drug_boundary_negative": 6,
+    "L6_regulatory_guardrail": 5,
+    "L7_judge_calibration": 40,
+    "review_queue": 0,
+    "rejected_queue": 15,
+    "sft_l1_retrieval_grounded.jsonl": 2,
+    "sft_l2_diagnosis_support.jsonl": 6,
+    "sft_l3_differential_support.jsonl": 6,
+    "sft_l4_control_boundary.jsonl": 5,
+    "sft_l5_drug_boundary_negative.jsonl": 6,
+    "eval_l6_regulatory_guardrail.jsonl": 5,
+    "eval_l7_judge_calibration.jsonl": 40,
+    "training_set_review_queue.jsonl": 0,
+    "training_set_rejected_queue.jsonl": 15
+  },
+  "files": {
+    "L1_retrieval_grounded": "exports/training_sets/sft_l1_retrieval_grounded.jsonl",
+    "L2_diagnosis_support": "exports/training_sets/sft_l2_diagnosis_support.jsonl",
+    "L3_differential_support": "exports/training_sets/sft_l3_differential_support.jsonl",
+    "L4_control_boundary": "exports/training_sets/sft_l4_control_boundary.jsonl",
+    "L5_drug_boundary_negative": "exports/training_sets/sft_l5_drug_boundary_negative.jsonl",
+    "L6_regulatory_guardrail": "exports/training_sets/eval_l6_regulatory_guardrail.jsonl",
+    "L7_judge_calibration": "exports/training_sets/eval_l7_judge_calibration.jsonl",
+    "review_queue": "exports/training_sets/training_set_review_queue.jsonl",
+    "rejected_queue": "exports/training_sets/training_set_rejected_queue.jsonl"
+  },
+  "input_files": {
+    "evaluated": "exports/evaluated_samples/fact_evaluated_samples_20260513_cn_real40_parallel8_t300.jsonl",
+    "generated": "exports/generated_samples/two_stage_samples_20260513_cn_real40_parallel8_t300.jsonl",
+    "phase18": "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260513_cn_real40_parallel8_t300.jsonl"
+  },
+  "input_file_hashes": {
+    "evaluated_sha256": "f6a927570a9f05cd4bf1f4f71962e1c783689f784263f4ae7a55b9023c1f9b74",
+    "generated_sha256": "c571c7afba749f2eabfec255eee7588e4b689d4f07886c53bac360676aa9eb1d",
+    "phase18_sha256": "586f742dc01f2369c1613b3248e15299c1c336994ceeecf3ac454c4e4122ed5e"
+  },
+  "phase18": {
+    "source_mode": "external_file",
+    "semantic_decision_counts": {
+      "rejected": 15,
+      "accepted": 25
+    },
+    "judge_status_counts": {
+      "rejected": 15,
+      "passed": 25
+    },
+    "judge_a_status_counts": {
+      "passed": 25
+    },
+    "judge_b_status_counts": {
+      "passed": 25
+    },
+    "arbiter_status_counts": {
+      "passed": 14
+    }
+  },
+  "empty_layer_reasons": {
+    "review_queue": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch."
+  },
+  "manifest": "exports/training_sets/training_set_manifest_20260513_cn_real40_parallel8_t300.json",
+  "passed": true
+}

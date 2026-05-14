@@ -1,0 +1,617 @@
+[
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0001",
+      "disease_id": "DIS-002",
+      "disease_name": "非洲猪瘟",
+      "aliases": "非洲猪瘟、african swine fever virus、ASF、African swine fever",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "scenario_type": "保育猪群体发病",
+      "stage": "保育猪",
+      "scenario": "群体发病、采食下降、粪便或呼吸道异常，用户想知道主要病因和下一步处理。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有200头保育猪，现在70日龄左右，最近两天陆续出现精神沉郁、不吃料的情况，有几头体温升高到41℃，还有拉稀带血的现象，个别猪呼吸急促。圈舍通风一般，前几天刚换过饲料批次。想问下这是啥病？该怎么处理？",
+      "diagnosis": "根据描述的症状（高热、食欲废绝、腹泻带血、呼吸急促）、群体性发生及保育阶段特点，高度怀疑为非洲猪瘟病毒感染。该病特征性病变包括脾脏显著肿大、暗红色且质地脆弱，淋巴结出血水肿，肾脏皮质点状出血，以及心包积液或心内外膜出血等。",
+      "prescription": "立即向当地动物防疫部门报告疫情，严禁私自出售、运输或屠宰可疑猪只；对全群进行隔离观察，加强生物安全措施，防止人员、车辆、工具交叉污染；采集血样、组织样送有资质的实验室检测确诊；在结果出来前禁止任何治疗性投药，以免掩盖病情或造成扩散；若确诊为非洲猪瘟，应按重大动物疫病防控预案执行封锁、扑杀、无害化处理及消毒等措施。",
+      "withdrawal_period": "因涉及重大动物疫病，无常规休药期概念，须按官方扑杀与净化方案执行。",
+      "metadata": {
+        "disease_name": "非洲猪瘟",
+        "severity": "极高",
+        "scene_tags": [
+          "保育猪",
+          "群体发病",
+          "高热",
+          "便血",
+          "呼吸困难"
+        ],
+        "validation_points": [
+          "符合非洲猪瘟典型临床症状",
+          "群体性发生提示高传染性",
+          "病变部位与文献描述一致"
+        ],
+        "risk_flags": [
+          "重大动物疫病",
+          "需立即上报主管部门"
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 90,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 25,
+      "data_quality": 19,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "整体回答质量较高，诊断准确性、病理逻辑、处方安全性和数据质量均表现良好，符合非洲猪瘟的典型症状和防控要求，无重大风险。",
+      "weaknesses": [
+        "诊断准确性方面，虽然症状描述和诊断结论高度匹配，但未提及鉴别诊断（如猪瘟、猪丹毒等），可能影响全面性。",
+        "病理逻辑方面，对病变特征的描述较为详细，但未明确说明如何通过现场观察或初步检测区分非洲猪瘟与其他类似疾病。",
+        "数据质量方面，场景标签和验证点较为全面，但未提及猪只的免疫史或近期引种情况，这些信息对诊断有一定参考价值。"
+      ],
+      "improvement_actions": [
+        "在诊断部分增加鉴别诊断内容，例如提及猪瘟、猪丹毒等疾病的相似症状及区分要点。",
+        "在病理逻辑部分补充现场观察或初步检测的建议，如观察脾脏、淋巴结等器官的病变特征，或进行快速检测试纸条筛查。",
+        "在数据收集方面，建议增加猪只的免疫史、近期引种情况等信息的询问，以提高诊断的全面性和准确性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 887,
+      "wiki_context_query": "非洲猪瘟\n非洲猪瘟、african swine fever virus、ASF、African swine fever\n保育猪群体发病\n群体发病、采食下降、粪便或呼吸道异常，用户想知道主要病因和下一步处理。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEW": 1,
+        "HUMAN_REVIEWED": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0031"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 31.13,
+      "judge_seconds": 17.09,
+      "total_seconds": 48.22
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 30.13,
+          "api_key_fingerprint": "8a1384ec8046",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 17.09,
+          "api_key_fingerprint": "344c9291a027",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0002",
+      "disease_id": "DIS-008",
+      "disease_name": "猪流行性腹泻",
+      "aliases": "猪流行性腹泻、porcine epidemic diarrhea virus、PED、PEDV",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "scenario_type": "育肥猪用药咨询",
+      "stage": "育肥猪",
+      "scenario": "育肥猪出现典型症状，用户已经用过常见药物但效果一般，询问是否继续用药。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有200头60公斤左右的育肥猪，这几天陆续有猪拉水样稀便，精神差、采食量下降，有的还伴随轻度发热。之前按细菌性腹泻用了恩诺沙星和硫酸新霉素拌料喂了三天，症状没明显好转。圈舍通风一般，温度偏低，湿度大。请问还能继续用这些药吗？还是该换别的办法？",
+      "diagnosis": "根据描述的症状（水样腹泻、精神沉郁、食欲减退、轻度发热）、发病群体特征及用药无效的情况，结合当前季节和环境条件，高度怀疑为猪流行性腹泻（PEDV）。该病由冠状病毒引起，常在寒冷潮湿环境下暴发，对育肥猪可造成显著经济损失。",
+      "prescription": "立即隔离病猪与健康猪，加强圈舍保温与通风，减少应激；暂停使用抗生素，因PEDV为病毒性病因，抗生素无效且可能破坏肠道菌群平衡；可在兽医指导下补充电解质溶液防止脱水，并在必要时送检粪便进行实验室确诊；若确诊为PEDV，应执行严格的生物安全措施，包括全群消毒、限制人员车辆流动，并根据当地法规配合主管部门处置。严禁自行使用未经批准的抗病毒药物或疫苗。",
+      "withdrawal_period": "无明确停药期，因本病为病毒性，常规抗生素停药期不适用；如曾使用合法兽药，应按标签说明执行相应休药期。",
+      "metadata": {
+        "disease_name": "猪流行性腹泻",
+        "severity": "中等至严重",
+        "scene_tags": [
+          "育肥猪",
+          "病毒性腹泻",
+          "寒冷高湿环境",
+          "抗生素治疗无效"
+        ],
+        "validation_points": [
+          "症状符合PEDV临床表现",
+          "抗生素无效提示非单纯细菌感染",
+          "环境因素支持病毒传播"
+        ],
+        "risk_flags": [
+          "重大动物疫病风险",
+          "需实验室确诊",
+          "需执行生物安全隔离措施"
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 90,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 24,
+      "data_quality": 20,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对猪流行性腹泻的诊断准确，症状描述与疾病特征匹配，诊断逻辑合理，考虑了环境因素和抗生素治疗无效的情况。处方安全，强调了生物安全措施和避免滥用抗生素，符合疾病处理方向。数据质量较高，提供了详细的场景标签和验证点。",
+      "weaknesses": "诊断准确性方面，虽然症状匹配度高，但未提及实验室确诊的重要性，略显不足。病理逻辑上，对病毒传播机制的阐述可更深入。处方安全上，虽提到电解质溶液和生物安全措施，但未给出具体操作建议。数据质量上，风险标志虽全面，但缺乏具体案例或数据支持。",
+      "improvement_actions": "在诊断准确性上，建议增加实验室确诊的推荐，以提高诊断的严谨性。病理逻辑上，可补充病毒传播机制的相关知识，增强说服力。处方安全上，应提供电解质溶液的具体使用方法和生物安全措施的具体操作步骤。数据质量上，可加入更多实际案例或数据支持风险标志的阐述。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 887,
+      "wiki_context_query": "猪流行性腹泻\n猪流行性腹泻、porcine epidemic diarrhea virus、PED、PEDV\n育肥猪用药咨询\n育肥猪出现典型症状，用户已经用过常见药物但效果一般，询问是否继续用药。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 2,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A2-EFSA-PED-PDCOV-OPINION",
+        "SRC-0001",
+        "SRC-0037",
+        "SRC-0063"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 31.47,
+      "judge_seconds": 14.18,
+      "total_seconds": 45.65
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 30.6,
+          "api_key_fingerprint": "fb3e9e31f56d",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 14.18,
+          "api_key_fingerprint": "13cbb25a8cc3",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0003",
+      "disease_id": "DIS-009",
+      "disease_name": "猪传染性胃肠炎",
+      "aliases": "猪传染性胃肠炎、transmissible gastroenteritis virus、TGE、TGEV",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "scenario_type": "种猪繁殖障碍",
+      "stage": "种猪/母猪",
+      "scenario": "种猪场出现流产、死胎、返情或公猪异常，用户担心传染病和是否继续配种。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家是200头基础母猪的自繁自养场，最近有3头怀孕80多天的母猪陆续流产，还有两头死胎，另外有两头返情率明显升高，一头公猪采精量下降且活力差。之前没用过疫苗，场内通风一般，粪污清理不及时。想问下是不是传染病？还能不能继续配种？",
+      "diagnosis": "根据描述，流产、死胎、返情及公猪精液质量下降同时发生，提示可能存在影响繁殖系统的病毒性传染病。结合流行病学特点，需重点排查猪繁殖与呼吸综合征（PRRS）、伪狂犬病、细小病毒病、乙脑、布鲁氏菌病等常见繁殖障碍病因，并排除猪传染性胃肠炎（TGEV）在妊娠早期感染导致胎儿死亡的可能。建议进行实验室检测明确病原。",
+      "prescription": {
+        "treatment_direction": "立即隔离发病母猪，停止配种计划，防止病原扩散；加强全场生物安全，改善通风与粪污管理；采集流产胎儿、胎盘、血液及公猪精液送实验室检测，明确病原类型。",
+        "management_measures": "暂停新进后备母猪入场，减少人员、车辆流动；对全场猪群进行健康巡查，记录体温、食欲、精神状态；做好消毒与无害化处理工作。",
+        "sampling_and_testing": "送检样本包括流产胎儿组织、胎盘、母猪血清、公猪精液；检测项目应包括PRRSV、伪狂犬gE抗体、细小病毒、乙脑病毒、布鲁氏菌等。",
+        "prohibited_boundaries": "在未明确病因前，严禁将场内猪只外调或引入新猪；禁止随意使用抗生素或抗病毒药物替代病原检测与防控措施。"
+      },
+      "withdrawal_period": "无具体休药期信息，需依据检测结果确定后续免疫或治疗方案。",
+      "metadata": {
+        "disease_name": "猪传染性胃肠炎（TGEV）及其他繁殖障碍性疾病",
+        "severity": "高",
+        "scene_tags": [
+          "种猪场",
+          "繁殖障碍",
+          "流产",
+          "死胎",
+          "返情",
+          "公猪精液异常"
+        ],
+        "validation_points": [
+          "多种繁殖障碍症状同时出现提示系统性传染病",
+          "需通过实验室检测区分PRRS、伪狂犬病、细小病毒、乙脑、布鲁氏菌等病因",
+          "生物安全措施应优先于药物治疗"
+        ],
+        "risk_flags": [
+          "疑似重大动物疫病风险",
+          "存在人畜共患病（如布鲁氏菌病）潜在风险",
+          "需主管部门介入调查"
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 55,
+      "diagnosis_accuracy": 15,
+      "pathology_logic": 10,
+      "prescription_safety": 15,
+      "data_quality": 15,
+      "fatal_risk": true,
+      "final_label": "reject",
+      "summary": "诊断未聚焦目标疾病猪传染性胃肠炎，且未识别出布鲁氏菌病等人兽共患病风险，处方未针对TGEV制定，存在重大疫病误判风险。",
+      "weaknesses": [
+        "诊断未覆盖目标疾病猪传染性胃肠炎，且未排除其导致繁殖障碍的可能性",
+        "未识别布鲁氏菌病等人兽共患病风险，违反生物安全要求",
+        "处方未针对TGEV制定，且未明确禁止继续配种的风险",
+        "未提及TGEV的典型症状（如呕吐、水样腹泻）与繁殖障碍的关联性",
+        "风险标签中虽提及布鲁氏菌病，但未在诊断和处方中体现具体防控措施"
+      ],
+      "improvement_actions": [
+        "补充TGEV在妊娠中后期感染导致流产、死胎的病理机制描述",
+        "在诊断中明确区分TGEV与其他繁殖障碍性疾病的鉴别要点（如腹泻症状、流行季节）",
+        "处方中增加TGEV紧急免疫或被动免疫（如高免血清）的建议",
+        "强化人兽共患病防控措施，如布鲁氏菌病检测、人员防护装备使用等",
+        "明确禁止继续配种，直至实验室排除TGEV和其他重大疫病"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 887,
+      "wiki_context_query": "猪传染性胃肠炎\n猪传染性胃肠炎、transmissible gastroenteritis virus、TGE、TGEV\n种猪繁殖障碍\n种猪场出现流产、死胎、返情或公猪异常，用户担心传染病和是否继续配种。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 2,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0025",
+        "SRC-0036"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "reject",
+    "final_fatal_risk": true,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 32.82,
+      "judge_seconds": 18.13,
+      "total_seconds": 50.95
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 32.13,
+          "api_key_fingerprint": "7b8b49842efc",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 18.13,
+          "api_key_fingerprint": "232377ce6842",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0004",
+      "disease_id": "DIS-024",
+      "disease_name": "猪瘟",
+      "aliases": "猪瘟、classical swine fever pestiviruses、经典猪瘟、CSF",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "scenario_type": "暴发与处置边界",
+      "stage": "全场",
+      "scenario": "同栏或多栋猪舍短期内发病增多，用户询问是否能先按普通病治疗观察。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有200多头育肥猪，平均体重在70公斤左右，最近几天同一圈里陆续出现发烧、精神沉郁、皮肤发红发紫的情况，有的还拉稀带血，已经死了三四头了。之前用过恩诺沙星和黄芪多糖拌料，没见好转。请问能不能先当普通病治一治看看？",
+      "diagnosis": "根据描述的症状（高热、精神沉郁、皮肤发绀、腹泻带血）、短时间内多例死亡及常规抗菌治疗效果不佳，高度怀疑为猪瘟（Classical Swine Fever）。该病为烈性传染病，病死率高，且可通过多种途径快速传播。",
+      "prescription": "立即停止一切非必要人员、车辆、物品进出场区，封锁发病猪舍，对病猪进行隔离观察并限制移动；采集血液、组织样本送具备资质的实验室进行病原学检测确认；按照《中华人民共和国动物防疫法》及相关规定向当地动物卫生监督机构报告疫情，等待专业处置意见；严禁自行投喂未经批准的抗病毒药物或疫苗，防止扩散和误诊延误防控时机。",
+      "withdrawal_period": "因未确诊前不应继续销售或屠宰，无明确休药期；一旦确诊，应按监管部门要求执行扑杀和无害化处理，不存在正常出栏休药期。",
+      "metadata": {
+        "disease_name": "猪瘟",
+        "severity": "高致死率、烈性传染病",
+        "scene_tags": [
+          "育肥猪",
+          "群发",
+          "急性发热",
+          "便血",
+          "死亡"
+        ],
+        "validation_points": [
+          "症状符合猪瘟典型表现",
+          "常规抗菌无效提示病毒性病因",
+          "短时间内多例死亡支持烈性病特征"
+        ],
+        "risk_flags": [
+          "重大动物疫病，需依法上报",
+          "禁止私自治疗或出售病猪",
+          "存在人畜接触感染风险（虽非人兽共患，但需防交叉污染）"
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 92,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 25,
+      "data_quality": 21,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对猪瘟的诊断准确，症状与疾病匹配度高，诊断逻辑合理，处理方向安全且符合疾病防控要求，数据质量较高。",
+      "weaknesses": "诊断准确性方面，虽然整体准确，但未完全覆盖所有症状与猪瘟的关联性说明，可进一步提升详细性；病理逻辑上，对猪瘟传播途径和防控原理的阐述可更深入；数据质量上，风险标识部分关于人畜接触感染风险的描述不够准确，猪瘟并非人兽共患病，需修正表述。",
+      "improvement_actions": "在诊断准确性上，增加对猪瘟各症状病理机制的简要说明；病理逻辑方面，补充猪瘟传播特点及防控关键点；数据质量上，修正风险标识中关于人畜接触感染风险的错误描述，明确猪瘟非人兽共患病，强调交叉污染防控即可。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 887,
+      "wiki_context_query": "猪瘟\n猪瘟、classical swine fever pestiviruses、经典猪瘟、CSF\n暴发与处置边界\n同栏或多栋猪舍短期内发病增多，用户询问是否能先按普通病治疗观察。",
+      "wiki_evidence_status_counts": {
+        "HUMA": 1,
+        "HUMAN_REVIEWED": 3
+      },
+      "wiki_evidence_source_ids": [
+        "A1-WOAH-CSF-DISEASE",
+        "SRC-0001",
+        "SRC-0031",
+        "SRC-0046"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 7.41,
+      "judge_seconds": 14.05,
+      "total_seconds": 21.46
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.26,
+          "api_key_fingerprint": "993313a8c81a",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 14.05,
+          "api_key_fingerprint": "ca6a04186520",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0005",
+      "disease_id": "DIS-026",
+      "disease_name": "猪口蹄疫",
+      "aliases": "猪口蹄疫、foot and mouth disease picornaviruses",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "scenario_type": "采样送检咨询",
+      "stage": "不同阶段猪",
+      "scenario": "用户描述症状后，重点询问采什么样品、如何判断和如何避免误治。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有120头育肥猪，平均体重在70公斤左右，最近几天有几头出现精神沉郁、不愿走动，蹄部和口腔发现有水泡，部分破溃结痂，体温升高到41℃左右，食欲下降。之前用过阿莫西林饮水，没见好转。请问这种情况是不是口蹄疫？应该采哪些样送检测？怎么处理才不会耽误事？",
+      "diagnosis": "根据描述的临床症状（高热、口腔黏膜及蹄部水疱、跛行、拒食）以及群体发病情况，高度怀疑为猪口蹄疫。该病属于一类动物疫病，需立即采取防控措施并送检确诊。",
+      "prescription": {
+        "treatment_direction": "本病无特效药物治疗，应停止一切非必要接触和移动，防止疫情扩散。",
+        "management_measures": "立即隔离发病猪群，限制人员、车辆进出，对圈舍及周边环境进行彻底消毒；加强饲养管理，提供易消化的饲料和清洁饮水，减少应激。",
+        "sampling_submission": "采集发病猪的水泡液、舌面黏膜刮取物、新鲜组织（如心肌、肺、肝等），必要时加采脑和脊髓样本；样品应低温保存并尽快送至具备资质的实验室检测。",
+        "prohibited_actions": "严禁私自屠宰、出售或运输可疑病猪及其产品；禁止随意使用抗生素掩盖病情延误报告。"
+      },
+      "withdrawal_period": "因属一类疫病，一旦确诊须依法扑杀并无害化处理，不存在常规休药期概念。",
+      "metadata": {
+        "disease_name": "猪口蹄疫",
+        "severity": "高",
+        "scene_tags": [
+          "高热",
+          "口腔及蹄部水疱",
+          "群体发病",
+          "育肥猪"
+        ],
+        "validation_points": [
+          "符合口蹄疫典型临床表现",
+          "群体性发生提示传染性高",
+          "需通过实验室检测确认"
+        ],
+        "risk_flags": [
+          "一类动物疫病，需立即上报并配合扑杀和无害化处理",
+          "存在跨区域传播风险，需严格封锁措施"
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 92,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 24,
+      "data_quality": 22,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答整体表现良好，诊断准确，病理逻辑清晰，处理方向安全，数据质量较高。回答针对猪口蹄疫的诊断、采样送检和处理措施给出了详细且合理的建议，符合疾病特征和防控要求。",
+      "weaknesses": [
+        "diagnosis_accuracy: 诊断部分未完全覆盖所有可能症状，但核心症状已提及，评分稍扣。",
+        "pathology_logic: 病理逻辑部分对群体发病的传染性解释稍显简略，但不影响整体判断。",
+        "data_quality: 数据质量部分，虽然场景标签和验证点较为全面，但风险标志的描述可以更具体一些。"
+      ],
+      "improvement_actions": [
+        "diagnosis_accuracy: 在诊断部分可以增加对其他可能症状的描述，以提高诊断的全面性。",
+        "pathology_logic: 在病理逻辑部分可以进一步解释群体发病的传染性机制和防控重要性。",
+        "data_quality: 在风险标志部分可以增加具体的防控措施和法律依据，以提高数据的实用性和权威性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 887,
+      "wiki_context_query": "猪口蹄疫\n猪口蹄疫、foot and mouth disease picornaviruses\n采样送检咨询\n用户描述症状后，重点询问采什么样品、如何判断和如何避免误治。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 3,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A1-WOAH-FMD",
+        "A1-WOAH-FMD-DISEASE",
+        "SRC-0001",
+        "SRC-0009",
+        "SRC-0047"
+      ],
+      "wiki_context_chars": 2164
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 7.46,
+      "judge_seconds": 16.35,
+      "total_seconds": 23.81
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.3,
+          "api_key_fingerprint": "4ae0cab1a311",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 16.35,
+          "api_key_fingerprint": "d86bf62fd68d",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  }
+]

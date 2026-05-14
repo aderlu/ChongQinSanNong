@@ -1,0 +1,14 @@
+case_id,disease_name,final_label,final_total_score,reject_reasons
+SWINE10-001,非洲猪瘟,review,75,final_label_not_pass|score_below_min
+SWINE10-002,猪流行性腹泻,review,80,final_label_not_pass|score_below_min
+SWINE10-003,猪大肠杆菌病,review,72,final_label_not_pass|score_below_min
+SWINE10-005,猪支原体肺炎,pass,85,too_few_standard_citations
+SWINE10-006,猪痢疾,pass,85,too_few_standard_citations|internal_anchor_without_source_id
+SWINE10-007,猪球虫病,review,75,final_label_not_pass|score_below_min|too_few_standard_citations
+SWINE10-008,猪霉菌毒素中毒,review,85,final_label_not_pass|too_few_standard_citations
+SWINE10-009,猪疥螨病,review,77,final_label_not_pass|score_below_min|too_few_standard_citations
+SWINE10-010,猪链球菌病,review,80,final_label_not_pass|score_below_min
+SWINE10-011,猪丹毒,review,78,final_label_not_pass|score_below_min
+SWINE10-012,猪布鲁氏菌病,review,72,final_label_not_pass|score_below_min|too_few_standard_citations
+SWINE30-DIS-003,anelloviruses torque teno sus viruses,pass,88,too_few_standard_citations
+SWINE30-DIS-004,astroviruses,review,75,final_label_not_pass|score_below_min

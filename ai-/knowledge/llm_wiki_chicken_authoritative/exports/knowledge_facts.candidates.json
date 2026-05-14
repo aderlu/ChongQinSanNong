@@ -1,0 +1,712 @@
+[
+  {
+    "fact_id": "CAND-0001",
+    "subject": "demo-newcastle-layer-note",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0122",
+    "source_page": "wiki/sources/SRC-0122-demo-newcastle-layer-note.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_METADATA",
+    "review_reasons": [
+      "external_url_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0002",
+    "subject": "WOAH Newcastle disease",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0123",
+    "source_page": "wiki/sources/SRC-0123-woah-newcastle-disease.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0003",
+    "subject": "Merck Veterinary Manual: Newcastle Disease in Poultry",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0124",
+    "source_page": "wiki/sources/SRC-0124-merck-veterinary-manual-newcastle-disease-in-poultry.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0004",
+    "subject": "Standards | WOAH",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0125",
+    "source_page": "wiki/sources/SRC-0125-standards-woah.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0005",
+    "subject": "Codes and Manuals | WOAH",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0126",
+    "source_page": "wiki/sources/SRC-0126-codes-and-manuals-woah.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0006",
+    "subject": "Terrestrial Code Online Access | WOAH",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0127",
+    "source_page": "wiki/sources/SRC-0127-terrestrial-code-online-access-woah.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0007",
+    "subject": "Terrestrial Manual Online Access | WOAH",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0128",
+    "source_page": "wiki/sources/SRC-0128-terrestrial-manual-online-access-woah.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0008",
+    "subject": "Avian Influenza in Poultry | Merck Veterinary Manual",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0129",
+    "source_page": "wiki/sources/SRC-0129-avian-influenza-in-poultry-merck-veterinary-manual.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0009",
+    "subject": "中华人民共和国农业农村部",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0130",
+    "source_page": "wiki/sources/SRC-0130-中华人民共和国农业农村部.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0010",
+    "subject": "国家市场监督管理总局",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0131",
+    "source_page": "wiki/sources/SRC-0131-国家市场监督管理总局.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0011",
+    "subject": "国家标准全文公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0132",
+    "source_page": "wiki/sources/SRC-0132-国家标准全文公开系统.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0012",
+    "subject": "农业标准化信息服务平台",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0133",
+    "source_page": "wiki/sources/SRC-0133-农业标准化信息服务平台.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0013",
+    "subject": "WOAH 官方网站",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0134",
+    "source_page": "wiki/sources/SRC-0134-woah-官方网站.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0014",
+    "subject": "newcastle disease",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0135",
+    "source_page": "wiki/sources/SRC-0135-newcastle-disease.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "program_and_rule_layer",
+    "review_decision": "AUTO_READY_SOURCE",
+    "review_reasons": [
+      "allowlisted_source_ready:www.woah.org"
+    ],
+    "formal_promotion_allowed": true,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0015",
+    "subject": "WOAH（世界动物卫生组织）",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0136",
+    "source_page": "wiki/sources/SRC-0136-woah-世界动物卫生组织.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0016",
+    "subject": "FAO（联合国粮农组织）",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0137",
+    "source_page": "wiki/sources/SRC-0137-fao-联合国粮农组织.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0017",
+    "subject": "Merck Veterinary Manual",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0138",
+    "source_page": "wiki/sources/SRC-0138-merck-veterinary-manual.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0018",
+    "subject": "全国标准信息公共服务平台",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0139",
+    "source_page": "wiki/sources/SRC-0139-全国标准信息公共服务平台.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0019",
+    "subject": "中国动物卫生与流行病学中心标准平台",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0140",
+    "source_page": "wiki/sources/SRC-0140-中国动物卫生与流行病学中心标准平台.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0020",
+    "subject": "WOAH 官方网站",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0141",
+    "source_page": "wiki/sources/SRC-0141-woah-官方网站.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0021",
+    "subject": "Merck Veterinary Manual：Avian Influenza",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0142",
+    "source_page": "wiki/sources/SRC-0142-merck-veterinary-manual-avian-influenza.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0022",
+    "subject": "国家标准全文公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0143",
+    "source_page": "wiki/sources/SRC-0143-国家标准全文公开系统.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0023",
+    "subject": "国家市场监督管理总局",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0144",
+    "source_page": "wiki/sources/SRC-0144-国家市场监督管理总局.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0024",
+    "subject": "农业农村部",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0145",
+    "source_page": "wiki/sources/SRC-0145-农业农村部.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0025",
+    "subject": "农业农村部官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0146",
+    "source_page": "wiki/sources/SRC-0146-农业农村部官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0026",
+    "subject": "国家市场监督管理总局官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0147",
+    "source_page": "wiki/sources/SRC-0147-国家市场监督管理总局官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0027",
+    "subject": "国家标准全文公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0148",
+    "source_page": "wiki/sources/SRC-0148-国家标准全文公开系统.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0028",
+    "subject": "WOAH 官方站点",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0149",
+    "source_page": "wiki/sources/SRC-0149-woah-官方站点.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0029",
+    "subject": "EMA 官方站点",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0150",
+    "source_page": "wiki/sources/SRC-0150-ema-官方站点.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0030",
+    "subject": "Newcastle disease | WOAH",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0151",
+    "source_page": "wiki/sources/SRC-0151-newcastle-disease-woah.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0031",
+    "subject": "Newcastle Disease - Poultry - Merck Veterinary Manual",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0152",
+    "source_page": "wiki/sources/SRC-0152-newcastle-disease-poultry-merck-veterinary-manual.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0032",
+    "subject": "WOAH - Avian influenza",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0153",
+    "source_page": "wiki/sources/SRC-0153-woah-avian-influenza.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0033",
+    "subject": "Merck Veterinary Manual - Avian Influenza in Poultry",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0154",
+    "source_page": "wiki/sources/SRC-0154-merck-veterinary-manual-avian-influenza-in-poultry.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0034",
+    "subject": "FAO 官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0155",
+    "source_page": "wiki/sources/SRC-0155-fao-官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0035",
+    "subject": "农业农村部官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0156",
+    "source_page": "wiki/sources/SRC-0156-农业农村部官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0036",
+    "subject": "国家标准全文公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0157",
+    "source_page": "wiki/sources/SRC-0157-国家标准全文公开系统.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0037",
+    "subject": "中华人民共和国农业农村部官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0158",
+    "source_page": "wiki/sources/SRC-0158-中华人民共和国农业农村部官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0038",
+    "subject": "农业农村部政策法规栏目",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0159",
+    "source_page": "wiki/sources/SRC-0159-农业农村部政策法规栏目.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0039",
+    "subject": "国家标准全文公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0160",
+    "source_page": "wiki/sources/SRC-0160-国家标准全文公开系统.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0040",
+    "subject": "国家市场监督管理总局官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0161",
+    "source_page": "wiki/sources/SRC-0161-国家市场监督管理总局官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0041",
+    "subject": "WOAH（世界动物卫生组织）官网",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0162",
+    "source_page": "wiki/sources/SRC-0162-woah-世界动物卫生组织-官网.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "legacy_enrichment_layer",
+    "review_decision": "LEGACY_NEEDS_FETCH",
+    "review_reasons": [
+      "evidence_excerpt_missing"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0042",
+    "subject": "newcastle disease",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0163",
+    "source_page": "wiki/sources/SRC-0163-newcastle-disease.md",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "program_and_rule_layer",
+    "review_decision": "AUTO_READY_SOURCE",
+    "review_reasons": [
+      "allowlisted_source_ready:www.woah.org"
+    ],
+    "formal_promotion_allowed": true,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0043",
+    "subject": "国家标准公开系统",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0164",
+    "source_page": "wiki/sources/SRC-0164-国家标准公开系统.md",
+    "external_url": "https://openstd.samr.gov.cn/bzgk/gb/",
+    "evidence_role": "diagnosis_standard",
+    "evidence_excerpt": "国家标准全文公开 重要通知 因机房设备维修，2022年10月28日17点到10月29日24点，系统暂时停止访问服务，望请知悉，带来不便，敬请谅解。 --> Toggle navigation 全国标准信息公共服务平台 首页 国家标准 强制性国家标准 推荐性国家标准 指导性技术文件 国家标准外文版 (National standards in foreign language version) 通&nbsp;知 2026-04-27&nbsp;&nbsp;关于公开2026年第15号中国国家标准公告中国家标准全文的通知 2026-04-24&nbsp;&nbsp;关于公开2026年第14号中国国家标准公告中国家标准全文的通知 2026-04-24&nbsp;&nbsp;关于公开2026年第13号中国国家标准公告中国家标准全文的通知 2026-03-25&nbsp;&nbsp;关于公开2026年第12号中国国家标准公告中国家标准全文的通知 2026-03-25&nbsp;&nbsp;关于公开2026年第11号中国国家标准公告中国家标准全文的通知 20°C --> 查看更多 国家标准动态 普 通 检 索 标 准 分 类 高 级 检 索 --> 普 通 检 索 标 准 分 类 高 级 检 索 &nbsp;检&nbsp;索&nbsp; --> 食品安全国家标准 生态环境国家标准 工程建设国家标准 &nbsp;检&nbsp;索&nbsp; GB 强制性国家标准 强制性国家标准 --> 强制性国家标准 ( 2,335 ) --> 食品安全、环境保护、工程建设方面的国家标准未纳入本系统，请访问以",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "risk_layer",
+    "review_decision": "HUMAN_REQUIRED",
+    "review_reasons": [
+      "high_risk_domain_requires_human_confirmation"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  },
+  {
+    "fact_id": "CAND-0044",
+    "subject": "Coccidiosis in Poultry",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0165",
+    "source_page": "wiki/sources/SRC-0165-coccidiosis-in-poultry.md",
+    "external_url": "https://www.merckvetmanual.com/poultry/coccidiosis/coccidiosis-in-poultry",
+    "evidence_role": "clinical_reference",
+    "evidence_excerpt": "Coccidiosis in Poultry - Poultry - Merck Veterinary Manual honeypot link skip to main content MERCK MANUAL Veterinary Manual VETERINARY PROFESSIONALS PET OWNERS RESOURCES QUIZZES ABOUT VETERINARY PROFESSIONALS PET OWNERS &lt; Coccidiosis in Poultry PROFESSIONAL VERSION Coccidiosis in Poultry By Richard W. Gerhold, Jr. , DVM, PhD, MS , Department of Biomedical and Diagnostic Sciences, College of Veterinary Medicine, University of Tennessee Reviewed By Angel Abuelo , DVM, PhD, DABVP, DECBHM, FHEA, MRCVS , Michigan State University, College of Veterinary Medicine Reviewed/Revised Feb 2023 | Modified Sept 2024 v3340066 Coccidiosis is a protozoal disease causing diarrhea, ,weight loss and decreas",
+    "evidence_status": "NEEDS_REVIEW",
+    "review_tier": "risk_layer",
+    "review_decision": "HUMAN_REQUIRED",
+    "review_reasons": [
+      "high_risk_domain_requires_human_confirmation"
+    ],
+    "formal_promotion_allowed": false,
+    "formal_fact_write_allowed": false
+  }
+]

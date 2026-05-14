@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-05-13T22:02:30+08:00",
+  "phase": "phase16_export_layered_training_sets",
+  "input_samples": 3,
+  "accepted": 3,
+  "review": 0,
+  "rejected": 0,
+  "accept_reject_counts": {
+    "accepted": 3,
+    "rejected": 0
+  },
+  "accept_review_reject_counts": {
+    "accepted": 3,
+    "review": 0,
+    "rejected": 0
+  },
+  "phase15_decision_counts": {
+    "accepted": 3
+  },
+  "phase18_semantic_decision_counts": {
+    "accepted": 3
+  },
+  "phase18_judge_status_counts": {
+    "passed": 3
+  },
+  "phase18_judge_a_status_counts": {
+    "passed": 3
+  },
+  "phase18_judge_b_status_counts": {
+    "passed": 3
+  },
+  "phase18_arbiter_status_counts": {
+    "passed": 2
+  },
+  "decision_counts": {
+    "accepted": 3
+  },
+  "layer_counts": {
+    "L1_retrieval_grounded": 2,
+    "L2_diagnosis_support": 1,
+    "L3_differential_support": 0,
+    "L4_control_boundary": 0,
+    "L5_drug_boundary_negative": 0,
+    "L6_regulatory_guardrail": 0,
+    "L7_judge_calibration": 3,
+    "review_queue": 0,
+    "rejected_queue": 0,
+    "sft_l1_retrieval_grounded.jsonl": 2,
+    "sft_l2_diagnosis_support.jsonl": 1,
+    "sft_l3_differential_support.jsonl": 0,
+    "sft_l4_control_boundary.jsonl": 0,
+    "sft_l5_drug_boundary_negative.jsonl": 0,
+    "eval_l6_regulatory_guardrail.jsonl": 0,
+    "eval_l7_judge_calibration.jsonl": 3,
+    "training_set_review_queue.jsonl": 0,
+    "training_set_rejected_queue.jsonl": 0
+  },
+  "files": {
+    "L1_retrieval_grounded": "exports/training_sets/sft_l1_retrieval_grounded.jsonl",
+    "L2_diagnosis_support": "exports/training_sets/sft_l2_diagnosis_support.jsonl",
+    "L3_differential_support": "exports/training_sets/sft_l3_differential_support.jsonl",
+    "L4_control_boundary": "exports/training_sets/sft_l4_control_boundary.jsonl",
+    "L5_drug_boundary_negative": "exports/training_sets/sft_l5_drug_boundary_negative.jsonl",
+    "L6_regulatory_guardrail": "exports/training_sets/eval_l6_regulatory_guardrail.jsonl",
+    "L7_judge_calibration": "exports/training_sets/eval_l7_judge_calibration.jsonl",
+    "review_queue": "exports/training_sets/training_set_review_queue.jsonl",
+    "rejected_queue": "exports/training_sets/training_set_rejected_queue.jsonl"
+  },
+  "input_files": {
+    "evaluated": "exports/evaluated_samples/fact_evaluated_samples_20260513.jsonl",
+    "generated": "exports/generated_samples/two_stage_samples_20260513.jsonl",
+    "phase18": "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260513.jsonl"
+  },
+  "input_file_hashes": {
+    "evaluated_sha256": "076dccdcccf23a67500cda96f6d94c1110ccc3ef42824b00656f8982c63d4405",
+    "generated_sha256": "13a789e15b87b1dfc4f86d0130b34f34ef1ed77568f999bf1881fdc3c0f6e5b3",
+    "phase18_sha256": "fb043ce245f62350704033b95ca97a6988aa25fbb01bb4337cb94f0039eda138"
+  },
+  "phase18": {
+    "source_mode": "external_file",
+    "semantic_decision_counts": {
+      "accepted": 3
+    },
+    "judge_status_counts": {
+      "passed": 3
+    },
+    "judge_a_status_counts": {
+      "passed": 3
+    },
+    "judge_b_status_counts": {
+      "passed": 3
+    },
+    "arbiter_status_counts": {
+      "passed": 2
+    }
+  },
+  "empty_layer_reasons": {
+    "L3_differential_support": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L4_control_boundary": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L5_drug_boundary_negative": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L6_regulatory_guardrail": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "review_queue": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "rejected_queue": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch."
+  },
+  "manifest": "exports/training_sets/training_set_manifest_20260513.json",
+  "passed": true
+}

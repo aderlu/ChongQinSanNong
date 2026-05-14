@@ -1,0 +1,84 @@
+# Optional Facets Normalization
+
+Date: 2026-05-07
+
+Policy:
+- Disease entity pages no longer require fixed H2 sections for transmission, clinical signs, necropsy, laboratory diagnosis, differential diagnosis, or control.
+- Source-anchored content from those sections is preserved under `Evidence-backed optional facets`.
+- Unsourced placeholders are represented as `Evidence gaps` and must not be treated as generation or evaluation failures.
+
+Changed disease pages: 73
+
+- `DIS-001-adenoviruses.md`
+- `DIS-002-african-swine-fever-virus.md`
+- `DIS-003-anelloviruses-torque-teno-sus-viruses.md`
+- `DIS-004-astroviruses.md`
+- `DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md`
+- `DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md`
+- `DIS-007-circoviruses-pcvad.md`
+- `DIS-008-porcine-epidemic-diarrhea-virus.md`
+- `DIS-009-transmissible-gastroenteritis-virus.md`
+- `DIS-010-porcine-deltacoronavirus.md`
+- `DIS-011-hemagglutinating-encephalomyelitis-virus.md`
+- `DIS-012-porcine-respiratory-coronavirus.md`
+- `DIS-013-porcine-torovirus.md`
+- `DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md`
+- `DIS-015-japanese-encephalitis-virus.md`
+- `DIS-016-west-nile-virus-and-other-flaviviruses.md`
+- `DIS-017-hepatitis-e-virus.md`
+- `DIS-018-pseudorabies-aujeszky-disease.md`
+- `DIS-019-porcine-cytomegalovirus.md`
+- `DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md`
+- `DIS-021-influenza-viruses.md`
+- `DIS-022-paramyxoviruses.md`
+- `DIS-023-parvoviruses.md`
+- `DIS-024-classical-swine-fever-pestiviruses.md`
+- `DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md`
+- `DIS-026-foot-and-mouth-disease-picornaviruses.md`
+- `DIS-027-senecavirus-a-picornaviruses.md`
+- `DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md`
+- `DIS-029-swinepox-virus.md`
+- `DIS-030-rotaviruses-and-reoviruses.md`
+- `DIS-031-retroviruses.md`
+- `DIS-032-rabies-virus.md`
+- `DIS-033-vesicular-stomatitis-viruses.md`
+- `DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md`
+- `DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md`
+- `DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md`
+- `DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md`
+- `DIS-038-brucella-suis-brucellosis.md`
+- `DIS-039-clostridial-diseases.md`
+- `DIS-040-colibacillosis.md`
+- `DIS-041-neonatal-post-weaning-colibacillosis.md`
+- `DIS-042-edema-disease-e-coli.md`
+- `DIS-043-erysipelas.md`
+- `DIS-044-gl-sser-s-disease.md`
+- `DIS-045-leptospirosis.md`
+- `DIS-046-mycoplasmosis-enzootic-pneumonia.md`
+- `DIS-047-pasteurellosis.md`
+- `DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md`
+- `DIS-049-salmonellosis.md`
+- `DIS-050-staphylococcosis-exudative-epidermitis.md`
+- `DIS-051-streptococcosis-streptococcus-suis.md`
+- `DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md`
+- `DIS-053-tuberculosis.md`
+- `DIS-054-miscellaneous-bacterial-infections.md`
+- `DIS-055-external-parasites-mange.md`
+- `DIS-056-external-parasites-lice.md`
+- `DIS-057-coccidia-and-other-protozoa.md`
+- `DIS-058-toxoplasmosis-protozoa.md`
+- `DIS-059-cryptosporidiosis-protozoa.md`
+- `DIS-060-ascaris-suum-internal-parasites.md`
+- `DIS-061-trichuris-suis-internal-parasites.md`
+- `DIS-062-strongyloides-internal-parasites.md`
+- `DIS-063-metastrongylus-lungworms.md`
+- `DIS-064-stephanurus-dentatus-kidney-worm.md`
+- `DIS-065-nutrient-deficiencies-and-excesses.md`
+- `DIS-066-mycotoxins-in-grains-and-feeds.md`
+- `DIS-067-aflatoxin-toxicosis.md`
+- `DIS-068-don-trichothecene-toxicosis.md`
+- `DIS-069-zearalenone-toxicosis.md`
+- `DIS-070-fumonisin-toxicosis.md`
+- `DIS-071-toxic-minerals-chemicals-plants-and-gases.md`
+- `DIS-072-nitrite-toxicosis.md`
+- `DIS-073-toxic-gases-ventilation-failure.md`

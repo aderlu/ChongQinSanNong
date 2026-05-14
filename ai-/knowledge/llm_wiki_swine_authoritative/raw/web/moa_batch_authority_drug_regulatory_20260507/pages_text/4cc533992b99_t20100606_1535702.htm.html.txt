@@ -1,0 +1,45 @@
+URL: https://www.moa.gov.cn/govpublic/SYJ/201006/t20100606_1535702.htm
+TITLE: 组织查处涉嫌非法兽药行动的通知
+ENTITY: 氯霉素
+QUERY: 氯霉素兽药
+SCORE: 46
+
+中华人民共和国农业农村部
+var isPC=IsPC();//获取是否为PC端 if(isPC){//如果是PC端加载PC的js和css }else{//如果是移动端加载移动端的js和css $(".stylefile").remove(); var rootpath='../../'; dynamicLoadCss(rootpath+'images/base_yidong.css') dynamicLoadCss(rootpath+'images/yidong_gongkai_xiangqing.css') dynamicLoadJs(rootpath+'images/yidongduan.js') } function IsPC() {//获取设备是否为PC的方法 var userAgentInfo = navigator.userAgent; var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"]; var flag = true; for (var v = 0; v < Agents.length; v++) { if (userAgentInfo.indexOf(Agents[v]) >= 0) { flag = false; break; } } return flag; }; function dynamicLoadCss(url) {//加载css方法 var head = document.getElementsByTagName('head')[0]; var link = document.createElement('link'); link.type='text/css'; link.rel = 'stylesheet'; link.href = url; head.appendChild(link); } function dynamicLoadJs(url, callback) {//加载js方法 var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; if(typeof(callback)=='function'){ script.onload = script.onreadystatechange = function () { if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete"){ callback(); script.onload = script.onreadystatechange = null; } }; } head.appendChild(script); }
+<!--头部导航点击添加class效果--> function nav_nav(){ var src="http://www.moa.gov.cn/govpublic/"; if(src.indexOf("jg")!==-1){ $(".nav ul li:eq(1)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("xw")!==-1) {$(".nav ul li:eq(2)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("gk")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("govpublic")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("nybgb")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("fw")!==-1){ $(".nav ul li:eq(4)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("zt")!==-1){ $(".nav ul li:eq(5)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("hd")!==-1){ $(".nav ul li:eq(6)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("sj")!==-1){ $(".nav ul li:eq(7)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("yw")!==-1){ $(".nav ul li:eq(8)").addClass("nav-active").siblings().removeClass("nav-active"); }else{ $(".nav ul li:eq(0)").addClass("nav-active").siblings().removeClass("nav-active"); } }nav_nav();
+当前位置：
+首页
+>
+公开
+索 引 号 ：
+07B130710200900347
+信息所属单位：
+畜牧兽医局
+信息名称：
+组织查处涉嫌非法兽药行动的通知
+生效日期：
+文 号：
+农办医[2009]6号
+发布日期：
+2009年03月06日
+内容概述：
+组织查处涉嫌非法兽药行动的通知
+组织查处涉嫌非法兽药行动的通知
+近期，我部收到有关部门反映部分中兽药产品中添加氯霉素、硝基呋喃等禁用药物和砷类化合物等违法违规问题的通报。经核实，通报中涉嫌非法产品涉及8家企业的9个产品。其中包括3个非法企业产品、3个地标废止产品、3个改变组方非法添加其他药物产品。为严厉打击制售禁用药物和假兽药非法行为，现公布《涉嫌非法兽药产品目录》（简称《目录》，见附件），并通知如下：
+一、请各地兽医主管部门立即对本辖区兽药经营、使用环节进行地毯式排查。发现《目录》序号1-6的产品立即实施清缴销毁；发现《目录》序号7-9的产品立即实施封存收缴，停止经营、使用，并按规定程序抽取样品待查；发现被通报非法企业的所有产品按假兽药查处。在排查行动中发现被通报类似产品或非法制售行为要依法立案查处。
+二、请新疆维吾尔自治区兽医主管部门按《目录》载明的样品来源单位实施现场检查，核查被通报产品的采购渠道和销售去向，收集相关证据、凭证，并抽取样品待查。
+三、请列入《目录》序号4-9的标称企业所在地兽医主管部门对生产企业实施现场检查，重点核查原料药出入库帐目和库存情况；所涉及产品批生产、批检验记录和销售帐目、记录，并从留样室、库房抽取《目录》所列产品及涉嫌产品待查。库存地标废止产品一律收缴销毁，并对企业依法实施处罚。
+四、各地兽医主管部门要于3月底前将排查、处理结果书面报我局。抽取样品按我局统一安排提交承担检测任务单位。
+鉴于通报所反映问题严重，各地要高度重视，按部署积极组织排查、查处工作。我部将根据核查结果依法处理，以维护兽药市场秩序，保证动物用药安全。
+二00九年二月二十三日
+附件：
+09年农办医[2009]6号.CEB
+$(document).ready(function(){ var isPC=IsPC();//获取是否为PC端 if(isPC){//如果是PC端加载PC的js和css $(".font_size.ahc").find('a').click(function(){ var thisSize= $(this).attr('data-ftsz'); $(this).addClass('adc_4').siblings('a').removeClass('adc_4'); $('.arc_body').find('*').css('font-size',thisSize) }) }else{ $(".font_size.ahc").find('a').click(function(){ var thisSize= $(this).attr('data-ftsz'); if(thisSize == '14px'){ thisSize = '.28rem' }else if(thisSize == '16px'){ thisSize = '.32rem' }else if(thisSize == '18px'){ thisSize = '.36rem' } $(this).addClass('adc_4').siblings('a').removeClass('adc_4'); $('.arc_body').find('*').css('font-size',thisSize) }) //20181116 add by yyp to mobile_table setTimeout(function(){ var winWidth=($(window).width())*0.92; $("table").each(function(i){ var thisWidth = ($(this).width()); $(this).css({'zoom':winWidth/thisWidth}); }); },200) //20181116 add end } })
+$(function(){ var fileArray = '<a href="./P020100606587768925117.ceb">09年农办医[2009]6号.CEB</a>'; if (fileArray==''){ $(".xiangqing_fujian").css("display","none"); } })
+#pop{display:none;} #pop_goNotGov_bg2{position:fixed;top:0;left:0;width:100%; height:100%; z-index:300; background-color:#cccccc; filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;} #pop_goNotGov{position:fixed; width:100%; top:150px; z-index:9999;} .pop_main{width:360px;margin:0 auto;} .pop_main .pop_tit{height:25px;line-height:25px;background:#c40001;color:#ffff00;font-weight:bold;font-size:14px;padding:0 0 0 10px;} .pop_main .pop_tit img{float:right;cursor:pointer;} .pop_main .pop_txt{font-size:16px;/*line-height:40px;*/background:url(http://www.moa.gov.cn/images/pop_ico.png) no-repeat 15px center;font-weight:bold;padding:0 0 0 55px;} .pop_main .pop_con{height:120px;background:url(http://www.moa.gov.cn/images/body_goNotGov.jpg) no-repeat;padding:55px 0 0;} .pop_main .pop_btn{text-align:center;padding:35px 0 0;overflow:hidden;} .pop_main .pop_btn span{display:inline-block;width:60px;height:30px;line-height:30px;text-align:center;background:#c40001;border:1px solid #7d0000;color:#fff;font-size:14px;margin:0 20px;cursor:pointer;} .pop_main .pop_btn span:hover{background:#ffff00;color:#000;}
+提示信息
+您即将离开农业农村部门户网站，是否继续？
+确 定
+取 消
+var href; //window.onload = function(){ $(function(){ //debugger setTimeout(function(){ //判断提示ifa() ifa() },3000) //} }) function ifa(){ bindOnclick(document); var fs= document.getElementsByTagName("iframe") for(var j=0;j<fs.length ;j++ ){ var doc= fs[j].contentWindow.document; bindOnclick(doc); } function bindOnclick(doc){ var as= doc.getElementsByTagName("a"); for(var i=0;i<as.length;i++){ as[i].onclick=function(){ if(this.href.match(/^http.*$/)){ // if(this.href.indexOf('.gov.')==-1&&this.href.indexOf('http://202.127.45')==-1&&this.href.indexOf('http://pfsc.agri.cn')==-1){ if(this.href.indexOf('.moa.gov.')==-1&&this.href.indexOf('agri.gov.cn')==-1&&this.href.indexOf('http://www.gov.cn')==-1&&this.href.indexOf('http://www.farmer.com.cn/xbpd/')==-1){ //国务院信息和时政要闻及农业部邮箱不提示 href=this.href; show('pop'); return false; } return true; } } } } function ifPop(){ } } function show(pop){ var o = document.getElementById(pop); o.style.display="block"; //o.setAttribute("style","display:block"); return false; } function go(){ window.open(href); //window.location.href=href; document.getElementById("pop").style.display="none"; } function hide(pop){ var o = document.getElementById(pop); document.getElementById("pop").style.display="none"; //o.setAttribute("style","display:none"); return false; } //$(function(){ // var bodyH = $('body').height(); // $('#pop_goNotGov_bg2').height(bodyH); //})
+var _trackDataType = 'web';var _trackData = _trackData || [];

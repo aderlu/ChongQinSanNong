@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chicken Disease LLM Wiki Graph</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; background: #f6f7f2; color: #17212b; overflow: hidden; }
+    header { padding: 12px 18px 8px; border-bottom: 1px solid #d9dfd2; background: #fbfcf8; }
+    h1 { margin: 0 0 6px; font-size: 24px; }
+    .meta { color: #56636f; font-size: 13px; display: flex; gap: 14px; flex-wrap: wrap; }
+    .toolbar { padding: 10px 18px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; background: #f6f7f2; }
+    input { min-width: 300px; padding: 7px 9px; border: 1px solid #b8c3b3; border-radius: 4px; font-size: 14px; }
+    button { padding: 7px 10px; border: 1px solid #9aa98f; background: #fff; border-radius: 4px; cursor: pointer; }
+    label { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: #394650; }
+    .legend { display: flex; gap: 12px; padding: 0 18px 9px; flex-wrap: wrap; background: #f6f7f2; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    #graph { width: 100%; height: calc(100vh - 150px); display: block; background: #fbfcf8; border-top: 1px solid #e2e6dc; }
+    .node-label { font-size: 10px; fill: #27323b; paint-order: stroke; stroke: #fbfcf8; stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+    .tooltip { position: fixed; pointer-events: none; background: rgba(23,33,43,.92); color: #fff; padding: 8px 10px; border-radius: 6px; font-size: 12px; opacity: 0; max-width: 420px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chicken Disease LLM Wiki Graph</h1>
+    <div class="meta">
+      <span id="generatedAt"></span>
+      <span id="counts"></span>
+      <span id="coverage"></span>
+      <span>数据源: graph-data.json，刷新或打开页面时同步。</span>
+    </div>
+  </header>
+  <div class="toolbar">
+    <input id="search" placeholder="搜索疾病、药物、规则、来源、事实对象">
+    <button id="reload">刷新图谱数据</button>
+    <button id="fit">适配视图</button>
+    <button id="clear">清除筛选</button>
+    <label><input id="showLabels" type="checkbox">显示标签</label>
+    <label><input id="hideCandidates" type="checkbox">隐藏候选</label>
+  </div>
+  <div class="legend">
+    <span><i class="dot" style="background:#c8553d"></i>Disease</span>
+    <span><i class="dot" style="background:#5a9b62"></i>Drug</span>
+    <span><i class="dot" style="background:#3d6f96"></i>Standard</span>
+    <span><i class="dot" style="background:#8b5ca8"></i>Rule</span>
+    <span><i class="dot" style="background:#7b7f83"></i>Source</span>
+    <span><i class="dot" style="background:#b8892d"></i>Concept</span>
+    <span><i class="dot" style="background:#d07aa7"></i>Candidate</span>
+  </div>
+  <svg id="graph"></svg>
+  <div class="tooltip" id="tooltip"></div>
+  <script>
+    const embeddedGraph = {"metadata": {"generated_at": "2026-05-08T23:19:27", "diseases": 1, "drugs": 0, "rules": 0, "sources": 1, "facts": 1, "candidate_facts": 0, "facts_in_graph": 1, "facts_not_in_graph": 0, "candidate_facts_in_graph": 0, "node_groups": {"disease": 1, "source": 1, "standard": 1}, "link_types": {"described-by": 1, "diagnosis_standard_anchor": 1, "evidence": 1, "primary-source": 1}}, "nodes": [{"id": "DIS-026", "label": "口蹄疫", "group": "disease", "relpath": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md", "evidence_status": ""}, {"id": "SRC-0001", "label": "SRC-0001", "group": "source", "relpath": "wiki/sources/SRC-0001-baseline-swine-reference.md", "evidence_status": ""}, {"id": "STANDARD:78c7b3214edf7a", "label": "baseline reviewed swine reference", "group": "standard", "relpath": "", "evidence_status": "HUMAN_REVIEWED"}], "links": [{"source": "DIS-026", "target": "SRC-0001", "type": "primary-source"}, {"source": "DIS-026", "target": "STANDARD:78c7b3214edf7a", "type": "diagnosis_standard_anchor", "predicate": "diagnosis_standard_anchor", "fact_id": "DIS-026-DEMO-001", "evidence_status": "HUMAN_REVIEWED"}, {"source": "DIS-026", "target": "SRC-0001", "type": "evidence", "fact_id": "DIS-026-DEMO-001"}, {"source": "STANDARD:78c7b3214edf7a", "target": "SRC-0001", "type": "described-by"}]};
+    let currentGraph = embeddedGraph;
+
+    async function loadGraph() {
+      try {
+        const response = await fetch('graph-data.json?ts=' + Date.now(), { cache: 'no-store' });
+        if (response.ok) currentGraph = await response.json();
+      } catch (error) {
+        currentGraph = embeddedGraph;
+      }
+      render(currentGraph);
+    }
+
+    function color(group) {
+      return { disease: '#c8553d', drug: '#5a9b62', standard: '#3d6f96', rule: '#8b5ca8', source: '#7b7f83', concept: '#b8892d', candidate: '#d07aa7' }[group] || '#555';
+    }
+
+    function radius(group) {
+      return { disease: 8, drug: 6, standard: 6, rule: 6, source: 4, concept: 4, candidate: 4 }[group] || 4;
+    }
+
+    function render(graph) {
+      const svg = d3.select('#graph');
+      svg.selectAll('*').remove();
+      const width = window.innerWidth;
+      const height = Math.max(560, window.innerHeight - 150);
+      svg.attr('viewBox', [0, 0, width, height]);
+      const tooltip = d3.select('#tooltip');
+      const metadata = graph.metadata || {};
+      document.getElementById('generatedAt').textContent = '生成时间: ' + (metadata.generated_at || 'unknown');
+      document.getElementById('counts').textContent = `节点 ${graph.nodes.length} / 连线 ${graph.links.length} / 疾病 ${metadata.diseases || 0} / 药物 ${metadata.drugs || 0} / 规则 ${metadata.rules || 0} / 来源 ${metadata.sources || 0}`;
+      document.getElementById('coverage').textContent = `正式事实入图 ${metadata.facts_in_graph || 0}/${metadata.facts || 0}，候选 ${metadata.candidate_facts_in_graph || 0}/${metadata.candidate_facts || 0}`;
+
+      const nodes = graph.nodes.map((d, i) => {
+        const angle = (i / Math.max(graph.nodes.length, 1)) * Math.PI * 2;
+        const ring = 80 + (i % 13) * 26;
+        return { ...d, x: width / 2 + Math.cos(angle) * ring, y: height / 2 + Math.sin(angle) * ring };
+      });
+      const links = graph.links.map(d => ({ ...d }));
+      const sim = d3.forceSimulation(nodes)
+        .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.type === 'evidence' ? 32 : 46).strength(0.28))
+        .force('charge', d3.forceManyBody().strength(-34))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('x', d3.forceX(width / 2).strength(0.02))
+        .force('y', d3.forceY(height / 2).strength(0.02))
+        .force('collision', d3.forceCollide().radius(d => radius(d.group) + 5));
+
+      const zoomLayer = svg.append('g');
+      const link = zoomLayer.append('g').attr('stroke', '#aeb8bd').attr('stroke-opacity', 0.42)
+        .selectAll('line').data(links).join('line').attr('stroke-width', d => d.type === 'candidate-fact' ? 0.8 : 1);
+      const node = zoomLayer.append('g').attr('stroke', '#fff').attr('stroke-width', 1.1)
+        .selectAll('circle').data(nodes).join('circle')
+        .attr('r', d => radius(d.group)).attr('fill', d => color(d.group))
+        .call(d3.drag()
+          .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+          .on('end', (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+      const label = zoomLayer.append('g').selectAll('text').data(nodes).join('text')
+        .attr('class', 'node-label').attr('dy', -9).text(d => String(d.label || d.id).slice(0, 28)).style('display', 'none');
+
+      node.on('mousemove', (event, d) => tooltip.style('opacity', 1).style('left', `${event.clientX + 12}px`).style('top', `${event.clientY + 12}px`).html(`<b>${d.label}</b><br>${d.group}<br>${d.id}<br>${d.relpath || ''}`))
+        .on('mouseleave', () => tooltip.style('opacity', 0));
+
+      sim.on('tick', () => {
+        nodes.forEach(d => { d.x = Math.max(18, Math.min(width - 18, d.x)); d.y = Math.max(18, Math.min(height - 18, d.y)); });
+        link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+        node.attr('cx', d => d.x).attr('cy', d => d.y);
+        label.attr('x', d => d.x).attr('y', d => d.y);
+      });
+
+      const zoom = d3.zoom().scaleExtent([0.25, 6]).on('zoom', event => zoomLayer.attr('transform', event.transform));
+      svg.call(zoom);
+      function applyFilters() {
+        const q = document.getElementById('search').value.trim().toLowerCase();
+        const hideCandidates = document.getElementById('hideCandidates').checked;
+        const showLabels = document.getElementById('showLabels').checked;
+        const match = d => (!q || String(d.label || '').toLowerCase().includes(q) || String(d.id || '').toLowerCase().includes(q) || String(d.relpath || '').toLowerCase().includes(q)) && !(hideCandidates && d.group === 'candidate');
+        node.attr('opacity', d => match(d) ? 1 : 0.08);
+        label.style('display', d => showLabels && match(d) ? 'block' : 'none').attr('opacity', d => match(d) ? 1 : 0.08);
+        link.attr('opacity', d => !q && !hideCandidates ? 0.42 : 0.08);
+      }
+      document.getElementById('search').oninput = applyFilters;
+      document.getElementById('showLabels').onchange = applyFilters;
+      document.getElementById('hideCandidates').onchange = applyFilters;
+      document.getElementById('fit').onclick = () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
+    }
+
+    document.getElementById('reload').onclick = loadGraph;
+    document.getElementById('clear').onclick = () => { document.getElementById('search').value = ''; document.getElementById('hideCandidates').checked = false; render(currentGraph); };
+    loadGraph();
+  </script>
+</body>
+</html>

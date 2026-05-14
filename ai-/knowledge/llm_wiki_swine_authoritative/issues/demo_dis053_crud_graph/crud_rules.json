@@ -1,0 +1,26 @@
+﻿[
+    {
+        "action":  "Create",
+        "trigger":  "官方来源不存在于 source_index，且 raw evidence 字段完整、官方域名已确认",
+        "allowed_write":  "新增 source 节点、fact 节点、source-\u003efact、fact-\u003edisease 边",
+        "blocked":  "不得生成剂量、疗程、休药期、MRL、食品安全或猪结核病具体处置细则"
+    },
+    {
+        "action":  "Read",
+        "trigger":  "更新前后均必须执行",
+        "allowed_write":  "无写入；读取 disease/source/fact/runtime/graph",
+        "blocked":  "不得把搜索摘要当证据"
+    },
+    {
+        "action":  "Update",
+        "trigger":  "已有同义 source/fact，但新增官方来源能补充边界、状态或锚点",
+        "allowed_write":  "更新节点属性、补充边、更新 runtime 短摘要",
+        "blocked":  "不得覆盖旧数据；旧数据必须保留或标注 superseded/retrieval_only"
+    },
+    {
+        "action":  "Delete/Archive",
+        "trigger":  "来源无效、越界、重复且未被引用，或正式清理脚本要求降级",
+        "allowed_write":  "未引用 raw 可删除；已引用 source/fact 只能降级或归档",
+        "blocked":  "不得静默删除已入 graph/source/fact/runtime/gold 的对象"
+    }
+]

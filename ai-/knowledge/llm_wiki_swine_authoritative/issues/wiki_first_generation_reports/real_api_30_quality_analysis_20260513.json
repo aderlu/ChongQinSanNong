@@ -1,0 +1,114 @@
+{
+  "generated_count": 30,
+  "evaluated_count": 30,
+  "accepted": 22,
+  "rejected": 8,
+  "accept_rate": 0.733,
+  "by_layer": {
+    "L2_diagnosis_support": {
+      "total": 5,
+      "accepted": 5,
+      "rejected": 0
+    },
+    "L3_differential_support": {
+      "total": 5,
+      "accepted": 5,
+      "rejected": 0
+    },
+    "L4_control_boundary": {
+      "total": 5,
+      "accepted": 5,
+      "rejected": 0
+    },
+    "L5_drug_boundary_negative": {
+      "total": 5,
+      "accepted": 5,
+      "rejected": 0
+    },
+    "L6_regulatory_guardrail": {
+      "total": 4,
+      "accepted": 0,
+      "rejected": 4
+    },
+    "L7_judge_calibration": {
+      "total": 4,
+      "accepted": 0,
+      "rejected": 4
+    },
+    "L1_retrieval_grounded": {
+      "total": 2,
+      "accepted": 2,
+      "rejected": 0
+    }
+  },
+  "reject_reason_counts": {
+    "hard_gate:executive_content_missing_a0_source": 4,
+    "judge:deterministic_placeholder_failed": 8,
+    "fact:sample_source_trust_not_authoritative": 4,
+    "fact:answer_missing_fact_citation": 4
+  },
+  "anchor_preserved_count": 28,
+  "anchor_preserved_rate": 0.933,
+  "missing_anchor_samples": [
+    "REALAPI30-002",
+    "REALAPI30-005"
+  ],
+  "l5_count": 5,
+  "l5_accepted": 5,
+  "l6_count": 4,
+  "l6_rejected": 4,
+  "rejected_examples": [
+    {
+      "sample_id": "REALAPI30-006",
+      "layer": "L6_regulatory_guardrail",
+      "entity": "DIS-002",
+      "reasons": [
+        "hard_gate:executive_content_missing_a0_source",
+        "judge:deterministic_placeholder_failed"
+      ],
+      "answer": "非洲猪瘟；category；病毒病 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-002-toc-category page=wiki/diseases/DIS-002-african-swine-fever-virus.md]; 非洲猪瘟；textbook_chapter_start_page；467 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-002-toc-page-anchor page=wiki/diseases/DIS-002-african-swine-fever-virus.md]; Therefore this sample must be answered as an evidence-boundary case and must not expand into unanchored clinical, drug, or regulatory instructions."
+    },
+    {
+      "sample_id": "REALAPI30-007",
+      "layer": "L7_judge_calibration",
+      "entity": "CMP-001",
+      "reasons": [
+        "fact:sample_source_trust_not_authoritative",
+        "fact:answer_missing_fact_citation",
+        "judge:deterministic_placeholder_failed"
+      ],
+      "answer": "该样本仅能基于已登记来源和规则卡生成边界性回答，不得扩展未锚定结论。 [rule=RC-CITATION-001 page=wiki/comparisons/CMP-001-neonatal-diarrhea.md anchor=rule_card_boundary]"
+    },
+    {
+      "sample_id": "REALAPI30-013",
+      "layer": "L6_regulatory_guardrail",
+      "entity": "DIS-015",
+      "reasons": [
+        "hard_gate:executive_content_missing_a0_source",
+        "judge:deterministic_placeholder_failed"
+      ],
+      "answer": "猪乙型脑炎；category；病毒病/繁殖障碍 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-015-toc-category page=wiki/diseases/DIS-015-japanese-encephalitis-virus.md]; 猪乙型脑炎；textbook_chapter_start_page；554 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-015-toc-page-anchor page=wiki/diseases/DIS-015-japanese-encephalitis-virus.md]; Therefore this sample must be answered as an evidence-boundary case and must not expand into unanchored clinical, drug, or regulatory instructions."
+    },
+    {
+      "sample_id": "REALAPI30-014",
+      "layer": "L7_judge_calibration",
+      "entity": "CMP-002",
+      "reasons": [
+        "fact:sample_source_trust_not_authoritative",
+        "fact:answer_missing_fact_citation",
+        "judge:deterministic_placeholder_failed"
+      ],
+      "answer": "该样本仅能基于已登记来源和规则卡生成边界性回答，不得扩展未锚定结论。 [rule=RC-CITATION-001 page=wiki/comparisons/CMP-002-post-weaning-diarrhea.md anchor=rule_card_boundary]"
+    },
+    {
+      "sample_id": "REALAPI30-020",
+      "layer": "L6_regulatory_guardrail",
+      "entity": "DIS-018",
+      "reasons": [
+        "hard_gate:executive_content_missing_a0_source",
+        "judge:deterministic_placeholder_failed"
+      ],
+      "answer": "猪伪狂犬病；category；病毒病 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-018-toc-category page=wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md]; 猪伪狂犬病；textbook_chapter_start_page；572 [source=SRC-0001 rule=RC-CITATION-001 fact=DIS-018-toc-page-anchor page=wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md]; Therefore this sample must be answered as an evidence-boundary case and must not expand into unanchored clinical, drug, or regulatory instructions."
+    }
+  ]
+}

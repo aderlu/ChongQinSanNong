@@ -1,0 +1,432 @@
+{
+  "generated_at": "2026-05-09T14:56:01+08:00",
+  "purpose": "Phase 9 low-risk runtime cleanup and regression readiness closure.",
+  "compaction_targets": [
+    "DIS-008",
+    "DIS-009",
+    "DIS-024",
+    "DIS-026",
+    "DIS-040",
+    "DIS-041",
+    "DIS-046",
+    "DIS-049",
+    "DIS-051",
+    "DIS-055",
+    "DRUG-042-ampicillin"
+  ],
+  "compaction_records": [
+    {
+      "page": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "changed": true,
+      "blocks_moved": 3,
+      "fact_like_rows_moved": 17,
+      "candidate_fact_mentions_moved": 2,
+      "source_id_mentions_moved": 17,
+      "bytes_before": 27440,
+      "bytes_after": 18390,
+      "bytes_reduced": 9050,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-008-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "changed": true,
+      "blocks_moved": 3,
+      "fact_like_rows_moved": 28,
+      "candidate_fact_mentions_moved": 2,
+      "source_id_mentions_moved": 29,
+      "bytes_before": 26872,
+      "bytes_after": 14459,
+      "bytes_reduced": 12413,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-009-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "changed": true,
+      "blocks_moved": 4,
+      "fact_like_rows_moved": 56,
+      "candidate_fact_mentions_moved": 2,
+      "source_id_mentions_moved": 56,
+      "bytes_before": 39849,
+      "bytes_after": 11396,
+      "bytes_reduced": 28453,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-024-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "changed": true,
+      "blocks_moved": 3,
+      "fact_like_rows_moved": 37,
+      "candidate_fact_mentions_moved": 2,
+      "source_id_mentions_moved": 38,
+      "bytes_before": 33055,
+      "bytes_after": 15634,
+      "bytes_reduced": 17421,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-026-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-040-colibacillosis.md",
+      "changed": true,
+      "blocks_moved": 5,
+      "fact_like_rows_moved": 33,
+      "candidate_fact_mentions_moved": 3,
+      "source_id_mentions_moved": 35,
+      "bytes_before": 32244,
+      "bytes_after": 15854,
+      "bytes_reduced": 16390,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-040-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "changed": true,
+      "blocks_moved": 6,
+      "fact_like_rows_moved": 22,
+      "candidate_fact_mentions_moved": 4,
+      "source_id_mentions_moved": 24,
+      "bytes_before": 23278,
+      "bytes_after": 14703,
+      "bytes_reduced": 8575,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-041-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "changed": true,
+      "blocks_moved": 5,
+      "fact_like_rows_moved": 50,
+      "candidate_fact_mentions_moved": 6,
+      "source_id_mentions_moved": 50,
+      "bytes_before": 34477,
+      "bytes_after": 15350,
+      "bytes_reduced": 19127,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-046-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-049-salmonellosis.md",
+      "changed": true,
+      "blocks_moved": 7,
+      "fact_like_rows_moved": 22,
+      "candidate_fact_mentions_moved": 5,
+      "source_id_mentions_moved": 24,
+      "bytes_before": 26218,
+      "bytes_after": 18005,
+      "bytes_reduced": 8213,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-049-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "changed": true,
+      "blocks_moved": 5,
+      "fact_like_rows_moved": 33,
+      "candidate_fact_mentions_moved": 3,
+      "source_id_mentions_moved": 34,
+      "bytes_before": 23638,
+      "bytes_after": 8455,
+      "bytes_reduced": 15183,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-051-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "changed": true,
+      "blocks_moved": 6,
+      "fact_like_rows_moved": 16,
+      "candidate_fact_mentions_moved": 5,
+      "source_id_mentions_moved": 18,
+      "bytes_before": 22848,
+      "bytes_after": 16647,
+      "bytes_reduced": 6201,
+      "expansion": "wiki/evidence_expansions/diseases/phase9/DIS-055-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-042-ampicillin.md",
+      "changed": true,
+      "blocks_moved": 3,
+      "fact_like_rows_moved": 22,
+      "candidate_fact_mentions_moved": 5,
+      "source_id_mentions_moved": 22,
+      "bytes_before": 20352,
+      "bytes_after": 6278,
+      "bytes_reduced": 14074,
+      "expansion": "wiki/evidence_expansions/drugs/phase9/DRUG-042-ampicillin-phase9-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_section_added": true
+    }
+  ],
+  "partial_gap_routing_records": [
+    {
+      "page": "wiki/diseases/DIS-001-adenoviruses.md",
+      "changed": true,
+      "bytes_before": 8346,
+      "bytes_after": 8923
+    },
+    {
+      "page": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "changed": true,
+      "bytes_before": 15332,
+      "bytes_after": 15909
+    },
+    {
+      "page": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "changed": true,
+      "bytes_before": 12325,
+      "bytes_after": 12902
+    },
+    {
+      "page": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "changed": true,
+      "bytes_before": 11903,
+      "bytes_after": 12480
+    },
+    {
+      "page": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "changed": true,
+      "bytes_before": 12154,
+      "bytes_after": 12731
+    },
+    {
+      "page": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "changed": true,
+      "bytes_before": 9595,
+      "bytes_after": 10172
+    },
+    {
+      "page": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "changed": true,
+      "bytes_before": 9746,
+      "bytes_after": 10323
+    },
+    {
+      "page": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "changed": true,
+      "bytes_before": 12033,
+      "bytes_after": 12610
+    },
+    {
+      "page": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "changed": true,
+      "bytes_before": 11841,
+      "bytes_after": 12418
+    },
+    {
+      "page": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "changed": true,
+      "bytes_before": 12893,
+      "bytes_after": 13470
+    },
+    {
+      "page": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "changed": true,
+      "bytes_before": 8168,
+      "bytes_after": 8745
+    },
+    {
+      "page": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "changed": true,
+      "bytes_before": 8202,
+      "bytes_after": 8779
+    },
+    {
+      "page": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "changed": true,
+      "bytes_before": 8201,
+      "bytes_after": 8778
+    },
+    {
+      "page": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "changed": true,
+      "bytes_before": 10590,
+      "bytes_after": 11167
+    },
+    {
+      "page": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "changed": true,
+      "bytes_before": 9784,
+      "bytes_after": 10361
+    },
+    {
+      "page": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "changed": true,
+      "bytes_before": 8185,
+      "bytes_after": 8762
+    },
+    {
+      "page": "wiki/diseases/DIS-031-retroviruses.md",
+      "changed": true,
+      "bytes_before": 8179,
+      "bytes_after": 8756
+    },
+    {
+      "page": "wiki/diseases/DIS-032-rabies-virus.md",
+      "changed": true,
+      "bytes_before": 11248,
+      "bytes_after": 11825
+    },
+    {
+      "page": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "changed": true,
+      "bytes_before": 8491,
+      "bytes_after": 9068
+    },
+    {
+      "page": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "changed": true,
+      "bytes_before": 7978,
+      "bytes_after": 8555
+    },
+    {
+      "page": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "changed": true,
+      "bytes_before": 11039,
+      "bytes_after": 11616
+    },
+    {
+      "page": "wiki/diseases/DIS-053-tuberculosis.md",
+      "changed": true,
+      "bytes_before": 8017,
+      "bytes_after": 8594
+    },
+    {
+      "page": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "changed": true,
+      "bytes_before": 8184,
+      "bytes_after": 8761
+    },
+    {
+      "page": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "changed": true,
+      "bytes_before": 9211,
+      "bytes_after": 9788
+    },
+    {
+      "page": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "changed": true,
+      "bytes_before": 8317,
+      "bytes_after": 8894
+    },
+    {
+      "page": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "changed": true,
+      "bytes_before": 8923,
+      "bytes_after": 9500
+    },
+    {
+      "page": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "changed": true,
+      "bytes_before": 8309,
+      "bytes_after": 8886
+    },
+    {
+      "page": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "changed": true,
+      "bytes_before": 9979,
+      "bytes_after": 10556
+    },
+    {
+      "page": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "changed": true,
+      "bytes_before": 9260,
+      "bytes_after": 9837
+    },
+    {
+      "page": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "changed": true,
+      "bytes_before": 9085,
+      "bytes_after": 9662
+    },
+    {
+      "page": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "changed": true,
+      "bytes_before": 9726,
+      "bytes_after": 10303
+    },
+    {
+      "page": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "changed": true,
+      "bytes_before": 9283,
+      "bytes_after": 9860
+    },
+    {
+      "page": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "changed": true,
+      "bytes_before": 2891,
+      "bytes_after": 3464
+    },
+    {
+      "page": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "changed": true,
+      "bytes_before": 5053,
+      "bytes_after": 5628
+    },
+    {
+      "page": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "changed": true,
+      "bytes_before": 3194,
+      "bytes_after": 3769
+    },
+    {
+      "page": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "changed": true,
+      "bytes_before": 3999,
+      "bytes_after": 4574
+    },
+    {
+      "page": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "changed": true,
+      "bytes_before": 3871,
+      "bytes_after": 4446
+    },
+    {
+      "page": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "changed": true,
+      "bytes_before": 3400,
+      "bytes_after": 3975
+    },
+    {
+      "page": "wiki/drugs/DRUG-061-ponazuril.md",
+      "changed": true,
+      "bytes_before": 2943,
+      "bytes_after": 3518
+    },
+    {
+      "page": "wiki/drugs/DRUG-070-ractopamine.md",
+      "changed": true,
+      "bytes_before": 3411,
+      "bytes_after": 3986
+    },
+    {
+      "page": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "changed": true,
+      "bytes_before": 3248,
+      "bytes_after": 3823
+    }
+  ],
+  "summary": {
+    "compaction_pages_checked": 11,
+    "compaction_pages_changed": 11,
+    "blocks_moved": 50,
+    "fact_like_rows_moved": 336,
+    "candidate_fact_mentions_moved": 39,
+    "source_id_mentions_moved": 347,
+    "bytes_reduced": 155100,
+    "partial_pages_checked": 41,
+    "partial_pages_changed": 41
+  }
+}

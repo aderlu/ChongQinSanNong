@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-05-13T18:07:15+08:00",
+  "phase": "phase14_real_api_generate_40_parallel",
+  "mode": "real-api",
+  "parallel_workers": 8,
+  "requested": 40,
+  "generated": 40,
+  "failed": 0,
+  "generation_model": "hunyuan-turbos-20250926",
+  "prompt_version": "phase14.two_stage.v3_cn_clinical",
+  "input_skeletons": "exports/answer_skeletons/wiki_answer_skeletons_20260513_api30_source.jsonl",
+  "input_plan": "exports/planned_samples/wiki_sample_plan_20260513.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_cn_real40_parallel8.jsonl",
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 6,
+    "L2_diagnosis_support": 6,
+    "L3_differential_support": 6,
+    "L4_control_boundary": 6,
+    "L5_drug_boundary_negative": 6,
+    "L6_regulatory_guardrail": 5,
+    "L7_judge_calibration": 5
+  },
+  "worker_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 5,
+    "4": 5,
+    "5": 5,
+    "6": 5,
+    "7": 5,
+    "8": 5
+  },
+  "fallback_samples": [
+    "GEN-P8-000001",
+    "GEN-P8-000002",
+    "GEN-P8-000003",
+    "GEN-P8-000004",
+    "GEN-P8-000005",
+    "GEN-P8-000006",
+    "GEN-P8-000007",
+    "GEN-P8-000008",
+    "GEN-P8-000009",
+    "GEN-P8-000010",
+    "GEN-P8-000011",
+    "GEN-P8-000012",
+    "GEN-P8-000013",
+    "GEN-P8-000014",
+    "GEN-P8-000015",
+    "GEN-P8-000016",
+    "GEN-P8-000017",
+    "GEN-P8-000018",
+    "GEN-P8-000019",
+    "GEN-P8-000020",
+    "GEN-P8-000021",
+    "GEN-P8-000022",
+    "GEN-P8-000023",
+    "GEN-P8-000024",
+    "GEN-P8-000025",
+    "GEN-P8-000026",
+    "GEN-P8-000027",
+    "GEN-P8-000028",
+    "GEN-P8-000029",
+    "GEN-P8-000030",
+    "GEN-P8-000031",
+    "GEN-P8-000032",
+    "GEN-P8-000033",
+    "GEN-P8-000034",
+    "GEN-P8-000035",
+    "GEN-P8-000036",
+    "GEN-P8-000037",
+    "GEN-P8-000038",
+    "GEN-P8-000039",
+    "GEN-P8-000040"
+  ],
+  "generation_errors": [
+    {
+      "sample_id": "GEN-P8-000001",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000002",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000003",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000004",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000005",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000006",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000007",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000008",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000009",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000010",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000011",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000012",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000013",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000014",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000015",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000016",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000017",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000018",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000019",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000020",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000021",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000022",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000023",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000024",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000025",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000026",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000027",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000028",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000029",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000030",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000031",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000032",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000033",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000034",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000035",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000036",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000037",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000038",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000039",
+      "generation_error": "APITimeoutError: Request timed out."
+    },
+    {
+      "sample_id": "GEN-P8-000040",
+      "generation_error": "APITimeoutError: Request timed out."
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

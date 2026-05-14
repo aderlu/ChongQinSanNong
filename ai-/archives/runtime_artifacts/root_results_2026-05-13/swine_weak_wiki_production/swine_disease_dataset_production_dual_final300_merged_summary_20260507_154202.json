@@ -1,0 +1,33 @@
+{
+  "input_final_files": [
+    "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260507_141653_dual_final300_reselected_20260507_150645.csv",
+    "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260507_150711_dual_final150_20260507_152954.csv"
+  ],
+  "input_reviewed_files": [
+    "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260507_141653_dual_reviewed_reselected_20260507_150645.csv",
+    "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260507_150711_dual_reviewed_20260507_152954.csv"
+  ],
+  "merged_valid_candidates": 317,
+  "final_selected": 300,
+  "rejects_audit_rows": 225,
+  "duplicate_removed": 0,
+  "score_avg": 87.4,
+  "score_min": 84.0,
+  "score_max": 95.0,
+  "species_counts": {
+    "猪": 300
+  },
+  "label_counts": {
+    "pass": 300
+  },
+  "fatal_counts": {
+    "False": 300
+  },
+  "disease_coverage": 66,
+  "duplicate_user_query": 0,
+  "duplicate_query_diagnosis_prescription": 0,
+  "specific_dose_count": 0,
+  "specific_withdrawal_count": 0,
+  "output_final": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_dual_final300_merged_20260507_154202.csv",
+  "output_rejects": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_dual_merged_rejects_20260507_154202.csv"
+}

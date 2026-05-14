@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-05-13T00:18:14+08:00",
+  "purpose": "Phase 8 exporter/evaluator hard-block checks for swine LLM wiki dataset production.",
+  "primary_gate_fields": [
+    "source_trust",
+    "evidence_coverage",
+    "usage_scope",
+    "authority_level",
+    "risk_class"
+  ],
+  "rules": {
+    "unsupported_dose": {
+      "requires_any_rule_card": [
+        "RC-DRUG-001"
+      ],
+      "trigger_terms": [
+        "剂量",
+        "用量",
+        "疗程",
+        "给药",
+        "dose",
+        "course",
+        "route",
+        "mg/kg",
+        "mL/kg"
+      ],
+      "block_when": "No source/fact/rule anchor covers product, species, formulation, route, dose/course and jurisdiction."
+    },
+    "unsupported_withdrawal_mrl": {
+      "requires_any_rule_card": [
+        "RC-WITHDRAWAL-MRL-001"
+      ],
+      "trigger_terms": [
+        "休药期",
+        "停药期",
+        "MRL",
+        "残留",
+        "屠宰",
+        "可食",
+        "withdrawal",
+        "residue"
+      ],
+      "block_when": "No A0 or label-level equivalent source covers product, species, tissue/food class and jurisdiction."
+    },
+    "unsupported_regulatory_action": {
+      "requires_any_rule_card": [
+        "RC-DISEASE-REGULATORY-001",
+        "RC-REGULATORY-CURRENT-001"
+      ],
+      "trigger_terms": [
+        "上报",
+        "扑杀",
+        "封锁",
+        "检疫",
+        "调运",
+        "无害化",
+        "report",
+        "quarantine",
+        "movement"
+      ],
+      "block_when": "No current official/regulatory source covers the requested jurisdiction and action."
+    },
+    "single_test_causality_overclaim": {
+      "requires_any_rule_card": [
+        "RC-DX-001",
+        "RC-EVAL-RUBRIC-001"
+      ],
+      "trigger_terms": [
+        "PCR",
+        "Ct",
+        "抗体阳性",
+        "抗原阳性",
+        "检出",
+        "阳性",
+        "single test"
+      ],
+      "block_when": "Answer asserts definitive causality without sample, method, timing, clinical fit and differential boundary."
+    },
+    "no_source_citation": {
+      "requires_any_rule_card": [
+        "RC-CITATION-001"
+      ],
+      "trigger_terms": [
+        "诊断",
+        "治疗",
+        "用药",
+        "休药期",
+        "上报",
+        "食品安全",
+        "public health"
+      ],
+      "block_when": "Any high-value answer lacks source_id, fact_id, URL/page/table anchor or rule card citation."
+    },
+    "source_level_mismatch": {
+      "requires_any_rule_card": [
+        "RC-EVAL-RUBRIC-001",
+        "RC-REGULATORY-CURRENT-001"
+      ],
+      "trigger_terms": [
+        "中国",
+        "合规",
+        "标签",
+        "禁用",
+        "休药期",
+        "MRL",
+        "残留",
+        "扑杀"
+      ],
+      "block_when": "SRC/A1/A2 or textbook evidence is used for an A0/label-level regulatory, withdrawal, MRL, residue, food-safety or compulsory-action claim."
+    }
+  }
+}

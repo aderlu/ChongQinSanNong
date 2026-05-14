@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-05-14T00:21:24+08:00",
+  "graph_path": "wiki/wiki-native-graph.json",
+  "added_nodes": [],
+  "removed_nodes": [],
+  "changed_nodes": [],
+  "added_links": [],
+  "removed_links": [],
+  "changed_links": [],
+  "crud_counts": {},
+  "summary": {
+    "nodes_before": 6099,
+    "nodes_after": 6099,
+    "delta_nodes": 0,
+    "links_before": 6442,
+    "links_after": 6442,
+    "delta_links": 0,
+    "facts_in_graph": 2405,
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "changed_nodes": 0,
+    "added_links": 0,
+    "removed_links": 0,
+    "changed_links": 0,
+    "verified_semantic_edges_before": 152,
+    "verified_semantic_edges_after": 152,
+    "delta_verified_semantic_edges": 0
+  },
+  "recent_crud_events": [],
+  "reasonableness": "该变更日志由 wiki-native 图谱构建脚本自动生成。本次节点净变化 0，边净变化 0，verified semantic edges 净变化 0。最近一次更新说明来自当前主图谱与上一份 wiki-native 快照的结构化对比，不再依赖手工编辑 diff 文件。"
+}

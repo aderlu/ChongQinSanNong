@@ -1,0 +1,9 @@
+URL: https://www.moa.gov.cn/ztzl/fzzwfk/rdgz/201901/t20190110_6166426.htm
+TITLE: 非洲猪瘟防控远程培训讲义-典型案例通报解读
+SEARCH_TERMS_USED: 非洲猪瘟通知, 非洲猪瘟公告, 非洲猪瘟技术指南, 非洲猪瘟通报, 非洲猪瘟实施方案
+MATCHED: 非洲猪瘟 + 通报
+DISCOVERED_FROM: https://www.moa.gov.cn/ztzl/fzzwfk/rdgz/
+DISCOVERY_METHOD: moa_topic_anchor_asf_plus_suffix
+ANCHOR_TEXT: 非洲猪瘟防控远程培训讲义-典型案例通报解读
+
+请下载附件

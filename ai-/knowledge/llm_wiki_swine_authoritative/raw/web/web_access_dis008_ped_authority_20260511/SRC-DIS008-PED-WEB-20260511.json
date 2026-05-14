@@ -1,0 +1,108 @@
+{
+  "source_id": "SRC-DIS008-PED-WEB-20260511",
+  "title": "Web Access authority source extraction for DIS-008 porcine epidemic diarrhoea / PED",
+  "disease_id": "DIS-008",
+  "disease_name": "Porcine epidemic diarrhoea / porcine epidemic diarrhea virus",
+  "accessed_at": "2026-05-11T17:25:00+08:00",
+  "extraction_method": "Codex web-access skill workflow with authority source verification, search discovery, official page/PDF URL checks, and source-first governance routing",
+  "authority_sources": [
+    {
+      "source_id": "A1-WOAH-PED",
+      "url": "https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/",
+      "domain": "www.woah.org",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "title": "Porcine epidemic diarrhoea",
+      "page_type": "international animal-health authority disease page",
+      "accessed_at": "2026-05-11",
+      "authority_level_suggestion": "A1",
+      "domain_confirmed": true,
+      "explicit_dis008_support": [
+        "WOAH describes PED as a non-zoonotic viral disease of pigs caused by a coronavirus and characterised by watery diarrhoea and weight loss.",
+        "WOAH states that PED affects pigs of all ages but most severely neonatal piglets, with morbidity and mortality reaching up to 100% and mortality decreasing with age.",
+        "WOAH states that PED is mainly transmitted by the faecal-oral route.",
+        "WOAH states that PED is clinically similar to other forms of porcine gastroenteritis and includes anorexia, vomiting, diarrhoea and dehydration.",
+        "WOAH states that prevention and management control focus on strict biosecurity and early detection.",
+        "WOAH states that there is no specific treatment for PED.",
+        "WOAH states that PED is not included in the WOAH List of Diseases, while emerging-disease reporting obligations can apply in the context described by the WOAH Terrestrial Animal Health Code."
+      ],
+      "limitations": [
+        "International WOAH disease page; do not use as a substitute for current China-specific reporting, quarantine, culling, movement-control, vaccination, or farm-closure requirements.",
+        "Do not convert the no-specific-treatment statement into drug, dose, route, treatment-course, withdrawal-period, MRL, residue, food-safety, or therapeutic protocol conclusions.",
+        "Use PED/TGE/gastroenteritis similarity only as a diagnostic-boundary anchor requiring laboratory support, not as a single-cause diagnosis from clinical signs alone."
+      ]
+    },
+    {
+      "source_id": "A1-USDA-APHIS-PED-TECH-NOTE-2023",
+      "url": "https://www.aphis.usda.gov/sites/default/files/ped_tech_note.pdf",
+      "domain": "www.aphis.usda.gov",
+      "publisher": "USDA APHIS Veterinary Services",
+      "title": "Porcine Epidemic Diarrhea (PED) Technical Note",
+      "page_type": "US federal animal-health technical note PDF",
+      "last_modified_header": "2023-07-21",
+      "accessed_at": "2026-05-11",
+      "authority_level_suggestion": "A1",
+      "domain_confirmed": true,
+      "explicit_dis008_support": [
+        "USDA APHIS describes PED's pathogenic agent as a coronavirus distinguishable from transmissible gastroenteritis of swine only by laboratory tests.",
+        "USDA APHIS states that PED is most serious in neonatal piglets, where morbidity and mortality can be 80 to 100 percent.",
+        "USDA APHIS states that PED transmission is fecal-oral and that no vector or reservoir has been implicated in its spread in the technical note.",
+        "USDA APHIS states that economic loss occurs through death and production loss, plus vaccination and biosecurity costs.",
+        "USDA APHIS states there is no effective treatment other than control of secondary infections."
+      ],
+      "limitations": [
+        "US federal technical note; do not use to infer China-specific legal status, reporting, movement controls, quarantine, culling, vaccination schedules, or market rules.",
+        "The treatment sentence is a boundary statement only and is not a product-label source; do not infer executable antimicrobial prescriptions, dose, route, course, withdrawal period, MRL, residue, or food-safety conclusions.",
+        "Do not extend PED facts to TGEV, PDCoV, rotavirus, ETEC or other enteric diseases without separate disease-specific sources."
+      ]
+    }
+  ],
+  "supported_claims": [
+    {
+      "fact_id": "DIS008-WEB-001-woah-nonzoonotic-coronavirus",
+      "claim": "WOAH identifies PED as a non-zoonotic viral disease of pigs caused by a coronavirus and characterised by watery diarrhoea and weight loss.",
+      "supporting_source_id": "A1-WOAH-PED",
+      "supporting_source_url": "https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS008-WEB-002-woah-age-morbidity-mortality",
+      "claim": "WOAH states that PED affects pigs of all ages but is most severe in neonatal piglets, with morbidity and mortality reaching up to 100% and mortality decreasing as age increases.",
+      "supporting_source_id": "A1-WOAH-PED",
+      "supporting_source_url": "https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS008-WEB-003-woah-fecal-oral-biosecurity-early-detection",
+      "claim": "WOAH states that PED is mainly transmitted by the faecal-oral route and that prevention and management control focus on strict biosecurity and early detection.",
+      "supporting_source_id": "A1-WOAH-PED",
+      "supporting_source_url": "https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/",
+      "risk_class": "control_boundary"
+    },
+    {
+      "fact_id": "DIS008-WEB-004-woah-clinical-similarity-no-specific-treatment",
+      "claim": "WOAH states that PED is clinically similar to other forms of porcine gastroenteritis and that there is no specific treatment; this supports diagnostic and treatment-boundary use only.",
+      "supporting_source_id": "A1-WOAH-PED",
+      "supporting_source_url": "https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/",
+      "risk_class": "diagnostic_drug_boundary"
+    },
+    {
+      "fact_id": "DIS008-WEB-005-usda-lab-differentiation-from-tge",
+      "claim": "USDA APHIS states that PED's coronavirus agent is distinguishable from transmissible gastroenteritis of swine only by laboratory tests.",
+      "supporting_source_id": "A1-USDA-APHIS-PED-TECH-NOTE-2023",
+      "supporting_source_url": "https://www.aphis.usda.gov/sites/default/files/ped_tech_note.pdf",
+      "risk_class": "diagnostic"
+    },
+    {
+      "fact_id": "DIS008-WEB-006-usda-fecal-oral-no-vector-reservoir",
+      "claim": "USDA APHIS states that PED transmission is fecal-oral and that no vector or reservoir has been implicated in its spread in the technical note.",
+      "supporting_source_id": "A1-USDA-APHIS-PED-TECH-NOTE-2023",
+      "supporting_source_url": "https://www.aphis.usda.gov/sites/default/files/ped_tech_note.pdf",
+      "risk_class": "normal_clinical"
+    }
+  ],
+  "do_not_extrapolate": [
+    "Do not generate China-specific reporting, quarantine, culling, movement-control, vaccination schedule, farm-closure, or market-access conclusions from WOAH or USDA pages alone.",
+    "Do not convert no-treatment or secondary-infection wording into executable prescriptions, antimicrobial choices, dose, route, course, withdrawal period, MRL, residue, or food-safety conclusions.",
+    "Do not diagnose PED from watery diarrhoea alone; clinical similarity to TGE and other porcine gastroenteritis requires laboratory-supported differentiation."
+  ]
+}

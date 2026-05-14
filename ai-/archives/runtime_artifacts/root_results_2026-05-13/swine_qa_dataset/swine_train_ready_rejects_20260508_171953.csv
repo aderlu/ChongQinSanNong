@@ -1,0 +1,5 @@
+case_id,disease_name,final_label,final_total_score,reject_reasons
+b7044ee4-d028-5762-acc7-a9ce2cef49b4,猪瘟,pass,95.0,fatal_risk
+ea044ca3-17b0-50dc-bc13-8d687e95abd4,猪流行性腹泻,pass,87.0,fatal_risk
+bcf6cdde-7d10-52f2-a33a-c706cc41ea21,猪大肠杆菌病,pass,87.0,fatal_risk|target_disease_alias_not_in_diagnosis
+55c41deb-e40b-50c1-ac91-eb08618d1f0d,猪繁殖与呼吸综合征,pass,83.0,score_below_min|fatal_risk

@@ -1,0 +1,106 @@
+{
+  "source_id": "SRC-DIS053-TB-WEB-20260511",
+  "title": "DIS-053 猪结核病官方来源核验摘要",
+  "disease_id": "DIS-053",
+  "disease_name": "猪结核病",
+  "accessed_at": "2026-05-11T11:43:45+08:00",
+  "publisher": "农业农村部；国家市场监督管理总局、中国国家标准化管理委员会",
+  "authority_level_suggestion": "官方来源。农业农村部页面属于国务院组成部门官方网站下的畜牧兽医局栏目；全国标准信息公共服务平台页面由国家市场监督管理总局、国家标准化管理委员会主管/主办体系发布国家标准信息。建议作为猪病 LLM Wiki 的 A 级定位/边界证据，但不作为猪结核病治疗、用药、剂量、休药期、MRL 或食品安全合规证据。",
+  "evidence_status_suggestion": "可用但边界受限。已核验的官方原文支持动物疫病名录和动物结核病国家标准元数据；未发现优先官方域名内有直接面向猪结核病的通知、公告、技术指南、通报或实施方案原文，可支持猪结核病的当前可执行处置、治疗或食品安全结论。",
+  "search_terms": [
+    "猪结核病 技术指南 site:moa.gov.cn OR site:gov.cn OR site:samr.gov.cn OR site:openstd.samr.gov.cn",
+    "猪结核病 通报 site:moa.gov.cn OR site:gov.cn OR site:samr.gov.cn OR site:openstd.samr.gov.cn",
+    "猪结核病 通知 site:moa.gov.cn OR site:gov.cn OR site:samr.gov.cn OR site:openstd.samr.gov.cn",
+    "猪结核病 公告 site:moa.gov.cn OR site:gov.cn OR site:samr.gov.cn OR site:openstd.samr.gov.cn",
+    "猪 结核病 实施方案 site:moa.gov.cn",
+    "农业农村部 公告 动物疫病病种名录 结核病 猪 moa.gov.cn",
+    "GB/T 18645 动物结核病诊断技术 openstd.samr.gov.cn"
+  ],
+  "official_sources": [
+    {
+      "official_domain_confirmed": true,
+      "domain": "xmsyj.moa.gov.cn",
+      "parent_official_domain": "moa.gov.cn",
+      "title": "中华人民共和国农业农村部公告 第573号",
+      "url": "https://xmsyj.moa.gov.cn/gzdt/202206/t20220629_6403635.htm",
+      "accessed_at": "2026-05-11T11:43:45+08:00",
+      "publisher": "农业农村部",
+      "content_source_or_department": "畜牧兽医局",
+      "published_date": "2022-06-29",
+      "signed_date_or_effective_date": "2022-06-23；公告明示自发布之日起施行",
+      "page_type": "公告",
+      "explicit_dis053_support": [
+        "页面发布《一、二、三类动物疫病病种名录》。",
+        "原文中列出牛病项下的牛结核病；猪病项下列出猪瘟、猪繁殖与呼吸综合征、猪流行性腹泻，未列出猪结核病。",
+        "原文另在多种动物共患病相关条目中出现副结核病、类鼻疽等，但这不能等同于猪结核病。"
+      ],
+      "limitations": [
+        "该公告不能把牛结核病的疫病分类或措施外推为猪结核病处置细则。",
+        "该公告未提供猪结核病诊断流程、治疗、用药、剂量、疗程、休药期、MRL 或食品安全合规结论。"
+      ]
+    },
+    {
+      "official_domain_confirmed": true,
+      "domain": "openstd.samr.gov.cn",
+      "parent_official_domain": "samr.gov.cn",
+      "title": "国家标准|GB/T 18645-2020",
+      "url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=05248DA1409774CDD6057CDCF09B3F90",
+      "accessed_at": "2026-05-11T11:43:45+08:00",
+      "publisher": "国家市场监督管理总局、中国国家标准化管理委员会",
+      "content_source_or_department": "全国标准信息公共服务平台",
+      "standard_number": "GB/T 18645-2020",
+      "standard_name": "动物结核病诊断技术",
+      "standard_status": "现行",
+      "published_date": "2020-12-14",
+      "implementation_date": "2020-12-14",
+      "competent_department": "农业农村部",
+      "page_type": "国家标准信息页",
+      "explicit_dis053_support": [
+        "页面明示标准中文名称为《动物结核病诊断技术》，英文名称为 Diagnostic techniques for animal tuberculosis。",
+        "页面明示该标准状态为现行，并给出发布日期、实施日期、主管部门、归口部门和发布单位。",
+        "该页面仅能支持存在现行推荐性国家标准 GB/T 18645-2020 及其标准元数据。"
+      ],
+      "limitations": [
+        "本次实际读取到的是国家标准信息页元数据，未读取并核验标准全文条款。",
+        "不得把标准信息页外推为具体检测步骤、采样要求、判定规则或确诊结论。",
+        "该页面未提供猪结核病治疗、用药、剂量、疗程、休药期、MRL 或食品安全合规结论。"
+      ]
+    }
+  ],
+  "summary": {
+    "official_domain_confirmation": "已确认使用的证据页来自 xmsyj.moa.gov.cn（农业农村部畜牧兽医局栏目，父域 moa.gov.cn）和 openstd.samr.gov.cn（全国标准信息公共服务平台，父域 samr.gov.cn）。",
+    "dis053_relevance": "DIS-053 猪结核病可引用的官方信息主要限于：动物疫病名录中相关疾病名称边界，以及现行《动物结核病诊断技术》国家标准的元数据。未发现优先官方域名中可直接支持猪结核病专门处置细则或治疗方案的官方原文。",
+    "classification_boundary": "农业农村部公告第573号列明牛结核病属于牛病相关条目，猪病条目未列出猪结核病；因此该公告可用于提示不要把牛结核病条目外推到猪结核病。",
+    "standard_boundary": "GB/T 18645-2020 页面支持动物结核病诊断技术标准存在且现行，但本次未核验全文，不能从信息页生成具体检测步骤或确诊规则。"
+  },
+  "supported_claims": [
+    {
+      "claim": "农业农村部公告第573号发布了《一、二、三类动物疫病病种名录》，自发布之日起施行。",
+      "supporting_source_url": "https://xmsyj.moa.gov.cn/gzdt/202206/t20220629_6403635.htm",
+      "evidence_strength": "strong_for_policy_metadata"
+    },
+    {
+      "claim": "该名录原文中出现牛结核病，但位于牛病条目；猪病条目未列出猪结核病。",
+      "supporting_source_url": "https://xmsyj.moa.gov.cn/gzdt/202206/t20220629_6403635.htm",
+      "evidence_strength": "strong_for_non_extrapolation_boundary"
+    },
+    {
+      "claim": "GB/T 18645-2020《动物结核病诊断技术》在全国标准信息公共服务平台显示为现行，发布日期和实施日期均为 2020-12-14，主管部门和归口部门为农业农村部。",
+      "supporting_source_url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=05248DA1409774CDD6057CDCF09B3F90",
+      "evidence_strength": "strong_for_standard_metadata_only"
+    },
+    {
+      "claim": "截至本次检索和原文读取，未获得可支持 DIS-053 猪结核病当前可执行剂量、疗程、休药期、MRL 或合规结论的官方原文证据。",
+      "supporting_source_url": "derived_from_official_source_review",
+      "evidence_strength": "negative_finding_within_searched_scope"
+    }
+  ],
+  "do_not_extrapolate": [
+    "不得外推治疗、用药、剂量、疗程、休药期、MRL、食品安全或合规结论。",
+    "不得把农业农村部公告第573号中的牛结核病条目外推为猪结核病的分类、处置、扑杀、检疫或防控细则。",
+    "不得把 GB/T 18645-2020 标准信息页外推为具体检测步骤、采样方法、阳性判定、确诊结论或实验室操作 SOP。",
+    "不得把副结核病、类鼻疽、牛结核病等名称相近或相关条目等同为猪结核病。",
+    "不得声称本次来源支持猪结核病当前可执行剂量、疗程、休药期、MRL 或食品安全合规结论。"
+  ],
+  "extraction_method": "必须加载并已加载 web-access skill。按 skill 要求先执行 CDP 前置检查：node C:/Users/admin/.codex/skills/web-access/scripts/check-deps.mjs；结果为 Node.js v18.20.8 警告、Chrome 端口 9222 可见，但 CDP proxy 连接超时，提示需检查 Chrome 调试设置，因此 CDP 分支失败并记录。随后使用搜索仅作定位，检索词包含疾病名加通知、公告、技术指南、通报、实施方案等后缀，并优先限定 moa.gov.cn、gov.cn、samr.gov.cn、openstd.samr.gov.cn。证据提取阶段直接读取官方原文 URL：通过 WebSearch/open 定位与核验页面，并用 PowerShell Invoke-WebRequest 直接获取官方页面 HTML，解析 meta 字段、页面文本和标准信息页字段；搜索摘要未作为证据。"
+}

@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-13T22:31:58+08:00",
+  "target": "DIS-038 brucella suis brucellosis",
+  "mode": "web_access_authority_refresh",
+  "crud_action": "create/update",
+  "source_added": "A2-CFSPH-BRUCELLA-SUIS-FACTSHEET-2026",
+  "facts_added": [
+    "DIS038-WEB-005-cfsph-transmission-exposure",
+    "DIS038-WEB-006-cfsph-clinical-pattern",
+    "DIS038-WEB-007-cfsph-zoonotic-boundary"
+  ],
+  "source_page": "wiki/sources/A2-CFSPH-BRUCELLA-SUIS-FACTSHEET-2026.md",
+  "runtime_page": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+  "evidence_expansion": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-038-brucella-suis-brucellosis/007-CFSPH-Authority-Web-Refresh-2026-05-13.md",
+  "raw_pdf": "raw/web/web_access_dis038_brucellosis_20260513/A2-CFSPH-BRUCELLA-SUIS-FACTSHEET-2026.pdf",
+  "raw_extract": "raw/web/web_access_dis038_brucellosis_20260513/A2-CFSPH-BRUCELLA-SUIS-FACTSHEET-2026-pages.txt",
+  "old_data_handling": "keep",
+  "runtime_impact": "update",
+  "gold_dataset_impact": "update via rebuilt fact status/readiness indexes",
+  "boundary": "A2 source does not replace China A0/A1 execution rules."
+}

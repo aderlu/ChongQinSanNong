@@ -1,0 +1,1737 @@
+{
+  "total_pages": 80,
+  "by_status": {
+    "source_anchored_drug_evidence_page": 47,
+    "partial_drug_evidence_page": 32,
+    "regulatory_boundary_page": 1
+  },
+  "drug_index_updated": false,
+  "pages": [
+    {
+      "file": "DRUG-001-avermectins.md",
+      "drug_id": "DRUG-001-avermectins",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0080",
+        "SRC-0082",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 11,
+      "page_anchor_count": 4,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-002-ivermectin.md",
+      "drug_id": "DRUG-002-ivermectin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0080",
+        "SRC-0082",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 42,
+      "page_anchor_count": 26,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-003-doramectin.md",
+      "drug_id": "DRUG-003-doramectin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0080",
+        "SRC-0082",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 15,
+      "page_anchor_count": 14,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-004-fenbendazole.md",
+      "drug_id": "DRUG-004-fenbendazole",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0082",
+        "SRC-0088",
+        "SRC-0090"
+      ],
+      "fact_count": 5,
+      "page_anchor_count": 4,
+      "batch_blocks": [
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-005-benzimidazoles.md",
+      "drug_id": "DRUG-005-benzimidazoles",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0082",
+        "SRC-0088"
+      ],
+      "fact_count": 8,
+      "page_anchor_count": 6,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-006-anticoccidials.md",
+      "drug_id": "DRUG-006-anticoccidials",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "SRC-0081"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-007-antimicrobials.md",
+      "drug_id": "DRUG-007-antimicrobials",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "RULE-HANDBOOK-PRESCRIPTION-001",
+        "SRC-0057",
+        "SRC-0087"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 0,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-008-food-animal-banned-drug-list.md",
+      "drug_id": "DRUG-008-food-animal-banned-drug-list",
+      "status": "regulatory_boundary_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-POLICY"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 0,
+      "batch_blocks": [],
+      "regulated": true,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-009-penicillin-g.md",
+      "drug_id": "DRUG-009-penicillin-g",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0062",
+        "SRC-0065",
+        "SRC-0075",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 71,
+      "page_anchor_count": 55,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-010-amoxicillin.md",
+      "drug_id": "DRUG-010-amoxicillin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-AMOXICILLIN-INJECTION-332-2020",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0075",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 46,
+      "page_anchor_count": 34,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-011-ceftiofur.md",
+      "drug_id": "DRUG-011-ceftiofur",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-CEFTIOFUR-SODIUM-INJECTION-2024",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0063",
+        "SRC-0070",
+        "SRC-0074",
+        "SRC-0075",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 24,
+      "page_anchor_count": 17,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-012-florfenicol.md",
+      "drug_id": "DRUG-012-florfenicol",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-ANNOUNCEMENT-1738-VET-DRUG-CANCELLATION-2012",
+        "A0-MOA-ANNOUNCEMENT-995-FLORFENICOL-2026",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-FLORFENICOL-INJECTION-219-2019",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-VET-DRUG-SUPERVISION-2026",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0073",
+        "SRC-0075",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 45,
+      "page_anchor_count": 38,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-013-tiamulin.md",
+      "drug_id": "DRUG-013-tiamulin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 46,
+      "page_anchor_count": 38,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-014-lincomycin.md",
+      "drug_id": "DRUG-014-lincomycin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0074",
+        "SRC-0075",
+        "SRC-0077",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 41,
+      "page_anchor_count": 38,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-015-tylosin.md",
+      "drug_id": "DRUG-015-tylosin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 55,
+      "page_anchor_count": 52,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-016-tylvalosin.md",
+      "drug_id": "DRUG-016-tylvalosin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0071",
+        "SRC-0077"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-017-tulathromycin.md",
+      "drug_id": "DRUG-017-tulathromycin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0070",
+        "SRC-0088"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 1,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-018-enrofloxacin.md",
+      "drug_id": "DRUG-018-enrofloxacin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-ANNOUNCEMENT-1011-ENROFLOXACIN-2026",
+        "A0-MOA-ANNOUNCEMENT-1738-VET-DRUG-CANCELLATION-2012",
+        "A0-MOA-ANNOUNCEMENT-55-ENROFLOXACIN-2018",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-ENROFLOXACIN-SOLUTION-55-2018",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-VET-DRUG-SUPERVISION-2026",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "RULE-HANDBOOK-PRESCRIPTION-001",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0063",
+        "SRC-0070",
+        "SRC-0075",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 29,
+      "page_anchor_count": 17,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-019-oxytetracycline.md",
+      "drug_id": "DRUG-019-oxytetracycline",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-WITHDRAWAL-278",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0062",
+        "SRC-0065",
+        "SRC-0067",
+        "SRC-0069",
+        "SRC-0070",
+        "SRC-0075",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 58,
+      "page_anchor_count": 36,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-020-chlortetracycline.md",
+      "drug_id": "DRUG-020-chlortetracycline",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 30,
+      "page_anchor_count": 26,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-021-doxycycline.md",
+      "drug_id": "DRUG-021-doxycycline",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0012",
+        "SRC-0067",
+        "SRC-0069",
+        "SRC-0070",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 41,
+      "page_anchor_count": 38,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-022-sulfonamide-trimethoprim.md",
+      "drug_id": "DRUG-022-sulfonamide-trimethoprim",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0063",
+        "SRC-0070",
+        "SRC-0074",
+        "SRC-0075",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 10,
+      "page_anchor_count": 6,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-023-gentamicin.md",
+      "drug_id": "DRUG-023-gentamicin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0063",
+        "SRC-0075",
+        "SRC-0076",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 31,
+      "page_anchor_count": 29,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-024-neomycin.md",
+      "drug_id": "DRUG-024-neomycin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0063",
+        "SRC-0082",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 19,
+      "page_anchor_count": 19,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-025-apramycin.md",
+      "drug_id": "DRUG-025-apramycin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0063"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-026-spectinomycin.md",
+      "drug_id": "DRUG-026-spectinomycin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0077",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "fact_count": 8,
+      "page_anchor_count": 7,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-027-toltrazuril.md",
+      "drug_id": "DRUG-027-toltrazuril",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-TOLTRAZURIL-SUSPENSION-216-2019",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0081",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 4,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-028-iron-dextran.md",
+      "drug_id": "DRUG-028-iron-dextran",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0088"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 6,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-029-nsaids.md",
+      "drug_id": "DRUG-029-nsaids",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0066",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 9,
+      "page_anchor_count": 10,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-030-tetracyclines.md",
+      "drug_id": "DRUG-030-tetracyclines",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012",
+        "SRC-0062",
+        "SRC-0065",
+        "SRC-0067",
+        "SRC-0069",
+        "SRC-0070",
+        "SRC-0075",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 31,
+      "page_anchor_count": 32,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-031-macrolides.md",
+      "drug_id": "DRUG-031-macrolides",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-032-pleuromutilins.md",
+      "drug_id": "DRUG-032-pleuromutilins",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-033-aminoglycosides.md",
+      "drug_id": "DRUG-033-aminoglycosides",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0063",
+        "SRC-0075",
+        "SRC-0076"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-034-sulfonamides.md",
+      "drug_id": "DRUG-034-sulfonamides",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-ANNOUNCEMENT-183-SULFADIAZINE-2019",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-MRL-GB31650-2019",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012",
+        "SRC-0059",
+        "SRC-0063",
+        "SRC-0070",
+        "SRC-0074",
+        "SRC-0075",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 78,
+      "page_anchor_count": 59,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-035-beta-lactams.md",
+      "drug_id": "DRUG-035-beta-lactams",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0065",
+        "SRC-0066",
+        "SRC-0069",
+        "SRC-0075"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-036-lincosamides.md",
+      "drug_id": "DRUG-036-lincosamides",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012",
+        "SRC-0069",
+        "SRC-0077"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-037-sulfamethazine.md",
+      "drug_id": "DRUG-037-sulfamethazine",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-MRL-GB31650-2019",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-038-trimethoprim-sulfadiazine.md",
+      "drug_id": "DRUG-038-trimethoprim-sulfadiazine",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-039-sulfadimethoxine.md",
+      "drug_id": "DRUG-039-sulfadimethoxine",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-MRL-GB31650-2019",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "drug_id": "DRUG-040-trimethoprim-sulfamethoxazole",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "drug_id": "DRUG-041-sulfadimidine-sulfathiazole-combinations",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-MRL-GB31650-2019",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-042-ampicillin.md",
+      "drug_id": "DRUG-042-ampicillin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 21,
+      "page_anchor_count": 22,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-043-amoxicillin-clavulanic-acid.md",
+      "drug_id": "DRUG-043-amoxicillin-clavulanic-acid",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "A0-MOA-WITHDRAWAL-278",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-044-cefquinome.md",
+      "drug_id": "DRUG-044-cefquinome",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-ANNOUNCEMENT-661-CEFQUINOME-2006",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "A0-MOA-PRESCRIPTION-2471-2016",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 7,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-045-tilmicosin.md",
+      "drug_id": "DRUG-045-tilmicosin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-ANNOUNCEMENT-70-TILMICOSIN-2018",
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-LABEL-INSTRUCTION-RULES-2002",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 21,
+      "page_anchor_count": 22,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-046-valnemulin.md",
+      "drug_id": "DRUG-046-valnemulin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0089"
+      ],
+      "fact_count": 3,
+      "page_anchor_count": 4,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-047-chloramphenicol.md",
+      "drug_id": "DRUG-047-chloramphenicol",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "A0-MOA-ILLEGAL-ADDITIVES-METHODS-2024",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-048-carbadox.md",
+      "drug_id": "DRUG-048-carbadox",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-CARBADOX-RESIDUE-2019",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-049-olaquindox.md",
+      "drug_id": "DRUG-049-olaquindox",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-CARBADOX-RESIDUE-2019",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "A0-MOA-STOP-OLAQUINDOX-2638",
+        "SRC-0012",
+        "SRC-0089"
+      ],
+      "fact_count": 7,
+      "page_anchor_count": 8,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-050-dimetridazole-ronidazole.md",
+      "drug_id": "DRUG-050-dimetridazole-ronidazole",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "A0-MOA-ILLEGAL-ADDITIVES-METHODS-2024",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 5,
+      "page_anchor_count": 6,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-051-danofloxacin-marbofloxacin.md",
+      "drug_id": "DRUG-051-danofloxacin-marbofloxacin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-STOP-FLUOROQUINOLONES-2292",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 9,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-052-colistin.md",
+      "drug_id": "DRUG-052-colistin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 8,
+      "page_anchor_count": 14,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-053-bacitracin-methylene-disalicylate.md",
+      "drug_id": "DRUG-053-bacitracin-methylene-disalicylate",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-054-virginiamycin.md",
+      "drug_id": "DRUG-054-virginiamycin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-055-moxidectin.md",
+      "drug_id": "DRUG-055-moxidectin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-056-levamisole.md",
+      "drug_id": "DRUG-056-levamisole",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0087"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 1,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-057-piperazine-pyrantel.md",
+      "drug_id": "DRUG-057-piperazine-pyrantel",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-058-amitraz.md",
+      "drug_id": "DRUG-058-amitraz",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-059-phosmet-coumaphos.md",
+      "drug_id": "DRUG-059-phosmet-coumaphos",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-060-permethrin-deltamethrin.md",
+      "drug_id": "DRUG-060-permethrin-deltamethrin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-061-ponazuril.md",
+      "drug_id": "DRUG-061-ponazuril",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-062-amprolium.md",
+      "drug_id": "DRUG-062-amprolium",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-063-meloxicam.md",
+      "drug_id": "DRUG-063-meloxicam",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0004",
+        "SRC-0012",
+        "SRC-0088"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 2,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-064-flunixin-meglumine.md",
+      "drug_id": "DRUG-064-flunixin-meglumine",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0004",
+        "SRC-0012",
+        "SRC-0088"
+      ],
+      "fact_count": 3,
+      "page_anchor_count": 2,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "drug_id": "DRUG-065-ketoprofen-sodium-salicylate-indomethacin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0088"
+      ],
+      "fact_count": 7,
+      "page_anchor_count": 5,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-066-dexamethasone.md",
+      "drug_id": "DRUG-066-dexamethasone",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 53,
+      "page_anchor_count": 44,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-067-oxytocin.md",
+      "drug_id": "DRUG-067-oxytocin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 18,
+      "page_anchor_count": 18,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START",
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-068-altrenogest.md",
+      "drug_id": "DRUG-068-altrenogest",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012",
+        "SRC-0088"
+      ],
+      "fact_count": 4,
+      "page_anchor_count": 2,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-069-triptorelin.md",
+      "drug_id": "DRUG-069-triptorelin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-070-ractopamine.md",
+      "drug_id": "DRUG-070-ractopamine",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-DRUG-RISK-MONITORING-2026",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "SRC-0012"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-071-streptomycin.md",
+      "drug_id": "DRUG-071-streptomycin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-MRL-GB31650-2019-RAW",
+        "SRC-0067",
+        "SRC-0068"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-072-tildipirosin.md",
+      "drug_id": "DRUG-072-tildipirosin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0060",
+        "SRC-0061"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-073-erythromycin.md",
+      "drug_id": "DRUG-073-erythromycin",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0067",
+        "SRC-0068",
+        "SRC-0074",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 13,
+      "page_anchor_count": 14,
+      "batch_blocks": [
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-074-amikacin.md",
+      "drug_id": "DRUG-074-amikacin",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A1-WOAH-SWINE-AMR-TRD-2025",
+        "SRC-0073"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-075-praziquantel.md",
+      "drug_id": "DRUG-075-praziquantel",
+      "status": "partial_drug_evidence_page",
+      "evidence_status": "NEEDS_REVIEW",
+      "gold_use": "boundary_only",
+      "sources": [
+        "A1-WOAH-PORCINE-CYSTICERCOSIS",
+        "RC-DRUG-CLASS-001",
+        "RC-DRUG-GOLD-ROLE-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0082"
+      ],
+      "fact_count": 0,
+      "page_anchor_count": 1,
+      "batch_blocks": [],
+      "regulated": false,
+      "executable_signals": false
+    },
+    {
+      "file": "DRUG-076-dichlorvos.md",
+      "drug_id": "DRUG-076-dichlorvos",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "A0-MOA-ELIMINATED-DRUGS-839",
+        "SRC-0082",
+        "SRC-0087",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 8,
+      "page_anchor_count": 3,
+      "batch_blocks": [
+        "HANDBOOK_RX_V13_1_START",
+        "SFDUT_1_200_V13_1_START",
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-077-azaperone.md",
+      "drug_id": "DRUG-077-azaperone",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0088"
+      ],
+      "fact_count": 6,
+      "page_anchor_count": 5,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-078-pentobarbital.md",
+      "drug_id": "DRUG-078-pentobarbital",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0088"
+      ],
+      "fact_count": 5,
+      "page_anchor_count": 3,
+      "batch_blocks": [
+        "VTOP_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-079-atropine.md",
+      "drug_id": "DRUG-079-atropine",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "fact_count": 1,
+      "page_anchor_count": 1,
+      "batch_blocks": [
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    },
+    {
+      "file": "DRUG-080-epinephrine.md",
+      "drug_id": "DRUG-080-epinephrine",
+      "status": "source_anchored_drug_evidence_page",
+      "evidence_status": "HUMAN_REVIEWED",
+      "gold_use": "evidence_linked_candidate",
+      "sources": [
+        "SRC-0090"
+      ],
+      "fact_count": 8,
+      "page_anchor_count": 8,
+      "batch_blocks": [
+        "SFDUT_200_363_V13_1_START"
+      ],
+      "regulated": false,
+      "executable_signals": true
+    }
+  ]
+}

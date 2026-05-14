@@ -1,0 +1,107 @@
+{
+  "worker": "Worker B",
+  "changed_at": "2026-05-13T00:02:27+08:00",
+  "scope": "exports CSV/JSON/JSONL excluding knowledge_facts.json and knowledge_facts_status_index.json",
+  "changed_files": {
+    "alias_index.csv": {
+      "before_hits": 13,
+      "after_hits": 0
+    },
+    "balanced_task_use_index.csv": {
+      "before_hits": 189,
+      "after_hits": 0
+    },
+    "comparison_index.csv": {
+      "before_hits": 15,
+      "after_hits": 0
+    },
+    "disease_index.csv": {
+      "before_hits": 41,
+      "after_hits": 0
+    },
+    "drug_gold_role_index.csv": {
+      "before_hits": 63,
+      "after_hits": 0
+    },
+    "exporter_hard_block_rules.json": {
+      "before_hits": 1,
+      "after_hits": 0
+    },
+    "gold_dataset_readiness_index.csv": {
+      "before_hits": 95,
+      "after_hits": 0
+    },
+    "rule_index.csv": {
+      "before_hits": 434,
+      "after_hits": 0
+    },
+    "runtime_core_manifest.json": {
+      "before_hits": 749,
+      "after_hits": 0
+    },
+    "source_authority_status_index.csv": {
+      "before_hits": 187,
+      "after_hits": 0
+    },
+    "source_index.csv": {
+      "before_hits": 187,
+      "after_hits": 0
+    },
+    "synthesis_index.csv": {
+      "before_hits": 19,
+      "after_hits": 0
+    },
+    "veterinary_rational_use_1_200_fact_index.csv": {
+      "before_hits": 82,
+      "after_hits": 0
+    },
+    "veterinary_rational_use_201_400_fact_index.csv": {
+      "before_hits": 85,
+      "after_hits": 0
+    },
+    "veterinary_rational_use_401_600_fact_index.csv": {
+      "before_hits": 421,
+      "after_hits": 0
+    },
+    "pilot_gold_dataset\\pilot_eval_20260509.jsonl": {
+      "before_hits": 16,
+      "after_hits": 0
+    },
+    "pilot_gold_dataset\\pilot_limited_20260509.jsonl": {
+      "before_hits": 16,
+      "after_hits": 0
+    },
+    "pilot_gold_dataset\\pilot_negative_trap_20260509.jsonl": {
+      "before_hits": 16,
+      "after_hits": 0
+    },
+    "pilot_gold_dataset\\pilot_train_20260509.jsonl": {
+      "before_hits": 16,
+      "after_hits": 0
+    }
+  },
+  "mapping_summary": {
+    "legacy evidence fields": "evidence_coverage",
+    "task/gold/sample role fields": "usage_scope or sample_usage_scope",
+    "reviewed or source anchored evidence": "complete",
+    "review-needed or partial evidence": "partial",
+    "train-ready or positive-candidate use": "gold_candidate",
+    "eval/rule/boundary use": "audit_only",
+    "retrieval-only use": "retrieval",
+    "gap-routing use": "gap_routing",
+    "negative-trap use": "negative_trap"
+  },
+  "old_token_occurrences_before": {
+    "old_token_01": 1654,
+    "old_token_02": 213,
+    "old_token_03": 241,
+    "old_token_04": 1,
+    "old_token_05": 238,
+    "old_token_06": 33,
+    "old_token_07": 61,
+    "old_token_08": 40,
+    "old_token_09": 41,
+    "old_token_10": 123
+  },
+  "old_token_key": "Token labels are ordered as in Worker B assignment; exact legacy strings omitted so audit records do not reintroduce removed status terms."
+}

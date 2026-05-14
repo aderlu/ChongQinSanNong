@@ -1,0 +1,156 @@
+{
+  "production": {
+    "timestamp": "20260508_164033",
+    "requested": 100,
+    "generated": 100,
+    "valid": 72,
+    "reject_or_review": 28,
+    "valid_rate": 0.72,
+    "score_avg": 85.36,
+    "score_min": 65.0,
+    "score_max": 95.0,
+    "label_counts": {
+      "pass": 72,
+      "review": 10,
+      "reject": 18
+    },
+    "fatal_count": 18,
+    "specific_dose_count": 0,
+    "specific_withdrawal_count": 0,
+    "csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033.csv",
+    "valid_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_valid.csv",
+    "rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_rejects.csv",
+    "raw_json": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_weak_wiki_production_raw_20260508_164033.json"
+  },
+  "dual_review": {
+    "input_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033.csv",
+    "input_rows": 100,
+    "first_pass_candidates": 72,
+    "second_reviewed": 72,
+    "dual_valid": 50,
+    "final_selected": 50,
+    "target": 100,
+    "final_score_avg": 87.97,
+    "final_score_min": 81.0,
+    "final_score_max": 95.0,
+    "arbitration_count": 71,
+    "output_full": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_reviewed_20260508_164705.csv",
+    "output_final": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_final100_20260508_164705.csv",
+    "output_rejects": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_rejects_20260508_164705.csv",
+    "raw_json": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_review_raw_20260508_164705.json"
+  },
+  "train_ready": {
+    "input_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_final100_20260508_164705.csv",
+    "output_jsonl": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_20260508_165018.jsonl",
+    "rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_rejects_20260508_165018.csv",
+    "accepted": 0,
+    "rejected": 50,
+    "min_score": 85.0,
+    "min_standard_citations": 3
+  },
+  "wall_seconds_observed": {
+    "generation_judge_a": 374.1,
+    "dual_review_arbitration": 182.7,
+    "train_ready_export": 0.8,
+    "total": 557.6
+  },
+  "stage_seconds": {
+    "answer_seconds_avg": 10.15,
+    "judge_a_seconds_avg": 18.48,
+    "total_generation_judge_a_seconds_avg": 28.63,
+    "total_generation_judge_a_seconds_p50": 28.45,
+    "total_generation_judge_a_seconds_p90": 33.2,
+    "judge_b_seconds_avg": 18.89,
+    "arbiter_seconds_avg": null,
+    "dual_total_seconds_avg": 18.89
+  },
+  "wiki_usage": {
+    "rows_with_wiki_dir": 100,
+    "avg_context_chars": 2197.96,
+    "avg_wiki_fact_count": 1595.0,
+    "avg_wiki_page_count": 980.0,
+    "unique_evidence_sources_used": 127,
+    "top_sources": {
+      "SRC-0001": 92,
+      "RC-WITHDRAWAL-MRL-001": 49,
+      "RC-DRUG-001": 46,
+      "SRC-0087": 41,
+      "SRC-0088": 41,
+      "RC-DISEASE-REGULATORY-001": 38,
+      "SRC-0009": 36,
+      "SRC-0089": 36,
+      "SRC-0008": 33,
+      "SRC-0012": 32,
+      "SRC-0090": 26,
+      "A0-MOA-573": 22,
+      "SRC-0037": 15,
+      "RC-TRAIN-READY-001": 12,
+      "SRC-0032": 11,
+      "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026": 10,
+      "SRC-0085": 10,
+      "SRC-0033": 10,
+      "SRC-0063": 9,
+      "SRC-0064": 9
+    },
+    "evidence_status_counter": {
+      "HUMAN_REVIE": 1,
+      "HUMAN_REVIEWED": 238,
+      "NEEDS_REVIEW": 161,
+      "HUMAN_": 1,
+      "PROCESSED_SOURCE_ANCHORED": 15,
+      "HUMAN_REVIEWE": 1,
+      "HUMAN_REVIEW": 1,
+      "NEEDS_": 1,
+      "HUM": 1,
+      "H": 1,
+      "HUMAN_REVI": 1,
+      "HUMAN_REV": 1
+    }
+  },
+  "model_success": {
+    "answer_success": 100,
+    "judge_a_success": 100,
+    "judge_b_reviewed": 72,
+    "arbiter_invoked": 71
+  },
+  "labels": {
+    "generation_judge_a": {
+      "pass": 72,
+      "reject": 18,
+      "review": 10
+    },
+    "dual_reviewed": {
+      "pass": 50,
+      "review": 22
+    },
+    "final_selected": {
+      "pass": 50
+    }
+  },
+  "scores": {
+    "judge_a_avg": 85.36,
+    "judge_a_min": 65.0,
+    "judge_a_max": 95.0,
+    "final_selected_avg": 87.97,
+    "final_selected_min": 81.0,
+    "final_selected_max": 95.0
+  },
+  "train_ready_reject_reasons": {
+    "too_few_standard_citations": 50,
+    "missing_answer_json": 50,
+    "internal_anchor_without_source_id": 24,
+    "target_disease_alias_not_in_diagnosis": 1,
+    "fatal_risk": 5,
+    "score_below_min": 7
+  },
+  "files": {
+    "production_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033.csv",
+    "production_raw_json": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_weak_wiki_production_raw_20260508_164033.json",
+    "dual_reviewed_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_reviewed_20260508_164705.csv",
+    "dual_final_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_final100_20260508_164705.csv",
+    "dual_rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_rejects_20260508_164705.csv",
+    "dual_raw_json": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_review_raw_20260508_164705.json",
+    "train_ready_jsonl": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_20260508_165018.jsonl",
+    "train_ready_rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_rejects_20260508_165018.csv"
+  }
+}

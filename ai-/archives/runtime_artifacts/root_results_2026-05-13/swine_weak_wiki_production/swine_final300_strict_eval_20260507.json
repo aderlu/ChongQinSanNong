@@ -1,0 +1,632 @@
+{
+  "path": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_dual_final300_train_ready_20260507_154202.csv",
+  "rows": 300,
+  "columns": 60,
+  "species_counts": {
+    "猪": 300
+  },
+  "label_counts": {
+    "pass": 300
+  },
+  "fatal_counts": {
+    "False": 300
+  },
+  "success_counts": {
+    "成功": 300
+  },
+  "hard_block_counts": {
+    "False": 300
+  },
+  "rule_fatal_counts": {
+    "False": 300
+  },
+  "target_in_diag_counts": {
+    "True": 300
+  },
+  "target_mismatch_counts": {
+    "False": 300
+  },
+  "needed_arbitration_counts": {
+    "True": 293,
+    "False": 7
+  },
+  "arbiter_labels": {
+    "pass": 293,
+    "": 7
+  },
+  "nonempty_counts": {
+    "case_id": 300,
+    "index": 300,
+    "disease_name": 300,
+    "generator_key": 300,
+    "generator_model": 300,
+    "success": 300,
+    "error": 0,
+    "species": 300,
+    "user_query": 300,
+    "diagnosis": 300,
+    "prescription": 300,
+    "withdrawal_period": 298,
+    "metadata": 300,
+    "rule_hard_block": 300,
+    "rule_fatal_risk": 300,
+    "rule_codes": 0,
+    "rule_messages": 0,
+    "target_disease_in_diagnosis": 300,
+    "target_disease_mismatch": 300,
+    "final_fatal_risk": 300,
+    "wiki_dir": 300,
+    "wiki_fact_count": 300,
+    "wiki_page_count": 300,
+    "wiki_context_query": 300,
+    "wiki_evidence_status_counts": 300,
+    "wiki_evidence_source_ids": 300,
+    "wiki_context_chars": 300,
+    "generation_seconds": 300,
+    "judge_a_model": 300,
+    "judge_a_total_score": 300,
+    "judge_a_diagnosis_accuracy": 300,
+    "judge_a_pathology_logic": 300,
+    "judge_a_prescription_safety": 300,
+    "judge_a_data_quality": 300,
+    "judge_a_fatal_risk": 300,
+    "judge_a_structured_pass": 300,
+    "judge_a_summary": 300,
+    "judge_b_model": 300,
+    "judge_b_total_score": 300,
+    "judge_b_diagnosis_accuracy": 300,
+    "judge_b_pathology_logic": 300,
+    "judge_b_prescription_safety": 300,
+    "judge_b_data_quality": 300,
+    "judge_b_fatal_risk": 300,
+    "judge_b_structured_pass": 300,
+    "judge_b_summary": 300,
+    "needed_arbitration": 300,
+    "arbiter_model": 293,
+    "arbiter_agreed_with_judge": 293,
+    "arbiter_final_label": 293,
+    "arbiter_reason": 293,
+    "final_total_score": 300,
+    "final_diagnosis_accuracy": 300,
+    "final_pathology_logic": 300,
+    "final_prescription_safety": 300,
+    "final_data_quality": 300,
+    "final_label": 300,
+    "judge_a_seconds": 300,
+    "judge_b_seconds": 300,
+    "arbiter_seconds": 0
+  },
+  "empty_counts": {
+    "case_id": 0,
+    "index": 0,
+    "disease_name": 0,
+    "generator_key": 0,
+    "generator_model": 0,
+    "success": 0,
+    "error": 300,
+    "species": 0,
+    "user_query": 0,
+    "diagnosis": 0,
+    "prescription": 0,
+    "withdrawal_period": 2,
+    "metadata": 0,
+    "rule_hard_block": 0,
+    "rule_fatal_risk": 0,
+    "rule_codes": 300,
+    "rule_messages": 300,
+    "target_disease_in_diagnosis": 0,
+    "target_disease_mismatch": 0,
+    "final_fatal_risk": 0,
+    "wiki_dir": 0,
+    "wiki_fact_count": 0,
+    "wiki_page_count": 0,
+    "wiki_context_query": 0,
+    "wiki_evidence_status_counts": 0,
+    "wiki_evidence_source_ids": 0,
+    "wiki_context_chars": 0,
+    "generation_seconds": 0,
+    "judge_a_model": 0,
+    "judge_a_total_score": 0,
+    "judge_a_diagnosis_accuracy": 0,
+    "judge_a_pathology_logic": 0,
+    "judge_a_prescription_safety": 0,
+    "judge_a_data_quality": 0,
+    "judge_a_fatal_risk": 0,
+    "judge_a_structured_pass": 0,
+    "judge_a_summary": 0,
+    "judge_b_model": 0,
+    "judge_b_total_score": 0,
+    "judge_b_diagnosis_accuracy": 0,
+    "judge_b_pathology_logic": 0,
+    "judge_b_prescription_safety": 0,
+    "judge_b_data_quality": 0,
+    "judge_b_fatal_risk": 0,
+    "judge_b_structured_pass": 0,
+    "judge_b_summary": 0,
+    "needed_arbitration": 0,
+    "arbiter_model": 7,
+    "arbiter_agreed_with_judge": 7,
+    "arbiter_final_label": 7,
+    "arbiter_reason": 7,
+    "final_total_score": 0,
+    "final_diagnosis_accuracy": 0,
+    "final_pathology_logic": 0,
+    "final_prescription_safety": 0,
+    "final_data_quality": 0,
+    "final_label": 0,
+    "judge_a_seconds": 0,
+    "judge_b_seconds": 0,
+    "arbiter_seconds": 300
+  },
+  "num_stats": {
+    "final_total_score": {
+      "count": 300,
+      "min": 84.0,
+      "p25": 86.5,
+      "avg": 87.4,
+      "median": 87.0,
+      "p75": 89.0,
+      "max": 95.0
+    },
+    "judge_a_total_score": {
+      "count": 300,
+      "min": 82.0,
+      "p25": 88.0,
+      "avg": 87.77,
+      "median": 88.0,
+      "p75": 88.0,
+      "max": 95.0
+    },
+    "judge_b_total_score": {
+      "count": 300,
+      "min": 82.0,
+      "p25": 85.0,
+      "avg": 86.57,
+      "median": 85.0,
+      "p75": 90.0,
+      "max": 95.0
+    },
+    "final_diagnosis_accuracy": {
+      "count": 300,
+      "min": 26.0,
+      "p25": 28.0,
+      "avg": 27.9,
+      "median": 28.0,
+      "p75": 28.0,
+      "max": 30.0
+    },
+    "final_pathology_logic": {
+      "count": 300,
+      "min": 18.0,
+      "p25": 18.0,
+      "avg": 18.08,
+      "median": 18.0,
+      "p75": 18.0,
+      "max": 20.0
+    },
+    "final_prescription_safety": {
+      "count": 300,
+      "min": 20.0,
+      "p25": 23.0,
+      "avg": 23.29,
+      "median": 23.0,
+      "p75": 24.0,
+      "max": 25.0
+    },
+    "final_data_quality": {
+      "count": 300,
+      "min": 13.0,
+      "p25": 18.0,
+      "avg": 18.96,
+      "median": 20.0,
+      "p75": 20.0,
+      "max": 24.0
+    },
+    "generation_seconds": {
+      "count": 300,
+      "min": 18.11,
+      "p25": 25.75,
+      "avg": 33.28,
+      "median": 28.205,
+      "p75": 30.669999999999998,
+      "max": 479.26
+    },
+    "judge_a_seconds": {
+      "count": 300,
+      "min": 9.94,
+      "p25": 17.09,
+      "avg": 20.91,
+      "median": 18.795,
+      "p75": 20.572499999999998,
+      "max": 270.76
+    },
+    "judge_b_seconds": {
+      "count": 300,
+      "min": 6.59,
+      "p25": 16.0225,
+      "avg": 20.83,
+      "median": 17.645,
+      "p75": 19.745,
+      "max": 213.59
+    },
+    "wiki_fact_count": {
+      "count": 300,
+      "min": 1465.0,
+      "p25": 1465.0,
+      "avg": 1465.0,
+      "median": 1465.0,
+      "p75": 1465.0,
+      "max": 1465.0
+    },
+    "wiki_page_count": {
+      "count": 300,
+      "min": 887.0,
+      "p25": 887.0,
+      "avg": 887.0,
+      "median": 887.0,
+      "p75": 887.0,
+      "max": 887.0
+    },
+    "wiki_context_chars": {
+      "count": 300,
+      "min": 1889.0,
+      "p25": 2104.0,
+      "avg": 2163.45,
+      "median": 2220.0,
+      "p75": 2221.0,
+      "max": 2221.0
+    }
+  },
+  "disease_coverage": 66,
+  "top_diseases": [
+    [
+      "猪乙型脑炎",
+      10
+    ],
+    [
+      "猪瘟",
+      9
+    ],
+    [
+      "猪伪狂犬病",
+      9
+    ],
+    [
+      "猪传染性胃肠炎",
+      9
+    ],
+    [
+      "猪流行性腹泻",
+      8
+    ],
+    [
+      "猪霉菌毒素中毒",
+      8
+    ],
+    [
+      "猪支原体肺炎",
+      8
+    ],
+    [
+      "猪繁殖与呼吸综合征",
+      8
+    ],
+    [
+      "非洲猪瘟",
+      7
+    ],
+    [
+      "仔猪黄白痢",
+      7
+    ],
+    [
+      "猪口蹄疫",
+      7
+    ],
+    [
+      "猪胸膜肺炎",
+      7
+    ],
+    [
+      "猪δ冠状病毒感染",
+      7
+    ],
+    [
+      "猪增生性肠炎",
+      7
+    ],
+    [
+      "猪痘",
+      7
+    ],
+    [
+      "猪疥螨病",
+      6
+    ],
+    [
+      "猪细小病毒病",
+      6
+    ],
+    [
+      "猪丹毒",
+      6
+    ],
+    [
+      "猪鞭虫病",
+      6
+    ],
+    [
+      "仔猪梭菌性肠炎",
+      6
+    ]
+  ],
+  "singletons": 4,
+  "duplicate_user_query": 0,
+  "duplicate_qdp": 0,
+  "specific_dose_count": 0,
+  "specific_withdrawal_count": 0,
+  "high_risk_count": 0,
+  "high_risk_missing_boundary": [],
+  "high_risk_sell_allowed": [],
+  "score_diff_stats": {
+    "count": 300,
+    "avg": 2.65,
+    "max": 5.0,
+    "over_8": 0
+  },
+  "flagged_rows_count": 300,
+  "flagged_rows_sample": [
+    {
+      "index": "220",
+      "disease_name": "非洲猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "220",
+      "disease_name": "非洲猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "366",
+      "disease_name": "非洲猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "74",
+      "disease_name": "非洲猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "102",
+      "disease_name": "猪丝状病毒相关感染",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "369",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "9",
+      "disease_name": "仔猪黄白痢",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "103",
+      "disease_name": "猪乙型脑炎",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "176",
+      "disease_name": "猪乙型脑炎",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "106",
+      "disease_name": "猪伪狂犬病",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "151",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "151",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "224",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "370",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "443",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "5",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "78",
+      "disease_name": "猪口蹄疫",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "456",
+      "disease_name": "猪布鲁氏菌病",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "400",
+      "disease_name": "猪恶性卡他热相关感染",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "294",
+      "disease_name": "猪流行性腹泻",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "190",
+      "disease_name": "猪狂犬病风险",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "361",
+      "disease_name": "猪玉米赤霉烯酮中毒",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "88",
+      "disease_name": "猪疥螨病",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "150",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "223",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "296",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "4",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "4",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "442",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    },
+    {
+      "index": "77",
+      "disease_name": "猪瘟",
+      "flags": [
+        "species_not_swine"
+      ]
+    }
+  ],
+  "wiki_status_top": [
+    [
+      "{\"HUMAN_REVIEWED\": 3, \"NEEDS_REVIEW\": 2}",
+      91
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 2, \"NEEDS_REVIEW\": 2}",
+      83
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 1, \"NEEDS_REVIEW\": 4}",
+      25
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 4}",
+      22
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 3}",
+      14
+    ],
+    [
+      "{\"NEEDS_REVIEW\": 2, \"PROCESSED_SOURCE_ANCHORED\": 2}",
+      14
+    ],
+    [
+      "{\"NEEDS_REVIEW\": 5}",
+      13
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 2}",
+      8
+    ],
+    [
+      "{\"HUMAN_REVIEWED\": 2, \"NEEDS_REVIEW\": 3}",
+      8
+    ],
+    [
+      "{\"HUMA\": 1, \"HUMAN_REVIEWED\": 3}",
+      3
+    ]
+  ]
+}

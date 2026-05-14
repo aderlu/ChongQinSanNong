@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-13T14:20:14+08:00",
+  "phase": "phase15_fact_level_evaluate_samples",
+  "mode": "deterministic_fact_and_hard_gate",
+  "input_generated": "exports/generated_samples/real_api_samples_20260513_30.jsonl",
+  "output": "exports/evaluated_samples/fact_evaluated_samples_20260513_realapi30.jsonl",
+  "samples": 30,
+  "accepted": 22,
+  "rejected": 8,
+  "reject_reason_counts": {
+    "fact:answer_missing_fact_citation": 4,
+    "fact:sample_source_trust_not_authoritative": 4,
+    "hard_gate:executive_content_missing_a0_source": 4,
+    "judge:deterministic_placeholder_failed": 8
+  },
+  "passed": true
+}

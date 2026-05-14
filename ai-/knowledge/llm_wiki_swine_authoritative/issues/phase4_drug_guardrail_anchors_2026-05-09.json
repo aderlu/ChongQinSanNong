@@ -1,0 +1,1417 @@
+{
+  "generated_at": "2026-05-09T13:45:32+08:00",
+  "purpose": "Phase 4 application of explicit drug runtime guardrail anchors.",
+  "records": [
+    {
+      "page_id": "DRUG-001-avermectins",
+      "path": "wiki/drugs/DRUG-001-avermectins.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 6898
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 7463
+      }
+    },
+    {
+      "page_id": "DRUG-002-ivermectin",
+      "path": "wiki/drugs/DRUG-002-ivermectin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 18967
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 18967
+      }
+    },
+    {
+      "page_id": "DRUG-003-doramectin",
+      "path": "wiki/drugs/DRUG-003-doramectin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 10325
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 10890
+      }
+    },
+    {
+      "page_id": "DRUG-004-fenbendazole",
+      "path": "wiki/drugs/DRUG-004-fenbendazole.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 5659
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6224
+      }
+    },
+    {
+      "page_id": "DRUG-005-benzimidazoles",
+      "path": "wiki/drugs/DRUG-005-benzimidazoles.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 7041
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 7606
+      }
+    },
+    {
+      "page_id": "DRUG-006-anticoccidials",
+      "path": "wiki/drugs/DRUG-006-anticoccidials.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 7998
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8563
+      }
+    },
+    {
+      "page_id": "DRUG-007-antimicrobials",
+      "path": "wiki/drugs/DRUG-007-antimicrobials.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 8344
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8909
+      }
+    },
+    {
+      "page_id": "DRUG-008-food-animal-banned-drug-list",
+      "path": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "regulatory_boundary_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2337
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 2891
+      }
+    },
+    {
+      "page_id": "DRUG-009-penicillin-g",
+      "path": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6571
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6571
+      }
+    },
+    {
+      "page_id": "DRUG-010-amoxicillin",
+      "path": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 29903
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 29903
+      }
+    },
+    {
+      "page_id": "DRUG-011-ceftiofur",
+      "path": "wiki/drugs/DRUG-011-ceftiofur.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 18100
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 18100
+      }
+    },
+    {
+      "page_id": "DRUG-012-florfenicol",
+      "path": "wiki/drugs/DRUG-012-florfenicol.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 32418
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 32418
+      }
+    },
+    {
+      "page_id": "DRUG-013-tiamulin",
+      "path": "wiki/drugs/DRUG-013-tiamulin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 30086
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 30086
+      }
+    },
+    {
+      "page_id": "DRUG-014-lincomycin",
+      "path": "wiki/drugs/DRUG-014-lincomycin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6371
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6371
+      }
+    },
+    {
+      "page_id": "DRUG-015-tylosin",
+      "path": "wiki/drugs/DRUG-015-tylosin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 34086
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 34086
+      }
+    },
+    {
+      "page_id": "DRUG-016-tylvalosin",
+      "path": "wiki/drugs/DRUG-016-tylvalosin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4407
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4972
+      }
+    },
+    {
+      "page_id": "DRUG-017-tulathromycin",
+      "path": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4497
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 5053
+      }
+    },
+    {
+      "page_id": "DRUG-018-enrofloxacin",
+      "path": "wiki/drugs/DRUG-018-enrofloxacin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 20999
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 20999
+      }
+    },
+    {
+      "page_id": "DRUG-019-oxytetracycline",
+      "path": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 29848
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 29848
+      }
+    },
+    {
+      "page_id": "DRUG-020-chlortetracycline",
+      "path": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6455
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6455
+      }
+    },
+    {
+      "page_id": "DRUG-021-doxycycline",
+      "path": "wiki/drugs/DRUG-021-doxycycline.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 26497
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 26497
+      }
+    },
+    {
+      "page_id": "DRUG-022-sulfonamide-trimethoprim",
+      "path": "wiki/drugs/DRUG-022-sulfonamide-trimethoprim.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 9929
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 10494
+      }
+    },
+    {
+      "page_id": "DRUG-023-gentamicin",
+      "path": "wiki/drugs/DRUG-023-gentamicin.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6051
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6051
+      }
+    },
+    {
+      "page_id": "DRUG-024-neomycin",
+      "path": "wiki/drugs/DRUG-024-neomycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 14389
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 14954
+      }
+    },
+    {
+      "page_id": "DRUG-025-apramycin",
+      "path": "wiki/drugs/DRUG-025-apramycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3410
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3975
+      }
+    },
+    {
+      "page_id": "DRUG-026-spectinomycin",
+      "path": "wiki/drugs/DRUG-026-spectinomycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 8928
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 9493
+      }
+    },
+    {
+      "page_id": "DRUG-027-toltrazuril",
+      "path": "wiki/drugs/DRUG-027-toltrazuril.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8691
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8691
+      }
+    },
+    {
+      "page_id": "DRUG-028-iron-dextran",
+      "path": "wiki/drugs/DRUG-028-iron-dextran.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 7621
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8186
+      }
+    },
+    {
+      "page_id": "DRUG-029-nsaids",
+      "path": "wiki/drugs/DRUG-029-nsaids.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 13036
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 13601
+      }
+    },
+    {
+      "page_id": "DRUG-030-tetracyclines",
+      "path": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4594
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4594
+      }
+    },
+    {
+      "page_id": "DRUG-031-macrolides",
+      "path": "wiki/drugs/DRUG-031-macrolides.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3462
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4027
+      }
+    },
+    {
+      "page_id": "DRUG-032-pleuromutilins",
+      "path": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2638
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3194
+      }
+    },
+    {
+      "page_id": "DRUG-033-aminoglycosides",
+      "path": "wiki/drugs/DRUG-033-aminoglycosides.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3472
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4037
+      }
+    },
+    {
+      "page_id": "DRUG-034-sulfonamides",
+      "path": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 7028
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 7028
+      }
+    },
+    {
+      "page_id": "DRUG-035-beta-lactams",
+      "path": "wiki/drugs/DRUG-035-beta-lactams.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3918
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4483
+      }
+    },
+    {
+      "page_id": "DRUG-036-lincosamides",
+      "path": "wiki/drugs/DRUG-036-lincosamides.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3978
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4543
+      }
+    },
+    {
+      "page_id": "DRUG-037-sulfamethazine",
+      "path": "wiki/drugs/DRUG-037-sulfamethazine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4982
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 5547
+      }
+    },
+    {
+      "page_id": "DRUG-038-trimethoprim-sulfadiazine",
+      "path": "wiki/drugs/DRUG-038-trimethoprim-sulfadiazine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3823
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4388
+      }
+    },
+    {
+      "page_id": "DRUG-039-sulfadimethoxine",
+      "path": "wiki/drugs/DRUG-039-sulfadimethoxine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3990
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4555
+      }
+    },
+    {
+      "page_id": "DRUG-040-trimethoprim-sulfamethoxazole",
+      "path": "wiki/drugs/DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3207
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3772
+      }
+    },
+    {
+      "page_id": "DRUG-041-sulfadimidine-sulfathiazole-combinations",
+      "path": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3443
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3999
+      }
+    },
+    {
+      "page_id": "DRUG-042-ampicillin",
+      "path": "wiki/drugs/DRUG-042-ampicillin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 19787
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 20352
+      }
+    },
+    {
+      "page_id": "DRUG-043-amoxicillin-clavulanic-acid",
+      "path": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3315
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3871
+      }
+    },
+    {
+      "page_id": "DRUG-044-cefquinome",
+      "path": "wiki/drugs/DRUG-044-cefquinome.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 9332
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 9897
+      }
+    },
+    {
+      "page_id": "DRUG-045-tilmicosin",
+      "path": "wiki/drugs/DRUG-045-tilmicosin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 15379
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 15944
+      }
+    },
+    {
+      "page_id": "DRUG-046-valnemulin",
+      "path": "wiki/drugs/DRUG-046-valnemulin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 5698
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6263
+      }
+    },
+    {
+      "page_id": "DRUG-047-chloramphenicol",
+      "path": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2844
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3400
+      }
+    },
+    {
+      "page_id": "DRUG-048-carbadox",
+      "path": "wiki/drugs/DRUG-048-carbadox.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3615
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4180
+      }
+    },
+    {
+      "page_id": "DRUG-049-olaquindox",
+      "path": "wiki/drugs/DRUG-049-olaquindox.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 8524
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 9089
+      }
+    },
+    {
+      "page_id": "DRUG-050-dimetridazole-ronidazole",
+      "path": "wiki/drugs/DRUG-050-dimetridazole-ronidazole.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 8254
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8819
+      }
+    },
+    {
+      "page_id": "DRUG-051-danofloxacin-marbofloxacin",
+      "path": "wiki/drugs/DRUG-051-danofloxacin-marbofloxacin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 9621
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 10186
+      }
+    },
+    {
+      "page_id": "DRUG-052-colistin",
+      "path": "wiki/drugs/DRUG-052-colistin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 10682
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 11247
+      }
+    },
+    {
+      "page_id": "DRUG-053-bacitracin-methylene-disalicylate",
+      "path": "wiki/drugs/DRUG-053-bacitracin-methylene-disalicylate.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3172
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3737
+      }
+    },
+    {
+      "page_id": "DRUG-054-virginiamycin",
+      "path": "wiki/drugs/DRUG-054-virginiamycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3114
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3679
+      }
+    },
+    {
+      "page_id": "DRUG-055-moxidectin",
+      "path": "wiki/drugs/DRUG-055-moxidectin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3669
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4234
+      }
+    },
+    {
+      "page_id": "DRUG-056-levamisole",
+      "path": "wiki/drugs/DRUG-056-levamisole.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4306
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4871
+      }
+    },
+    {
+      "page_id": "DRUG-057-piperazine-pyrantel",
+      "path": "wiki/drugs/DRUG-057-piperazine-pyrantel.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4106
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4671
+      }
+    },
+    {
+      "page_id": "DRUG-058-amitraz",
+      "path": "wiki/drugs/DRUG-058-amitraz.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3526
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4091
+      }
+    },
+    {
+      "page_id": "DRUG-059-phosmet-coumaphos",
+      "path": "wiki/drugs/DRUG-059-phosmet-coumaphos.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3140
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3705
+      }
+    },
+    {
+      "page_id": "DRUG-060-permethrin-deltamethrin",
+      "path": "wiki/drugs/DRUG-060-permethrin-deltamethrin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4477
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 5042
+      }
+    },
+    {
+      "page_id": "DRUG-061-ponazuril",
+      "path": "wiki/drugs/DRUG-061-ponazuril.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2387
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 2943
+      }
+    },
+    {
+      "page_id": "DRUG-062-amprolium",
+      "path": "wiki/drugs/DRUG-062-amprolium.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3587
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4152
+      }
+    },
+    {
+      "page_id": "DRUG-063-meloxicam",
+      "path": "wiki/drugs/DRUG-063-meloxicam.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 6079
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6644
+      }
+    },
+    {
+      "page_id": "DRUG-064-flunixin-meglumine",
+      "path": "wiki/drugs/DRUG-064-flunixin-meglumine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 5163
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 5728
+      }
+    },
+    {
+      "page_id": "DRUG-065-ketoprofen-sodium-salicylate-indomethacin",
+      "path": "wiki/drugs/DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 7646
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 8211
+      }
+    },
+    {
+      "page_id": "DRUG-066-dexamethasone",
+      "path": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "changed": false,
+      "reason": "anchors_already_present",
+      "before": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4902
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4902
+      }
+    },
+    {
+      "page_id": "DRUG-067-oxytocin",
+      "path": "wiki/drugs/DRUG-067-oxytocin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 14450
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 15015
+      }
+    },
+    {
+      "page_id": "DRUG-068-altrenogest",
+      "path": "wiki/drugs/DRUG-068-altrenogest.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4967
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 5532
+      }
+    },
+    {
+      "page_id": "DRUG-069-triptorelin",
+      "path": "wiki/drugs/DRUG-069-triptorelin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3474
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4039
+      }
+    },
+    {
+      "page_id": "DRUG-070-ractopamine",
+      "path": "wiki/drugs/DRUG-070-ractopamine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2855
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3411
+      }
+    },
+    {
+      "page_id": "DRUG-071-streptomycin",
+      "path": "wiki/drugs/DRUG-071-streptomycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3617
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4182
+      }
+    },
+    {
+      "page_id": "DRUG-072-tildipirosin",
+      "path": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 2692
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3248
+      }
+    },
+    {
+      "page_id": "DRUG-073-erythromycin",
+      "path": "wiki/drugs/DRUG-073-erythromycin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 12055
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 12620
+      }
+    },
+    {
+      "page_id": "DRUG-074-amikacin",
+      "path": "wiki/drugs/DRUG-074-amikacin.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3413
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 3978
+      }
+    },
+    {
+      "page_id": "DRUG-075-praziquantel",
+      "path": "wiki/drugs/DRUG-075-praziquantel.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": true,
+        "bytes": 6338
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6903
+      }
+    },
+    {
+      "page_id": "DRUG-076-dichlorvos",
+      "path": "wiki/drugs/DRUG-076-dichlorvos.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 6960
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 7525
+      }
+    },
+    {
+      "page_id": "DRUG-077-azaperone",
+      "path": "wiki/drugs/DRUG-077-azaperone.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 6396
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 6961
+      }
+    },
+    {
+      "page_id": "DRUG-078-pentobarbital",
+      "path": "wiki/drugs/DRUG-078-pentobarbital.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 3989
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4554
+      }
+    },
+    {
+      "page_id": "DRUG-079-atropine",
+      "path": "wiki/drugs/DRUG-079-atropine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 4318
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 4883
+      }
+    },
+    {
+      "page_id": "DRUG-080-epinephrine",
+      "path": "wiki/drugs/DRUG-080-epinephrine.md",
+      "changed": true,
+      "reason": "guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_drug_evidence_page",
+      "before": {
+        "has_rc_drug": false,
+        "has_rc_withdrawal": false,
+        "bytes": 9745
+      },
+      "after": {
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true,
+        "bytes": 10310
+      }
+    }
+  ],
+  "summary": {
+    "drug_pages_checked": 80,
+    "drug_pages_changed": 63,
+    "missing_anchor_after": 0
+  }
+}

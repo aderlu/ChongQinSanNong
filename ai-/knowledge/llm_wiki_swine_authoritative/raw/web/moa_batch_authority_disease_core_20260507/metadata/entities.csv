@@ -1,0 +1,14 @@
+﻿entity_id,name,entity_type,aliases,priority
+DIS-018,猪伪狂犬病,disease,"[""Aujeszky's disease"", 'PRV', 'pseudorabies', 'pseudorabies aujeszky disease', '伪狂犬病', '奥耶斯基病', '猪伪狂犬病']",core
+DIS-015,猪乙型脑炎,disease,"['japanese encephalitis virus', '猪乙型脑炎']",core
+DIS-027,塞内卡病毒A感染,disease,"['senecavirus a picornaviruses', '塞内卡病毒A感染']",core
+DIS-033,猪水疱性口炎,disease,"['vesicular stomatitis viruses', '猪水疱性口炎']",core
+DIS-038,猪布鲁氏菌病,disease,"['Brucella suis', 'brucella suis brucellosis', 'swine brucellosis', '布鲁氏菌病', '猪布鲁氏菌病']",core
+DIS-045,猪钩端螺旋体病,disease,"['leptospirosis', '猪钩端螺旋体病']",core
+DIS-051,猪链球菌病,disease,"['streptococcosis streptococcus suis', '猪链球菌病']",core
+DIS-058,猪弓形虫病,disease,"['toxoplasmosis protozoa', '猪弓形虫病']",core
+DIS-007,猪圆环病毒相关疾病,disease,"['circoviruses pcvad', '猪圆环病毒相关疾病']",core
+DIS-008,猪流行性腹泻,disease,"['PED', 'PEDV', 'porcine epidemic diarrhea', 'porcine epidemic diarrhea virus', '猪流行性腹泻']",core
+DIS-009,猪传染性胃肠炎,disease,"['TGE', 'TGEV', 'transmissible gastroenteritis', 'transmissible gastroenteritis virus', '猪传染性胃肠炎']",core
+DIS-021,猪流感,disease,"['influenza viruses', '猪流感']",core
+DIS-023,猪细小病毒病,disease,"['parvoviruses', '猪细小病毒病']",core

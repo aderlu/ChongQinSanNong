@@ -1,0 +1,4 @@
+syndrome_id,syndrome_name,category,linked_diseases,evidence_source_ids,page_relpath,review_status
+SYN-001,蛋壳质量异常综合征,production_syndrome,传染性支气管炎;鸡产蛋下降综合征;维生素缺乏症;霉菌毒素中毒;热应激,SRC-0031;SRC-0112;SRC-0033;SRC-0049;SRC-0032;SRC-0104,wiki/syndromes/SYN-001-蛋壳质量异常综合征.md,split_from_disease_master
+SYN-002,产蛋率下降场景,production_scenario,鸡产蛋下降综合征;传染性支气管炎;禽流感;新城疫;热应激;霉菌毒素中毒,SRC-0112;SRC-0031;SRC-0019;SRC-0020;SRC-0032;SRC-0049;SRC-0104,wiki/syndromes/SYN-002-产蛋率下降场景.md,split_from_disease_master
+SYN-003,免疫抑制复合感染,complex_scenario,传染性法氏囊病;马立克病;鸡传染性贫血;禽白血病;大肠杆菌病;坏疽性皮炎,SRC-0036;SRC-0037;SRC-0116;SRC-0113;SRC-0034,wiki/syndromes/SYN-003-免疫抑制复合感染.md,split_from_disease_master

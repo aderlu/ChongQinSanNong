@@ -1,0 +1,1623 @@
+[
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0001",
+      "disease_id": "DIS-002",
+      "disease_name": "非洲猪瘟",
+      "aliases": "非洲猪瘟、african swine fever virus、ASF、African swine fever",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "scenario_type": "保育猪群体发病",
+      "stage": "保育猪",
+      "scenario": "群体发病、采食下降、粪便或呼吸道异常，用户想知道主要病因和下一步处理。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有120头保育猪，现在60日龄左右，最近两天发现好几头精神沉郁、不吃料，有的还拉稀带血，体温都在41度以上，有几头呼吸急促，昨天开始陆续死亡。圈舍通风一般，前几天刚换过饲料批次。请问这是啥病？该怎么处理？",
+      "diagnosis": "根据描述的症状（高热、厌食、腹泻带血、呼吸急促、急性死亡）、年龄阶段及群体暴发特征，高度怀疑为非洲猪瘟（ASF）。典型大体病变包括脾脏显著肿大、暗红色易碎，淋巴结出血水肿，肾脏皮质点状出血，心包积液等。该病由非洲猪瘟病毒引起，属于Asfarviridae科Asfivirus属，具有极高致死率且目前无有效治疗药物。 证据来源：source=A0-MOA-573。",
+      "prescription": "立即向当地动物疫病防控部门报告疫情，禁止私自出售、运输或屠宰病死猪。对全群进行隔离观察，严格封锁疫区，防止人员、车辆、工具交叉感染。采集血液、脾脏、淋巴结等组织样本送有资质的实验室确诊。病死猪无害化处理，圈舍及周边环境彻底消毒。严禁使用未经批准的抗病毒药物或疫苗，避免延误防控。 证据来源：source=A0-MOA-573；source=A0-MOA-ASF-EMERGENCY-6TH。",
+      "withdrawal_period": "因本病无批准的治疗药物和疫苗，不存在常规休药期概念。所有涉及动物及其产品均须按重大动物疫病处置规定执行，直至官方解除封锁。 证据来源：source=A0-MOA-573；source=A0-MOA-ASF-EMERGENCY-6TH；source=A0-MOA-ASF-LOW-VIRULENCE-2024。",
+      "metadata": {
+        "disease_name": "非洲猪瘟",
+        "severity": "极高",
+        "scene_tags": [
+          "保育猪",
+          "群体发病",
+          "高热",
+          "便血",
+          "急性死亡"
+        ],
+        "validation_points": [
+          "高热（>40℃）伴急性死亡符合ASF典型表现",
+          "群体性暴发提示传染性极强疾病",
+          "大体病变（脾大、淋巴结出血、肾点状出血）支持ASF诊断"
+        ],
+        "risk_flags": [
+          "重大动物疫病",
+          "高致死率",
+          "无特效治疗",
+          "需立即上报"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-573",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-ASF-EMERGENCY-6TH",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-ASF-LOW-VIRULENCE-2024",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-ASF-NORMALIZED-GUIDE",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-BANNED-DRUG-250-POLICY",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "非洲猪瘟",
+        "species": "猪",
+        "case_type": "保育猪群体发病",
+        "diagnosis": "根据描述的症状（高热、厌食、腹泻带血、呼吸急促、急性死亡）、年龄阶段及群体暴发特征，高度怀疑为非洲猪瘟（ASF）。典型大体病变包括脾脏显著肿大、暗红色易碎，淋巴结出血水肿，肾脏皮质点状出血，心包积液等。该病由非洲猪瘟病毒引起，属于Asfarviridae科Asfivirus属，具有极高致死率且目前无有效治疗药物。 证据来源：source=A0-MOA-573。",
+        "differential_diagnoses": [],
+        "action_plan": "立即向当地动物疫病防控部门报告疫情，禁止私自出售、运输或屠宰病死猪。对全群进行隔离观察，严格封锁疫区，防止人员、车辆、工具交叉感染。采集血液、脾脏、淋巴结等组织样本送有资质的实验室确诊。病死猪无害化处理，圈舍及周边环境彻底消毒。严禁使用未经批准的抗病毒药物或疫苗，避免延误防控。 证据来源：source=A0-MOA-573；source=A0-MOA-ASF-EMERGENCY-6TH。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "立即向当地动物疫病防控部门报告疫情，禁止私自出售、运输或屠宰病死猪。对全群进行隔离观察，严格封锁疫区，防止人员、车辆、工具交叉感染。采集血液、脾脏、淋巴结等组织样本送有资质的实验室确诊。病死猪无害化处理，圈舍及周边环境彻底消毒。严禁使用未经批准的抗病毒药物或疫苗，避免延误防控。 证据来源：source=A0-MOA-573；source=A0-MOA-ASF-EMERGENCY-6TH。",
+        "withdrawal_boundary": "因本病无批准的治疗药物和疫苗，不存在常规休药期概念。所有涉及动物及其产品均须按重大动物疫病处置规定执行，直至官方解除封锁。 证据来源：source=A0-MOA-573；source=A0-MOA-ASF-EMERGENCY-6TH；source=A0-MOA-ASF-LOW-VIRULENCE-2024。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-573",
+          "A0-MOA-ASF-EMERGENCY-6TH",
+          "A0-MOA-ASF-LOW-VIRULENCE-2024",
+          "A0-MOA-ASF-NORMALIZED-GUIDE",
+          "A0-MOA-BANNED-DRUG-250-POLICY"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-573",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-ASF-EMERGENCY-6TH",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-ASF-LOW-VIRULENCE-2024",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-ASF-NORMALIZED-GUIDE",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-BANNED-DRUG-250-POLICY",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 95,
+      "diagnosis_accuracy": 30,
+      "pathology_logic": 20,
+      "prescription_safety": 25,
+      "data_quality": 20,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对非洲猪瘟的诊断准确，症状描述与疾病特征高度匹配，诊断逻辑清晰，处理方向安全且符合疾病防控要求，数据质量较高，无明显错误或遗漏。",
+      "weaknesses": "数据质量部分因未明确提及所有症状与疾病的直接关联证据，略扣5分，但整体不影响诊断与处理的有效性。",
+      "improvement_actions": "在数据质量方面，可以进一步细化症状与疾病关联的证据描述，例如引用更多具体研究或病例报告来支持症状与非洲猪瘟的直接联系，以增强回答的说服力和完整性。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "非洲猪瘟\n非洲猪瘟、african swine fever virus、ASF、African swine fever\n保育猪群体发病\n群体发病、采食下降、粪便或呼吸道异常，用户想知道主要病因和下一步处理。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIE": 1,
+        "HUMAN_REVIEWED": 2
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A0-MOA-ASF-EMERGENCY-6TH",
+        "A0-MOA-ASF-LOW-VIRULENCE-2024",
+        "A0-MOA-ASF-NORMALIZED-GUIDE",
+        "A0-MOA-BANNED-DRUG-250-POLICY",
+        "A1-FAO-ASF",
+        "A1-USDA-APHIS-ASF",
+        "A1-WOAH-ASF",
+        "A1-WOAH-ASF-DISEASE",
+        "RC-ASF-001",
+        "RC-TRAIN-READY-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0031"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 13.11,
+      "judge_seconds": 14.78,
+      "total_seconds": 27.89
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 11.28,
+          "api_key_fingerprint": "fb3e9e31f56d",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 14.78,
+          "api_key_fingerprint": "13cbb25a8cc3",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0002",
+      "disease_id": "DIS-008",
+      "disease_name": "猪流行性腹泻",
+      "aliases": "猪流行性腹泻、porcine epidemic diarrhea virus、PED、PEDV",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "scenario_type": "腹泻用药咨询",
+      "stage": "保育猪/育肥猪",
+      "scenario": "猪群腹泻后已用过常见抗菌药效果一般，用户询问是否继续用药以及是否需要送检。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家是200头左右规模的养猪场，现在有一批45日龄左右的保育猪出现水样腹泻，已经持续了三四天，部分猪精神沉郁、食欲下降，体温正常偏低。之前按细菌性肠炎用了恩诺沙星和氟苯尼考拌料三天，腹泻没明显好转，反而有蔓延趋势。最近没有新进猪，但场内运输车曾去外村拉过饲料。请问这种情况还能继续用抗生素吗？要不要送样检测？",
+      "diagnosis": "根据描述，保育猪群体性水样腹泻、抗生素治疗无效且病程进展，应考虑病毒性病因，尤其是猪流行性腹泻病毒（PEDV）。该病在仔猪及保育猪中常表现为急性水样腹泻，死亡率高，且与细菌感染难以通过临床症状区分。建议进行实验室检测（如粪便或肠内容物PCR）以确诊。 证据来源：source=A0-MOA-573。",
+      "prescription": "treatment_direction: 本病为病毒性腹泻，无特效抗病毒药物，主要采取对症支持治疗和生物安全措施。；management_measures: 立即隔离发病栏位，减少人员、工具交叉使用；加强保温，防止继发感染；保证饮水清洁并补充电解质溶液；对严重脱水个体可考虑补液治疗。；sampling_and_testing: 采集新鲜腹泻粪便或死亡猪小肠内容物送实验室做PEDV PCR检测，必要时配合组织病理学检查和鉴别诊断排除其他肠道病毒（如PDCoV、pHEV）。；prohibited_boundary: 禁止使用未经批准的兽药或超范围用药；禁止将病死猪随意处理，应按当地规定无害化处理。 证据来源：source=A0-MOA-573；source=SRC-0008。",
+      "withdrawal_period": "因未使用特定药物，暂无明确休药期要求；若后续使用抗生素，须遵守相应药物的停药期规定。 证据来源：source=A0-MOA-573；source=SRC-0008；source=SRC-0009。",
+      "metadata": {
+        "disease_name": "猪流行性腹泻",
+        "severity": "中等至严重",
+        "scene_tags": [
+          "保育猪",
+          "群体性腹泻",
+          "抗生素治疗无效",
+          "潜在病毒性病因"
+        ],
+        "validation_points": [
+          "保育猪群体性水样腹泻符合PEDV典型表现",
+          "抗生素治疗无效提示非单纯细菌感染",
+          "存在运输车辆外来接触史增加病毒传入风险"
+        ],
+        "risk_flags": [
+          "可能为人畜共患病无关的重大动物疫病",
+          "存在疫情扩散风险"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-573",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0008",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0009",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0012",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0037",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪流行性腹泻",
+        "species": "猪",
+        "case_type": "腹泻用药咨询",
+        "diagnosis": "根据描述，保育猪群体性水样腹泻、抗生素治疗无效且病程进展，应考虑病毒性病因，尤其是猪流行性腹泻病毒（PEDV）。该病在仔猪及保育猪中常表现为急性水样腹泻，死亡率高，且与细菌感染难以通过临床症状区分。建议进行实验室检测（如粪便或肠内容物PCR）以确诊。 证据来源：source=A0-MOA-573。",
+        "differential_diagnoses": [],
+        "action_plan": "treatment_direction: 本病为病毒性腹泻，无特效抗病毒药物，主要采取对症支持治疗和生物安全措施。；management_measures: 立即隔离发病栏位，减少人员、工具交叉使用；加强保温，防止继发感染；保证饮水清洁并补充电解质溶液；对严重脱水个体可考虑补液治疗。；sampling_and_testing: 采集新鲜腹泻粪便或死亡猪小肠内容物送实验室做PEDV PCR检测，必要时配合组织病理学检查和鉴别诊断排除其他肠道病毒（如PDCoV、pHEV）。；prohibited_boundary: 禁止使用未经批准的兽药或超范围用药；禁止将病死猪随意处理，应按当地规定无害化处理。 证据来源：source=A0-MOA-573；source=SRC-0008。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "treatment_direction: 本病为病毒性腹泻，无特效抗病毒药物，主要采取对症支持治疗和生物安全措施。；management_measures: 立即隔离发病栏位，减少人员、工具交叉使用；加强保温，防止继发感染；保证饮水清洁并补充电解质溶液；对严重脱水个体可考虑补液治疗。；sampling_and_testing: 采集新鲜腹泻粪便或死亡猪小肠内容物送实验室做PEDV PCR检测，必要时配合组织病理学检查和鉴别诊断排除其他肠道病毒（如PDCoV、pHEV）。；prohibited_boundary: 禁止使用未经批准的兽药或超范围用药；禁止将病死猪随意处理，应按当地规定无害化处理。 证据来源：source=A0-MOA-573；source=SRC-0008。",
+        "withdrawal_boundary": "因未使用特定药物，暂无明确休药期要求；若后续使用抗生素，须遵守相应药物的停药期规定。 证据来源：source=A0-MOA-573；source=SRC-0008；source=SRC-0009。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-573",
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0012",
+          "SRC-0037"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-573",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0008",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0009",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0012",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0037",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 88,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 23,
+      "data_quality": 19,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答在诊断准确性、病理逻辑、处方安全性和数据质量方面表现良好，整体符合猪流行性腹泻的测试数据要求。诊断准确识别了病毒性腹泻的可能性，并建议实验室检测以确诊。病理逻辑合理，考虑了抗生素治疗无效和病程进展。处方安全，强调了对症支持治疗和生物安全措施，并禁止了未经批准的兽药使用。数据质量较高，提供了详细的证据来源和验证点。",
+      "weaknesses": [
+        "诊断准确性方面，虽然识别了病毒性腹泻的可能性，但未完全排除其他肠道病毒的可能性，如PDCoV、pHEV，尽管在后续建议中提到了鉴别诊断。",
+        "病理逻辑方面，对于猪流行性腹泻的典型症状和病程的描述可以更加详细，以增强诊断的说服力。",
+        "数据质量方面，虽然提供了多个证据来源，但部分证据来源的具体内容未在回答中明确展示，可能影响评估的全面性。"
+      ],
+      "improvement_actions": [
+        "在诊断部分，可以进一步详细描述猪流行性腹泻的典型症状和病程，以及与其他肠道病毒的鉴别要点，以提高诊断的准确性。",
+        "在病理逻辑部分，可以增加对猪流行性腹泻发病机制和病理变化的描述，以增强病理逻辑的说服力。",
+        "在数据质量方面，可以尽量在回答中明确展示证据来源的具体内容，或者提供更详细的证据摘要，以便评估员更全面地了解数据的质量和可靠性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪流行性腹泻\n猪流行性腹泻、porcine epidemic diarrhea virus、PED、PEDV\n腹泻用药咨询\n猪群腹泻后已用过常见抗菌药效果一般，用户询问是否继续用药以及是否需要送检。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 4
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A2-EFSA-PED-PDCOV-OPINION",
+        "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0037",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 13.69,
+      "judge_seconds": 21.02,
+      "total_seconds": 34.71
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 11.84,
+          "api_key_fingerprint": "8a1384ec8046",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 21.02,
+          "api_key_fingerprint": "993313a8c81a",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0003",
+      "disease_id": "DIS-009",
+      "disease_name": "猪传染性胃肠炎",
+      "aliases": "猪传染性胃肠炎、transmissible gastroenteritis virus、TGE、TGEV",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "scenario_type": "腹泻采样送检",
+      "stage": "不同阶段猪",
+      "scenario": "用户描述粪便性状、日龄和病程，重点询问如何鉴别病毒性、细菌性或寄生虫性腹泻。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我这边有120头母猪，刚产下一批仔猪，现在10日龄左右，最近两天陆续出现整窝拉稀的情况，粪便呈黄色水样，部分仔猪精神差、吃奶少，个别已经死亡。之前没有用过疫苗，圈舍温度偏低，通风一般。想问这种情况是不是传染性胃肠炎？怎么区分是病毒还是细菌引起的？要不要马上送样检测？",
+      "diagnosis": "根据日龄（10日龄）、整窝发病、水样腹泻、高死亡率及环境因素，高度怀疑为猪肠道冠状病毒（如TGEV、PEDV或PDCoV），但需与大肠杆菌、轮状病毒、球虫等鉴别。建议立即采集病死仔猪的小肠组织、粪便样本进行PCR检测，同时做病理切片观察小肠绒毛萎缩情况。 证据来源：source=RC-DIARRHEA-001。",
+      "prescription": "treatment_direction: 无特效抗病毒药物，以支持疗法为主，包括补液、维持体温、减少应激，必要时使用抗生素控制继发细菌感染。；management_measures: 提高保育舍温度，改善通风，严格消毒，暂停引入新猪，隔离病猪并加强护理。；sampling_and_testing: 尽快采集新鲜粪便、小肠组织送至具备资质的实验室，通过RT-PCR检测TGEV、PEDV、PDCoV及常见细菌病原体，结合病理学检查确诊。；prohibited_boundaries: 禁止将疑似重大疫病病例当作普通腹泻处理，不得擅自销售或转运病猪，须遵守当地动物防疫部门的规定。 证据来源：source=RC-DIARRHEA-001；source=SRC-0001。",
+      "withdrawal_period": "因未使用特定兽药，暂无休药期要求；若后续使用抗生素，应按药品说明执行停药期。 证据来源：source=RC-DIARRHEA-001；source=SRC-0001；source=SRC-0008。",
+      "metadata": {
+        "disease_name": "猪传染性胃肠炎",
+        "severity": "高致死率，尤其对新生仔猪威胁大",
+        "scene_tags": [
+          "仔猪腹泻",
+          "整窝发病",
+          "水样粪",
+          "低温应激",
+          "未免疫"
+        ],
+        "validation_points": [
+          "符合病毒性腹泻的流行病学特征（日龄低、传播快、整窝发病）",
+          "临床表现与TGEV/PEDV相似，需实验室确诊",
+          "存在环境应激因素（低温、通风差）"
+        ],
+        "risk_flags": [
+          "重大动物疫病风险",
+          "潜在人畜共患病防控注意"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "RC-DIARRHEA-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0008",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0009",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0012",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪传染性胃肠炎",
+        "species": "猪",
+        "case_type": "腹泻采样送检",
+        "diagnosis": "根据日龄（10日龄）、整窝发病、水样腹泻、高死亡率及环境因素，高度怀疑为猪肠道冠状病毒（如TGEV、PEDV或PDCoV），但需与大肠杆菌、轮状病毒、球虫等鉴别。建议立即采集病死仔猪的小肠组织、粪便样本进行PCR检测，同时做病理切片观察小肠绒毛萎缩情况。 证据来源：source=RC-DIARRHEA-001。",
+        "differential_diagnoses": [],
+        "action_plan": "treatment_direction: 无特效抗病毒药物，以支持疗法为主，包括补液、维持体温、减少应激，必要时使用抗生素控制继发细菌感染。；management_measures: 提高保育舍温度，改善通风，严格消毒，暂停引入新猪，隔离病猪并加强护理。；sampling_and_testing: 尽快采集新鲜粪便、小肠组织送至具备资质的实验室，通过RT-PCR检测TGEV、PEDV、PDCoV及常见细菌病原体，结合病理学检查确诊。；prohibited_boundaries: 禁止将疑似重大疫病病例当作普通腹泻处理，不得擅自销售或转运病猪，须遵守当地动物防疫部门的规定。 证据来源：source=RC-DIARRHEA-001；source=SRC-0001。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "treatment_direction: 无特效抗病毒药物，以支持疗法为主，包括补液、维持体温、减少应激，必要时使用抗生素控制继发细菌感染。；management_measures: 提高保育舍温度，改善通风，严格消毒，暂停引入新猪，隔离病猪并加强护理。；sampling_and_testing: 尽快采集新鲜粪便、小肠组织送至具备资质的实验室，通过RT-PCR检测TGEV、PEDV、PDCoV及常见细菌病原体，结合病理学检查确诊。；prohibited_boundaries: 禁止将疑似重大疫病病例当作普通腹泻处理，不得擅自销售或转运病猪，须遵守当地动物防疫部门的规定。 证据来源：source=RC-DIARRHEA-001；source=SRC-0001。",
+        "withdrawal_boundary": "因未使用特定兽药，暂无休药期要求；若后续使用抗生素，应按药品说明执行停药期。 证据来源：source=RC-DIARRHEA-001；source=SRC-0001；source=SRC-0008。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "RC-DIARRHEA-001",
+          "SRC-0001",
+          "SRC-0008",
+          "SRC-0009",
+          "SRC-0012"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "RC-DIARRHEA-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0008",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0009",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0012",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 88,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 23,
+      "data_quality": 19,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答在诊断准确性、病理逻辑、处方安全性和数据质量方面表现良好，整体符合测试数据有效性要求。诊断考虑了多种可能性，并建议了实验室检测以确诊，处方安全且符合疾病特征，数据来源可靠且经过人工审核。",
+      "weaknesses": [
+        "诊断准确性方面，虽然考虑了多种病毒和细菌病原体，但对猪传染性胃肠炎的特异性诊断依据可进一步增强。",
+        "病理逻辑方面，对鉴别诊断的详细逻辑解释可更充分。",
+        "数据质量方面，虽然证据来源可靠，但部分证据与具体诊断逻辑的直接关联性可更明确。"
+      ],
+      "improvement_actions": [
+        "在诊断中增加更多猪传染性胃肠炎的特异性症状或实验室检测指标，以提高诊断的针对性。",
+        "在病理逻辑部分，详细阐述鉴别诊断的每一步推理过程，增强逻辑性。",
+        "在引用证据时，更明确地指出证据与具体诊断或处理建议的直接关联，提高数据质量。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪传染性胃肠炎\n猪传染性胃肠炎、transmissible gastroenteritis virus、TGE、TGEV\n腹泻采样送检\n用户描述粪便性状、日龄和病程，重点询问如何鉴别病毒性、细菌性或寄生虫性腹泻。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 3,
+        "NEEDS_REVIEW": 1
+      },
+      "wiki_evidence_source_ids": [
+        "A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026",
+        "RC-DIARRHEA-001",
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 13.85,
+      "judge_seconds": 18.7,
+      "total_seconds": 32.55
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 11.98,
+          "api_key_fingerprint": "344c9291a027",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 18.7,
+          "api_key_fingerprint": "4ae0cab1a311",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0004",
+      "disease_id": "DIS-024",
+      "disease_name": "猪瘟",
+      "aliases": "猪瘟、classical swine fever pestiviruses、经典猪瘟、CSF",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "scenario_type": "暴发与处置边界",
+      "stage": "全场",
+      "scenario": "同栏或多栋猪舍短期内发病增多，用户询问是否能先按普通病治疗观察。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有120头育肥猪，平均体重在70公斤左右，最近两天同一圈里陆续出现高热、精神沉郁、皮肤发红发紫的情况，有的还拉稀带血，已经死了3头。之前用过氟苯尼考和多西环素拌料，效果不明显。现在还有几栏没发病，我想问问能不能先当普通细菌病治几天看看？",
+      "diagnosis": "根据描述的高热、皮肤发绀、腹泻带血及死亡情况，高度怀疑为猪瘟（Classical Swine Fever）。该病为烈性传染病，具有快速传播和高致死率的特点，且症状与多种急性传染病相似，需通过实验室检测确诊。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017。",
+      "prescription": "立即停止场内自行投药治疗，禁止随意移动病死猪及健康猪群；对全群进行紧急隔离观察，封锁疫点，防止病原扩散；采集典型病例血液、脾脏等组织样本送具备资质的实验室检测确认；如确诊为猪瘟，应严格按照《中华人民共和国动物防疫法》及相关应急预案执行扑杀、无害化处理、彻底消毒等措施，并上报当地动物卫生监督机构；在未排除重大疫病前，严禁出售、调运生猪及其产品。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=RC-DISEASE-REGULATORY-001。",
+      "withdrawal_period": "因涉及重大动物疫病，无场内治疗休药期概念，须依法扑杀和无害化处理。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=RC-DISEASE-REGULATORY-001；source=RC-DRUG-001。",
+      "metadata": {
+        "disease_name": "猪瘟",
+        "severity": "高致死性、烈性传染病",
+        "scene_tags": [
+          "全场暴发",
+          "高热",
+          "皮肤发绀",
+          "腹泻带血",
+          "多栏感染"
+        ],
+        "validation_points": [
+          "症状符合猪瘟典型表现：高热、精神沉郁、皮肤发绀、出血性腹泻",
+          "短时间内多例死亡提示高传染性",
+          "曾用抗生素无效支持病毒性病因"
+        ],
+        "risk_flags": [
+          "属于OIE列名疫病，需严格按国家法规处置",
+          "存在跨栏传播风险，应立即封锁隔离",
+          "未经确诊前不可当作普通病处理"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DISEASE-REGULATORY-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DRUG-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-WITHDRAWAL-MRL-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪瘟",
+        "species": "猪",
+        "case_type": "暴发与处置边界",
+        "diagnosis": "根据描述的高热、皮肤发绀、腹泻带血及死亡情况，高度怀疑为猪瘟（Classical Swine Fever）。该病为烈性传染病，具有快速传播和高致死率的特点，且症状与多种急性传染病相似，需通过实验室检测确诊。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017。",
+        "differential_diagnoses": [],
+        "action_plan": "立即停止场内自行投药治疗，禁止随意移动病死猪及健康猪群；对全群进行紧急隔离观察，封锁疫点，防止病原扩散；采集典型病例血液、脾脏等组织样本送具备资质的实验室检测确认；如确诊为猪瘟，应严格按照《中华人民共和国动物防疫法》及相关应急预案执行扑杀、无害化处理、彻底消毒等措施，并上报当地动物卫生监督机构；在未排除重大疫病前，严禁出售、调运生猪及其产品。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=RC-DISEASE-REGULATORY-001。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "立即停止场内自行投药治疗，禁止随意移动病死猪及健康猪群；对全群进行紧急隔离观察，封锁疫点，防止病原扩散；采集典型病例血液、脾脏等组织样本送具备资质的实验室检测确认；如确诊为猪瘟，应严格按照《中华人民共和国动物防疫法》及相关应急预案执行扑杀、无害化处理、彻底消毒等措施，并上报当地动物卫生监督机构；在未排除重大疫病前，严禁出售、调运生猪及其产品。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=RC-DISEASE-REGULATORY-001。",
+        "withdrawal_boundary": "因涉及重大动物疫病，无场内治疗休药期概念，须依法扑杀和无害化处理。 证据来源：source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=RC-DISEASE-REGULATORY-001；source=RC-DRUG-001。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001",
+          "SRC-0001"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DISEASE-REGULATORY-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DRUG-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-WITHDRAWAL-MRL-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 95,
+      "diagnosis_accuracy": 30,
+      "pathology_logic": 20,
+      "prescription_safety": 25,
+      "data_quality": 20,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对猪瘟的诊断准确，症状描述与猪瘟高度吻合，且考虑到了猪瘟的烈性传染性和高致死率。病理逻辑清晰，提出了合理的诊断依据和鉴别诊断思路。处方安全，严格遵循了重大疫病的处置原则，未提出不当治疗建议。数据质量高，引用了权威的指导文件作为证据。整体上，该回答完全符合测试数据有效性的要求。",
+      "weaknesses": "数据质量部分，虽然整体引用权威，但部分证据来源标注不够明确（如SRC-0001未详细说明），不过这并不影响整体判断，因为主要证据来源均清晰可靠。",
+      "improvement_actions": "在未来的回答中，可以进一步细化证据来源的标注，确保每个证据来源都有明确的描述和链接，以便于验证和追溯。同时，尽管本次回答中未涉及，但在其他类似场景中，应更加注意对用户可能存在的误解或疑问进行提前解答和澄清。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪瘟\n猪瘟、classical swine fever pestiviruses、经典猪瘟、CSF\n暴发与处置边界\n同栏或多栋猪舍短期内发病增多，用户询问是否能先按普通病治疗观察。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_": 1,
+        "HUMAN_REVIEWED": 3
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+        "A2-MERCK-CLASSICAL-SWINE-FEVER-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0031",
+        "SRC-0046",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 13.25,
+      "judge_seconds": 17.81,
+      "total_seconds": 31.06
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 11.45,
+          "api_key_fingerprint": "7b8b49842efc",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 17.81,
+          "api_key_fingerprint": "232377ce6842",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0005",
+      "disease_id": "DIS-026",
+      "disease_name": "猪口蹄疫",
+      "aliases": "猪口蹄疫、foot and mouth disease picornaviruses",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "scenario_type": "采样送检咨询",
+      "stage": "不同阶段猪",
+      "scenario": "用户描述症状后，重点询问采什么样品、如何判断和如何避免误治。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家有200头育肥猪，平均体重在60公斤左右，最近几天有几头出现不吃料、流口水、蹄冠处起水泡，走路一瘸一拐的情况，体温也偏高。之前用过阿莫西林拌料防过呼吸道病，现在这种情况是不是口蹄疫？我该采哪些样送哪里检查才能确诊？怕误诊耽误处理。",
+      "diagnosis": "根据描述的口腔及蹄部水疱、跛行、拒食、发热等症状，高度怀疑为猪口蹄疫（FMD）。该病在不同阶段猪均可发生，且临床症状常较严重，需通过实验室检测确认。 证据来源：source=A0-MOA-573。",
+      "prescription": "立即向当地畜牧兽医主管部门报告，禁止随意移动或出售病猪及同群猪；对发病猪舍实施严格隔离，限制人员、车辆进出；采集新鲜水疱液、舌面刮取物或组织样本送具备资质的实验室进行RT-PCR或病毒分离检测；在未确诊前不进行任何治疗性用药，以免掩盖病情或造成传播风险。 证据来源：source=A0-MOA-573；source=A0-MOA-FMD-CONTROL-GUIDE-2024。",
+      "withdrawal_period": "因属重大动物疫病，须按官方扑杀、无害化处理方案执行，不涉及常规休药期管理。 证据来源：source=A0-MOA-573；source=A0-MOA-FMD-CONTROL-GUIDE-2024；source=A0-MOA-FMD-EMERGENCY-DRAFT-2026。",
+      "metadata": {
+        "disease_name": "猪口蹄疫",
+        "severity": "高",
+        "scene_tags": [
+          "育肥猪",
+          "水疱病变",
+          "跛行",
+          "高热",
+          "群体疫情"
+        ],
+        "validation_points": [
+          "典型水疱病变位于口腔、鼻吻及蹄部",
+          "伴随拒食、跛行、发热等全身症状",
+          "需实验室检测排除其他水疱性疾病"
+        ],
+        "risk_flags": [
+          "重大动物疫病",
+          "需立即上报并启动应急处置"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-573",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-FMD-CONTROL-GUIDE-2024",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-FMD-EMERGENCY-DRAFT-2026",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A1-WOAH-FMD",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪口蹄疫",
+        "species": "猪",
+        "case_type": "采样送检咨询",
+        "diagnosis": "根据描述的口腔及蹄部水疱、跛行、拒食、发热等症状，高度怀疑为猪口蹄疫（FMD）。该病在不同阶段猪均可发生，且临床症状常较严重，需通过实验室检测确认。 证据来源：source=A0-MOA-573。",
+        "differential_diagnoses": [],
+        "action_plan": "立即向当地畜牧兽医主管部门报告，禁止随意移动或出售病猪及同群猪；对发病猪舍实施严格隔离，限制人员、车辆进出；采集新鲜水疱液、舌面刮取物或组织样本送具备资质的实验室进行RT-PCR或病毒分离检测；在未确诊前不进行任何治疗性用药，以免掩盖病情或造成传播风险。 证据来源：source=A0-MOA-573；source=A0-MOA-FMD-CONTROL-GUIDE-2024。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "立即向当地畜牧兽医主管部门报告，禁止随意移动或出售病猪及同群猪；对发病猪舍实施严格隔离，限制人员、车辆进出；采集新鲜水疱液、舌面刮取物或组织样本送具备资质的实验室进行RT-PCR或病毒分离检测；在未确诊前不进行任何治疗性用药，以免掩盖病情或造成传播风险。 证据来源：source=A0-MOA-573；source=A0-MOA-FMD-CONTROL-GUIDE-2024。",
+        "withdrawal_boundary": "因属重大动物疫病，须按官方扑杀、无害化处理方案执行，不涉及常规休药期管理。 证据来源：source=A0-MOA-573；source=A0-MOA-FMD-CONTROL-GUIDE-2024；source=A0-MOA-FMD-EMERGENCY-DRAFT-2026。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-573",
+          "A0-MOA-FMD-CONTROL-GUIDE-2024",
+          "A0-MOA-FMD-EMERGENCY-DRAFT-2026",
+          "A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024",
+          "A1-WOAH-FMD"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-573",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-FMD-CONTROL-GUIDE-2024",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-FMD-EMERGENCY-DRAFT-2026",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A1-WOAH-FMD",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 92,
+      "diagnosis_accuracy": 28,
+      "pathology_logic": 18,
+      "prescription_safety": 25,
+      "data_quality": 21,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对猪口蹄疫的诊断准确，症状描述与疾病特征高度匹配，诊断逻辑清晰。处理方向安全，符合重大动物疫病的应急处置要求，未涉及错误剂量或休药期承诺。数据来源权威，信息完整。",
+      "weaknesses": [
+        "诊断依据中可补充更多症状与流行病学关联的描述，以增强诊断的全面性。",
+        "数据质量方面，虽然证据来源权威，但可进一步丰富证据类型，如增加临床案例或实验数据支持。"
+      ],
+      "improvement_actions": [
+        "在诊断依据中增加症状与流行病学的关联分析，提高诊断的准确性。",
+        "丰富数据来源，增加临床案例或实验数据支持，提升数据质量。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪口蹄疫\n猪口蹄疫、foot and mouth disease picornaviruses\n采样送检咨询\n用户描述症状后，重点询问采什么样品、如何判断和如何避免误治。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 4
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A0-MOA-FMD-CONTROL-GUIDE-2024",
+        "A0-MOA-FMD-EMERGENCY-DRAFT-2026",
+        "A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024",
+        "A1-WOAH-FMD",
+        "A1-WOAH-FMD-DISEASE",
+        "A2-MERCK-FMD-ANIMALS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0047",
+        "SRC-0048",
+        "SRC-0087",
+        "SRC-0088"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 6.75,
+      "judge_seconds": 13.94,
+      "total_seconds": 20.69
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 6.51,
+          "api_key_fingerprint": "ca6a04186520",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 13.94,
+          "api_key_fingerprint": "089989b20091",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0006",
+      "disease_id": "DIS-028",
+      "disease_name": "猪繁殖与呼吸综合征",
+      "aliases": "猪繁殖与呼吸综合征、porcine reproductive and respiratory syndrome viruses、PRRS、蓝耳病",
+      "category": "病毒病",
+      "page_relpath": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "scenario_type": "呼吸道环境诱因",
+      "stage": "保育猪",
+      "scenario": "通风差、氨气重或温差大后出现咳嗽喘气，用户想区分环境应激和传染病。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家是200头左右的保育猪，现在60日龄左右，最近一周舍内通风不太好，氨味很重，早晚温差也大，这几天陆续有猪出现咳嗽、喘气、精神不振的情况，有的还发烧到40度多，之前没用过什么药，想问问这是单纯的环境应激还是可能感染了什么病？",
+      "diagnosis": "根据描述，保育猪在通风不良、氨气浓度高及温差大的环境下出现咳嗽、喘气、发热等症状，需考虑环境应激诱发的呼吸道疾病，同时应高度怀疑猪繁殖与呼吸综合征（PRRS）、猪流感、支原体肺炎以及可能的细菌继发感染（如胸膜肺炎放线杆菌）。PRRS常表现为呼吸道症状和繁殖障碍并存，但在保育阶段主要表现为呼吸道综合征，且易与其他病原混合感染。 证据来源：source=A0-MOA-573。",
+      "prescription": "建议立即改善圈舍通风，降低氨气浓度，控制昼夜温差；对发病猪进行分群管理，减少应激；采集鼻拭子、血液样本送实验室检测PRRS、流感病毒、支原体及常见细菌病原；根据检测结果制定针对性治疗方案，包括抗病毒支持、抗生素控制继发感染、营养补充及电解质平衡调节；严禁使用未经批准的兽药，发现可疑重大疫情应立即上报主管部门并配合隔离、扑杀等措施。 证据来源：source=A0-MOA-573；source=A0-MOA-PRRS-CSF-GUIDANCE-2017。",
+      "withdrawal_period": "因未确定具体药物方案，无法给出确切休药期，须依据最终使用的药物种类及国家相关规定执行。 证据来源：source=A0-MOA-573；source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=A1-WOAH-PRRS-DISEASE。",
+      "metadata": {
+        "disease_name": "猪繁殖与呼吸综合征",
+        "severity": "中等至严重",
+        "scene_tags": [
+          "保育猪",
+          "通风不良",
+          "氨气刺激",
+          "温差大",
+          "呼吸道症状"
+        ],
+        "validation_points": [
+          "症状与环境因素吻合",
+          "需排除多种病原混合感染",
+          "符合PRRS典型呼吸道表现"
+        ],
+        "risk_flags": [
+          "潜在重大动物疫病风险",
+          "需实验室确诊",
+          "存在人畜共患病以外的公共卫生监测意义"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-573",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A1-WOAH-PRRS-DISEASE",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DISEASE-REGULATORY-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DRUG-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪繁殖与呼吸综合征",
+        "species": "猪",
+        "case_type": "呼吸道环境诱因",
+        "diagnosis": "根据描述，保育猪在通风不良、氨气浓度高及温差大的环境下出现咳嗽、喘气、发热等症状，需考虑环境应激诱发的呼吸道疾病，同时应高度怀疑猪繁殖与呼吸综合征（PRRS）、猪流感、支原体肺炎以及可能的细菌继发感染（如胸膜肺炎放线杆菌）。PRRS常表现为呼吸道症状和繁殖障碍并存，但在保育阶段主要表现为呼吸道综合征，且易与其他病原混合感染。 证据来源：source=A0-MOA-573。",
+        "differential_diagnoses": [],
+        "action_plan": "建议立即改善圈舍通风，降低氨气浓度，控制昼夜温差；对发病猪进行分群管理，减少应激；采集鼻拭子、血液样本送实验室检测PRRS、流感病毒、支原体及常见细菌病原；根据检测结果制定针对性治疗方案，包括抗病毒支持、抗生素控制继发感染、营养补充及电解质平衡调节；严禁使用未经批准的兽药，发现可疑重大疫情应立即上报主管部门并配合隔离、扑杀等措施。 证据来源：source=A0-MOA-573；source=A0-MOA-PRRS-CSF-GUIDANCE-2017。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "建议立即改善圈舍通风，降低氨气浓度，控制昼夜温差；对发病猪进行分群管理，减少应激；采集鼻拭子、血液样本送实验室检测PRRS、流感病毒、支原体及常见细菌病原；根据检测结果制定针对性治疗方案，包括抗病毒支持、抗生素控制继发感染、营养补充及电解质平衡调节；严禁使用未经批准的兽药，发现可疑重大疫情应立即上报主管部门并配合隔离、扑杀等措施。 证据来源：source=A0-MOA-573；source=A0-MOA-PRRS-CSF-GUIDANCE-2017。",
+        "withdrawal_boundary": "因未确定具体药物方案，无法给出确切休药期，须依据最终使用的药物种类及国家相关规定执行。 证据来源：source=A0-MOA-573；source=A0-MOA-PRRS-CSF-GUIDANCE-2017；source=A1-WOAH-PRRS-DISEASE。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-573",
+          "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+          "A1-WOAH-PRRS-DISEASE",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-573",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A1-WOAH-PRRS-DISEASE",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DISEASE-REGULATORY-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DRUG-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 82,
+      "diagnosis_accuracy": 27,
+      "pathology_logic": 18,
+      "prescription_safety": 22,
+      "data_quality": 15,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答在诊断准确性、病理逻辑、处方安全性和数据质量方面表现良好，整体符合测试数据有效性要求。诊断考虑了环境因素和多种可能的疾病，包括目标疾病猪繁殖与呼吸综合征，并建议进行实验室检测以确认。处方安全，考虑了改善环境、分群管理、实验室检测和针对性治疗，同时强调了严禁使用未经批准的兽药和重大疫情的上报。数据质量方面，虽然证据来源可靠，但部分内容重复，且未提供具体的鉴别诊断列表。",
+      "weaknesses": [
+        "诊断部分虽然考虑了多种可能性，但未明确列出鉴别诊断，可能影响诊断的全面性。",
+        "处方部分的治疗边界和行动计划内容重复，可以进一步精简和明确。",
+        "数据质量方面，虽然证据来源可靠，但部分内容表述重复，且未提供具体的鉴别诊断支持数据。"
+      ],
+      "improvement_actions": [
+        "在诊断部分明确列出鉴别诊断，包括每种疾病的症状、流行病学特点和诊断依据，以提高诊断的全面性和准确性。",
+        "精简处方部分的内容，避免重复，并明确列出每种治疗措施的具体实施步骤和注意事项。",
+        "提高数据质量，避免内容重复，提供更具体的鉴别诊断支持数据，如相关研究文献或病例报告。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪繁殖与呼吸综合征\n猪繁殖与呼吸综合征、porcine reproductive and respiratory syndrome viruses、PRRS、蓝耳病\n呼吸道环境诱因\n通风差、氨气重或温差大后出现咳嗽喘气，用户想区分环境应激和传染病。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 4
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A0-MOA-PRRS-CSF-GUIDANCE-2017",
+        "A1-WOAH-PRRS-DISEASE",
+        "A2-MERCK-PRRS-2026",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 8.15,
+      "judge_seconds": 18.94,
+      "total_seconds": 27.09
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.83,
+          "api_key_fingerprint": "d86bf62fd68d",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 18.94,
+          "api_key_fingerprint": "d242c7423361",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0007",
+      "disease_id": "DIS-035",
+      "disease_name": "猪胸膜肺炎",
+      "aliases": "猪胸膜肺炎、actinobacillus pleuropneumoniae pleuropneumonia",
+      "category": "细菌病/呼吸道病",
+      "page_relpath": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "scenario_type": "呼吸道群体发病",
+      "stage": "保育猪/育肥猪",
+      "scenario": "同栏出现咳嗽、喘气、发热、采食下降，用户想判断病因和是否需要全群用药。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我家是200头左右60公斤左右的育肥猪，这几天有几头开始咳嗽、喘气、发烧，吃料也少了，有的还趴着不动，体温测到40度以上，圈舍通风一般，之前用过替米考星拌料预防过一次，现在这种情况是不是要全群加药？",
+      "diagnosis": "根据描述，该群育肥猪出现急性呼吸道症状，包括咳嗽、喘气、高热及采食下降，部分个体精神沉郁，符合猪传染性胸膜肺炎（Actinobacillus pleuropneumoniae感染）的典型表现。该病在育肥阶段易暴发，常呈急性经过，病死率较高，需结合剖检（胸膜出血、纤维素渗出等）和病原检测确认。 证据来源：source=A0-MOA。",
+      "prescription": "建议立即隔离病猪并加强圈舍保温与通风管理，减少应激；采集典型病例血液、肺组织送实验室进行病原鉴定和药敏试验，依据结果选用敏感抗菌药物；对全群可先采取支持疗法（改善环境、补充营养），在未获药敏前不建议盲目全群投喂广谱抗生素；严禁使用未经批准的兽药或超范围用药；若怀疑为重大疫病流行，应立即向当地畜牧兽医部门报告并按要求进行封锁、消毒和无害化处理。 证据来源：source=A0-MOA；source=RC-DISEASE-REGULATORY-001。",
+      "withdrawal_period": "具体休药期需依据所用药物种类、剂量及国家相关规定执行，未获得确切处方前不得使用。 证据来源：source=A0-MOA；source=RC-DISEASE-REGULATORY-001；source=RC-DRUG-001。",
+      "metadata": {
+        "disease_name": "猪传染性胸膜肺炎",
+        "severity": "高",
+        "scene_tags": [
+          "育肥猪",
+          "急性呼吸道",
+          "群体发病",
+          "高热",
+          "采食下降"
+        ],
+        "validation_points": [
+          "症状与胸膜肺炎高度吻合",
+          "需病原学确诊",
+          "治疗依赖药敏结果"
+        ],
+        "risk_flags": [
+          "可能爆发重大动物疫病",
+          "存在快速传播风险",
+          "需及时上报主管部门"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DISEASE-REGULATORY-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DRUG-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-WITHDRAWAL-MRL-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "SRC-0001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪胸膜肺炎",
+        "species": "猪",
+        "case_type": "呼吸道群体发病",
+        "diagnosis": "根据描述，该群育肥猪出现急性呼吸道症状，包括咳嗽、喘气、高热及采食下降，部分个体精神沉郁，符合猪传染性胸膜肺炎（Actinobacillus pleuropneumoniae感染）的典型表现。该病在育肥阶段易暴发，常呈急性经过，病死率较高，需结合剖检（胸膜出血、纤维素渗出等）和病原检测确认。 证据来源：source=A0-MOA。",
+        "differential_diagnoses": [],
+        "action_plan": "建议立即隔离病猪并加强圈舍保温与通风管理，减少应激；采集典型病例血液、肺组织送实验室进行病原鉴定和药敏试验，依据结果选用敏感抗菌药物；对全群可先采取支持疗法（改善环境、补充营养），在未获药敏前不建议盲目全群投喂广谱抗生素；严禁使用未经批准的兽药或超范围用药；若怀疑为重大疫病流行，应立即向当地畜牧兽医部门报告并按要求进行封锁、消毒和无害化处理。 证据来源：source=A0-MOA；source=RC-DISEASE-REGULATORY-001。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "建议立即隔离病猪并加强圈舍保温与通风管理，减少应激；采集典型病例血液、肺组织送实验室进行病原鉴定和药敏试验，依据结果选用敏感抗菌药物；对全群可先采取支持疗法（改善环境、补充营养），在未获药敏前不建议盲目全群投喂广谱抗生素；严禁使用未经批准的兽药或超范围用药；若怀疑为重大疫病流行，应立即向当地畜牧兽医部门报告并按要求进行封锁、消毒和无害化处理。 证据来源：source=A0-MOA；source=RC-DISEASE-REGULATORY-001。",
+        "withdrawal_boundary": "具体休药期需依据所用药物种类、剂量及国家相关规定执行，未获得确切处方前不得使用。 证据来源：source=A0-MOA；source=RC-DISEASE-REGULATORY-001；source=RC-DRUG-001。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001",
+          "SRC-0001"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DISEASE-REGULATORY-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DRUG-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-WITHDRAWAL-MRL-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "SRC-0001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 82,
+      "diagnosis_accuracy": 27,
+      "pathology_logic": 18,
+      "prescription_safety": 20,
+      "data_quality": 17,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答对猪胸膜肺炎的诊断较为准确，症状描述与疾病特征高度吻合，诊断逻辑合理。病理逻辑部分考虑了疾病的暴发特点和病死率，但缺乏对鉴别诊断的详细讨论。处方安全方面，建议进行病原鉴定和药敏试验后再用药，避免了盲目使用广谱抗生素，且强调了上报主管部门和生物安全措施，符合安全要求。数据质量方面，证据来源可靠，但场景标签和风险标志的覆盖度可进一步提升。",
+      "weaknesses": [
+        "病理逻辑部分缺乏对鉴别诊断的详细讨论，如与其他呼吸道疾病的区分。",
+        "数据质量方面，场景标签和风险标志的覆盖度可进一步提升，以更全面地反映病例特征。",
+        "诊断准确性方面，虽然症状描述与疾病特征高度吻合，但未提及具体的诊断标准或参考值，如体温的具体范围等。"
+      ],
+      "improvement_actions": [
+        "在病理逻辑部分增加对鉴别诊断的讨论，明确与其他呼吸道疾病的区分要点。",
+        "完善数据质量，增加更多相关的场景标签和风险标志，以更全面地描述病例特征。",
+        "在诊断准确性方面，可以增加具体的诊断标准或参考值，如体温的具体范围、症状的持续时间等，以提高诊断的精确性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪胸膜肺炎\n猪胸膜肺炎、actinobacillus pleuropneumoniae pleuropneumonia\n呼吸道群体发病\n同栏出现咳嗽、喘气、发热、采食下降，用户想判断病因和是否需要全群用药。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 3,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA",
+        "A2-MERCK-ACTINOBACILLOSIS-PIGS-2025",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-0058",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0089",
+        "SRC-0090"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": false,
+      "target_disease_mismatch": true,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "reject",
+    "final_fatal_risk": true,
+    "local_reasons": [
+      "target_disease_in_diagnosis"
+    ],
+    "stage_times": {
+      "answer_seconds": 7.86,
+      "judge_seconds": 18.0,
+      "total_seconds": 25.87
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.66,
+          "api_key_fingerprint": "8798281415b6",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 18.0,
+          "api_key_fingerprint": "75595635c32e",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  },
+  {
+    "task": {
+      "case_id": "SWINE-WEAK-0008",
+      "disease_id": "DIS-040",
+      "disease_name": "猪大肠杆菌病",
+      "aliases": "猪大肠杆菌病、colibacillosis、大肠杆菌、大肠杆菌性腹泻、E. coli",
+      "category": "细菌病/肠道病",
+      "page_relpath": "wiki/diseases/DIS-040-colibacillosis.md",
+      "scenario_type": "腹泻出栏边界",
+      "stage": "育肥猪",
+      "scenario": "临近出栏猪群出现腹泻，用户关心处理方向、隔离和用药后能否销售。"
+    },
+    "answer": {
+      "species": "猪",
+      "user_query": "我这边有200多头90公斤左右的育肥猪，快到出栏时间了，最近两天陆续有几头开始拉稀，粪便偏黄带点酸臭味，精神食欲还行，体温正常，圈舍湿度有点大，之前没用过抗生素。这种情况还能继续养着卖吗？要不要先隔离或者用药？",
+      "diagnosis": "根据描述，该批育肥猪出现黄色酸臭水样腹泻，可能与肠道致病性大肠杆菌感染有关，尤其是ETEC型引起的急性腹泻。目前未见明显全身症状，提示可能为局部肠道感染而非全身菌血症。确诊需结合剖检病变、粪便及肠内容物细菌分离培养、毒力基因检测等实验室检查，排除其他病原如轮状病毒、沙门氏菌等混合感染。 证据来源：source=A0-MOA-573。",
+      "prescription": "treatment_direction: 针对疑似大肠杆菌性腹泻，可在兽医指导下选择敏感抗菌药物进行群体治疗，同时配合改善饲养管理，降低应激。；management_measures: 立即清理圈舍积水，加强通风干燥，减少密度；保证饮水清洁，饲料新鲜；对发病猪单独分栏观察，防止交叉感染。；sampling_submission: 采集典型病例的粪便、肠内容物送实验室做细菌分离培养及毒力基因检测，必要时做药敏试验指导用药。；prohibited_boundaries: 严禁在未确诊前随意使用未经批准的兽药；禁止将疑似重大传染病猪只直接上市销售；发现死亡病例应立即上报并按规定无害化处理。 证据来源：source=A0-MOA-573；source=A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS。",
+      "withdrawal_period": "用药须严格遵守国家兽药标签规定的休药期，并在停药期满并经检测合格后方可出栏销售。 证据来源：source=A0-MOA-573；source=A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS；source=RC-DISEASE-REGULATORY-001。",
+      "metadata": {
+        "disease_name": "猪大肠杆菌病",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "临近出栏",
+          "腹泻",
+          "高湿环境"
+        ],
+        "validation_points": [
+          "符合ETEC型大肠杆菌病的流行病学特征",
+          "临床表现与肠道型大肠杆菌病一致",
+          "建议通过实验室确诊排除其他病原"
+        ],
+        "risk_flags": [
+          "临近出栏期疫情扩散风险",
+          "潜在食品安全风险"
+        ]
+      },
+      "evidence_anchors": [
+        {
+          "source_id": "A0-MOA-573",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DISEASE-REGULATORY-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-DRUG-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        },
+        {
+          "source_id": "RC-WITHDRAWAL-MRL-001",
+          "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+          "evidence_status": "HUMAN_REVIEWED"
+        }
+      ],
+      "answer_json": {
+        "target_disease": "猪大肠杆菌病",
+        "species": "猪",
+        "case_type": "腹泻出栏边界",
+        "diagnosis": "根据描述，该批育肥猪出现黄色酸臭水样腹泻，可能与肠道致病性大肠杆菌感染有关，尤其是ETEC型引起的急性腹泻。目前未见明显全身症状，提示可能为局部肠道感染而非全身菌血症。确诊需结合剖检病变、粪便及肠内容物细菌分离培养、毒力基因检测等实验室检查，排除其他病原如轮状病毒、沙门氏菌等混合感染。 证据来源：source=A0-MOA-573。",
+        "differential_diagnoses": [],
+        "action_plan": "treatment_direction: 针对疑似大肠杆菌性腹泻，可在兽医指导下选择敏感抗菌药物进行群体治疗，同时配合改善饲养管理，降低应激。；management_measures: 立即清理圈舍积水，加强通风干燥，减少密度；保证饮水清洁，饲料新鲜；对发病猪单独分栏观察，防止交叉感染。；sampling_submission: 采集典型病例的粪便、肠内容物送实验室做细菌分离培养及毒力基因检测，必要时做药敏试验指导用药。；prohibited_boundaries: 严禁在未确诊前随意使用未经批准的兽药；禁止将疑似重大传染病猪只直接上市销售；发现死亡病例应立即上报并按规定无害化处理。 证据来源：source=A0-MOA-573；source=A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS。",
+        "sampling_plan": "结合临床表现、流行病学和病料检测进行确认，未确诊前避免高风险处方或出栏承诺。",
+        "treatment_boundary": "treatment_direction: 针对疑似大肠杆菌性腹泻，可在兽医指导下选择敏感抗菌药物进行群体治疗，同时配合改善饲养管理，降低应激。；management_measures: 立即清理圈舍积水，加强通风干燥，减少密度；保证饮水清洁，饲料新鲜；对发病猪单独分栏观察，防止交叉感染。；sampling_submission: 采集典型病例的粪便、肠内容物送实验室做细菌分离培养及毒力基因检测，必要时做药敏试验指导用药。；prohibited_boundaries: 严禁在未确诊前随意使用未经批准的兽药；禁止将疑似重大传染病猪只直接上市销售；发现死亡病例应立即上报并按规定无害化处理。 证据来源：source=A0-MOA-573；source=A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS。",
+        "withdrawal_boundary": "用药须严格遵守国家兽药标签规定的休药期，并在停药期满并经检测合格后方可出栏销售。 证据来源：source=A0-MOA-573；source=A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS；source=RC-DISEASE-REGULATORY-001。",
+        "risk_controls": [],
+        "evidence_sources": [
+          "A0-MOA-573",
+          "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "evidence_anchors": [
+          {
+            "source_id": "A0-MOA-573",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DISEASE-REGULATORY-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-DRUG-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          },
+          {
+            "source_id": "RC-WITHDRAWAL-MRL-001",
+            "supports": "retrieved LLM Wiki evidence used for diagnosis, safety boundary, or compliance",
+            "evidence_status": "HUMAN_REVIEWED"
+          }
+        ]
+      }
+    },
+    "judge": {
+      "total_score": 88,
+      "diagnosis_accuracy": 27,
+      "pathology_logic": 18,
+      "prescription_safety": 23,
+      "data_quality": 20,
+      "fatal_risk": false,
+      "final_label": "pass",
+      "summary": "该回答在诊断准确性、病理逻辑、处方安全性和数据质量方面均表现良好，符合猪大肠杆菌病的诊断和处理标准，未发现致命风险。",
+      "weaknesses": "诊断准确性方面，虽然整体判断正确，但未完全覆盖所有可能的鉴别诊断，如轮状病毒、沙门氏菌等混合感染的可能性虽提及，但未详细展开；病理逻辑方面，对疾病发展过程的描述较为简略，缺乏深入分析；处方安全性方面，虽然强调了兽医指导和实验室检测的重要性，但未具体说明可能使用的抗菌药物种类和剂量范围；数据质量方面，虽然引用了多个证据来源，但部分证据与具体诊断或处理措施的关联性不够明确。",
+      "improvement_actions": "在诊断准确性方面，建议增加对鉴别诊断的详细讨论，如轮状病毒、沙门氏菌等混合感染的具体症状和诊断方法；在病理逻辑方面，建议增加对疾病发展过程的深入分析，包括可能的病理变化和病程发展；在处方安全性方面，建议具体说明可能使用的抗菌药物种类和剂量范围，并强调根据药敏试验结果选择敏感药物的重要性；在数据质量方面，建议进一步明确各证据来源与具体诊断或处理措施的关联性，提高证据的可信度和说服力。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1595,
+      "wiki_page_count": 980,
+      "wiki_context_query": "猪大肠杆菌病\n猪大肠杆菌病、colibacillosis、大肠杆菌、大肠杆菌性腹泻、E. coli\n腹泻出栏边界\n临近出栏猪群出现腹泻，用户关心处理方向、隔离和用药后能否销售。",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 4
+      },
+      "wiki_evidence_source_ids": [
+        "A0-MOA-573",
+        "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS",
+        "A2-MERCK-ENTERIC-COLIBACILLOSIS-PIGS-2024",
+        "RC-DISEASE-REGULATORY-001",
+        "RC-DRUG-001",
+        "RC-WITHDRAWAL-MRL-001",
+        "SRC-0001",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0087",
+        "SRC-0088",
+        "SRC-0090"
+      ],
+      "wiki_context_chars": 2221
+    },
+    "flags": {
+      "species_ok": true,
+      "target_disease_in_diagnosis": true,
+      "target_disease_mismatch": false,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "regulated_bad_treatment": false
+    },
+    "final_label": "pass",
+    "final_fatal_risk": false,
+    "local_reasons": [],
+    "stage_times": {
+      "answer_seconds": 8.64,
+      "judge_seconds": 16.9,
+      "total_seconds": 25.55
+    },
+    "model_usage": {
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "answer_success": true,
+      "judge_success": true,
+      "answer_error": "",
+      "judge_error": "",
+      "answer_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.36,
+          "api_key_fingerprint": "50d7546f044f",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ],
+      "judge_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 16.9,
+          "api_key_fingerprint": "6bb171346afa",
+          "parsed_json": true,
+          "has_required_json": true,
+          "error": ""
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,5 @@
+请先生成一条关于猪{{ disease_name }}的问诊草稿。
+{% if scenario_hint %}
+场景提示：{{ scenario_hint }}
+{% endif %}
+请聚焦真实养殖户口吻和病例线索完整性，只输出 user_query、species、metadata。

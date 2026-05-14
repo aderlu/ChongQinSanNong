@@ -1,0 +1,7 @@
+{
+  "source": "results\\swine_qa_dataset\\swine_qa_dataset_20260507_130918.csv",
+  "output": "results\\swine_qa_dataset\\swine_qa_dataset_20260507_130918_usable_candidates.csv",
+  "rows": 16,
+  "usable_rows": 14,
+  "excluded": 2
+}

@@ -1,0 +1,61 @@
+disease_id,disease_name,category,official_china_status,coverage_target,china_standard_required,clinical_page_required,regulatory_anchor_required,coverage_gap_status,primary_source_id,page_relpath,standard_count
+DIS-001,鸡白痢,细菌病,,core,yes,yes,yes,needs_audit,SRC-0029,wiki/diseases/DIS-001-鸡白痢.md,1
+DIS-002,鸡球虫病,寄生虫病,,core,yes,yes,yes,needs_audit,SRC-0030,wiki/diseases/DIS-002-鸡球虫病.md,0
+DIS-003,传染性支气管炎,病毒病,China official category III animal disease,core,yes,yes,yes,needs_audit,SRC-0031,wiki/diseases/DIS-003-传染性支气管炎.md,3
+DIS-004,热应激,环境/管理病因,,core,yes,yes,yes,needs_audit,SRC-0032,wiki/diseases/DIS-004-热应激.md,0
+DIS-005,维生素缺乏症,营养代谢病,,core,yes,yes,yes,needs_audit,SRC-0033,wiki/diseases/DIS-005-维生素缺乏症.md,0
+DIS-006,大肠杆菌病,细菌病,,core,yes,yes,yes,needs_audit,SRC-0034,wiki/diseases/DIS-006-大肠杆菌病.md,0
+DIS-007,坏死性肠炎,细菌病,,core,yes,yes,yes,needs_audit,SRC-0035,wiki/diseases/DIS-007-坏死性肠炎.md,0
+DIS-008,禽流感,重大疫病,China official avian influenza framework: HPAI category I / LPAI category III,core,yes,yes,yes,needs_audit,SRC-0019,wiki/diseases/DIS-008-禽流感.md,5
+DIS-009,新城疫,重大病毒病,China official category II animal disease,core,yes,yes,yes,needs_audit,SRC-0020,wiki/diseases/DIS-009-新城疫.md,2
+DIS-010,传染性法氏囊病,病毒病,China official category III animal disease,core,yes,yes,yes,needs_audit,SRC-0036,wiki/diseases/DIS-010-传染性法氏囊病.md,1
+DIS-011,马立克病,肿瘤性病毒病,China official category III animal disease,core,yes,yes,yes,needs_audit,SRC-0037,wiki/diseases/DIS-011-马立克病.md,1
+DIS-012,传染性喉气管炎,病毒病,China official category III animal disease,core,yes,yes,yes,needs_audit,SRC-0038,wiki/diseases/DIS-012-传染性喉气管炎.md,1
+DIS-013,鸡支原体病,细菌样病原,,core,yes,yes,yes,needs_audit,SRC-0039,wiki/diseases/DIS-013-鸡支原体病.md,2
+DIS-014,禽霍乱,细菌病,,core,yes,yes,yes,needs_audit,SRC-0040,wiki/diseases/DIS-014-禽霍乱.md,0
+DIS-015,传染性鼻炎,细菌病,,core,yes,yes,yes,needs_audit,SRC-0041,wiki/diseases/DIS-015-传染性鼻炎.md,0
+DIS-016,禽痘,病毒病,China official category III animal disease,core,yes,yes,yes,needs_audit,SRC-0042,wiki/diseases/DIS-016-禽痘.md,0
+DIS-017,曲霉菌病,真菌病,,core,yes,yes,yes,needs_audit,SRC-0043,wiki/diseases/DIS-017-曲霉菌病.md,0
+DIS-018,葡萄球菌病,细菌病,,core,yes,yes,yes,needs_audit,SRC-0044,wiki/diseases/DIS-018-葡萄球菌病.md,0
+DIS-019,肉毒梭菌中毒,中毒病,,core,yes,yes,yes,needs_audit,SRC-0045,wiki/diseases/DIS-019-肉毒梭菌中毒.md,0
+DIS-020,组织滴虫病,寄生虫病,,core,yes,yes,yes,needs_audit,SRC-0046,wiki/diseases/DIS-020-组织滴虫病.md,0
+DIS-021,鸡蛔虫病,寄生虫病,,core,yes,yes,yes,needs_audit,SRC-0047,wiki/diseases/DIS-021-鸡蛔虫病.md,0
+DIS-022,鸡绦虫病,寄生虫病,,core,yes,yes,yes,needs_audit,SRC-0048,wiki/diseases/DIS-022-鸡绦虫病.md,0
+DIS-023,霉菌毒素中毒,中毒/饲料问题,,core,yes,yes,yes,needs_audit,SRC-0049,wiki/diseases/DIS-023-霉菌毒素中毒.md,0
+DIS-024,脂肪肝出血综合征,营养代谢病,,core,yes,yes,yes,needs_audit,SRC-0050,wiki/diseases/DIS-024-脂肪肝出血综合征.md,0
+DIS-025,腹水综合征,代谢/管理病因,,core,yes,yes,yes,needs_audit,SRC-0051,wiki/diseases/DIS-025-腹水综合征.md,0
+DIS-026,笼养蛋鸡疲劳症,营养代谢病,,core,yes,yes,yes,needs_audit,SRC-0052,wiki/diseases/DIS-026-笼养蛋鸡疲劳症.md,0
+DIS-027,啄癖,行为/管理问题,,core,yes,yes,yes,needs_audit,SRC-0053,wiki/diseases/DIS-027-啄癖.md,0
+DIS-028,氨气刺激性呼吸道病,环境/管理病因,,core,yes,yes,yes,needs_audit,SRC-0054,wiki/diseases/DIS-028-氨气刺激性呼吸道病.md,0
+DIS-029,鸡伤寒,细菌病,,core,yes,yes,yes,needs_audit,SRC-0055,wiki/diseases/DIS-029-鸡伤寒.md,0
+DIS-030,禽脑脊髓炎,病毒病,,core,yes,yes,yes,needs_audit,SRC-0056,wiki/diseases/DIS-030-禽脑脊髓炎.md,0
+DIS-031,卵黄囊感染,细菌病,,core,yes,yes,yes,needs_audit,SRC-0087,wiki/diseases/DIS-031-卵黄囊感染.md,0
+DIS-032,卵黄性腹膜炎,细菌病,,core,yes,yes,yes,needs_audit,SRC-0118,wiki/diseases/DIS-032-卵黄性腹膜炎.md,0
+DIS-033,鸡痛风,代谢/管理病因,,core,yes,yes,yes,needs_audit,SRC-0119,wiki/diseases/DIS-033-鸡痛风.md,0
+DIS-034,禽副伤寒,细菌病,,core,yes,yes,yes,needs_audit,SRC-0120,wiki/diseases/DIS-034-禽副伤寒.md,0
+DIS-035,坏疽性皮炎,细菌病,,core,yes,yes,yes,needs_audit,SRC-0121,wiki/diseases/DIS-035-坏疽性皮炎.md,0
+DIS-036,高致病性禽流感,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0014,wiki/diseases/DIS-036-高致病性禽流感.md,3
+DIS-037,鸡红螨病,寄生虫病,,candidate,yes,yes,yes,needs_audit,SRC-0075,wiki/diseases/DIS-037-鸡红螨病.md,1
+DIS-038,禽白血病,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0018,wiki/diseases/DIS-038-禽白血病.md,3
+DIS-039,网状内皮组织增生症,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0083,wiki/diseases/DIS-039-网状内皮组织增生症.md,0
+DIS-040,鸡传染性贫血,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0084,wiki/diseases/DIS-040-鸡传染性贫血.md,0
+DIS-041,病毒性关节炎,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0106,wiki/diseases/DIS-041-病毒性关节炎.md,4
+DIS-042,包涵体肝炎和肝炎心包积液综合征,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0086,wiki/diseases/DIS-042-包涵体肝炎和肝炎心包积液综合征.md,0
+DIS-043,脐炎,细菌病,,candidate,yes,yes,yes,needs_audit,SRC-0087,wiki/diseases/DIS-043-脐炎.md,0
+DIS-044,溃疡性肠炎,细菌病,,candidate,yes,yes,yes,needs_audit,SRC-0088,wiki/diseases/DIS-044-溃疡性肠炎.md,0
+DIS-045,念珠菌病,真菌/霉菌相关,,candidate,yes,yes,yes,needs_audit,SRC-0089,wiki/diseases/DIS-045-念珠菌病.md,0
+DIS-046,肠球菌病,细菌病,,candidate,yes,yes,yes,needs_audit,SRC-0090,wiki/diseases/DIS-046-肠球菌病.md,0
+DIS-047,轮状病毒感染,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0092,wiki/diseases/DIS-047-轮状病毒感染.md,0
+DIS-048,小核糖核酸病毒感染,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0093,wiki/diseases/DIS-048-小核糖核酸病毒感染.md,0
+DIS-049,鸡心包积液综合征,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0096,wiki/diseases/DIS-049-鸡心包积液综合征.md,2
+DIS-050,禽丹毒,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0098,wiki/diseases/DIS-050-禽丹毒.md,0
+DIS-051,弯曲杆菌感染,细菌病,,candidate,yes,yes,yes,needs_audit,SRC-0099,wiki/diseases/DIS-051-弯曲杆菌感染.md,0
+DIS-052,偏肺病毒感染,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0100,wiki/diseases/DIS-052-偏肺病毒感染.md,0
+DIS-053,隐孢子虫病,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0101,wiki/diseases/DIS-053-隐孢子虫病.md,0
+DIS-054,禽结核病,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0102,wiki/diseases/DIS-054-禽结核病.md,2
+DIS-055,鸡产蛋下降综合征,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0104,wiki/diseases/DIS-055-鸡产蛋下降综合征.md,2
+DIS-056,鸡病毒性关节炎,病毒病,,candidate,yes,yes,yes,needs_audit,SRC-0106,wiki/diseases/DIS-056-鸡病毒性关节炎.md,4
+DIS-057,滑液囊支原体感染,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0113,wiki/diseases/DIS-057-滑液囊支原体感染.md,0
+DIS-058,禽螺旋体病,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0114,wiki/diseases/DIS-058-禽螺旋体病.md,0
+DIS-059,禽衣原体病,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0116,wiki/diseases/DIS-059-禽衣原体病.md,0
+DIS-060,住白细胞虫病,待分类,,candidate,yes,yes,yes,needs_audit,SRC-0117,wiki/diseases/DIS-060-住白细胞虫病.md,0

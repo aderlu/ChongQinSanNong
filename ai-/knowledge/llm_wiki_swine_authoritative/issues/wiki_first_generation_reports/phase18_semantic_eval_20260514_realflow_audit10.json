@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-14T09:22:34+08:00",
+  "phase": "phase18_dual_judge_and_arbitrate",
+  "mode": "wiki_first_dual_judge_v1",
+  "input_evaluated": "exports/evaluated_samples/fact_evaluated_samples_20260514_realflow_audit10.jsonl",
+  "output": "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260514_realflow_audit10.jsonl",
+  "samples": 10,
+  "dual_judged": 8,
+  "needed_arbitration": 3,
+  "fatal_risk_count": 2,
+  "semantic_accepted": 8,
+  "semantic_review": 0,
+  "semantic_rejected": 2,
+  "route_counts": {
+    "dual_judge": 8,
+    "skipped_hard_gate": 2
+  },
+  "skip_reason_counts": {
+    "phase15_hard_gate_failed": 2
+  },
+  "arbitration_trigger_counts": {
+    "high_risk_sample": 3,
+    "phase15_high_risk_class": 3,
+    "phase15_high_risk_context": 3
+  },
+  "passed": true
+}

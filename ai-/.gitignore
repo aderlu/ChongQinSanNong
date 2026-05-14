@@ -1,0 +1,26 @@
+# Runtime artifacts
+results/
+temp/
+.tmp/
+benchmarks/results/
+.deepeval/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+config.local.json
+.env
+.env.*
+!.env.example
+benchmarks/benchmark_config.local.json
+benchmarks/benchmark_config*.bak
+
+# Logs and archives
+*.log
+*.err.log
+*.out
+*.zip
+
+# IDE files
+.idea/
+.vscode/

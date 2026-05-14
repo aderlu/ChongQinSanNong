@@ -1,0 +1,38 @@
+{
+  "config": {
+    "config_path": "D:\\XF-ChongQin\\ai-\\config.json",
+    "rule_base_ok": true,
+    "rule_base_mismatches": {},
+    "result_csv": "results/swine_disease_dataset_{timestamp}.csv",
+    "result_csv_ok": true
+  },
+  "facts": {
+    "facts_path": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\knowledge_facts.json",
+    "json_ok": true,
+    "fact_count": 2193,
+    "bad_questionmark_facts": [],
+    "bad_questionmark_count": 0,
+    "missing_source_count": 0,
+    "missing_source_sample": [],
+    "evidence_status_counts": {
+      "NEEDS_REVIEW": 146,
+      "HUMAN_REVIEWED": 2017,
+      "PROCESSED_SOURCE_ANCHORED": 30
+    },
+    "source_id_count": 123
+  },
+  "templates": {
+    "template_dir": "D:\\XF-ChongQin\\ai-\\prompt_templates",
+    "required_tokens_ok": true,
+    "missing_required_tokens": [],
+    "chicken_mentions": {}
+  },
+  "code_contract": {
+    "final_fields_ok": true,
+    "generation_preserves_answer_json": true,
+    "generation_preserves_evidence_anchors": true,
+    "default_species_swine": true
+  },
+  "ok": true,
+  "errors": []
+}

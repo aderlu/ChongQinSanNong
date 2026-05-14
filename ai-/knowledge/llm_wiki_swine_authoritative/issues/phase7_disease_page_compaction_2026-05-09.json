@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-05-09T14:35:51+08:00",
+  "purpose": "Phase 7 compaction of high-density runtime disease pages by moving batch evidence to evidence expansions.",
+  "targets": [
+    "DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+    "DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+    "DIS-044-gl-sser-s-disease.md"
+  ],
+  "records": [
+    {
+      "page": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 31,
+      "candidate_fact_mentions_moved": 12,
+      "dose_route_course_mentions_moved": 7,
+      "treatment_mentions_moved": 3,
+      "source_id_mentions_moved": 32,
+      "bytes_before": 22916,
+      "bytes_after": 11432,
+      "bytes_reduced": 11484,
+      "expansion": "wiki/evidence_expansions/diseases/phase7/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia-phase7-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "skipped": false,
+      "blocks_moved": 4,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1"
+      ],
+      "fact_like_rows_moved": 44,
+      "candidate_fact_mentions_moved": 12,
+      "dose_route_course_mentions_moved": 10,
+      "treatment_mentions_moved": 6,
+      "source_id_mentions_moved": 44,
+      "bytes_before": 24330,
+      "bytes_after": 10704,
+      "bytes_reduced": 13626,
+      "expansion": "wiki/evidence_expansions/diseases/phase7/DIS-052-swine-dysentery-brachyspira-hyodysenteriae-phase7-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "skipped": false,
+      "blocks_moved": 3,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1"
+      ],
+      "fact_like_rows_moved": 31,
+      "candidate_fact_mentions_moved": 7,
+      "dose_route_course_mentions_moved": 5,
+      "treatment_mentions_moved": 1,
+      "source_id_mentions_moved": 32,
+      "bytes_before": 26778,
+      "bytes_after": 11364,
+      "bytes_reduced": 15414,
+      "expansion": "wiki/evidence_expansions/diseases/phase7/DIS-044-gl-sser-s-disease-phase7-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    }
+  ],
+  "summary": {
+    "pages_checked": 3,
+    "pages_changed": 3,
+    "blocks_moved": 12,
+    "fact_like_rows_moved": 106,
+    "candidate_fact_mentions_moved": 31,
+    "source_id_mentions_moved": 108,
+    "bytes_reduced": 40524
+  }
+}

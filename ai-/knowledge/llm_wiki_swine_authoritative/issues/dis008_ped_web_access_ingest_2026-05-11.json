@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-11T17:17:20+08:00",
+  "raw_json": "raw/web/web_access_dis008_ped_authority_20260511/SRC-DIS008-PED-WEB-20260511.json",
+  "source_ids": [
+    "A1-WOAH-PED",
+    "A1-USDA-APHIS-PED-TECH-NOTE-2023"
+  ],
+  "source_pages": [
+    "wiki/sources/A1-WOAH-PED.md",
+    "wiki/sources/A1-USDA-APHIS-PED-TECH-NOTE-2023.md"
+  ],
+  "facts_changed": 6,
+  "fact_ids": [
+    "DIS008-WEB-001-woah-nonzoonotic-coronavirus",
+    "DIS008-WEB-002-woah-age-morbidity-mortality",
+    "DIS008-WEB-003-woah-fecal-oral-biosecurity-early-detection",
+    "DIS008-WEB-004-woah-clinical-similarity-no-specific-treatment",
+    "DIS008-WEB-005-usda-lab-differentiation-from-tge",
+    "DIS008-WEB-006-usda-fecal-oral-no-vector-reservoir"
+  ],
+  "evidence_expansion": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/008-Web-Access-Authority-Reinforcement-2026-05-11.md",
+  "disease_page": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+  "boundary": "No prescriptions, dose, route, course, withdrawal, MRL, food-safety, or China-specific regulatory execution conclusion added."
+}

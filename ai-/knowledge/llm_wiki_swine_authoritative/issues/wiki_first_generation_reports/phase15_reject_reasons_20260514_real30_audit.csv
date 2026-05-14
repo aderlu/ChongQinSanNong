@@ -1,0 +1,5 @@
+sample_id,final_decision,reject_reason
+REALAPI30-004,rejected,hard_gate:executive_content_missing_a0_source
+REALAPI30-004,rejected,judge:deterministic_placeholder_failed
+REALAPI30-005,rejected,hard_gate:executive_content_missing_a0_source
+REALAPI30-005,rejected,judge:deterministic_placeholder_failed

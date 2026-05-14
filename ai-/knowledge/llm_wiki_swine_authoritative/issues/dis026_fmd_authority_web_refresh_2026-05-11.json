@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-11T20:59:33+08:00",
+  "target": "DIS-026 foot-and-mouth disease",
+  "mode": "web_access_authority_refresh",
+  "crud_action": "create/update",
+  "sources_added": [
+    "A1-FAO-FMD-DISEASE-2026",
+    "A1-USDA-APHIS-FMD-DISEASE-2026",
+    "A1-USDA-APHIS-FMD-NAHLN-2026"
+  ],
+  "facts_added": [
+    "DIS026-WEB-001-fao-fmd-impact-control",
+    "DIS026-WEB-002-usda-aphis-species-subtype-report",
+    "DIS026-WEB-003-usda-nahln-fmd-preparedness"
+  ],
+  "source_pages": [
+    "wiki/sources/A1-FAO-FMD-DISEASE-2026.md",
+    "wiki/sources/A1-USDA-APHIS-FMD-DISEASE-2026.md",
+    "wiki/sources/A1-USDA-APHIS-FMD-NAHLN-2026.md"
+  ],
+  "runtime_page": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+  "evidence_expansion": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-026-foot-and-mouth-disease-picornaviruses/010-Authority-Web-Refresh-2026-05-11.md",
+  "old_data_handling": "keep",
+  "runtime_impact": "update",
+  "gold_dataset_impact": "update via rebuilt fact status/readiness indexes",
+  "boundary": "A1 sources do not replace China A0 execution rules."
+}

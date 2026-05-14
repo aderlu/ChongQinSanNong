@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-05-13T17:18:11+08:00",
+  "phase": "phase14_generate_two_stage_samples",
+  "mode": "real-api",
+  "generation_model": "hunyuan-turbos-20250926",
+  "prompt_version": "phase14.two_stage.v3_cn_clinical",
+  "input_skeletons": "issues/wiki_first_generation_reports/tmp_skeletons_20260513_cn_real40_part3_nobom.jsonl",
+  "input_plan": "issues/wiki_first_generation_reports/tmp_plan_20260513_cn_real40_part3_nobom.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_cn_real40_part3.jsonl",
+  "samples": 9,
+  "samples_generated": 9,
+  "ability_layer_counts": {
+    "L4_control_boundary": 3,
+    "L1_retrieval_grounded": 2,
+    "L2_diagnosis_support": 2,
+    "L3_differential_support": 2
+  },
+  "missing_anchors": [],
+  "missing_grounded_citations": [],
+  "fallback_samples": [],
+  "passed": true
+}

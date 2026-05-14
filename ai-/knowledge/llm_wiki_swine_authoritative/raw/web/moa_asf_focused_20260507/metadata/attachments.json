@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.moa.gov.cn/nybgb/2025/202502/202502/P020250224338524265883.pdf",
+    "source_page": "web_search_seed_direct",
+    "link_text": "direct search result",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 3216137,
+    "file": "attachments\\70b3a5a5e224_P020250224338524265883.pdf.pdf"
+  },
+  {
+    "url": "https://www.moa.gov.cn/nybgb/2020/202005/202006/P020200608629549214373.pdf",
+    "source_page": "web_search_seed_direct",
+    "link_text": "direct search result",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2425144,
+    "file": "attachments\\caa31644aa28_P020200608629549214373.pdf.pdf"
+  },
+  {
+    "url": "https://www.moa.gov.cn/nybgb/2020/202009/202011/P020201130639635157980.pdf",
+    "source_page": "web_search_seed_direct",
+    "link_text": "direct search result",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 3379954,
+    "file": "attachments\\e7aee5a4f9bc_P020201130639635157980.pdf.pdf"
+  },
+  {
+    "url": "https://www.moa.gov.cn/nybgb/2021/202105/202111/P020211101350712832070.pdf",
+    "source_page": "web_search_seed_direct",
+    "link_text": "direct search result",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2339724,
+    "file": "attachments\\7f9debbd599e_P020211101350712832070.pdf.pdf"
+  },
+  {
+    "url": "https://www.moa.gov.cn/nybgb/2021/202103/202111/P020211103314584494255.pdf",
+    "source_page": "web_search_seed_direct",
+    "link_text": "direct search result",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2746837,
+    "file": "attachments\\5869d86569c6_P020211103314584494255.pdf.pdf"
+  }
+]

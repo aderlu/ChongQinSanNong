@@ -1,0 +1,450 @@
+﻿rule_id,rule_name,category,priority,evidence_coverage,primary_source_id,page_relpath
+RULE-001,猪群评估必须先核验目标、记录和报告结构,herd_evaluation,high,complete,SRC-0003,wiki/rules/Swine-herd-evaluation-records-and-reporting.md
+RULE-002,现场调查采用四圈评估法,field_investigation,high,complete,SRC-0003,wiki/rules/Swine-four-circle-herd-evaluation.md
+RULE-003,诊断采样优先代表性急性未治疗个体,diagnostic_sampling,high,complete,SRC-0003,wiki/rules/Swine-diagnostic-sampling-selection.md
+RULE-004,干预优先级先空气水饲料再疫苗或治疗,intervention_prioritization,medium,complete,SRC-0003,wiki/rules/Swine-intervention-prioritization.md
+RULE-005,口腔液样本提交时必须标明样本类型,diagnostic_sampling,medium,complete,SRC-0003,wiki/rules/Swine-oral-fluid-sample-submission.md
+RULE-006,猪福利评估必须综合生物功能、情感状态和自然行为机会,welfare_assessment,high,complete,SRC-0004,wiki/rules/Swine-welfare-three-domain-assessment.md
+RULE-007,福利监测应结合动物本体指标和资源指标,welfare_assessment,high,complete,SRC-0004,wiki/rules/Swine-welfare-animal-and-resource-measures.md
+RULE-008,异常行为和咬尾应作为福利风险信号处理,behavior_risk,high,complete,SRC-0004,wiki/rules/Swine-abnormal-behavior-tail-biting-risk.md
+RULE-009,断奶和资源竞争场景要评估采食饮水可及性,feeding_drinking_behavior,medium,complete,SRC-0004,wiki/rules/Swine-feeding-drinking-accessibility.md
+RULE-010,疾病行为应作为早期健康与福利信号,sickness_behavior,high,complete,SRC-0004,wiki/rules/Swine-sickness-behavior-early-signal.md
+RULE-011,护理栏转移需权衡欺凌减少与混群传播风险,hospital_pen_management,high,complete,SRC-0004,wiki/rules/Swine-hospital-pen-monitoring.md
+RULE-012,安乐死必须有标准化 protocol 并确认失去知觉和死亡,euthanasia_welfare,critical,complete,SRC-0004,wiki/rules/Swine-euthanasia-protocol-and-insensibility.md
+RULE-013,遗传健康建议必须结合具体群体和环境,genetics_health,high,complete,SRC-0005,wiki/rules/Swine-genetics-population-environment-specificity.md
+RULE-014,疾病抵抗和疾病耐受应区分使用,genetics_health,medium,complete,SRC-0005,wiki/rules/Swine-disease-resistance-vs-tolerance.md
+RULE-015,母猪生产寿命改良不能只靠单一选择指标,sow_longevity,medium,complete,SRC-0005,wiki/rules/Swine-sow-longevity-selection-boundary.md
+RULE-016,环境评估必须覆盖温湿度空间水料和空气质量,environment_health,high,complete,SRC-0006,wiki/rules/Swine-environment-five-factor-check.md
+RULE-017,患病或采食下降猪群可能需要调整猪体感温度,environment_health,medium,complete,SRC-0006,wiki/rules/Swine-illness-feed-intake-temperature-adjustment.md
+RULE-018,鉴别诊断必须按系统和年龄阶段组织,differential_diagnosis,high,complete,SRC-0007,wiki/rules/Swine-differential-diagnosis-system-age.md
+RULE-019,呼吸道症状需纳入感染性和环境/中毒性鉴别,differential_diagnosis,high,complete,SRC-0007,wiki/rules/Swine-respiratory-differentials-infectious-environmental.md
+RULE-020,繁殖损失鉴别诊断需覆盖遗传环境营养细菌病毒毒素寄生虫,differential_diagnosis,high,complete,SRC-0007,wiki/rules/Swine-reproductive-loss-differential-scope.md
+RULE-021,人兽共患潜力必须在猪病鉴别中显式标注,zoonotic_risk,high,complete,SRC-0007,wiki/rules/Swine-zoonotic-potential-explicit-flag.md
+RULE-022,诊断测试结果必须结合猪群史临床病理解释,diagnostic_interpretation,high,complete,SRC-0008,wiki/rules/Swine-diagnostic-results-context-required.md
+RULE-023,没有单一检测可视为百分之百敏感和特异,test_performance,high,complete,SRC-0008,wiki/rules/Swine-no-single-test-perfect.md
+RULE-024,细菌培养结果必须结合样本信息和临床病变解释,bacterial_diagnostics,high,complete,SRC-0008,wiki/rules/Swine-bacterial-culture-clinical-relevance.md
+RULE-025,药敏结果只能作为药物选择一般指导,antimicrobial_susceptibility,high,complete,SRC-0008,wiki/rules/Swine-ast-general-guide-only.md
+RULE-026,抗体检测适合群体监测但个体阳性需谨慎确认,serology_interpretation,medium,complete,SRC-0008,wiki/rules/Swine-antibody-test-confirmation-boundary.md
+RULE-027,PCR 阳性不得自动等同于活病原或传染性,molecular_diagnostics,high,complete,SRC-0008,wiki/rules/Swine-pcr-positive-not-infectivity.md
+RULE-028,测序结果用于溯源和分型但不能任意推断毒力保护,sequencing_interpretation,medium,complete,SRC-0008,wiki/rules/Swine-sequencing-inference-boundary.md
+RULE-029,阴性结果和异常阳性均需纳入诊断计划,diagnostic_strategy,high,complete,SRC-0008,wiki/rules/Swine-negative-and-spurious-results-plan.md
+RULE-030,诊断问题必须先于采样和检测选择,sample_selection,high,complete,SRC-0009,wiki/rules/Swine-diagnostic-question-before-sampling.md
+RULE-031,群体疾病诊断应优先选择急性受影响且未治疗动物,sample_selection,high,complete,SRC-0009,wiki/rules/Swine-representative-acute-untreated-animals.md
+RULE-032,采样部位必须匹配病原生物学和病变分布,sample_selection,high,complete,SRC-0009,wiki/rules/Swine-sample-site-pathogen-biology-match.md
+RULE-033,死前检测阳性只能作为推定诊断需病理或辅助检测支持,diagnostic_interpretation,high,complete,SRC-0009,wiki/rules/Swine-antemortem-presumptive-needs-context.md
+RULE-034,尸检采样应同时包含病变和非病变组织并防止交叉污染,postmortem_sampling,high,complete,SRC-0009,wiki/rules/Swine-necropsy-lesion-normal-contamination-control.md
+RULE-035,中枢神经和关节病例需优先采集关键组织以降低污染,postmortem_sampling,medium,complete,SRC-0009,wiki/rules/Swine-cns-joint-priority-clean-sampling.md
+RULE-036,因果判断必须区分近因和终因,causality,high,complete,SRC-0010,wiki/rules/Swine-proximate-vs-ultimate-cause.md
+RULE-037,疾病诊断和病原监测监视需要不同采样方案,surveillance,high,complete,SRC-0010,wiki/rules/Swine-diagnosis-vs-surveillance-sampling.md
+RULE-038,检测敏感性特异性解释必须对应诊断问题,test_performance,high,complete,SRC-0010,wiki/rules/Swine-diagnostic-sensitivity-specificity-question.md
+RULE-039,检测只有在结果能解释并触发行动时才应执行,diagnostic_strategy,medium,complete,SRC-0010,wiki/rules/Swine-test-only-if-actionable.md
+RULE-040,串联检测提高特异性并联检测提高敏感性,test_strategy,high,complete,SRC-0010,wiki/rules/Swine-serial-parallel-testing-tradeoff.md
+RULE-041,全阴性监测结果必须结合样本数量和预期流行率解释,surveillance,high,complete,SRC-0010,wiki/rules/Swine-negative-surveillance-denominator-rule.md
+RULE-042,控制和清除策略必须基于病原生态与持留机制,disease_control,high,complete,SRC-0011,wiki/rules/Swine-control-based-on-pathogen-ecology.md
+RULE-043,暴露不等于传播成功,transmission,high,complete,SRC-0011,wiki/rules/Swine-exposure-not-transmission.md
+RULE-044,疾病控制应同时考虑宿主病原环境,disease_ecology,high,complete,SRC-0011,wiki/rules/Swine-host-pathogen-environment-control.md
+RULE-045,疾病发生测量必须区分患病率和发病率,epidemiology,medium,complete,SRC-0011,wiki/rules/Swine-prevalence-incidence-distinction.md
+RULE-046,病原分类应影响控制或清除预期,disease_control,high,complete,SRC-0011,wiki/rules/Swine-pathogen-category-control-expectation.md
+RULE-047,长周期病原清除通常比控制更困难,disease_control,high,complete,SRC-0011,wiki/rules/Swine-long-cycle-control-over-eradication.md
+RULE-048,环境抵抗型病原不能只靠动物处理解决,disease_control,high,complete,SRC-0011,wiki/rules/Swine-resistant-pathogen-environment-control.md
+RULE-049,共生型病原管理应控制诱发因素而非假设可清除,disease_control,high,complete,SRC-0011,wiki/rules/Swine-commensal-pathogen-control-not-eradication.md
+RULE-050,生物安全计划应采用风险管理而非零风险假设,biosecurity,high,complete,SRC-0011,wiki/rules/Swine-biosecurity-risk-management-not-zero-risk.md
+RULE-051,HACCP式生物安全必须定义CCP监测纠偏和记录,biosecurity,medium,complete,SRC-0011,wiki/rules/Swine-haccp-biosecurity-ccp-records.md
+RULE-052,引种风险必须通过来源评估隔离适应和监测管理,biosecurity,high,complete,SRC-0011,wiki/rules/Swine-live-animal-introduction-quarantine.md
+RULE-053,运输生物安全必须覆盖司机车辆装卸和路线,biosecurity,high,complete,SRC-0011,wiki/rules/Swine-transport-driver-vehicle-loading-risk.md
+RULE-054,饲料生物安全必须覆盖原料制造运输和留样QA,feed_biosecurity,high,complete,SRC-0011,wiki/rules/Swine-feed-ingredient-manufacturing-qa.md
+RULE-055,人员生物安全必须覆盖边界装备停留时间和反向人兽共患,people_biosecurity,high,complete,SRC-0011,wiki/rules/Swine-people-biosecurity-boundary-reverse-zoonosis.md
+RULE-056,药物治疗必须先明确目标并确认获益大于风险,drug_use,high,complete,SRC-0012,wiki/rules/Swine-drug-therapy-benefit-risk-objective.md
+RULE-057,抗菌治疗目标应匹配诊断药敏病变和代表性病例,antimicrobial_stewardship,high,complete,SRC-0012,wiki/rules/Swine-antimicrobial-diagnosis-ast-lesion-match.md
+RULE-058,经验性抗菌治疗必须有紧急性和后续诊断复核,antimicrobial_stewardship,high,complete,SRC-0012,wiki/rules/Swine-empirical-antimicrobial-needs-followup.md
+RULE-059,药敏解释必须确认适用标准和解释边界,antimicrobial_interpretation,high,complete,SRC-0012,wiki/rules/Swine-ast-interpretation-clsi-boundary.md
+RULE-060,剂量路线疗程和休药期必须回到标签法规和兽医处方,drug_use_boundary,high,complete,SRC-0012,wiki/rules/Swine-drug-dose-route-withdrawal-label-regulatory-boundary.md
+RULE-061,急性感染治疗无反应应复核诊断和治疗,treatment_monitoring,high,complete,SRC-0012,wiki/rules/Swine-acute-treatment-nonresponse-reassess.md
+RULE-062,个体和群体给药路线必须按严重度福利和物流选择,drug_administration,medium,complete,SRC-0012,wiki/rules/Swine-individual-vs-group-medication-route.md
+RULE-063,抗菌药预防用药必须靶向短程且考虑替代措施,antimicrobial_stewardship,high,complete,SRC-0012,wiki/rules/Swine-antimicrobial-prophylaxis-targeted-short-alternatives.md
+RULE-064,休药期必须按司法辖区标签和目的市场确认,withdrawal_boundary,high,complete,SRC-0012,wiki/rules/Swine-withdrawal-market-jurisdiction-boundary.md
+RULE-065,治疗失败必须重新采样送检并评估合规执行,treatment_monitoring,high,complete,SRC-0012,wiki/rules/Swine-treatment-failure-lab-sampling.md
+RULE-066,猪麻醉镇痛用药不能脱离食品链和地区法规,anesthesia_boundary,high,complete,SRC-0013,wiki/rules/Swine-anesthesia-food-chain-regulatory-boundary.md
+RULE-067,猪麻醉必须具备监测气道和支持条件,anesthesia_monitoring,high,complete,SRC-0013,wiki/rules/Swine-anesthesia-monitoring-airway-support.md
+RULE-068,猪麻醉前必须考虑恶性高热风险,anesthesia_risk,medium,complete,SRC-0013,wiki/rules/Swine-malignant-hyperthermia-risk-screening.md
+RULE-069,仔猪处理必须纳入疼痛和福利管理,pain_management,high,complete,SRC-0013,wiki/rules/Swine-piglet-processing-pain-management-required.md
+RULE-070,猪手术决策必须结合预后价值福利和并发症风险,surgery_decision,medium,complete,SRC-0013,wiki/rules/Swine-surgery-decision-prognosis-humane-boundary.md
+RULE-071,猪肉食品安全危害必须区分物理化学生物类别,food_safety,high,complete,SRC-0014,wiki/rules/Swine-food-safety-hazard-classification.md
+RULE-072,断针事件必须有标识和加工方沟通 SOP,food_safety_physical_hazard,high,complete,SRC-0014,wiki/rules/Swine-broken-needle-event-sop.md
+RULE-073,残留和休药期必须按法规标签和目的市场确认,food_safety_residue_boundary,high,complete,SRC-0014,wiki/rules/Swine-residue-mrl-market-boundary.md
+RULE-074,超标签用药残留责任不得由教材直接推断,food_safety_residue_boundary,high,complete,SRC-0014,wiki/rules/Swine-eldu-residue-authority-boundary.md
+RULE-075,食源性人兽共患风险必须按病原和暴露路线解释,zoonosis,high,complete,SRC-0014,wiki/rules/Swine-foodborne-zoonosis-route-specific-risk.md
+RULE-076,直接接触型人兽共患风险必须覆盖职业和展会暴露,zoonosis,high,complete,SRC-0014,wiki/rules/Swine-direct-contact-zoonosis-public-exposure.md
+RULE-077,抗菌药耐药人类健康影响不得简单归因,antimicrobial_resistance,high,complete,SRC-0014,wiki/rules/Swine-antimicrobial-resistance-causality-boundary.md
+RULE-078,展览猪生物安全必须覆盖频繁流动和混群,show_pig_biosecurity,high,complete,SRC-0015,wiki/rules/Swine-show-pig-travel-biosecurity.md
+RULE-079,展览猪兽医必须参与公众人兽共患风险教育,show_pig_zoonosis,medium,complete,SRC-0015,wiki/rules/Swine-show-pig-zoonotic-fair-education.md
+RULE-080,展览猪健康方案必须覆盖免疫寄生虫和异常症状报告,show_pig_health,high,complete,SRC-0015,wiki/rules/Swine-show-pig-health-protocols.md
+RULE-081,展览猪用药必须同时满足法规和展会药检规则,show_pig_drug_testing,high,complete,SRC-0015,wiki/rules/Swine-show-pig-drug-testing-zero-tolerance.md
+RULE-082,展览猪服务必须设定伦理边界,show_pig_ethics,medium,complete,SRC-0015,wiki/rules/Swine-show-pig-ethics-boundary.md
+RULE-083,宠物猪行为和约束必须按猪本性与福利处理,pet_pig_behavior,medium,complete,SRC-0015,wiki/rules/Swine-pet-pig-behavior-restraint-welfare.md
+RULE-084,宠物猪预防保健不存在单一通用方案,pet_pig_preventive_care,medium,complete,SRC-0015,wiki/rules/Swine-pet-pig-preventive-care-not-one-protocol.md
+RULE-085,宠物猪用药仍需提示食品动物禁用药和休药期边界,pet_pig_drug_boundary,high,complete,SRC-0015,wiki/rules/Swine-pet-pig-food-animal-drug-boundary.md
+RULE-086,Body Systems 阶段优先构建系统导航和鉴别边界,body_system_navigation,high,complete,SRC-0016,wiki/rules/Swine-body-system-section-navigation.md
+RULE-087,猪血液学和生化解释必须结合年龄品种阶段和管理,clinical_pathology,high,complete,SRC-0016,wiki/rules/Swine-cardiovascular-cbc-context.md
+RULE-088,心脏剖检必须系统观察并固定病变送检,necropsy_protocol,high,complete,SRC-0016,wiki/rules/Swine-heart-necropsy-methodical-histopath.md
+RULE-089,心脏尸僵和自溶不得误判为死前心肌病,necropsy_interpretation,medium,complete,SRC-0016,wiki/rules/Swine-heart-postmortem-artifact-boundary.md
+RULE-090,桑葚心病必须经剖检和组织病理确认,cardiovascular_pathology,high,complete,SRC-0016,wiki/rules/Swine-mulberry-heart-necropsy-confirmation.md
+RULE-091,心律失常诊断需要心电图,cardiovascular_diagnostics,medium,complete,SRC-0016,wiki/rules/Swine-arrhythmia-ecg-required.md
+RULE-092,心衰和休克解释必须说明机制,cardiovascular_pathology,high,complete,SRC-0016,wiki/rules/Swine-heart-failure-shock-mechanism.md
+RULE-093,口腔糜烂必须纳入水疱性和创伤性鉴别,digestive_differential,high,complete,SRC-0017,wiki/rules/Swine-oral-lesions-vesicular-differential.md
+RULE-094,胃溃疡解释应结合剖检方法和风险因素,digestive_pathology,high,complete,SRC-0017,wiki/rules/Swine-gastric-ulcer-necropsy-and-risk-factors.md
+RULE-095,消化道结构性病变处置需结合成本预后和个体价值,digestive_management,medium,complete,SRC-0017,wiki/rules/Swine-digestive-surgery-cost-prognosis.md
+RULE-096,猪腹泻鉴别必须结合机制日龄和临床模式,diarrhea_differential,high,complete,SRC-0017,wiki/rules/Swine-diarrhea-mechanism-age-pattern.md
+RULE-097,消化系统表格只能作为鉴别和送检导航,diagnostic_boundary,high,complete,SRC-0017,wiki/rules/Swine-digestive-table-not-standalone-diagnosis.md
+RULE-098,新生仔猪腹泻不得单病原先入为主,diarrhea_differential,high,complete,SRC-0017,wiki/rules/Swine-neonatal-diarrhea-multiple-agents.md
+RULE-099,肠道病控制必须按病原和管理背景定制,digestive_management,high,complete,SRC-0017,wiki/rules/Swine-enteric-control-agent-specific.md
+RULE-100,断奶腹泻风险需同时解释微生物群和屏障变化,mucosal_immunity,high,complete,SRC-0018,wiki/rules/Swine-weaning-dysbiosis-barrier-risk.md
+RULE-101,扁桃体样本提示病原检测和持续排毒边界,diagnostic_sampling,medium,complete,SRC-0018,wiki/rules/Swine-tonsil-detection-shedding-boundary.md
+RULE-102,先天免疫是即时防御且不具有记忆,immunology,medium,complete,SRC-0018,wiki/rules/Swine-innate-immunity-no-memory.md
+RULE-103,补体和炎症反应需解释保护与组织损伤双重性,immunopathology,medium,complete,SRC-0018,wiki/rules/Swine-complement-inflammatory-damage-boundary.md
+RULE-104,肠道保护不能只按血清抗体推断,mucosal_immunity,high,complete,SRC-0018,wiki/rules/Swine-enteric-protection-local-mucosal-immunity.md
+RULE-105,新生仔猪免疫评估必须纳入初乳和母源抗体,neonatal_immunity,high,complete,SRC-0018,wiki/rules/Swine-neonate-colostrum-passive-immunity.md
+RULE-106,疫苗失败需系统排查母源抗体、时机、处理和免疫抑制,vaccination,high,complete,SRC-0018,wiki/rules/Swine-vaccination-failure-systematic-review.md
+RULE-107,群体免疫阈值依赖疫苗保护程度和病原,vaccination,medium,complete,SRC-0018,wiki/rules/Swine-herd-immunity-leaky-vaccine-boundary.md
+RULE-108,受控暴露不是常规免疫建议且必须做风险收益审查,vaccination,high,complete,SRC-0018,wiki/rules/Swine-controlled-exposure-risk-benefit.md
+RULE-109,应激、营养和共感染可改变免疫功能和疫苗效果,immunomodulation,high,complete,SRC-0018,wiki/rules/Swine-stress-nutrition-coinfection-immune-function.md
+RULE-110,皮肤病变鉴别必须结合病史环境年龄部位和病变形态,integumentary_differential,high,complete,SRC-0019,wiki/rules/Swine-skin-lesion-history-location-differential.md
+RULE-111,水疱性皮肤病变需启动强诊断和监管边界意识,vesicular_differential,high,complete,SRC-0019,wiki/rules/Swine-vesicular-snout-coronary-band-investigation.md
+RULE-112,皮肤采样需匹配病变类型、过渡区和实验室目的,diagnostic_sampling,high,complete,SRC-0019,wiki/rules/Swine-skin-biopsy-transition-lab-communication.md
+RULE-113,丹毒皮肤颜色改变不是单独确诊依据,integumentary_differential,medium,complete,SRC-0019,wiki/rules/Swine-erysipelas-skin-lesions-not-standalone.md
+RULE-114,PDNS 皮肤坏死样病变必须保留猪瘟和非洲猪瘟鉴别边界,integumentary_differential,high,complete,SRC-0020,wiki/rules/Swine-pdns-asf-csf-differential-boundary.md
+RULE-115,猪癣菌病解释需结合环境卫生密度和真菌检测,fungal_skin_disease,medium,complete,SRC-0020,wiki/rules/Swine-ringworm-environment-and-fungal-testing.md
+RULE-116,疥螨和虱病需区分寄生虫部位瘙痒和传播风险,parasitic_skin_disease,medium,complete,SRC-0020,wiki/rules/Swine-ectoparasite-pruritus-site-and-vector-boundary.md
+RULE-117,环境性皮肤病必须纳入阳光光敏寒冷和接触面历史,environmental_skin_disease,medium,complete,SRC-0020,wiki/rules/Swine-environmental-skin-history-sun-cold-contact.md
+RULE-118,副角化症不能脱离锌脂肪酸和鉴别诊断解释,nutritional_skin_disease,medium,complete,SRC-0020,wiki/rules/Swine-parakeratosis-nutrition-differential.md
+RULE-119,蹄爪病变评估需固定记录部位类型和跛行关系,hoof_claw_lameness,high,complete,SRC-0020,wiki/rules/Swine-claw-lesion-site-type-lameness-scoring.md
+RULE-120,蹄爪完整性破坏应提示感染进入和深部结构风险,hoof_claw_lameness,high,complete,SRC-0020,wiki/rules/Swine-claw-integrity-infection-entry-risk.md
+RULE-121,蹄爪风险排查需同时看构型地面湿度和营养,hoof_claw_lameness,high,complete,SRC-0020,wiki/rules/Swine-claw-risk-conformation-floor-nutrition.md
+RULE-122,母猪乳头数量位置和可及性会限制窝仔哺乳,mammary_anatomy,medium,complete,SRC-0021,wiki/rules/Swine-teat-number-placement-access-litter-boundary.md
+RULE-123,母猪乳腺发育评估需关注三段快速发育期和体况,mammogenesis,medium,complete,SRC-0021,wiki/rules/Swine-mammogenesis-periods-body-condition.md
+RULE-124,初乳问题必须区分产量质量摄入和仔猪活力,colostrum,high,complete,SRC-0021,wiki/rules/Swine-colostrum-yield-quality-intake-vitality.md
+RULE-125,排乳和产奶解释需纳入神经内分泌反射和哺乳频率,milk_production,medium,complete,SRC-0021,wiki/rules/Swine-milk-ejection-nursing-frequency-boundary.md
+RULE-126,PDS 评估不能把体温作为单一诊断工具,postpartum_dysgalactia_syndrome,high,complete,SRC-0021,wiki/rules/Swine-pds-temperature-not-single-diagnostic-tool.md
+RULE-127,神经运动障碍鉴别必须先做病史临床评估和送检设计,nervous_locomotor_system,high,complete,SRC-0022,wiki/rules/Swine-neurolocomotor-history-assessment-sampling.md
+RULE-128,运动障碍调查必须同时考虑六个解剖部位,locomotor_examination,high,complete,SRC-0023,wiki/rules/Swine-locomotor-six-site-exam.md
+RULE-129,跛行调查必须量化群体比例阶段起病和福利影响,locomotor_examination,high,complete,SRC-0023,wiki/rules/Swine-lameness-quantify-stage-onset-impact.md
+RULE-130,跛行不能默认感染性病因,diagnostic_boundary,high,complete,SRC-0023,wiki/rules/Swine-lameness-not-default-infectious.md
+RULE-131,关节采样需无菌且在剖检早期优先完成,diagnostic_sampling,high,complete,SRC-0023,wiki/rules/Swine-joint-sampling-aseptic-priority.md
+RULE-132,获得性滑囊不能误判为关节腔肿胀,joint_examination,medium,complete,SRC-0023,wiki/rules/Swine-adventitious-bursa-not-joint-swelling.md
+RULE-133,骨软骨病与跛行关系需按多因素解释,osteochondrosis,high,complete,SRC-0023,wiki/rules/Swine-osteochondrosis-lameness-multifactorial.md
+RULE-134,感染性关节炎需结合年龄病原和兼容病变采样,infectious_arthritis,high,complete,SRC-0023,wiki/rules/Swine-infectious-arthritis-age-agent-lesion-sampling.md
+RULE-135,仔猪多发性关节炎排查必须检查脐部皮肤擦伤和产房卫生,polyarthritis,high,complete,SRC-0023,wiki/rules/Swine-preweaning-polyarthritis-navel-abrasion-hygiene.md
+RULE-136,肌病解释需同时看骨骼肌心肌标志物和毒性营养遗传因素,myopathy,medium,complete,SRC-0023,wiki/rules/Swine-myopathy-muscle-cardiac-marker-cause.md
+RULE-137,注射损伤风险需优先强调颈部肌肉和卫生边界,injection_boundary,medium,complete,SRC-0023,wiki/rules/Swine-injection-site-cervical-hygiene-boundary.md
+RULE-138,繁殖群跛行控制需同时回看后备猪成长环境,breeding_lameness,medium,complete,SRC-0023,wiki/rules/Swine-breeding-lameness-review-replacement-environment.md
+RULE-139,繁殖问题诊断必须先做记录和三方管理评估,reproductive_herd_diagnostics,high,complete,SRC-0024,wiki/rules/Swine-reproductive-herd-records-tripartite-first.md
+RULE-140,母猪实时超声解释需结合卵巢子宫膀胱和背膘背景,diagnostic_imaging,high,complete,SRC-0024,wiki/rules/Swine-reproductive-rtu-ovary-uterus-bladder-backfat.md
+RULE-141,后备母猪初情延迟需按多因素和公猪刺激规则排查,gilt_puberty,medium,complete,SRC-0024,wiki/rules/Swine-gilt-puberty-delay-boar-exposure-rules.md
+RULE-142,断奶未发情需先区分漏检发情和真正未发情,wean_estrus_interval,high,complete,SRC-0024,wiki/rules/Swine-wei-missed-vs-true-no-heat.md
+RULE-143,受胎率分娩率下降需按返情类型和输精排卵时机分层,reproductive_herd_diagnostics,high,complete,SRC-0024,wiki/rules/Swine-conception-farrowing-return-ai-ovulation-timing.md
+RULE-144,外阴分泌物需先区分正常配种后排液和异常分泌物,vulvar_discharge,high,complete,SRC-0025,wiki/rules/Swine-vulvar-discharge-normal-vs-abnormal.md
+RULE-145,配种后脓性分泌物达群体阈值需调查,vulvar_discharge,high,complete,SRC-0025,wiki/rules/Swine-postbreeding-purulent-discharge-investigation.md
+RULE-146,难产判断需结合产程监测和清洁阴道检查,dystocia,high,complete,SRC-0025,wiki/rules/Swine-dystocia-monitor-clean-exam-boundary.md
+RULE-147,诱导分娩激素内容不得转成固定程序,treatment_boundary,high,complete,SRC-0025,wiki/rules/Swine-farrowing-hormone-misuse-boundary.md
+RULE-148,公猪热应激和发热需按精液延迟损害解释,boar_semen_quality,high,complete,SRC-0025,wiki/rules/Swine-boar-heat-pyrexia-semen-timeline.md
+RULE-149,流产调查需先区分胎盘胎儿感染和母体全身病,abortion_diagnosis,high,complete,SRC-0025,wiki/rules/Swine-abortion-mechanism-sampling-first.md
+RULE-150,流产胎儿采样不能只取少数胎儿,abortion_sampling,high,complete,SRC-0025,wiki/rules/Swine-abortion-fetal-sampling-number.md
+RULE-151,流产样本检出污染菌不等于病因,diagnostic_boundary,high,complete,SRC-0025,wiki/rules/Swine-abortion-contamination-not-causation.md
+RULE-152,呼吸病解释需先考虑防御系统和环境管理,respiratory_risk,high,complete,SRC-0026,wiki/rules/Swine-respiratory-defense-environment-first.md
+RULE-153,PRDC 需按原发继发和多病原协同解释,prdc,high,complete,SRC-0026,wiki/rules/Swine-prdc-primary-secondary-polymicrobial.md
+RULE-154,肺炎大体模式用于缩小鉴别和选择检测,respiratory_pathology,high,complete,SRC-0026,wiki/rules/Swine-pneumonia-gross-pattern-guides-tests.md
+RULE-155,栓塞性肺炎需寻找原发感染灶,embolic_pneumonia,high,complete,SRC-0026,wiki/rules/Swine-embolic-pneumonia-search-primary-source.md
+RULE-156,呼吸病控制不能只写疫苗或用药,respiratory_control_boundary,high,complete,SRC-0026,wiki/rules/Swine-respiratory-control-not-vaccine-only.md
+RULE-157,尿液蛋白解释需结合尿比重与背景,urinalysis,medium,complete,SRC-0027,wiki/rules/Swine-urinalysis-interpret-with-specific-gravity.md
+RULE-158,PDNS 诊断需有系统性血管炎背景,pdns_diagnostic_boundary,high,complete,SRC-0027,wiki/rules/Swine-pdns-diagnosis-requires-systemic-vascular-context.md
+RULE-159,母猪膀胱炎肾盂肾炎需追查尿液潴留风险,cystitis_pyelonephritis,high,complete,SRC-0027,wiki/rules/Swine-cystitis-pyelonephritis-stasis-risk.md
+RULE-160,肾脏病变解释需先按大体模式分层,renal_differential,medium,complete,SRC-0028,wiki/rules/Swine-renal-gross-differential-pattern-first.md
+RULE-161,肾点状出血不得直接归因单一病原,renal_differential,high,complete,SRC-0028,wiki/rules/Swine-petechial-kidney-not-single-cause.md
+RULE-162,新病毒分子检出不等于病因成立,virus_causality,high,complete,SRC-0029,wiki/rules/Swine-virus-detection-not-causality.md
+RULE-163,病毒抗体解释需考虑母源和配对样本,virus_serology,medium,complete,SRC-0029,wiki/rules/Swine-virus-serology-interpret-maternal-and-paired.md
+RULE-164,qPCR 拷贝数不得等同感染性滴度,virus_quantitation,high,complete,SRC-0029,wiki/rules/Swine-qpcr-copy-not-infectious-titer.md
+RULE-165,猪腺病毒分离阳性需结合病变背景,adenovirus_diagnostics,medium,complete,SRC-0030,wiki/rules/Swine-padv-isolation-requires-context.md
+RULE-166,猪腺病毒通常不得默认重要主因,adenovirus_relevance,medium,complete,SRC-0030,wiki/rules/Swine-padv-usually-subclinical-boundary.md
+RULE-167,ASF 不作人感染结论但需保留重大经济影响,asf_public_health,high,complete,SRC-0031,wiki/rules/Swine-asf-not-public-health-but-high-economic-impact.md
+RULE-168,ASF 不能仅凭症状或病变诊断,asf_diagnostics,high,complete,SRC-0031,wiki/rules/Swine-asf-diagnosis-lab-required.md
+RULE-169,ASF 监管处置必须等待本地官方来源,regulatory_boundary,high,complete,SRC-0031,wiki/rules/Swine-asf-regulatory-local-source-required.md
+RULE-170,ASF 康复或隐性感染猪需纳入监测重点,asf_surveillance,high,complete,SRC-0031,wiki/rules/Swine-asf-carrier-and-survivor-surveillance.md
+RULE-171,ASF 不得生成治疗或疫苗处方,asf_control_boundary,high,complete,SRC-0031,wiki/rules/Swine-asf-no-treatment-no-commercial-vaccine.md
+RULE-172,ASF 环境和肉品稳定性需进入传播风险解释,asf_transmission,high,complete,SRC-0031,wiki/rules/Swine-asf-stability-biosecurity-risk.md
+RULE-173,TTSuV 相关性不得写成明确病因,anellovirus_causality,high,complete,SRC-0032,wiki/rules/Swine-ttsuv-causality-cautious.md
+RULE-174,PAstV 致病解释需考虑共感染和证据不足,astrovirus_causality,high,complete,SRC-0032,wiki/rules/Swine-pastv-causality-cofactor-boundary.md
+RULE-175,星状病毒人兽共患潜力不得下定论,public_health_boundary,medium,complete,SRC-0032,wiki/rules/Swine-astrovirus-public-health-unclear.md
+RULE-176,猪布尼亚病毒相关性不得超出有限猪证据,bunyavirus_causality,high,complete,SRC-0033,wiki/rules/Swine-bunyavirus-susceptibility-evidence-limited.md
+RULE-177,猪布尼亚病毒公共卫生角色需谨慎限定,public_health_boundary,medium,complete,SRC-0033,wiki/rules/Swine-bunyavirus-public-health-role-minor-undefined.md
+RULE-178,猪布尼亚病毒无固定治疗或疫苗处方,bunyavirus_control_boundary,high,complete,SRC-0033,wiki/rules/Swine-bunyavirus-no-treatment-vaccine-prescription.md
+RULE-179,猪水疱病变必须进入重大水疱病鉴别,vesicular_differential,critical,complete,SRC-0034,wiki/rules/Swine-vesicular-calicivirus-fmd-differential-required.md
+RULE-180,猪杯状病毒人兽共患结论必须保留不确定性,public_health_boundary,medium,complete,SRC-0034,wiki/rules/Swine-calicivirus-zoonotic-threat-not-established.md
+RULE-181,猪杯状病毒检出不得单独定因腹泻,calicivirus_causality,high,complete,SRC-0034,wiki/rules/Swine-calicivirus-detection-not-enteric-causality.md
+RULE-182,PCV3 相关性不得写成已确立病原性,circovirus_causality,high,complete,SRC-0035,wiki/rules/Swine-pcv3-pathogenicity-under-debate.md
+RULE-183,PCV2-SD 诊断必须同时满足症状病变和病原定位,pcv2_diagnostics,critical,complete,SRC-0035,wiki/rules/Swine-pcv2-sd-diagnosis-three-criteria.md
+RULE-184,PCV2 定性 PCR 不得单独诊断 PCV2-SD,pcv2_diagnostics,high,complete,SRC-0035,wiki/rules/Swine-pcv2-qualitative-pcr-not-diagnostic-alone.md
+RULE-185,PDNS 诊断不以 PCV2 检出为必需条件,pdns_diagnostics,high,complete,SRC-0035,wiki/rules/Swine-pdns-diagnosis-not-pcv2-required.md
+RULE-186,PDNS 必须保留 ASF/CSF 鉴别,pdns_differential,critical,complete,SRC-0035,wiki/rules/Swine-pdns-asf-csf-differential-required.md
+RULE-187,PCV2 控制不能只写疫苗,pcv2_control,high,complete,SRC-0035,wiki/rules/Swine-pcv2-control-vaccine-plus-cofactors.md
+RULE-188,TGEV/PRCV 鉴别需关注 S 基因缺失和组织嗜性,coronavirus_diagnostics,high,complete,SRC-0036,wiki/rules/Swine-tgev-prcv-spike-deletion-tropism-differential.md
+RULE-189,TGEV/PRCV 血清学应按群体和配对样本解释,coronavirus_serology,high,complete,SRC-0036,wiki/rules/Swine-tgev-prcv-serology-herd-paired-boundary.md
+RULE-190,TGEV 保护重点是肠道局部和泌乳免疫,tgev_immunity,high,complete,SRC-0036,wiki/rules/Swine-tgev-protection-local-lactogenic-immunity.md
+RULE-191,PRCV 对 TGEV 只提供部分交叉保护,prcv_immunity,medium,complete,SRC-0036,wiki/rules/Swine-prcv-partial-cross-protection-only.md
+RULE-192,TGEV 泌乳免疫重点是肠-乳腺轴和乳汁 IgA,tgev_immunity,high,complete,SRC-0037,wiki/rules/Swine-tgev-gut-mammary-lactogenic-iga.md
+RULE-193,TGE/PRCV 免疫保护不得写成稳定完全保护,tgev_prcv_immunity,high,complete,SRC-0037,wiki/rules/Swine-tgev-prcv-protection-variable-not-complete.md
+RULE-194,TGE 不得生成固定抗病毒处方,tgev_treatment_boundary,high,complete,SRC-0037,wiki/rules/Swine-tge-no-fixed-antiviral-prescription.md
+RULE-195,TGE 返饲内容只能作为风险边界,tgev_control_boundary,critical,complete,SRC-0037,wiki/rules/Swine-tge-feedback-risk-boundary.md
+RULE-196,TGEV 疫苗效果必须结合母猪既往抗体和泌乳免疫,tgev_vaccination_boundary,high,complete,SRC-0037,wiki/rules/Swine-tgev-vaccine-context-lactogenic-history.md
+RULE-197,PEDV 诊断必须临床和实验室证据结合,pedv_diagnostics,high,complete,SRC-0037,wiki/rules/Swine-pedv-diagnosis-clinical-plus-lab.md
+RULE-198,PEDV 与 TGEV/PDCoV 抗体不得互作保护推断,pedv_immunity,high,complete,SRC-0037,wiki/rules/Swine-pedv-no-cross-neutralization-tgev-pdcov.md
+RULE-199,PDCoV 控制不得假设已有可用疫苗,pdcov_control,high,complete,SRC-0037,wiki/rules/Swine-pdcov-no-vaccine-lactogenic-boundary.md
+RULE-200,pHEV 诊断必须保留神经病和中毒鉴别,phev_differential,high,complete,SRC-0037,wiki/rules/Swine-phev-neuro-differential-required.md
+RULE-201,猪 torovirus 检出不得单独定因腹泻,torovirus_causality,high,complete,SRC-0037,wiki/rules/Swine-torovirus-detection-not-causality.md
+RULE-202,Filovirus 猪证据必须区分 RESTV 现场和 EBOV 实验,filovirus_evidence_boundary,critical,complete,SRC-0038,wiki/rules/Swine-filovirus-restv-field-ebov-experimental-boundary.md
+RULE-203,EBOV 活病毒诊断工作受 BSL-4 边界约束,filovirus_biosafety,critical,complete,SRC-0038,wiki/rules/Swine-ebov-diagnostics-bsl4-boundary.md
+RULE-204,Filovirus 消毒内容必须等待权威规范落地,filovirus_biosecurity,critical,complete,SRC-0038,wiki/rules/Swine-filovirus-disinfection-authority-required.md
+RULE-205,JEV 猪病解释必须纳入媒介和扩增宿主生态,jev_ecology,high,complete,SRC-0039,wiki/rules/Swine-jev-vector-amplifying-host-ecology.md
+RULE-206,黄病毒血清学必须考虑交叉反应,flavivirus_serology,high,complete,SRC-0039,wiki/rules/Swine-flavivirus-serology-cross-reaction.md
+RULE-207,WNV/MVEV 猪临床结论不得从人马病例直接迁移,flavivirus_clinical_boundary,high,complete,SRC-0039,wiki/rules/Swine-wnv-mvev-pig-clinical-not-human-horse.md
+RULE-208,ZIKV/DENV 猪模型不得写成猪病流行结论,flavivirus_research_boundary,medium,complete,SRC-0039,wiki/rules/Swine-zikv-denv-pig-model-not-disease-conclusion.md
+RULE-209,HEV 不得由猪群检出直接生成公共卫生处置,hev_public_health,critical,complete,SRC-0040,wiki/rules/Swine-hev-public-health-action-authority-required.md
+RULE-210,HEV 猪临床诊断不得过度解释,hev_clinical_boundary,high,complete,SRC-0040,wiki/rules/Swine-hev-subclinical-pigs-not-clinical-hepatitis.md
+RULE-211,HEV 采样解释必须区分病毒血症和粪便排毒窗口,hev_diagnostics,high,complete,SRC-0040,wiki/rules/Swine-hev-viremia-shedding-window.md
+RULE-212,疱疹病毒控制解释必须纳入潜伏和再激活,herpesvirus_latency,high,complete,SRC-0041,wiki/rules/Swine-herpesvirus-latency-reactivation-boundary.md
+RULE-213,PRV 神经症状必须保留多病因鉴别,prv_differential,critical,complete,SRC-0041,wiki/rules/Swine-prv-neurologic-differential-required.md
+RULE-214,PRV 疫苗免疫不得等同清除野毒和潜伏感染,prv_control_boundary,critical,complete,SRC-0041,wiki/rules/Swine-prv-vaccination-not-eradication.md
+RULE-215,PRV 标记检测必须区分野毒和疫苗语境,prv_diagnostics,high,complete,SRC-0041,wiki/rules/Swine-prv-marker-test-field-vaccine-context.md
+RULE-216,PCMV 仔猪病不得单凭鼻炎或衰弱定因,pcmv_differential,high,complete,SRC-0041,wiki/rules/Swine-pcmv-piglet-differential-required.md
+RULE-217,PCMV 新生仔猪检测必须考虑未转阳和持续排毒,pcmv_diagnostics,high,complete,SRC-0041,wiki/rules/Swine-pcmv-neonatal-serology-shedding-boundary.md
+RULE-218,PLHV 检出不得自动等同临床致病,plhv_causality,medium,complete,SRC-0041,wiki/rules/Swine-plhv-detection-not-clinical-causality.md
+RULE-219,PLHV 公共卫生结论限于异种移植风险语境,plhv_public_health_boundary,medium,complete,SRC-0041,wiki/rules/Swine-plhv-public-health-xenotransplant-context.md
+RULE-220,猪 MCF 需结合羊接触史和实验室证据,mcf_diagnostics,high,complete,SRC-0041,wiki/rules/Swine-mcf-sheep-contact-lab-required.md
+RULE-221,猪 MCF 临床猪不应写成持续传播源,mcf_transmission,high,complete,SRC-0041,wiki/rules/Swine-mcf-pigs-dead-end-host-boundary.md
+RULE-222,猪流感解释必须纳入重配和谱系,influenza_evolution,critical,complete,SRC-0042,wiki/rules/Swine-influenza-reassortment-lineage-required.md
+RULE-223,猪流感血清学不得单独判定来源谱系,influenza_diagnostics,high,complete,SRC-0042,wiki/rules/Swine-influenza-serology-lineage-boundary.md
+RULE-224,禽源或人源流感检出不等同猪群适应传播,influenza_cross_species,high,complete,SRC-0042,wiki/rules/Swine-influenza-introduction-not-adaptation.md
+RULE-225,猪流感季节性不得固定套用月份,influenza_ecology,medium,complete,SRC-0042,wiki/rules/Swine-influenza-seasonality-local-context.md
+RULE-226,猪流感 PCR 阳性不等同病毒分离成功,influenza_diagnostics,high,complete,SRC-0043,wiki/rules/Swine-influenza-pcr-not-virus-isolation.md
+RULE-227,猪流感血清学必须结合亚型毒株和交叉反应,influenza_serology,high,complete,SRC-0043,wiki/rules/Swine-influenza-serology-subtype-strain-cross-reaction.md
+RULE-228,猪流感母源抗体解释必须结合母猪免疫和仔猪日龄,influenza_immunity,high,complete,SRC-0043,wiki/rules/Swine-influenza-maternal-antibody-age-context.md
+RULE-229,猪流感疫苗效果不得脱离毒株匹配,influenza_vaccine_boundary,critical,complete,SRC-0043,wiki/rules/Swine-influenza-vaccine-strain-match-required.md
+RULE-230,VAERD 不得泛化为所有猪流感免疫风险,influenza_vaccine_boundary,high,complete,SRC-0043,wiki/rules/Swine-influenza-vaerd-specific-mismatch-context.md
+RULE-231,蓝眼病诊断必须结合角膜/神经/繁殖组合和实验室证据,blue_eye_paramyxovirus_diagnostics,high,complete,SRC-0044,wiki/rules/Swine-blue-eye-diagnosis-lab-pattern-required.md
+RULE-232,蓝眼病控制不得迁移为中国监管结论,blue_eye_paramyxovirus_control,medium,complete,SRC-0044,wiki/rules/Swine-blue-eye-control-local-authority-boundary.md
+RULE-233,Menangle 繁殖损失不得单凭临床定因,menangle_virus_diagnostics,high,complete,SRC-0044,wiki/rules/Swine-menangle-reproductive-loss-lab-required.md
+RULE-234,尼帕病毒疑似必须按高风险人兽共患边界处理,nipah_virus_biosafety,critical,complete,SRC-0044,wiki/rules/Swine-nipah-high-risk-zoonotic-boundary.md
+RULE-235,尼帕病毒临床表现不得作为确诊依据,nipah_virus_diagnostics,critical,complete,SRC-0044,wiki/rules/Swine-nipah-clinical-not-pathognomonic.md
+RULE-236,PPIV-1 检出不得自动等同主要病因,ppiv1_causality,medium,complete,SRC-0044,wiki/rules/Swine-ppiv1-detection-not-primary-cause.md
+RULE-237,非 PPV1 细小病毒不得按 PPV1 因果外推,parvovirus_causality,high,complete,SRC-0045,wiki/rules/Swine-non-ppv1-causality-not-ppv1.md
+RULE-238,PPV1 疫苗免疫不得写成完全阻断感染,ppv1_immunity,high,complete,SRC-0045,wiki/rules/Swine-ppv1-vaccination-not-sterilizing-immunity.md
+RULE-239,PPV1 繁殖损失诊断必须结合妊娠阶段,ppv1_diagnostics,high,complete,SRC-0045,wiki/rules/Swine-ppv1-reproductive-loss-gestation-context.md
+RULE-240,PPV1 成年猪症状不得过度归因,ppv1_clinical_boundary,medium,complete,SRC-0045,wiki/rules/Swine-ppv1-adult-clinical-overattribution.md
+RULE-241,PPV1 诊断需保留繁殖病原鉴别,ppv1_differential,high,complete,SRC-0045,wiki/rules/Swine-ppv1-reproductive-differential-required.md
+RULE-242,CSF 临床表现不能替代实验室确诊,csfv_diagnostics,critical,complete,SRC-0046,wiki/rules/Swine-csf-lab-confirmation-required.md
+RULE-243,CSFV pan-pestivirus 筛查后必须确认种属,csfv_diagnostics,high,complete,SRC-0046,wiki/rules/Swine-csfv-pan-pestivirus-confirm-species.md
+RULE-244,CSFV 血清学必须考虑其他 pestivirus 交叉反应,csfv_serology,high,complete,SRC-0046,wiki/rules/Swine-csfv-serology-pestivirus-cross-reaction.md
+RULE-245,CSF 控制政策不得由教材直接迁移为中国命令,csfv_control_boundary,critical,complete,SRC-0046,wiki/rules/Swine-csf-control-local-authority-required.md
+RULE-246,Bungowannah 持续感染猪排毒需作为传播边界,bungowannah_virus,high,complete,SRC-0046,wiki/rules/Swine-bungowannah-persistent-shedding-boundary.md
+RULE-247,生物制品 pestivirus 污染必须作为鉴别边界,pestivirus_contamination,high,complete,SRC-0046,wiki/rules/Swine-pestivirus-biological-contamination-boundary.md
+RULE-248,APPV 控制措施不得在证据不足时固定化,appv_boundary,medium,complete,SRC-0046,wiki/rules/Swine-appv-control-evidence-insufficient.md
+RULE-249,猪相关 picornavirus 必须先区分属和疾病实体,picornavirus_taxonomy,medium,complete,SRC-0047,wiki/rules/Swine-picornavirus-genus-disease-distinction.md
+RULE-250,FMD 疑似必须保留重大水疱病鉴别,fmdv_differential,critical,complete,SRC-0047,wiki/rules/Swine-fmd-vesicular-differential-required.md
+RULE-251,FMD 疑似需及时实验室调查和病毒表征,fmdv_diagnostics,critical,complete,SRC-0047,wiki/rules/Swine-fmd-timely-lab-characterization.md
+RULE-252,FMD 疫苗不得写成完全阻断感染,fmdv_immunity,critical,complete,SRC-0047,wiki/rules/Swine-fmd-vaccine-not-sterilizing.md
+RULE-253,FMD 猪气溶胶排毒是传播风险核心边界,fmdv_transmission,critical,complete,SRC-0047,wiki/rules/Swine-fmd-pig-aerosol-risk-boundary.md
+RULE-254,FMD 人员和污染物机械传播必须纳入生物安全,fmdv_biosecurity,critical,complete,SRC-0047,wiki/rules/Swine-fmd-fomite-people-biosecurity.md
+RULE-255,FMD 持续感染结论必须区分物种,fmdv_persistence,high,complete,SRC-0047,wiki/rules/Swine-fmd-persistence-species-boundary.md
+RULE-256,FMD 中国监管处置必须等待 A0/A1 来源,fmdv_regulatory_boundary,critical,complete,SRC-0047,wiki/rules/Swine-fmd-china-regulatory-source-required.md
+RULE-257,SVDV 与 FMD 临床相似时必须实验室鉴别,svdv_differential,critical,complete,SRC-0047,wiki/rules/Swine-svdv-fmd-lab-differential.md
+RULE-258,SVDV 临床水疱不得与 FMD 混同,svdv_differential,critical,complete,SRC-0048,wiki/rules/Swine-svdv-vesicular-lab-differential-required.md
+RULE-259,SVDV 不得生成商业疫苗或免疫程序,svdv_vaccine_boundary,medium,complete,SRC-0048,wiki/rules/Swine-svdv-no-commercial-vaccine-program.md
+RULE-260,EMCV 猝死和繁殖损失需实验室确诊,emcv_diagnostics,high,complete,SRC-0048,wiki/rules/Swine-emcv-sudden-death-repro-lab-confirmation.md
+RULE-261,Teschovirus 检出不得自动等同临床病因,teschovirus_causality,high,complete,SRC-0048,wiki/rules/Swine-teschovirus-detection-not-causality.md
+RULE-262,SVV 水疱病必须进入重大水疱病鉴别,senecavirus_a_differential,critical,complete,SRC-0048,wiki/rules/Swine-svv-fmd-svd-vesicular-differential.md
+RULE-263,SVV 控制方案不得固定化,senecavirus_a_control,medium,complete,SRC-0048,wiki/rules/Swine-svv-control-evidence-limited.md
+RULE-264,Kobuvirus/Pasivirus 检出需谨慎定因,kobuvirus_pasivirus_causality,medium,complete,SRC-0048,wiki/rules/Swine-kobuvirus-pasivirus-causality-cautious.md
+RULE-265,PRRSV PCR 阳性不等同感染性病毒,prrsv_diagnostics,high,complete,SRC-0049,wiki/rules/Swine-prrsv-pcr-not-infectious-virus.md
+RULE-266,PRRSV ELISA 不得区分当前感染、疫苗和母源抗体,prrsv_serology,high,complete,SRC-0049,wiki/rules/Swine-prrsv-elisa-interpretation-boundary.md
+RULE-267,PRRSV 测序不得单独预测毒力或临床因果,prrsv_sequencing,high,complete,SRC-0049,wiki/rules/Swine-prrsv-sequencing-not-virulence-causality.md
+RULE-268,PRRSV 临床表现必须结合猪群免疫和共感染,prrsv_clinical_boundary,high,complete,SRC-0049,wiki/rules/Swine-prrsv-clinical-herd-immunity-coinfection.md
+RULE-269,PRRSV 鉴别诊断必须覆盖主要繁殖和呼吸道病原,prrsv_differential,high,complete,SRC-0049,wiki/rules/Swine-prrsv-differential-respiratory-reproductive.md
+RULE-270,PRRSV 精液传播风险需纳入公猪和精液监测,prrsv_transmission,high,complete,SRC-0049,wiki/rules/Swine-prrsv-semen-transmission-monitoring.md
+RULE-271,PRRSV 气溶胶传播不得泛化解释所有场间传播,prrsv_transmission,medium,complete,SRC-0049,wiki/rules/Swine-prrsv-aerosol-context-boundary.md
+RULE-272,PRRSV 疫苗保护必须保留毒株依赖和异源保护边界,prrsv_vaccine_boundary,high,complete,SRC-0049,wiki/rules/Swine-prrsv-vaccine-strain-dependent-boundary.md
+RULE-273,PRRSV 防控应围绕引入事件和关键控制点,prrsv_control,high,complete,SRC-0049,wiki/rules/Swine-prrsv-control-entry-event-critical-points.md
+RULE-274,PRRSV 支持疗法不得解释为特异性抗病毒治疗,prrsv_control,high,complete,SRC-0050,wiki/rules/Swine-prrsv-supportive-care-not-specific-antiviral.md
+RULE-275,PRRSV 针头和血源传播必须纳入场内传播控制,prrsv_transmission_control,high,complete,SRC-0050,wiki/rules/Swine-prrsv-needle-hematogenous-spread-control.md
+RULE-276,PRRSV 活病毒接种不得生成通用操作方案,prrsv_lvi_boundary,critical,complete,SRC-0050,wiki/rules/Swine-prrsv-live-virus-inoculation-risk-boundary.md
+RULE-277,PRRSV 净化策略必须保留猪群状态和成本边界,prrsv_elimination_boundary,high,complete,SRC-0050,wiki/rules/Swine-prrsv-elimination-strategy-herd-context-boundary.md
+RULE-278,PRRSV 监测必须依赖常规群体检测,prrsv_surveillance,high,complete,SRC-0050,wiki/rules/Swine-prrsv-surveillance-routine-population-testing.md
+RULE-279,猪痘不得仅凭结痂皮损定因,swinepox_differential,high,complete,SRC-0051,wiki/rules/Swine-swinepox-skin-lesions-not-alone-diagnostic.md
+RULE-280,猪痘血症机制必须保留未确证边界,swinepox_pathogenesis_boundary,medium,complete,SRC-0051,wiki/rules/Swine-swinepox-viremia-not-confirmed-boundary.md
+RULE-281,猪痘控制以卫生和媒介管理为主,swinepox_control,medium,complete,SRC-0051,wiki/rules/Swine-swinepox-sanitation-vector-control.md
+RULE-282,轮状病毒腹泻不得仅凭临床症状确诊,rotavirus_diagnostics,high,complete,SRC-0052,wiki/rules/Swine-rotavirus-diarrhea-lab-testing-required.md
+RULE-283,轮状病毒环境控制必须考虑高稳定性,rotavirus_environment,high,complete,SRC-0052,wiki/rules/Swine-rotavirus-environmental-stability-disinfection.md
+RULE-284,轮状病毒保护不能只看血清中和抗体,rotavirus_immunity,medium,complete,SRC-0052,wiki/rules/Swine-rotavirus-serum-neutralization-poor-protection-indicator.md
+RULE-285,呼肠孤病毒检测不得自动定为主因,reovirus_causality,medium,complete,SRC-0052,wiki/rules/Swine-reovirus-detection-not-primary-cause.md
+RULE-286,PERV 主要属于异种移植风险评估语境,retrovirus_context,high,complete,SRC-0053,wiki/rules/Swine-perv-xenotransplantation-context-boundary.md
+RULE-287,PERV 单一检测阳性不等同临床传播,retrovirus_diagnostics,high,complete,SRC-0053,wiki/rules/Swine-perv-detection-not-clinical-transmission.md
+RULE-288,猪水疱性口炎必须与 FMD/SVD/VES/SVV 鉴别,vesicular_stomatitis_differential,critical,complete,SRC-0054,wiki/rules/Swine-vesicular-stomatitis-fmd-svd-ves-svv-differential.md
+RULE-289,VSV 人兽共患风险必须提示 PPE 边界,vesicular_stomatitis_public_health,high,complete,SRC-0054,wiki/rules/Swine-vsv-zoonotic-ppe-boundary.md
+RULE-290,水疱病未诊断前不得放行动物和物资流动,vesicular_disease_control,critical,complete,SRC-0054,wiki/rules/Swine-vesicular-disease-stop-movement-until-diagnosis.md
+RULE-291,猪狂犬病不得凭单一神经症状确诊,rabies_diagnostics,critical,complete,SRC-0054,wiki/rules/Swine-rabies-neurologic-signs-not-diagnostic.md
+RULE-292,猪狂犬病疫苗不得生成常规免疫程序,rabies_vaccine_boundary,high,complete,SRC-0054,wiki/rules/Swine-rabies-no-licensed-swine-vaccine-program.md
+RULE-293,Togavirus 开端页不得扩展为完整猪病结论,togavirus_opening_boundary,medium,complete,SRC-0055,wiki/rules/Swine-togavirus-opening-page-no-full-conclusion.md
+RULE-294,EEEV 猪感染多数亚临床时不得推断固定潜伏期,togavirus_eeev_boundary,medium,complete,SRC-0056,wiki/rules/Swine-eeev-subclinical-incubation-boundary.md
+RULE-295,SAGV 不得生成治疗或疫苗方案,togavirus_sagv_control,medium,complete,SRC-0056,wiki/rules/Swine-sagv-no-treatment-vaccine-vector-control.md
+RULE-296,革兰染色不得替代病原鉴定和药敏,bacterial_diagnostics,high,complete,SRC-0057,wiki/rules/Swine-bacterial-gram-stain-not-identification-susceptibility.md
+RULE-297,细菌芽孢控制必须考虑高环境抵抗力,bacterial_environment,high,complete,SRC-0057,wiki/rules/Swine-bacterial-spores-high-resistance-boundary.md
+RULE-298,App 识别必须防止与 A. suis 和其他 Actinobacillus 混淆,actinobacillosis_diagnostics,high,complete,SRC-0058,wiki/rules/Swine-app-identification-pcr-biochemical-boundary.md
+RULE-299,App 血清型和毒力不得跨地区机械外推,actinobacillosis_epidemiology,medium,complete,SRC-0058,wiki/rules/Swine-app-serotype-prevalence-local-monitoring.md
+RULE-300,App 气溶胶传播不得泛化解释所有场间传播,actinobacillosis_transmission,medium,complete,SRC-0058,wiki/rules/Swine-app-aerosol-context-boundary.md
+RULE-301,App 临床和病变需结合共同感染解释,actinobacillosis_clinical_boundary,high,complete,SRC-0058,wiki/rules/Swine-app-clinical-coinfection-boundary.md
+RULE-302,App 血清学不得单独判定扁桃体带菌状态,actinobacillosis_serology,high,complete,SRC-0058,wiki/rules/Swine-app-serology-tonsil-carrier-boundary.md
+RULE-303,App 药敏资料不得转化为通用处方,actinobacillosis_treatment_boundary,critical,complete,SRC-0058,wiki/rules/Swine-app-susceptibility-not-generic-prescription.md
+RULE-304,App 疫苗保护不得等同清除带菌,actinobacillosis_vaccine_boundary,high,complete,SRC-0058,wiki/rules/Swine-app-vaccine-does-not-clear-tonsil-carrier-state.md
+RULE-305,A. suis 败血症必须与猪丹毒鉴别,actinobacillus_suis_differential,high,complete,SRC-0058,wiki/rules/Swine-actinobacillus-suis-erysipelas-differential.md
+RULE-306,Bordetella 肺炎分离结果需结合混合感染解释,bordetellosis_diagnostics,high,complete,SRC-0059,wiki/rules/Swine-bordetella-isolation-mixed-infection-boundary.md
+RULE-307,Bordetella 公共卫生结论需保留罕见和宿主风险边界,bordetellosis_public_health,medium,complete,SRC-0059,wiki/rules/Swine-bordetella-public-health-rare-host-risk-boundary.md
+RULE-308,Bordetella 疫苗效果需考虑抗原异质性和母源抗体,bordetellosis_vaccine_boundary,medium,complete,SRC-0059,wiki/rules/Swine-bordetella-vaccine-pertactin-maternal-antibody-boundary.md
+RULE-309,猪布鲁氏菌必须保留繁殖损失和公畜病变边界,brucellosis_clinical,high,complete,SRC-0060,wiki/rules/Swine-brucellosis-reproductive-boar-lesion-boundary.md
+RULE-310,B. suis 传播需覆盖野生动物、流产物和性传播边界,brucellosis_transmission,critical,complete,SRC-0060,wiki/rules/Swine-brucella-suis-wildlife-abortion-venereal-boundary.md
+RULE-311,猪布鲁氏菌监管和人暴露结论需 A0/A1 来源,brucellosis_regulatory_boundary,critical,complete,SRC-0060,wiki/rules/Swine-brucellosis-regulatory-public-health-a0-a1-required.md
+RULE-312,布鲁氏菌 biovar 判定必须依赖实验室鉴别,brucellosis_taxonomy,high,complete,SRC-0061,wiki/rules/Swine-brucella-biovar-lab-identification-required.md
+RULE-313,B. suis 流产物和阴道排菌必须纳入传播解释,brucellosis_transmission,critical,complete,SRC-0061,wiki/rules/Swine-brucella-suis-abortion-vaginal-shedding-boundary.md
+RULE-314,猪布鲁氏菌血清学假阳性必须考虑 Y. enterocolitica O:9,brucellosis_serology,high,complete,SRC-0061,wiki/rules/Swine-brucellosis-serology-yersinia-o9-false-positive.md
+RULE-315,猪布鲁氏菌不得生成商业疫苗程序,brucellosis_vaccine_boundary,critical,complete,SRC-0061,wiki/rules/Swine-brucellosis-no-commercial-swine-vaccine-program.md
+RULE-316,C. perfringens type C 临床发病后治疗价值有限,clostridium_perfringens_type_c,high,complete,SRC-0062,wiki/rules/Swine-cperfringens-type-c-prophylaxis-preferred.md
+RULE-317,C. perfringens 分型需检测主要毒素基因,clostridium_diagnostics,high,complete,SRC-0062,wiki/rules/Swine-cperfringens-toxin-gene-pcr-typing.md
+RULE-318,C. difficile 毒素阳性必须结合病变和临床,clostridioides_difficile_diagnostics,high,complete,SRC-0062,wiki/rules/Swine-cdifficile-toxin-compatible-lesions-required.md
+RULE-319,C. difficile 单纯培养不得作为确诊依据,clostridioides_difficile_diagnostics,high,complete,SRC-0062,wiki/rules/Swine-cdifficile-culture-not-diagnostic-alone.md
+RULE-320,破伤风和肉毒中毒不得标为人兽共患,clostridial_neurotoxin_public_health,medium,complete,SRC-0062,wiki/rules/Swine-tetanus-botulism-not-zoonotic.md
+RULE-321,肉毒中毒需检测 BoNT 并排除其他诊断,botulism_diagnostics,high,complete,SRC-0062,wiki/rules/Swine-botulism-bont-detection-exclusion-required.md
+RULE-322,ETEC 腹泻必须纳入年龄和鉴别诊断,colibacillosis_differential,high,complete,SRC-0063,wiki/rules/Swine-etec-diarrhea-age-differential-required.md
+RULE-323,E. coli 溶血不得直接等同毒力,colibacillosis_diagnostics,medium,complete,SRC-0063,wiki/rules/Swine-ecoli-hemolysis-marker-not-virulence.md
+RULE-324,E. coli 重要抗菌药耐药需保留公共卫生边界,colibacillosis_public_health,critical,complete,SRC-0063,wiki/rules/Swine-ecoli-critically-important-amr-public-health.md
+RULE-325,F4-ETEC 易感性需保留遗传受体边界,colibacillosis_susceptibility,medium,complete,SRC-0063,wiki/rules/Swine-f4-etec-genetic-receptor-boundary.md
+RULE-326,ETEC 粪便 pH 只能辅助鉴别,colibacillosis_diagnostics,medium,complete,SRC-0063,wiki/rules/Swine-etec-fecal-ph-adjunct-only.md
+RULE-327,母猪 E. coli 疫苗不得外推覆盖 PWD/ED,colibacillosis_vaccine_boundary,high,complete,SRC-0063,wiki/rules/Swine-ecoli-sow-vaccine-not-pwd-ed-coverage.md
+RULE-328,水肿病必须保留 Stx2e 毒血症机制,edema_disease_pathogenesis,high,complete,SRC-0063,wiki/rules/Swine-edema-disease-stx2e-toxemia-boundary.md
+RULE-329,PWD/ED 溶血菌落推定诊断不得排除非溶血 E. coli,colibacillosis_diagnostics,high,complete,SRC-0064,wiki/rules/Swine-ecoli-hemolysis-presumptive-diagnosis-limits.md
+RULE-330,水肿病细菌学阴性不得直接排除诊断,edema_disease_diagnostics,high,complete,SRC-0064,wiki/rules/Swine-edema-disease-negative-culture-not-exclusion.md
+RULE-331,E. coli 预防性用药必须保留耐药和消费者接受边界,colibacillosis_amr_boundary,critical,complete,SRC-0064,wiki/rules/Swine-ecoli-prophylactic-feed-medication-amr-boundary.md
+RULE-332,系统性大肠杆菌病需血培养支持菌血症诊断,systemic_colibacillosis_diagnostics,high,complete,SRC-0064,wiki/rules/Swine-systemic-colibacillosis-blood-culture-required.md
+RULE-333,母猪 UTI 控制必须评估水和环境管理,colibacillosis_uti_control,medium,complete,SRC-0064,wiki/rules/Swine-sow-uti-water-environment-control.md
+RULE-334,猪丹毒样皮肤病变必须纳入多病原鉴别,erysipelas_differential,critical,complete,SRC-0065,wiki/rules/Swine-erysipelas-like-skin-lesions-differential.md
+RULE-335,Erysipelothrix 人感染不得与人丹毒混同,erysipelas_public_health,high,complete,SRC-0065,wiki/rules/Swine-erysipelothrix-erysipeloid-not-human-erysipelas.md
+RULE-336,格拉瑟病基因型不得替代血清型解释,glasser_diagnostics,medium,complete,SRC-0066,wiki/rules/Swine-hparasuis-genotype-not-serovar.md
+RULE-337,格拉瑟病需结合母源免疫衰减、混群和共同感染解释,glasser_risk_boundary,high,complete,SRC-0066,wiki/rules/Swine-glasser-maternal-immunity-mixing-coinfection-boundary.md
+RULE-338,格拉瑟病超急性死亡可无特征性肉眼病变,glasser_diagnostics,high,complete,SRC-0066,wiki/rules/Swine-glasser-peracute-no-gross-lesions.md
+RULE-339,H. parasuis 疫苗解释必须考虑母源抗体干扰,glasser_vaccine_boundary,medium,complete,SRC-0066,wiki/rules/Swine-hparasuis-vaccine-maternal-antibody-interference.md
+RULE-340,Leptospira serovar/serogroup 仍需用于血清学和流行病学解释,leptospirosis_taxonomy,medium,complete,SRC-0067,wiki/rules/Swine-leptospira-serovar-serogroup-serology-epidemiology.md
+RULE-341,猪钩端螺旋体病必须保留职业性人兽共患风险,leptospirosis_public_health,high,complete,SRC-0067,wiki/rules/Swine-leptospirosis-occupational-zoonosis-boundary.md
+RULE-342,钩端螺旋体间接传播必须考虑潮湿环境,leptospirosis_transmission,high,complete,SRC-0067,wiki/rules/Swine-leptospira-moisture-indirect-transmission.md
+RULE-343,Bratislava 感染需保留生殖道持续感染边界,leptospirosis_persistence,high,complete,SRC-0067,wiki/rules/Swine-leptospira-bratislava-reproductive-tract-persistence.md
+RULE-344,钩端螺旋体培养需专门实验室且不能作为快速常规诊断,leptospirosis_diagnostics,medium,complete,SRC-0067,wiki/rules/Swine-leptospira-culture-specialized-slow-boundary.md
+RULE-345,钩端螺旋体免疫和给药内容不得转为固定处方,leptospirosis_control_boundary,high,complete,SRC-0068,wiki/rules/Swine-leptospirosis-medication-vaccine-local-label-boundary.md
+RULE-346,猪支原体回答需区分四类主要致病种,mycoplasmosis_species_boundary,high,complete,SRC-0069,wiki/rules/Swine-mycoplasma-major-species-distinction.md
+RULE-347,支原体缺乏细胞壁和培养困难需影响诊断解释,mycoplasmosis_diagnostics,medium,complete,SRC-0069,wiki/rules/Swine-mycoplasma-no-cell-wall-culture-boundary.md
+RULE-348,M. hyopneumoniae 诊断不能只凭症状或肉眼病变,mhyo_diagnostics,high,complete,SRC-0069,wiki/rules/Swine-mhyo-diagnosis-composite-required.md
+RULE-349,地方性肺炎样肺病变不是 M. hyopneumoniae 特异证据,mhyo_lesion_boundary,high,complete,SRC-0069,wiki/rules/Swine-mhyo-lesions-not-pathognomonic.md
+RULE-350,M. hyopneumoniae 治疗改善不等于清除感染,mhyo_treatment_boundary,high,complete,SRC-0069,wiki/rules/Swine-mhyo-treatment-not-elimination.md
+RULE-351,M. hyopneumoniae 疫苗降低损失但不阻断定植,mhyo_vaccine_boundary,high,complete,SRC-0069,wiki/rules/Swine-mhyo-vaccine-reduces-not-prevents-colonization.md
+RULE-352,M. hyopneumoniae 控制需结合管理、猪流和生物安全,mhyo_control_boundary,medium,complete,SRC-0069,wiki/rules/Swine-mhyo-control-management-biosecurity-combined.md
+RULE-353,M. hyorhinis 诊断需病变系统部位确认并排除鉴别,mhyorhinis_diagnostics,high,complete,SRC-0069,wiki/rules/Swine-mhyorhinis-systemic-site-differential-required.md
+RULE-354,M. hyosynoviae 跛行需与其他关节病鉴别,mhyosynoviae_diagnostics,high,complete,SRC-0069,wiki/rules/Swine-mhyosynoviae-lameness-differential-required.md
+RULE-355,M. suis 诊断需血液学和病原检测支持,msuis_diagnostics,high,complete,SRC-0069,wiki/rules/Swine-msuis-hematology-pathogen-detection-required.md
+RULE-356,肺炎型 P. multocida 常需寻找原发呼吸道背景,pasteurellosis_pathogenesis,high,complete,SRC-0070,wiki/rules/Swine-pmultocida-pneumonia-secondary-primary-pathogen-boundary.md
+RULE-357,进行性萎缩性鼻炎确诊需产毒 P. multocida 和病变证据,par_diagnostics,high,complete,SRC-0070,wiki/rules/Swine-par-toxigenic-pmultocida-lesion-confirmation.md
+RULE-358,P. multocida 肺病变不是特异确诊依据,pneumonic_pasteurellosis_diagnostics,high,complete,SRC-0070,wiki/rules/Swine-pmultocida-lung-lesions-not-pathognomonic.md
+RULE-359,肺炎型巴氏杆菌疫苗效果不能作强承诺,pneumonic_pasteurellosis_vaccine_boundary,medium,complete,SRC-0070,wiki/rules/Swine-pneumonic-pasteurellosis-vaccine-effectiveness-questionable.md
+RULE-360,Lawsonia 不应被默认扩展为人兽共患病,lawsonia_public_health,medium,complete,SRC-0071,wiki/rules/Swine-lawsonia-no-human-infection-evidence.md
+RULE-361,其他动物作为猪 Lawsonia 来源仍需保留不确定性,lawsonia_epidemiology,medium,complete,SRC-0071,wiki/rules/Swine-lawsonia-other-species-source-unclear.md
+RULE-362,Lawsonia 诊断需病变和病原定位共同支持,lawsonia_diagnostics,high,complete,SRC-0072,wiki/rules/Swine-lawsonia-diagnosis-lesion-organism-required.md
+RULE-363,Lawsonia 血清学提示暴露但不等同临床病,lawsonia_serology_boundary,medium,complete,SRC-0072,wiki/rules/Swine-lawsonia-serology-exposure-not-disease.md
+RULE-364,Lawsonia 控制需清洁消毒、猪流和鼠虫控制组合,lawsonia_control_boundary,high,complete,SRC-0072,wiki/rules/Swine-lawsonia-control-cleaning-pigflow-rodent-insect.md
+RULE-365,Lawsonia 用药和疫苗不得转成固定程序,lawsonia_treatment_vaccine_boundary,high,complete,SRC-0072,wiki/rules/Swine-lawsonia-antibiotic-vaccine-local-label-boundary.md
+RULE-366,沙门氏菌食品安全结论需本地法规来源,salmonellosis_public_health,high,complete,SRC-0073,wiki/rules/Swine-salmonella-food-safety-local-regulatory-source-required.md
+RULE-367,沙门氏菌培养或 PCR 检出不等于确诊,salmonellosis_diagnostics,high,complete,SRC-0073,wiki/rules/Swine-salmonella-culture-pcr-not-diagnosis-alone.md
+RULE-368,沙门氏菌需区分肠炎型和败血型,salmonellosis_clinical_boundary,high,complete,SRC-0073,wiki/rules/Swine-salmonella-enteric-vs-septicemic-distinction.md
+RULE-369,沙门氏菌疫苗不能承诺防止感染或带菌,salmonellosis_vaccine_boundary,high,complete,SRC-0073,wiki/rules/Swine-salmonella-vaccine-not-prevent-carriage.md
+RULE-370,沙门氏菌抗菌药使用需避免通用处方化,salmonellosis_treatment_boundary,high,complete,SRC-0073,wiki/rules/Swine-salmonella-antimicrobial-no-generic-prescription.md
+RULE-371,渗出性表皮炎控制需减少皮肤创伤和环境压力,staphylococcosis_control_boundary,high,complete,SRC-0074,wiki/rules/Swine-ee-control-trauma-environment-required.md
+RULE-372,S. hyicus 治疗建议需药敏支持,staphylococcosis_treatment_boundary,high,complete,SRC-0074,wiki/rules/Swine-shyicus-ast-treatment-boundary.md
+RULE-373,S. aureus 培养需结合提示性病变解释,staphylococcus_aureus_diagnostics,medium,complete,SRC-0074,wiki/rules/Swine-saureus-culture-lesion-context-required.md
+RULE-374,LA-MRSA 公共卫生结论需保留不确定性和权威来源,staphylococcus_aureus_public_health,high,complete,SRC-0074,wiki/rules/Swine-lamrsa-public-health-authority-boundary.md
+RULE-375,S. suis 带菌不等于临床发病,streptococcosis_diagnostics,high,complete,SRC-0075,wiki/rules/Swine-ssuis-carrier-not-disease.md
+RULE-376,S. suis 人暴露处置必须等待公共卫生权威来源,streptococcosis_public_health,high,complete,SRC-0075,wiki/rules/Swine-ssuis-human-exposure-authority-required.md
+RULE-377,S. suis 肺炎角色需保留机会病原边界,streptococcosis_respiratory_boundary,medium,complete,SRC-0075,wiki/rules/Swine-ssuis-pulmonary-role-opportunist-boundary.md
+RULE-378,S. suis 神经症状需结合脑膜炎和败血症鉴别,streptococcosis_clinical_boundary,high,complete,SRC-0075,wiki/rules/Swine-ssuis-neurologic-meningitis-septicemia-differential.md
+RULE-379,S. suis 自家苗候选株应来自系统部位,streptococcosis_vaccine_boundary,high,complete,SRC-0076,wiki/rules/Swine-ssuis-autogenous-vaccine-systemic-isolates.md
+RULE-380,S. suis 口腔液/扁桃体阳性不得确诊疾病,streptococcosis_diagnostics,critical,complete,SRC-0076,wiki/rules/Swine-ssuis-oral-fluid-tonsil-not-diagnostic.md
+RULE-381,S. suis 血清型 PCR 需保留 1/2 和 14 交叉检出,streptococcosis_serotyping,high,complete,SRC-0076,wiki/rules/Swine-ssuis-serotype-pcr-cross-detection-boundary.md
+RULE-382,S. suis 抗菌药选择必须结合药敏和本地耐药谱,streptococcosis_treatment_boundary,critical,complete,SRC-0076,wiki/rules/Swine-ssuis-antimicrobial-local-susceptibility-required.md
+RULE-383,S. suis 疫苗建议不得脱离血清型/菌株证据,streptococcosis_vaccine_boundary,critical,complete,SRC-0076,wiki/rules/Swine-ssuis-vaccine-serotype-strain-evidence-required.md
+RULE-384,S. suis 根除通常不得优先于控制措施,streptococcosis_control,high,complete,SRC-0076,wiki/rules/Swine-ssuis-control-preferred-over-eradication.md
+RULE-385,猪痢疾确诊需强 β 溶血 Brachyspira 与典型病例匹配,swine_dysentery_diagnostics,critical,complete,SRC-0077,wiki/rules/Swine-dysentery-strong-beta-hemolytic-brachyspira-required.md
+RULE-386,猪痢疾病原不得限于 B. hyodysenteriae,swine_dysentery_etiology,high,complete,SRC-0077,wiki/rules/Swine-dysentery-not-only-b-hyodysenteriae.md
+RULE-387,猪痢疾不得标为人兽共患,swine_dysentery_public_health,medium,complete,SRC-0077,wiki/rules/Swine-dysentery-agents-not-human-infection.md
+RULE-388,猪痢疾防控必须覆盖粪口、湿粪和生物安全,swine_dysentery_control,high,complete,SRC-0077,wiki/rules/Swine-dysentery-fecal-oral-moist-feces-biosecurity.md
+RULE-389,猪痢疾检测应保留选择性厌氧培养,swine_dysentery_diagnostics,critical,complete,SRC-0077,wiki/rules/Swine-dysentery-selective-anaerobic-culture-integral.md
+RULE-390,猪痢疾用药必须基于 MIC 和合规标签,swine_dysentery_amr_boundary,critical,complete,SRC-0077,wiki/rules/Swine-dysentery-treatment-mic-label-required.md
+RULE-391,B. pilosicoli 粪便阳性不得单独确诊 PIS/PCS,pis_pcs_diagnostics,critical,complete,SRC-0077,wiki/rules/Swine-bpilosicoli-fecal-positive-not-pis-pcs-alone.md
+RULE-392,B. pilosicoli 无有效疫苗,pis_pcs_vaccine_boundary,medium,complete,SRC-0077,wiki/rules/Swine-bpilosicoli-no-effective-vaccine.md
+RULE-393,猪结核肉眼和镜检病变不能区分 MAC 与 MTBC,tuberculosis_diagnostics,critical,complete,SRC-0078,wiki/rules/Swine-tb-lesions-not-mac-mtbc-speciation.md
+RULE-394,猪结核防控必须按检出 Mycobacterium 种设计,tuberculosis_control,critical,complete,SRC-0078,wiki/rules/Swine-tb-control-by-mycobacterium-species.md
+RULE-395,MAH 暴发调查必须评估有机垫料、潮湿有机物和生物膜,tuberculosis_environment,high,complete,SRC-0078,wiki/rules/Swine-mah-organic-bedding-biofilm-risk.md
+RULE-396,猪结核确诊需组织病变中培养鉴定或直接 PCR,tuberculosis_diagnostics,critical,complete,SRC-0078,wiki/rules/Swine-tb-definitive-culture-identification-pcr.md
+RULE-397,A. suis 交配后血尿需与 E. coli 膀胱炎鉴别,actinobaculum_suis_diagnostics,high,complete,SRC-0079,wiki/rules/Swine-asuis-postservice-hematuria-differential.md
+RULE-398,A. hyovaginalis 阴道分泌物培养阳性不得定因流产,actinomyces_hyovaginalis_diagnostics,high,complete,SRC-0079,wiki/rules/Swine-ahyovaginalis-vaginal-culture-not-abortion-cause.md
+RULE-399,疑似炭疽不得常规剖检,anthrax_biosafety,critical,complete,SRC-0079,wiki/rules/Swine-anthrax-necropsy-discouraged-biosafety.md
+RULE-400,猪炭疽必须保留人兽共患和食品危害边界,anthrax_public_health,critical,complete,SRC-0079,wiki/rules/Swine-anthrax-zoonotic-pork-hazard-boundary.md
+RULE-401,类鼻疽需保留热带环境和公共卫生边界,melioidosis_public_health,high,complete,SRC-0079,wiki/rules/Swine-melioidosis-tropical-public-health-boundary.md
+RULE-402,弯曲菌不得作为猪常规肠病主因,campylobacter_boundary,medium,complete,SRC-0079,wiki/rules/Swine-campylobacter-not-recognized-common-enteric-disease.md
+RULE-403,猪衣原体定因需谨慎处理混合感染和 PCR 物种确认,chlamydia_diagnostics,high,complete,SRC-0079,wiki/rules/Swine-chlamydia-mixed-infection-pcr-species-boundary.md
+RULE-404,猪衣原体公共卫生结论需区分 species 和传播证据,chlamydia_public_health,high,complete,SRC-0079,wiki/rules/Swine-chlamydia-zoonosis-species-transmission-boundary.md
+RULE-405,肠球菌相关新生仔猪腹泻治疗前应做药敏,enterococci_treatment_boundary,medium,complete,SRC-0079,wiki/rules/Swine-enterococci-neonatal-diarrhea-ast-before-treatment.md
+RULE-406,Klebsiella 仔猪败血症干预效果不得无对照外推,klebsiella_control_boundary,medium,complete,SRC-0079,wiki/rules/Swine-klebsiella-piglet-septicemia-intervention-control-needed.md
+RULE-407,猪李斯特菌需区分携带、临床病和食品安全,listeria_boundary,high,complete,SRC-0079,wiki/rules/Swine-listeria-carriage-clinical-food-safety-boundary.md
+RULE-408,R. equi 肉芽肿淋巴结炎必须排除结核,rhodococcus_equi_differential,critical,complete,SRC-0079,wiki/rules/Swine-rhodococcus-granulomatous-lymphadenitis-rule-out-tb.md
+RULE-409,T. pedis 耳坏死不得单病原简化,treponema_pedis_skin_boundary,medium,complete,SRC-0079,wiki/rules/Swine-tpedis-ear-necrosis-not-single-agent.md
+RULE-410,T. abortisuis 流产定因需胎盘/胎儿病变和病灶内细菌,trueperella_abortisuis_diagnostics,high,complete,SRC-0079,wiki/rules/Swine-tabortisuis-abortion-lesion-intralesional-required.md
+RULE-411,T. pyogenes 脓肿单靠抗菌药效果差且无有效疫苗,trueperella_pyogenes_control,high,complete,SRC-0079,wiki/rules/Swine-tpyogenes-abscess-antimicrobial-limited-no-vaccine.md
+RULE-412,Y. enterocolitica O:9 必须纳入布病血清学假阳性解释,yersinia_serology_boundary,critical,complete,SRC-0079,wiki/rules/Swine-yersinia-o9-brucella-serology-false-positive.md
+RULE-413,Yersinia 腹泻猪培养阳性不足以确诊肠道耶尔森菌病,yersinia_diagnostics,critical,complete,SRC-0079,wiki/rules/Swine-yersinia-culture-positive-not-enteric-yersiniosis-alone.md
+RULE-414,Yersinia 食源性控制不得从教材外推为中国召回执行,yersinia_food_safety_boundary,critical,complete,SRC-0079,wiki/rules/Swine-yersinia-foodborne-control-no-china-recall-from-textbook.md
+RULE-415,猪疥螨病诊断需保留刮片假阴性边界,mange_diagnostics,high,complete,SRC-0080,wiki/rules/Swine-mange-scraping-false-negative-boundary.md
+RULE-416,猪疥螨净化不得等同固定药物程序,mange_control,high,complete,SRC-0080,wiki/rules/Swine-mange-elimination-not-fixed-drug-program.md
+RULE-417,猪外寄生虫药物表不得生成中国处方,external_parasite_treatment_boundary,critical,complete,SRC-0080,wiki/rules/Swine-external-parasite-label-table-not-china-prescription.md
+RULE-418,猪虱病诊断应寻找虱或虫卵,lice_diagnostics,medium,complete,SRC-0080,wiki/rules/Swine-lice-diagnosis-lice-or-nits.md
+RULE-419,蝇类传播病原需区分机械携带和证实传播,flies_vector_boundary,high,complete,SRC-0080,wiki/rules/Swine-flies-mechanical-vector-evidence-boundary.md
+RULE-420,仔猪球虫病不能仅凭卵囊定因,coccidia_diagnostics,critical,complete,SRC-0081,wiki/rules/Swine-coccidia-oocyst-not-causality-alone.md
+RULE-421,猪 Eimeria 多为低临床意义边界,eimeria_boundary,medium,complete,SRC-0081,wiki/rules/Swine-eimeria-not-common-clinical-cause.md
+RULE-422,抗球虫药活性不得生成固定程序,anticoccidial_treatment_boundary,critical,complete,SRC-0081,wiki/rules/Swine-anticoccidial-activity-not-fixed-program.md
+RULE-423,猪弓形虫回答必须保留猫源卵囊和食品安全边界,toxoplasma_public_health,critical,complete,SRC-0081,wiki/rules/Swine-toxoplasma-cat-oocyst-food-safety-boundary.md
+RULE-424,隐孢子虫阳性需结合混合感染解释,cryptosporidium_diagnostics,high,complete,SRC-0081,wiki/rules/Swine-cryptosporidium-positive-context-required.md
+RULE-425,内寄生虫控制需区分环境管理和驱虫处方,internal_parasite_control,high,complete,SRC-0082,wiki/rules/Swine-internal-parasite-control-management-vs-prescription.md
+RULE-426,Strongyloides 仔猪病需考虑无虫卵阶段,strongyloides_diagnostics,high,complete,SRC-0082,wiki/rules/Swine-strongyloides-larval-stage-no-eggs-boundary.md
+RULE-427,Ascaris milk spots 需与肾虫移行鉴别,ascaris_differential,critical,complete,SRC-0082,wiki/rules/Swine-ascaris-milk-spots-kidney-worm-differential.md
+RULE-428,Trichuris 低虫量不应过度解释腹泻,trichuris_diagnostics,medium,complete,SRC-0082,wiki/rules/Swine-trichuris-low-burden-not-overcalled.md
+RULE-429,Metastrongylus 粪漂检阴性不能简单排除,metastrongylus_diagnostics,high,complete,SRC-0082,wiki/rules/Swine-metastrongylus-eggs-float-poorly.md
+RULE-430,Taenia solium 和 Trichinella 需保留人兽共患权威来源要求,parasite_public_health,critical,complete,SRC-0082,wiki/rules/Swine-taenia-trichinella-public-health-authority-required.md
+RULE-431,美国驱虫药标签和休药期不得跨法域迁移,anthelmintic_jurisdiction_boundary,critical,complete,SRC-0082,wiki/rules/Swine-anthelmintic-us-label-withdrawal-not-china.md
+RULE-432,寄生虫参考文献页只作来源边界,parasite_reference_boundary,medium,complete,SRC-0081,wiki/rules/Swine-parasite-reference-pages-not-standalone-facts.md
+RULE-433,营养缺乏或过量不得单一线性定因,nutrition_diagnosis,critical,complete,SRC-0084,wiki/rules/Swine-nutritional-diagnosis-not-linear.md
+RULE-434,盐/钠相关中毒必须追问饮水可及性,salt_water_toxicity,critical,complete,SRC-0084,wiki/rules/Swine-salt-sodium-toxicity-water-access-required.md
+RULE-435,维生素和微量元素过量不得外推为安全添加,nutrient_excess_boundary,high,complete,SRC-0084,wiki/rules/Swine-vitamin-mineral-excess-not-safe-addition.md
+RULE-436,霉菌毒素诊断必须结合饲料批次和病例背景,mycotoxin_diagnostics,critical,complete,SRC-0085,wiki/rules/Swine-mycotoxin-feed-testing-context-required.md
+RULE-437,霉菌毒素吸附剂讨论不得生成通用治疗处方,mycotoxin_treatment_boundary,critical,complete,SRC-0085,wiki/rules/Swine-mycotoxin-additive-not-universal-treatment.md
+RULE-438,DON 相关拒食需要广泛鉴别,don_feed_refusal,high,complete,SRC-0085,wiki/rules/Swine-don-feed-refusal-differentials-required.md
+RULE-439,ZEA 相关繁殖表现必须追溯饲料暴露,zearalenone_boundary,high,complete,SRC-0085,wiki/rules/Swine-zearalenone-reproductive-feed-exposure.md
+RULE-440,富马毒素安全水平必须另引官方标准,fumonisin_regulatory_boundary,critical,complete,SRC-0085,wiki/rules/Swine-fumonisin-safe-level-authority-required.md
+RULE-441,毒物病例必须先建立暴露史,toxicology_diagnostics,critical,complete,SRC-0086,wiki/rules/Swine-toxicology-exposure-history-required.md
+RULE-442,有机砷等中毒需与神经病和盐中毒鉴别,arsenical_differential,high,complete,SRC-0086,wiki/rules/Swine-arsenical-neurologic-salt-differential.md
+RULE-443,离子载体中毒首要边界是停止暴露和核查混料,ionophore_control,high,complete,SRC-0086,wiki/rules/Swine-ionophore-stop-exposure-mixing-error.md
+RULE-444,有机磷/氨基甲酸酯中毒需保留胆碱能体征组合,op_carbamate_toxicosis,high,complete,SRC-0086,wiki/rules/Swine-op-carbamate-cholinergic-signs.md
+RULE-445,亚硝酸盐中毒不得脱离水源/饲料暴露,nitrite_toxicosis,critical,complete,SRC-0086,wiki/rules/Swine-nitrite-water-feed-exposure-required.md
+RULE-446,钠离子中毒需要饮水剥夺和组织学背景,sodium_ion_toxicosis,critical,complete,SRC-0086,wiki/rules/Swine-sodium-ion-water-deprivation-histology.md
+RULE-447,粪污气体和通风失败必须作为群体暴露事件处理,toxic_gas_boundary,critical,complete,SRC-0086,wiki/rules/Swine-manure-gas-ventilation-group-exposure.md
+RULE-448,教材毒理内容不得直接生成中国执法处置,toxicology_regulatory_boundary,critical,complete,SRC-0086,wiki/rules/Swine-toxicology-textbook-not-china-enforcement.md
+RULE-HANDBOOK-PRESCRIPTION-001,手册处方来源执行规则,handbook_prescription_executable_source,critical,complete,SRC-0087,wiki/rules/Swine-handbook-prescription-executable-source.md

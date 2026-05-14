@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-13T23:51:58+08:00",
+  "phase": "phase14_generate_two_stage_samples",
+  "mode": "dry-run",
+  "generation_model": "deterministic-mock",
+  "prompt_version": "phase14.two_stage.v3_cn_clinical",
+  "input_skeletons": "exports/answer_skeletons/wiki_answer_skeletons_20260513_postupdate_verify.jsonl",
+  "input_plan": "exports/planned_samples/wiki_sample_plan_20260513_postupdate_verify.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_postupdate_verify.jsonl",
+  "samples": 10,
+  "samples_generated": 10,
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 4,
+    "L2_diagnosis_support": 2,
+    "L3_differential_support": 2,
+    "L4_control_boundary": 1,
+    "L6_regulatory_guardrail": 1
+  },
+  "missing_anchors": [],
+  "missing_grounded_citations": [],
+  "fallback_samples": [],
+  "passed": true
+}

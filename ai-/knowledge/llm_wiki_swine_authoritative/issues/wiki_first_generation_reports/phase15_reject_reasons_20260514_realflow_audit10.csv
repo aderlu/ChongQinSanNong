@@ -1,0 +1,6 @@
+sample_id,final_decision,reject_reason
+GEN-000005,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000005,rejected,judge:deterministic_placeholder_failed
+GEN-000006,rejected,hard_gate:executive_content_missing_a0_source
+GEN-000006,rejected,hard_gate:english_template_label_output
+GEN-000006,rejected,judge:deterministic_placeholder_failed

@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-05-09T20:38:13+08:00",
+  "purpose": "Phase 8 application of synthesis/regulatory runtime guardrails.",
+  "targets": [
+    "swine_regulatory_blocking_rules_china.md",
+    "swine_drug_and_withdrawal_boundary.md",
+    "swine_case_generation_context.md",
+    "swine_answer_evaluation_rubric.md"
+  ],
+  "records": [
+    {
+      "page": "wiki/synthesis/swine_regulatory_blocking_rules_china.md",
+      "changed": false,
+      "reason": "already_present",
+      "before": {
+        "bytes": 2013,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      },
+      "after": {
+        "bytes": 2013,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      }
+    },
+    {
+      "page": "wiki/synthesis/swine_drug_and_withdrawal_boundary.md",
+      "changed": false,
+      "reason": "already_present",
+      "before": {
+        "bytes": 3341,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      },
+      "after": {
+        "bytes": 3341,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      }
+    },
+    {
+      "page": "wiki/synthesis/swine_case_generation_context.md",
+      "changed": false,
+      "reason": "already_present",
+      "before": {
+        "bytes": 3371,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      },
+      "after": {
+        "bytes": 3371,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      }
+    },
+    {
+      "page": "wiki/synthesis/swine_answer_evaluation_rubric.md",
+      "changed": false,
+      "reason": "already_present",
+      "before": {
+        "bytes": 3224,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      },
+      "after": {
+        "bytes": 3224,
+        "has_rc_synthesis": true,
+        "has_rc_regulatory_current": true,
+        "has_rc_eval": true,
+        "has_rc_drug": true,
+        "has_rc_withdrawal": true
+      }
+    }
+  ],
+  "summary": {
+    "pages_checked": 4,
+    "pages_changed": 0,
+    "missing_core_synthesis_anchors_after": 0
+  }
+}

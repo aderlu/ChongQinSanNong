@@ -1,0 +1,22 @@
+﻿card_id,title,severity,jurisdiction,hard_block,page_relpath
+RC-ALIAS-001,疾病别名归一化门禁,high,Global,false,wiki/rule_cards/RC-ALIAS-001.md
+RC-ASF-001,疑似或阳性非洲猪瘟不得生成治疗替代报告,critical,China,true,wiki/rule_cards/RC-ASF-001.md
+RC-CITATION-001,标准证据引用门禁,high,Global,false,wiki/rule_cards/RC-CITATION-001.md
+RC-DIARRHEA-001,腹泻题必须先按日龄和病程分层鉴别,high,Global,false,wiki/rule_cards/RC-DIARRHEA-001.md
+RC-DISEASE-REGULATORY-001,中国动物疫病分类和处置不得外推,critical,China,true,wiki/rule_cards/RC-DISEASE-REGULATORY-001.md
+RC-DRUG-001,猪病处方必须有具体标签或等效来源,critical,Global,true,wiki/rule_cards/RC-DRUG-001.md
+RC-DRUG-CLASS-001,药物类别不得外推为具体猪用产品,critical,China,true,wiki/rule_cards/RC-DRUG-CLASS-001.md
+RC-DRUG-COMBINATION-RAU-001,兽药联用与配伍禁忌规则卡 / SRC-0091,,,,wiki/rule_cards/RC-DRUG-COMBINATION-RAU-001.md
+RC-DRUG-GOLD-ROLE-001,药物页按黄金集用途分级,critical,Global,true,wiki/rule_cards/RC-DRUG-GOLD-ROLE-001.md
+RC-DX-001,诊断结果解释必须区分样本、方法和监管后果,high,Global,false,wiki/rule_cards/RC-DX-001.md
+RC-EVAL-RUBRIC-001,评估量表必须执行来源、诊断、药物和监管硬门禁,critical,Global,true,wiki/rule_cards/RC-EVAL-RUBRIC-001.md
+RC-REGULATORY-CURRENT-001,监管和食品安全结论必须使用当前官方或标签级来源,critical,China,true,wiki/rule_cards/RC-REGULATORY-CURRENT-001.md
+RC-REPRO-001,繁殖障碍题必须区分胎龄、胎儿类型和感染/毒素鉴别,high,Global,false,wiki/rule_cards/RC-REPRO-001.md
+RC-RESP-001,呼吸道题必须覆盖感染、环境和毒物气体鉴别,high,Global,false,wiki/rule_cards/RC-RESP-001.md
+RC-SYNTHESIS-SCOPE-001,综合页不得创造新的生物医学或监管事实,high,Global,false,wiki/rule_cards/RC-SYNTHESIS-SCOPE-001.md
+RC-SYSTEM-DRUG-RAU-002,作用各系统药物与对症支持规则卡 / SRC-0092,,,,wiki/rule_cards/RC-SYSTEM-DRUG-RAU-002.md
+RC-TCM-COMPATIBILITY-RAU-003,中药类兽药联用、禁忌与症候支持边界,,,,wiki/rule_cards/RC-TCM-COMPATIBILITY-RAU-003.md
+RC-TOX-001,毒物气体题优先人员安全、暴露控制和样本保存,critical,Global,true,wiki/rule_cards/RC-TOX-001.md
+RC-TRAIN-READY-001,训练可用样本门禁,critical,Global,true,wiki/rule_cards/RC-TRAIN-READY-001.md
+RC-VES-001,猪水疱/口蹄部病变必须触发一类病鉴别,critical,China,true,wiki/rule_cards/RC-VES-001.md
+RC-WITHDRAWAL-MRL-001,休药期和残留合格必须精确到来源,critical,Global,true,wiki/rule_cards/RC-WITHDRAWAL-MRL-001.md

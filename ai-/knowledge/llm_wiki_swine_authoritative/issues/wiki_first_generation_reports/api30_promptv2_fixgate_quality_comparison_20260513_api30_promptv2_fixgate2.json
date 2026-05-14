@@ -1,0 +1,81 @@
+﻿{
+    "generated_at":  "2026-05-13T16:39:58",
+    "phase":  "api30_promptv2_fixgate_quality_comparison",
+    "previous":  {
+                     "batch":  "20260513_api30_phase17_full2",
+                     "generated":  30,
+                     "phase15_accepted":  26,
+                     "phase15_rejected":  4,
+                     "phase18_accepted":  4,
+                     "phase18_review":  18,
+                     "phase18_rejected":  8,
+                     "sft_accepted":  4,
+                     "review_queue":  18,
+                     "rejected_queue":  8,
+                     "structured_pass_false":  20,
+                     "judge_a_review":  18,
+                     "judge_b_review":  20,
+                     "hard_gate_a0":  4
+                 },
+    "current":  {
+                    "batch":  "20260513_api30_promptv2_fixgate2",
+                    "generated":  30,
+                    "prompt_version":  "phase14.two_stage.v2",
+                    "fallback_samples":  0,
+                    "missing_anchors":  0,
+                    "missing_grounded_citations":  0,
+                    "phase15_accepted":  20,
+                    "phase15_rejected":  10,
+                    "phase18_accepted":  20,
+                    "phase18_review":  0,
+                    "phase18_rejected":  10,
+                    "sft_accepted":  20,
+                    "review_queue":  0,
+                    "rejected_queue":  10,
+                    "structured_pass_false":  0,
+                    "judge_a_review":  0,
+                    "judge_b_review":  0,
+                    "hard_gate_a0":  10,
+                    "layer_counts":  {
+                                         "L1_retrieval_grounded":  5,
+                                         "L2_diagnosis_support":  5,
+                                         "L3_differential_support":  5,
+                                         "L4_control_boundary":  5,
+                                         "L5_drug_boundary_negative":  0,
+                                         "L6_regulatory_guardrail":  1,
+                                         "L7_judge_calibration":  30,
+                                         "review_queue":  0,
+                                         "rejected_queue":  10,
+                                         "sft_l1_retrieval_grounded.jsonl":  5,
+                                         "sft_l2_diagnosis_support.jsonl":  5,
+                                         "sft_l3_differential_support.jsonl":  5,
+                                         "sft_l4_control_boundary.jsonl":  5,
+                                         "sft_l5_drug_boundary_negative.jsonl":  0,
+                                         "eval_l6_regulatory_guardrail.jsonl":  1,
+                                         "eval_l7_judge_calibration.jsonl":  30,
+                                         "training_set_review_queue.jsonl":  0,
+                                         "training_set_rejected_queue.jsonl":  10
+                                     },
+                    "phase18_arbitration_trigger_counts":  {
+                                                               "phase15_negative_boundary_trigger":  18
+                                                           },
+                    "generated_sha256":  "ec1f20d7ce02b71897302a75848b3805efb0f4219785a514b8b05b5d82744cfc",
+                    "evaluated_sha256":  "1e98f4452b1c46cd61f99d973a71ee32ec6f40a33d26cfb24d760fc5280c8699",
+                    "phase18_sha256":  "8e4959ca54b2350300dd9001a8e7ffc5822e66d3878218136dc18420a67df24c"
+                },
+    "deltas":  {
+                   "sft_accepted":  16,
+                   "phase18_review":  -18,
+                   "phase18_rejected":  2,
+                   "structured_pass_false":  -20,
+                   "judge_a_review":  -18,
+                   "judge_b_review":  -20,
+                   "hard_gate_a0":  6
+               },
+    "files":  {
+                  "generated":  "exports/generated_samples/two_stage_samples_20260513_api30_promptv2.jsonl",
+                  "phase15":  "exports/evaluated_samples/fact_evaluated_samples_20260513_api30_promptv2_fixgate.jsonl",
+                  "phase18":  "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260513_api30_promptv2_fixgate2.jsonl",
+                  "phase16_manifest":  "exports/training_sets/training_set_manifest_20260513_api30_promptv2_fixgate2.json"
+              }
+}

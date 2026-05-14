@@ -1,0 +1,16 @@
+{
+  "model": "auto",
+  "modelProvider": "nonlinear",
+  "modelProviders": {
+    "nonlinear": {
+      "baseUrl": "http://docs.nonelinear.com/quickstart",
+      "name": "nonlinear",
+      "requiresOpenaiAuth": false
+    }
+  },
+  "auth": {
+    "openaiApiKey": "sk-2aee4f263dad2d98046bb67515e900c0"
+  },
+  "disableResponseStorage": true,
+  "modelReasoningEffort": "high"
+}

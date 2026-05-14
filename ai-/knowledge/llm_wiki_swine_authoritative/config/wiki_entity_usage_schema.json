@@ -1,0 +1,65 @@
+{
+  "version": "2026-05-12-simplified-entity-status",
+  "description": "Simplified wiki entity status schema. Source authority is the default assumption; page usability is represented by evidence_coverage and usage_scope.",
+  "source_trust_values": [
+    "authoritative",
+    "needs_source_check"
+  ],
+  "evidence_coverage_values": [
+    "complete",
+    "partial",
+    "minimal"
+  ],
+  "usage_scope_values": [
+    "retrieval",
+    "diagnosis_support",
+    "differential_support",
+    "control_support",
+    "regulatory_boundary",
+    "treatment_boundary",
+    "drug_boundary",
+    "positive_drug_candidate",
+    "gold_candidate",
+    "gap_routing",
+    "audit_only",
+    "negative_trap"
+  ],
+  "legacy_mapping": {
+    "legacy_evidence_status": {
+      "HUMAN_REVIEWED": {
+        "evidence_coverage": "complete"
+      },
+      "PROCESSED_SOURCE_ANCHORED": {
+        "evidence_coverage": "complete"
+      },
+      "NEEDS_REVIEW": {
+        "evidence_coverage": "partial",
+        "usage_scope_add": [
+          "gap_routing"
+        ]
+      }
+    },
+    "gold_dataset_use": {
+      "evidence_linked_candidate": {
+        "usage_scope_add": [
+          "gold_candidate"
+        ]
+      },
+      "boundary_only": {
+        "usage_scope_add": [
+          "drug_boundary",
+          "audit_only"
+        ],
+        "usage_scope_remove": [
+          "positive_drug_candidate",
+          "gold_candidate"
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Do not use many historical status labels as primary runtime gates.",
+    "All wiki sources are assumed authoritative unless source_trust is explicitly needs_source_check.",
+    "High-risk semantic edges still require edge-level evidence validation; page status never upgrades an edge by itself."
+  ]
+}

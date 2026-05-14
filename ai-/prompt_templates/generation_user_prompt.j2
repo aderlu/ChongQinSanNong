@@ -1,0 +1,5 @@
+请生成一条关于猪{{ disease_name }}的高质量问诊样本。
+{% if scenario_hint %}
+场景提示：{{ scenario_hint }}
+{% endif %}
+请在 metadata.reasoning_trace 中显式输出结构化推理摘要，并输出 answer_json 与 evidence_anchors，便于后续人工复核和训练集导出。

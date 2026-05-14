@@ -1,0 +1,4 @@
+sample_id,phase15_final_decision,semantic_route,semantic_final_decision,semantic_skip_reason,needed_arbitration,arbitration_trigger_codes,semantic_final_label,semantic_fatal_risk,semantic_reject_reasons
+GEN-000001,accepted,dual_judge,accepted,,False,,pass,False,
+GEN-000002,accepted,dual_judge,accepted,,True,high_risk_sample|phase15_high_risk_class|phase15_high_risk_context,pass,False,arbiter:high_risk_sample|arbiter:phase15_high_risk_class|arbiter:phase15_high_risk_context
+GEN-000003,accepted,dual_judge,accepted,,True,high_risk_sample|phase15_high_risk_class|phase15_high_risk_context,pass,False,arbiter:high_risk_sample|arbiter:phase15_high_risk_class|arbiter:phase15_high_risk_context

@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-14T09:21:19+08:00",
+  "phase": "phase15_fact_level_evaluate_samples",
+  "mode": "deterministic_fact_and_hard_gate",
+  "input_generated": "exports/generated_samples/naturalized_samples_20260514_realflow_audit10.jsonl",
+  "output": "exports/evaluated_samples/fact_evaluated_samples_20260514_realflow_audit10.jsonl",
+  "samples": 10,
+  "accepted": 8,
+  "rejected": 2,
+  "reject_reason_counts": {
+    "hard_gate:english_template_label_output": 1,
+    "hard_gate:executive_content_missing_a0_source": 2,
+    "judge:deterministic_placeholder_failed": 2
+  },
+  "passed": true
+}

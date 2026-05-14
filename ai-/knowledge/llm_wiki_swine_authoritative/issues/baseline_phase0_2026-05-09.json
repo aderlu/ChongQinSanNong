@@ -1,0 +1,60 @@
+{
+  "audit_date": "2026-05-09",
+  "phase": "Phase 0",
+  "purpose": "Baseline snapshot before Phase 1 and Phase 2 cleanup.",
+  "knowledge_base": "ai-/knowledge/llm_wiki_swine_authoritative",
+  "git_status_ai_workspace": "clean",
+  "readiness_audit": {
+    "readiness_score": 99,
+    "counts": {
+      "diseases": 73,
+      "drugs": 81,
+      "syndromes": 22,
+      "comparisons": 17,
+      "rules": 449,
+      "rule_cards": 18,
+      "sources": 219,
+      "synthesis": 27,
+      "topics": 99
+    },
+    "disease_coverage": {
+      "partial_source_anchored_page": 32,
+      "source_anchored_clinical_page": 41
+    },
+    "drug_status": {
+      "source_anchored_drug_evidence_page": 71,
+      "regulatory_boundary_page": 1,
+      "partial_drug_evidence_page": 8,
+      "blank": 4
+    },
+    "missing_paths": 0,
+    "bad_fact_tables": [],
+    "missing_rule_cards": [],
+    "missing_synthesis": []
+  },
+  "runtime_manifest_summary": {
+    "generated_at": "2026-05-09T14:56:19+08:00",
+    "counts_by_entity_type": {
+      "comparison": 14,
+      "disease": 73,
+      "drug": 80,
+      "rule_card": 15,
+      "syndrome": 12,
+      "synthesis": 4
+    },
+    "counts_by_runtime_tier": {
+      "runtime_core_guardrail": 15,
+      "runtime_core_partial": 41,
+      "runtime_core_policy": 4,
+      "runtime_core_reviewed": 138
+    },
+    "missing_paths": 0
+  },
+  "known_pre_cleanup_issues": [
+    "Root purpose.md still described the wiki as chicken disease knowledge.",
+    "Root index.md title still said Chicken Disease LLM Wiki.",
+    "README.md still described the swine wiki as Phase 1/2 initial construction.",
+    "Legacy review-oriented states such as HUMAN_REVIEWED and NEEDS_REVIEW still existed and were not yet migrated to source_status/fact_validity/task_use_status.",
+    "Encoding integrity had not yet been audited with a dedicated repeatable script."
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "fact_id": "CAND-0001",
+    "subject": "口蹄疫 WOAH disease page",
+    "predicate": "source_imported",
+    "object": "pending_review",
+    "evidence_source_id": "SRC-0002",
+    "source_page": "wiki/sources/SRC-0002-口蹄疫-woah-disease-page.md",
+    "external_url": "https://www.woah.org/en/disease/foot-and-mouth-disease/",
+    "evidence_role": "clinical_reference",
+    "evidence_excerpt": "",
+    "evidence_status": "NEEDS_REVIEW"
+  }
+]

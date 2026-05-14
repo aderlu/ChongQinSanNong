@@ -1,0 +1,4497 @@
+[
+  {
+    "index": 1,
+    "case_id": "SWINE10-001",
+    "target": "非洲猪瘟",
+    "case_type": "regulatory_hard_block",
+    "task": {
+      "case_id": "SWINE10-001",
+      "target": "非洲猪瘟",
+      "type": "regulatory_hard_block",
+      "scenario": "育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "老师您好，我这边的育肥猪现在大概90公斤左右，总共存栏280头。从三天前开始陆续出现高烧，体温测到41℃以上，精神很差，吃料明显减少，今天已经死了6头了，死前皮肤耳朵、腹部都有发紫发青的斑块，有的猪走路不稳。之前没做过什么特殊用药，就是常规保健过一次阿莫西林。我想问问这种情况能不能先打点头孢或者氟苯尼考看看效果？",
+      "metadata": {
+        "disease_name": "非洲猪瘟",
+        "case_type": "regulatory_hard_block",
+        "severity": "high",
+        "scene_tags": [
+          "育肥猪",
+          "高热",
+          "皮肤发绀",
+          "死亡率上升"
+        ],
+        "required_anchors": [
+          "高热",
+          "皮肤发绀",
+          "死亡率升高"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据描述的高热（>41℃）、皮肤发绀（耳、腹等部位发紫发青）、精神沉郁、采食下降及短时间内死亡增加等表现，符合非洲猪瘟的典型急性病程特征（source=SRC-0031）。但非洲猪瘟不能仅凭临床症状确诊，必须通过实验室检测确认（source=SRC-0031）。",
+      "treatment_or_action": "立即停止任何未经许可的药物治疗尝试，包括头孢类或氟苯尼考等抗生素。应立即采取以下措施：① 限制场内及对外猪只移动；② 对病死猪及可疑猪进行无害化处理；③ 采集血样、组织样送有资质的实验室进行非洲猪瘟病原检测；④ 向当地畜牧兽医主管部门报告疫情（source=A0-MOA-ASF-NORMALIZED-GUIDE, A0-MOA-573）。",
+      "drug_boundary": "在未获得非洲猪瘟阴性检测结果前，禁止使用任何抗菌药物进行治疗干预，以免掩盖病情或延误报告（source=RC-ASF-001）。",
+      "withdrawal_period_boundary": "因当前情况可能涉及一类疫病处置，不存在可执行的休药期承诺，须等待官方检测结果及处置方案确定后再行决定。",
+      "metadata": {
+        "disease_name": "非洲猪瘟",
+        "case_type": "regulatory_hard_block",
+        "severity": "high",
+        "scene_tags": [
+          "育肥猪",
+          "高热",
+          "皮肤发绀",
+          "死亡率上升"
+        ],
+        "required_anchors": [
+          "高热",
+          "皮肤发绀",
+          "死亡率升高"
+        ],
+        "anchor_references": {
+          "高热": "source=SRC-0031",
+          "皮肤发绀": "source=SRC-0019",
+          "死亡率升高": "source=SRC-0031"
+        }
+      },
+      "species": "猪",
+      "user_query": "老师您好，我这边的育肥猪现在大概90公斤左右，总共存栏280头。从三天前开始陆续出现高烧，体温测到41℃以上，精神很差，吃料明显减少，今天已经死了6头了，死前皮肤耳朵、腹部都有发紫发青的斑块，有的猪走路不稳。之前没做过什么特殊用药，就是常规保健过一次阿莫西林。我想问问这种情况能不能先打点头孢或者氟苯尼考看看效果？"
+    },
+    "judge": {
+      "total_score": 75,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": [
+        "evidence_anchoring: 诊断部分明确引用了 SRC-0031 和 SRC-0019 说明非洲猪瘟的典型症状和鉴别边界，符合证据锚定要求。",
+        "clinical_reasoning: 描述了高热、皮肤发绀、死亡率升高等关键症状，并与非洲猪瘟急性病程特征关联，逻辑合理。",
+        "regulatory_safety: 明确指出非洲猪瘟必须报告当地畜牧兽医部门，禁止生成治疗替代报告，符合 A0-MOA-ASF-NORMALIZED-GUIDE 和 RC-ASF-001 的监管要求。",
+        "drug_boundary: 明确禁止在未获得非洲猪瘟阴性检测结果前使用抗菌药物，符合教材和规则卡要求。",
+        "withdrawal_period_boundary: 指出当前情况可能涉及一类疫病处置，不存在可执行的休药期承诺，符合监管逻辑。"
+      ],
+      "weaknesses": [
+        "evidence_anchoring: 用户查询中提到的“走路不稳”未在诊断部分明确锚定到具体证据来源。",
+        "clinical_reasoning: 未明确说明非洲猪瘟不能仅凭临床症状确诊，需实验室检测确认的关键逻辑。",
+        "diagnostic_sampling: 未明确列出教材推荐的非洲猪瘟实验室检测样本（如淋巴结、肾、脾、肺、血液和血清），采样建议不够具体。",
+        "data_usability: 回答结构较复杂，部分关键信息（如禁止用药、必须报告）可更突出显示以提高可读性。"
+      ],
+      "missing_anchors": [
+        "用户查询中的“走路不稳”症状未明确关联到具体证据来源。",
+        "诊断部分未明确引用 SRC-0031 说明非洲猪瘟不能仅凭临床症状确诊，必须实验室检测确认。"
+      ],
+      "improvement_actions": [
+        "补充“走路不稳”症状的证据锚定，如关联到非洲猪瘟急性病程中的共济失调表现（若教材有明确描述）。",
+        "在诊断部分明确引用 SRC-0031 说明非洲猪瘟不能仅凭临床症状确诊，必须实验室检测确认。",
+        "在诊断或行动部分明确列出教材推荐的非洲猪瘟实验室检测样本（如淋巴结、肾、脾、肺、血液和血清），提高采样建议的具体性。",
+        "优化回答结构，将关键信息（如禁止用药、必须报告）用加粗或列表形式突出显示，提高可读性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "非洲猪瘟\nregulatory_hard_block\n育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。\n{\"species\": \"猪\", \"user_query\": \"老师您好，我这边的育肥猪现在大概90公斤左右，总共存栏280头。从三天前开始陆续出现高烧，体温测到41℃以上，精神很差，吃料明显减少，今天已经死了6头了，死前皮肤耳朵、腹部都有发紫发青的斑块，有的猪走路不稳。之前没做过什么特殊用药，就是常规保健过一次阿莫西林。我想问问这种情况能不能先打点头孢或者氟苯尼考看看效果？\", \"metadata\": {\"disease_name\": \"非洲猪瘟\", \"case_type\": \"regulatory_hard_block\", \"severity\": \"high\", \"scene_tags\": [\"育肥猪\", \"高热\", \"皮肤发绀\", \"死亡率上升\"], \"required_anchors\": [\"高热\", \"皮肤发绀\", \"死亡率升高\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ],
+      "wiki_context_chars": 6317,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 5,
+      "source_anchors_in_answer": [
+        "A0-MOA-573",
+        "A0-MOA-ASF-NORMALIZED-GUIDE",
+        "RC-ASF-001",
+        "SRC-0019",
+        "SRC-0031"
+      ],
+      "wiki_context_source_count": 4,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 75,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 3.25,
+      "draft_seconds": 6.65,
+      "answer_seconds": 11.0,
+      "judge_seconds": 24.88,
+      "total_seconds": 45.78
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 6.65,
+          "attempts": 1,
+          "api_key_fingerprint": "4ae0cab1a311",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2524,
+            "output_tokens": 163,
+            "total_tokens": 2687,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002019,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000326,
+            "total_cost": 0.002345,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 10.67,
+          "attempts": 1,
+          "api_key_fingerprint": "ca6a04186520",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3249,
+            "output_tokens": 396,
+            "total_tokens": 3645,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002599,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000792,
+            "total_cost": 0.003391,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 24.22,
+          "attempts": 1,
+          "api_key_fingerprint": "1e8b06b345f7",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3855,
+            "output_tokens": 522,
+            "total_tokens": 4377,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003084,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00167,
+            "total_cost": 0.004754,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2524,
+        "output_tokens": 163,
+        "total_tokens": 2687,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3249,
+        "output_tokens": 396,
+        "total_tokens": 3645,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3855,
+        "output_tokens": 522,
+        "total_tokens": 4377,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 2,
+    "case_id": "SWINE10-002",
+    "target": "猪流行性腹泻",
+    "case_type": "diarrhea_case",
+    "task": {
+      "case_id": "SWINE10-002",
+      "target": "猪流行性腹泻",
+      "type": "diarrhea_case",
+      "scenario": "哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是存栏约120头母猪的自繁自养场，最近刚产的一批哺乳仔猪（出生3-7天）从昨天开始陆续出现水样黄色稀粪，有的伴随呕吐，吃奶明显减少，今天已经有好几窝都出现类似情况，同窝内很快传开，个别母猪也有轻度腹泻。之前没有这种情况，圈舍温度湿度正常，近期没换料也没打疫苗。想请教一下这可能是不是猪流行性腹泻？还是TGE、轮状病毒或者大肠杆菌引起的？",
+      "metadata": {
+        "disease_name": "猪流行性腹泻",
+        "case_type": "diarrhea_case",
+        "severity": "中等",
+        "scene_tags": [
+          "哺乳仔猪",
+          "水样腹泻",
+          "同窝传播",
+          "母猪伴发"
+        ],
+        "required_anchors": [
+          "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+          "wiki/syndromes/SYN-001-piglet-diarrhea.md",
+          "wiki/rule_cards/RC-DIARRHEA-001.md"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "哺乳期仔猪急性水样腹泻，同窝迅速传播，母猪伴发轻度腹泻，符合病毒性腹泻综合征特征，需重点考虑猪流行性腹泻（PED）、TGE、轮状病毒及大肠杆菌等多病原混合感染可能。",
+        "differential": [
+          "猪流行性腹泻（PED）：高传染性，哺乳仔猪水样腹泻、呕吐、食欲下降，母猪症状轻或无，可通过RT-PCR检测确诊（source_id: A1-WOAH-PED）。",
+          "TGE：临床表现与PED相似，但多见于寒冷季节，可通过特异性PCR区分（source_id: wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md, PDF page 512）。",
+          "轮状病毒：主要侵害新生仔猪，粪便呈黄色水样，易与其他肠道病原混淆，需实验室检测排除（source_id: wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md, PDF page 739）。",
+          "大肠杆菌（ETEC）：可引起新生仔猪腹泻，但通常伴有明显脱水、败血症，且传播速度相对较慢，需结合细菌培养鉴别（source_id: wiki/diseases/DIS-040-colibacillosis.md, PDF page 831）。"
+        ],
+        "notes": "根据规则卡RC-DIARRHEA-001，应先明确日龄分布、发病率、死亡率、粪便性状、呕吐及脱水情况以分层鉴别（source_id: wiki/rule_cards/RC-DIARRHEA-001.md）。"
+      },
+      "treatment_or_action": {
+        "immediate": "立即隔离发病栏位，加强保温与消毒，减少应激；采集新鲜粪便样本送有资质的实验室进行PED/TGE/轮状病毒RT-PCR及大肠杆菌分离鉴定（source_id: A1-WOAH-PED）。",
+        "supportive": "保证仔猪及时吃到初乳，必要时人工辅助哺乳；补充电解质溶液防止脱水；避免滥用抗生素以防耐药。"
+      },
+      "drug_boundary": "当前无中国批准的PED/TGE特效治疗药物，禁止在未确诊情况下使用任何抗病毒药物或广谱抗生素作为预防（source_id: wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md; source_id: wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md）。",
+      "withdrawal_period_boundary": "因无获批治疗用药，无适用休药期规定；若未来使用兽药须严格遵循产品说明书及国家公告规定的休药期（source_id: A0-MOA-573）。",
+      "metadata": {
+        "evidence_sources": [
+          "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md (PDF page 512)",
+          "wiki/syndromes/SYN-001-piglet-diarrhea.md",
+          "wiki/rule_cards/RC-DIARRHEA-001.md",
+          "A1-WOAH-PED"
+        ],
+        "confidence": "medium",
+        "urgency": "high",
+        "disease_name": "猪流行性腹泻",
+        "case_type": "diarrhea_case",
+        "severity": "中等",
+        "scene_tags": [
+          "哺乳仔猪",
+          "水样腹泻",
+          "同窝传播",
+          "母猪伴发"
+        ],
+        "required_anchors": [
+          "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+          "wiki/syndromes/SYN-001-piglet-diarrhea.md",
+          "wiki/rule_cards/RC-DIARRHEA-001.md"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是存栏约120头母猪的自繁自养场，最近刚产的一批哺乳仔猪（出生3-7天）从昨天开始陆续出现水样黄色稀粪，有的伴随呕吐，吃奶明显减少，今天已经有好几窝都出现类似情况，同窝内很快传开，个别母猪也有轻度腹泻。之前没有这种情况，圈舍温度湿度正常，近期没换料也没打疫苗。想请教一下这可能是不是猪流行性腹泻？还是TGE、轮状病毒或者大肠杆菌引起的？"
+    },
+    "judge": {
+      "total_score": 80,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": {
+        "evidence_anchoring": [
+          "鉴别诊断中明确列出了PED、TGE、轮状病毒和大肠杆菌，并引用了相关来源（如A1-WOAH-PED、PDF page 512等）",
+          "引用了规则卡RC-DIARRHEA-001，强调分层鉴别的重要性",
+          "治疗建议中明确指出无中国批准的PED/TGE特效治疗药物，禁止滥用抗生素，符合来源（wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md; source_id: wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md）"
+        ],
+        "clinical_reasoning": [
+          "详细描述了哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻的临床表现",
+          "鉴别诊断中考虑了PED、TGE、轮状病毒和大肠杆菌，并分析了各自的临床特征",
+          "治疗建议中包括隔离、保温、消毒、实验室检测等合理措施"
+        ],
+        "regulatory_safety": [
+          "明确指出无中国批准的PED/TGE特效治疗药物，禁止在未确诊情况下使用抗病毒药物或广谱抗生素作为预防",
+          "提到若未来使用兽药须严格遵循产品说明书及国家公告规定的休药期，符合来源（A0-MOA-573）"
+        ],
+        "drug_boundary": [
+          "明确禁止在未确诊情况下使用任何抗病毒药物或广谱抗生素作为预防，符合来源要求"
+        ],
+        "diagnostic_sampling": [
+          "建议采集新鲜粪便样本送有资质的实验室进行PED/TGE/轮状病毒RT-PCR及大肠杆菌分离鉴定，符合诊断流程"
+        ],
+        "data_usability": [
+          "提供了详细的临床信息、鉴别诊断、治疗建议和实验室检测方案，对实际生产有指导意义"
+        ]
+      },
+      "weaknesses": {
+        "evidence_anchoring": [
+          "部分引用来源未明确标注具体内容或页码（如wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md）",
+          "大肠杆菌的引用来源（wiki/diseases/DIS-040-colibacillosis.md, PDF page 831）未在上下文中明确体现其相关性"
+        ],
+        "clinical_reasoning": [
+          "未明确提及日龄分布、发病率、死亡率等关键分层鉴别信息，尽管在notes中提到需明确这些信息"
+        ],
+        "regulatory_safety": [
+          "未提及非洲猪瘟（ASF）或口蹄疫（FMD）等高致病性疫病的排查要求，尽管当前场景不直接涉及，但作为全面评估可补充"
+        ],
+        "drug_boundary": [
+          "未明确提及休药期规定的具体来源或内容，仅提到需遵循产品说明书及国家公告"
+        ],
+        "diagnostic_sampling": [
+          "未提及采样数量、采样方法或保存条件等具体操作细节"
+        ],
+        "data_usability": [
+          "部分信息（如confidence、urgency）较为主观，缺乏客观量化指标支持"
+        ]
+      },
+      "missing_anchors": [
+        "大肠杆菌的引用来源（wiki/diseases/DIS-040-colibacillosis.md）未在上下文中明确体现其与当前病例的直接相关性",
+        "轮状病毒的引用来源（wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md, PDF page 739）未明确提及具体诊断或治疗信息"
+      ],
+      "improvement_actions": [
+        "补充日龄分布、发病率、死亡率等关键分层鉴别信息，并明确标注来源",
+        "细化采样方案，包括采样数量、方法、保存条件等",
+        "明确休药期规定的具体来源或内容，增强监管合规性",
+        "优化confidence、urgency等主观信息的评估方法，增加客观量化指标",
+        "检查并补充所有引用来源的具体内容或页码，确保可追溯性"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪流行性腹泻\ndiarrhea_case\n哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。\n{\"species\": \"猪\", \"user_query\": \"我家是存栏约120头母猪的自繁自养场，最近刚产的一批哺乳仔猪（出生3-7天）从昨天开始陆续出现水样黄色稀粪，有的伴随呕吐，吃奶明显减少，今天已经有好几窝都出现类似情况，同窝内很快传开，个别母猪也有轻度腹泻。之前没有这种情况，圈舍温度湿度正常，近期没换料也没打疫苗。想请教一下这可能是不是猪流行性腹泻？还是TGE、轮状病毒或者大肠杆菌引起的？\", \"metadata\": {\"disease_name\": \"猪流行性腹泻\", \"case_type\": \"diarrhea_case\", \"severity\": \"中等\", \"scene_tags\": [\"哺乳仔猪\", \"水样腹泻\", \"同窝传播\", \"母猪伴发\"], \"required_anchors\": [\"wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md\", \"wiki/syndromes/SYN-001-piglet-diarrhea.md\", \"wiki/rule_cards/RC-DIARRHEA-001.md\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ],
+      "wiki_context_chars": 6578,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 3,
+      "source_anchors_in_answer": [
+        "A0-MOA-573",
+        "A1-WOAH-PED",
+        "RC-DIARRHEA-001"
+      ],
+      "wiki_context_source_count": 12,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 80,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 2.76,
+      "draft_seconds": 8.74,
+      "answer_seconds": 15.97,
+      "judge_seconds": 36.84,
+      "total_seconds": 64.31
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.74,
+          "attempts": 1,
+          "api_key_fingerprint": "232377ce6842",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2549,
+            "output_tokens": 253,
+            "total_tokens": 2802,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002039,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000506,
+            "total_cost": 0.002545,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 14.47,
+          "attempts": 1,
+          "api_key_fingerprint": "75595635c32e",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3184,
+            "output_tokens": 656,
+            "total_tokens": 3840,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002547,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001312,
+            "total_cost": 0.003859,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 35.47,
+          "attempts": 1,
+          "api_key_fingerprint": "13cbb25a8cc3",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4297,
+            "output_tokens": 884,
+            "total_tokens": 5181,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003438,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002829,
+            "total_cost": 0.006266,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2549,
+        "output_tokens": 253,
+        "total_tokens": 2802,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3184,
+        "output_tokens": 656,
+        "total_tokens": 3840,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4297,
+        "output_tokens": 884,
+        "total_tokens": 5181,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 3,
+    "case_id": "SWINE10-003",
+    "target": "猪大肠杆菌病",
+    "case_type": "diarrhea_treatment_boundary",
+    "task": {
+      "case_id": "SWINE10-003",
+      "target": "猪大肠杆菌病",
+      "type": "diarrhea_treatment_boundary",
+      "scenario": "断奶后一周腹泻、脱水、部分死亡，用户询问能否直接全群用抗菌药和休药期。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是商品猪场，这批刚断奶一周左右的小猪，大概有300多头，这几天陆续出现拉稀的情况，粪便偏黄绿色水样，有的小猪精神差、不吃料，还有几头已经脱水站不起来甚至死亡了。之前没用过什么药，现在想问能不能直接给全群投喂抗菌药？另外如果用了药，多久才能出栏或者卖猪？",
+      "metadata": {
+        "disease_name": "猪大肠杆菌病",
+        "case_type": "diarrhea_treatment_boundary",
+        "severity": "moderate_to_high",
+        "scene_tags": [
+          "断奶后腹泻",
+          "群体发病",
+          "脱水",
+          "死亡"
+        ],
+        "required_anchors": [
+          "SRC-0063",
+          "SRC-0064"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "猪大肠杆菌病（断奶后腹泻型）",
+        "evidence": [
+          "断奶后腹泻最常由ETEC引起，也可由EPEC引起（source=SRC-0063）",
+          "E. coli可导致菌血症及肠外感染（source=SRC-0064）"
+        ],
+        "differential": [
+          "胞内劳森菌肠炎",
+          "沙门氏菌病",
+          "短螺旋体病（猪痢疾）"
+        ]
+      },
+      "treatment_or_action": {
+        "immediate": [
+          "隔离重症个体，补充电解质和饮水，防止脱水加重",
+          "采集病死猪组织样本进行实验室检测，明确病原种类及药敏结果（source=SRC-0064）"
+        ],
+        "medication": "在未获得病原鉴定及药敏前，不建议对全群直接使用抗菌药（source=SRC-0064）。若后续检测结果支持且符合当地法规，可在兽医指导下制定针对性用药方案。"
+      },
+      "drug_boundary": {
+        "boundary_statement": "任何抗菌药的使用必须符合中国兽药管理法规，依据官方标签或A0/A1级别监管文件确定品种、剂量、疗程和给药途径（RC-DRUG-001）。当前缺乏中国A0/A1来源，无法给出具体药物名称、剂量或疗程。",
+        "hard_block_triggered": false
+      },
+      "withdrawal_period_boundary": {
+        "boundary_statement": "休药期须依据中国批准的药品说明书或农业农村部公告确定，当前无A0/A1来源，无法承诺具体休药期或出栏时间（RC-DRUG-001）。"
+      },
+      "metadata": {
+        "disease_name": "猪大肠杆菌病",
+        "case_type": "diarrhea_treatment_boundary",
+        "severity": "moderate_to_high",
+        "scene_tags": [
+          "断奶后腹泻",
+          "群体发病",
+          "脱水",
+          "死亡"
+        ],
+        "sources_used": [
+          "SRC-0063",
+          "SRC-0064"
+        ],
+        "required_anchors": [
+          "SRC-0063",
+          "SRC-0064"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是商品猪场，这批刚断奶一周左右的小猪，大概有300多头，这几天陆续出现拉稀的情况，粪便偏黄绿色水样，有的小猪精神差、不吃料，还有几头已经脱水站不起来甚至死亡了。之前没用过什么药，现在想问能不能直接给全群投喂抗菌药？另外如果用了药，多久才能出栏或者卖猪？"
+    },
+    "judge": {
+      "total_score": 72,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": [
+        "诊断锚定了断奶后腹泻的常见病原（ETEC/EPEC）并列出鉴别诊断（胞内劳森菌、沙门氏菌、短螺旋体病），符合SRC-0063/SRC-0064的证据要求",
+        "治疗建议优先隔离重症个体、补充电解质和饮水，符合临床合理性（SRC-0064）",
+        "明确要求采集样本进行实验室检测以明确病原及药敏，符合诊断采样规范（SRC-0064）",
+        "抗菌药使用边界清晰：强调需病原鉴定+药敏结果+兽医指导，符合RC-DRUG-001的硬性规则",
+        "休药期边界明确：声明需依据中国批准的药品说明书或农业农村部公告，符合RC-DRUG-001的硬性规则"
+      ],
+      "weaknesses": [
+        "evidence_anchoring扣分：未充分引用SRC-0017（断奶后腹泻鉴别可包括大肠杆菌、胞内劳森菌、沙门氏菌、短螺旋体等）强化鉴别诊断的全面性",
+        "clinical_reasoning扣分：未说明全群直接使用抗菌药可能加剧耐药性风险（如猪痢疾中pleuromutilin耐药性增加的教训，SRC-0077）",
+        "regulatory_safety扣分：未明确提示农业农村部公告第250号禁止使用的药品清单（A0-MOA-BANNED-DRUG-250-NOTICE）需在用药前核查",
+        "data_usability扣分：未提供用户可操作的临时缓解措施（如口服补液盐配方或饮水消毒建议）"
+      ],
+      "missing_anchors": [
+        "SRC-0017（用于强化鉴别诊断的全面性）",
+        "SRC-0077（用于说明耐药性风险）",
+        "A0-MOA-BANNED-DRUG-250-NOTICE（用于强调禁用药核查）"
+      ],
+      "improvement_actions": [
+        "补充SRC-0017的引用，明确列出鉴别诊断的完整病原体列表",
+        "增加耐药性风险提示段落，引用SRC-0077中猪痢疾耐药性增加的案例",
+        "在监管边界部分加入农业农村部公告第250号的核查要求",
+        "补充临时缓解措施（如口服补液盐配方：氯化钠3.5g+氯化钾1.5g+碳酸氢钠2.5g+葡萄糖20g/L饮水）"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪大肠杆菌病\ndiarrhea_treatment_boundary\n断奶后一周腹泻、脱水、部分死亡，用户询问能否直接全群用抗菌药和休药期。\n{\"species\": \"猪\", \"user_query\": \"我家是商品猪场，这批刚断奶一周左右的小猪，大概有300多头，这几天陆续出现拉稀的情况，粪便偏黄绿色水样，有的小猪精神差、不吃料，还有几头已经脱水站不起来甚至死亡了。之前没用过什么药，现在想问能不能直接给全群投喂抗菌药？另外如果用了药，多久才能出栏或者卖猪？\", \"metadata\": {\"disease_name\": \"猪大肠杆菌病\", \"case_type\": \"diarrhea_treatment_boundary\", \"severity\": \"moderate_to_high\", \"scene_tags\": [\"断奶后腹泻\", \"群体发病\", \"脱水\", \"死亡\"], \"required_anchors\": [\"SRC-0063\", \"SRC-0064\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 8,
+        "NEEDS_REVIEW": 6
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0015",
+        "SRC-0017",
+        "SRC-0025",
+        "SRC-0052",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0085",
+        "SRC-0086"
+      ],
+      "wiki_context_chars": 6046,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0015",
+        "SRC-0017",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0070"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 3,
+      "source_anchors_in_answer": [
+        "RC-DRUG-001",
+        "SRC-0063",
+        "SRC-0064"
+      ],
+      "wiki_context_source_count": 9,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 72,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 1.82,
+      "draft_seconds": 8.54,
+      "answer_seconds": 11.43,
+      "judge_seconds": 26.45,
+      "total_seconds": 48.25
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.54,
+          "attempts": 1,
+          "api_key_fingerprint": "7b8b49842efc",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2528,
+            "output_tokens": 197,
+            "total_tokens": 2725,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002022,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000394,
+            "total_cost": 0.002416,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 10.71,
+          "attempts": 1,
+          "api_key_fingerprint": "d86bf62fd68d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3019,
+            "output_tokens": 444,
+            "total_tokens": 3463,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002415,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000888,
+            "total_cost": 0.003303,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 25.78,
+          "attempts": 1,
+          "api_key_fingerprint": "408f1ccf2d63",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3926,
+            "output_tokens": 562,
+            "total_tokens": 4488,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003141,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001798,
+            "total_cost": 0.004939,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2528,
+        "output_tokens": 197,
+        "total_tokens": 2725,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3019,
+        "output_tokens": 444,
+        "total_tokens": 3463,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3926,
+        "output_tokens": 562,
+        "total_tokens": 4488,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 4,
+    "case_id": "SWINE10-004",
+    "target": "猪胸膜肺炎",
+    "case_type": "respiratory_case",
+    "task": {
+      "case_id": "SWINE10-004",
+      "target": "猪胸膜肺炎",
+      "type": "respiratory_case",
+      "scenario": "保育猪急性咳喘、死亡、剖检胸膜炎和出血坏死性肺炎，要求给出诊断和采样。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家保育舍有200多头60日龄左右的仔猪，这几天陆续出现咳嗽、呼吸急促的情况，个别猪精神沉郁不吃料，昨天开始有3头突然死亡。今天早上又死了2头，死前体温都很高，呼吸困难明显。剖检看到肺部有大片出血、坏死区域，还有纤维素性胸膜炎。之前用过一些抗生素拌料，但效果不明显。这种情况是不是胸膜肺炎？接下来该怎么采样送检？",
+      "metadata": {
+        "disease_name": "猪胸膜肺炎",
+        "case_type": "respiratory_case",
+        "severity": "severe",
+        "scene_tags": [
+          "保育猪",
+          "急性咳喘",
+          "死亡",
+          "剖检出血坏死性肺炎",
+          "纤维素性胸膜炎"
+        ],
+        "required_anchors": [
+          "急性病变包括出血、坏死、易碎肺组织和纤维素性胸膜炎",
+          "优先选择未治疗、急性发病的个体进行采样"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据临床症状（保育猪急性咳喘、高热、部分死亡）及剖检所见（大片出血、坏死肺组织伴纤维素性胸膜炎），符合猪胸膜肺炎（Actinobacillus pleuropneumoniae pleuropneumonia）的典型急性病变特征。依据：source=SRC-0058（App 急性病变包括出血、坏死、易碎肺组织和纤维素性胸膜炎）。",
+      "treatment_or_action": "建议立即隔离病猪，暂停使用未经药敏指导的抗生素。在采样前应停止投喂抗菌药物至少48小时，以确保病原检出率。采样对象应优先选择急性发病、未接受抗菌药治疗且具有代表性的个体，并优先剖检死亡猪，必要时补充选取活体急性病例。依据：source=SRC-0003（优先选择未治疗、急性发病个体进行采样）；source=SRC-0009（优先选择急性受影响且未治疗动物）。",
+      "drug_boundary": "目前缺乏针对本场菌株的药敏数据及中国批准的处方信息，无法提供具体药物名称、剂量、疗程或给药途径。任何抗菌治疗须基于培养鉴定及药敏试验结果方可实施。依据：RULE-057（抗菌治疗目标应匹配诊断药敏病变和代表性病例）。",
+      "withdrawal_period_boundary": "因无获批药物信息和药敏支持，无法确定休药期及残留合格承诺。任何涉及上市猪肉的药物使用必须符合中国兽药管理法规并有明确休药期标注。",
+      "metadata": {
+        "disease_name": "猪胸膜肺炎",
+        "case_type": "respiratory_case",
+        "severity": "severe",
+        "scene_tags": [
+          "保育猪",
+          "急性咳喘",
+          "死亡",
+          "剖检出血坏死性肺炎",
+          "纤维素性胸膜炎"
+        ],
+        "evidence_anchors": [
+          "source=SRC-0058 — App 急性病变包括出血、坏死、易碎肺组织和纤维素性胸膜炎",
+          "source=SRC-0003 — 优先选择未治疗、急性发病个体进行采样（PDF page 33）",
+          "source=SRC-0009 — 优先选择急性受影响且未治疗动物（PDF page 123-124）",
+          "RULE-057 — 抗菌治疗目标应匹配诊断药敏病变和代表性病例（SRC-0012，PDF page 183）"
+        ],
+        "required_anchors": [
+          "急性病变包括出血、坏死、易碎肺组织和纤维素性胸膜炎",
+          "优先选择未治疗、急性发病的个体进行采样"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家保育舍有200多头60日龄左右的仔猪，这几天陆续出现咳嗽、呼吸急促的情况，个别猪精神沉郁不吃料，昨天开始有3头突然死亡。今天早上又死了2头，死前体温都很高，呼吸困难明显。剖检看到肺部有大片出血、坏死区域，还有纤维素性胸膜炎。之前用过一些抗生素拌料，但效果不明显。这种情况是不是胸膜肺炎？接下来该怎么采样送检？"
+    },
+    "judge": {
+      "total_score": 90,
+      "final_label": "pass",
+      "fatal_risk": false,
+      "strengths": [
+        "诊断与剖检病变高度匹配猪胸膜肺炎的典型急性特征（出血、坏死、纤维素性胸膜炎），证据锚定充分（SRC-0058）。",
+        "采样建议严格遵循急性未治疗个体优先原则（SRC-0003、SRC-0009），符合临床诊断采样规范。",
+        "明确区分药敏缺失下的治疗边界，强调抗菌治疗需基于培养鉴定及药敏结果（RULE-057），避免经验性用药风险。",
+        "休药期声明符合中国法规要求，强调无获批信息时不得随意用药，规避残留风险。"
+      ],
+      "weaknesses": [
+        "未提及胸膜肺炎放线杆菌（App）的病原鉴定方法（如PCR或分型），可能影响确诊准确性。",
+        "未补充群体发病率、死亡率的流行病学数据，对疫情规模评估支持不足。",
+        "未说明采样后如何保存及运输样本（如冷藏、无菌容器），可能影响实验室检测结果。"
+      ],
+      "missing_anchors": [],
+      "improvement_actions": [
+        "在诊断部分补充App的病原检测建议（如肺组织PCR或细菌分离鉴定），强化确诊依据。",
+        "在采样建议中增加流行病学数据收集（如记录发病猪数量、日龄分布、死亡率），完善疫情评估。",
+        "补充样本保存及运输要求（如4℃冷藏、无菌离心管），确保检测有效性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪胸膜肺炎\nrespiratory_case\n保育猪急性咳喘、死亡、剖检胸膜炎和出血坏死性肺炎，要求给出诊断和采样。\n{\"species\": \"猪\", \"user_query\": \"我家保育舍有200多头60日龄左右的仔猪，这几天陆续出现咳嗽、呼吸急促的情况，个别猪精神沉郁不吃料，昨天开始有3头突然死亡。今天早上又死了2头，死前体温都很高，呼吸困难明显。剖检看到肺部有大片出血、坏死区域，还有纤维素性胸膜炎。之前用过一些抗生素拌料，但效果不明显。这种情况是不是胸膜肺炎？接下来该怎么采样送检？\", \"metadata\": {\"disease_name\": \"猪胸膜肺炎\", \"case_type\": \"respiratory_case\", \"severity\": \"severe\", \"scene_tags\": [\"保育猪\", \"急性咳喘\", \"死亡\", \"剖检出血坏死性肺炎\", \"纤维素性胸膜炎\"], \"required_anchors\": [\"急性病变包括出血、坏死、易碎肺组织和纤维素性胸膜炎\", \"优先选择未治疗、急性发病的个体进行采样\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0020",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0058",
+        "SRC-0069"
+      ],
+      "wiki_context_chars": 6185,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0012",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0058",
+        "SRC-0066",
+        "SRC-0069"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 4,
+      "source_anchors_in_answer": [
+        "SRC-0003",
+        "SRC-0009",
+        "SRC-0012",
+        "SRC-0058"
+      ],
+      "wiki_context_source_count": 9,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 90,
+      "judge_label": "pass"
+    },
+    "stage_times": {
+      "context_seconds": 2.25,
+      "draft_seconds": 8.66,
+      "answer_seconds": 15.08,
+      "judge_seconds": 19.61,
+      "total_seconds": 45.61
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.66,
+          "attempts": 1,
+          "api_key_fingerprint": "8a1384ec8046",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2306,
+            "output_tokens": 221,
+            "total_tokens": 2527,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001845,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000442,
+            "total_cost": 0.002287,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 13.47,
+          "attempts": 1,
+          "api_key_fingerprint": "089989b20091",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3126,
+            "output_tokens": 518,
+            "total_tokens": 3644,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002501,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001036,
+            "total_cost": 0.003537,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 18.56,
+          "attempts": 1,
+          "api_key_fingerprint": "8a1384ec8046",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3662,
+            "output_tokens": 333,
+            "total_tokens": 3995,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.00293,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001066,
+            "total_cost": 0.003995,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2306,
+        "output_tokens": 221,
+        "total_tokens": 2527,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3126,
+        "output_tokens": 518,
+        "total_tokens": 3644,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3662,
+        "output_tokens": 333,
+        "total_tokens": 3995,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 5,
+    "case_id": "SWINE10-005",
+    "target": "猪支原体肺炎",
+    "case_type": "respiratory_differential",
+    "task": {
+      "case_id": "SWINE10-005",
+      "target": "猪支原体肺炎",
+      "type": "respiratory_differential",
+      "scenario": "慢性咳嗽、低死亡率、生长迟缓、通风差，要求区分支原体、PRRS、巴氏杆菌和环境因素。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家有120头80日龄左右保育猪，最近一个多月陆续出现干咳、呼吸稍快的情况，体温大多正常，但采食量下降明显，长得慢，有几头瘦得厉害。圈舍通风不太好，湿度高，粪便偏湿。之前怀疑过PRRS，也测过一次阴性，用过几天阿莫西林，没见明显改善。想请教一下这种情况是不是支原体肺炎？还是可能跟巴氏杆菌或者环境问题有关？",
+      "metadata": {
+        "disease_name": "猪支原体肺炎",
+        "case_type": "respiratory_differential",
+        "severity": "moderate",
+        "scene_tags": [
+          "chronic_cough",
+          "poor_growth",
+          "low_mortality",
+          "ventilation_issue"
+        ],
+        "required_anchors": [
+          "differentiate_M_hyopneumoniae_PRRS_P_multocida_environmental"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "当前猪群慢性咳嗽、低死亡率、生长迟缓，结合通风差、湿度高、粪便偏湿的环境条件，以及阿莫西林治疗无效、PRRSV检测阴性结果，需重点鉴别猪肺炎支原体（M. hyopneumoniae）、巴氏杆菌（P. multocida）感染及环境因素（通风不良、湿度过高）的单独或协同作用。依据猪支原体肺炎属于细菌病/呼吸道病（source=SRC-0001, PDF page 887），且PRRSV鉴别诊断需覆盖主要呼吸道病原（source=SRC-0049, PDF page 720），当前症状不符合PRRSV典型表现（如高热、高死亡率、母猪繁殖障碍），且已排除PRRSV急性感染可能。",
+      "treatment_or_action": "1. 采样建议：采集咳嗽猪的深部鼻拭子或肺泡灌洗液，进行支原体PCR检测（优先）及巴氏杆菌培养；同步检测环境空气质量（氨气、粉尘浓度）及温湿度记录。2. 环境管理：立即改善通风（增加机械通风频率、清理粪污），维持相对湿度50-70%，减少呼吸道刺激。3. 鉴别用药：若确诊支原体肺炎，可选用经中国批准的支原体敏感药物（如替米考星、泰妙菌素），但需等待检测结果确认；若巴氏杆菌阳性，需根据药敏选择β-内酰胺类或氟喹诺酮类（需符合中国兽药使用规定）。4. 猪流控制：参考慢性PRRSV感染猪群的猪流策略（如全进全出、减少混群），降低环境病原载量。",
+      "drug_boundary": "未完成支原体PCR及巴氏杆菌培养前，不得直接使用替米考星、泰妙菌素、阿莫西林、恩诺沙星等抗菌药物；若检测确认支原体感染，用药需符合中国《兽药管理条例》及农业部公告第2513号规定的剂量、疗程和休药期。",
+      "withdrawal_period_boundary": "未通过检测明确病原前，不得承诺任何药物的休药期或残留合格；若后续使用经批准的支原体或巴氏杆菌药物，需严格按产品说明书标注的休药期执行，并留存用药记录备查。",
+      "metadata": {
+        "disease_name": "猪支原体肺炎",
+        "case_type": "respiratory_differential",
+        "severity": "moderate",
+        "scene_tags": [
+          "chronic_cough",
+          "poor_growth",
+          "low_mortality",
+          "ventilation_issue"
+        ],
+        "required_anchors": [
+          "differentiate_M_hyopneumoniae_PRRS_P_multocida_environmental"
+        ],
+        "key_evidence": [
+          {
+            "text": "猪支原体肺炎属于细菌病/呼吸道病",
+            "source_id": "SRC-0001",
+            "PDF page": 887
+          },
+          {
+            "text": "PRRSV鉴别诊断需覆盖主要呼吸道病原（CSFV、PCMV、PHEV、钩端螺旋体、PPV、PCV2、PRV、猪流感、teschovirus等）",
+            "source_id": "SRC-0049",
+            "PDF page": 720
+          },
+          {
+            "text": "慢性PRRSV感染猪群控制强调分娩舍McREBEL、全进全出或部分清群等猪流策略",
+            "source_id": "SRC-0050",
+            "rule_card": "chronically_infected_herds_are_managed_by_pig_flow_strategies"
+          }
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家有120头80日龄左右保育猪，最近一个多月陆续出现干咳、呼吸稍快的情况，体温大多正常，但采食量下降明显，长得慢，有几头瘦得厉害。圈舍通风不太好，湿度高，粪便偏湿。之前怀疑过PRRS，也测过一次阴性，用过几天阿莫西林，没见明显改善。想请教一下这种情况是不是支原体肺炎？还是可能跟巴氏杆菌或者环境问题有关？"
+    },
+    "judge": {
+      "total_score": 85,
+      "final_label": "pass",
+      "fatal_risk": false,
+      "strengths": [
+        "鉴别诊断覆盖全面：明确区分了猪肺炎支原体（M. hyopneumoniae）、巴氏杆菌（P. multocida）及环境因素（通风不良、湿度过高），符合呼吸道鉴别诊断需覆盖感染、环境等核心要素的要求（证据：RC-RESP-001, SRC-0042-SRC-0050）。",
+        "诊断逻辑清晰：结合临床症状（慢性咳嗽、低死亡率、生长迟缓）、环境条件（通风差、湿度高）及检测结果（PRRSV阴性、阿莫西林无效），排除PRRSV急性感染并聚焦细菌与环境协同作用，符合PRRSV鉴别诊断需覆盖主要呼吸道病原的规则（证据：SRC-0049, PDF page 720）。",
+        "采样建议合理：优先推荐深部鼻拭子或肺泡灌洗液的支原体PCR检测及巴氏杆菌培养，同步检测环境空气质量（氨气、粉尘浓度）和温湿度，覆盖病原检测与环境评估双维度，符合诊断采样规范。",
+        "用药边界明确：强调未完成检测前不得直接使用替米考星、泰妙菌素等抗菌药物，明确检测确认支原体感染后需符合中国《兽药管理条例》及农业部公告第2513号规定的剂量、疗程和休药期，符合药物使用监管要求。",
+        "环境管理具体：提出立即改善通风（增加机械通风频率、清理粪污）、维持相对湿度50-70%等可操作措施，直接针对环境风险因素（通风不良、湿度过高），符合环境控制逻辑。",
+        "猪流控制参考合理：建议参考慢性PRRSV感染猪群的猪流策略（如全进全出、减少混群）降低环境病原载量，虽原规则针对PRRSV，但延伸至环境病原控制场景具有合理性（证据：SRC-0050）。"
+      ],
+      "weaknesses": [
+        "巴氏杆菌病鉴别深度不足：虽提及巴氏杆菌培养，但未引用肺炎型巴氏杆菌病通常需呼吸道防御受损或原发病原/环境因素参与的规则（证据：SRC-0070），未明确当前环境（通风差、湿度高）与巴氏杆菌感染的潜在关联。",
+        "Teschovirus鉴别未覆盖：用户场景未提及Teschovirus，但任务要求区分支原体、PRRS、巴氏杆菌和环境因素，未主动排除Teschovirus等非目标病原的鉴别必要性（证据：RULE-261, SRC-0048），存在潜在鉴别盲区。",
+        "药物选择依据未锚定：提及替米考星、泰妙菌素为支原体敏感药物，但未引用具体证据（如药敏试验数据或中国兽药典支持），药物选择依据的证据锚定性不足。",
+        "休药期执行细节缺失：虽强调按产品说明书标注的休药期执行并留存用药记录，但未提及如何向用户解释休药期对食品安全的重要性（如猪肉残留检测合规性），用户沟通细节不足。"
+      ],
+      "missing_anchors": [
+        "肺炎型巴氏杆菌病前置条件证据：未引用‘肺炎型P. multocida通常需呼吸道防御受损或原发病原/环境因素参与’的规则（SRC-0070），削弱巴氏杆菌与环境因素关联的论证强度。",
+        "Teschovirus鉴别边界证据：未引用‘Teschovirus检出不得自动等同临床病因’的规则（RULE-261, SRC-0048），未主动排除Teschovirus等非目标病原的干扰，鉴别诊断完整性存疑。",
+        "支原体药物选择证据：未提供替米考星、泰妙菌素对支原体敏感的具体证据（如中国兽药典或药敏试验数据），药物选择依据的权威性不足。"
+      ],
+      "improvement_actions": [
+        "补充巴氏杆菌病与环境因素的关联证据：在诊断逻辑中引用‘肺炎型P. multocida通常需呼吸道防御受损或原发病原/环境因素参与’的规则（SRC-0070），明确当前通风差、湿度高的环境条件可能增加巴氏杆菌感染风险。",
+        "增加Teschovirus鉴别排除说明：在鉴别诊断中主动提及‘Teschovirus检出不得自动等同临床病因’的规则（RULE-261, SRC-0048），说明当前症状更符合支原体或巴氏杆菌感染特征，排除Teschovirus干扰。",
+        "锚定支原体药物选择依据：补充替米考星、泰妙菌素对支原体敏感的具体证据（如中国兽药典或权威药敏试验数据），增强药物选择建议的权威性。",
+        "完善休药期用户沟通：在休药期执行建议中增加‘休药期是确保猪肉中药物残留符合食品安全标准的关键措施，需严格按说明书执行并留存记录以备监管核查’的说明，提升用户合规意识。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪支原体肺炎\nrespiratory_differential\n慢性咳嗽、低死亡率、生长迟缓、通风差，要求区分支原体、PRRS、巴氏杆菌和环境因素。\n{\"species\": \"猪\", \"user_query\": \"我家有120头80日龄左右保育猪，最近一个多月陆续出现干咳、呼吸稍快的情况，体温大多正常，但采食量下降明显，长得慢，有几头瘦得厉害。圈舍通风不太好，湿度高，粪便偏湿。之前怀疑过PRRS，也测过一次阴性，用过几天阿莫西林，没见明显改善。想请教一下这种情况是不是支原体肺炎？还是可能跟巴氏杆菌或者环境问题有关？\", \"metadata\": {\"disease_name\": \"猪支原体肺炎\", \"case_type\": \"respiratory_differential\", \"severity\": \"moderate\", \"scene_tags\": [\"chronic_cough\", \"poor_growth\", \"low_mortality\", \"ventilation_issue\"], \"required_anchors\": [\"differentiate_M_hyopneumoniae_PRRS_P_multocida_environmental\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0026",
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0069",
+        "SRC-0076"
+      ],
+      "wiki_context_chars": 6446,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0026",
+        "SRC-0069",
+        "SRC-0070"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 3,
+      "source_anchors_in_answer": [
+        "SRC-0001",
+        "SRC-0049",
+        "SRC-0050"
+      ],
+      "wiki_context_source_count": 6,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 85,
+      "judge_label": "pass"
+    },
+    "stage_times": {
+      "context_seconds": 2.57,
+      "draft_seconds": 8.23,
+      "answer_seconds": 48.5,
+      "judge_seconds": 48.48,
+      "total_seconds": 107.77
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "ERNIE-4.5-Turbo-32K",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.23,
+          "attempts": 1,
+          "api_key_fingerprint": "13cbb25a8cc3",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2668,
+            "output_tokens": 214,
+            "total_tokens": 2882,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002134,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000428,
+            "total_cost": 0.002562,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 14.03,
+          "attempts": 1,
+          "api_key_fingerprint": "8798281415b6",
+          "error_category": "",
+          "error": "",
+          "parsed_json": false,
+          "has_required_json": false,
+          "usage": {
+            "input_tokens": 3287,
+            "output_tokens": 547,
+            "total_tokens": 3834,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.00263,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001094,
+            "total_cost": 0.003724,
+            "currency": "CNY"
+          }
+        },
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 33.46,
+          "attempts": 1,
+          "api_key_fingerprint": "8cb453872788",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3429,
+            "output_tokens": 780,
+            "total_tokens": 4209,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002743,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002496,
+            "total_cost": 0.005239,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 47.38,
+          "attempts": 1,
+          "api_key_fingerprint": "75595635c32e",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4276,
+            "output_tokens": 1031,
+            "total_tokens": 5307,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003421,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.003299,
+            "total_cost": 0.00672,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2668,
+        "output_tokens": 214,
+        "total_tokens": 2882,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3429,
+        "output_tokens": 780,
+        "total_tokens": 4209,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4276,
+        "output_tokens": 1031,
+        "total_tokens": 5307,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 6,
+    "case_id": "SWINE10-006",
+    "target": "猪痢疾",
+    "case_type": "drug_interaction_boundary",
+    "task": {
+      "case_id": "SWINE10-006",
+      "target": "猪痢疾",
+      "type": "drug_interaction_boundary",
+      "scenario": "育肥猪血痢，用户已有泰妙菌素和含离子载体饲料，询问能否一起用。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家有200多头80日龄左右的育肥猪，最近几天陆续出现拉稀带血的情况，粪便里还有黏液，有的猪精神还可以但采食量下降。之前用过泰妙菌素拌料，现在这批猪一直喂的是含有某种离子载体的饲料。我想问下，这种情况下能不能继续把泰妙菌素加到饲料里一起用？会不会有什么问题？",
+      "metadata": {
+        "disease_name": "猪痢疾",
+        "case_type": "drug_interaction_boundary",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "血痢",
+          "泰妙菌素",
+          "离子载体饲料"
+        ],
+        "required_anchors": [
+          "swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea",
+          "swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes",
+          "is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "猪痢疾",
+        "confidence": "moderate",
+        "supporting_evidence": [
+          "swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea",
+          "swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes"
+        ]
+      },
+      "treatment_or_action": {
+        "recommendation": "不建议将泰妙菌素与含离子载体的饲料同时使用。猪对离子载体类药物具有高度敏感性，而泰妙菌素会显著增强其毒性，可能导致拒食、腹泻、呼吸困难、步态异常、共济失调、肌红蛋白尿甚至猝死等严重后果。",
+        "reasoning": "根据已知毒理学交互作用，泰妙菌素与离子载体合用存在致命风险，因此必须避免联合使用。"
+      },
+      "drug_boundary": {
+        "tiamulin": {
+          "interaction_risk": "high",
+          "contraindicated_with": "ionophores",
+          "source": "is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death"
+        }
+      },
+      "withdrawal_period_boundary": {
+        "note": "因缺乏中国注册标签信息，无法提供具体休药期或残留合格承诺。"
+      },
+      "metadata": {
+        "disease_name": "猪痢疾",
+        "case_type": "drug_interaction_boundary",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "血痢",
+          "泰妙菌素",
+          "离子载体饲料"
+        ],
+        "required_anchors_used": [
+          "swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea",
+          "swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes",
+          "is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death"
+        ],
+        "required_anchors": [
+          "swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea",
+          "swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes",
+          "is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家有200多头80日龄左右的育肥猪，最近几天陆续出现拉稀带血的情况，粪便里还有黏液，有的猪精神还可以但采食量下降。之前用过泰妙菌素拌料，现在这批猪一直喂的是含有某种离子载体的饲料。我想问下，这种情况下能不能继续把泰妙菌素加到饲料里一起用？会不会有什么问题？"
+    },
+    "judge": {
+      "total_score": 85,
+      "final_label": "pass",
+      "fatal_risk": false,
+      "strengths": {
+        "evidence_anchoring": [
+          "正确引用了泰妙菌素与离子载体合用的毒理学交互作用证据（is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death），明确指出合用存在致命风险",
+          "关联猪痢疾临床特征（swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea）和传播途径（swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes）支持诊断合理性"
+        ],
+        "clinical_reasoning": [
+          "基于毒理学证据推导出'必须避免联合使用'的结论逻辑严密",
+          "详细列举了合用可能引发的拒食、腹泻、呼吸困难等临床症状，与猪离子载体毒性肌病表现一致"
+        ],
+        "regulatory_safety": [
+          "主动声明'因缺乏中国注册标签信息，无法提供具体休药期或残留合格承诺'，符合RC-DRUG-001规则要求",
+          "未编造剂量或休药期数据，严格遵守边界"
+        ],
+        "drug_boundary": [
+          "明确标注泰妙菌素与离子载体（ionophores）的禁忌关系（contraindicated_with字段）",
+          "交互风险等级评定为high与源证据强度匹配"
+        ],
+        "diagnostic_sampling": [
+          "虽未直接涉及采样建议，但通过引用猪痢疾确诊条件（definitive_swine_dysentery_diagnosis_requires_strongly_beta_hemolytic_brachyspira_in_typical_cases）间接支持临床诊断"
+        ],
+        "data_usability": [
+          "结构化呈现交互风险、禁忌组合等关键信息",
+          "使用场景标签（育肥猪/血痢/泰妙菌素/离子载体饲料）增强可检索性"
+        ]
+      },
+      "weaknesses": {
+        "evidence_anchoring": [
+          "未引用猪痢疾抗菌药耐药边界规则（swine_dysentery_treatment_options_are_limited_and_pleuromutilin_resistance_is_increasing），虽不影响当前交互判断但完整性稍欠"
+        ],
+        "clinical_reasoning": [
+          "可补充'建议立即停用离子载体饲料并隔离病猪'等处置措施增强实用性"
+        ],
+        "diagnostic_sampling": [
+          "缺少对'选择性厌氧培养（selective_anaerobic_culture）'等确诊方法的建议"
+        ]
+      },
+      "missing_anchors": [
+        "未关联猪痢疾粪口传播规则（swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes）的生物安全控制建议",
+        "未引用猪痢疾防控必须覆盖粪口、湿粪和生物安全规则（RULE-388）"
+      ],
+      "improvement_actions": [
+        "在交互风险说明中增加'立即联系兽医进行溶血性螺旋体检测'等行动指引",
+        "补充'根据RULE-388需加强猪场粪污管理和生物安全措施'等防控建议",
+        "在休药期声明中增加'需参考最新《兽药质量标准》或农业农村部公告'等合规指引"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪痢疾\ndrug_interaction_boundary\n育肥猪血痢，用户已有泰妙菌素和含离子载体饲料，询问能否一起用。\n{\"species\": \"猪\", \"user_query\": \"我家有200多头80日龄左右的育肥猪，最近几天陆续出现拉稀带血的情况，粪便里还有黏液，有的猪精神还可以但采食量下降。之前用过泰妙菌素拌料，现在这批猪一直喂的是含有某种离子载体的饲料。我想问下，这种情况下能不能继续把泰妙菌素加到饲料里一起用？会不会有什么问题？\", \"metadata\": {\"disease_name\": \"猪痢疾\", \"case_type\": \"drug_interaction_boundary\", \"severity\": \"中等\", \"scene_tags\": [\"育肥猪\", \"血痢\", \"泰妙菌素\", \"离子载体饲料\"], \"required_anchors\": [\"swine_dysentery_mainly_affects_grower_finisher_pigs_with_mucohemorrhagic_diarrhea\", \"swine_dysentery_transmission_mainly_occurs_by_ingestion_of_feces_containing_spirochetes\", \"is_enhanced_by_tiamulin_and_causes_feed_refusal_stiff_gait_ataxia_myoglobinuria_or_death\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0023",
+        "SRC-0069",
+        "SRC-0071",
+        "SRC-0077"
+      ],
+      "wiki_context_chars": 6423,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0023",
+        "SRC-0077"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 6,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 85,
+      "judge_label": "pass"
+    },
+    "stage_times": {
+      "context_seconds": 3.0,
+      "draft_seconds": 8.71,
+      "answer_seconds": 13.67,
+      "judge_seconds": 34.39,
+      "total_seconds": 59.77
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.71,
+          "attempts": 1,
+          "api_key_fingerprint": "993313a8c81a",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2582,
+            "output_tokens": 264,
+            "total_tokens": 2846,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002066,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000528,
+            "total_cost": 0.002594,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 12.38,
+          "attempts": 1,
+          "api_key_fingerprint": "6bb171346afa",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3317,
+            "output_tokens": 475,
+            "total_tokens": 3792,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002654,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00095,
+            "total_cost": 0.003604,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 33.41,
+          "attempts": 1,
+          "api_key_fingerprint": "fb3e9e31f56d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4031,
+            "output_tokens": 776,
+            "total_tokens": 4807,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003225,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002483,
+            "total_cost": 0.005708,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2582,
+        "output_tokens": 264,
+        "total_tokens": 2846,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3317,
+        "output_tokens": 475,
+        "total_tokens": 3792,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4031,
+        "output_tokens": 776,
+        "total_tokens": 4807,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 7,
+    "case_id": "SWINE10-007",
+    "target": "猪球虫病",
+    "case_type": "parasite_case",
+    "task": {
+      "case_id": "SWINE10-007",
+      "target": "猪球虫病",
+      "type": "parasite_case",
+      "scenario": "7-14日龄仔猪糊状腹泻、抗菌药效果差，要求判断球虫病和托曲珠利边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是育肥场，最近一批产房刚出生一周多的仔猪陆续出现糊状黄色稀粪，有的还带血丝，整窝都有，用了几天恩诺沙星也没见好转，精神还可以但采食量下降。这批大概有120头左右，都是同一天出生的。圈舍温度湿度正常，垫料干燥，之前没遇到过这种情况。想问问是不是球虫引起的？听说托曲珠利能治，能不能直接用？",
+      "metadata": {
+        "disease_name": "猪球虫病",
+        "case_type": "parasite_case",
+        "severity": "中等",
+        "scene_tags": [
+          "仔猪",
+          "糊状腹泻",
+          "抗菌药无效",
+          "整窝发病"
+        ],
+        "required_anchors": [
+          "oocyst_detection_alone_must_be_interpreted_with_age_clinical_signs_and_lesions",
+          "coccidiosis_differentials_include_e_coli_rotavirus_tge_clostridium_c_and_strongyloides"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据病史，7-14日龄仔猪整窝糊状至带血丝黄色稀粪，且恩诺沙星治疗无效，提示需考虑包括猪球虫病在内的多种腹泻病因。然而，仅依据粪便检出球虫卵囊不能确诊（source_id=SRC-0081），必须结合日龄、腹泻特征、肠道病变并排除E. coli、轮状病毒、TGE、C. perfringens type C及Strongyloides等其他常见病因（source_id=SRC-0081）。",
+      "treatment_or_action": "在确诊前不建议直接使用任何抗球虫药物。若后续经实验室检测确诊为球虫感染，可考虑使用具有抗球虫活性的药物，但须遵循当地法规和药品标签说明。当前无中国批准的托曲珠利产品信息及休药期数据，无法给出具体剂量、疗程或给药途径（source_id=A0-MOA-BANNED-DRUG-250-NOTICE）。",
+      "drug_boundary": "托曲珠利在中国尚无明确批准用于猪球虫病的标签化用途，且缺乏针对该适应症的中国休药期和残留限量规定（source_id=A0-MOA-BANNED-DRUG-250-NOTICE）。在未获得法定标签支持的情况下，不得直接开具含托曲珠利的处方或推荐其作为一线治疗。",
+      "withdrawal_period_boundary": "因缺乏中国批准的托曲珠利猪用制剂及其休药期数据，无法承诺停药期或肉品残留合格情况（source_id=A0-MOA-BANNED-DRUG-250-NOTICE）。",
+      "metadata": {
+        "disease_name": "猪球虫病",
+        "case_type": "parasite_case",
+        "severity": "中等",
+        "scene_tags": [
+          "仔猪",
+          "糊状腹泻",
+          "抗菌药无效",
+          "整窝发病"
+        ],
+        "required_anchors": [
+          "oocyst_detection_alone_must_be_interpreted_with_age_clinical_signs_and_lesions",
+          "coccidiosis_differentials_include_e_coli_rotavirus_tge_clostridium_c_and_strongyloides"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是育肥场，最近一批产房刚出生一周多的仔猪陆续出现糊状黄色稀粪，有的还带血丝，整窝都有，用了几天恩诺沙星也没见好转，精神还可以但采食量下降。这批大概有120头左右，都是同一天出生的。圈舍温度湿度正常，垫料干燥，之前没遇到过这种情况。想问问是不是球虫引起的？听说托曲珠利能治，能不能直接用？"
+    },
+    "judge": {
+      "total_score": 75,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": "诊断部分正确引用了仔猪球虫病需结合日龄、腹泻特征、肠道病变并排除其他常见病因的规则（source_id=SRC-0081），明确指出仅依据粪便检出球虫卵囊不能确诊，符合证据要求；治疗建议部分强调确诊前不建议直接使用抗球虫药物，符合临床推理的审慎原则；药物边界部分明确托曲珠利在中国尚无明确批准用于猪球虫病的标签化用途，且缺乏休药期和残留限量规定，符合监管安全要求。",
+      "weaknesses": "证据锚定部分未明确列出所有要求的锚点（如未单独列出'coccidiosis_differentials_include_e_coli_rotavirus_tge_clostridium_c_and_strongyloides'的引用）；诊断部分对其他常见病因的排除描述较笼统，未具体说明如何排除E. coli、轮状病毒等；治疗建议部分未提及若确诊球虫病后应选择哪些具有抗球虫活性的药物（仅提到'可考虑使用'但未具体说明），且未引用教材关于抗球虫药活性描述的边界（source_id=SRC-0081）；药物边界部分未明确说明'缺乏中国批准的托曲珠利产品信息及休药期数据'的具体来源（仅引用通知但未说明通知内容与休药期的直接关联）。",
+      "missing_anchors": [
+        "coccidiosis_differentials_include_e_coli_rotavirus_tge_clostridium_c_and_strongyloides"
+      ],
+      "improvement_actions": [
+        "在诊断部分单独列出并引用所有要求的锚点，确保证据锚定完整；",
+        "在诊断部分具体说明如何排除E. coli、轮状病毒等常见病因（如通过实验室检测、临床症状对比等）；",
+        "在治疗建议部分补充若确诊球虫病后应选择的具体抗球虫药物（如磺胺类药物等，需符合当地法规），并引用教材关于抗球虫药活性描述的边界（source_id=SRC-0081）；",
+        "在药物边界部分明确说明'缺乏中国批准的托曲珠利产品信息及休药期数据'的具体来源（如引用通知中关于托曲珠利未批准用于猪的具体条款），并说明通知内容与休药期的直接关联。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪球虫病\nparasite_case\n7-14日龄仔猪糊状腹泻、抗菌药效果差，要求判断球虫病和托曲珠利边界。\n{\"species\": \"猪\", \"user_query\": \"我家是育肥场，最近一批产房刚出生一周多的仔猪陆续出现糊状黄色稀粪，有的还带血丝，整窝都有，用了几天恩诺沙星也没见好转，精神还可以但采食量下降。这批大概有120头左右，都是同一天出生的。圈舍温度湿度正常，垫料干燥，之前没遇到过这种情况。想问问是不是球虫引起的？听说托曲珠利能治，能不能直接用？\", \"metadata\": {\"disease_name\": \"猪球虫病\", \"case_type\": \"parasite_case\", \"severity\": \"中等\", \"scene_tags\": [\"仔猪\", \"糊状腹泻\", \"抗菌药无效\", \"整窝发病\"], \"required_anchors\": [\"oocyst_detection_alone_must_be_interpreted_with_age_clinical_signs_and_lesions\", \"coccidiosis_differentials_include_e_coli_rotavirus_tge_clostridium_c_and_strongyloides\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-0012",
+        "SRC-0017",
+        "SRC-0025",
+        "SRC-0041",
+        "SRC-0052",
+        "SRC-0059",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0070",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0075",
+        "SRC-0077",
+        "SRC-0079",
+        "SRC-0081"
+      ],
+      "wiki_context_chars": 6438,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0014",
+        "SRC-0017",
+        "SRC-0025",
+        "SRC-0041",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0079",
+        "SRC-0081"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "A0-MOA-BANNED-DRUG-250-NOTICE",
+        "SRC-0081"
+      ],
+      "wiki_context_source_count": 19,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 75,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 2.57,
+      "draft_seconds": 8.66,
+      "answer_seconds": 13.9,
+      "judge_seconds": 27.46,
+      "total_seconds": 52.59
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.66,
+          "attempts": 1,
+          "api_key_fingerprint": "344c9291a027",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2639,
+            "output_tokens": 236,
+            "total_tokens": 2875,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002111,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000472,
+            "total_cost": 0.002583,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 12.4,
+          "attempts": 1,
+          "api_key_fingerprint": "50d7546f044f",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3217,
+            "output_tokens": 467,
+            "total_tokens": 3684,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002574,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000934,
+            "total_cost": 0.003508,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 26.37,
+          "attempts": 1,
+          "api_key_fingerprint": "7b8b49842efc",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4002,
+            "output_tokens": 527,
+            "total_tokens": 4529,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003202,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001686,
+            "total_cost": 0.004888,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2639,
+        "output_tokens": 236,
+        "total_tokens": 2875,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3217,
+        "output_tokens": 467,
+        "total_tokens": 3684,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4002,
+        "output_tokens": 527,
+        "total_tokens": 4529,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 8,
+    "case_id": "SWINE10-008",
+    "target": "猪霉菌毒素中毒",
+    "case_type": "toxin_feed_case",
+    "task": {
+      "case_id": "SWINE10-008",
+      "target": "猪霉菌毒素中毒",
+      "type": "toxin_feed_case",
+      "scenario": "更换玉米后采食下降、呕吐、母猪繁殖异常，要求识别 DON/ZEA/黄曲霉毒素并说明检测。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家有200多头育肥猪，最近刚换了一批新玉米做饲料，大概用了不到一周时间，发现部分猪采食明显下降，有的还出现呕吐现象，个别母猪阴户也有点肿胀。请问这种情况是不是跟饲料里的霉菌毒素有关？会不会是DON或者ZEA、黄曲霉毒素这些引起的？需要怎么检测才能确定？",
+      "metadata": {
+        "disease_name": "猪霉菌毒素中毒",
+        "case_type": "toxin_feed_case",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "更换饲料",
+          "采食下降",
+          "呕吐",
+          "母猪繁殖异常"
+        ],
+        "required_anchors": [
+          "mycotoxicosis_results_from_consumption_of_contaminated_feed",
+          "most_swine_mycotoxin_problems_involve_feed_grains",
+          "don_is_associated_with_feed_refusal",
+          "zearalenone_toxicosis_reproductive_signs",
+          "aflatoxicosis_has_hepatic_lesions"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "猪霉菌毒素中毒",
+        "differential": [
+          "猪呕吐毒素/DON中毒（采食下降、呕吐）",
+          "猪玉米赤霉烯酮中毒（母猪阴户肿胀）",
+          "猪黄曲霉毒素中毒（潜在肝损伤）"
+        ],
+        "evidence_anchors": [
+          "source=SRC-0085; PDF page 1079 — mycotoxicosis_results_from_consumption_of_contaminated_feed",
+          "source=SRC-0085; PDF page 1079 — most_swine_mycotoxin_problems_involve_feed_grains",
+          "source=SRC-0085; PDF page 1085-1086 — don_is_associated_with_feed_refusal",
+          "source=SRC-0085; PDF page 1088 — zearalenone_toxicosis_reproductive_signs",
+          "source=SRC-0085; PDF page 1079 — aflatoxicosis_has_hepatic_lesions"
+        ]
+      },
+      "treatment_or_action": {
+        "immediate": [
+          "立即停止使用可疑批次玉米，更换为已知安全的饲料原料",
+          "对受影响猪群进行隔离观察，记录采食量、呕吐频率及繁殖变化"
+        ],
+        "diagnostic": [
+          "采集剩余玉米及同批次饲料样品送实验室检测主要霉菌毒素（DON、ZEA、AFB1等）",
+          "结合临床症状、病理变化（如肝脏检查）进行综合判定"
+        ],
+        "supportive": [
+          "根据RULE-017，考虑适当提高猪舍环境温度以改善代谢与采食状况"
+        ],
+        "boundary_notes": [
+          "当前无中国监管标签或官方指南支持直接给出药物治疗方案、剂量、疗程或休药期",
+          "涉及多种霉菌毒素且缺乏本地化合规依据，禁止输出可执行用药方案"
+        ]
+      },
+      "drug_boundary": "因缺乏中国注册药品标签、说明书或国家公告支持，无法推荐任何针对霉菌毒素中毒的具体药物、剂量或给药途径。",
+      "withdrawal_period_boundary": "无中国批准的霉菌毒素解毒剂标签，因此无法提供休药期或残留合格承诺。",
+      "metadata": {
+        "disease_id": "DIS-066",
+        "syndrome_id": "SYN-012",
+        "rule_ids": [
+          "RULE-438",
+          "RULE-439",
+          "RULE-017"
+        ],
+        "sources": [
+          "SRC-0001",
+          "SRC-0085"
+        ],
+        "evidence_status": "NEEDS_REVIEW",
+        "textbook_pages": [
+          1079,
+          1085,
+          1086,
+          1088
+        ],
+        "tags": [
+          "disease",
+          "swine",
+          "initial",
+          "noninfectious",
+          "toxicosis"
+        ],
+        "disease_name": "猪霉菌毒素中毒",
+        "case_type": "toxin_feed_case",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "更换饲料",
+          "采食下降",
+          "呕吐",
+          "母猪繁殖异常"
+        ],
+        "required_anchors": [
+          "mycotoxicosis_results_from_consumption_of_contaminated_feed",
+          "most_swine_mycotoxin_problems_involve_feed_grains",
+          "don_is_associated_with_feed_refusal",
+          "zearalenone_toxicosis_reproductive_signs",
+          "aflatoxicosis_has_hepatic_lesions"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家有200多头育肥猪，最近刚换了一批新玉米做饲料，大概用了不到一周时间，发现部分猪采食明显下降，有的还出现呕吐现象，个别母猪阴户也有点肿胀。请问这种情况是不是跟饲料里的霉菌毒素有关？会不会是DON或者ZEA、黄曲霉毒素这些引起的？需要怎么检测才能确定？"
+    },
+    "judge": {
+      "total_score": 85,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": "证据锚定覆盖主要致病机制与毒素特征，引用了SRC-0085及教材页码，符合LLM Wiki约束；鉴别诊断区分DON、ZEA、黄曲霉毒素对应症状；明确声明无中国监管标签下不提供药物与休药期，遵守drug_boundary与withdrawal_period_boundary；诊断采样建议具体可行，包含饲料与临床结合判定；行动建议合理且安全。",
+      "weaknesses": "evidence_anchors中存在一处虚构来源（zearalenone_toxicosis_reproductive_signs未在Wiki事实或摘要中出现），违反evidence_anchoring要求；部分教材页码（1085-1086、1088）在提供的Wiki上下文中未验证存在，可能为编造；clinical_reasoning未充分利用中国监管状态“不能单独用于强制处置”的限制来强化推理边界；regulatory_safety虽声明无标签但缺少强调当前所有结论仅限参考、不可直接用于处置的警示。",
+      "missing_anchors": [
+        "zearalenone_toxicosis_reproductive_signs"
+      ],
+      "improvement_actions": "删除或替换虚构的evidence_anchor，改用Wiki中已验证的zea_is_estrogenic_mycotoxin及玉米赤霉烯酮繁殖影响边界描述；核实并仅使用Wiki列出的教材页码（如1079）；在临床推理部分加入中国监管状态限制说明，强调信息仅供专业参考；在regulatory_safety段落增加不可直接用于扑杀/上报/跨区调运的警示语句。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪霉菌毒素中毒\ntoxin_feed_case\n更换玉米后采食下降、呕吐、母猪繁殖异常，要求识别 DON/ZEA/黄曲霉毒素并说明检测。\n{\"species\": \"猪\", \"user_query\": \"我家有200多头育肥猪，最近刚换了一批新玉米做饲料，大概用了不到一周时间，发现部分猪采食明显下降，有的还出现呕吐现象，个别母猪阴户也有点肿胀。请问这种情况是不是跟饲料里的霉菌毒素有关？会不会是DON或者ZEA、黄曲霉毒素这些引起的？需要怎么检测才能确定？\", \"metadata\": {\"disease_name\": \"猪霉菌毒素中毒\", \"case_type\": \"toxin_feed_case\", \"severity\": \"中等\", \"scene_tags\": [\"育肥猪\", \"更换饲料\", \"采食下降\", \"呕吐\", \"母猪繁殖异常\"], \"required_anchors\": [\"mycotoxicosis_results_from_consumption_of_contaminated_feed\", \"most_swine_mycotoxin_problems_involve_feed_grains\", \"don_is_associated_with_feed_refusal\", \"zearalenone_toxicosis_reproductive_signs\", \"aflatoxicosis_has_hepatic_lesions\"]}}",
+      "wiki_evidence_status_counts": {
+        "NEEDS_REVIEW": 6,
+        "PROCESSED_SOURCE_ANCHORED": 8
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-0085"
+      ],
+      "wiki_context_chars": 5739,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-008",
+        "SRC-0085"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "SRC-0001",
+        "SRC-0085"
+      ],
+      "wiki_context_source_count": 3,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 85,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 2.17,
+      "draft_seconds": 9.14,
+      "answer_seconds": 15.74,
+      "judge_seconds": 59.83,
+      "total_seconds": 86.87
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "hunyuan-2.0-instruct-20251111",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 9.14,
+          "attempts": 1,
+          "api_key_fingerprint": "fb3e9e31f56d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2424,
+            "output_tokens": 248,
+            "total_tokens": 2672,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001939,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000496,
+            "total_cost": 0.002435,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 14.28,
+          "attempts": 1,
+          "api_key_fingerprint": "d242c7423361",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2908,
+            "output_tokens": 618,
+            "total_tokens": 3526,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002326,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001236,
+            "total_cost": 0.003562,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 46.66,
+          "attempts": 1,
+          "api_key_fingerprint": "344c9291a027",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": false,
+          "usage": {
+            "input_tokens": 3781,
+            "output_tokens": 1130,
+            "total_tokens": 4911,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003025,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.003616,
+            "total_cost": 0.006641,
+            "currency": "CNY"
+          }
+        },
+        {
+          "model": "hunyuan-2.0-instruct-20251111",
+          "success": true,
+          "elapsed_seconds": 11.96,
+          "attempts": 1,
+          "api_key_fingerprint": "344c9291a027",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3475,
+            "output_tokens": 335,
+            "total_tokens": 3810,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.015637,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.003729,
+            "total_cost": 0.019366,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2424,
+        "output_tokens": 248,
+        "total_tokens": 2672,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 2908,
+        "output_tokens": 618,
+        "total_tokens": 3526,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3475,
+        "output_tokens": 335,
+        "total_tokens": 3810,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 9,
+    "case_id": "SWINE10-009",
+    "target": "猪疥螨病",
+    "case_type": "ectoparasite_case",
+    "task": {
+      "case_id": "SWINE10-009",
+      "target": "猪疥螨病",
+      "type": "ectoparasite_case",
+      "scenario": "种猪耳后结痂、剧痒、全群蹭痒，要求鉴别疥螨和虱病并说明控制措施。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家有120头后备母猪，现在大概180日龄左右，最近发现耳朵后面和脖子那块开始结痂，而且猪老是用身体蹭墙或者栏杆，特别痒的样子。刚开始只有几头这样，现在差不多一半以上都有类似情况了，已经持续快半个月。圈舍比较潮湿，通风一般，之前没用过什么驱虫药。想问问这是不是疥螨？还是虱子引起的？这种情况该怎么处理才能控制住？",
+      "metadata": {
+        "disease_name": "猪疥螨病",
+        "case_type": "ectoparasite_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "种猪",
+          "瘙痒",
+          "结痂",
+          "群体发病",
+          "潮湿环境"
+        ],
+        "required_anchors": [
+          "mange_lesions_include_pruritus_papules_erythema_crusts_and_hyperkeratosis",
+          "starts_around_ears_eyes_snout_then_hypersensitivity_lesions",
+          "mange_diagnosis_requires_mite_or_egg_detection_but_scrapings_can_be_false_negative",
+          "sarcoptic_mange_is_the_most_important_swine_ectoparasite_worldwide"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "猪疥螨病",
+        "evidence": [
+          "病变始于耳部、眼部、口鼻周围，逐渐扩展至颈部及全身，伴结痂、剧烈瘙痒，符合疥螨初期分布特征（source=SRC-0020）",
+          "群体性瘙痒、蹭墙行为及渐进扩散模式支持疥螨传播特性（source=SRC-0080）",
+          "圈舍潮湿、通风不良增加疥螨存活与传播风险（source=SRC-0080）"
+        ],
+        "differential": [
+          "猪虱病：虱主要寄生于体表毛发密集处，瘙痒多为局部，传播速度相对较慢，病变部位与疥螨不同（source=SRC-0020）"
+        ],
+        "diagnostic_note": "确诊需通过皮肤刮片检出螨或虫卵，但刮片存在假阴性可能，应结合病史、病变分布及群体症状综合判断（source=SRC-0080）"
+      },
+      "treatment_or_action": {
+        "immediate": [
+          "隔离瘙痒严重个体，减少群体摩擦传播",
+          "改善圈舍通风与干燥条件，降低湿度以抑制螨虫生存（source=SRC-0080）"
+        ],
+        "diagnostic_step": [
+          "采集耳后、颈部病变处皮肤刮片送检，提高检出率（source=SRC-0080）"
+        ],
+        "control_measures": [
+          "在获得确诊前，不建议直接使用任何驱虫药物以避免耐药或误治（source=SRC-0080）",
+          "一旦确诊，应在兽医指导下选择经批准的杀螨剂，并按产品说明书规范使用（source=SRC-0080）"
+        ]
+      },
+      "drug_boundary": "当前缺乏中国注册药物标签及批准剂量信息，禁止直接给出具体药物名称、剂量、疗程或给药途径（source=SRC-0080）",
+      "withdrawal_period_boundary": "因无中国注册药品及休药期数据，无法承诺停药期或肉品残留合格结论（source=SRC-0080）",
+      "metadata": {
+        "disease_id": "DIS-055",
+        "rule_ids": [
+          "RULE-415",
+          "RULE-116"
+        ],
+        "source_ids": [
+          "SRC-0080",
+          "SRC-0020"
+        ],
+        "pdf_pages": [
+          1029,
+          1031,
+          326
+        ],
+        "tags": [
+          "parasitic",
+          "skin",
+          "swine",
+          "group outbreak"
+        ],
+        "disease_name": "猪疥螨病",
+        "case_type": "ectoparasite_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "种猪",
+          "瘙痒",
+          "结痂",
+          "群体发病",
+          "潮湿环境"
+        ],
+        "required_anchors": [
+          "mange_lesions_include_pruritus_papules_erythema_crusts_and_hyperkeratosis",
+          "starts_around_ears_eyes_snout_then_hypersensitivity_lesions",
+          "mange_diagnosis_requires_mite_or_egg_detection_but_scrapings_can_be_false_negative",
+          "sarcoptic_mange_is_the_most_important_swine_ectoparasite_worldwide"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家有120头后备母猪，现在大概180日龄左右，最近发现耳朵后面和脖子那块开始结痂，而且猪老是用身体蹭墙或者栏杆，特别痒的样子。刚开始只有几头这样，现在差不多一半以上都有类似情况了，已经持续快半个月。圈舍比较潮湿，通风一般，之前没用过什么驱虫药。想问问这是不是疥螨？还是虱子引起的？这种情况该怎么处理才能控制住？"
+    },
+    "judge": {
+      "total_score": 77,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": {
+        "evidence_anchoring": [
+          "诊断证据明确锚定疥螨典型病变分布（耳/眼/鼻起始，渐进扩散）及群体传播特征，引用SRC-0020和SRC-0080支持（22/25）",
+          "鉴别诊断清晰区分疥螨与虱病的病变部位差异，符合RULE-116要求（18/20）"
+        ],
+        "clinical_reasoning": [
+          "结合环境因素（潮湿/通风不良）解释疥螨传播风险，符合SRC-0080关联性分析（18/20）"
+        ],
+        "regulatory_safety": [
+          "严格遵循中国无注册药物标签的边界，未提供具体药物名称/剂量（18/20）"
+        ],
+        "diagnostic_sampling": [
+          "采样建议针对耳后/颈部高发部位，符合SRC-0080提高检出率的要求（8/10）"
+        ]
+      },
+      "weaknesses": {
+        "evidence_anchoring": [
+          "未引用'mange_lesions_include_pruritus_papules_erythema_crusts_and_hyperkeratosis'锚点描述典型病变形态（扣3分）"
+        ],
+        "drug_boundary": [
+          "控制措施中'经批准的杀螨剂'表述模糊，未明确需依据中国注册标签（扣10/15）"
+        ],
+        "withdrawal_period_boundary": [
+          "未单独强调休药期数据缺失对肉品安全的潜在影响（扣2/10）"
+        ],
+        "data_usability": [
+          "未提供群体发病率具体数值（如'50%以上'），影响风险分级判断（扣8/10）"
+        ]
+      },
+      "missing_anchors": [
+        "mange_lesions_include_pruritus_papules_erythema_crusts_and_hyperkeratosis",
+        "sarcoptic_mange_is_the_most_important_swine_ectoparasite_worldwide（未在风险评估中体现经济重要性）"
+      ],
+      "improvement_actions": [
+        "补充典型病变形态描述（结痂/丘疹/红斑）并引用对应锚点",
+        "修改控制措施为'依据中国农业农村部注册标签选择杀螨剂'",
+        "增加休药期数据缺失的食品安全警示",
+        "量化群体发病率数据（如'62头/120头出现症状'）",
+        "在风险评估中强调疥螨对生长性能的经济影响"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪疥螨病\nectoparasite_case\n种猪耳后结痂、剧痒、全群蹭痒，要求鉴别疥螨和虱病并说明控制措施。\n{\"species\": \"猪\", \"user_query\": \"我家有120头后备母猪，现在大概180日龄左右，最近发现耳朵后面和脖子那块开始结痂，而且猪老是用身体蹭墙或者栏杆，特别痒的样子。刚开始只有几头这样，现在差不多一半以上都有类似情况了，已经持续快半个月。圈舍比较潮湿，通风一般，之前没用过什么驱虫药。想问问这是不是疥螨？还是虱子引起的？这种情况该怎么处理才能控制住？\", \"metadata\": {\"disease_name\": \"猪疥螨病\", \"case_type\": \"ectoparasite_case\", \"severity\": \"moderate\", \"scene_tags\": [\"种猪\", \"瘙痒\", \"结痂\", \"群体发病\", \"潮湿环境\"], \"required_anchors\": [\"mange_lesions_include_pruritus_papules_erythema_crusts_and_hyperkeratosis\", \"starts_around_ears_eyes_snout_then_hypersensitivity_lesions\", \"mange_diagnosis_requires_mite_or_egg_detection_but_scrapings_can_be_false_negative\", \"sarcoptic_mange_is_the_most_important_swine_ectoparasite_worldwide\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0020",
+        "SRC-0021",
+        "SRC-0023",
+        "SRC-0024",
+        "SRC-0050",
+        "SRC-0064",
+        "SRC-0067",
+        "SRC-0080"
+      ],
+      "wiki_context_chars": 6117,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0020",
+        "SRC-0031",
+        "SRC-0046",
+        "SRC-0076",
+        "SRC-0080"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "SRC-0020",
+        "SRC-0080"
+      ],
+      "wiki_context_source_count": 9,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 77,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.09,
+      "draft_seconds": 6.11,
+      "answer_seconds": 11.25,
+      "judge_seconds": 29.75,
+      "total_seconds": 47.2
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 6.11,
+          "attempts": 1,
+          "api_key_fingerprint": "232377ce6842",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2527,
+            "output_tokens": 290,
+            "total_tokens": 2817,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002022,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00058,
+            "total_cost": 0.002602,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 10.9,
+          "attempts": 1,
+          "api_key_fingerprint": "d86bf62fd68d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3287,
+            "output_tokens": 552,
+            "total_tokens": 3839,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.00263,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001104,
+            "total_cost": 0.003734,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 28.48,
+          "attempts": 1,
+          "api_key_fingerprint": "6bb171346afa",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4021,
+            "output_tokens": 645,
+            "total_tokens": 4666,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003217,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002064,
+            "total_cost": 0.005281,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2527,
+        "output_tokens": 290,
+        "total_tokens": 2817,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3287,
+        "output_tokens": 552,
+        "total_tokens": 3839,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4021,
+        "output_tokens": 645,
+        "total_tokens": 4666,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 10,
+    "case_id": "SWINE10-010",
+    "target": "猪链球菌病",
+    "case_type": "neuro_septicemia_case",
+    "task": {
+      "case_id": "SWINE10-010",
+      "target": "猪链球菌病",
+      "type": "neuro_septicemia_case",
+      "scenario": "保育猪跛行、神经症状、突然死亡，要求鉴别链球菌、伪狂犬、仔猪水肿病并说明药敏边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是50头左右保育猪，现在大概45日龄，最近一周陆续有猪出现走路不稳、后肢无力甚至划水状，有的还伴有发烧、食欲下降，个别猪昨天突然倒地死亡，没有外伤。圈舍通风一般，前几天用过阿莫西林拌料三天，但情况没见好转。请问这种情况是不是链球菌引起的？会不会是伪狂犬病或者仔猪水肿病？需要怎么采样送检？另外听说链球菌要做药敏，这个是怎么做的？",
+      "metadata": {
+        "disease_name": "猪链球菌病",
+        "case_type": "neuro_septicemia_case",
+        "severity": "中等偏重",
+        "scene_tags": [
+          "保育猪",
+          "神经症状",
+          "跛行",
+          "突然死亡",
+          "发热"
+        ],
+        "required_anchors": [
+          "神经症状需结合脑膜炎和败血症鉴别",
+          "PRV神经症状必须保留多病因鉴别",
+          "神经症状采样需脑和脊髓",
+          "水肿病培养阴性不排除"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "猪链球菌病（Streptococcus suis）",
+        "differential": [
+          "伪狂犬病（Pseudorabies, PRV）",
+          "仔猪水肿病（Edema Disease）"
+        ],
+        "evidence_anchors": [
+          "source_id=SRC-0075 / PDF page 964 / rule_card: S. suis 神经症状需结合脑膜炎和败血症鉴别",
+          "source_id=SRC-0041 / PDF page 583 / rule_card: PRV 神经症状必须保留多病因鉴别",
+          "source_id=SRC-0009 / PDF page N/A / rule_card: 神经症状采样需脑和脊髓",
+          "source_id=SRC-0064 / PDF page N/A / rule_card: 水肿病培养阴性不排除"
+        ]
+      },
+      "treatment_or_action": {
+        "immediate": "立即隔离发病及濒死猪，减少应激，改善通风与卫生条件。",
+        "diagnostic_sampling": "采集病死猪的脑组织、脊髓进行细菌培养和分子检测；同时采集血液、关节液、肺组织等以排查败血症和多器官受累。",
+        "laboratory_testing": "对分离到的链球菌进行药敏试验，参考本地耐药谱选择敏感抗生素；注意不同菌株耐药性差异显著。"
+      },
+      "drug_boundary": {
+        "statement": "由于当前无中国批准的兽药说明书或药敏结果支持，无法给出具体药物名称、剂量、疗程或给药途径。",
+        "anchor": "source_id=SRC-0076 / PDF page N/A / topic: 猪链球菌病诊断、用药、疫苗和控制边界"
+      },
+      "withdrawal_period_boundary": {
+        "statement": "未获得中国监管部门批准的药物使用信息及相应休药期数据，不能承诺停药期或残留合格结论。",
+        "anchor": "source_id=SRC-0076 / PDF page N/A / topic: 猪链球菌病诊断、用药、疫苗和控制边界"
+      },
+      "metadata": {
+        "disease_name": "猪链球菌病",
+        "case_type": "neuro_septicemia_case",
+        "severity": "中等偏重",
+        "scene_tags": [
+          "保育猪",
+          "神经症状",
+          "跛行",
+          "突然死亡",
+          "发热"
+        ],
+        "evidence_used": [
+          "SRC-0075 / PDF page 964",
+          "SRC-0041 / PDF page 583",
+          "SRC-0009 / PDF page N/A",
+          "SRC-0064 / PDF page N/A",
+          "SRC-0076 / PDF page N/A"
+        ],
+        "required_anchors": [
+          "神经症状需结合脑膜炎和败血症鉴别",
+          "PRV神经症状必须保留多病因鉴别",
+          "神经症状采样需脑和脊髓",
+          "水肿病培养阴性不排除"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是50头左右保育猪，现在大概45日龄，最近一周陆续有猪出现走路不稳、后肢无力甚至划水状，有的还伴有发烧、食欲下降，个别猪昨天突然倒地死亡，没有外伤。圈舍通风一般，前几天用过阿莫西林拌料三天，但情况没见好转。请问这种情况是不是链球菌引起的？会不会是伪狂犬病或者仔猪水肿病？需要怎么采样送检？另外听说链球菌要做药敏，这个是怎么做的？"
+    },
+    "judge": {
+      "total_score": 80,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": [
+        "鉴别诊断覆盖了猪链球菌病、伪狂犬病和仔猪水肿病，符合神经症状鉴别诊断要求（证据锚点：source_id=SRC-0075 / PDF page 964 / rule_card: S. suis 神经症状需结合脑膜炎和败血症鉴别；source_id=SRC-0041 / PDF page 583 / rule_card: PRV 神经症状必须保留多病因鉴别；source_id=SRC-0064 / PDF page N/A / rule_card: 水肿病培养阴性不排除）",
+        "采样建议包括脑组织、脊髓、血液、关节液和肺组织，符合神经症状采样需脑和脊髓的要求（证据锚点：source_id=SRC-0009 / PDF page N/A / rule_card: 神经症状采样需脑和脊髓）",
+        "明确指出药敏试验需参考本地耐药谱选择敏感抗生素，并提示不同菌株耐药性差异显著，符合猪链球菌病诊断、用药、疫苗和控制边界要求（证据锚点：source_id=SRC-0076 / PDF page N/A / topic: 猪链球菌病诊断、用药、疫苗和控制边界）",
+        "明确声明未获得中国监管部门批准的药物使用信息及相应休药期数据，不能承诺停药期或残留合格结论，符合监管边界要求（证据锚点：source_id=SRC-0076 / PDF page N/A / topic: 猪链球菌病诊断、用药、疫苗和控制边界）"
+      ],
+      "weaknesses": [
+        "未明确说明伪狂犬病和仔猪水肿病的特异性鉴别要点（如伪狂犬病的划水运动与链球菌病划水运动的差异、仔猪水肿病的眼睑水肿等），clinical_reasoning维度扣分",
+        "未提及猪链球菌病的典型病变（如脑膜充血、出血，关节液增多且浑浊等）和伪狂犬病、仔猪水肿病的典型病变，clinical_reasoning维度扣分",
+        "未提及采样时的生物安全措施（如采样人员防护、采样工具消毒等），clinical_reasoning维度扣分",
+        "未提及药敏试验的具体方法（如纸片扩散法、微量肉汤稀释法等），drug_boundary维度扣分"
+      ],
+      "missing_anchors": [
+        "伪狂犬病和仔猪水肿病的特异性鉴别要点（如伪狂犬病的划水运动与链球菌病划水运动的差异、仔猪水肿病的眼睑水肿等）",
+        "猪链球菌病、伪狂犬病、仔猪水肿病的典型病变",
+        "采样时的生物安全措施（如采样人员防护、采样工具消毒等）",
+        "药敏试验的具体方法（如纸片扩散法、微量肉汤稀释法等）"
+      ],
+      "improvement_actions": [
+        "补充伪狂犬病和仔猪水肿病的特异性鉴别要点（如伪狂犬病的划水运动与链球菌病划水运动的差异、仔猪水肿病的眼睑水肿等），提高clinical_reasoning维度得分",
+        "补充猪链球菌病、伪狂犬病、仔猪水肿病的典型病变，提高clinical_reasoning维度得分",
+        "补充采样时的生物安全措施（如采样人员防护、采样工具消毒等），提高clinical_reasoning维度得分",
+        "补充药敏试验的具体方法（如纸片扩散法、微量肉汤稀释法等），提高drug_boundary维度得分"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪链球菌病\nneuro_septicemia_case\n保育猪跛行、神经症状、突然死亡，要求鉴别链球菌、伪狂犬、仔猪水肿病并说明药敏边界。\n{\"species\": \"猪\", \"user_query\": \"我家是50头左右保育猪，现在大概45日龄，最近一周陆续有猪出现走路不稳、后肢无力甚至划水状，有的还伴有发烧、食欲下降，个别猪昨天突然倒地死亡，没有外伤。圈舍通风一般，前几天用过阿莫西林拌料三天，但情况没见好转。请问这种情况是不是链球菌引起的？会不会是伪狂犬病或者仔猪水肿病？需要怎么采样送检？另外听说链球菌要做药敏，这个是怎么做的？\", \"metadata\": {\"disease_name\": \"猪链球菌病\", \"case_type\": \"neuro_septicemia_case\", \"severity\": \"中等偏重\", \"scene_tags\": [\"保育猪\", \"神经症状\", \"跛行\", \"突然死亡\", \"发热\"], \"required_anchors\": [\"神经症状需结合脑膜炎和败血症鉴别\", \"PRV神经症状必须保留多病因鉴别\", \"神经症状采样需脑和脊髓\", \"水肿病培养阴性不排除\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 8,
+        "NEEDS_REVIEW": 6
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0009",
+        "SRC-0014",
+        "SRC-0041",
+        "SRC-0054",
+        "SRC-0064",
+        "SRC-0075",
+        "SRC-0076",
+        "SRC-0079"
+      ],
+      "wiki_context_chars": 5626,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0009",
+        "SRC-0014",
+        "SRC-0041",
+        "SRC-0054",
+        "SRC-0064",
+        "SRC-0075",
+        "SRC-0076"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 5,
+      "source_anchors_in_answer": [
+        "SRC-0009",
+        "SRC-0041",
+        "SRC-0064",
+        "SRC-0075",
+        "SRC-0076"
+      ],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 80,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.11,
+      "draft_seconds": 5.63,
+      "answer_seconds": 11.65,
+      "judge_seconds": 30.13,
+      "total_seconds": 47.52
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.63,
+          "attempts": 1,
+          "api_key_fingerprint": "993313a8c81a",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2264,
+            "output_tokens": 244,
+            "total_tokens": 2508,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001811,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000488,
+            "total_cost": 0.002299,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 11.25,
+          "attempts": 1,
+          "api_key_fingerprint": "ca6a04186520",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2904,
+            "output_tokens": 573,
+            "total_tokens": 3477,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002323,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001146,
+            "total_cost": 0.003469,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 28.84,
+          "attempts": 1,
+          "api_key_fingerprint": "1e8b06b345f7",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3682,
+            "output_tokens": 732,
+            "total_tokens": 4414,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002946,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002342,
+            "total_cost": 0.005288,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2264,
+        "output_tokens": 244,
+        "total_tokens": 2508,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 2904,
+        "output_tokens": 573,
+        "total_tokens": 3477,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3682,
+        "output_tokens": 732,
+        "total_tokens": 4414,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 11,
+    "case_id": "SWINE10-011",
+    "target": "猪丹毒",
+    "case_type": "skin_septicemia_case",
+    "task": {
+      "case_id": "SWINE10-011",
+      "target": "猪丹毒",
+      "type": "skin_septicemia_case",
+      "scenario": "育肥猪突然发热、跛行，背部和腹侧出现菱形或方形红斑，部分猪精神沉郁，要求鉴别猪丹毒、猪瘟、猪链球菌病并说明采样与用药边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是育肥舍，大概有300头100公斤左右的猪，这几天陆续有几头开始发烧到40度以上，走路一瘸一拐，有的趴着不动。今天发现几头背上和肚子两侧出现了一些菱形的红斑，颜色偏紫，摸上去有点硬。还有几头精神很差，不吃料。之前没见过这种情况，想问问是不是猪丹毒？会不会跟猪瘟或者链球菌感染搞混？这些红斑是不是丹毒的特征？如果要确诊的话需要采哪些样本？另外现在能不能先打点抗生素？",
+      "metadata": {
+        "disease_name": "猪丹毒",
+        "case_type": "skin_septicemia_case",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "高热",
+          "跛行",
+          "菱形皮肤病变",
+          "精神沉郁"
+        ],
+        "required_anchors": [
+          "菱形或丹毒样皮肤病变需与多种病原鉴别",
+          "A. suis 败血症可与猪丹毒混淆需实验室鉴别",
+          "猪丹毒急性败血症皮肤病变非特异"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "疑似猪丹毒样皮肤病变",
+        "differential": [
+          "猪丹毒（Erysipelothrix rhusiopathiae）",
+          "A. suis 败血症",
+          "猪链球菌病（Streptococcus suis）",
+          "猪瘟（CSFV）",
+          "猪皮炎肾病综合征（PDNS）"
+        ],
+        "notes": "菱形或丹毒样皮肤病变需与 Salmonella Choleraesuis、A. suis、App、H. parasuis、S. suis、CSFV、PDNS 等鉴别。source_id=SRC-0065 PDF page 864。A. suis 急性败血症可有类似猪丹毒的菱形皮肤病变，必须实验室鉴别。source_id=SRC-0058 PDF page 787。丹毒皮肤颜色改变不是单独确诊依据，急性败血症中的粉红、紫色或发绀样改变也见于其他系统感染。source_id=SRC-0019 PDF page 323。"
+      },
+      "treatment_or_action": {
+        "immediate": "不建议在未获得实验室确诊前使用任何抗生素或其他治疗。应优先采集样本送检以明确病原。",
+        "sampling": {
+          "recommended_samples": [
+            "血液（全血及血清）",
+            "病变皮肤组织活检",
+            "脾脏、肾脏、淋巴结（如死亡病例）"
+          ],
+          "purpose": "进行细菌培养、PCR 检测及病理学检查，以区分猪丹毒、A. suis、S. suis 及其他病原。"
+        }
+      },
+      "drug_boundary": {
+        "statement": "当前缺乏针对中国注册药品说明书或官方指南支持的具体剂量、疗程、给药途径信息，因此无法给出可执行用药方案。",
+        "reason": "猪丹毒、A. suis、S. suis 等疾病在中国监管状态尚未完成 A0/A1 核验，且 LLM Wiki 数据集中无中国标签/公告/药敏证据。"
+      },
+      "withdrawal_period_boundary": {
+        "statement": "因无中国批准药品信息与休药期数据，无法承诺停药期或残留合格情况。"
+      },
+      "metadata": {
+        "sources": [
+          "SRC-0065 PDF page 864 — 猪丹毒样皮肤病变需纳入多病原鉴别",
+          "SRC-0058 PDF page 787 — A. suis 败血症必须与猪丹毒鉴别",
+          "SRC-0019 PDF page 323 — 丹毒皮肤颜色改变不是单独确诊依据"
+        ],
+        "tags": [
+          "skin_septicemia_case",
+          "swine",
+          "differential_diagnosis",
+          "no_treatment_guidance"
+        ],
+        "disease_name": "猪丹毒",
+        "case_type": "skin_septicemia_case",
+        "severity": "中等",
+        "scene_tags": [
+          "育肥猪",
+          "高热",
+          "跛行",
+          "菱形皮肤病变",
+          "精神沉郁"
+        ],
+        "required_anchors": [
+          "菱形或丹毒样皮肤病变需与多种病原鉴别",
+          "A. suis 败血症可与猪丹毒混淆需实验室鉴别",
+          "猪丹毒急性败血症皮肤病变非特异"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是育肥舍，大概有300头100公斤左右的猪，这几天陆续有几头开始发烧到40度以上，走路一瘸一拐，有的趴着不动。今天发现几头背上和肚子两侧出现了一些菱形的红斑，颜色偏紫，摸上去有点硬。还有几头精神很差，不吃料。之前没见过这种情况，想问问是不是猪丹毒？会不会跟猪瘟或者链球菌感染搞混？这些红斑是不是丹毒的特征？如果要确诊的话需要采哪些样本？另外现在能不能先打点抗生素？"
+    },
+    "judge": {
+      "total_score": 78,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": {
+        "evidence_anchoring": [
+          "明确引用了 SRC-0065、SRC-0058、SRC-0019 作为鉴别诊断依据，覆盖猪丹毒、A. suis、S. suis 等病原鉴别要求，符合 Wiki 规则 RULE-334、RULE-305、RULE-113 的锚定要求。",
+          "诊断部分完整引用了 '菱形或丹毒样皮肤病变需与多种病原鉴别'、'A. suis 败血症可与猪丹毒混淆需实验室鉴别'、'猪丹毒急性败血症皮肤病变非特异' 三个必选锚点，覆盖了用户场景中 '菱形红斑是否丹毒特征' 的核心问题。"
+        ],
+        "clinical_reasoning": [
+          "正确识别了高热、跛行、菱形红斑、精神沉郁等关键症状，关联了猪丹毒、A. suis、S. suis、CSFV、PDNS 等鉴别诊断，符合突然死亡/败血症综合征（SYN-007）的关联病种要求。",
+          "明确指出 '丹毒皮肤颜色改变不是单独确诊依据'，符合 SRC-0019 的临床推理边界，避免了仅凭皮肤病变确诊的逻辑错误。"
+        ],
+        "regulatory_safety": [
+          "明确声明 '因无中国批准药品信息与休药期数据，无法承诺停药期或残留合格情况'，符合 Wiki 合成方案中 '不提供中国监管处置结论' 的约束（A0-MOA-BANNED-DRUG-250-POLICY）。",
+          "治疗建议部分强调 '不建议在未获得实验室确诊前使用任何抗生素或其他治疗'，避免了无来源用药建议，符合监管安全要求。"
+        ],
+        "diagnostic_sampling": [
+          "推荐的样本类型（血液、病变皮肤、脾脏/肾脏/淋巴结）覆盖了细菌培养、PCR 检测及病理学检查需求，与 SRC-0065、SRC-0058 的实验室鉴别要求一致。",
+          "采样目的明确指向 '区分猪丹毒、A. suis、S. suis 及其他病原'，符合用户场景中 '确诊需采哪些样本' 的核心需求。"
+        ]
+      },
+      "weaknesses": {
+        "evidence_anchoring": [
+          "未引用 SRC-0020（PDNS 与 CSFV、ASF 皮肤病变相似的证据），在鉴别诊断中未明确说明 PDNS 的排除逻辑，可能导致用户对 '会不会跟猪瘟搞混' 的疑问未完全解答。"
+        ],
+        "drug_boundary": [
+          "虽声明 '缺乏中国注册药品说明书或官方指南支持的具体剂量、疗程、给药途径信息'，但未进一步说明 '若必须用药需参考国际指南（如 WOAH）并咨询兽医' 的替代方案，可能影响用户对紧急处置的理解。"
+        ],
+        "data_usability": [
+          "未针对用户场景中的 '300 头 100 公斤育肥猪' 提供群体管理建议（如隔离、消毒、监测频率），数据实用性评分受影响。"
+        ]
+      },
+      "missing_anchors": [
+        "SRC-0020（PDNS 与 CSFV、ASF 皮肤病变相似的证据）未被引用，导致鉴别诊断完整性扣分。",
+        "未引用任何关于 '猪瘟（CSFV）' 特异性诊断或排除的锚点（如 SRC-0065 中 CSFV 需通过 PCR 或血清学检测排除的描述），影响证据锚定评分。"
+      ],
+      "improvement_actions": [
+        "补充 SRC-0020 的引用，在鉴别诊断中增加 'PDNS 的皮肤/肾脏病变可与 CSFV、ASF 相似，需通过 PCR 检测排除重大传染病' 的说明。",
+        "在药物边界部分增加 '若必须用药，需参考国际指南（如 WOAH）并咨询当地兽医，严格避免使用中国禁用药物（如氯霉素、痢特灵）' 的替代方案描述。",
+        "增加群体管理建议，例如 '立即隔离发病猪，对猪舍进行彻底消毒，每日监测剩余猪群体温及采食情况，发现新病例立即采样'，提升数据实用性。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪丹毒\nskin_septicemia_case\n育肥猪突然发热、跛行，背部和腹侧出现菱形或方形红斑，部分猪精神沉郁，要求鉴别猪丹毒、猪瘟、猪链球菌病并说明采样与用药边界。\n{\"species\": \"猪\", \"user_query\": \"我家是育肥舍，大概有300头100公斤左右的猪，这几天陆续有几头开始发烧到40度以上，走路一瘸一拐，有的趴着不动。今天发现几头背上和肚子两侧出现了一些菱形的红斑，颜色偏紫，摸上去有点硬。还有几头精神很差，不吃料。之前没见过这种情况，想问问是不是猪丹毒？会不会跟猪瘟或者链球菌感染搞混？这些红斑是不是丹毒的特征？如果要确诊的话需要采哪些样本？另外现在能不能先打点抗生素？\", \"metadata\": {\"disease_name\": \"猪丹毒\", \"case_type\": \"skin_septicemia_case\", \"severity\": \"中等\", \"scene_tags\": [\"育肥猪\", \"高热\", \"跛行\", \"菱形皮肤病变\", \"精神沉郁\"], \"required_anchors\": [\"菱形或丹毒样皮肤病变需与多种病原鉴别\", \"A. suis 败血症可与猪丹毒混淆需实验室鉴别\", \"猪丹毒急性败血症皮肤病变非特异\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 11,
+        "NEEDS_REVIEW": 3
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0014",
+        "SRC-0019",
+        "SRC-0023",
+        "SRC-0031",
+        "SRC-0058",
+        "SRC-0065",
+        "SRC-0075",
+        "SRC-0076"
+      ],
+      "wiki_context_chars": 6262,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0015",
+        "SRC-0019",
+        "SRC-0023",
+        "SRC-0058",
+        "SRC-0065",
+        "SRC-0076"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 3,
+      "source_anchors_in_answer": [
+        "SRC-0019",
+        "SRC-0058",
+        "SRC-0065"
+      ],
+      "wiki_context_source_count": 9,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 78,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.12,
+      "draft_seconds": 5.01,
+      "answer_seconds": 11.07,
+      "judge_seconds": 44.8,
+      "total_seconds": 61.01
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.01,
+          "attempts": 1,
+          "api_key_fingerprint": "4ae0cab1a311",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2428,
+            "output_tokens": 254,
+            "total_tokens": 2682,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001942,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000508,
+            "total_cost": 0.00245,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 10.63,
+          "attempts": 1,
+          "api_key_fingerprint": "089989b20091",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3223,
+            "output_tokens": 591,
+            "total_tokens": 3814,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002578,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001182,
+            "total_cost": 0.00376,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 43.78,
+          "attempts": 1,
+          "api_key_fingerprint": "8cb453872788",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4073,
+            "output_tokens": 981,
+            "total_tokens": 5054,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003258,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.003139,
+            "total_cost": 0.006398,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2428,
+        "output_tokens": 254,
+        "total_tokens": 2682,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3223,
+        "output_tokens": 591,
+        "total_tokens": 3814,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4073,
+        "output_tokens": 981,
+        "total_tokens": 5054,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 12,
+    "case_id": "SWINE10-012",
+    "target": "猪布鲁氏菌病",
+    "case_type": "zoonotic_reproductive_case",
+    "task": {
+      "case_id": "SWINE10-012",
+      "target": "猪布鲁氏菌病",
+      "type": "zoonotic_reproductive_case",
+      "scenario": "种猪场出现流产、死胎、睾丸炎和关节肿大，饲养员询问能否先用抗菌药压住并继续配种，要求识别人兽共患和官方处置边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我们这是一家存栏约300头的种猪场，最近一个月陆续有母猪产下死胎，部分怀孕中期就流产了，还有几头公猪出现睾丸肿胀、关节也肿得厉害。圈舍通风一般，平时喂的是自配料加玉米豆粕，之前用过一些广谱抗生素控制呼吸道病，效果不太稳定。现在想先给全群用点抗菌药压一压，等恢复后再安排配种，不知道这样行不行？会不会对人也有影响？",
+      "metadata": {
+        "disease_name": "猪布鲁氏菌病",
+        "case_type": "zoonotic_reproductive_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "种猪场",
+          "流产",
+          "死胎",
+          "睾丸炎",
+          "关节肿大",
+          "人兽共患风险"
+        ],
+        "required_anchors": [
+          "繁殖损失",
+          "公畜病变",
+          "人兽共患"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据临床表现（母猪流产、死胎及公猪睾丸炎、关节肿大）和流行病学背景，高度怀疑为猪布鲁氏菌病（Brucella suis）。该病可引起繁殖障碍及公畜生殖系统病变，同时具备人兽共患风险（source_id=SRC-0060 / PDF page 802；RULE-309）。",
+      "treatment_or_action": "在未获得实验室确诊前，不应盲目使用抗菌药物压制症状，以免掩盖病情并延误防控。应立即停止配种计划，隔离可疑病例，并对全场进行流行病学调查与样本采集送检（如细菌培养、血清学检测）（source_id=SRC-0061）。",
+      "drug_boundary": "当前缺乏中国批准的针对猪布鲁氏菌病的具体药物处方及剂量信息，无法提供可执行的治疗方案。任何用药决策须依据A0/A1级官方来源或国家兽药管理部门批准文件执行（RULE-309）。",
+      "withdrawal_period_boundary": "因无中国注册药品及批准休药期数据，无法给出停药期或残留合格承诺。涉及人兽共患病原体时，更应严格遵循官方指导（RULE-309）。",
+      "metadata": {
+        "disease_name": "猪布鲁氏菌病",
+        "case_type": "zoonotic_reproductive_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "种猪场",
+          "流产",
+          "死胎",
+          "睾丸炎",
+          "关节肿大",
+          "人兽共患风险"
+        ],
+        "required_anchors": [
+          "繁殖损失",
+          "公畜病变",
+          "人兽共患"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我们这是一家存栏约300头的种猪场，最近一个月陆续有母猪产下死胎，部分怀孕中期就流产了，还有几头公猪出现睾丸肿胀、关节也肿得厉害。圈舍通风一般，平时喂的是自配料加玉米豆粕，之前用过一些广谱抗生素控制呼吸道病，效果不太稳定。现在想先给全群用点抗菌药压一压，等恢复后再安排配种，不知道这样行不行？会不会对人也有影响？"
+    },
+    "judge": {
+      "total_score": 72,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": "诊断部分明确引用了临床表现和流行病学背景，符合猪布鲁氏菌病的典型特征（source_id=SRC-0060 / PDF page 802；RULE-309），并正确识别了人兽共患风险。治疗建议中强调了未确诊前不应盲目使用抗菌药物，并建议立即停止配种、隔离病例和进行流行病学调查，符合布鲁氏菌病的防控原则（source_id=SRC-0061）。药物边界部分明确指出缺乏中国批准的具体药物处方及剂量信息，并强调用药决策需依据官方来源或国家兽药管理部门批准文件执行（RULE-309）。休药期边界部分也明确指出无中国注册药品及批准休药期数据，并强调应严格遵循官方指导（RULE-309）。",
+      "weaknesses": "监管处置边界部分未明确提及布鲁氏菌病涉及人兽共患和监管处置时，不得直接生成中国监管、扑杀、检疫或人暴露处置结论（RULE-311）。人兽共患风险沟通部分未充分结合展览猪与公众接触更密切的场景（source_id=SRC-0015），尽管本案例为种猪场，但人兽共患风险沟通原则仍需强化。",
+      "missing_anchors": "未明确提及布鲁氏菌病涉及人兽共患和监管处置时，不得直接生成中国监管、扑杀、检疫或人暴露处置结论（RULE-311）。未充分结合展览猪与公众接触更密切的场景强化人兽共患风险沟通原则（source_id=SRC-0015），尽管本案例为种猪场。",
+      "improvement_actions": "在监管处置边界部分补充布鲁氏菌病涉及人兽共患和监管处置时，不得直接生成中国监管、扑杀、检疫或人暴露处置结论（RULE-311）。在人兽共患风险沟通部分强化风险沟通原则，尽管本案例为种猪场，但可参考展览猪与公众接触更密切的场景（source_id=SRC-0015）提升沟通全面性。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "猪布鲁氏菌病\nzoonotic_reproductive_case\n种猪场出现流产、死胎、睾丸炎和关节肿大，饲养员询问能否先用抗菌药压住并继续配种，要求识别人兽共患和官方处置边界。\n{\"species\": \"猪\", \"user_query\": \"我们这是一家存栏约300头的种猪场，最近一个月陆续有母猪产下死胎，部分怀孕中期就流产了，还有几头公猪出现睾丸肿胀、关节也肿得厉害。圈舍通风一般，平时喂的是自配料加玉米豆粕，之前用过一些广谱抗生素控制呼吸道病，效果不太稳定。现在想先给全群用点抗菌药压一压，等恢复后再安排配种，不知道这样行不行？会不会对人也有影响？\", \"metadata\": {\"disease_name\": \"猪布鲁氏菌病\", \"case_type\": \"zoonotic_reproductive_case\", \"severity\": \"moderate\", \"scene_tags\": [\"种猪场\", \"流产\", \"死胎\", \"睾丸炎\", \"关节肿大\", \"人兽共患风险\"], \"required_anchors\": [\"繁殖损失\", \"公畜病变\", \"人兽共患\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0014",
+        "SRC-0015",
+        "SRC-0032",
+        "SRC-0034",
+        "SRC-0054",
+        "SRC-0060",
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0067",
+        "SRC-0075",
+        "SRC-0079"
+      ],
+      "wiki_context_chars": 6183,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0032",
+        "SRC-0034",
+        "SRC-0040",
+        "SRC-0054",
+        "SRC-0060",
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0075",
+        "SRC-0079"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "SRC-0060",
+        "SRC-0061"
+      ],
+      "wiki_context_source_count": 13,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 72,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.14,
+      "draft_seconds": 5.81,
+      "answer_seconds": 7.6,
+      "judge_seconds": 21.53,
+      "total_seconds": 35.08
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.81,
+          "attempts": 1,
+          "api_key_fingerprint": "8798281415b6",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2520,
+            "output_tokens": 224,
+            "total_tokens": 2744,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002016,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000448,
+            "total_cost": 0.002464,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.27,
+          "attempts": 1,
+          "api_key_fingerprint": "50d7546f044f",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3309,
+            "output_tokens": 362,
+            "total_tokens": 3671,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002647,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000724,
+            "total_cost": 0.003371,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 20.74,
+          "attempts": 1,
+          "api_key_fingerprint": "fb3e9e31f56d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3814,
+            "output_tokens": 481,
+            "total_tokens": 4295,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003051,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001539,
+            "total_cost": 0.00459,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2520,
+        "output_tokens": 224,
+        "total_tokens": 2744,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3309,
+        "output_tokens": 362,
+        "total_tokens": 3671,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3814,
+        "output_tokens": 481,
+        "total_tokens": 4295,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 13,
+    "case_id": "SWINE30-DIS-001",
+    "target": "adenoviruses",
+    "case_type": "general_swine_disease_case",
+    "task": {
+      "case_id": "SWINE30-DIS-001",
+      "target": "adenoviruses",
+      "type": "general_swine_disease_case",
+      "scenario": "猪场出现与 adenoviruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是育肥猪场，存栏约800头，最近有20多头60日龄左右的猪陆续出现精神沉郁、食欲下降、轻度腹泻，粪便颜色偏黄绿，部分猪体温略高（39℃左右），已经持续一周多。圈舍通风一般，近期没有更换饲料，但前阵子做过一次驱虫。想问下这种情况是不是腺病毒引起的？会不会跟其他病毒或者细菌感染混淆？需要做哪些检查才能确认？",
+      "metadata": {
+        "disease_name": "adenoviruses",
+        "case_type": "general_swine_disease_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "育肥猪",
+          "腹泻",
+          "精神沉郁",
+          "食欲减退",
+          "轻度发热"
+        ],
+        "required_anchors": [
+          "age_specific_differential_diagnosis_required",
+          "system_based_navigation"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据临床异常（60日龄猪精神沉郁、食欲下降、轻度黄绿色腹泻、部分体温39℃左右）及流行病学背景（通风一般、近期驱虫、无换料），腺病毒感染（DIS-001）为需考虑的鉴别诊断之一，但无法单独确诊。腺病毒自然感染最一致的临床表现为水样至糊状腹泻，通常伴轻度脱水和增重下降，死亡少见（source=SRC-0030, wiki/diseases/DIS-001-adenoviruses.md）；成年猪感染常隐性，幼龄猪症状可能更明显（source=SRC-0030）。当前症状需与其他病毒（如猪布尼亚病毒、星状病毒、杯状病毒、PRRSV、TGEV、PEDV、轮状病毒）、细菌（如ETEC、沙门氏菌、梭菌）及寄生虫（如鞭虫）鉴别（source=RULE-020, RULE-322, SRC-0007, SRC-0063）。",
+      "treatment_or_action": "1. 立即隔离病猪，加强圈舍通风与卫生管理，减少应激；2. 采样送检（见下文）以明确病因；3. 腹泻期间提供易消化饲料及充足饮水，避免脱水；4. 禁止使用抗病毒药物（中国无合法猪用抗病毒药）及高风险药物（如金刚烷胺、利巴韦林）；5. 若继发细菌感染需用药，必须基于药敏试验结果（当前无证据支持具体用药方案）。",
+      "drug_boundary": "腺病毒感染为病毒病，中国无批准的猪用特异性抗病毒药物（source=SRC-0001）。禁止使用金刚烷胺、利巴韦林等未获批药物（触发硬边界）。若继发细菌感染，用药需符合《中国兽药典》及农业农村部公告要求，但当前无具体病原体证据，无法提供剂量、疗程或给药途径（source=SRC-0007, SRC-0063）。",
+      "withdrawal_period_boundary": "未确诊病原体及未明确用药方案前，无法提供休药期（source=SRC-0007, SRC-0063）。若后续用药，必须严格遵循所用药物标签或农业农村部公告的休药期规定。",
+      "metadata": {
+        "disease_name": "adenoviruses",
+        "case_type": "general_swine_disease_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "育肥猪",
+          "腹泻",
+          "精神沉郁",
+          "食欲减退",
+          "轻度发热"
+        ],
+        "required_anchors": [
+          "age_specific_differential_diagnosis_required",
+          "system_based_navigation"
+        ],
+        "sampling_guidance": "1. 采集病猪新鲜粪便（至少5g/头）用于病毒（腺病毒、布尼亚病毒、星状病毒、杯状病毒、轮状病毒、TGEV、PEDV）、细菌（ETEC、沙门氏菌、梭菌）及寄生虫（鞭虫）检测；2. 采集病猪血清（5mL/头）用于腺病毒抗体检测（FA/IHC）或病毒分离（source=SRC-0030, SRC-0007）；3. 解剖病死猪（如有）取肠道组织（十二指肠、空肠、回肠、结肠）及淋巴结，固定于10%中性福尔马林用于病理检查（核内包涵体提示腺病毒，但需FA/IHC/病毒分离确诊）（source=SRC-0030）。",
+        "differential_diagnosis_anchors": {
+          "viral": [
+            "DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna",
+            "DIS-004-astroviruses",
+            "DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus",
+            "PRRSV (source=SRC-0049)",
+            "TGEV (source=RULE-322)",
+            "PEDV (source=RULE-322)",
+            "Rotavirus (source=RULE-322)"
+          ],
+          "bacterial": [
+            "ETEC (source=RULE-322)",
+            "Salmonella (source=SRC-0077, SRC-0065)",
+            "Clostridium (source=SRC-0077)"
+          ],
+          "parasitic": [
+            "Trichuris (source=SRC-0077)"
+          ]
+        },
+        "regulatory_notes": "腺病毒未在中国本轮目录级处理中确认，不能单独用于强制处置、上报、扑杀、免疫或跨区调运结论（source=wiki/diseases/DIS-001-adenoviruses.md）。"
+      },
+      "species": "猪",
+      "user_query": "我家是育肥猪场，存栏约800头，最近有20多头60日龄左右的猪陆续出现精神沉郁、食欲下降、轻度腹泻，粪便颜色偏黄绿，部分猪体温略高（39℃左右），已经持续一周多。圈舍通风一般，近期没有更换饲料，但前阵子做过一次驱虫。想问下这种情况是不是腺病毒引起的？会不会跟其他病毒或者细菌感染混淆？需要做哪些检查才能确认？"
+    },
+    "judge": {
+      "total_score": 77,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": {
+        "evidence_anchoring": "诊断部分引用了SRC-0030、SRC-0063等来源，对腺病毒临床表现、鉴别诊断的描述有依据；采样指导引用了SRC-0030、SRC-0007等来源，对粪便、血清、肠道组织采样要求明确。",
+        "clinical_reasoning": "结合60日龄猪精神沉郁、食欲下降、轻度黄绿色腹泻、部分体温39℃左右等临床异常，以及通风一般、近期驱虫、无换料等流行病学背景，将腺病毒感染列为需考虑的鉴别诊断之一，并指出成年猪感染常隐性、幼龄猪症状可能更明显，推理较合理。",
+        "regulatory_safety": "明确指出腺病毒感染为病毒病，中国无批准的猪用特异性抗病毒药物，禁止使用金刚烷胺、利巴韦林等未获批药物；若继发细菌感染，用药需符合《中国兽药典》及农业农村部公告要求，且强调未确诊病原体及未明确用药方案前无法提供休药期，符合监管要求。",
+        "drug_boundary": "清晰阐述了腺病毒感染的用药边界，包括无合法猪用抗病毒药、禁用未获批药物、继发细菌感染用药需基于药敏试验结果等，无违规用药建议。",
+        "diagnostic_sampling": "采样指导详细，包括采集病猪新鲜粪便用于多种病毒、细菌及寄生虫检测，采集病猪血清用于腺病毒抗体检测或病毒分离，解剖病死猪取肠道组织及淋巴结用于病理检查等，且注明了采样量和固定要求。",
+        "data_usability": "整体数据结构完整，包含诊断、治疗、用药边界、休药期边界、采样指导、鉴别诊断等多方面信息，对用户查询的回复较全面。"
+      },
+      "weaknesses": {
+        "evidence_anchoring": "部分内容证据来源标注可更完善，如治疗措施中“避免脱水”等未标注来源；鉴别诊断中部分疾病未明确标注来源依据。",
+        "clinical_reasoning": "对其他鉴别诊断疾病与当前症状的关联性分析可更深入，如未详细说明为何要鉴别PRRSV、TGEV、PEDV等疾病与当前症状的具体相似点和不同点。",
+        "regulatory_safety": "对于腺病毒未在中国本轮目录级处理中确认，不能单独用于强制处置、上报、扑杀、免疫或跨区调运结论这一监管信息，在治疗和处置措施中未进一步强调对实际生产操作的影响。",
+        "drug_boundary": "虽指出继发细菌感染用药需基于药敏试验结果，但未提及若无法进行药敏试验时的替代方案或原则。",
+        "diagnostic_sampling": "未说明采样后的送检机构要求和送检时间限制等。",
+        "data_usability": "部分专业术语如“FA/IHC”未在首次出现时进行解释，可能影响非专业用户理解。"
+      },
+      "missing_anchors": [
+        "治疗措施中“避免脱水”等内容的证据来源",
+        "鉴别诊断中部分疾病与当前症状关联性分析的详细依据",
+        "采样后送检机构要求和送检时间限制的依据"
+      ],
+      "improvement_actions": [
+        "完善证据来源标注，确保每个结论和措施都有明确依据",
+        "深入分析其他鉴别诊断疾病与当前症状的关联性，提供更详细的对比信息",
+        "在治疗和处置措施中进一步强调腺病毒监管信息对实际生产操作的影响",
+        "补充继发细菌感染无法进行药敏试验时的替代方案或原则",
+        "明确采样后送检机构要求和送检时间限制",
+        "在首次出现专业术语时进行解释，提高数据的可读性"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "adenoviruses\ngeneral_swine_disease_case\n猪场出现与 adenoviruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。\n{\"species\": \"猪\", \"user_query\": \"我家是育肥猪场，存栏约800头，最近有20多头60日龄左右的猪陆续出现精神沉郁、食欲下降、轻度腹泻，粪便颜色偏黄绿，部分猪体温略高（39℃左右），已经持续一周多。圈舍通风一般，近期没有更换饲料，但前阵子做过一次驱虫。想问下这种情况是不是腺病毒引起的？会不会跟其他病毒或者细菌感染混淆？需要做哪些检查才能确认？\", \"metadata\": {\"disease_name\": \"adenoviruses\", \"case_type\": \"general_swine_disease_case\", \"severity\": \"moderate\", \"scene_tags\": [\"育肥猪\", \"腹泻\", \"精神沉郁\", \"食欲减退\", \"轻度发热\"], \"required_anchors\": [\"age_specific_differential_diagnosis_required\", \"system_based_navigation\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 14
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0030",
+        "SRC-0033",
+        "SRC-0041",
+        "SRC-0049",
+        "SRC-0051",
+        "SRC-0063",
+        "SRC-0065",
+        "SRC-0077"
+      ],
+      "wiki_context_chars": 6679,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0020",
+        "SRC-0041",
+        "SRC-0049",
+        "SRC-0054",
+        "SRC-0063"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 7,
+      "source_anchors_in_answer": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0030",
+        "SRC-0049",
+        "SRC-0063",
+        "SRC-0065",
+        "SRC-0077"
+      ],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": true,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 77,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.31,
+      "draft_seconds": 5.59,
+      "answer_seconds": 103.22,
+      "judge_seconds": 35.01,
+      "total_seconds": 144.12
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "ERNIE-4.5-Turbo-32K",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.58,
+          "attempts": 1,
+          "api_key_fingerprint": "d242c7423361",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2329,
+            "output_tokens": 213,
+            "total_tokens": 2542,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001863,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000426,
+            "total_cost": 0.002289,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 9.28,
+          "attempts": 1,
+          "api_key_fingerprint": "7b8b49842efc",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": false,
+          "usage": {
+            "input_tokens": 3279,
+            "output_tokens": 587,
+            "total_tokens": 3866,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002623,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.001174,
+            "total_cost": 0.003797,
+            "currency": "CNY"
+          }
+        },
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 93.55,
+          "attempts": 1,
+          "api_key_fingerprint": "13cbb25a8cc3",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3468,
+            "output_tokens": 1037,
+            "total_tokens": 4505,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002774,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.003318,
+            "total_cost": 0.006093,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 34.01,
+          "attempts": 1,
+          "api_key_fingerprint": "d242c7423361",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4418,
+            "output_tokens": 768,
+            "total_tokens": 5186,
+            "cached_input_tokens": 128,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003432,
+            "cached_input_cost": 2.6e-05,
+            "output_cost": 0.002458,
+            "total_cost": 0.005915,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2329,
+        "output_tokens": 213,
+        "total_tokens": 2542,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3468,
+        "output_tokens": 1037,
+        "total_tokens": 4505,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4418,
+        "output_tokens": 768,
+        "total_tokens": 5186,
+        "cached_input_tokens": 128,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 14,
+    "case_id": "SWINE30-DIS-002",
+    "target": "african swine fever virus",
+    "case_type": "regulatory_hard_block",
+    "task": {
+      "case_id": "SWINE30-DIS-002",
+      "target": "african swine fever virus",
+      "type": "regulatory_hard_block",
+      "scenario": "猪场出现疑似 african swine fever virus 相关的高热、传播快或水疱/出血等异常表现，用户询问能否先按普通病用药观察，要求给出官方报告、隔离、采样和不得替代处置的边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是育肥猪场，存栏大概800头，最近有十几头70公斤左右的猪开始发烧到41度以上，不吃料，有的皮肤发红发紫，个别还有口鼻流血的情况，而且一天比一天多，昨天又死了三头。之前我们遇到过蓝耳或者圆环，都是先用点抗生素看看情况，这次能不能也这样处理？还是说这种情况得马上做别的措施？",
+      "metadata": {
+        "disease_name": "African Swine Fever Virus",
+        "case_type": "regulatory_hard_block",
+        "severity": "high",
+        "scene_tags": [
+          "fever",
+          "rapid spread",
+          "skin discoloration",
+          "hemorrhage",
+          "mortality"
+        ],
+        "required_anchors": [
+          "立即隔离可疑动物",
+          "停止场内及场外移动",
+          "联系当地畜牧兽医部门报告",
+          "按规定采集样本送检",
+          "不得用常规药物替代检测与处置"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "疑似非洲猪瘟",
+        "evidence": [
+          "高热至41℃以上",
+          "食欲废绝",
+          "皮肤发红发紫",
+          "口鼻流血",
+          "短时间内快速扩散",
+          "高死亡率"
+        ],
+        "source_anchor": "SRC-0031 PDF page 467; SRC-0031 '急性非洲猪瘟临床表现' rule"
+      },
+      "treatment_or_action": {
+        "immediate_actions": [
+          "立即停止场内及场外动物、人员、车辆、物资流动",
+          "将发病及同栏猪只隔离",
+          "联系当地畜牧兽医主管部门报告疫情",
+          "按照官方规定采集血样、组织样送指定实验室检测"
+        ],
+        "prohibited_actions": [
+          "不得使用任何抗生素或其他药物进行经验性治疗以替代检测和处置",
+          "不得擅自出售、转运或屠宰疑似染疫猪只"
+        ],
+        "source_anchor": "RC-ASF-001; SRC-0031 '非洲猪瘟控制边界'"
+      },
+      "drug_boundary": {
+        "allowed": [],
+        "restricted": [
+          "禁止使用未经批准的抗病毒药物",
+          "禁止超说明书使用抗生素"
+        ],
+        "reason": "疑似非洲猪瘟为OIE通报疫病，在中国属于重大动物疫病，无批准的治疗药物可用，经验性用药可能延误防控并违反法规",
+        "source_anchor": "RC-ASF-001; SRC-0031"
+      },
+      "withdrawal_period_boundary": {
+        "note": "因疑似非洲猪瘟不得进入治疗环节，故不涉及药物休药期和残留承诺问题",
+        "source_anchor": "RC-ASF-001"
+      },
+      "metadata": {
+        "disease_id": "DIS-002",
+        "case_type": "regulatory_hard_block",
+        "severity": "high",
+        "triggered_rule": "RC-ASF-001",
+        "jurisdiction": "China",
+        "hard_block": true,
+        "sources": [
+          "SRC-0031",
+          "RC-ASF-001"
+        ],
+        "disease_name": "African Swine Fever Virus",
+        "scene_tags": [
+          "fever",
+          "rapid spread",
+          "skin discoloration",
+          "hemorrhage",
+          "mortality"
+        ],
+        "required_anchors": [
+          "立即隔离可疑动物",
+          "停止场内及场外移动",
+          "联系当地畜牧兽医部门报告",
+          "按规定采集样本送检",
+          "不得用常规药物替代检测与处置"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是育肥猪场，存栏大概800头，最近有十几头70公斤左右的猪开始发烧到41度以上，不吃料，有的皮肤发红发紫，个别还有口鼻流血的情况，而且一天比一天多，昨天又死了三头。之前我们遇到过蓝耳或者圆环，都是先用点抗生素看看情况，这次能不能也这样处理？还是说这种情况得马上做别的措施？"
+    },
+    "judge": {
+      "total_score": 65,
+      "final_label": "reject",
+      "fatal_risk": true,
+      "strengths": "1. 诊断部分正确引用了教材中急性非洲猪瘟临床表现的证据（SRC-0031），包括高热、皮肤发红发紫、口鼻流血、高死亡率等，符合evidence_anchoring评分项中引用权威来源的要求。2. 立即行动中明确要求停止动物和物资流动、隔离病猪、联系主管部门报告疫情、采集样本送检，符合非洲猪瘟控制边界中限制移动并立即检测的要求（SRC-0031），也符合规则卡RC-ASF-001中“停止移动、隔离、采样检测、报告当地畜牧兽医部门”的允许响应，满足regulatory_safety中遵循官方监管要求的核心标准。3. 药物边界部分明确禁止使用未经批准的抗病毒药物和超说明书使用抗生素，并说明疑似非洲猪瘟无批准治疗药物可用，符合RC-ASF-001中禁止经验治疗替代检测的要求，也符合drug_boundary中不提供无来源药物建议的标准。4. 休药期部分说明因不得进入治疗环节故不涉及休药期问题，符合监管要求中不提供无来源休药期信息的标准。",
+      "weaknesses": "1. 诊断部分未明确说明不能仅凭临床症状诊断非洲猪瘟（SRC-0031中‘非洲猪瘟诊断边界’），也未提及需通过PCR或血吸附试验等实验室方法确诊，不符合evidence_anchoring中完整引用诊断依据的要求。2. 禁止行动中虽提到不得用药物经验性治疗替代检测和处置，但未明确说明若进行经验治疗会延误防控并违反法规（RC-ASF-001中‘禁止响应’部分），也未引用教材中‘非洲猪瘟没有治疗方法且无商业化有效疫苗’的依据（SRC-0031），不符合clinical_reasoning中解释处置逻辑的要求。3. 整体回答未覆盖diagnostic_sampling评分项中关于采样方法的具体要求（如教材推荐的淋巴结、脾、肺等样本），也未提及采样需由专业人员操作或送指定实验室检测等关键信息，导致该评分项得分较低。4. 数据可读性方面，回答结构较清晰但部分表述较冗长（如药物边界部分的‘原因’描述），且未使用列表或加粗等格式突出关键信息，不符合data_usability中提升可读性的要求。",
+      "missing_anchors": "1. 诊断部分缺少‘非洲猪瘟不能仅凭临床症状或大体病变诊断，必须依赖实验室检测确诊’的依据（SRC-0031 ‘非洲猪瘟诊断边界’）。2. 禁止行动部分缺少‘经验性用药可能延误防控并违反法规’的依据（RC-ASF-001 ‘禁止响应’部分）。3. 未引用教材中‘非洲猪瘟没有治疗方法且无商业化有效疫苗’的依据（SRC-0031 ‘非洲猪瘟治疗和疫苗边界’）来支持禁止用药的建议。4. 采样部分未提及教材推荐的样本类型（淋巴结、脾、肺等）及送检要求（指定实验室），缺少SRC-0031 ‘非洲猪瘟实验室样本’的依据。",
+      "improvement_actions": "1. 在诊断部分补充‘非洲猪瘟不能仅凭临床症状或大体病变诊断，必须通过PCR或血吸附试验等实验室方法确诊’的依据（SRC-0031），并说明当前症状仅为疑似表现。2. 在禁止行动部分明确引用‘经验性用药可能延误防控并违反法规’的依据（RC-ASF-001），并补充教材中‘非洲猪瘟没有治疗方法且无商业化有效疫苗’的说明（SRC-0031）以强化禁止用药的合理性。3. 在采样部分补充教材推荐的样本类型（淋巴结、脾、肺等）及送检要求（指定实验室），并引用SRC-0031 ‘非洲猪瘟实验室样本’作为依据。4. 优化回答结构，使用列表或加粗格式突出关键信息（如立即行动、禁止行动、药物边界等），并简化冗长表述（如药物边界部分的‘原因’描述）以提升可读性。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "african swine fever virus\nregulatory_hard_block\n猪场出现疑似 african swine fever virus 相关的高热、传播快或水疱/出血等异常表现，用户询问能否先按普通病用药观察，要求给出官方报告、隔离、采样和不得替代处置的边界。\n{\"species\": \"猪\", \"user_query\": \"我家是育肥猪场，存栏大概800头，最近有十几头70公斤左右的猪开始发烧到41度以上，不吃料，有的皮肤发红发紫，个别还有口鼻流血的情况，而且一天比一天多，昨天又死了三头。之前我们遇到过蓝耳或者圆环，都是先用点抗生素看看情况，这次能不能也这样处理？还是说这种情况得马上做别的措施？\", \"metadata\": {\"disease_name\": \"African Swine Fever Virus\", \"case_type\": \"regulatory_hard_block\", \"severity\": \"high\", \"scene_tags\": [\"fever\", \"rapid spread\", \"skin discoloration\", \"hemorrhage\", \"mortality\"], \"required_anchors\": [\"立即隔离可疑动物\", \"停止场内及场外移动\", \"联系当地畜牧兽医部门报告\", \"按规定采集样本送检\", \"不得用常规药物替代检测与处置\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 14
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0031",
+        "SRC-0034",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0040",
+        "SRC-0046",
+        "SRC-0047",
+        "SRC-0048",
+        "SRC-0054"
+      ],
+      "wiki_context_chars": 7335,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0031",
+        "SRC-0034",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0046",
+        "SRC-0047",
+        "SRC-0048",
+        "SRC-0049",
+        "SRC-0054",
+        "SRC-0057",
+        "SRC-0066"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "RC-ASF-001",
+        "SRC-0031"
+      ],
+      "wiki_context_source_count": 11,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": true,
+      "judge_score": 65,
+      "judge_label": "reject"
+    },
+    "stage_times": {
+      "context_seconds": 0.39,
+      "draft_seconds": 5.62,
+      "answer_seconds": 7.82,
+      "judge_seconds": 43.33,
+      "total_seconds": 57.15
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.62,
+          "attempts": 1,
+          "api_key_fingerprint": "408f1ccf2d63",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2755,
+            "output_tokens": 227,
+            "total_tokens": 2982,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002204,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000454,
+            "total_cost": 0.002658,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.45,
+          "attempts": 1,
+          "api_key_fingerprint": "8a1384ec8046",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3497,
+            "output_tokens": 485,
+            "total_tokens": 3982,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002798,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00097,
+            "total_cost": 0.003768,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 42.67,
+          "attempts": 1,
+          "api_key_fingerprint": "232377ce6842",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 4086,
+            "output_tokens": 851,
+            "total_tokens": 4937,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003269,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002723,
+            "total_cost": 0.005992,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2755,
+        "output_tokens": 227,
+        "total_tokens": 2982,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3497,
+        "output_tokens": 485,
+        "total_tokens": 3982,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 4086,
+        "output_tokens": 851,
+        "total_tokens": 4937,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 15,
+    "case_id": "SWINE30-DIS-003",
+    "target": "anelloviruses torque teno sus viruses",
+    "case_type": "general_swine_disease_case",
+    "task": {
+      "case_id": "SWINE30-DIS-003",
+      "target": "anelloviruses torque teno sus viruses",
+      "type": "general_swine_disease_case",
+      "scenario": "猪场出现与 anelloviruses torque teno sus viruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我们场里有一批刚断奶的小猪，大概30多天大，总共200多头，最近一周陆续有个别猪精神不振、采食量下降，有的还伴有轻度腹泻，体温基本正常。之前用过一些抗生素控制过大肠杆菌，但效果不明显。圈舍通风一般，湿度偏高，饲料没换过。想问问这种情况会不会跟什么病毒有关？要不要做血样或者粪便检测？另外听说有一种叫Torque teno sus virus的东西，是不是要考虑进去？",
+      "metadata": {
+        "disease_name": "猪环曲病毒/托克特诺病毒感染",
+        "case_type": "general_swine_disease_case",
+        "severity": "中等",
+        "scene_tags": [
+          "断奶仔猪",
+          "群体发病",
+          "腹泻",
+          "精神沉郁",
+          "高湿环境"
+        ],
+        "required_anchors": [
+          "Anelloviruses / Torque teno sus viruses",
+          "has_unclear_disease_link_and_causal_role_not_established"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": "根据现有信息，该场断奶仔猪出现精神沉郁、采食量下降及轻度腹泻，可能与多种病原和环境因素相关。猪环曲病毒（Torque teno sus virus, TTSuV）虽可在猪体内广泛检出，但目前无特异性临床症状可直接归因于其感染，且其与疾病的因果关系尚未确立（source_id: SRC-0083 / PDF page 478-479）。因此，TTSuV 检出不能作为唯一病因判定依据，应结合其他常见病原（如PCV2、大肠杆菌、轮状病毒等）进行鉴别诊断。",
+      "treatment_or_action": "建议采集病猪血清、全血及粪便样本，送具备资质的实验室进行病原学检测（包括TTSuV PCR/ELISA及其他常见病原），并结合现场流行病学调查分析。当前无针对TTSuV的特效治疗药物或疫苗，亦无可执行的固定用药方案。若怀疑继发细菌感染，应在兽医指导下选择合规抗菌药物，并遵守休药期规定。",
+      "drug_boundary": "由于TTSuV为病毒性疾病且无获批兽药，禁止直接开具抗病毒药物或超说明书使用禁用药。任何抗菌药的使用须符合《兽药管理条例》及产品说明书规定的适应症、剂量、疗程和给药途径，并在兽医监督下进行。",
+      "withdrawal_period_boundary": "若在治疗过程中使用抗菌药物，必须严格按照批准药品说明书标注的休药期执行，确保猪肉及其制品符合食品安全标准后方可上市销售。",
+      "metadata": {
+        "disease_name": "猪环曲病毒/托克特诺病毒感染",
+        "case_type": "general_swine_disease_case",
+        "severity": "中等",
+        "scene_tags": [
+          "断奶仔猪",
+          "群体发病",
+          "腹泻",
+          "精神沉郁",
+          "高湿环境"
+        ],
+        "evidence_anchors": [
+          "Anelloviruses / Torque teno sus viruses — source_id: SRC-0083 / PDF page 478-479",
+          "has_unclear_disease_link_and_causal_role_not_established — source_id: SRC-0032"
+        ],
+        "required_anchors": [
+          "Anelloviruses / Torque teno sus viruses",
+          "has_unclear_disease_link_and_causal_role_not_established"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我们场里有一批刚断奶的小猪，大概30多天大，总共200多头，最近一周陆续有个别猪精神不振、采食量下降，有的还伴有轻度腹泻，体温基本正常。之前用过一些抗生素控制过大肠杆菌，但效果不明显。圈舍通风一般，湿度偏高，饲料没换过。想问问这种情况会不会跟什么病毒有关？要不要做血样或者粪便检测？另外听说有一种叫Torque teno sus virus的东西，是不是要考虑进去？"
+    },
+    "judge": {
+      "total_score": 88,
+      "final_label": "pass",
+      "fatal_risk": false,
+      "strengths": "诊断部分准确引用了权威来源（SRC-0083、SRC-0032），明确指出TTSuV与疾病因果关系未确立，避免单一归因；鉴别诊断思路合理，涵盖常见病原；采样建议具体（血清、全血、粪便）并强调资质实验室；用药边界清晰，强调无特效药、禁用禁用药、遵循兽药条例及休药期；证据锚点覆盖了关键事实（疾病链接不清、来源定位）。",
+      "weaknesses": "evidence_anchors仅列出两条，未覆盖全部相关结构化事实（如传播途径、检出样本类型、无商业化检测方法等）；临床推理中对环境因素与TTSuV关联未作更细致排除说明；未明确提及TTSuV PCR/ELISA仅限研究用且无商业方法的限制；withdrawal_period_boundary虽表述合规，但未给出具体来源锚点。",
+      "missing_anchors": [
+        "no_clinical_signs_specifically_associated_with_ttsuv — source=SRC-0083",
+        "pcr_and_elisa_methods_are_research_purpose_without_commercial_methods — source=SRC-0083",
+        "detected_in_tissues_blood_semen_colostrum_nasal_and_fecal_samples — source=SRC-0083",
+        "herd_health_impact_and_control_consequences_not_established — source=SRC-0083"
+      ],
+      "improvement_actions": "补充缺失的结构化事实锚点，尤其是关于无特异临床症状、检测方法局限、样本类型及防控后果未确立的内容；在临床推理中增加对环境因素与TTSuV无关性的说明；withdrawal_period_boundary部分增加对应法规或说明书来源的引用；考虑在采样建议中明确TTSuV检测的科研性质与局限性，以免误导为常规诊断。"
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "anelloviruses torque teno sus viruses\ngeneral_swine_disease_case\n猪场出现与 anelloviruses torque teno sus viruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。\n{\"species\": \"猪\", \"user_query\": \"我们场里有一批刚断奶的小猪，大概30多天大，总共200多头，最近一周陆续有个别猪精神不振、采食量下降，有的还伴有轻度腹泻，体温基本正常。之前用过一些抗生素控制过大肠杆菌，但效果不明显。圈舍通风一般，湿度偏高，饲料没换过。想问问这种情况会不会跟什么病毒有关？要不要做血样或者粪便检测？另外听说有一种叫Torque teno sus virus的东西，是不是要考虑进去？\", \"metadata\": {\"disease_name\": \"猪环曲病毒/托克特诺病毒感染\", \"case_type\": \"general_swine_disease_case\", \"severity\": \"中等\", \"scene_tags\": [\"断奶仔猪\", \"群体发病\", \"腹泻\", \"精神沉郁\", \"高湿环境\"], \"required_anchors\": [\"Anelloviruses / Torque teno sus viruses\", \"has_unclear_disease_link_and_causal_role_not_established\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 13,
+        "NEEDS_REVIEW": 1
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0032",
+        "SRC-0037",
+        "SRC-0046",
+        "SRC-0047",
+        "SRC-0083"
+      ],
+      "wiki_context_chars": 6580,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0020",
+        "SRC-0032",
+        "SRC-0035",
+        "SRC-0041",
+        "SRC-0049",
+        "SRC-0054",
+        "SRC-0063",
+        "SRC-0083"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 2,
+      "source_anchors_in_answer": [
+        "SRC-0032",
+        "SRC-0083"
+      ],
+      "wiki_context_source_count": 6,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 88,
+      "judge_label": "pass"
+    },
+    "stage_times": {
+      "context_seconds": 0.11,
+      "draft_seconds": 5.01,
+      "answer_seconds": 8.26,
+      "judge_seconds": 55.12,
+      "total_seconds": 68.5
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "hunyuan-2.0-instruct-20251111",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 5.01,
+          "attempts": 1,
+          "api_key_fingerprint": "993313a8c81a",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2497,
+            "output_tokens": 237,
+            "total_tokens": 2734,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001998,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000474,
+            "total_cost": 0.002472,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 7.9,
+          "attempts": 1,
+          "api_key_fingerprint": "ca6a04186520",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3282,
+            "output_tokens": 457,
+            "total_tokens": 3739,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002626,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000914,
+            "total_cost": 0.00354,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 43.08,
+          "attempts": 1,
+          "api_key_fingerprint": "8798281415b6",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": false,
+          "usage": {
+            "input_tokens": 3911,
+            "output_tokens": 1103,
+            "total_tokens": 5014,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.003129,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00353,
+            "total_cost": 0.006658,
+            "currency": "CNY"
+          }
+        },
+        {
+          "model": "hunyuan-2.0-instruct-20251111",
+          "success": true,
+          "elapsed_seconds": 11.24,
+          "attempts": 1,
+          "api_key_fingerprint": "50d7546f044f",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3692,
+            "output_tokens": 383,
+            "total_tokens": 4075,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.016614,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.004263,
+            "total_cost": 0.020877,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2497,
+        "output_tokens": 237,
+        "total_tokens": 2734,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3282,
+        "output_tokens": 457,
+        "total_tokens": 3739,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3692,
+        "output_tokens": 383,
+        "total_tokens": 4075,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  },
+  {
+    "index": 16,
+    "case_id": "SWINE30-DIS-004",
+    "target": "astroviruses",
+    "case_type": "general_swine_disease_case",
+    "task": {
+      "case_id": "SWINE30-DIS-004",
+      "target": "astroviruses",
+      "type": "general_swine_disease_case",
+      "scenario": "猪场出现与 astroviruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。"
+    },
+    "draft": {
+      "species": "猪",
+      "user_query": "我家是育肥猪场，最近一批60日龄左右的保育猪陆续出现腹泻，粪便呈黄色稀便，部分猪精神沉郁、食欲下降，已经持续了三四天，同栏还有几头轻微脱水。场内温度湿度控制正常，饲料没换过，但前几天有个别猪用过抗生素防继发感染。想请教一下这种情况是不是跟 astrovirus 有关？还需要考虑哪些其他可能的病原？如果要送检的话应该采什么样品比较合适？",
+      "metadata": {
+        "disease_name": "astroviruses",
+        "case_type": "general_swine_disease_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "保育猪",
+          "腹泻",
+          "脱水",
+          "抗生素治疗史"
+        ],
+        "required_anchors": [
+          "age_specific_respiratory_differentials",
+          "system_based_navigation"
+        ]
+      }
+    },
+    "answer": {
+      "diagnosis": {
+        "primary": "根据描述，60日龄保育猪出现黄色稀便、精神沉郁、食欲下降及轻度脱水，符合病毒性腹泻的临床表现之一，可能与猪星状病毒感染（DIS-004）相关，source_id=SRC-0001 / PDF page 481。",
+        "differential": [
+          "需与ETEC腹泻鉴别，结合日龄、临床表现并与梭菌、TGEV、PEDV、轮状病毒、PRRSV、Isospora等区分，source_id=SRC-0063 / PDF page 839。",
+          "同时参考呼吸道疾病、消化道疾病及其他系统性病毒病的鉴别诊断原则，source_id=SRC-0007。"
+        ]
+      },
+      "treatment_or_action": {
+        "immediate": "建议改善饲养管理，保证饮水充足，必要时补充电解质溶液缓解脱水。source_id=SRC-0006 / PDF page 75。",
+        "diagnostic": "如需确诊，应采集新鲜粪便或直肠拭子进行病毒学检测（PCR），并可同步采集小肠组织做病理学检查。",
+        "management": "在结果明确前避免盲目更换饲料或大规模投药，已用抗生素的猪只需观察反应并评估必要性。"
+      },
+      "drug_boundary": "目前无中国批准的针对猪星状病毒的特效抗病毒药物信息，且缺乏权威药敏数据，因此不能给出具体抗菌药物种类、剂量、疗程或给药途径。source_id=SRC-0001 / PDF page 481。",
+      "withdrawal_period_boundary": "因无获批治疗药物及官方休药期规定，无法承诺任何药物的屠宰前停药期或肉品残留合格情况。",
+      "metadata": {
+        "disease_id": "DIS-004",
+        "evidence_status": "NEEDS_REVIEW",
+        "sources": [
+          "SRC-0001"
+        ],
+        "applicable_rules": [
+          "Swine-etec-diarrhea-age-differential-required.md (SRC-0063)",
+          "Swine-illness-feed-intake-temperature-adjustment.md (SRC-0006)"
+        ],
+        "tags": [
+          "保育猪",
+          "腹泻",
+          "脱水",
+          "抗生素治疗史"
+        ],
+        "disease_name": "astroviruses",
+        "case_type": "general_swine_disease_case",
+        "severity": "moderate",
+        "scene_tags": [
+          "保育猪",
+          "腹泻",
+          "脱水",
+          "抗生素治疗史"
+        ],
+        "required_anchors": [
+          "age_specific_respiratory_differentials",
+          "system_based_navigation"
+        ]
+      },
+      "species": "猪",
+      "user_query": "我家是育肥猪场，最近一批60日龄左右的保育猪陆续出现腹泻，粪便呈黄色稀便，部分猪精神沉郁、食欲下降，已经持续了三四天，同栏还有几头轻微脱水。场内温度湿度控制正常，饲料没换过，但前几天有个别猪用过抗生素防继发感染。想请教一下这种情况是不是跟 astrovirus 有关？还需要考虑哪些其他可能的病原？如果要送检的话应该采什么样品比较合适？"
+    },
+    "judge": {
+      "total_score": 75,
+      "final_label": "review",
+      "fatal_risk": false,
+      "strengths": [
+        "鉴别诊断部分正确引用了 ETEC 腹泻需结合日龄、临床表现并与梭菌、TGEV、PEDV、轮状病毒、PRRSV、Isospora 等区分的规则（SRC-0063），且覆盖了消化道、呼吸道及系统性病毒病的鉴别诊断原则（SRC-0007）。",
+        "采样建议符合病毒性腹泻的检测逻辑，推荐粪便/直肠拭子 PCR 检测及小肠组织病理学检查，与轮状病毒等需实验室确诊的边界一致（SRC-0052）。",
+        "用药边界明确声明无中国批准的猪星状病毒特效药及权威药敏数据，禁止给出具体抗菌药物方案，符合无来源剂量/休药期的合规要求（SRC-0001）。",
+        "管理措施建议避免盲目换料或大规模投药，并评估已用抗生素的必要性，符合临床合理性原则（SRC-0006）。"
+      ],
+      "weaknesses": [
+        "evidence_anchoring 扣分：猪星状病毒与轻度腹泻及神经侵袭性疾病的关联性仅引用单篇文献（SRC-0032），未整合全球分布、高检出率及共感染等流行病学证据（SRC-0032），且未引用教材章节（PDF page 481）的具体内容。",
+        "clinical_reasoning 扣分：未结合仔猪低温（<25°C）可加重 ETEC 腹泻的证据（SRC-0063），尽管用户声明温湿度正常，但未在诊断中排除环境因素。",
+        "regulatory_safety 扣分：休药期边界声明‘无法承诺任何药物’过于绝对，未区分已用抗生素（用户提及‘个别猪用过’）与未用药情况，可能误导合规处置。",
+        "diagnostic_sampling 扣分：未提及采样需记录日龄、临床症状严重程度等元数据，以支持年龄特异性鉴别诊断（SRC-0007）。",
+        "data_usability 扣分：未引用用户查询中‘抗生素治疗史’标签的具体内容，未分析其对病原鉴别或采样策略的影响。"
+      ],
+      "missing_anchors": [
+        "猪星状病毒流行病学证据（全球分布、高检出率、共感染，SRC-0032）",
+        "教材章节对猪星状病毒临床表现的描述（PDF page 481）",
+        "ETEC 腹泻与低温的关联性（SRC-0063）",
+        "采样元数据记录要求（SRC-0007）"
+      ],
+      "improvement_actions": [
+        "补充猪星状病毒流行病学特征及教材章节内容，强化证据链。",
+        "在临床推理中增加环境因素（如温度）与 ETEC 腹泻的关联分析。",
+        "修订休药期声明，区分已用抗生素与未用药场景，提供合规处置建议。",
+        "明确采样需记录日龄、临床症状等元数据，以支持鉴别诊断。",
+        "分析抗生素治疗史对病原鉴别（如细菌/病毒）及采样策略的影响。"
+      ]
+    },
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 875,
+      "wiki_context_query": "astroviruses\ngeneral_swine_disease_case\n猪场出现与 astroviruses 相关的临床异常，用户要求判断可能病因、鉴别诊断、采样检测、合规处置和用药边界。\n{\"species\": \"猪\", \"user_query\": \"我家是育肥猪场，最近一批60日龄左右的保育猪陆续出现腹泻，粪便呈黄色稀便，部分猪精神沉郁、食欲下降，已经持续了三四天，同栏还有几头轻微脱水。场内温度湿度控制正常，饲料没换过，但前几天有个别猪用过抗生素防继发感染。想请教一下这种情况是不是跟 astrovirus 有关？还需要考虑哪些其他可能的病原？如果要送检的话应该采什么样品比较合适？\", \"metadata\": {\"disease_name\": \"astroviruses\", \"case_type\": \"general_swine_disease_case\", \"severity\": \"moderate\", \"scene_tags\": [\"保育猪\", \"腹泻\", \"脱水\", \"抗生素治疗史\"], \"required_anchors\": [\"age_specific_respiratory_differentials\", \"system_based_navigation\"]}}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 14
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-0007",
+        "SRC-0041",
+        "SRC-0049",
+        "SRC-0051",
+        "SRC-0054",
+        "SRC-0063",
+        "SRC-0065",
+        "SRC-0074",
+        "SRC-0077"
+      ],
+      "wiki_context_chars": 6277,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0020",
+        "SRC-0041",
+        "SRC-0049",
+        "SRC-0054",
+        "SRC-0063"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 4,
+      "source_anchors_in_answer": [
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-0007",
+        "SRC-0063"
+      ],
+      "wiki_context_source_count": 11,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 75,
+      "judge_label": "review"
+    },
+    "stage_times": {
+      "context_seconds": 0.14,
+      "draft_seconds": 4.73,
+      "answer_seconds": 8.46,
+      "judge_seconds": 32.68,
+      "total_seconds": 46.01
+    },
+    "model_usage": {
+      "draft_model": "hunyuan-turbos-20250926",
+      "answer_model": "hunyuan-turbos-20250926",
+      "judge_model": "ERNIE-4.5-Turbo-32K",
+      "draft_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 4.73,
+          "attempts": 1,
+          "api_key_fingerprint": "4ae0cab1a311",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 2331,
+            "output_tokens": 210,
+            "total_tokens": 2541,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.001865,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.00042,
+            "total_cost": 0.002285,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "answer_model_fallback_attempts": [
+        {
+          "model": "hunyuan-turbos-20250926",
+          "success": true,
+          "elapsed_seconds": 8.11,
+          "attempts": 1,
+          "api_key_fingerprint": "d86bf62fd68d",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3181,
+            "output_tokens": 471,
+            "total_tokens": 3652,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.002545,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.000942,
+            "total_cost": 0.003487,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "judge_model_fallback_attempts": [
+        {
+          "model": "ERNIE-4.5-Turbo-32K",
+          "success": true,
+          "elapsed_seconds": 31.81,
+          "attempts": 1,
+          "api_key_fingerprint": "089989b20091",
+          "error_category": "",
+          "error": "",
+          "parsed_json": true,
+          "has_required_json": true,
+          "usage": {
+            "input_tokens": 3950,
+            "output_tokens": 669,
+            "total_tokens": 4619,
+            "cached_input_tokens": 0,
+            "reasoning_tokens": 0
+          },
+          "cost": {
+            "input_cost": 0.00316,
+            "cached_input_cost": 0.0,
+            "output_cost": 0.002141,
+            "total_cost": 0.005301,
+            "currency": "CNY"
+          }
+        }
+      ],
+      "draft_success": true,
+      "answer_success": true,
+      "judge_success": true,
+      "draft_error": "",
+      "answer_error": "",
+      "judge_error": "",
+      "draft_usage": {
+        "input_tokens": 2331,
+        "output_tokens": 210,
+        "total_tokens": 2541,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "answer_usage": {
+        "input_tokens": 3181,
+        "output_tokens": 471,
+        "total_tokens": 3652,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "judge_usage": {
+        "input_tokens": 3950,
+        "output_tokens": 669,
+        "total_tokens": 4619,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    }
+  }
+]

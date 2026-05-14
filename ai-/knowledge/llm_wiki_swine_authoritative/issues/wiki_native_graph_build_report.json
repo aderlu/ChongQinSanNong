@@ -1,0 +1,2241 @@
+{
+  "build_id": "wiki-native-graph:2026-05-14T00:21:24+08:00",
+  "build_status": "pass",
+  "outputs": {
+    "graph_path": "wiki/wiki-native-graph.json",
+    "report_json": "issues/wiki_native_graph_build_report.json",
+    "report_md": "issues/wiki_native_graph_build_report.md"
+  },
+  "input_snapshot": {
+    "predicate_registry_hash": "sha256:343da6108fe781026b398d8d31f528c21ce77aafc7b31cf452cc8e590f3fd07a"
+  },
+  "coverage": {
+    "node_counts": {
+      "comparison": 17,
+      "disease": 73,
+      "drug": 81,
+      "rule": 450,
+      "rule_card": 21,
+      "section": 4819,
+      "literal_span": 243,
+      "source": 239,
+      "syndrome": 22,
+      "synthesis": 35,
+      "topic": 99
+    },
+    "edge_status_counts": {
+      "verified": 6347,
+      "candidate": 95
+    },
+    "evidence_unit_count": 2405,
+    "page_counts": {
+      "disease": 73,
+      "drug": 81,
+      "comparison": 17,
+      "syndrome": 22,
+      "rule_card": 21,
+      "rule": 449,
+      "synthesis": 27,
+      "source": 239,
+      "topic": 99
+    },
+    "frontmatter_missing_count": 0,
+    "uncovered_content_summary_count": 1711
+  },
+  "semantic": {
+    "semantic_by_predicate": {
+      "HAS_CONTROL_MEASURE": 27,
+      "HAS_TRANSMISSION_ROUTE": 64,
+      "HAS_CLINICAL_SIGN": 73,
+      "HAS_DIAGNOSTIC_METHOD": 35,
+      "DIFFERENTIAL_DIAGNOSIS": 28,
+      "HAS_DRUG_BOUNDARY": 2,
+      "HAS_PATHOGEN": 18
+    },
+    "candidate_reasons": {
+      "missing_fact_id": 63,
+      "missing_required_rule_card": 32
+    },
+    "rejected_reasons": {}
+  },
+  "audit": {
+    "blockers": [],
+    "warnings": []
+  },
+  "frontmatter_missing": [],
+  "uncovered_content_summary": [
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 62,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 73,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-001-adenoviruses/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sources: SRC-0003, SRC-0007,"
+    },
+    {
+      "page_id": "disease:DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "line": 74,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-001-adenoviruses/002-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: SRC-0030。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 10,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 72,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "本来源仅补充官方监测和判定边界；临床病例处置仍需联动 `A0-MOA-ASF-EMERGENCY-6TH` 和 `RC-ASF-001`，不得生成治疗替代报告、隔离或处置流程的建议。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 98,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 99,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[A0-MOA-ASF-EMERGENCY-6TH](../sources/A0-MOA-ASF-EMERGENCY-6TH.md) - 农业农村部《非洲猪瘟疫情应急实施方案（第六版）》官方入口；本批次保存了页面和直链 PDF。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 100,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[A0-MOA-ASF-NORMALIZED-GUIDE](../sources/A0-MOA-ASF-NORMALIZED-GUIDE.md) - 非洲猪瘟常态化防控技术指南（试行版）。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 101,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[A0-MOA-ASF-LOW-VIRULENCE-2024](../sources/A0-MOA-ASF-LOW-VIRULENCE-2024.md) - 养殖场非洲猪瘟病毒弱毒株防控技术指南。"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 113,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-002-african-swine-fever-virus/001-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: A0-MOA-A"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 114,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-002-african-swine-fever-virus/002-Dataset-QA-Reinforcement-V6.md`：Dataset QA Reinforcement / V6；sources: A0-MOA-573"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 115,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-002-african-swine-fever-virus/003-Authority-Web-Reinforcement-V7.md`：Authority Web Reinforcement / V7；sources: A1-F"
+    },
+    {
+      "page_id": "disease:DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "line": 116,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-002-african-swine-fever-virus/004-MOA-Suffix-Crawl-Reinforcement-V8.md`：MOA Suffix Crawl Reinforcement / V8；sources"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 13,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 28,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 可在组织、血液、精液、初乳、鼻腔和粪便样本中检出，提示存在水平和垂直传播可能（`SRC-0083`, PDF page 478）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 29,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 在血清和鼻腔排出物中的检出率随日龄增加，提示传播效率较高（`SRC-0083`, PDF page 478）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 33,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "目前没有特异性临床症状可归因于 TTSuV 感染，健康猪中也可高比例检出（`SRC-0083`, PDF page 478-479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 34,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 与 PCV2 系统性疾病、PDNS 样病变、增重下降和肺炎等关联仍具争议，不能把 TTSuV 单独检出作为定因（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 38,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "无菌 TTSuV1 组织匀浆接种试验可见轻度间质性肺炎、短暂胸腺萎缩、膜性肾小球肾病和轻度肝淋巴细胞/组织细胞浸润；但常规猪临床病理实验资料缺乏（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 42,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 尚无已描述的病毒分离方案，诊断主要基于病毒 DNA 或抗体检测（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 43,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "PCR/qPCR 与 ELISA 方法主要用于研究，教材称无商业化检测方法可用（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 47,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 是否作为 PCV2 系统性疾病的协同因子仍未确定，需要与 PCV2 相关疾病和共感染解释分开（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 51,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "TTSuV 感染对猪群健康的影响和防控后果尚未建立，不能生成固定免疫、净化或用药程序（`SRC-0083`, PDF page 479）。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 77,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 78,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0083](../sources/SRC-0083-diseases-of-swine-11e-chapter-26-anelloviruses.md) - Chapter 26 Anelloviruses 正文补全，PDF page 478-479）"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 89,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-003-anelloviruses-torque-teno-sus-viruses/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sou"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 91,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-003-anelloviruses-torque-teno-sus-viruses/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Virus QA Re"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 92,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-003-anelloviruses-torque-teno-sus-viruses/001-Dataset-Alias-and-Causality-Boundary-V7.md`：Dataset Alias and Causali"
+    },
+    {
+      "page_id": "disease:DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "line": 93,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-003-anelloviruses-torque-teno-sus-viruses/001-Targeted-Disease-Completion-V5---Chapter-26-Anelloviruses.md`：Targete"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 7,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 8,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 62,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 74,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-004-astroviruses/002-B-task.md`：B-task 核心栏目补强；sources: SRC-0032。"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 75,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-004-astroviruses/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Virus QA Reinforcement / V7；sources:"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 76,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-004-astroviruses/004-Web-Source-Reinforcement-V11-P1.md`：Web Source Reinforcement / V11 P1；sources: A2-SHIC-CFSPH-P"
+    },
+    {
+      "page_id": "disease:DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "line": 77,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-004-astroviruses/001-Dataset-Alias-and-Enteric-Differential-Boundary-V7.md`：Dataset Alias and Enteric Differential "
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 58,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 69,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sou"
+    },
+    {
+      "page_id": "disease:DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "line": 71,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Virus QA Re"
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 58,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 69,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_RE"
+    },
+    {
+      "page_id": "disease:DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "line": 71,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 10,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 66,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 77,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-007-circoviruses-pcvad/001-HANDBOOK_RX_V13_1.md`：HANDBOOK_RX_V13_1；sources: SRC-0087。"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 78,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-007-circoviruses-pcvad/002-VTOP_V13_1.md`：VTOP_V13_1；sources: SRC-0088。"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 79,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-007-circoviruses-pcvad/003-SFDUT_1_200_V13_1.md`：SFDUT_1_200_V13_1；sources: SRC-0089。"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 80,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-007-circoviruses-pcvad/004-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: A0-MOA-573。"
+    },
+    {
+      "page_id": "disease:DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "line": 81,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-007-circoviruses-pcvad/005-B-task.md`：B-task 核心栏目补强；sources: SRC-0035。"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 19,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 20,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 78,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 92,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/004-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: A0"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 93,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/005-B-task.md`：B-task 核心栏目补强；sources: SRC-0037。"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 94,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/006-Dataset-QA-Reinforcement-V6.md`：Dataset QA Reinforcement / V6；sources: A0-M"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 95,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/007-Web-Source-Reinforcement-V11.md`：Web Source Reinforcement / V11；sources: A2"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 96,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-008-porcine-epidemic-diarrhea-virus/001-Phase-2-Gold-Anchors-V8.md`：Phase 2 Gold Anchors / V8；sources: CMP-001-, RC"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 102,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`A1-WOAH-PED`: https://www.woah.org/en/disease/porcine-epidemic-diarrhoea/"
+    },
+    {
+      "page_id": "disease:DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "line": 103,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`A1-USDA-APHIS-PED-TECH-NOTE-2023`: https://www.aphis.usda.gov/sites/default/files/ped_tech_note.pdf"
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 19,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 20,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 73,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 88,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-009-transmissible-gastroenteritis-virus/005-B-task.md`：B-task 核心栏目补强；sources: SRC-0036, SRC-0037。"
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 89,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-009-transmissible-gastroenteritis-virus/006-Dataset-QA-Reinforcement-V6.md`：Dataset QA Reinforcement / V6；sources: "
+    },
+    {
+      "page_id": "disease:DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "line": 90,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-009-transmissible-gastroenteritis-virus/007-Web-Source-Reinforcement-V11.md`：Web Source Reinforcement / V11；sources"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 60,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 70,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-010-porcine-deltacoronavirus/001-RAU_401_600_V14.md`：RAU_401_600_V14；sources: SRC-0093。"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 71,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-010-porcine-deltacoronavirus/002-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sources: SRC-000"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 72,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-010-porcine-deltacoronavirus/003-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: A0-MOA-57"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 73,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-010-porcine-deltacoronavirus/004-B-task.md`：B-task 核心栏目补强；sources: SRC-0037。"
+    },
+    {
+      "page_id": "disease:DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "line": 74,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-010-porcine-deltacoronavirus/005-Web-Source-Reinforcement-V11.md`：Web Source Reinforcement / V11；sources: A2-MERCK-"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 10,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 66,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 77,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-011-hemagglutinating-encephalomyelitis-virus/001-VTOP_V13_1.md`：VTOP_V13_1；sources: SRC-0088。"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 78,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-011-hemagglutinating-encephalomyelitis-virus/002-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；so"
+    },
+    {
+      "page_id": "disease:DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "line": 79,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-011-hemagglutinating-encephalomyelitis-virus/003-B-task.md`：B-task 核心栏目补强；sources: SRC-0037。"
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 70,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 81,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-012-porcine-respiratory-coronavirus/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sources: "
+    },
+    {
+      "page_id": "disease:DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "line": 83,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-012-porcine-respiratory-coronavirus/003-B-task.md`：B-task 核心栏目补强；sources: SRC-0036。"
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 70,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 81,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-013-porcine-torovirus/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sources: SRC-0003, SRC-"
+    },
+    {
+      "page_id": "disease:DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "line": 83,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-013-porcine-torovirus/003-B-task.md`：B-task 核心栏目补强；sources: SRC-0037。"
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 58,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 69,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORC"
+    },
+    {
+      "page_id": "disease:DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "line": 71,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Vi"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 10,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 65,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 76,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-015-japanese-encephalitis-virus/001-HANDBOOK_RX_V13_1.md`：HANDBOOK_RX_V13_1；sources: SRC-0087。"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 77,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-015-japanese-encephalitis-virus/002-SFDUT_1_200_V13_1.md`：SFDUT_1_200_V13_1；sources: SRC-0089。"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 79,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-015-japanese-encephalitis-virus/004-B-task.md`：B-task 核心栏目补强；sources: SRC-0039。"
+    },
+    {
+      "page_id": "disease:DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "line": 80,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-015-japanese-encephalitis-virus/005-Dataset-QA-Reinforcement-V6.md`：Dataset QA Reinforcement / V6；sources: A0-MOA-B"
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 58,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 69,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-016-west-nile-virus-and-other-flaviviruses/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；so"
+    },
+    {
+      "page_id": "disease:DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "line": 71,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-016-west-nile-virus-and-other-flaviviruses/003-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Virus QA R"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page is a controlled partial runtime page for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 14,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-PARTIAL-GAP-ROUTING-001: This page stays in partial retrieval mode for recall, differential routing, and gap tracking."
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 15,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 16,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 17,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 18,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 62,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 73,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-017-hepatitis-e-virus/001-DOS_1_200_REVIEW_REINFORCEMENT.md`：DOS_1_200_REVIEW_REINFORCEMENT；sources: SRC-0003, SRC-"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 74,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-017-hepatitis-e-virus/002-Formal-Batch-017.md`：Formal Batch 017 姝ｆ枃鎶藉彇杩涘睍；sources: SRC-0040。"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 75,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-017-hepatitis-e-virus/003-Formal-Disease-Completion-V5.md`：Formal Disease Completion / V5；sources: SRC-0014。"
+    },
+    {
+      "page_id": "disease:DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "line": 76,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-017-hepatitis-e-virus/004-Low-Frequency-Virus-QA-Reinforcement-V7.md`：Low Frequency Virus QA Reinforcement / V7；sou"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 6,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-CITATION-001: Dataset generation, evaluation, diagnosis, treatment-boundary, regulatory-boundary, withdrawal/MRL, food-safety, and public-health answers must preserve source/fac"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 9,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DX-001: Diagnosis must distinguish clinical suspicion, sample type, test method, pathogen detection, causality, and differential diagnosis."
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 10,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DISEASE-REGULATORY-001: Reporting, quarantine, culling, movement control, inspection, and jurisdiction-specific disease-control actions require current official/regulatory sourc"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 11,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-DRUG-001: Disease pages must not independently generate executable drug prescriptions, dose, route, or course."
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 12,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "RC-WITHDRAWAL-MRL-001: Withdrawal period, MRL, residue, edible-product, and food-safety claims require current label/regulatory verification."
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 69,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "[SRC-0001](../sources/SRC-0001-diseases-of-swine-11e-toc.md) - 本地 PDF 目录级章节锚点。"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 80,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-018-pseudorabies-aujeszky-disease/001-HANDBOOK_RX_V13_1.md`：HANDBOOK_RX_V13_1；sources: SRC-0087。"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 81,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-018-pseudorabies-aujeszky-disease/002-VTOP_V13_1.md`：VTOP_V13_1；sources: SRC-0088。"
+    },
+    {
+      "page_id": "disease:DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "line": 82,
+      "reason": "source_like_bullet_without_parseable_anchor",
+      "text_preview": "`wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-018-pseudorabies-aujeszky-disease/003-SFDUT_1_200_V13_1.md`：SFDUT_1_200_V13_1；sources: SRC-0089。"
+    }
+  ],
+  "page_gold_readiness": {
+    "disease:DIS-001": {
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "evidence_units": 1,
+      "page_gold_ready": true
+    },
+    "disease:DIS-002": {
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "evidence_units": 30,
+      "page_gold_ready": true
+    },
+    "disease:DIS-003": {
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-004": {
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-005": {
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-006": {
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-007": {
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "evidence_units": 5,
+      "page_gold_ready": true
+    },
+    "disease:DIS-008": {
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "evidence_units": 7,
+      "page_gold_ready": true
+    },
+    "disease:DIS-009": {
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-010": {
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-011": {
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-012": {
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-013": {
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-014": {
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-015": {
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-016": {
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-017": {
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "evidence_units": 1,
+      "page_gold_ready": true
+    },
+    "disease:DIS-018": {
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "evidence_units": 6,
+      "page_gold_ready": true
+    },
+    "disease:DIS-019": {
+      "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-020": {
+      "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-021": {
+      "path": "wiki/diseases/DIS-021-influenza-viruses.md",
+      "evidence_units": 21,
+      "page_gold_ready": true
+    },
+    "disease:DIS-022": {
+      "path": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-023": {
+      "path": "wiki/diseases/DIS-023-parvoviruses.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-024": {
+      "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "evidence_units": 8,
+      "page_gold_ready": true
+    },
+    "disease:DIS-025": {
+      "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-026": {
+      "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "evidence_units": 18,
+      "page_gold_ready": true
+    },
+    "disease:DIS-027": {
+      "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-028": {
+      "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "evidence_units": 11,
+      "page_gold_ready": true
+    },
+    "disease:DIS-029": {
+      "path": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-030": {
+      "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-031": {
+      "path": "wiki/diseases/DIS-031-retroviruses.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-032": {
+      "path": "wiki/diseases/DIS-032-rabies-virus.md",
+      "evidence_units": 1,
+      "page_gold_ready": true
+    },
+    "disease:DIS-033": {
+      "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+      "evidence_units": 5,
+      "page_gold_ready": true
+    },
+    "disease:DIS-034": {
+      "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-035": {
+      "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "evidence_units": 16,
+      "page_gold_ready": true
+    },
+    "disease:DIS-036": {
+      "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-037": {
+      "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "evidence_units": 10,
+      "page_gold_ready": true
+    },
+    "disease:DIS-038": {
+      "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "evidence_units": 8,
+      "page_gold_ready": true
+    },
+    "disease:DIS-039": {
+      "path": "wiki/diseases/DIS-039-clostridial-diseases.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-040": {
+      "path": "wiki/diseases/DIS-040-colibacillosis.md",
+      "evidence_units": 1,
+      "page_gold_ready": true
+    },
+    "disease:DIS-041": {
+      "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-042": {
+      "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-043": {
+      "path": "wiki/diseases/DIS-043-erysipelas.md",
+      "evidence_units": 8,
+      "page_gold_ready": true
+    },
+    "disease:DIS-044": {
+      "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "evidence_units": 8,
+      "page_gold_ready": true
+    },
+    "disease:DIS-045": {
+      "path": "wiki/diseases/DIS-045-leptospirosis.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-046": {
+      "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-047": {
+      "path": "wiki/diseases/DIS-047-pasteurellosis.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-048": {
+      "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "evidence_units": 18,
+      "page_gold_ready": true
+    },
+    "disease:DIS-049": {
+      "path": "wiki/diseases/DIS-049-salmonellosis.md",
+      "evidence_units": 6,
+      "page_gold_ready": true
+    },
+    "disease:DIS-050": {
+      "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-051": {
+      "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "evidence_units": 9,
+      "page_gold_ready": true
+    },
+    "disease:DIS-052": {
+      "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "evidence_units": 17,
+      "page_gold_ready": true
+    },
+    "disease:DIS-053": {
+      "path": "wiki/diseases/DIS-053-tuberculosis.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-054": {
+      "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-055": {
+      "path": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "evidence_units": 8,
+      "page_gold_ready": true
+    },
+    "disease:DIS-056": {
+      "path": "wiki/diseases/DIS-056-external-parasites-lice.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-057": {
+      "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-058": {
+      "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "disease:DIS-059": {
+      "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "evidence_units": 15,
+      "page_gold_ready": true
+    },
+    "disease:DIS-060": {
+      "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md",
+      "evidence_units": 7,
+      "page_gold_ready": true
+    },
+    "disease:DIS-061": {
+      "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md",
+      "evidence_units": 5,
+      "page_gold_ready": true
+    },
+    "disease:DIS-062": {
+      "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-063": {
+      "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-064": {
+      "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-065": {
+      "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-066": {
+      "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "evidence_units": 7,
+      "page_gold_ready": true
+    },
+    "disease:DIS-067": {
+      "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "disease:DIS-068": {
+      "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md",
+      "evidence_units": 5,
+      "page_gold_ready": true
+    },
+    "disease:DIS-069": {
+      "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-070": {
+      "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-071": {
+      "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-072": {
+      "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "disease:DIS-073": {
+      "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md",
+      "evidence_units": 9,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-001": {
+      "path": "wiki/drugs/DRUG-001-avermectins.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-002": {
+      "path": "wiki/drugs/DRUG-002-ivermectin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-003": {
+      "path": "wiki/drugs/DRUG-003-doramectin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-004": {
+      "path": "wiki/drugs/DRUG-004-fenbendazole.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-005": {
+      "path": "wiki/drugs/DRUG-005-benzimidazoles.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-006": {
+      "path": "wiki/drugs/DRUG-006-anticoccidials.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-007": {
+      "path": "wiki/drugs/DRUG-007-antimicrobials.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-008": {
+      "path": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-009": {
+      "path": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-010": {
+      "path": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-011": {
+      "path": "wiki/drugs/DRUG-011-ceftiofur.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-012": {
+      "path": "wiki/drugs/DRUG-012-florfenicol.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-013": {
+      "path": "wiki/drugs/DRUG-013-tiamulin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-014": {
+      "path": "wiki/drugs/DRUG-014-lincomycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-015": {
+      "path": "wiki/drugs/DRUG-015-tylosin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-016": {
+      "path": "wiki/drugs/DRUG-016-tylvalosin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-017": {
+      "path": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-018": {
+      "path": "wiki/drugs/DRUG-018-enrofloxacin.md",
+      "evidence_units": 5,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-019": {
+      "path": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-020": {
+      "path": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-021": {
+      "path": "wiki/drugs/DRUG-021-doxycycline.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-022": {
+      "path": "wiki/drugs/DRUG-022-sulfonamide-trimethoprim.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-023": {
+      "path": "wiki/drugs/DRUG-023-gentamicin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-024": {
+      "path": "wiki/drugs/DRUG-024-neomycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-025": {
+      "path": "wiki/drugs/DRUG-025-apramycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-026": {
+      "path": "wiki/drugs/DRUG-026-spectinomycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-027": {
+      "path": "wiki/drugs/DRUG-027-toltrazuril.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-028": {
+      "path": "wiki/drugs/DRUG-028-iron-dextran.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-029": {
+      "path": "wiki/drugs/DRUG-029-nsaids.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-030": {
+      "path": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-031": {
+      "path": "wiki/drugs/DRUG-031-macrolides.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-032": {
+      "path": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-033": {
+      "path": "wiki/drugs/DRUG-033-aminoglycosides.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-034": {
+      "path": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "evidence_units": 4,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-035": {
+      "path": "wiki/drugs/DRUG-035-beta-lactams.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-036": {
+      "path": "wiki/drugs/DRUG-036-lincosamides.md",
+      "evidence_units": 2,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-037": {
+      "path": "wiki/drugs/DRUG-037-sulfamethazine.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-038": {
+      "path": "wiki/drugs/DRUG-038-trimethoprim-sulfadiazine.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-039": {
+      "path": "wiki/drugs/DRUG-039-sulfadimethoxine.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-040": {
+      "path": "wiki/drugs/DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-041": {
+      "path": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-042": {
+      "path": "wiki/drugs/DRUG-042-ampicillin.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-043": {
+      "path": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-044": {
+      "path": "wiki/drugs/DRUG-044-cefquinome.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-045": {
+      "path": "wiki/drugs/DRUG-045-tilmicosin.md",
+      "evidence_units": 3,
+      "page_gold_ready": true
+    },
+    "drug:DRUG-046": {
+      "path": "wiki/drugs/DRUG-046-valnemulin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-047": {
+      "path": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-048": {
+      "path": "wiki/drugs/DRUG-048-carbadox.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-049": {
+      "path": "wiki/drugs/DRUG-049-olaquindox.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-050": {
+      "path": "wiki/drugs/DRUG-050-dimetridazole-ronidazole.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-051": {
+      "path": "wiki/drugs/DRUG-051-danofloxacin-marbofloxacin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-052": {
+      "path": "wiki/drugs/DRUG-052-colistin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-053": {
+      "path": "wiki/drugs/DRUG-053-bacitracin-methylene-disalicylate.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-054": {
+      "path": "wiki/drugs/DRUG-054-virginiamycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-055": {
+      "path": "wiki/drugs/DRUG-055-moxidectin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-056": {
+      "path": "wiki/drugs/DRUG-056-levamisole.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-057": {
+      "path": "wiki/drugs/DRUG-057-piperazine-pyrantel.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-058": {
+      "path": "wiki/drugs/DRUG-058-amitraz.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-059": {
+      "path": "wiki/drugs/DRUG-059-phosmet-coumaphos.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-060": {
+      "path": "wiki/drugs/DRUG-060-permethrin-deltamethrin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-061": {
+      "path": "wiki/drugs/DRUG-061-ponazuril.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-062": {
+      "path": "wiki/drugs/DRUG-062-amprolium.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-063": {
+      "path": "wiki/drugs/DRUG-063-meloxicam.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-064": {
+      "path": "wiki/drugs/DRUG-064-flunixin-meglumine.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-065": {
+      "path": "wiki/drugs/DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-066": {
+      "path": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-067": {
+      "path": "wiki/drugs/DRUG-067-oxytocin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-068": {
+      "path": "wiki/drugs/DRUG-068-altrenogest.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-069": {
+      "path": "wiki/drugs/DRUG-069-triptorelin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-070": {
+      "path": "wiki/drugs/DRUG-070-ractopamine.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-071": {
+      "path": "wiki/drugs/DRUG-071-streptomycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-072": {
+      "path": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-073": {
+      "path": "wiki/drugs/DRUG-073-erythromycin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-074": {
+      "path": "wiki/drugs/DRUG-074-amikacin.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-075": {
+      "path": "wiki/drugs/DRUG-075-praziquantel.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-076": {
+      "path": "wiki/drugs/DRUG-076-dichlorvos.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-077": {
+      "path": "wiki/drugs/DRUG-077-azaperone.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-078": {
+      "path": "wiki/drugs/DRUG-078-pentobarbital.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-079": {
+      "path": "wiki/drugs/DRUG-079-atropine.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-080": {
+      "path": "wiki/drugs/DRUG-080-epinephrine.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    },
+    "drug:DRUG-081": {
+      "path": "wiki/drugs/DRUG-081-traditional-chinese-veterinary-medicines.md",
+      "evidence_units": 0,
+      "page_gold_ready": false
+    }
+  },
+  "failed_operations": []
+}

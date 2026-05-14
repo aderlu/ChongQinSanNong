@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-05-11T12:06:01+08:00",
+  "raw_json": "raw/web/web_access_dis053_tuberculosis_20260511/SRC-DIS053-TB-WEB-20260511.json",
+  "source_ids": [
+    "A0-MOA-573",
+    "A0-SAMR-GBT-18645-2020-ANIMAL-TB-DIAGNOSIS"
+  ],
+  "source_pages": [
+    "wiki/sources/A0-MOA-573.md",
+    "wiki/sources/A0-SAMR-GBT-18645-2020-ANIMAL-TB-DIAGNOSIS.md"
+  ],
+  "facts_changed": 4,
+  "fact_ids": [
+    "DIS053-WEB-001-moa573-list-boundary",
+    "DIS053-WEB-002-moa573-non-extrapolation-boundary",
+    "DIS053-WEB-003-gbt18645-current-standard-metadata",
+    "DIS053-WEB-004-gbt18645-metadata-only-boundary"
+  ],
+  "disease_page": "wiki/diseases/DIS-053-tuberculosis.md",
+  "boundary": "No treatment, dose, course, withdrawal, MRL, food-safety, culling, quarantine, movement-control, or regulatory execution conclusion added."
+}

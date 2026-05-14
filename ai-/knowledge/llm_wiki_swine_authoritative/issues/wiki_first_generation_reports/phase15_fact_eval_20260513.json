@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-05-13T22:02:30+08:00",
+  "phase": "phase15_fact_level_evaluate_samples",
+  "mode": "deterministic_fact_and_hard_gate",
+  "input_generated": "exports/generated_samples/two_stage_samples_20260513.jsonl",
+  "output": "exports/evaluated_samples/fact_evaluated_samples_20260513.jsonl",
+  "samples": 3,
+  "accepted": 3,
+  "rejected": 0,
+  "reject_reason_counts": {},
+  "passed": true
+}

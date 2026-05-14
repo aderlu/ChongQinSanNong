@@ -1,0 +1,1588 @@
+{
+  "generated_at": "2026-05-09T13:55:44+08:00",
+  "purpose": "Phase 5 application of explicit disease runtime guardrail anchors.",
+  "records": [
+    {
+      "page_id": "DIS-001",
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7481,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8346,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-002",
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 25359,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 26226,
+        "missing": [],
+        "needs_review": false
+      }
+    },
+    {
+      "page_id": "DIS-003",
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 14467,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 15332,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-004",
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 13505,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 14372,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-005",
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 11460,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 12325,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-006",
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 11038,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 11903,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-007",
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 17027,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 17894,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-008",
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 26573,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 27440,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-009",
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 26005,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 26872,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-010",
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 11289,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 12154,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-011",
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 6583,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 7450,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-012",
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8730,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9595,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-013",
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8881,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9746,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-014",
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 11168,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 12033,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-015",
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 17317,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 18184,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-016",
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 10976,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 11841,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-017",
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 12028,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 12893,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-018",
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 25277,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 26144,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-019",
+      "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7303,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8168,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-020",
+      "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7337,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8202,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-021",
+      "path": "wiki/diseases/DIS-021-influenza-viruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 22827,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 23694,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-022",
+      "path": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7336,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8201,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-023",
+      "path": "wiki/diseases/DIS-023-parvoviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 10671,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 11538,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-024",
+      "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 38982,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 39849,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-025",
+      "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 9725,
+        "missing": [
+          "RC-DX-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 10590,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-026",
+      "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 32188,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 33055,
+        "missing": [],
+        "needs_review": false
+      }
+    },
+    {
+      "page_id": "DIS-027",
+      "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8919,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9784,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-028",
+      "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 27308,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 28175,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-029",
+      "path": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7320,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8185,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-030",
+      "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 11324,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 12191,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-031",
+      "path": "wiki/diseases/DIS-031-retroviruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7314,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8179,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-032",
+      "path": "wiki/diseases/DIS-032-rabies-virus.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 10383,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 11248,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-033",
+      "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 5831,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 6698,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-034",
+      "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7626,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8491,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-035",
+      "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 22049,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 22916,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-036",
+      "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7113,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 7978,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-037",
+      "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 13439,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 14306,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-038",
+      "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 10174,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 11039,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-039",
+      "path": "wiki/diseases/DIS-039-clostridial-diseases.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 15163,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 16030,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-040",
+      "path": "wiki/diseases/DIS-040-colibacillosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 31377,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 32244,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-041",
+      "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 22411,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 23278,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-042",
+      "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 13902,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 14769,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-043",
+      "path": "wiki/diseases/DIS-043-erysipelas.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 11496,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 12363,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-044",
+      "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 25911,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 26778,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-045",
+      "path": "wiki/diseases/DIS-045-leptospirosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 13061,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 13928,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-046",
+      "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 33610,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 34477,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-047",
+      "path": "wiki/diseases/DIS-047-pasteurellosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 16710,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 17577,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-048",
+      "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 17299,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 18166,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-049",
+      "path": "wiki/diseases/DIS-049-salmonellosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 25351,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 26218,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-050",
+      "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 14252,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 15119,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-051",
+      "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 22771,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 23638,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-052",
+      "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 23463,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 24330,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-053",
+      "path": "wiki/diseases/DIS-053-tuberculosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7152,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8017,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-054",
+      "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7319,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8184,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-055",
+      "path": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 21981,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 22848,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-056",
+      "path": "wiki/diseases/DIS-056-external-parasites-lice.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 8595,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 9462,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-057",
+      "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 17365,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 18232,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-058",
+      "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 16419,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 17286,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-059",
+      "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8346,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9211,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-060",
+      "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 8056,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 8923,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-061",
+      "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 6733,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 7600,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-062",
+      "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7452,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8317,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-063",
+      "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8058,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8923,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-064",
+      "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 7444,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 8309,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-065",
+      "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 9114,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9979,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-066",
+      "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 4072,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 4939,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-067",
+      "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 3293,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 4160,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-068",
+      "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 3556,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 4423,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-069",
+      "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8395,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9260,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-070",
+      "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8220,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9085,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-071",
+      "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8861,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9726,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-072",
+      "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_partial",
+      "evidence_status": "partial_source_anchored_page",
+      "before": {
+        "bytes": 8418,
+        "missing": [
+          "RC-DX-001",
+          "RC-DISEASE-REGULATORY-001",
+          "RC-DRUG-001",
+          "RC-WITHDRAWAL-MRL-001"
+        ],
+        "needs_review": true
+      },
+      "after": {
+        "bytes": 9283,
+        "missing": [],
+        "needs_review": true
+      }
+    },
+    {
+      "page_id": "DIS-073",
+      "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md",
+      "changed": true,
+      "reason": "disease_guardrail_section_added",
+      "runtime_tier": "runtime_core_reviewed",
+      "evidence_status": "source_anchored_clinical_page",
+      "before": {
+        "bytes": 5309,
+        "missing": [
+          "RC-DX-001"
+        ],
+        "needs_review": false
+      },
+      "after": {
+        "bytes": 6176,
+        "missing": [],
+        "needs_review": true
+      }
+    }
+  ],
+  "summary": {
+    "disease_pages_checked": 73,
+    "disease_pages_changed": 73,
+    "partial_disease_pages_changed": 32,
+    "missing_anchor_after": 0
+  }
+}

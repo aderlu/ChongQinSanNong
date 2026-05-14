@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-13T21:06:39+08:00",
+  "phase": "phase14_real_api_generate_40_parallel",
+  "mode": "real-api",
+  "parallel_workers": 2,
+  "requested": 4,
+  "generated": 4,
+  "failed": 0,
+  "generation_model": "hunyuan-turbos-20250926",
+  "prompt_version": "phase14.two_stage.v3_cn_clinical",
+  "input_skeletons": "exports/answer_skeletons/wiki_answer_skeletons_20260513_api30_source.jsonl",
+  "input_plan": "exports/planned_samples/wiki_sample_plan_20260513.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_smoke_real4_parallel2_fixedbase.jsonl",
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 1,
+    "L2_diagnosis_support": 1,
+    "L3_differential_support": 1,
+    "L4_control_boundary": 1
+  },
+  "worker_counts": {
+    "1": 2,
+    "2": 2
+  },
+  "fallback_samples": [],
+  "generation_errors": [],
+  "failures": [],
+  "passed": true
+}

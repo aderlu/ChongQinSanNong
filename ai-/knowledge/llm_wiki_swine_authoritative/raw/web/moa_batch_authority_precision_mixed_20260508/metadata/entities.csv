@@ -1,0 +1,11 @@
+﻿entity_id,name,entity_type,aliases,priority
+MANUAL-001,吡喹酮,drug,['吡喹酮'],manual
+MANUAL-002,烯丙孕素,drug,['烯丙孕素'],manual
+MANUAL-003,阿米卡星,drug,['阿米卡星'],manual
+MANUAL-004,双甲脒,drug,['双甲脒'],manual
+MANUAL-005,盐酸氨丙啉,drug,['盐酸氨丙啉'],manual
+DIS-027,塞内卡病毒A感染,disease,"['senecavirus a picornaviruses', '塞内卡病毒A感染']",core
+DIS-033,猪水疱性口炎,disease,"['vesicular stomatitis viruses', '猪水疱性口炎']",core
+DIS-045,猪钩端螺旋体病,disease,"['leptospirosis', '猪钩端螺旋体病']",core
+DIS-058,猪弓形虫病,disease,"['toxoplasmosis protozoa', '猪弓形虫病']",core
+DIS-007,猪圆环病毒相关疾病,disease,"['circoviruses pcvad', '猪圆环病毒相关疾病']",core

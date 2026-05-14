@@ -1,0 +1,1217 @@
+## PAGE 1
+
+www.cfsph.iastate.ed u  © 2007-2018 page 1 of 11 
+Brucellosis: 
+Brucella suis 
+Porcine Brucellosis, 
+Rangiferine Brucellosis, 
+Enzootic Abortion, 
+ Contagious Abortion, 
+Undulant Fever, 
+ 
+Last Updated: May 2018 
+Minor Revisions: May 2023 
+Importance 
+Brucellosis is a zoonotic bacterial disease caused by several species in the genus 
+Brucella. Reproductive losses are the most common syndrome in animals, while 
+humans may suffer from a debilitating nonspecific illness or localized involvement of  
+various organs. Each organism tends to be associated with a specific animal host, but 
+other species can be infected, especially when they are kept in close contact. 
+Domesticated and/or wild p igs are the usual hosts for biovars 1, 2 and 3 of Brucella 
+suis. Biovar 4 circulates in caribou and reindeer in Arctic regions, while biovar 5 has 
+been reported only in wild rodents. Most people become infected by direct contact with 
+infected animals or their tissues, or by the ingestion of contaminated animal products.  
+B. suis is common in domesticated pigs in some parts of the world , such as Asia 
+and Latin America. This organism has been virtually eradicated from commercial herds 
+in some other regions; however, it is still maintained in wild or feral swine in many of 
+these areas, including North America and Europe. This complicates brucellosis control, 
+especially for domesticated pigs kept outdoors. In addition, clinical cases are sometimes 
+reported in hunting dogs and people who hunt wild pigs. Occasionally, organisms from 
+wild suids infect other livestock such as cattle , resulting in  additional risks to human 
+health. B. suis has also been weaponized, and there are concerns that it could be used 
+in a bioterrorist attack. 
+Etiology 
+Brucella suis is a Gram negative coccobacillus in the family Brucellaceae (class 
+Alphaproteobacteria) Five biovars  with different host preferences are  currently 
+recognized. B. suis biovars 1, 2 and 3 are the Brucella species usually found in pigs, 
+although B. abortus and B. melitensis may also be detected occasionally. (Information 
+about B. abortus  and B. melitensis  is available in the respective factsheets at 
+http://www.cfsph.iastate.edu/DiseaseInfo/factsheets.htm) Biovar 4 , the agent of 
+rangiferine brucellosis, circulates in reindeer and caribou. Biovar 5 has only been found 
+in rodents.  
+Note on taxonomy: At one time, the genus Brucella was reclassified into a single 
+species, B. melitensis , based on the genetic an d immunological evidence that all 
+members of this genus are closely related . Under this system, the various species of 
+Brucella were considered to be biovars. This proposal was controversial, and it has 
+fallen out of favor for practical reasons.  
+Species Affected 
+B. suis biovars 1, 2 and 3 mainly occur in domesticated pigs, feral pigs and wild 
+boars, which all belong to the species  Sus scrofa, and some other members of the pig 
+family (Suidae). Biovars 1 and 3 circulate in domesticated swine, but they have also 
+become established in feral pigs in some areas , and a biovar 1 organism was found in 
+collared peccaries (Tayassu tajacu). Wild boar are the usual reservoir hosts for biovar 
+2 in Europe, but this organism can spread readily in domesticated pigs. Biovar 2 is also 
+maintained in wild European hares ( L. europaeus; formerly identified as L. capensis). 
+Biovar 1 has been isolated several times from wild European hares in South America, 
+suggesting that they might maintain B. suis in this location. One or more of the porcine 
+B. suis biovars have also been detected in cattle, sheep, goats, yaks, horses, camels, 
+dogs, cats, opossums (Didelphis marsupialis ), armadillos ( Chaetophractus villosus ) 
+and roe deer ( Capreolus capreolus ), with or without clinical signs . B. suis was also 
+identified by PCR in  archived samples from wildebeest ( Connochaetes spp.), zebras 
+and hyenas in Africa; however, a second PCR test used for confirming Brucella species 
+in this study is unable to identify B. suis, and this finding remains to be confirmed. 
+Rabbits (Oryctolagus cuniculus) were experimentally infected with a biovar 1 isolate 
+from wild hares in South America. 
+Biovar 4 is maintained in caribou and reindeer ( Rangifer tarandus and its various 
+subspecies). Other species known to be susceptible to infection and/or disease include 
+cattle, moose (Alces alces), muskoxen (Ovibos moschatus), bison (Bison bison), Arctic 
+foxes (Alopex lagopus), red foxes ( Vulpes vulpes) and wolves (Canis lupus). Grizzly
+
+## PAGE 2
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 2 of 11 
+bears (Ursus arctos horribilis ), white -tailed deer 
+(Odocoileus virginianus ) and rodents have been 
+experimentally infected. Seropositive grizzlies and dogs in the 
+Arctic are thought to have been exposed to B. suis biovar 4, as 
+this is the only species of Brucella that circulates in terrestrial 
+animals in this region. However, this has not yet been formally 
+proven, as Brucella ceti and B. pinnipedialis infect marine 
+mammals, and antibodies to the Brucella species that contain 
+“smooth” lipopolysaccharide (LPS), cannot be distinguished 
+with the current serological tests. Both B. suis and the species 
+infecting marine mammals belong to this group. 
+Biovar 5 has only been described in wild rodents.  
+Zoonotic potential 
+B. suis biovars 1-4 are zoonotic. Biovar 5 has not been 
+documented in people, as of 2018. 
+Geographic Distribution 
+B. suis is common among domesticated pigs in parts of 
+Latin America and Asia. Control programs have eliminated 
+or nearly eliminated this organism in some other areas, 
+including a number of European nations, the U.S., Canada 
+and Australia. However, B. suis is still maintained in feral 
+pigs or wild boar  in m any of these regions, resulting in 
+sporadic transmission to domesticated swine.  Infected pigs 
+have occasionally been documented in some African nations, 
+but surveillance there is limited. Biovars 1 and 3  of B. suis 
+occur worldwide . B iovar 2  has mainly been reported in 
+Europe, where it primarily circulates in wild boar , but it has 
+also been found in domestic pigs in Egypt. 
+Biovar 4 (rangiferine brucellosis) circulates in the Arctic 
+regions of North America and Eurasia where its reservoir 
+hosts are found (e.g., Siberia, Canada and Alaska).  
+Transmission 
+Most domesticated pigs are thought to  acquire B. suis  
+when they ingest feed or water contaminated by birth 
+products (e.g., fetus, placenta, fetal fluids) or vaginal 
+discharges from an infected sow, or eat dead fetuses and fetal 
+membranes. Pigs also shed t his organism in milk, urine and 
+semen. Both symptomatic and asymptomatic boars can 
+excrete bacteria, and v enereal transmission is thought to be 
+common in swine. Piglets can be infected during nursing or 
+in utero . Some of these young animals may become 
+seronegative carriers. In ruminants, latent carriers of 
+Brucella usually become detectable after the first pregnancy, 
+but it is not clear whether this is also true in swine. Pigs may 
+sometimes acquire B. suis  by inhalation, through the 
+conjunctiva or via broken skin, but these routes seem to be 
+of minimal epidemiological significance.  Many animals 
+seem to become chronically infected. Transmission of B. suis 
+biovar 2 in wild boar, where this organism has been detected 
+in aborted fetuses and the testes,  is probably similar . In 
+reindeer and caribou, B. suis biovar 4 can be transmitted by 
+contact with aborted fetuses and other birth products, but there 
+is little information about the importance of other routes, such 
+as venereal or milk-borne transmission.  
+Potential iatrogenic sources of brucellae in livestock 
+include contaminated syringes. There is no evidence that 
+arthropods play any role in the epidemiology of brucellosis; 
+however, some species of Brucella have been detected in 
+blood-sucking arthropods such as ticks , B. abortus has been 
+transmitted to guinea pigs via tick bites in the laboratory, and 
+transovarial transmission of B. melitensis  was reported in 
+ticks. 
+Other species can be infected with B. suis after contact 
+with its maintenance hosts or their tissues, and seem to shed 
+this organism by similar routes. Porcine biovars of B suis can 
+become established in the mammary gland of ruminants and 
+are subsequently found in the milk. Colonization may occur 
+during a systemic infection , or organisms can enter the 
+mammary gland from the environment, via the teats. Some 
+experimentally infected cattle shed this organism in milk for 
+at least 2 years. Although most recent B. suis infections in 
+hunting dogs occurred after direct contact with wild pigs or 
+their tissues, dog-to-dog transmission was suspected in a few 
+cases. Some young dogs might have been infected from the 
+dam around the time of birth. Nucleic acids were detected in 
+milk from one dog, though cultures were negative. B. suis has 
+also been found in canine testes, salivary gland and kidneys.  
+Humans usually becom e infected by ingesting 
+organisms or via contaminated mucous membranes 
+(including the conjunctiva and respiratory tract) and abraded 
+skin. B. suis can be transmitted to people in unpasteurized 
+milk products  from reindeer o r other infected animals, 
+including cattle. Some b iovar 4 infections have been 
+associated with uncooked caribou bone marrow, which is a 
+regional delicacy. R outes implicated in rare instances of 
+person-to-person transmission of brucellae include blood 
+transfusion, bone marrow transplantatio n, exposure to  
+contaminated material  while assisting at a delivery , sexual 
+intercourse and nursing (infants). There is no indication that 
+members of the genus Brucella are transmitted between 
+people by casual contact under ordinary conditions. 
+Brucella spp. have been reported to survive in the 
+environment for periods ranging from less than a day to > 8 
+months, depending on factors such as temperature, humidity, 
+exposure to sunlight and the presence of organic matter. 
+Survival is longer when the temperature is low. In conditions 
+of high humidity, low temperatures, and no sunlight, these 
+organisms can remain viable for several months in water, 
+aborted fetuses, manure, wool, hay and other materials. They 
+can withstand drying, particularly when organic mater ial is 
+present, and can survive in dust and soil.  Survival times of 
+years have been reported in frozen meat. 
+Disinfection  
+Brucella spp. are readily killed by most commonly 
+available disinfectants including hypochlorite solutions, 
+sodium hydroxide, quaternary ammonium compounds, 70% 
+ethanol, isopropanol, iodophors, phenolic disinfectants, 
+formaldehyde, glutaraldehyde and xylene. A 1% solution of 
+citric acid was reported to be less effective. One study 
+reported that xylene and calcium cyanamide decontaminated
+
+## PAGE 3
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 3 of 11 
+liquid manure after 2 to 4 weeks; however, some sources 
+recommend storing such treated manure for much longer.  
+Brucellae are inactivated fairly quickly by acid pH < 3.5.  
+They can also be destroyed by moist heat of 121°C (250°F) 
+for at least 15 minutes, d ry heat of 320-338°F (160-170°C) 
+for at least 1 hour,  gamma irradiation and pasteurization. 
+Boiling for 10 minutes is usually effective for liquids. 
+Infections in Animals 
+Incubation Period 
+The period between infection and the development of 
+reproductive signs is variable . Abortions have been seen as 
+soon as 17 days after pigs were mated with infected boars. 
+Clinical Signs 
+Porcine brucellosis: biovars 1, 2 and 3 
+In pigs, the most common clinical signs are 
+reproductive losses, which may include  abortions, 
+stillbirths, the birth of weak piglets (which may die early in 
+life) and decreased litter size. Although abortions have been 
+reported to occur at any time during gestation, they are 
+noted to be most common in mid- to late gestation. Because 
+fetuses may be cannibalized and va ginal discharge is often 
+minimal, abortions can be mistaken for infertility. Pigs may 
+not abort if some live fetuses are still present. Fetal losses 
+early in gestation usually appear as a return to estrus 30 -45 
+days after mating. Uncomplicated abortions are not usually 
+accompanied by signs of illness; however, some cases may 
+be complicated by retention of the placenta and secondary 
+metritis. Epididymitis and orchitis  are sometimes seen in 
+males, and may result in infertility.  Pigs that ar e not 
+pregnant may remain asymptomatic ; however, they 
+sometimes become lame from arthritis, develop posterior 
+paralysis from spondylitis , or have various complications 
+related to  abscess formation in other tissues and organs. 
+While overt clinical signs occur in some herds, chronically 
+infected herds may only have subtle signs such as 
+nonspecific infertility, a slightly reduced farrowing rate, 
+and irregular estrus cycles. Deaths are rare except in the 
+fetus or newborn.  Relatively l ittle is known about the 
+effects of B. suis  biovar 2 on wild boar , but it has 
+occasionally been implicated in  abortions, metritis  and 
+orchitis. 
+In h orses B. suis  can cause  inflammation of the 
+supraspinous or supra -atlantal bursa; these syndromes are 
+known, respectively, as fistulous withers or poll evil. The 
+bursal sac becomes distended by a clear, viscous, straw -
+colored exudate and develops a thickened wall. It can 
+rupture, leading to secondary infection. In chronic cases, 
+nearby ligaments and the do rsal vertebral spines  are also 
+involved and may occasionally become necrotic. Brucella-
+associated abortions have been reported in horses, but seem 
+to be uncommon.  
+Clinical signs typical of canine brucellosis, as well as 
+subclinical infections, have been r eported in dogs infected 
+with B. suis . The signs and syndromes have included 
+nonspecific signs of illness , such as  fever, lethargy and 
+vomiting, as well as discospondylitis, lameness, orchitis, 
+epididymitis, enlargement of the prostate, hematuria and 
+abortion. Systemic signs are not necessarily observed in 
+localized infections . Naturally-acquired and experimental 
+infections in cattle generally suggest that B. suis infections 
+are asymptomatic in this species, even in pregnant animals . 
+One study found that this organism might be associated with 
+an increased incidence of retained placentas  in cattle , but 
+further study is needed . Rabbits that were inoculated with a 
+biovar 1 isolate from hares developed n onspecific signs 
+(malaise, anorexia) and conjunctivitis. Biovar 2 was found in 
+a moribund, emaciated roe deer fawn with respiratory lesions 
+and an enlarged spleen. 
+Rangiferine brucellosis: biovar 4 
+B. suis biovar 4 can cause reproductive losses in caribou 
+and reindeer. Abortions may sometimes be complicated by 
+retained placenta and metritis. A rthritis, tenosynovitis , 
+hygromas, subcutaneous abscesses , mastitis  and nephritis 
+have also been reported , and males can develop orchitis, 
+epididymitis and seminal vasculitis. Only a few clinical cases 
+caused by biovar 4  have been described in other species : 
+bone abscesses, joint involvement and testicular lesions were 
+reported in naturally infected muskox, and carpal pathology 
+and osteomyelitis were documented in an emaciated, 
+debilitated moose.  An experimentally infected moose 
+developed s epticemia, with nonspecific signs of anorexia, 
+fever and depression . Experimental infection of bison with 
+biovar 4 did not result in abortions or other clinical signs. 
+Post Mortem Lesions  Click to view images 
+Aborted fetuses may appear normal, be autolyzed, or 
+have evidence of a generalized bacterial infection, such as 
+excess serohemorrhagic fluid in the body cavities  and 
+subcutaneous tissues. The placenta may be edematous and 
+hyperemic.  
+Abscesses, granulomas, other purulent or inflammatory 
+lesions, or calcified foci may be found in the testes and 
+accessory sex organs of boars, particularly the epididymis 
+and seminal vesicles. The tunica vaginalis may have 
+hemorrhages or exudates, and it may be thickened, with 
+fibrosis and adhesions. The lesions tend to be unilateral. In 
+chronic cases, the testes may be atrophied. Nodules, 
+abscesses and exudates are sometimes detected in the gravid 
+or non-gravid uterus. Miliary uterine brucellosis , which is 
+characterized by  numerous small, pale yellow nodules 
+containing caseous exudate, has been described in some pigs. 
+The nodules may coalesce into plaques. Some pigs also have 
+small erythematous granulomas on the surface of the uterus. 
+Abscesses and other purulent lesions can sometimes be 
+found in other organs and tissues,  particularly the lymph 
+nodes, spleen, liver, kidneys, joint s, tendon sheaths, bones, 
+mammary gland  and urinary bladder . Lesions also occur  
+occasionally in the brain.
+
+## PAGE 4
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 4 of 11 
+Hares infected with B. suis biovar 2 had granulomatous 
+nodules of varying sizes , often with central necrosis,  in 
+internal organs. These nodules were especially common in 
+the reproductive organs, spleen and liver, but they were also 
+found in the lungs, kidney and other internal organs, and in 
+the skin and subcutaneous tissues. Some hares with internal 
+lesions appeared to be in good body condition.  Similar 
+lesions were reported in rabbits experimentally infected with 
+a biovar 1 isolate. A roe deer fawn infected with biovar 2 was 
+emaciated and had fibrinous pleuritis, lung atalectasis and an 
+enlarged spleen. 
+Little information has been published recently about the 
+pathology of B. suis in reindeer and caribou, but the  lesions 
+are probably similar to those in other species. 
+Diagnostic Tests 
+B. suis may be detected by m icroscopic examination of 
+stained smears from tissues, secretions and exudates (e.g., 
+the placenta, vaginal swabs, aborted fetuses or lymph nodes), 
+using modified  Ziehl-Neelsen (Stamp) staining. Brucellae 
+are not truly acid-fast, but they are resistant to decolorization 
+by weak acids. They appear as  coccobacilli or short rods, 
+usually arranged singly but sometimes in pairs or small 
+groups. Other organisms can resemble Brucella. If available, 
+immunostaining may be helpful. Definitive diagnosis 
+requires culture and/or the detection of nucleic acids by PCR 
+or other genetic techniques. 
+B. suis  may be isolated from aborted fetuses ( tissues 
+such as the stomach contents, spleen and lung), the placenta, 
+vaginal swabs, semen, the testis or epididymis, and sites of 
+clinical localization such as infected joints. At necropsy, 
+recommended tissues in pigs have included lymph nodes 
+(e.g., those associated with the head, mammary gland and 
+genital tract), the late pregnant or early post -parturient 
+uterus, udder  and spleen. Organisms may also be found in 
+the male reproductive tract (testes, epididymis, vesicular 
+glands, prostate and bulbourethral glands), liver, kidney and 
+any tissues with lesions, such as bones . B. suis  can be 
+cultured on a variety of nonselective media, or on selective 
+media such as Farrell's, Thayer -Martin’s or CITA medium. 
+Enrichment techniques can also be employed. Some isolates 
+may not grow readily on certain media, and the use of more 
+than one type is often recommended. Biovar 2 is reported to 
+be more difficult to isolate on selective media than biovars 1 
+and 3. Some commercial bacterial identification systems can 
+misidentify Brucella as another organism. Treatment with 
+antibiotics or bacterial overgrowth in nonsterile samples can 
+interfere with culture.  B. suis can also be isolated by 
+inoculation into guinea pigs or mice, but this is rarely done.  
+B. suis can be identified to the species and biovar level 
+by phenotypic methods (phage typing and cultural, 
+biochemical and serological characteristics) or genetic 
+techniques. Species identification is often done at reference 
+laboratories, as it is complicated by the high genetic 
+similarity between brucellae and the poss ibility of 
+ambiguous phenotypic tests. B. suis  and B. canis are 
+particularly difficult to distinguish  with genetic methods . 
+Most PCR tests only identify Brucella to the genus level, but 
+multiplex PCR assays that can specifically identify B. suis  
+and distinguish it from other brucellae (e.g., the Bruce-ladder 
+assay) can be used for species identification. Other tests that 
+can be employed for species identification, such as single 
+nucleotide polymorphism (SNP) typing and  matrix-assisted 
+laser desorption/ionization time-of-flight mass spectrometry 
+(MALDI-TOF MS), have been described . Techniques such 
+as multiple -locus variable number tandem repeat analysis 
+(MLVA) can be used in epidemiological investigation s of 
+outbreaks.  
+Brucella PCR tests  are mainly used to identify 
+organisms in culture ; however, some laboratories may use 
+these tests directly on clinical samples. A few PCR tests that 
+can specifically identify B. suis have been published, but 
+they do not seem to have been extensively evaluated.  
+Antigen detection techniques, such as 
+immunohistochemistry, are sometimes employed  in 
+research, but they are not usually used to diagnose porcine 
+brucellosis. An immunohistochemical method for 
+diagnosing B. suis  infections in European hares has been 
+published.  
+Serology can help identify infected herds of swine, but 
+it is not considered to be reliable in individual animals. 
+Some serological  tests employed in pigs include indirect or 
+competitive ELISAs, the buffered Brucella antigen tests 
+(rose bengal test an d buffered plate agglutination test) , 
+complement fixation  and the fluorescence polarization 
+assay. Interactions between pig and guinea pig complement 
+can reduce the sensitivity of the complement fixation test 
+in swine . Low agglutinin titers can be seen in most herds, 
+even if they are not infected. Serological tests can cross-
+react with other bacteria such as Escherichia coli  O:157, 
+Salmonella  and Yersinia enterocolitica  O:9. Reactivity to  
+Y. enterocolitica  O:9 is relatively common in pigs, and it is 
+particularly difficult to distinguish from antibody reactions 
+to Brucella. A few infected pigs do not have a detectable 
+titer to B. suis . Serological tests cannot distinguish 
+reactions to any of Brucella species that have “smo oth” 
+LPS in the cell wall, which include B. suis, B. melitensis , 
+and B. abortus.   
+A brucellin skin test  has been used  to help identify 
+infected herds  of pigs  in some countries. This test is 
+performed by injecting the allergen intradermally at the base 
+of t he ear.  Skin tests are not  sensitive enough to detect 
+infections in individual animals. 
+Similar tests are used to diagnose B. suis infections in 
+species other than pigs, but each test must be validated  for 
+that species . Agglutination test s and complement fixation  
+have been employed in reindeer and caribou. A combination 
+of the rose bengal test and complement fixation has been 
+recommended for detecting B. suis antibodies in dogs in 
+Australia. Agglutination tests have also been used in dogs.  
+Treatment 
+Antibiotics may mitigate the clinical signs or clear B. 
+suis from an animal, but this organism might persist in
+
+## PAGE 5
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 5 of 11 
+treated animals, and recrudescence is possible. For this 
+reason, euthanasia of infected animals is often 
+recommended. Some B. suis-infected dogs have been treated 
+successfully with a combination o f antibiotics, such as  
+rifampicin and doxycycline. Isolating dogs is advised during 
+treatment, and neutering is recommended if the animal is 
+intact. Periodic serological monitoring might  be able to  
+detect rising antibody titers if organisms persist and begin to 
+replicate again in treated animals.  
+Treatment of livestock is generally discouraged due to 
+the zoonotic risks, and it may also not be cost-effective. One 
+study reported that a combina tion of  oxytetracycline and 
+tildipirosin appeared to clear B. suis  from pigs, though 
+further research is needed. O xytetracycline alone 
+temporarily suppressed clinical signs in an experimental 
+herd, but abortions and transmission of the organism 
+increased once antibiotic use ended. 
+Control 
+Disease reporting 
+Veterinarians who encounter or suspect brucellosis 
+should follow their national and/or local guidelines for 
+disease reporting. Brucellosis caused by B. suis is a notifiable 
+disease in the U.S. All cases should be reported immediately 
+to state or federal authorities. 
+Prevention 
+B suis is usually introduced into a herd in an infected 
+animal. B. suis-free herds should not be allowed to contact 
+potentially infected animals, including wild and feral swine, 
+or contaminated environments, such as those where animals 
+recently aborted. Good biosecurity and double fencing have 
+been used to protect pigs raised outdoors; however, some 
+herds in Europe have apparently been i nfected from 
+environmental sources despite these measures . If possible, 
+replacement stock should be selected from Brucella-free 
+herds. Herd additio ns should be quarantined and tested 
+before being released into the herd. Some asymptomatically 
+infected animals may be difficult to detect  with the current 
+tests. Semen for artificial insemination should only be 
+collected from Brucella-negative animals that are tested 
+regularly.  
+In an infected herd, the placenta, any abortion products and 
+contaminated bedding sh ould be removed promptly and 
+destroyed, and contaminated fomites should be disinfected. B. 
+suis can be eradicated from infected herds by depopulation 
+or test and removal methods . Programs to eradicate this 
+organism from a country also include movement controls on 
+infected herds, surveillance, and tracing of infected animals. 
+There is no vaccine for swine brucellosis in most countries, 
+and the RB51 and strain 19 B. abortus vaccines do not seem 
+to protect cattle from infection by B. suis. A B. suis strain 2 
+vaccine has been used to immunize pigs and other animals in 
+China, but its efficacy is unclear and it has not gained 
+acceptance elsewhere.  
+Infections in other species are generall y prevented by 
+controlling B. suis in its maintenance hosts  and avoiding 
+contact with potentially infected animals. Dogs should not be 
+fed raw tissues from domesticated or wild  swine, caribou, 
+reindeer, hares or other wild animals that may carry B. suis.  
+Morbidity and Mortality 
+Porcine brucellosis remains a significant issue in pigs in 
+parts of Asia and Latin America, but the prevalence of B. suis 
+in livestock has become very low in some other regions. 
+Even where control programs have virtually eliminated this 
+organism from commercial herds, however, pigs still become 
+infected occasionally from wild and feral swine. The risk is 
+higher in pigs kept outdoors. B. suis prevalence in feral pigs 
+can vary significantly between regions. Animal density was 
+reported to influence the prevalence of biovar 2 in wild boars 
+in some studies, but not others. Hares have been implicated 
+occasionally in transmi tting biovar 2 to domesticated 
+animals.  
+When it is introduced  into a herd  of pigs , B. suis  can 
+spread quickly to infec t more than 50% and often up to 70-
+80% of the herd. There may be a significant increase in 
+returns to service  and overt clinical signs , and t he pre -
+weaning mortality rate usually increases. Morbidity can be 
+highly variable, but in some cases, reproductive losses may 
+reach 80%. Once this organ ism has become established in a 
+herd, brucellosis may appear only as nonspecific infertility, 
+a slightly reduced farrowing rate, and irregular estrus cycles. 
+Deaths are rare except in the fetus and newborn. Natural 
+resistance to B. suis has been reported in some breeds of 
+experimentally infected pigs.  There is little information 
+about the effects of B. suis on wild and feral pigs , but the 
+incidence of reproductive losses is thought to be lower than 
+in domesticated pigs. In one endemically infected wild boar 
+population, biovar 2 did not seem to have a significant effect 
+on rates of reproduction.  
+B. suis  has emerged as a significant pathogen among 
+dogs in Australia, where more than 70 cases have been 
+documented since 2011.  Most infections occurred in dogs 
+that participated in pig hunting or were fed raw pig meat. A 
+few sick dogs had been exposed to infected dogs  but not 
+directly to pigs; however,  investigations of dogs in contact 
+with canine cases suggest the overall risk o f dog -to-dog 
+transmission is low . Approximately 40% of the known 
+infections were asymptomatic. B. suis  has also been 
+identified in dogs in parts of South America, where it may be 
+relatively common in this species, and  in the U.S. , Europe 
+and other locations.  
+Infections in Humans 
+Incubation Period 
+The acute symptoms of brucellosis often appear within 
+2-4 weeks, but the onset can be insidious, and some cases 
+have been diagnosed as late as 6 months after exposure. 
+Clinical Signs 
+The consequences of infection with B. suis range from 
+asymptomatic infections to diverse syndromes that may
+
+## PAGE 6
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 6 of 11 
+appear insidiously or abruptly. Acute brucellosis is usually a 
+febrile illness with nonspecific flu -like signs such as fever, 
+chills, headache, mala ise, back pain, myalgia and 
+lymphadenopathy, which may be accompanied by 
+splenomegaly and/ or hepatomegaly. Patients may 
+experience drenching sweats, particularly at night. 
+Nonspecific gastrointestinal signs including anorexia, 
+vomiting, diarrhea and constipation may also be seen. 
+Some people recover spontaneously, while others 
+develop persistent nonspecific symptoms (e.g., fever, 
+weakness) that typically wax and wane. Localized infections 
+in various organs and tissues can result in a wide variety of 
+syndromes. Fever may be absent or mild in these cases. 
+Infections in bones and joints, the most common sites of 
+localization, can manifest as arthritis, spondylitis, sacroiliitis, 
+osteomyelitis, bursitis and tenosynovitis. Other syndromes 
+have included neurologi cal involvement ( e.g., meningitis, 
+meningoencephalitis, brain abscesses), ocular signs (uveitis, 
+optic neuritis, endophthalmitis  and other signs ), anemia, 
+thrombocytopenia, nephritis, cardiovascular complications 
+(e.g., vasculitis, aneurisms, endocarditis) , respiratory 
+involvement ( e.g., bronchopneumonia or pulmonary 
+abscesses), peritonitis, pancreatitis, myelitis, and cutaneous 
+rashes, ulcers or abscesses. Elevations in the liver enzyme  
+alanine aminotransferase (ALT), with only mild increases in 
+aspartate aminotransferase and no unusual liver pathology , 
+were reported to be common in people infected with B. suis 
+on 2 islands in Polynesia. Epididymo-orchitis, prostatitis and 
+seminal vesiculitis can be seen in males, and pregnant 
+women may abort or give birth prematurely. Sepsis, 
+pneumonia and other syndromes have been reported in 
+congenitally infected infants, but some infected newborns 
+are asymptomatic. Deaths are uncommon  except in infants , 
+and are usually caused by endocarditis or infections affecting 
+the brain. After treatment, recovery may take a few weeks to 
+months. 
+Diagnostic Tests 
+B. suis may be cultured from blood or clinical samples 
+from affected organs, as in animals. It is more likely to be 
+recovered from bone marrow than blood; however, 
+collection of bone marrow samples is more difficult, and this 
+is generally reserved for people with suspected brucellosis 
+who cannot be diagnosed by other means. B. suis cannot 
+always be isolated, especially in chronic cases. PCR is 
+sometimes used to detect nucleic acids in clinical samples.  
+Clinical cases in people are often diagnosed by serology. 
+Serological tests used for screening or confirmation include 
+the rose bengal test, serum tube agglutination test (SAT) with 
+or without 2 -ME or DTT, the microagglutination test, 
+Coombs test, BrucellaCapt® (a commercial immunocapture 
+agglutination test), latex agglutination tests, ELISAs, 
+complement fixation and others. A universal indirect ELISA 
+that can recognize antibodies to both smooth and rough 
+Brucella was recently pub lished. A fourfold rise in titer is 
+definitive in serological tests, but it may not be seen by the 
+time some cases are diagnosed. Cerebrospinal fluid is also 
+tested for antibodies in cases with neurological involvement. 
+Cross-reactivity with other microorg anisms (e.g., Y. 
+enterocolitica O:9, Salmonella urbana group N, Leptospira 
+sp., Vibrio cholerae , Francisella tularensis , E. coli O157, 
+Stenotrophomonas maltophilia) can be an issue, especially in 
+agglutination tests.  
+Treatment 
+In humans, brucellosis is usually treated with a 
+prolonged course of antibiotics, combining two or more 
+drugs for part or all of the treatment course. Monotherapy is 
+reported to have a high relapse rate. Different antibiotics may 
+be recommended, depending on the patient’s age, pregnancy 
+status and syndrome. Relapses can be seen (most often  
+within 3-6 months)  if brucellosis treatment is inadequate. 
+Surgical intervention may occasionally be required for 
+localized foci.  
+Prevention 
+Human exposure can be reduce d by controlling 
+brucellosis in pigs and other livestock. Pasteurization is 
+recommended to destroy B. suis in milk products. The 
+fermentation time necessary to ensure safety in ripened, 
+fermented cheeses made from unpasteurized milk in 
+unknown, but it has been estimated to be approximately 3 
+months. The World Health Organization (WHO) 
+recommends storing soft cheeses > 6 months if they were 
+made from unpasteurized milk . Meat, blood and internal 
+organs from animals should be handled carefully and cooked 
+thoroughly.  
+Good hygiene, together with personal protective 
+equipment (e.g., gloves, face/ eye protection, protective 
+clothing, respirators, as appropriate) can decrease human 
+exposure, especially during births and abortions or when 
+large numbers of animals ar e shedding organisms in a 
+concentrated area . Wounds should be covered. Particular 
+care should be taken during activities that may aerosolize 
+organisms (e.g., pressure washing, sawing into infected 
+tissues). Detailed precautionary measures for specific 
+settings such as contaminated farms, abattoirs and 
+laboratories have been published by sources such as the 
+World Health Organization. Precautions should be used 
+when butchering or field dressing potentially infected 
+carcasses of wildlife and feral pigs, as well as when handling 
+domesticated animals or their tissues.  
+Prophylactic antibiotics and/or monitoring may be 
+offered to laboratory workers who have been exposed to B. 
+suis.  A few countries have employed brucellosis vaccines 
+for humans; however, commercial  vaccines that meet 
+international quality standards are not currently available.  
+Morbidity and Mortality 
+Brucellosis can affect all ages, including children. It is 
+often an occupational disease among people in contact with 
+pigs, reindeer  or their tissues , such as farmers, butchers, 
+abattoir workers, veterinarians and laboratory personnel.  In 
+the Arctic, some groups' tradition of eating raw bone marrow
+
+## PAGE 7
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 7 of 11 
+and internal organs from freshly killed caribou contributes to 
+the risk of brucellosis. The consumption of unpasteurized 
+dairy products (including milk from cattle or small ruminants) 
+also increases the risk of infection. In Australia, biovar 1 has 
+been responsible for a number of cases of brucellosis in feral 
+pig hunters. Occasional cases are also reported among hunters 
+in the U.S. and other areas. The incidence of human 
+brucellosis varies widely. Typically, < 1 case per 100,000 
+population is reported in developed countries where this 
+disease has been eradicated from animals and most infections 
+occur in travelers or immigrants. Rates from 10 to more than 
+100 cases per 100,000 population have been documented 
+where brucellosis is more common in animals; however, a 
+high proportion of these cases are thought to be caused by B. 
+melitensis. The prevalence was 19 cases  per 100,000 
+population in two Polynesian islands where B. suis is common 
+in pigs but other species of Brucella are absent. Many human 
+infections with brucellae are thought to be missed. 
+B. suis biovars 1 and 3 can cause mild to severe illnesses. 
+Some sour ces suggest that B. suis  is more virulent for 
+humans than B. abortus; however, most of this information 
+is based on old studies from the 1940s and 1950s. One recent 
+case series  found that the complication rate and clinical 
+presentation were roughly similar to cases caused by other 
+species of Brucella. Estimates of the case fatality rate for 
+untreated brucellosis are usually in the range of 1-2% or less, 
+although rates as high as 5% have been reported in smaller 
+series.  
+Biovar 2 infections have been reported infrequently in 
+people, and many of these patients have had chronic illnesses 
+and/or immun osuppressive conditions. However,  illnesses 
+caused by biovar 2 have been documented in a few healthy 
+people. To date the clinical conditions resembled brucellosis 
+caused by other brucellae. One recent report from France 
+suggests that biovar 2 infections may be underdiagnosed. 
+Internet Resources 
+Alaska Native Tribal Consortium. Center for Climate and 
+Health. Factsheets for the Public on Rangiferine Brucellosis 
+Centers for Disease Control and Prevention (CDC).  
+Brucellosis 
+CDC. Brucellosis reference guide. Exposures, testing and 
+prevention  
+European Centre for Disease Prevention and Control. 
+Brucellosis 
+New South Wales, Department of Primary Industries. 
+Brucellosis (Brucella suis) in dogs  
+Public Health Agency of Canada. Pathogen Safety Data 
+Sheets 
+The Merck Manual 
+The Merck Veterinary Manual  
+World Health Organization. Brucellosis 
+World Organization for Animal Health (WOAH) 
+WOAH Manual of Diagnostic Tests and Vaccines for 
+Terrestrial Animals 
+WOAH Terrestrial Animal Health Code 
+Acknowledgements 
+This factsheet was written by Anna Rovid Spickler, DVM, 
+PhD, Veterinary Specialist from the Center for Food 
+Security and Public Health. The U.S. Department of 
+Agriculture Animal and Plant Health Inspection Service 
+(USDA APHIS) provided funding for this factsheet through 
+a series of cooperative agreements related to the 
+development of resources for initial accreditation training.  
+The following format can be used to cite this factsheet. 
+Spickler, Anna Rovid. 2018. Brucellosis: Brucella suis. 
+Retrieved from http://www.cfsph.iastate.edu/DiseaseInfo/ 
+factsheets.php.  
+References 
+Adams LG, Templeton JW. Genetic resistance to bacterial 
+diseases of animals [online]. Secretariat of Food and 
+Agriculture Organization; 1998. Available at: 
+http://www.moag.gov.il/brunet/public_sub9_p1.html.* 
+Accessed 7 Jun 2007.  
+Aiello SE, Moses MA, editors. The Merck veterinary manual. 11th 
+ed. Kenilworth, NJ: Merck and Co; 2016. Brucella suis. p. 
+1343, 1350-1. 
+Al Dahouk S, Nöckler K, Scholz HC, Pfeffer M, Neubauer H, 
+Tomaso H. Evaluation of genus-specific and species-specific 
+real-time PCR assays for the identification of Brucella spp. 
+Clin Chem Lab Med. 2007;45(11):1464-70. 
+Al Dahouk S, Sprague LD, Neubauer H. New developments in the 
+diagnostic procedures for zoonotic brucellosis in humans. Rev 
+Sci Tech. 2013;32:177-88. 
+Alton GG, Forsyth JRL. Brucella [online]. In Baron S, editor. 
+Medical microbiology. 4th ed. New York: Churchill 
+Livingstone; 1996. Available at: http://www.gsbs.utmb.edu/ 
+microbook/ch028.htm.* Accessed 4 Jun 2007. 
+Atluri VL, Xavier MN, de Jong MF, den Hartigh AB, Tsolis RM. 
+Interactions of the human pathogenic Brucella species with 
+their hosts. Annu Rev Microbiol. 2011;65:523-41.  
+Ayala SM, Hasan DB, Celestino CA, Escobar GI, Zhao DM, 
+Lucero NE. Validation of a simple universal IELISA for the 
+diagnosis of human brucellosis. Eur J Clin Microbiol Infect 
+Dis. 2014;33(7):1239-46. 
+Aydın B, Beken S, Akansel R, Dilli D, Okumuş N, Zenciroğlu A, 
+Tanır G. Prematurity due to maternal Brucella infection and 
+review of the literature. Turk J Pediatr. 2013;55(4):433-7. 
+Baldi PC, Giambartolomei  GH. Pathogenesis and pathobiology of 
+zoonotic brucellosis in humans. Rev Sci Tech. 2013;32:117-25.  
+Bevins JS1, Blake JE, Adams LG, Templeton JW, Morton JK, 
+Davis DS. The pathogenicity of Brucella suis biovar 4 for 
+bison. J Wildl Dis. 1996;32(4):581-5.
+
+## PAGE 8
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 8 of 11 
+Brown VR1, Bowen RA1, Bosco-Lauth AM1. Zoonotic pathogens 
+from feral swine that pose a significant threat to public health. 
+Transbound Emerg Dis. 2018;65(3):649-59.  
+Calfee MW, Wendling M. The effects of environmental conditions 
+on persistence and inactivation of Brucella suis on building 
+material surfaces. Lett Appl Microbiol. 2012;54(6):504-10.  
+Cao X, Li Z, Liu Z(2), Fu B, Liu Y, Shang Y, Zhou J, Jing Z. 
+Molecular epidemiological characterization of Brucella 
+isolates from sheep and yaks in northwest China. Transbound 
+Emerg Dis. 2018;65(2):e425-e433. 
+Carrington M, Choe U, Ubilios S, Stanek D, Campbell M, 
+Wansbrough L, et al. Fatal case of brucellosis misdiagnosed in 
+early stages of Brucella suis infection in a 46-year old patient 
+with Marfan syndrome. J Clin Microbiol 2012;50(6):2173e5.  
+Casanova A, Ariza J, Rubio M, Masuet C, Díaz R. BrucellaCapt 
+versus classical tests in the serological diagnosis and 
+management of human brucellosis. Clin Vaccine Immunol. 
+2009; 16(6): 844-51. 
+Centers for Disease Control and Prevention (CDC). Brucellosis 
+reference guide. Exposures, testing and prevention. CDC; 2017 
+Feb. Available at: https://www.cdc.gov/brucellosis/pdf/ 
+brucellosi-reference-guide.pdf.  Accessed 20 Mar 2018.  
+Centers for Disease Control and Prevention (CDC). Brucellosis 
+[website online]. CDC; 2017 Sept. Available at: 
+https://www.cdc.gov/brucellosis/.  Accessed 3 Mar 2018. 
+Cutler SJ, Whatmore AM, Commander NJ. Brucellosis--new 
+aspects of an old disease. J Appl Microbiol. 2005;98:1270-81. 
+Cvetnić Z1, Spicić S, Toncić J, Majnarić D, Benić M, Albert D, 
+Thiébaud M, Garin-Bastuji B. Brucella suis infection in 
+domestic pigs and wild boar in Croatia. Rev Sci Tech. 
+2009;28(3):1057-67. 
+De Miguel MJ, Marín CM, Muñoz PM, Dieste L, Grilló MJ, 
+Blasco JM. Development of a selective culture medium for 
+primary isolation of the main Brucella species. J Clin 
+Microbiol. 2011;49(4):1458-63. 
+Díaz R, Casanova A, Ariza J, Moriyón I. The rose bengal test in 
+human brucellosis: a neglected test for the diagnosis of a 
+neglected disease. PLoS Negl Trop Dis. 2011;5(4):e950.  
+Díaz Aparicio E. Epidemiology of brucellosis in domestic animals 
+caused by Brucella melitensis, Brucella suis and Brucella 
+abortus. Rev Sci Tech. 2013;32(1):43-51, 53-60. 
+Dieste-Pérez L, Barberán M, Muñoz PM, Moriyón I, Blasco JM. 
+Clinical and histological features of brucellin skin test 
+responses in Brucella suis biovar 2 infected pigs. Vet 
+Immunol Immunopathol. 2015;163(1-2):77-85.  
+Dieste-Pérez L, Frankena K, Blasco JM, Muñoz PM, de Jong MC. 
+Efficacy of antibiotic treatment and test-based culling 
+strategies for eradicating brucellosis in commercial swine 
+herds. Prev Vet Med. 2016;126:105-10.  
+Dieterich RA, Morton JK, Zarnke RL. Experimental Brucella suis 
+biovar 4 infection in a moose. J Wildl Dis. 1991;27:470-2. 
+Di Sabatino D, Garofolo G, Di Provvido A, Zilli K, Foschi G, Di 
+Giannatale E, Ciuffetelli M, De Massis F. Brucella suis biovar 
+2 multi locus sequence type ST16 in wild boars (Sus scrofa) 
+from Abruzzi region, Italy. Introduction from Central-Eastern 
+Europe? Infect Genet Evol. 2017;55:63-7.  
+Ducrotoy M, Bertu WJ, Matope G, Cadmus S, Conde-Álvarez R, 
+Gusi AM, Welburn S, Ocholi R, Blasco JM, Moriyón I. 
+Brucellosis in sub-Saharan Africa: Current challenges for 
+management, diagnosis and control. Acta Trop. 2017;165:179-
+93.  
+Elmonir W, Abdel-Hamid NH, Hamdy MER, Beleta EIM, El-
+Diasty M, Melzer F, Wareth G, Neubauer H. Isolation and 
+molecular confirmation of Brucella suis biovar 2 from 
+slaughtered pigs: an unanticipated biovar from domestic pigs 
+in Egypt. BMC Vet Res. 2022;18(1):224.  
+Ferreira AC, Almendra C, Cardoso R, Pereira MS, Beja-Pereira A, 
+Luikart G, Corrêa de Sá MI. Development and evaluation of a 
+selective medium for Brucella suis. Res Vet Sci. 
+2012;93(2):565-7. 
+Forbes LB. Isolates of Brucella suis biovar 4 from animals and 
+humans in Canada, 1982-990. Can Vet J. 1991;32:68-8. 
+Fort M, Baldone V, Fuchs L, Giménez H, Rojas M, Breccia JD, 
+Oyhenart J. Experimental infection of rabbits (Oryctolagus 
+cuniculus) with Brucella suis biovar 1 isolated from wild hares 
+(Lepus europaeus). Vet Microbiol. 2012;156(3-4):439-42.  
+Franco-Paredes C, Chastain D, Taylor P, Stocking S, Sellers B. 
+Boar hunting and brucellosis caused by Brucella suis. Travel 
+Med Infect Dis. 2017;16:18-22.  
+Fretin D, Mori M, Czaplicki G, Quinet C, Maquet B, Godfroid J, 
+Saegerman C. Unexpected Brucella suis biovar 2 infection in 
+a dairy cow, Belgium. Emerg Infect Dis. 2013;19(12):2053-4.  
+Frost A. Feeding of raw Brucella suis-infected meat to dogs in the 
+UK. Vet Rec. 2017;181(18):484.  
+Garner G, Saville P, Fediaevsky A. Manual for the recognition of 
+exotic diseases of livestock: A reference guide for animal 
+health staff [online]. Food and Agriculture Organization of the 
+United Nations [FAO]; 2003. Brucellosis (porcine). Available 
+at: http://www.spc.int/rahs/Manual/Porcine/ 
+BRUCELLOSISSWINEE.HTM.*Accessed 4 Jun 2007. 
+Garner G, Saville P, Fediaevsky A. Manual for the recognition of 
+exotic diseases of livestock: A reference guide for animal 
+health staff [online]. Food and Agriculture Organization of the 
+United Nations [FAO]; 2003. Caprine and ovine brucellosis 
+(excluding B. ovis). Available at: 
+http://www.spc.int/rahs/Manual/Caprine-Ovine/ 
+OVINEBRUCELLOSISE.htm.* Accessed 4 Jun 2007. 
+Gates CC, Wobeser G, Forbes LB. Rangiferine brucellosis in a 
+muskox,Ovibos moschatus moschatus (Zimmermann). JWildl 
+Dis 1984;20:233-4. 
+Godfroid J. Brucellosis in wildlife. Rev Sci Tech. 2002;21:277-86. 
+Godfroid J, Cloeckaert A, Liautard JP, Kohler S, Fretin D, 
+Walravens K, Garin-Bastuji B, Letesson JJ. From the 
+discovery of the Malta fever's agent to the discovery of a 
+marine mammal reservoir, brucellosis has continuously been a 
+re-emerging zoonosis. Vet Res. 2005;36:313-26. 
+Godfroid J, Garin-Bastuji B, Saegerman C, Blasco JM. Brucellosis 
+in terrestrial wildlife. Rev Sci Tech. 2013;32(1):27-42.  
+Godfroid J, Nielsen K, Saegerman C. Diagnosis of brucellosis in 
+livestock and wildlife. Croat Med J. 2010;51(4):296-305. 
+Graham EM, Taylor DJ. Bacterial reproductive pathogens of cats 
+and dogs. Vet Clin North Am Small Anim Pract. 
+2012;42(3):561-82, vii.
+
+## PAGE 9
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 9 of 11 
+Greiner M, Salman M, Wierup M, Domingo D, Blasco JM, J, et 
+al. Porcine brucellosis (Brucella suis). Scientific opinion of 
+the Panel on Animal Health and Welfare. European Food 
+Safety Authority (EFSA); 2009. Available at: 
+http://www.efsa.europa.eu/en/efsajournal/pub/1144.  Accessed 
+19 May 2018. 
+Gresham CS, Gresham CA, Duffy MJ, Faulkner CT, Patton S. 
+Increased prevalence of Brucella suis and pseudorabies virus 
+antibodies in adults of an isolated feral swine population in 
+coastal South Carolina. J Wildl Dis 2002;38:653-6.  
+Gulsun S, Aslan S, Satici O, Gul T. Brucellosis in pregnancy. Trop 
+Doct. 2011;41(2):82-4. 
+Guerrier G, Daronat JM, Morisse L, Yvon JF, Pappas G. 
+Epidemiological and clinical aspects of human Brucella suis 
+infection in Polynesia. Epidemiol Infect. 2011;139(10):1621-5.  
+Gyuranecz M, Erdélyi K, Makrai L, Fodor L, Szépe B, Mészáros 
+AR, Dán A, Dencso L, Fassang E, Szeredi L. Brucellosis of the 
+European brown hare (Lepus europaeus). J Comp Pathol. 
+2011;145(1):1-5.  
+Hakko E, Ozdamar M, Turkoglu S, Calangu S. Acute prostatitis as 
+an uncommon presentation of brucellosis. BMJ Case Rep. 
+2009;2009. pii: bcr12.2008.1370.  
+Hänsel C1, Mertens K1, Elschner MC1, Melzer F1. Novel real-time 
+PCR detection assay for Brucella suis. Vet Rec Open. 2015 Apr 
+1;2(1):e000084. 
+Haran M, Agarwal A, Kupfer Y, Seneviratne C, Chawla K, Tessler 
+S. Brucellosis presenting as septic shock. BMJ Case Reports. 
+2011;2011. pii: bcr1220103586. 
+Herenda D, Chambers PG, Ettriqui A, Seneviratna P, da Silva TJP. 
+Manual on meat inspection for developing countries [online]. 
+FAO animal production and health paper 119. Publishing and 
+Multimedia Service, Information Division, FAO; 1994 (reprinted 
+2000). Brucellosis. Available at: http://www.fao.org/docrep/ 
+003/t0756e/T0756E03.htm#ch3.3.7.* Accessed 4 Jun 2007. 
+Herrick JA, Lederman RJ, Sullivan B, Powers JH, Palmore TN. 
+Brucella arteritis: clinical manifestations, treatment, and 
+prognosis. Lancet Infect Dis. 2014;14(6):520-6. 
+Honour S, Hickling KM. Naturally occurring Brucella suis biovar 
+4 infection in a moose (Alces alces). J Wildl Dis. 
+1993;29:596-8. 
+James DR, Golovsky G, Thornton JM, Goodchild L, Havlicek M, 
+Martin P, Krockenberger MB, Marriott D, Ahuja V, Malik R, 
+Mor SM. Clinical management of Brucella suis infection in 
+dogs and implications for public health. Aust Vet J. 
+2017;95(1-2):19-25.  
+Karcaaltincaba D, Sencan I, Kandemir O, Guvendag-Guven ES, 
+Yalvac S. Does brucellosis in human pregnancy increase 
+abortion risk? Presentation of two cases and review of 
+literature. J Obstet Gynaecol Res. 2010;36(2):418-23.  
+Khan AU, Sayour AE, Melzer F, El-Soally SAGE, Elschner MC, 
+Shell WS, Moawad AA, Mohamed SA, Hendam A, Roesler 
+U, Neubauer H, El-Adawy H. Seroprevalence and molecular 
+identification of Brucella spp. in camels in Egypt. 
+Microorganisms. 2020;8(7):1035. 
+Kin MS, Fort M, de Echaide ST, Casanave EB. Brucella suis in 
+armadillos (Chaetophractus villosus) from La Pampa, 
+Argentina. Vet Microbiol. 2014;170(3-4):442-5. 
+Kneipp CC, Rose AM, Robson J, Malik R, Deutscher AT,  
+Wiethoelter AK, Mor SM. Brucella suis in three dogs: 
+presentation, diagnosis and clinical management. Aust Vet J. 
+2023;101(4):133-141. 
+Knudsen A, Kronborg G, Dahl Knudsen J, Lebech AM. 
+Laboratory exposure to Brucella melitensis in Denmark: a 
+prospective study. J Hosp Infect. 2013;85(3):237-9. 
+Kortepeter M, Christopher G, Cieslak T, Culpepper R, Darling R, 
+Pavlin J, Rowe J, McKee K, Eitzen E, editors. Medical 
+management of biological casualties handbook [online]. 4th 
+ed. United States Department of Defense; 2001. Brucellosis. 
+Available at: http://www.vnh.org/BIOCASU/7.html.* 
+Accessed 16 Dec 2002. 
+López-Goñi I, García-Yoldi D, Marín CM, de Miguel MJ, 
+Barquero-Calvo E, Guzmán-Verri C, Albert D, Garin-Bastuji 
+B. New Bruce-ladder multiplex PCR assay for the biovar 
+typing of Brucella suis and the discrimination of Brucella suis 
+and Brucella canis. Vet Microbiol. 2011;154(1-2):152-5. 
+Lord VR, Lord RD. Brucella-suis infections in collared peccaries 
+in Venezuela. J Wildl Dis. 1991;27:477-81. 
+Lucero NE, Ayala SM, Escobar GI, Jacob NR. Brucella isolated in 
+humans and animals in Latin America from 1968 to 2006. 
+Epidemiol Infect. 2008;136(4):496-503.  
+Mailles A, Ogielska M, Kemiche F, Garin-Bastuji B, Brieu N, et 
+al. Brucella suis biovar 2 infection in humans in France: 
+emerging infection or better recognition? Epidemiol Infect. 
+2017;145(13):2711-6. 
+McGiven JA, Nicola A, Commander NJ, Duncombe L, Taylor 
+AV, Villari S, Dainty A, Thirlwall R, Bouzelmat N, Perrett 
+LL, Brew SD, Stack JA. An evaluation of the capability of 
+existing and novel serodiagnostic methods for porcine 
+brucellosis to reduce false positive serological reactions. Vet 
+Microbiol. 2012;160(3-4):378-86.  
+Méndez-González KY, Hernández-Castro R, Carrillo-Casas EM, 
+Monroy JF, López-Merino A, Suárez-Güemes F. Brucella 
+melitensis survival during manufacture of ripened goat cheese at 
+two temperatures. Foodborne Pathog Dis. 2011;8(12):1257-61.  
+Meneses A, Epaulard O, Maurin M, Gressin R, Pavese P, Brion 
+JP, Garin-Bastuji B, Stahl JP. [Brucella bacteremia 
+reactivation 70 years after the primary infection]. Med Mal 
+Infect. 2010;40(4):238-40.  
+Menshawy AM, Perez-Sancho M, Garcia-Seco T, Hosein HI, 
+García N, Martinez I, Sayour AE, Goyache J, Azzam RA, 
+Dominguez L, Alvarez J. Assessment of genetic diversity of 
+zoonotic Brucella spp. recovered from livestock in Egypt 
+using multiple locus VNTR analysis. Biomed Res Int. 
+2014;2014:353876.  
+Mesner O, Riesenberg K, Biliar N, Borstein E, Bouhnik L, Peled 
+N, Yagupsky P. The many faces of human-to-human 
+transmission of brucellosis: Congenital infections and 
+outbreak of nosocomial disease related to an unrecognized 
+clinical case. Clin Infect Dis 2007; 45:el35–e140. 
+Metin A, Akdeniz H, Buzgan T, Delice I. Cutaneous findings 
+encountered in brucellosis and review of the literature. Int J 
+Dermatol. 2001;40:434-8.
+
+## PAGE 10
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 10 of 11 
+Miller JE. (National Program Leader, Fish and Wildlife, Extension 
+Service, USDA). A national perspective on feral swine 
+[online]. In: feral swine. A compendium for resource 
+managers; 1993 March 24-25 [Updated 1997]; Kerrville, TX. 
+Available at: http://texnat.tamu.edu/symposia/feral/feral-
+5.htm.* Accessed 14 Jun 2007. 
+Mor SM, Wiethoelter AK, Lee A, Moloney B, James DR, Malik 
+R. Emergence of Brucella suis in dogs in New South Wales, 
+Australia: clinical findings and implications for zoonotic 
+transmission. BMC Vet Res. 2016;12(1):199.  
+Munoz PM, Boadella M, Arnal M, de Miguel MJ, Revilla M, et al. 
+Spatial distribution and risk factors of brucellosis in Iberian 
+wild ungulates. BMC Infect. Dis. 2010;10:46. 
+Musser JM, Schwartz AL, Srinath I, Waldrup KA. Use of serology 
+and bacterial culture to determine prevalence of Brucella spp. 
+in feral swine (Sus scrofa) in proximity to a beef cattle herd 
+positive for Brucella suis and Brucella abortus. J Wildl Dis. 
+2013;49(2):215-20.  
+Neiland KA. Further observations on rangiferine brucellosis in 
+Alaskan carnivores. J Wildl Dis. 1975;11(1):45-53. 
+Neiland KA, Miller LG. Experimental Brucella suis type 4 
+infections in domestic and wild Alaskan carnivores. J Wildl 
+Dis. 1981;17(2):183-9. 
+New South Wales Department of Primary Industries. Brucellosis 
+(Brucella suis) in dogs – guidelines for veterinarians. 
+Primefact 1421, second edition. DPI; 2017 Sept. Available at: 
+https://www.dpi.nsw.gov.au/biosecurity/animal/humans/brucel
+losis-in-dogs/guidelines/brucellosis-in-dogs-vets.  Accessed 
+14 May 2018. 
+Norman FF, Monge-Maillo B, Chamorro-Tojeiro S, Pérez-Molina 
+JA, López-Vélez R. Imported brucellosis: A case series and 
+literature review. Travel Med Infect Dis. 2016;14(3):182-99.  
+Nymo IH, Beckmen K, Godfroid J. Anti-Brucella antibodies in 
+moose (Alces alces gigas), muskoxen (Ovibos moschatus), and 
+plains bison (Bison bison bison) in Alaska, USA. Wildl Dis. 
+2016;52(1):96-9.  
+Ögredici Ö, Erb S, Langer I, Pilo P, Kerner A, Haack HG, 
+Cathomas G, Danuser J, Pappas G, Tarr PE. Brucellosis 
+reactivation after 28 years. Emerg Infect Dis. 
+2010;16(12):2021-2.  
+Olsen SC. Brucellosis in the United States: role and significance 
+of wildlife reservoirs. Vaccine. 2010;28 Suppl 5:F73-6.  
+Olsen SC. Recent developments in livestock and wildlife 
+brucellosis vaccination. Rev Sci Tech. 2013;32(1):207-17. 
+Olsen SC, Hennager SG. Immune responses and protection against 
+experimental Brucella suis biovar 1 challenge in 
+nonvaccinated or B. abortus strain RB51-vaccinated cattle. 
+Clin Vaccine Immunol. 2010;17(12):1891-5.  
+Olsen SC, Palmer MV. Advancement of knowledge of Brucella 
+over the past 50 years. Vet Pathol. 2014;51(6):1076-89.  
+Paolicchi FA, Terzolo HR, Campero CM. Isolation of Brucella 
+suis from the semen of a ram. Vet Rec. 1993;132(3):67. 
+Pappas G. The changing Brucella ecology: novel reservoirs, new 
+threats. Int J Antimicrob Agents. 2010;36 Suppl 1:S8-11.  
+Pedersen K, Quance CR, Robbe-Austerman S, Piaggio AJ, Bevins 
+SN, Goldstein SM,Gaston WD, DeLiberto TJ. Identification of 
+Brucella suis from feral swine in selected states in the USA. J 
+Wildl Dis. 2014;50(2):171-9.  
+Petukhova AS, Pinigin AF, Zabrodin VA, Vagina VA, Zabrodina 
+EF. Isolation of Brucella from wild animals. Veterinariya 
+Moscow. 1971;(4):41-2. 
+Poester FP, Samartino LE, Santos RL. Pathogenesis and 
+pathobiology of brucellosis in livestock. Rev Sci Tech. 
+2013;32:105-15. 
+Poulou A,Markou F, Xipolitos I, Skandalakis PN. A rare case of 
+Brucella melitensis infection in an obstetrician during the 
+delivery of a transplacentally infected infant. J Infect 2006; 
+53:e39–41. 
+Praud A, Gimenez O, Zanella G, Dufour B, Pozzi N, Antras V, 
+Meyer L, Garin-Bastuji B. Estimation of sensitivity and 
+specificity of five serological tests for the diagnosis of porcine 
+brucellosis. Prev Vet Med. 2012;104(1-2):94-100.  
+Pritulin PI. On the transmission of brucellosis by the pasture ticks 
+Dermacentor nuttallia and Hyalomma marginatum. 
+Veterinariya. 1954;7:31-3. 
+Public Health Agency of Canada. Material Safety Data Sheet – 
+Brucella spp. Office of Laboratory Security; 1999 Jan. 
+Available at: https://www.canada.ca/en/public-
+health/services/laboratory-biosafety-biosecurity/pathogen-
+safety-data-sheets-risk-assessment/Brucella-b-abortus-b-canis-
+b-melitensis-b-suis-material-safety-data-sheets-msds.html.* 
+Accessed 4 Jun 2007. 
+Qureshi T1, Stittmatter J, Turner K, Davis DS. Experimental 
+infection of white-tailed deer with rangiferine brucellosis. J 
+Wildl Dis. 1999;35(2):388-91. 
+Ramamoorthy S, Woldemeskel M, Ligett A, Snider R, Cobb R, 
+Rajeev S. Brucella suis infection in dogs, Georgia, USA. 
+Emerg Infect Dis. 2011;17(12):2386-7.  
+Reddy S, Manuel R, Sheridan E, Sadler G, Patel S, Riley P. 
+Brucellosis in the UK: a risk to laboratory workers? 
+Recommendations for prevention and management of 
+laboratory exposure. J Clin Pathol 2010;63:90e92. 
+Repina LP, Nikulina AI, Kosilov IA. [Case of brucellosis 
+challenge in humans from a cat.] Zh Mikrobiol Epidemiol 
+Immunobiol 1993;4:66-8. 
+Rhyan JC. Pathogenesis and pathobiology of brucellosis in 
+wildlife. Rev Sci Tech. 2013, 32(1):127-36. 
+Risco D1, García A, Serrano E, Fernandez-Llario P, Benítez JM, 
+Martínez R, García WL, de Mendoza JH. High-density 
+dependence but low impact on selected reproduction 
+parameters of Brucella suis biovar 2 in wild boar hunting 
+estates from South-Western Spain. Transbound Emerg Dis. 
+2014;61(6):555-62.  
+Rubach MP, Halliday JE, Cleaveland S, Crump JA. Brucellosis in 
+low-income and middle-income countries. Curr Opin Infect 
+Dis. 2013;26(5):404-12. 
+Sam IC, Karunakaran R, Kamarulzaman A, Ponnampalavanar S, 
+Syed Omar SF, Ng KP, Mohd Yusof MY, Hooi PS, Jafar FL, 
+Abubakar S. A large exposure to Brucella melitensis in a 
+diagnostic laboratory. J Hosp Infect. 2012;80(4):321-5. 
+Sambu RM, Mathew C, Nonga HE, Lukambagire AS, Yapi RB, 
+Akoko J, Fokou G, Keyyu JD, Bonfoh B, Kazwala RR. 
+Circulating Brucella species in wild animals of the Serengeti 
+ecosystem, Tanzania. One Health Outlook. 2021;3(1):15. 
+Sanaei Dashti A, Karimi A. Skeletal involvement of Brucella 
+melitensis in children: A systematic review. Iran J Med Sci. 
+2013;38(4):286-92.
+
+## PAGE 11
+
+Brucella suis 
+ 
+www.cfsph.iastate.ed u  © 2007-2018 page 11 of 11 
+Sauret JM, Vilissova N. Human brucellosis. J Am Board Fam 
+Pract. 2002;15:401-6.  
+Scholz HC, Vergnaud G. Molecular characterisation of Brucella 
+species. Rev Sci Tech. 2013;32:149-62. 
+Schumaker BA, Mazet JA, Gonzales BJ, Elzer PH, Hietala SK, 
+Ziccardi MH. Evaluation of the Western immunoblot as a 
+detection method for Brucella abortus exposure in elk. J Wildl 
+Dis. 2010;46(1):87-94. 
+Seleem MN, Boyle SM, Sriranganathan N. Brucellosis: a re-
+emerging zoonosis. Vet Microbiol. 2010;140(3-4):392-8.  
+Simpson G, Thompson PN, Saegerman C, Marcotty T, Letesson 
+JJ, de Bolle X, Godfroid J. Brucellosis in wildlife in Africa: a 
+systematic review and meta-analysis. Sci Rep. 
+2021;11(1):5960.  
+Solera J, Solís García Del Pozo J. Treatment of pulmonary 
+brucellosis: a systematic review. Expert Rev Anti Infect Ther. 
+2017;15(1):33-42.  
+Sting R, Schwabe I, Oehme R, Elschner MC, Melzer F. First 
+report of a Brucella suis infection in roe deer (Capreolus 
+capreolus). Berl Munch Tierarztl Wochenschr. 2014;127(3-
+4):120-2. 
+Stoffregen WC, Olsen SC, Jack Wheeler C, Bricker BJ, Palmer MV, 
+Jensen AE, Halling SM, Alt DP. Diagnostic characterization of 
+a feral swine herd enzootically infected with Brucella. J Vet 
+Diagn Invest. 2007;19:227-37. 
+Szulowski K, Iwaniak W, Weiner M, Złotnicka J. Brucella suis biovar 2 
+isolations from cattle in Poland. Ann Agric Environ Med. 
+2013;20(4):672-5. 
+Tomaselli M, Dalton C, Duignan PJ, Kutz S, van der Meer F, Kafle P, 
+Surujballi O, Turcotte C, Checkley S. Contagious ecthyma, 
+rangiferine brucellosis, and lungworm infection in a muskox 
+(Ovibos moschatus) from the Canadian Arctic, 2014. Wildl Dis. 
+2016;52(3):719-24.  
+Traxler RM, Lehman MW, Bosserman EA, Guerra MA, Smith 
+TL. A literature review of laboratory-acquired brucellosis. J 
+Clin Microbiol. 2013;51(9):3055-62.  
+Tuon FF, Gondolfo RB, Cerchiari N. Human-to-human 
+transmission of Brucella - a systematic review. Trop Med Int 
+Health. 2017;22(5):539-46.  
+Ulu-Kilic A, Metan G, Alp E. Clinical presentations and diagnosis 
+of brucellosis. Recent Pat Antiinfect Drug Discov. 2013;8: 
+34-41. 
+U.S. Department of Agriculture, Animal and Plant Health 
+Inspection Service [USDA APHIS]. Wild pigs--hidden danger 
+for farmers and hunters. USDA APHIS; 1992. Agricultural 
+Information Bulletin nr. 620. 7 p. Available at: 
+http://www.aphis.usda.gov/lpa/pubs/pub_ahwildpigs.html.* 
+Accessed 14 Jun 2007.  
+Vila A, Pagella H, Vera Bello G, Vicente A. Brucella suis 
+bacteremia misidentified as Ochrobactrum anthropi by the 
+VITEK 2 system. J Infect Dev Ctries. 2016;10(4):432-6.  
+Vilchez G, Espinoza M, D'Onadio G, Saona P, Gotuzzo E. 
+Brucellosis in pregnancy: clinical aspects and obstetric 
+outcomes. Int J Infect Dis. 2015;38:95-100. 
+Wang Z, Bie P, Cheng J, Wu Q, Lu L. In vitro evaluation of six 
+chemical agents on smooth Brucella melitensis strain. Ann 
+Clin Microbiol Antimicrob. 2015;14:16. 
+Wang Q, Zhao S, Wureli H, Xie S, Chen C, Wei Q, Cui B, Tu C, 
+Wang Y. Brucella melitensis and B. abortus in eggs, larvae and 
+engorged females of Dermacentor marginatus. Ticks Tick Borne 
+Dis. 2018;9(4):1045-8. 
+Whatmore AM, Perrett LL, MacMillan AP. Characterisation of the 
+genetic diversity of Brucella by multilocus sequencing. BMC 
+Microbiol 2007;7:34. 
+World Health Organisation (WHO). Brucellosis in humans and 
+animals. WHO; 2006. Available at: 
+http://www.who.int/csr/resources/publications/deliberate/WH
+O_CDS_EPR_2006_7/en/. Accessed 5 Mar 2018. 
+World Organization for Animal Health (OIE) . Manual of 
+diagnostic tests and vaccines for terrestrial animals. Paris: 
+OIE; 2016. Brucellosis (Brucella abortus, B. melitensis and B. 
+suis) infection with B. abortus, B. melitensis and B. suis . 
+Available at: http://www.oie.int/fileadmin/Home/eng/ 
+Health_standards/tahm/2.01.04_BRUCELLOSIS.pdf.  
+Accessed 11 Mar 2018. 
+World Organization for Animal Health [OIE] The World Health 
+Animal Information System[database online]. OIE; 2018. 
+Available at: http://www.oie.int/animal-health-in-the-
+world/the-world-animal-health-information-system/the-world-
+animal-health-information-system/.  Accessed 5 May2018. 
+Wu N, Abril C, Hinic V, Brodard I, Thur B, Fattebert J, Hussy D, 
+Ryser-Degiorgis MP. Free-ranging wild boar: a disease threat 
+to domestic pigs in Switzerland? J Wildl Dis.2011;47:868-79. 
+Yang J, Ren XQ, Chu ML, Meng DY, Xue WC. Mistaken identity 
+of Brucella infection. J Clin Microbiol. 2013;51(6):2011. 
+Yang X, Wang N, Cao X, Bie P, Xing Z, Yin S, Jiang H, Wu Q. 
+First isolation and characterization of Brucella suis from yak. 
+Genome. 2020;63(8):397-405. 
+Zhu L, Feng Y, Zhang G, Jiang H, Zhang Z, Wang N, Ding J, Suo 
+X. Brucella suis strain 2 vaccine is safe and protective against 
+heterologous Brucella spp. infections. Vaccine. 
+2016;34(3):395-400.  
+Zygmont SM, Nettles VF, Shotts EB Jr, Carmen WA, Blackburn 
+BO. Brucellosis in wild swine: a serologic and bacteriologic 
+survey in the southeastern United States and Hawaii. Am Vet 
+Med Assoc 1982;181:1285-7.  
+ 
+*  Link is defunct

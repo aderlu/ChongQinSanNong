@@ -1,0 +1,8 @@
+﻿entity_id,name,entity_type,aliases,priority
+MANUAL-001,塞内卡病毒,disease,['塞内卡病毒'],manual
+MANUAL-002,水疱性口炎,disease,['水疱性口炎'],manual
+MANUAL-003,钩端螺旋体病,disease,['钩端螺旋体病'],manual
+MANUAL-004,弓形虫病,disease,['弓形虫病'],manual
+MANUAL-005,猪圆环病毒病,disease,['猪圆环病毒病'],manual
+MANUAL-006,圆环病毒病,disease,['圆环病毒病'],manual
+MANUAL-007,猪圆环病毒,disease,['猪圆环病毒'],manual

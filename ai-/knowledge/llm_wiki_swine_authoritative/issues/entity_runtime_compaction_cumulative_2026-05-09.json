@@ -1,0 +1,1096 @@
+{
+  "summary": {
+    "generated_at": "2026-05-09T20:11:09+08:00",
+    "pages_scanned": 154,
+    "pages_with_evidence_expansion_index": 145,
+    "remaining_legacy_heading_or_marker_pages": 0,
+    "remaining_legacy_heading_or_marker_hits": 0,
+    "evidence_expansion_files": {
+      "diseases": 367,
+      "drugs": 245
+    },
+    "evidence_expansion_files_total": 612,
+    "max_runtime_page_bytes": 13065
+  },
+  "remaining_legacy_hits": [],
+  "pages": [
+    {
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "entity_type": "diseases",
+      "bytes": 5423,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "entity_type": "diseases",
+      "bytes": 13065,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "entity_type": "diseases",
+      "bytes": 7649,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "entity_type": "diseases",
+      "bytes": 7002,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "entity_type": "diseases",
+      "bytes": 5758,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "entity_type": "diseases",
+      "bytes": 5836,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "entity_type": "diseases",
+      "bytes": 6569,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "entity_type": "diseases",
+      "bytes": 8331,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "entity_type": "diseases",
+      "bytes": 8076,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "entity_type": "diseases",
+      "bytes": 6978,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "entity_type": "diseases",
+      "bytes": 6016,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "entity_type": "diseases",
+      "bytes": 6277,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "entity_type": "diseases",
+      "bytes": 6301,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "entity_type": "diseases",
+      "bytes": 5816,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "entity_type": "diseases",
+      "bytes": 6486,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "entity_type": "diseases",
+      "bytes": 5758,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "entity_type": "diseases",
+      "bytes": 6098,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "entity_type": "diseases",
+      "bytes": 7178,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "entity_type": "diseases",
+      "bytes": 5488,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "entity_type": "diseases",
+      "bytes": 5584,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-021-influenza-viruses.md",
+      "entity_type": "diseases",
+      "bytes": 10787,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "entity_type": "diseases",
+      "bytes": 5459,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-023-parvoviruses.md",
+      "entity_type": "diseases",
+      "bytes": 6207,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "entity_type": "diseases",
+      "bytes": 8215,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "entity_type": "diseases",
+      "bytes": 5924,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "entity_type": "diseases",
+      "bytes": 10529,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "entity_type": "diseases",
+      "bytes": 6465,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "entity_type": "diseases",
+      "bytes": 8752,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "entity_type": "diseases",
+      "bytes": 5452,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md",
+      "entity_type": "diseases",
+      "bytes": 6734,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-031-retroviruses.md",
+      "entity_type": "diseases",
+      "bytes": 5458,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-032-rabies-virus.md",
+      "entity_type": "diseases",
+      "bytes": 5972,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+      "entity_type": "diseases",
+      "bytes": 5908,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "entity_type": "diseases",
+      "bytes": 5809,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "entity_type": "diseases",
+      "bytes": 9961,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "entity_type": "diseases",
+      "bytes": 5591,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "entity_type": "diseases",
+      "bytes": 6702,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "entity_type": "diseases",
+      "bytes": 6968,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-039-clostridial-diseases.md",
+      "entity_type": "diseases",
+      "bytes": 6596,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-040-colibacillosis.md",
+      "entity_type": "diseases",
+      "bytes": 8565,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "entity_type": "diseases",
+      "bytes": 9141,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md",
+      "entity_type": "diseases",
+      "bytes": 6240,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-043-erysipelas.md",
+      "entity_type": "diseases",
+      "bytes": 5733,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "entity_type": "diseases",
+      "bytes": 7701,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-045-leptospirosis.md",
+      "entity_type": "diseases",
+      "bytes": 6553,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "entity_type": "diseases",
+      "bytes": 8396,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-047-pasteurellosis.md",
+      "entity_type": "diseases",
+      "bytes": 6590,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "entity_type": "diseases",
+      "bytes": 8973,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-049-salmonellosis.md",
+      "entity_type": "diseases",
+      "bytes": 9060,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "entity_type": "diseases",
+      "bytes": 5374,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "entity_type": "diseases",
+      "bytes": 7025,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "entity_type": "diseases",
+      "bytes": 9928,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-053-tuberculosis.md",
+      "entity_type": "diseases",
+      "bytes": 5434,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "entity_type": "diseases",
+      "bytes": 5541,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "entity_type": "diseases",
+      "bytes": 8839,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-056-external-parasites-lice.md",
+      "entity_type": "diseases",
+      "bytes": 5273,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md",
+      "entity_type": "diseases",
+      "bytes": 6862,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md",
+      "entity_type": "diseases",
+      "bytes": 6441,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "entity_type": "diseases",
+      "bytes": 5998,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md",
+      "entity_type": "diseases",
+      "bytes": 5850,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md",
+      "entity_type": "diseases",
+      "bytes": 5385,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "entity_type": "diseases",
+      "bytes": 5674,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "entity_type": "diseases",
+      "bytes": 5804,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "entity_type": "diseases",
+      "bytes": 5666,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "entity_type": "diseases",
+      "bytes": 6375,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "entity_type": "diseases",
+      "bytes": 5006,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md",
+      "entity_type": "diseases",
+      "bytes": 4224,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md",
+      "entity_type": "diseases",
+      "bytes": 4488,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "entity_type": "diseases",
+      "bytes": 5983,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "entity_type": "diseases",
+      "bytes": 5750,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "entity_type": "diseases",
+      "bytes": 6295,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "entity_type": "diseases",
+      "bytes": 5966,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md",
+      "entity_type": "diseases",
+      "bytes": 6157,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-001-avermectins.md",
+      "entity_type": "drugs",
+      "bytes": 4227,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-002-ivermectin.md",
+      "entity_type": "drugs",
+      "bytes": 4187,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-003-doramectin.md",
+      "entity_type": "drugs",
+      "bytes": 4205,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-004-fenbendazole.md",
+      "entity_type": "drugs",
+      "bytes": 3816,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-005-benzimidazoles.md",
+      "entity_type": "drugs",
+      "bytes": 3792,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-006-anticoccidials.md",
+      "entity_type": "drugs",
+      "bytes": 3544,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-007-antimicrobials.md",
+      "entity_type": "drugs",
+      "bytes": 4034,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "entity_type": "drugs",
+      "bytes": 3499,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "entity_type": "drugs",
+      "bytes": 5122,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "entity_type": "drugs",
+      "bytes": 6355,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-011-ceftiofur.md",
+      "entity_type": "drugs",
+      "bytes": 4558,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-012-florfenicol.md",
+      "entity_type": "drugs",
+      "bytes": 7282,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-013-tiamulin.md",
+      "entity_type": "drugs",
+      "bytes": 5670,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-014-lincomycin.md",
+      "entity_type": "drugs",
+      "bytes": 5019,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-015-tylosin.md",
+      "entity_type": "drugs",
+      "bytes": 5383,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-016-tylvalosin.md",
+      "entity_type": "drugs",
+      "bytes": 4017,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "entity_type": "drugs",
+      "bytes": 4704,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-018-enrofloxacin.md",
+      "entity_type": "drugs",
+      "bytes": 7105,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "entity_type": "drugs",
+      "bytes": 6004,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "entity_type": "drugs",
+      "bytes": 5166,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-021-doxycycline.md",
+      "entity_type": "drugs",
+      "bytes": 5733,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-022-sulfonamide-trimethoprim.md",
+      "entity_type": "drugs",
+      "bytes": 5020,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-023-gentamicin.md",
+      "entity_type": "drugs",
+      "bytes": 4890,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-024-neomycin.md",
+      "entity_type": "drugs",
+      "bytes": 4768,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-025-apramycin.md",
+      "entity_type": "drugs",
+      "bytes": 3766,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-026-spectinomycin.md",
+      "entity_type": "drugs",
+      "bytes": 4688,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-027-toltrazuril.md",
+      "entity_type": "drugs",
+      "bytes": 4304,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-028-iron-dextran.md",
+      "entity_type": "drugs",
+      "bytes": 4037,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-029-nsaids.md",
+      "entity_type": "drugs",
+      "bytes": 4302,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "entity_type": "drugs",
+      "bytes": 4427,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-031-macrolides.md",
+      "entity_type": "drugs",
+      "bytes": 3812,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "entity_type": "drugs",
+      "bytes": 3814,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-033-aminoglycosides.md",
+      "entity_type": "drugs",
+      "bytes": 3822,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "entity_type": "drugs",
+      "bytes": 6322,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-035-beta-lactams.md",
+      "entity_type": "drugs",
+      "bytes": 3776,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-036-lincosamides.md",
+      "entity_type": "drugs",
+      "bytes": 4345,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-037-sulfamethazine.md",
+      "entity_type": "drugs",
+      "bytes": 4416,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-038-trimethoprim-sulfadiazine.md",
+      "entity_type": "drugs",
+      "bytes": 3517,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-039-sulfadimethoxine.md",
+      "entity_type": "drugs",
+      "bytes": 4322,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "entity_type": "drugs",
+      "bytes": 3545,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "entity_type": "drugs",
+      "bytes": 4621,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-042-ampicillin.md",
+      "entity_type": "drugs",
+      "bytes": 5795,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "entity_type": "drugs",
+      "bytes": 4493,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-044-cefquinome.md",
+      "entity_type": "drugs",
+      "bytes": 5040,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-045-tilmicosin.md",
+      "entity_type": "drugs",
+      "bytes": 5150,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-046-valnemulin.md",
+      "entity_type": "drugs",
+      "bytes": 3755,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "entity_type": "drugs",
+      "bytes": 4240,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-048-carbadox.md",
+      "entity_type": "drugs",
+      "bytes": 3816,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-049-olaquindox.md",
+      "entity_type": "drugs",
+      "bytes": 4186,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-050-dimetridazole-ronidazole.md",
+      "entity_type": "drugs",
+      "bytes": 4566,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-051-danofloxacin-marbofloxacin.md",
+      "entity_type": "drugs",
+      "bytes": 4085,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-052-colistin.md",
+      "entity_type": "drugs",
+      "bytes": 3907,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-053-bacitracin-methylene-disalicylate.md",
+      "entity_type": "drugs",
+      "bytes": 3542,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-054-virginiamycin.md",
+      "entity_type": "drugs",
+      "bytes": 3472,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-055-moxidectin.md",
+      "entity_type": "drugs",
+      "bytes": 3450,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-056-levamisole.md",
+      "entity_type": "drugs",
+      "bytes": 3727,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-057-piperazine-pyrantel.md",
+      "entity_type": "drugs",
+      "bytes": 3491,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-058-amitraz.md",
+      "entity_type": "drugs",
+      "bytes": 3447,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-059-phosmet-coumaphos.md",
+      "entity_type": "drugs",
+      "bytes": 3490,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-060-permethrin-deltamethrin.md",
+      "entity_type": "drugs",
+      "bytes": 3678,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-061-ponazuril.md",
+      "entity_type": "drugs",
+      "bytes": 3559,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-062-amprolium.md",
+      "entity_type": "drugs",
+      "bytes": 3583,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-063-meloxicam.md",
+      "entity_type": "drugs",
+      "bytes": 3950,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-064-flunixin-meglumine.md",
+      "entity_type": "drugs",
+      "bytes": 3990,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "entity_type": "drugs",
+      "bytes": 3843,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "entity_type": "drugs",
+      "bytes": 4343,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-067-oxytocin.md",
+      "entity_type": "drugs",
+      "bytes": 4187,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-068-altrenogest.md",
+      "entity_type": "drugs",
+      "bytes": 3715,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-069-triptorelin.md",
+      "entity_type": "drugs",
+      "bytes": 3438,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-070-ractopamine.md",
+      "entity_type": "drugs",
+      "bytes": 4253,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-071-streptomycin.md",
+      "entity_type": "drugs",
+      "bytes": 3980,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "entity_type": "drugs",
+      "bytes": 3869,
+      "has_evidence_expansion_index": false,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-073-erythromycin.md",
+      "entity_type": "drugs",
+      "bytes": 4309,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-074-amikacin.md",
+      "entity_type": "drugs",
+      "bytes": 3770,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-075-praziquantel.md",
+      "entity_type": "drugs",
+      "bytes": 4574,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-076-dichlorvos.md",
+      "entity_type": "drugs",
+      "bytes": 4679,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-077-azaperone.md",
+      "entity_type": "drugs",
+      "bytes": 2715,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-078-pentobarbital.md",
+      "entity_type": "drugs",
+      "bytes": 2600,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-079-atropine.md",
+      "entity_type": "drugs",
+      "bytes": 2798,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-080-epinephrine.md",
+      "entity_type": "drugs",
+      "bytes": 2855,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    },
+    {
+      "path": "wiki/drugs/DRUG-081-traditional-chinese-veterinary-medicines.md",
+      "entity_type": "drugs",
+      "bytes": 1186,
+      "has_evidence_expansion_index": true,
+      "legacy_heading_or_marker_hits": 0
+    }
+  ]
+}

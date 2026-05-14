@@ -1,0 +1,9 @@
+URL: https://www.moa.gov.cn/gk/tzgg_1/tfw/201808/t20180810_6155550.htm
+TITLE: 农业农村部办公厅关于防治非洲猪瘟加强生猪移动监管的通知
+SEARCH_TERMS_USED: 非洲猪瘟通知, 非洲猪瘟公告, 非洲猪瘟技术指南, 非洲猪瘟通报, 非洲猪瘟实施方案
+MATCHED: 非洲猪瘟 + 通知
+DISCOVERED_FROM: suffix_search_seed
+DISCOVERY_METHOD: specified_suffix_search_seed
+ANCHOR_TEXT: 
+
+解读：

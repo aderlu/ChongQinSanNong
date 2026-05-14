@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-05-13T00:18:14+08:00",
+  "required_cards": [
+    "RC-DX-001",
+    "RC-DRUG-001",
+    "RC-WITHDRAWAL-MRL-001",
+    "RC-DISEASE-REGULATORY-001",
+    "RC-CITATION-001",
+    "RC-TRAIN-READY-001",
+    "RC-EVAL-RUBRIC-001"
+  ],
+  "rule_card_count": 21,
+  "hard_block_count": 11,
+  "missing_required_cards": [],
+  "runtime_pages_requiring_rules": 156,
+  "runtime_pages_missing_rule_anchors": 0,
+  "missing_rule_anchor_sample": [],
+  "synthesis_anchor_records": [
+    {
+      "path": "wiki/synthesis/swine_answer_evaluation_rubric.md",
+      "exists": true,
+      "has_eval_rubric": true,
+      "has_synthesis_scope": true,
+      "has_regulatory_current": true
+    },
+    {
+      "path": "wiki/synthesis/swine_case_generation_context.md",
+      "exists": true,
+      "has_eval_rubric": true,
+      "has_synthesis_scope": true,
+      "has_regulatory_current": true
+    },
+    {
+      "path": "wiki/synthesis/swine_regulatory_blocking_rules_china.md",
+      "exists": true,
+      "has_eval_rubric": true,
+      "has_synthesis_scope": true,
+      "has_regulatory_current": true
+    },
+    {
+      "path": "wiki/synthesis/swine_drug_and_withdrawal_boundary.md",
+      "exists": true,
+      "has_eval_rubric": true,
+      "has_synthesis_scope": true,
+      "has_regulatory_current": true
+    }
+  ],
+  "outputs": {
+    "rule_card_index": "exports/rule_card_index.csv",
+    "exporter_hard_block_rules": "exports/exporter_hard_block_rules.json"
+  }
+}

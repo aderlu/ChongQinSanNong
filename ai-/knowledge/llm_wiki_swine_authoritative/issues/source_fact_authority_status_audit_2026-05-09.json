@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "generated_at": "2026-05-13T23:16:22+08:00",
+    "source_rows": 235,
+    "source_pages_changed": 0,
+    "source_missing": 0,
+    "facts": 2242,
+    "invalid_facts": 0,
+    "task_use_counts": {
+      "train_ready": 2056,
+      "generation_ready_limited": 159,
+      "eval_ready": 27
+    },
+    "outputs": {
+      "source_status_csv": "exports/source_authority_status_index.csv",
+      "fact_status_json": "exports/knowledge_facts_status_index.json"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 61,
+    "L2_diagnosis_support": 37,
+    "L3_differential_support": 36,
+    "L4_control_boundary": 36,
+    "L6_regulatory_guardrail": 10
+  },
+  "acceptance": {
+    "all_plans_from_runtime_manifest": true,
+    "all_plans_have_ability_layer": true,
+    "high_risk_plans_have_required_rule_cards": true,
+    "limited_or_source_check_not_positive": true,
+    "no_forbidden_paths_in_plan": true,
+    "passed": true
+  },
+  "checks": {
+    "forbidden_paths": [],
+    "high_risk_missing_rule_cards": [],
+    "limited_or_source_check_positive": [],
+    "missing_required_fields": [],
+    "non_runtime_paths": []
+  },
+  "generated_at": "2026-05-13T22:02:27+08:00",
+  "inputs": {
+    "drug_gold_role_index": "exports/drug_gold_role_index.csv",
+    "exporter_hard_block_rules": "exports/exporter_hard_block_rules.json",
+    "gold_dataset_readiness_index": "exports/gold_dataset_readiness_index.csv",
+    "runtime_manifest": "exports/runtime_core_manifest.json"
+  },
+  "output": "exports/planned_samples/wiki_sample_plan_pytest.jsonl",
+  "outputs": {
+    "planned_samples_file": "exports/planned_samples/wiki_sample_plan_pytest.jsonl",
+    "report_json": "issues/wiki_first_generation_reports/phase12_plan_samples_pytest.json",
+    "report_md": "issues/wiki_first_generation_reports/phase12_plan_samples_pytest.md"
+  },
+  "passed": true,
+  "phase": "phase12_plan_samples_from_wiki",
+  "planned_samples": 180,
+  "skipped_forbidden_manifest_paths": [],
+  "total_manifest_entries": 204,
+  "total_plans": 180,
+  "unique_pages_planned": 61
+}

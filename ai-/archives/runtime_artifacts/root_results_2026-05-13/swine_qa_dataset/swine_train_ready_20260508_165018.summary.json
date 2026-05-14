@@ -1,0 +1,9 @@
+{
+  "input_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_164033_dual_final100_20260508_164705.csv",
+  "output_jsonl": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_20260508_165018.jsonl",
+  "rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_rejects_20260508_165018.csv",
+  "accepted": 0,
+  "rejected": 50,
+  "min_score": 85.0,
+  "min_standard_citations": 3
+}

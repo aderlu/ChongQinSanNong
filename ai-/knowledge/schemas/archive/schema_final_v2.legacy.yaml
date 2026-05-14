@@ -1,0 +1,190 @@
+version: "2.1"
+schema_name: "chicken_disease_golden_dataset"
+description: >
+  Canonical schema for the chicken disease golden dataset pipeline.
+  Version 2.1 aligns the active knowledge base, compliance rules, and
+  coverage matrix with the current generation and evaluation workflow.
+
+source_assets:
+  - "D:/ChongQinSanNong/results/results"
+  - "D:/ChongQinSanNong/knowledge/masters/drug_master_v2_2.csv"
+  - "D:/ChongQinSanNong/knowledge/masters/compliance_rule_master_v2_2.csv"
+  - "D:/ChongQinSanNong/knowledge/masters/disease_knowledge_master_v2_2.csv"
+  - "D:/ChongQinSanNong/configs/coverage_matrix.yaml"
+  - "D:/ChongQinSanNong/knowledge/masters/calibration_seed_samples_v1.csv"
+
+dataset_contract:
+  primary_key: "case_id"
+  accepted_species:
+    - "鸡"
+  final_label_enum:
+    - "pass"
+    - "review"
+    - "reject"
+  final_status_enum:
+    - "draft"
+    - "rule_blocked"
+    - "judge_rejected"
+    - "arbitrated"
+    - "golden_accepted"
+  rule_version_current: "v2.0.0"
+
+master_tables:
+  drug_master_file: "knowledge/masters/drug_master_v2_2.csv"
+  compliance_rule_master_file: "knowledge/masters/compliance_rule_master_v2_2.csv"
+  disease_knowledge_master_file: "knowledge/masters/disease_knowledge_master_v2_2.csv"
+  coverage_matrix_file: "configs/coverage_matrix.yaml"
+  calibration_seed_file: "knowledge/masters/calibration_seed_samples_v1.csv"
+
+quality_gates:
+  hard_rules:
+    - "disease_name must not be empty"
+    - "user_query must not be empty"
+    - "diagnosis must not be empty when success == 成功"
+    - "prescription must not be empty when success == 成功"
+    - "withdrawal_period must not be empty when success == 成功"
+    - "high-risk drug rows must carry evidence_source, label_basis, rule_version"
+    - "if remaining_days_to_market is known, candidate withdrawal days must not exceed it"
+    - "if high-risk drug rules are unresolved, final label cannot be pass"
+    - "top5_drug_share and supportive_family_share must satisfy batch thresholds"
+    - "cases marked allow_no_drug should not be filled with redundant supportive templates"
+  production_thresholds:
+    min_final_total_score_for_pass: 90
+    review_score_floor: 85
+    arbitration_gap_trigger: 10
+
+canonical_fields:
+  case_id:
+    type: "string"
+    required: true
+
+  source_type:
+    type: "string"
+    required: true
+    enum:
+      - "manual_rating_sheet"
+      - "historical_csv"
+      - "production_csv"
+      - "hybrid"
+
+  disease_name:
+    type: "string"
+    required: true
+
+  species:
+    type: "string"
+    required: false
+    default: "鸡"
+
+  population_context:
+    type: "object"
+    required: false
+    properties:
+      sex:
+        type: "string"
+      age_days:
+        type: "integer"
+      initial_stock_count:
+        type: "integer"
+      breed_name:
+        type: "string"
+      survival_rate_percent:
+        type: "number"
+      feed_conversion_ratio:
+        type: "number"
+      farming_mode:
+        type: "string"
+      effective_area_m2:
+        type: "number"
+      density_per_m2:
+        type: "number"
+      remaining_days_to_market:
+        type: "integer"
+      raw_population_text:
+        type: "string"
+
+  input_case:
+    type: "object"
+    required: true
+    properties:
+      user_query:
+        type: "string"
+        required: true
+      symptom_summary:
+        type: "array[string]"
+        required: false
+      environmental_risk_factors:
+        type: "array[string]"
+        required: false
+      scene_tags:
+        type: "array[string]"
+        required: false
+
+  generation_output:
+    type: "object"
+    required: true
+    properties:
+      generator_model:
+        type: "string"
+      success:
+        type: "string"
+      error:
+        type: "string"
+      diagnosis:
+        type: "string"
+      prescription:
+        type: "string"
+      withdrawal_period:
+        type: "string"
+      metadata_json:
+        type: "string"
+      generation_seconds:
+        type: "number"
+
+  evaluation_output:
+    type: "object"
+    required: false
+    properties:
+      judge_a:
+        type: "object"
+      judge_b:
+        type: "object"
+      final_total_score:
+        type: "number"
+      final_label:
+        type: "string"
+        enum:
+          - "pass"
+          - "review"
+          - "reject"
+
+  compliance_output:
+    type: "object"
+    required: false
+    properties:
+      withdrawal_period_text:
+        type: "string"
+      extracted_rule_items:
+        type: "array[object]"
+
+golden_entry_policy:
+  include_when:
+    - "source_type == production_csv"
+    - "success == 成功"
+    - "final_label == pass"
+    - "final_total_score >= 90"
+    - "diagnosis, prescription, withdrawal_period all non-empty"
+    - "high-risk drug rules include evidence_source, label_basis, rule_version"
+  exclude_when:
+    - "error is not empty"
+    - "final_label in [review, reject]"
+    - "high-risk drug rule evidence is unresolved"
+  review_pool_when:
+    - "final_label == review"
+    - "needed_arbitration == 是"
+    - "drug rule evidence conflicts across samples"
+
+notes:
+  - "Archived legacy dataset schema. Current active LLM Wiki schema is knowledge/schemas/llm_wiki_schema.yaml."
+  - "Knowledge coverage is driven by the coverage matrix plus disease master."
+  - "High-risk drug decisions must be evidence-linked."

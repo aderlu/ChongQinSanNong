@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-05-07T04:56:26.230513+00:00",
+  "rule_index_fixes": [
+    "RULE-050",
+    "RULE-056",
+    "RULE-068",
+    "RULE-094",
+    "RULE-108",
+    "RULE-121",
+    "RULE-195",
+    "RULE-234",
+    "RULE-253",
+    "RULE-276",
+    "RULE-307"
+  ],
+  "disease_pages_reinforced": [
+    "DIS-043-erysipelas.md",
+    "DIS-057-coccidia-and-other-protozoa.md",
+    "DIS-058-toxoplasmosis-protozoa.md",
+    "DIS-002-african-swine-fever-virus.md",
+    "DIS-008-porcine-epidemic-diarrhea-virus.md",
+    "DIS-009-transmissible-gastroenteritis-virus.md",
+    "DIS-015-japanese-encephalitis-virus.md",
+    "DIS-018-pseudorabies-aujeszky-disease.md"
+  ],
+  "synthesis_page": "knowledge/llm_wiki_swine_authoritative/wiki/synthesis/swine_dataset_training_quality_boundaries_v6.md",
+  "synthesis_index_added": false,
+  "topic_pages": [
+    "knowledge/llm_wiki_swine_authoritative/wiki/topics/swine-laboratory-diagnosis-and-sampling-boundaries.md",
+    "knowledge/llm_wiki_swine_authoritative/wiki/topics/swine-differential-diagnosis-boundaries.md",
+    "knowledge/llm_wiki_swine_authoritative/wiki/topics/swine-major-disease-regulatory-boundaries.md",
+    "knowledge/llm_wiki_swine_authoritative/wiki/topics/swine-drug-use-and-withdrawal-boundaries.md"
+  ],
+  "policy": {
+    "authoritative_fact_mutation": "none",
+    "dose_or_withdrawal_generation": "none",
+    "source_boundary": "existing HUMAN_REVIEWED PDF facts plus existing A0/A1 web source pages"
+  }
+}

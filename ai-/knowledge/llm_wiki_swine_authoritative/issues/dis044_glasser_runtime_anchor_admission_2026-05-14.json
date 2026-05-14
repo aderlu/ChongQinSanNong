@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-14T00:21:21+08:00",
+  "target": "DIS-044 Glasser's disease",
+  "mode": "local_authority_anchor_admission",
+  "crud_action": "update",
+  "runtime_page": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+  "authority_sources_used": [
+    "SRC-0066",
+    "SRC-0001",
+    "A0-MOA-573",
+    "A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS"
+  ],
+  "fact_ids_admitted": [
+    "GLASS-003-maternal-immunity",
+    "GLASS-004-risk-2aee4f263dad2d98046bb67515e900c0",
+    "GLASS-005-coinfection",
+    "GLASS-006-clinical",
+    "GLASS-007-peracute",
+    "GLASS-008-lesions",
+    "GLASS-010-vaccine-maternal",
+    "GLASS-011-antibiotic-boundary"
+  ],
+  "old_data_handling": "replace_mojibake_runtime_with_clean_source_anchored_runtime_keep_existing_expansions",
+  "runtime_impact": "expected evidence_units increase and page_gold_ready promotion in wiki-native graph",
+  "gold_dataset_impact": "page becomes eligible for downstream sample planning if native graph admits evidence units",
+  "boundary": "no new drug dose, route, course, withdrawal, MRL, or jurisdiction-specific regulatory conclusions added"
+}

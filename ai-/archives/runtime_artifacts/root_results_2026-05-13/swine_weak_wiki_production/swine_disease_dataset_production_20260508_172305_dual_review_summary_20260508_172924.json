@@ -1,0 +1,17 @@
+{
+  "input_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305.csv",
+  "input_rows": 100,
+  "first_pass_candidates": 72,
+  "second_reviewed": 100,
+  "dual_valid": 58,
+  "final_selected": 58,
+  "target": 100,
+  "final_score_avg": 86.38,
+  "final_score_min": 82.0,
+  "final_score_max": 95.0,
+  "arbitration_count": 100,
+  "output_full": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305_dual_reviewed_20260508_172924.csv",
+  "output_final": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305_dual_final100_20260508_172924.csv",
+  "output_rejects": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305_dual_rejects_20260508_172924.csv",
+  "raw_json": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_20260508_172305_dual_review_raw_20260508_172924.json"
+}

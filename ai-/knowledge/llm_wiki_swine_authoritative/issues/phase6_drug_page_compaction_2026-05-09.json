@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-05-09T14:25:31+08:00",
+  "purpose": "Phase 6 compaction of high-density runtime drug pages by moving batch evidence to evidence expansions.",
+  "targets": [
+    "DRUG-015-tylosin.md",
+    "DRUG-021-doxycycline.md",
+    "DRUG-013-tiamulin.md",
+    "DRUG-012-florfenicol.md",
+    "DRUG-010-amoxicillin.md",
+    "DRUG-019-oxytetracycline.md"
+  ],
+  "records": [
+    {
+      "page": "wiki/drugs/DRUG-015-tylosin.md",
+      "skipped": false,
+      "blocks_moved": 4,
+      "block_names": [
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 56,
+      "candidate_fact_mentions_moved": 16,
+      "dose_route_course_mentions_moved": 8,
+      "source_id_mentions_moved": 56,
+      "bytes_before": 34086,
+      "bytes_after": 7670,
+      "bytes_reduced": 26416,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-015-tylosin-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-021-doxycycline.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 45,
+      "candidate_fact_mentions_moved": 12,
+      "dose_route_course_mentions_moved": 7,
+      "source_id_mentions_moved": 45,
+      "bytes_before": 26497,
+      "bytes_after": 8209,
+      "bytes_reduced": 18288,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-021-doxycycline-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-013-tiamulin.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 47,
+      "candidate_fact_mentions_moved": 11,
+      "dose_route_course_mentions_moved": 6,
+      "source_id_mentions_moved": 47,
+      "bytes_before": 30086,
+      "bytes_after": 8265,
+      "bytes_reduced": 21821,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-013-tiamulin-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-012-florfenicol.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 46,
+      "candidate_fact_mentions_moved": 9,
+      "dose_route_course_mentions_moved": 10,
+      "source_id_mentions_moved": 46,
+      "bytes_before": 32418,
+      "bytes_after": 9610,
+      "bytes_reduced": 22808,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-012-florfenicol-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "skipped": false,
+      "blocks_moved": 4,
+      "block_names": [
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 47,
+      "candidate_fact_mentions_moved": 8,
+      "dose_route_course_mentions_moved": 9,
+      "source_id_mentions_moved": 47,
+      "bytes_before": 29903,
+      "bytes_after": 8503,
+      "bytes_reduced": 21400,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-010-amoxicillin-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    },
+    {
+      "page": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "skipped": false,
+      "blocks_moved": 5,
+      "block_names": [
+        "HANDBOOK_RX_V13_1",
+        "VTOP_V13_1",
+        "SFDUT_1_200_V13_1",
+        "SFDUT_200_363_V13_1",
+        "RAU_1_200_V14"
+      ],
+      "fact_like_rows_moved": 59,
+      "candidate_fact_mentions_moved": 7,
+      "dose_route_course_mentions_moved": 11,
+      "source_id_mentions_moved": 59,
+      "bytes_before": 29848,
+      "bytes_after": 8487,
+      "bytes_reduced": 21361,
+      "expansion": "wiki/evidence_expansions/drugs/phase6/DRUG-019-oxytetracycline-phase6-evidence-expansion-20260509.md",
+      "expansion_created": true,
+      "runtime_core_section_added": true
+    }
+  ],
+  "summary": {
+    "pages_checked": 6,
+    "pages_changed": 6,
+    "blocks_moved": 28,
+    "fact_like_rows_moved": 300,
+    "candidate_fact_mentions_moved": 63,
+    "source_id_mentions_moved": 300,
+    "bytes_reduced": 132094
+  }
+}

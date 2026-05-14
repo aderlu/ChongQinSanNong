@@ -1,0 +1,215 @@
+{
+  "disease_count": 73,
+  "fact_count": 2193,
+  "source_anchored_fact_count": 2019,
+  "disease_length_median": 7858,
+  "disease_pages_under_2500_chars": 2,
+  "core_section_counts": {},
+  "optional_facet_counts": {
+    "传播途径": {
+      "sourced": 27,
+      "gap": 34
+    },
+    "临床症状": {
+      "sourced": 33,
+      "gap": 28
+    },
+    "剖检变化": {
+      "sourced": 24,
+      "gap": 37
+    },
+    "实验室诊断": {
+      "sourced": 9,
+      "gap": 52
+    },
+    "鉴别诊断": {
+      "sourced": 9,
+      "gap": 52
+    },
+    "防控要点": {
+      "sourced": 4,
+      "gap": 57
+    }
+  },
+  "balanced_task_use_policy": {
+    "train_ready": "usable for filtered SFT/evaluation when clinical claims are source-grounded; A0/A1 is required only for executable regulatory, label, withdrawal, MRL, slaughter, movement, culling, or food-safety claims",
+    "generation_ready_limited": "usable for candidate generation with explicit boundaries and standard citations from any qualified source level",
+    "retrieval_only": "usable for recall/context only, not direct answer claims",
+    "blocked": "insufficient source signal"
+  },
+  "disease_task_use_counts": {
+    "generation_ready_limited": 33,
+    "train_ready": 40
+  },
+  "drug_task_use_counts": {
+    "generation_ready_limited": 81
+  },
+  "disease_index_coverage_gap_status_counts": {
+    "partial_source_anchored_page": 32,
+    "source_anchored_clinical_page": 41
+  },
+  "drug_gold_role_counts": {
+    "boundary_only": 70,
+    "positive_label_candidate": 5,
+    "negative_trap": 1
+  },
+  "drug_index_evidence_status_counts": {
+    "HUMAN_REVIEWED": 28,
+    "NEEDS_REVIEW": 48
+  },
+  "optional_facet_policy": "传播途径、临床症状、剖检变化、实验室诊断、鉴别诊断和防控要点为证据驱动可选维度；缺口统计不作为实体页失败项。",
+  "small_dirs": {
+    "drugs": {
+      "count": 81,
+      "median_len": 4372,
+      "min_len": 1267
+    },
+    "rule_cards": {
+      "count": 18,
+      "median_len": 746,
+      "min_len": 398
+    },
+    "syndromes": {
+      "count": 22,
+      "median_len": 1192,
+      "min_len": 355
+    },
+    "synthesis": {
+      "count": 27,
+      "median_len": 2971,
+      "min_len": 526
+    },
+    "topics": {
+      "count": 99,
+      "median_len": 350,
+      "min_len": 278
+    }
+  },
+  "worst_disease_core_gaps": [
+    {
+      "page": "DIS-067-aflatoxin-toxicosis.md",
+      "length": 1993,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-068-don-trichothecene-toxicosis.md",
+      "length": 2172,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "length": 2550,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-073-toxic-gases-ventilation-failure.md",
+      "length": 3255,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-033-vesicular-stomatitis-viruses.md",
+      "length": 3709,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "length": 4481,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-061-trichuris-suis-internal-parasites.md",
+      "length": 4787,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-060-ascaris-suum-internal-parasites.md",
+      "length": 5364,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "length": 5779,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-053-tuberculosis.md",
+      "length": 5836,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-062-strongyloides-internal-parasites.md",
+      "length": 5880,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "length": 5884,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-054-miscellaneous-bacterial-infections.md",
+      "length": 5905,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-056-external-parasites-lice.md",
+      "length": 5939,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-019-porcine-cytomegalovirus.md",
+      "length": 5965,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-029-swinepox-virus.md",
+      "length": 5968,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-031-retroviruses.md",
+      "length": 5968,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-022-paramyxoviruses.md",
+      "length": 5978,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "length": 5997,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-023-parvoviruses.md",
+      "length": 6111,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-001-adenoviruses.md",
+      "length": 6121,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-063-metastrongylus-lungworms.md",
+      "length": 6168,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "length": 6198,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-070-fumonisin-toxicosis.md",
+      "length": 6454,
+      "core_gaps": []
+    },
+    {
+      "page": "DIS-059-cryptosporidiosis-protozoa.md",
+      "length": 6518,
+      "core_gaps": []
+    }
+  ]
+}

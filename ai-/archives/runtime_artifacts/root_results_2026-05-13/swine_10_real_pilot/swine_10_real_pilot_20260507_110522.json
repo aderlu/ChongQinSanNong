@@ -1,0 +1,162 @@
+[
+  {
+    "index": 1,
+    "case_id": "SWINE10-001",
+    "target": "非洲猪瘟",
+    "case_type": "regulatory_hard_block",
+    "task": {
+      "case_id": "SWINE10-001",
+      "target": "非洲猪瘟",
+      "type": "regulatory_hard_block",
+      "scenario": "育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "非洲猪瘟\nregulatory_hard_block\n育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ],
+      "wiki_context_chars": 6146,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 4,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.37,
+      "draft_seconds": 95.86,
+      "answer_seconds": 95.23,
+      "judge_seconds": 94.78,
+      "total_seconds": 286.24
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Request timed out.",
+      "answer_error": "Request timed out.",
+      "judge_error": "Request timed out.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 2,
+    "case_id": "SWINE10-002",
+    "target": "猪流行性腹泻",
+    "case_type": "diarrhea_case",
+    "task": {
+      "case_id": "SWINE10-002",
+      "target": "猪流行性腹泻",
+      "type": "diarrhea_case",
+      "scenario": "哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪流行性腹泻\ndiarrhea_case\n哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 9,
+        "NEEDS_REVIEW": 5
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ],
+      "wiki_context_chars": 5910,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.11,
+      "draft_seconds": 1.63,
+      "answer_seconds": 1.8,
+      "judge_seconds": 3.06,
+      "total_seconds": 6.6
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "请检查您的 API key 是否正确",
+      "answer_error": "请检查您的 API key 是否正确",
+      "judge_error": "请检查您的 API key 是否正确",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-09T09:31:03",
+    "diseases": 1,
+    "drugs": 0,
+    "rules": 0,
+    "sources": 1,
+    "facts": 1,
+    "candidate_facts": 0,
+    "facts_in_graph": 1,
+    "facts_not_in_graph": 0,
+    "candidate_facts_in_graph": 0,
+    "node_groups": {
+      "disease": 1,
+      "source": 1,
+      "standard": 1
+    },
+    "link_types": {
+      "described-by": 1,
+      "diagnosis_standard_anchor": 1,
+      "evidence": 1,
+      "primary-source": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "DIS-026",
+      "label": "口蹄疫",
+      "group": "disease",
+      "relpath": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "evidence_status": ""
+    },
+    {
+      "id": "SRC-0001",
+      "label": "SRC-0001",
+      "group": "source",
+      "relpath": "wiki/sources/SRC-0001-baseline-swine-reference.md",
+      "evidence_status": ""
+    },
+    {
+      "id": "STANDARD:78c7b3214edf7a",
+      "label": "baseline reviewed swine reference",
+      "group": "standard",
+      "relpath": "",
+      "evidence_status": "HUMAN_REVIEWED"
+    }
+  ],
+  "links": [
+    {
+      "source": "DIS-026",
+      "target": "SRC-0001",
+      "type": "primary-source"
+    },
+    {
+      "source": "DIS-026",
+      "target": "STANDARD:78c7b3214edf7a",
+      "type": "diagnosis_standard_anchor",
+      "predicate": "diagnosis_standard_anchor",
+      "fact_id": "DIS-026-DEMO-001",
+      "evidence_status": "HUMAN_REVIEWED"
+    },
+    {
+      "source": "DIS-026",
+      "target": "SRC-0001",
+      "type": "evidence",
+      "fact_id": "DIS-026-DEMO-001"
+    },
+    {
+      "source": "STANDARD:78c7b3214edf7a",
+      "target": "SRC-0001",
+      "type": "described-by"
+    }
+  ]
+}

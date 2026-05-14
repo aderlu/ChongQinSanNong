@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-14T00:52:20+08:00",
+  "phase": "phase15_fact_level_evaluate_samples",
+  "mode": "deterministic_fact_and_hard_gate",
+  "input_generated": "exports/generated_samples/naturalized_samples_20260514_quality_harden_smoke_v2.jsonl",
+  "output": "exports/evaluated_samples/fact_evaluated_samples_20260514_quality_harden_smoke_v2.jsonl",
+  "samples": 28,
+  "accepted": 21,
+  "rejected": 7,
+  "reject_reason_counts": {
+    "hard_gate:english_template_label_output": 5,
+    "hard_gate:executive_content_missing_a0_source": 2,
+    "judge:deterministic_placeholder_failed": 7
+  },
+  "passed": true
+}

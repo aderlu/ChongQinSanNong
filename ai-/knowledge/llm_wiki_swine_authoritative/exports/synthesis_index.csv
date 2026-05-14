@@ -1,0 +1,25 @@
+﻿synthesis_id,title,page_relpath,page_id,category,evidence_coverage,id,path,sources,updated
+,Swine Dataset Generation Validity Gate V11.1,wiki/synthesis/swine_dataset_generation_validity_gate_v7.md,SYNTH-SWINE_DATASET_GENERATION_VALIDITY_GATE_V7,,complete,,,,
+,Swine Dataset Training Quality Boundaries V6,wiki/synthesis/swine_dataset_training_quality_boundaries_v6.md,swine_dataset_training_quality_boundaries_v6,dataset_quality,complete,,,,
+,《猪病诊疗与处方手册》知识增强摘要,wiki/synthesis/swine_diagnosis_prescription_handbook_digest.md,SYNTH-HANDBOOK-DIGEST-V13,handbook_prescription_diagnosis,complete,,,,
+,Swine Source-first Generation Policy / V11.1,wiki/synthesis/swine_source_first_generation_policy_v11_1.md,SYNTH-SOURCE-FIRST-V11-1,,complete,,,,
+,Swine Treatment Candidate Matrix / 猪病治疗候选矩阵,wiki/synthesis/swine_treatment_candidate_matrix_v7.md,SYNTH-SWINE_TREATMENT_CANDIDATE_MATRIX_V7,,complete,,,,
+,猪病诊疗与处方手册 prescription fact matrix,,,,,SYNTH-HANDBOOK-RX-MATRIX,wiki/synthesis/swine_diagnosis_prescription_handbook_prescription_matrix.md,SRC-0087; RULE-HANDBOOK-PRESCRIPTION-001,2026-05-08T23:59:00+08:00
+,猪场兽药使用与猪病防治技术（1-200页）治疗与用药事实矩阵,,,,,SYNTH-SFDUT-1-200-MATRIX,wiki/synthesis/swine_farm_drug_use_1_200_treatment_matrix.md,SRC-0089,2026-05-08T23:59:00+08:00
+,猪场兽药使用与猪病防治技术（200-363页）治疗与用药事实矩阵,,,,,SYNTH-SFDUT-200-363-MATRIX,wiki/synthesis/swine_farm_drug_use_200_363_treatment_matrix.md,SRC-0090,2026-05-08T23:59:00+08:00
+,Veterinary Treatment of Pigs treatment and medicine matrix,,,,,SYNTH-VTOP-TREATMENT-MATRIX,wiki/synthesis/veterinary_treatment_of_pigs_treatment_matrix.md,SRC-0088,2026-05-08T23:59:00+08:00
+swine_500_dataset_generation_evaluation_plan,500 条猪病数据集生成与评估方案,wiki/synthesis/swine_500_dataset_generation_evaluation_plan.md,SYNTH-SWINE_500_DATASET_GENERATION_EVALUATION_PLAN,,complete,,,,
+swine_answer_evaluation_rubric,猪病答案评估量表 / Source-first V11.1,wiki/synthesis/swine_answer_evaluation_rubric.md,SYNTH-SWINE_ANSWER_EVALUATION_RUBRIC,,complete,,,,
+swine_case_generation_context,猪病病例生成上下文,wiki/synthesis/swine_case_generation_context.md,SYNTH-SWINE_CASE_GENERATION_CONTEXT,,complete,,,,
+swine_differential_diagnosis_matrix,猪病鉴别诊断矩阵,wiki/synthesis/swine_differential_diagnosis_matrix.md,SYNTH-SWINE_DIFFERENTIAL_DIAGNOSIS_MATRIX,,complete,,,,
+swine_drug_and_withdrawal_boundary,猪病用药和休药期 source-first 边界,wiki/synthesis/swine_drug_and_withdrawal_boundary.md,SYNTH-SWINE_DRUG_AND_WITHDRAWAL_BOUNDARY,,complete,,,,
+swine_pdf_vs_authority_source_policy,PDF 与权威网页来源使用政策 / Source-first V11.1,wiki/synthesis/swine_pdf_vs_authority_source_policy.md,SYNTH-SWINE_PDF_VS_AUTHORITY_SOURCE_POLICY,,complete,,,,
+swine_public_health_food_safety_boundary,公共卫生和食品安全边界,wiki/synthesis/swine_public_health_food_safety_boundary.md,SYNTH-SWINE_PUBLIC_HEALTH_FOOD_SAFETY_BOUNDARY,,complete,,,,
+swine_regulatory_blocking_rules_china,中国监管硬阻断规则,wiki/synthesis/swine_regulatory_blocking_rules_china.md,SYNTH-SWINE_REGULATORY_BLOCKING_RULES_CHINA,,complete,,,,
+swine_sampling_and_lab_diagnosis_boundary,采样和实验室诊断边界,wiki/synthesis/swine_sampling_and_lab_diagnosis_boundary.md,SYNTH-SWINE_SAMPLING_AND_LAB_DIAGNOSIS_BOUNDARY,,complete,,,,
+swine_textbook_pages_1_200_chapter_type_analysis,Diseases of Swine 11e pages 1-200 chapter and type analysis,wiki/synthesis/swine_textbook_pages_1_200_chapter_type_analysis.md,swine_textbook_pages_1_200_chapter_type_analysis,source_intake_and_review_reinforcement,complete,,,,
+swine_textbook_pages_1_200_crosscutting_digest,Diseases of Swine 11e pages 1-200 crosscutting digest,wiki/synthesis/swine_textbook_pages_1_200_crosscutting_digest.md,swine_textbook_pages_1_200_crosscutting_digest,diagnostic_quality,complete,,,,
+swine_textbook_pages_201_400_system_digest,Diseases of Swine 11e pages 201-400 system digest,wiki/synthesis/swine_textbook_pages_201_400_system_digest.md,swine_textbook_pages_201_400_system_digest,system_pathology_differential,complete,,,,
+swine_textbook_pages_401_600_repro_respiratory_virus_digest,Diseases of Swine 11e pages 401-600 reproductive respiratory urinary and virus digest,wiki/synthesis/swine_textbook_pages_401_600_repro_respiratory_virus_digest.md,swine_textbook_pages_401_600_repro_respiratory_virus_digest,disease_specific_and_system_differential,complete,,,,
+swine_textbook_pages_601_800_viral_bacterial_digest,Diseases of Swine 11e pages 601-800 viral and early bacterial digest,wiki/synthesis/swine_textbook_pages_601_800_viral_bacterial_digest.md,swine_textbook_pages_601_800_viral_bacterial_digest,disease_specific_and_system_differential,complete,,,,
+swine_textbook_pages_801_1000_core_bacterial_digest,Diseases of Swine 11e pages 801-1000 core bacterial disease digest,wiki/synthesis/swine_textbook_pages_801_1000_core_bacterial_digest.md,swine_textbook_pages_801_1000_core_bacterial_digest,disease_specific_and_system_differential,complete,,,,

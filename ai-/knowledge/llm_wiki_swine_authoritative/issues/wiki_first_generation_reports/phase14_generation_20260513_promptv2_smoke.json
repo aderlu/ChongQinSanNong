@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-13T15:54:16+08:00",
+  "phase": "phase14_generate_two_stage_samples",
+  "mode": "dry-run",
+  "generation_model": "deterministic-mock",
+  "prompt_version": "phase14.two_stage.v2",
+  "input_skeletons": "exports/answer_skeletons/wiki_answer_skeletons_20260513_api30_source.jsonl",
+  "input_plan": "exports/planned_samples/wiki_sample_plan_20260513.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_promptv2_smoke.jsonl",
+  "samples": 12,
+  "samples_generated": 12,
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 3,
+    "L2_diagnosis_support": 3,
+    "L3_differential_support": 3,
+    "L4_control_boundary": 2,
+    "L6_regulatory_guardrail": 1
+  },
+  "missing_anchors": [],
+  "missing_grounded_citations": [],
+  "fallback_samples": [],
+  "passed": true
+}

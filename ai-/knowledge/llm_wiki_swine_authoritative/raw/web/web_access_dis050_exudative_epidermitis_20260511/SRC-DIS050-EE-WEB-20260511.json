@@ -1,0 +1,83 @@
+{
+  "source_id": "SRC-DIS050-EE-WEB-20260511",
+  "title": "Web Access authority source extraction for DIS-050 exudative epidermitis in pigs",
+  "disease_id": "DIS-050",
+  "disease_name": "Exudative epidermitis in pigs / greasy pig disease",
+  "accessed_at": "2026-05-11T17:08:00+08:00",
+  "extraction_method": "Codex web-access skill via Chrome CDP on Merck Veterinary Manual page",
+  "authority_sources": [
+    {
+      "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "domain": "www.merckvetmanual.com",
+      "publisher": "Merck Veterinary Manual",
+      "title": "Exudative Epidermitis in Pigs",
+      "page_type": "professional veterinary manual disease page",
+      "reviewed_revised": "Jan 2026",
+      "authority_level_suggestion": "A2",
+      "domain_confirmed": true,
+      "explicit_dis050_support": [
+        "Merck describes exudative epidermitis as a generalized staphylococcal infection affecting young pigs.",
+        "Merck states that lesions are caused by Staphylococcus hyicus, while other staphylococci have been sporadically implicated.",
+        "Merck states that the disease occurs in pigs 5-60 days old, with the acute form usually affecting suckling piglets and a chronic form more common in weaned pigs.",
+        "Merck describes early clinical signs as listlessness and reddening of skin, followed by moist greasy exudate and nonpruritic lesions.",
+        "Merck states that diagnosis is usually presumptive based on clinical signs and that bacterial culture of lesions can be used when confirmation is necessary or when an isolate is desired.",
+        "Merck lists differential diagnoses including sarcoptic mange, nutritional deficiency diseases such as parakeratosis, ringworm, and pityriasis rosea.",
+        "Merck states that treatment selection should be guided by antimicrobial culture and susceptibility testing when antimicrobials are used."
+      ],
+      "limitations": [
+        "The page is an authority veterinary manual source, not a China regulatory source and not a product label.",
+        "Do not extrapolate its antimicrobial examples into executable prescriptions, doses, routes, treatment courses, withdrawal periods, MRLs, residue, or food-safety conclusions.",
+        "Do not use the page as a substitute for veterinary diagnosis, local label verification, antimicrobial susceptibility testing, or jurisdiction-specific regulatory requirements."
+      ]
+    }
+  ],
+  "supported_claims": [
+    {
+      "fact_id": "DIS050-WEB-001-merck-etiology-shyicus",
+      "claim": "Merck identifies exudative epidermitis in pigs as a generalized staphylococcal infection; lesions are caused by Staphylococcus hyicus, while other staphylococci have been sporadically implicated.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS050-WEB-002-merck-age-stage",
+      "claim": "Merck states that exudative epidermitis occurs in pigs 5-60 days old; acute disease usually affects suckling piglets and chronic disease is more common in weaned pigs.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS050-WEB-003-merck-clinical-lesions",
+      "claim": "Merck describes early signs as listlessness and reddening of the skin, followed by rapid spread of moist greasy exudate and nonpruritic lesions.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS050-WEB-004-merck-predisposing-factors",
+      "claim": "Merck states that abrasions or lacerations precede infection and that immunity, hygiene, nutrition, mange mites, and other skin-damaging factors can affect severity and progression.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS050-WEB-005-merck-diagnosis-culture-boundary",
+      "claim": "Merck states that presumptive diagnosis is usually based on clinical signs, with bacterial culture of lesions used when confirmation is necessary or when an isolate is desired.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "diagnostic"
+    },
+    {
+      "fact_id": "DIS050-WEB-006-merck-differentials",
+      "claim": "Merck lists differential diagnoses including sarcoptic mange, nutritional deficiency diseases including parakeratosis, ringworm, and pityriasis rosea.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "diagnostic"
+    },
+    {
+      "fact_id": "DIS050-WEB-007-merck-antimicrobial-boundary",
+      "claim": "Merck states that antimicrobial treatment selection should be guided by antimicrobial culture and susceptibility testing; this supports a treatment-boundary fact, not a standalone prescription.",
+      "supporting_source_url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+      "risk_class": "drug_boundary"
+    }
+  ],
+  "do_not_extrapolate": [
+    "Do not convert Merck antimicrobial examples into executable prescriptions, doses, routes, treatment courses, withdrawal periods, MRLs, residue, or food-safety conclusions.",
+    "Do not infer China-specific regulatory classification or animal movement controls from this clinical manual page.",
+    "Use this page for clinical source anchoring and boundary facts only; local veterinary diagnosis, label verification, and antimicrobial susceptibility testing remain required for executable treatment decisions."
+  ]
+}

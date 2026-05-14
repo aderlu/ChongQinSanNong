@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-05-13T23:16:22+08:00",
+  "target": "DIS-051 streptococcosis / Streptococcus suis",
+  "mode": "web_access_authority_refresh",
+  "crud_action": "create/update",
+  "source_added": "A2-MERCK-STREPTOCOCCUS-SUIS-PIGS-2026",
+  "facts_added": [
+    "SSUIS-101-carrier-tonsil-and-colonization",
+    "SSUIS-102-transmission-colonization-mixing",
+    "SSUIS-103-herd-to-herd-carrier-movement",
+    "SSUIS-104-clinical-septicemia-meningitis-arthritis",
+    "SSUIS-105-early-clinical-signs-and-age-window",
+    "SSUIS-106-lesions-meningitis-serositis-septicemia",
+    "SSUIS-107-diagnosis-history-culture-serotyping",
+    "SSUIS-108-diagnosis-tonsil-nasal-boundary",
+    "SSUIS-109-differential-glaesser-actinobacillus-others"
+  ],
+  "source_page": "wiki/sources/A2-MERCK-STREPTOCOCCUS-SUIS-PIGS-2026.md",
+  "runtime_page": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+  "evidence_expansion": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-051-streptococcosis-streptococcus-suis/009-Authority-Web-Refresh-2026-05-13.md",
+  "old_data_handling": "keep_existing_additive_refresh",
+  "runtime_impact": "update",
+  "gold_dataset_impact": "page may become gold-ready after native graph rebuild",
+  "boundary": "A2 disease facts only; no executable drug or China regulatory override."
+}

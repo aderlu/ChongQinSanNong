@@ -1,0 +1,67 @@
+{
+  "file": "D:\\XF-ChongQin\\ai-\\results\\swine_weak_wiki_production\\swine_disease_dataset_production_dual_final300_train_ready_20260507_154202.csv",
+  "rows": 300,
+  "columns": 60,
+  "strict_verdict": "conditional_pass_after_removing_2_rows",
+  "usable_as_model_test": true,
+  "usable_as_initial_weak_sft": true,
+  "usable_as_final_authoritative_vet_training": false,
+  "recommended_train_ready_rows_after_strict_filter": 298,
+  "species_counts": {
+    "猪": 300
+  },
+  "final_label_counts": {
+    "pass": 300
+  },
+  "final_fatal_risk_counts": {
+    "False": 300
+  },
+  "score": {
+    "min": 84.0,
+    "avg": 87.4,
+    "median": 87.0,
+    "max": 95.0
+  },
+  "disease_coverage": 66,
+  "duplicate_case_id": 0,
+  "duplicate_index": 60,
+  "duplicate_user_query": 0,
+  "duplicate_qdp": 0,
+  "specific_dose_count": 0,
+  "specific_withdrawal_count": 2,
+  "flagged_rows": [
+    {
+      "case_id": "63c130c0-c739-50aa-aaac-a7a8726fb117",
+      "index": "111",
+      "disease_name": "猪细小病毒病",
+      "flags": [
+        "specific_withdrawal"
+      ],
+      "withdrawal_period": "本病为病毒性繁殖障碍，无直接休药期概念，但建议至少间隔一个完整繁殖周期（约150天以上）且经检测阴性后再考虑正常配种或销售。"
+    },
+    {
+      "case_id": "8411d9bc-c170-5db9-8d90-bb5291043f84",
+      "index": "358",
+      "disease_name": "猪营养缺乏与过量综合征",
+      "flags": [
+        "specific_withdrawal"
+      ],
+      "withdrawal_period": "无特定药物休药期，但需待饲料更换后至少观察14天，确保临床症状稳定后再考虑出栏。"
+    }
+  ],
+  "high_risk_count": 69,
+  "high_risk_missing_boundary": [],
+  "high_risk_sell_allowed": [],
+  "needed_arbitration_counts": {
+    "True": 293,
+    "False": 7
+  },
+  "arbiter_final_label_counts": {
+    "pass": 293,
+    "": 7
+  },
+  "notes": [
+    "index is not globally unique because multiple generation batches were merged; use case_id as primary key",
+    "wiki evidence fields indicate retrieval context was present, but sources are weak-wiki/partially reviewed, not authoritative proof per row"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_chicken_authoritative",
+  "candidates_path": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_chicken_authoritative\\exports\\knowledge_facts.candidates.json",
+  "reviewed_path": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_chicken_authoritative\\exports\\knowledge_facts.candidates.json",
+  "report_path": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_chicken_authoritative\\exports\\knowledge_facts.review_report.json",
+  "total_count": 44,
+  "auto_ready_count": 2,
+  "human_required_count": 2,
+  "needs_fetch_count": 39,
+  "needs_metadata_count": 1,
+  "rejected_count": 0,
+  "decision_counts": {
+    "LEGACY_NEEDS_METADATA": 1,
+    "LEGACY_NEEDS_FETCH": 39,
+    "AUTO_READY_SOURCE": 2,
+    "HUMAN_REQUIRED": 2
+  },
+  "rejected_fact_ids": [],
+  "human_required_fact_ids": [
+    "CAND-0043",
+    "CAND-0044"
+  ]
+}

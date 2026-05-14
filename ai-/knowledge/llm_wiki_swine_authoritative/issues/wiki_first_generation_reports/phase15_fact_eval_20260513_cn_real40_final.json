@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-13T17:42:23+08:00",
+  "phase": "phase15_fact_level_evaluate_samples",
+  "mode": "deterministic_fact_and_hard_gate",
+  "input_generated": "D:\\XF-ChongQin\\ai-\\exports\\generated_samples\\two_stage_samples_20260513_cn_real40_merged.jsonl",
+  "output": "exports/evaluated_samples/fact_evaluated_samples_20260513_cn_real40_final.jsonl",
+  "samples": 40,
+  "accepted": 21,
+  "rejected": 19,
+  "reject_reason_counts": {
+    "fact:answer_missing_rule_citation": 9,
+    "hard_gate:executive_content_missing_a0_source": 10,
+    "judge:deterministic_placeholder_failed": 19,
+    "structure:anchor_0_missing_rule_card_id": 9,
+    "structure:anchor_1_missing_rule_card_id": 9,
+    "structure:anchor_2_missing_rule_card_id": 1
+  },
+  "passed": true
+}

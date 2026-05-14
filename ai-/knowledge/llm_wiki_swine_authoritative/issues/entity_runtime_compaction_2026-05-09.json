@@ -1,0 +1,1407 @@
+{
+  "summary": {
+    "generated_at": "2026-05-09T20:10:12+08:00",
+    "pages_scanned": 154,
+    "pages_changed": 1,
+    "moved_sections": 1,
+    "evidence_expansion_root": "D:/XF-ChongQin/ai-/knowledge/llm_wiki_swine_authoritative/wiki/evidence_expansions/{diseases,drugs}/phase4_runtime_compaction"
+  },
+  "results": [
+    {
+      "path": "wiki/diseases/DIS-001-adenoviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5338,
+      "bytes_after": 5338
+    },
+    {
+      "path": "wiki/diseases/DIS-002-african-swine-fever-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 12945,
+      "bytes_after": 12945
+    },
+    {
+      "path": "wiki/diseases/DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+      "entity_type": "diseases",
+      "changed": true,
+      "moved_sections": [
+        {
+          "name": "Targeted Disease Completion / V5 - Chapter 26 Anelloviruses",
+          "reason": "legacy H2 construction or reinforcement section moved out of default runtime",
+          "path": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-003-anelloviruses-torque-teno-sus-viruses/001-Targeted-Disease-Completion-V5---Chapter-26-Anelloviruses.md",
+          "source_ids": [
+            "SRC-0083"
+          ],
+          "bytes": 1731
+        }
+      ],
+      "moved_count": 1,
+      "bytes_before": 9013,
+      "bytes_after": 7542
+    },
+    {
+      "path": "wiki/diseases/DIS-004-astroviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6912,
+      "bytes_after": 6912
+    },
+    {
+      "path": "wiki/diseases/DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5676,
+      "bytes_after": 5676
+    },
+    {
+      "path": "wiki/diseases/DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5754,
+      "bytes_after": 5754
+    },
+    {
+      "path": "wiki/diseases/DIS-007-circoviruses-pcvad.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6478,
+      "bytes_after": 6478
+    },
+    {
+      "path": "wiki/diseases/DIS-008-porcine-epidemic-diarrhea-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8230,
+      "bytes_after": 8230
+    },
+    {
+      "path": "wiki/diseases/DIS-009-transmissible-gastroenteritis-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 7976,
+      "bytes_after": 7976
+    },
+    {
+      "path": "wiki/diseases/DIS-010-porcine-deltacoronavirus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6898,
+      "bytes_after": 6898
+    },
+    {
+      "path": "wiki/diseases/DIS-011-hemagglutinating-encephalomyelitis-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5927,
+      "bytes_after": 5927
+    },
+    {
+      "path": "wiki/diseases/DIS-012-porcine-respiratory-coronavirus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6183,
+      "bytes_after": 6183
+    },
+    {
+      "path": "wiki/diseases/DIS-013-porcine-torovirus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6207,
+      "bytes_after": 6207
+    },
+    {
+      "path": "wiki/diseases/DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5734,
+      "bytes_after": 5734
+    },
+    {
+      "path": "wiki/diseases/DIS-015-japanese-encephalitis-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6396,
+      "bytes_after": 6396
+    },
+    {
+      "path": "wiki/diseases/DIS-016-west-nile-virus-and-other-flaviviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5676,
+      "bytes_after": 5676
+    },
+    {
+      "path": "wiki/diseases/DIS-017-hepatitis-e-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6011,
+      "bytes_after": 6011
+    },
+    {
+      "path": "wiki/diseases/DIS-018-pseudorabies-aujeszky-disease.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 7086,
+      "bytes_after": 7086
+    },
+    {
+      "path": "wiki/diseases/DIS-019-porcine-cytomegalovirus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5406,
+      "bytes_after": 5406
+    },
+    {
+      "path": "wiki/diseases/DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5502,
+      "bytes_after": 5502
+    },
+    {
+      "path": "wiki/diseases/DIS-021-influenza-viruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 10670,
+      "bytes_after": 10670
+    },
+    {
+      "path": "wiki/diseases/DIS-022-paramyxoviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5377,
+      "bytes_after": 5377
+    },
+    {
+      "path": "wiki/diseases/DIS-023-parvoviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6117,
+      "bytes_after": 6117
+    },
+    {
+      "path": "wiki/diseases/DIS-024-classical-swine-fever-pestiviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8113,
+      "bytes_after": 8113
+    },
+    {
+      "path": "wiki/diseases/DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5841,
+      "bytes_after": 5841
+    },
+    {
+      "path": "wiki/diseases/DIS-026-foot-and-mouth-disease-picornaviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 10416,
+      "bytes_after": 10416
+    },
+    {
+      "path": "wiki/diseases/DIS-027-senecavirus-a-picornaviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6370,
+      "bytes_after": 6370
+    },
+    {
+      "path": "wiki/diseases/DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8651,
+      "bytes_after": 8651
+    },
+    {
+      "path": "wiki/diseases/DIS-029-swinepox-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5370,
+      "bytes_after": 5370
+    },
+    {
+      "path": "wiki/diseases/DIS-030-rotaviruses-and-reoviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6643,
+      "bytes_after": 6643
+    },
+    {
+      "path": "wiki/diseases/DIS-031-retroviruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5376,
+      "bytes_after": 5376
+    },
+    {
+      "path": "wiki/diseases/DIS-032-rabies-virus.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5885,
+      "bytes_after": 5885
+    },
+    {
+      "path": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5815,
+      "bytes_after": 5815
+    },
+    {
+      "path": "wiki/diseases/DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5726,
+      "bytes_after": 5726
+    },
+    {
+      "path": "wiki/diseases/DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 9860,
+      "bytes_after": 9860
+    },
+    {
+      "path": "wiki/diseases/DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5509,
+      "bytes_after": 5509
+    },
+    {
+      "path": "wiki/diseases/DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6622,
+      "bytes_after": 6622
+    },
+    {
+      "path": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6895,
+      "bytes_after": 6895
+    },
+    {
+      "path": "wiki/diseases/DIS-039-clostridial-diseases.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6506,
+      "bytes_after": 6506
+    },
+    {
+      "path": "wiki/diseases/DIS-040-colibacillosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8466,
+      "bytes_after": 8466
+    },
+    {
+      "path": "wiki/diseases/DIS-041-neonatal-post-weaning-colibacillosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 9034,
+      "bytes_after": 9034
+    },
+    {
+      "path": "wiki/diseases/DIS-042-edema-disease-e-coli.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6160,
+      "bytes_after": 6160
+    },
+    {
+      "path": "wiki/diseases/DIS-043-erysipelas.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5659,
+      "bytes_after": 5659
+    },
+    {
+      "path": "wiki/diseases/DIS-044-gl-sser-s-disease.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 7609,
+      "bytes_after": 7609
+    },
+    {
+      "path": "wiki/diseases/DIS-045-leptospirosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6464,
+      "bytes_after": 6464
+    },
+    {
+      "path": "wiki/diseases/DIS-046-mycoplasmosis-enzootic-pneumonia.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8302,
+      "bytes_after": 8302
+    },
+    {
+      "path": "wiki/diseases/DIS-047-pasteurellosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6507,
+      "bytes_after": 6507
+    },
+    {
+      "path": "wiki/diseases/DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8883,
+      "bytes_after": 8883
+    },
+    {
+      "path": "wiki/diseases/DIS-049-salmonellosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8952,
+      "bytes_after": 8952
+    },
+    {
+      "path": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5297,
+      "bytes_after": 5297
+    },
+    {
+      "path": "wiki/diseases/DIS-051-streptococcosis-streptococcus-suis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6936,
+      "bytes_after": 6936
+    },
+    {
+      "path": "wiki/diseases/DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 9828,
+      "bytes_after": 9828
+    },
+    {
+      "path": "wiki/diseases/DIS-053-tuberculosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5352,
+      "bytes_after": 5352
+    },
+    {
+      "path": "wiki/diseases/DIS-054-miscellaneous-bacterial-infections.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5459,
+      "bytes_after": 5459
+    },
+    {
+      "path": "wiki/diseases/DIS-055-external-parasites-mange.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 8729,
+      "bytes_after": 8729
+    },
+    {
+      "path": "wiki/diseases/DIS-056-external-parasites-lice.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5207,
+      "bytes_after": 5207
+    },
+    {
+      "path": "wiki/diseases/DIS-057-coccidia-and-other-protozoa.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6773,
+      "bytes_after": 6773
+    },
+    {
+      "path": "wiki/diseases/DIS-058-toxoplasmosis-protozoa.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6350,
+      "bytes_after": 6350
+    },
+    {
+      "path": "wiki/diseases/DIS-059-cryptosporidiosis-protozoa.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5929,
+      "bytes_after": 5929
+    },
+    {
+      "path": "wiki/diseases/DIS-060-ascaris-suum-internal-parasites.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5779,
+      "bytes_after": 5779
+    },
+    {
+      "path": "wiki/diseases/DIS-061-trichuris-suis-internal-parasites.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5316,
+      "bytes_after": 5316
+    },
+    {
+      "path": "wiki/diseases/DIS-062-strongyloides-internal-parasites.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5607,
+      "bytes_after": 5607
+    },
+    {
+      "path": "wiki/diseases/DIS-063-metastrongylus-lungworms.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5735,
+      "bytes_after": 5735
+    },
+    {
+      "path": "wiki/diseases/DIS-064-stephanurus-dentatus-kidney-worm.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5598,
+      "bytes_after": 5598
+    },
+    {
+      "path": "wiki/diseases/DIS-065-nutrient-deficiencies-and-excesses.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6300,
+      "bytes_after": 6300
+    },
+    {
+      "path": "wiki/diseases/DIS-066-mycotoxins-in-grains-and-feeds.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4944,
+      "bytes_after": 4944
+    },
+    {
+      "path": "wiki/diseases/DIS-067-aflatoxin-toxicosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4165,
+      "bytes_after": 4165
+    },
+    {
+      "path": "wiki/diseases/DIS-068-don-trichothecene-toxicosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4428,
+      "bytes_after": 4428
+    },
+    {
+      "path": "wiki/diseases/DIS-069-zearalenone-toxicosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5910,
+      "bytes_after": 5910
+    },
+    {
+      "path": "wiki/diseases/DIS-070-fumonisin-toxicosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5680,
+      "bytes_after": 5680
+    },
+    {
+      "path": "wiki/diseases/DIS-071-toxic-minerals-chemicals-plants-and-gases.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6221,
+      "bytes_after": 6221
+    },
+    {
+      "path": "wiki/diseases/DIS-072-nitrite-toxicosis.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5893,
+      "bytes_after": 5893
+    },
+    {
+      "path": "wiki/diseases/DIS-073-toxic-gases-ventilation-failure.md",
+      "entity_type": "diseases",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6087,
+      "bytes_after": 6087
+    },
+    {
+      "path": "wiki/drugs/DRUG-001-avermectins.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4173,
+      "bytes_after": 4173
+    },
+    {
+      "path": "wiki/drugs/DRUG-002-ivermectin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4138,
+      "bytes_after": 4138
+    },
+    {
+      "path": "wiki/drugs/DRUG-003-doramectin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4151,
+      "bytes_after": 4151
+    },
+    {
+      "path": "wiki/drugs/DRUG-004-fenbendazole.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3764,
+      "bytes_after": 3764
+    },
+    {
+      "path": "wiki/drugs/DRUG-005-benzimidazoles.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3740,
+      "bytes_after": 3740
+    },
+    {
+      "path": "wiki/drugs/DRUG-006-anticoccidials.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3493,
+      "bytes_after": 3493
+    },
+    {
+      "path": "wiki/drugs/DRUG-007-antimicrobials.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3981,
+      "bytes_after": 3981
+    },
+    {
+      "path": "wiki/drugs/DRUG-008-food-animal-banned-drug-list.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3448,
+      "bytes_after": 3448
+    },
+    {
+      "path": "wiki/drugs/DRUG-009-penicillin-g.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5057,
+      "bytes_after": 5057
+    },
+    {
+      "path": "wiki/drugs/DRUG-010-amoxicillin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6283,
+      "bytes_after": 6283
+    },
+    {
+      "path": "wiki/drugs/DRUG-011-ceftiofur.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4501,
+      "bytes_after": 4501
+    },
+    {
+      "path": "wiki/drugs/DRUG-012-florfenicol.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 7208,
+      "bytes_after": 7208
+    },
+    {
+      "path": "wiki/drugs/DRUG-013-tiamulin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5601,
+      "bytes_after": 5601
+    },
+    {
+      "path": "wiki/drugs/DRUG-014-lincomycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4954,
+      "bytes_after": 4954
+    },
+    {
+      "path": "wiki/drugs/DRUG-015-tylosin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5315,
+      "bytes_after": 5315
+    },
+    {
+      "path": "wiki/drugs/DRUG-016-tylvalosin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3955,
+      "bytes_after": 3955
+    },
+    {
+      "path": "wiki/drugs/DRUG-017-tulathromycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4635,
+      "bytes_after": 4635
+    },
+    {
+      "path": "wiki/drugs/DRUG-018-enrofloxacin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 7038,
+      "bytes_after": 7038
+    },
+    {
+      "path": "wiki/drugs/DRUG-019-oxytetracycline.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5934,
+      "bytes_after": 5934
+    },
+    {
+      "path": "wiki/drugs/DRUG-020-chlortetracycline.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5101,
+      "bytes_after": 5101
+    },
+    {
+      "path": "wiki/drugs/DRUG-021-doxycycline.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5664,
+      "bytes_after": 5664
+    },
+    {
+      "path": "wiki/drugs/DRUG-022-sulfonamide-trimethoprim.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4955,
+      "bytes_after": 4955
+    },
+    {
+      "path": "wiki/drugs/DRUG-023-gentamicin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4826,
+      "bytes_after": 4826
+    },
+    {
+      "path": "wiki/drugs/DRUG-024-neomycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4703,
+      "bytes_after": 4703
+    },
+    {
+      "path": "wiki/drugs/DRUG-025-apramycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3706,
+      "bytes_after": 3706
+    },
+    {
+      "path": "wiki/drugs/DRUG-026-spectinomycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4624,
+      "bytes_after": 4624
+    },
+    {
+      "path": "wiki/drugs/DRUG-027-toltrazuril.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4247,
+      "bytes_after": 4247
+    },
+    {
+      "path": "wiki/drugs/DRUG-028-iron-dextran.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3976,
+      "bytes_after": 3976
+    },
+    {
+      "path": "wiki/drugs/DRUG-029-nsaids.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4239,
+      "bytes_after": 4239
+    },
+    {
+      "path": "wiki/drugs/DRUG-030-tetracyclines.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4366,
+      "bytes_after": 4366
+    },
+    {
+      "path": "wiki/drugs/DRUG-031-macrolides.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3752,
+      "bytes_after": 3752
+    },
+    {
+      "path": "wiki/drugs/DRUG-032-pleuromutilins.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3753,
+      "bytes_after": 3753
+    },
+    {
+      "path": "wiki/drugs/DRUG-033-aminoglycosides.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3762,
+      "bytes_after": 3762
+    },
+    {
+      "path": "wiki/drugs/DRUG-034-sulfonamides.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 6251,
+      "bytes_after": 6251
+    },
+    {
+      "path": "wiki/drugs/DRUG-035-beta-lactams.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3716,
+      "bytes_after": 3716
+    },
+    {
+      "path": "wiki/drugs/DRUG-036-lincosamides.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4280,
+      "bytes_after": 4280
+    },
+    {
+      "path": "wiki/drugs/DRUG-037-sulfamethazine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4354,
+      "bytes_after": 4354
+    },
+    {
+      "path": "wiki/drugs/DRUG-038-trimethoprim-sulfadiazine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3461,
+      "bytes_after": 3461
+    },
+    {
+      "path": "wiki/drugs/DRUG-039-sulfadimethoxine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4260,
+      "bytes_after": 4260
+    },
+    {
+      "path": "wiki/drugs/DRUG-040-trimethoprim-sulfamethoxazole.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3489,
+      "bytes_after": 3489
+    },
+    {
+      "path": "wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4558,
+      "bytes_after": 4558
+    },
+    {
+      "path": "wiki/drugs/DRUG-042-ampicillin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5723,
+      "bytes_after": 5723
+    },
+    {
+      "path": "wiki/drugs/DRUG-043-amoxicillin-clavulanic-acid.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4430,
+      "bytes_after": 4430
+    },
+    {
+      "path": "wiki/drugs/DRUG-044-cefquinome.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4976,
+      "bytes_after": 4976
+    },
+    {
+      "path": "wiki/drugs/DRUG-045-tilmicosin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 5086,
+      "bytes_after": 5086
+    },
+    {
+      "path": "wiki/drugs/DRUG-046-valnemulin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3698,
+      "bytes_after": 3698
+    },
+    {
+      "path": "wiki/drugs/DRUG-047-chloramphenicol.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4177,
+      "bytes_after": 4177
+    },
+    {
+      "path": "wiki/drugs/DRUG-048-carbadox.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3759,
+      "bytes_after": 3759
+    },
+    {
+      "path": "wiki/drugs/DRUG-049-olaquindox.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4128,
+      "bytes_after": 4128
+    },
+    {
+      "path": "wiki/drugs/DRUG-050-dimetridazole-ronidazole.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4506,
+      "bytes_after": 4506
+    },
+    {
+      "path": "wiki/drugs/DRUG-051-danofloxacin-marbofloxacin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4027,
+      "bytes_after": 4027
+    },
+    {
+      "path": "wiki/drugs/DRUG-052-colistin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3849,
+      "bytes_after": 3849
+    },
+    {
+      "path": "wiki/drugs/DRUG-053-bacitracin-methylene-disalicylate.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3486,
+      "bytes_after": 3486
+    },
+    {
+      "path": "wiki/drugs/DRUG-054-virginiamycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3416,
+      "bytes_after": 3416
+    },
+    {
+      "path": "wiki/drugs/DRUG-055-moxidectin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3394,
+      "bytes_after": 3394
+    },
+    {
+      "path": "wiki/drugs/DRUG-056-levamisole.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3670,
+      "bytes_after": 3670
+    },
+    {
+      "path": "wiki/drugs/DRUG-057-piperazine-pyrantel.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3435,
+      "bytes_after": 3435
+    },
+    {
+      "path": "wiki/drugs/DRUG-058-amitraz.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3391,
+      "bytes_after": 3391
+    },
+    {
+      "path": "wiki/drugs/DRUG-059-phosmet-coumaphos.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3434,
+      "bytes_after": 3434
+    },
+    {
+      "path": "wiki/drugs/DRUG-060-permethrin-deltamethrin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3621,
+      "bytes_after": 3621
+    },
+    {
+      "path": "wiki/drugs/DRUG-061-ponazuril.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3502,
+      "bytes_after": 3502
+    },
+    {
+      "path": "wiki/drugs/DRUG-062-amprolium.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3526,
+      "bytes_after": 3526
+    },
+    {
+      "path": "wiki/drugs/DRUG-063-meloxicam.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3892,
+      "bytes_after": 3892
+    },
+    {
+      "path": "wiki/drugs/DRUG-064-flunixin-meglumine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3932,
+      "bytes_after": 3932
+    },
+    {
+      "path": "wiki/drugs/DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3786,
+      "bytes_after": 3786
+    },
+    {
+      "path": "wiki/drugs/DRUG-066-dexamethasone.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4284,
+      "bytes_after": 4284
+    },
+    {
+      "path": "wiki/drugs/DRUG-067-oxytocin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4127,
+      "bytes_after": 4127
+    },
+    {
+      "path": "wiki/drugs/DRUG-068-altrenogest.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3658,
+      "bytes_after": 3658
+    },
+    {
+      "path": "wiki/drugs/DRUG-069-triptorelin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3382,
+      "bytes_after": 3382
+    },
+    {
+      "path": "wiki/drugs/DRUG-070-ractopamine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4190,
+      "bytes_after": 4190
+    },
+    {
+      "path": "wiki/drugs/DRUG-071-streptomycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3919,
+      "bytes_after": 3919
+    },
+    {
+      "path": "wiki/drugs/DRUG-072-tildipirosin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3807,
+      "bytes_after": 3807
+    },
+    {
+      "path": "wiki/drugs/DRUG-073-erythromycin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4246,
+      "bytes_after": 4246
+    },
+    {
+      "path": "wiki/drugs/DRUG-074-amikacin.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 3709,
+      "bytes_after": 3709
+    },
+    {
+      "path": "wiki/drugs/DRUG-075-praziquantel.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4507,
+      "bytes_after": 4507
+    },
+    {
+      "path": "wiki/drugs/DRUG-076-dichlorvos.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 4614,
+      "bytes_after": 4614
+    },
+    {
+      "path": "wiki/drugs/DRUG-077-azaperone.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 2675,
+      "bytes_after": 2675
+    },
+    {
+      "path": "wiki/drugs/DRUG-078-pentobarbital.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 2561,
+      "bytes_after": 2561
+    },
+    {
+      "path": "wiki/drugs/DRUG-079-atropine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 2758,
+      "bytes_after": 2758
+    },
+    {
+      "path": "wiki/drugs/DRUG-080-epinephrine.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 2815,
+      "bytes_after": 2815
+    },
+    {
+      "path": "wiki/drugs/DRUG-081-traditional-chinese-veterinary-medicines.md",
+      "entity_type": "drugs",
+      "changed": false,
+      "moved_sections": [],
+      "moved_count": 0,
+      "bytes_before": 1165,
+      "bytes_after": 1165
+    }
+  ]
+}

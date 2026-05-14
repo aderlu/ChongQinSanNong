@@ -1,0 +1,15 @@
+sample_id,final_decision,reject_reason
+REALAPI30-004,rejected,hard_gate:executive_content_missing_a0_source
+REALAPI30-004,rejected,judge:deterministic_placeholder_failed
+REALAPI30-005,rejected,hard_gate:executive_content_missing_a0_source
+REALAPI30-005,rejected,judge:deterministic_placeholder_failed
+REALAPI30-008,rejected,hard_gate:english_template_label_output
+REALAPI30-008,rejected,judge:deterministic_placeholder_failed
+REALAPI30-013,rejected,hard_gate:english_template_label_output
+REALAPI30-013,rejected,judge:deterministic_placeholder_failed
+REALAPI30-015,rejected,hard_gate:english_template_label_output
+REALAPI30-015,rejected,judge:deterministic_placeholder_failed
+REALAPI30-023,rejected,hard_gate:english_template_label_output
+REALAPI30-023,rejected,judge:deterministic_placeholder_failed
+REALAPI30-025,rejected,hard_gate:english_template_label_output
+REALAPI30-025,rejected,judge:deterministic_placeholder_failed

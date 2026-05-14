@@ -1,0 +1,84 @@
+# Disease Entity Page Cleanup / 2026-05-08
+
+- Disease pages processed: 73
+- Source-anchored clinical pages: 41
+- Status counts: {'NEEDS_REVIEW': 32, 'HUMAN_REVIEWED': 41}
+- Disease index updated: False
+- Scope: front matter, stale availability boundaries, evidence coverage summaries, and index coverage status.
+- Guardrail: existing medical facts, citations, source_id/fact_id/page anchors, and batch blocks were preserved.
+
+## Pages
+
+- `DIS-001-adenoviruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0030; facts=1; pages=4; blocks=0
+- `DIS-002-african-swine-fever-virus.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-ASF-EMERGENCY-6TH,A0-MOA-ASF-LOW-VIRULENCE-2024,A0-MOA-ASF-NORMALIZED-GUIDE,A0-MOA-BANNED-DRUG-250-POLICY,A1-FAO-ASF,A1-USDA-APHIS-ASF,A1-WOAH-ASF,A1-WOAH-ASF-DISEASE,RC-ASF-001,RC-TRAIN-READY-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0019,SRC-0020,SRC-0028,SRC-0031,SRC-0035,SRC-0041; facts=20; pages=76; blocks=0
+- `DIS-003-anelloviruses-torque-teno-sus-viruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,RC-ALIAS-001,RC-CITATION-001,RC-TRAIN-READY-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0032,SRC-0083; facts=0; pages=32; blocks=0
+- `DIS-004-astroviruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,RC-ALIAS-001,RC-CITATION-001,RC-TRAIN-READY-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0032; facts=3; pages=23; blocks=0
+- `DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0033; facts=0; pages=15; blocks=0
+- `DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0034; facts=0; pages=13; blocks=0
+- `DIS-007-circoviruses-pcvad.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,SRC-0001,SRC-0035,SRC-0087,SRC-0088,SRC-0089; facts=21; pages=25; blocks=3
+- `DIS-008-porcine-epidemic-diarrhea-virus.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-BANNED-DRUG-250-POLICY,A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0037,SRC-0087,SRC-0088,SRC-0089; facts=30; pages=46; blocks=3
+- `DIS-009-transmissible-gastroenteritis-virus.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0036,SRC-0037,SRC-0087,SRC-0088,SRC-0089; facts=32; pages=45; blocks=3
+- `DIS-010-porcine-deltacoronavirus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-573,A2-MERCK-CORONAVIRAL-ENTERITIS-PIGS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0037; facts=1; pages=7; blocks=0
+- `DIS-011-hemagglutinating-encephalomyelitis-virus.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=SRC-0001,SRC-0037,SRC-0088; facts=3; pages=11; blocks=1
+- `DIS-012-porcine-respiratory-coronavirus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0036; facts=2; pages=7; blocks=0
+- `DIS-013-porcine-torovirus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0037; facts=1; pages=7; blocks=0
+- `DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0038; facts=0; pages=14; blocks=0
+- `DIS-015-japanese-encephalitis-virus.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0039,SRC-0087,SRC-0089; facts=17; pages=29; blocks=2
+- `DIS-016-west-nile-virus-and-other-flaviviruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0039; facts=0; pages=13; blocks=0
+- `DIS-017-hepatitis-e-virus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0014,SRC-0040; facts=1; pages=17; blocks=0
+- `DIS-018-pseudorabies-aujeszky-disease.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,A2-MERCK-PSEUDORABIES-PIGS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0041,SRC-0087,SRC-0088,SRC-0089; facts=29; pages=43; blocks=3
+- `DIS-019-porcine-cytomegalovirus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0041; facts=0; pages=1; blocks=0
+- `DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0041; facts=0; pages=1; blocks=0
+- `DIS-021-influenza-viruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-SWINE-FLU-EMERGENCY-2009,A2-MERCK-INFLUENZA-A-SWINE-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0009,SRC-0014,SRC-0042,SRC-0043,SRC-0049,SRC-0058,SRC-0069,SRC-0088,SRC-0089; facts=28; pages=71; blocks=2
+- `DIS-022-paramyxoviruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0044; facts=0; pages=1; blocks=0
+- `DIS-023-parvoviruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,SRC-0001,SRC-0045,SRC-0089; facts=10; pages=15; blocks=1
+- `DIS-024-classical-swine-fever-pestiviruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-PRRS-CSF-GUIDANCE-2017,A2-MERCK-CLASSICAL-SWINE-FEVER-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0046,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=60; pages=62; blocks=4
+- `DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0046; facts=0; pages=1; blocks=0
+- `DIS-026-foot-and-mouth-disease-picornaviruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-FMD-CONTROL-GUIDE-2024,A0-MOA-FMD-EMERGENCY-DRAFT-2026,A0-MOA-FMD-REFERENCE-LAB-APPLICATION-2024,A2-MERCK-FMD-ANIMALS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0047,SRC-0048,SRC-0087,SRC-0088,SRC-0089; facts=43; pages=47; blocks=3
+- `DIS-027-senecavirus-a-picornaviruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0048; facts=2; pages=7; blocks=0
+- `DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-PRRS-CSF-GUIDANCE-2017,A2-MERCK-PRRS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0049,SRC-0050,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=33; pages=37; blocks=4
+- `DIS-029-swinepox-virus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0051; facts=0; pages=1; blocks=0
+- `DIS-030-rotaviruses-and-reoviruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A2-MERCK-ROTAVIRAL-ENTERITIS-PIGS-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0052,SRC-0087,SRC-0088; facts=10; pages=16; blocks=2
+- `DIS-031-retroviruses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0053; facts=0; pages=1; blocks=0
+- `DIS-032-rabies-virus.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0054; facts=1; pages=4; blocks=0
+- `DIS-033-vesicular-stomatitis-viruses.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=SRC-0001,SRC-0054; facts=4; pages=13; blocks=0
+- `DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0055,SRC-0056; facts=0; pages=1; blocks=0
+- `DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,RULE-HANDBOOK-PRESCRIPTION-001,SRC-0058,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=47; pages=46; blocks=4
+- `DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0058; facts=0; pages=1; blocks=0
+- `DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0059,SRC-0087,SRC-0088,SRC-0090; facts=25; pages=24; blocks=3
+- `DIS-038-brucella-suis-brucellosis.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=A0-MOA-BRUCELLOSIS-2022-2026,A0-MOA-BRUCELLOSIS-KEY-POINTS-2023,A1-USDA-APHIS-SWINE-BRUCELLOSIS,RC-CITATION-001,RC-TRAIN-READY-001,SRC-0001,SRC-0060,SRC-0061; facts=1; pages=4; blocks=0
+- `DIS-039-clostridial-diseases.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0062,SRC-0087,SRC-0088; facts=22; pages=28; blocks=2
+- `DIS-040-colibacillosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS,A2-MERCK-ENTERIC-COLIBACILLOSIS-PIGS-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,RULE-HANDBOOK-PRESCRIPTION-001,SRC-0001,SRC-0063,SRC-0064,SRC-0087,SRC-0088,SRC-0090; facts=48; pages=51; blocks=3
+- `DIS-041-neonatal-post-weaning-colibacillosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0063,SRC-0064,SRC-0087,SRC-0089,SRC-0090; facts=36; pages=33; blocks=3
+- `DIS-042-edema-disease-e-coli.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A2-MERCK-EDEMA-DISEASE-PIGS-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0063,SRC-0064,SRC-0087,SRC-0089; facts=14; pages=12; blocks=2
+- `DIS-043-erysipelas.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0065,SRC-0087,SRC-0088; facts=24; pages=18; blocks=2
+- `DIS-044-gl-sser-s-disease.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0066,SRC-0087,SRC-0089,SRC-0090; facts=42; pages=41; blocks=3
+- `DIS-045-leptospirosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0008,SRC-0067,SRC-0068,SRC-0087,SRC-0088; facts=18; pages=24; blocks=2
+- `DIS-046-mycoplasmosis-enzootic-pneumonia.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS,A2-MERCK-MYCOPLASMAL-PNEUMONIA-PIGS-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,RULE-HANDBOOK-PRESCRIPTION-001,SRC-0001,SRC-0069,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=63; pages=61; blocks=4
+- `DIS-047-pasteurellosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-573,A0-MOA-THREE-CLASS-ANIMAL-DISEASE-SPECS,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0070,SRC-0087,SRC-0088,SRC-0089; facts=28; pages=25; blocks=3
+- `DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0071,SRC-0072,SRC-0088,SRC-0089,SRC-0090; facts=34; pages=34; blocks=3
+- `DIS-049-salmonellosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A2-MERCK-SALMONELLOSIS-ANIMALS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0073,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=37; pages=43; blocks=4
+- `DIS-050-staphylococcosis-exudative-epidermitis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=SRC-0001,SRC-0074,SRC-0089,SRC-0090; facts=19; pages=20; blocks=2
+- `DIS-051-streptococcosis-streptococcus-suis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-STREP-SUIS-CONTROL-2005,SRC-0001,SRC-0075,SRC-0076,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=33; pages=29; blocks=4
+- `DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0077,SRC-0087,SRC-0088,SRC-0089,SRC-0090; facts=61; pages=58; blocks=4
+- `DIS-053-tuberculosis.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0078; facts=1; pages=2; blocks=0
+- `DIS-054-miscellaneous-bacterial-infections.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0079; facts=0; pages=1; blocks=0
+- `DIS-055-external-parasites-mange.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A2-MERCK-MANGE-PIGS-2026,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0020,SRC-0080,SRC-0088,SRC-0089,SRC-0090; facts=27; pages=51; blocks=3
+- `DIS-056-external-parasites-lice.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0080,SRC-0087,SRC-0088; facts=13; pages=7; blocks=2
+- `DIS-057-coccidia-and-other-protozoa.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,A2-MERCK-COCCIDIOSIS-PIGS-2024,RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0081,SRC-0090; facts=11; pages=30; blocks=1
+- `DIS-058-toxoplasmosis-protozoa.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=A0-MOA-BANNED-DRUG-250-POLICY,SRC-0001,SRC-0008,SRC-0009,SRC-0012,SRC-0014,SRC-0081,SRC-0087,SRC-0089,SRC-0090; facts=17; pages=33; blocks=3
+- `DIS-059-cryptosporidiosis-protozoa.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0081; facts=2; pages=7; blocks=0
+- `DIS-060-ascaris-suum-internal-parasites.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0082,SRC-0087,SRC-0088; facts=15; pages=8; blocks=2
+- `DIS-061-trichuris-suis-internal-parasites.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0082,SRC-0087,SRC-0088; facts=9; pages=8; blocks=2
+- `DIS-062-strongyloides-internal-parasites.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0082; facts=0; pages=1; blocks=0
+- `DIS-063-metastrongylus-lungworms.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0082; facts=0; pages=1; blocks=0
+- `DIS-064-stephanurus-dentatus-kidney-worm.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0082; facts=0; pages=1; blocks=0
+- `DIS-065-nutrient-deficiencies-and-excesses.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0084; facts=0; pages=7; blocks=0
+- `DIS-066-mycotoxins-in-grains-and-feeds.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0085; facts=6; pages=7; blocks=0
+- `DIS-067-aflatoxin-toxicosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0085; facts=4; pages=4; blocks=0
+- `DIS-068-don-trichothecene-toxicosis.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0085; facts=4; pages=5; blocks=0
+- `DIS-069-zearalenone-toxicosis.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0085; facts=0; pages=5; blocks=0
+- `DIS-070-fumonisin-toxicosis.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0085; facts=0; pages=5; blocks=0
+- `DIS-071-toxic-minerals-chemicals-plants-and-gases.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0086; facts=0; pages=7; blocks=0
+- `DIS-072-nitrite-toxicosis.md`: partial_source_anchored_page; status=NEEDS_REVIEW; sources=SRC-0001,SRC-0086; facts=0; pages=5; blocks=0
+- `DIS-073-toxic-gases-ventilation-failure.md`: source_anchored_clinical_page; status=HUMAN_REVIEWED; sources=RC-DISEASE-REGULATORY-001,RC-DRUG-001,RC-WITHDRAWAL-MRL-001,SRC-0086; facts=7; pages=9; blocks=0

@@ -1,0 +1,114 @@
+{
+  "source_id": "SRC-DIS045-LEPTO-WEB-20260511",
+  "title": "DIS-045 猪钩端螺旋体病官方网页证据汇总",
+  "disease_id": "DIS-045",
+  "disease_name": "猪钩端螺旋体病",
+  "accessed_at": "2026-05-11T00:00:00+08:00",
+  "publisher": "中华人民共和国农业农村部、国家卫生健康委员会、国家市场监督管理总局/国家标准化管理委员会、世界动物卫生组织",
+  "authority_level_suggestion": "A",
+  "evidence_status_suggestion": "official_web_sources_verified",
+  "search_terms": [
+    "site:moa.gov.cn 猪 钩端螺旋体病",
+    "site:moa.gov.cn 一二三类动物疫病病种名录 钩端螺旋体病",
+    "site:gov.cn 一二三类动物疫病病种名录 钩端螺旋体病",
+    "site:openstd.samr.gov.cn 动物钩端螺旋体病诊断技术",
+    "site:nhc.gov.cn 钩端螺旋体病 诊断 标准",
+    "site:woah.org leptospirosis pigs terrestrial manual",
+    "site:woah.org Chapter 1.3 leptospirosis listed disease",
+    "site:openstd.samr.gov.cn 兽药最大残留限量 GB 31650"
+  ],
+  "official_sources": [
+    {
+      "title": "中华人民共和国农业农村部公告 第573号：一、二、三类动物疫病病种名录",
+      "url": "https://www.moa.gov.cn/govpublic/xmsyj/202206/t20220629_6403635.htm",
+      "publisher": "中华人民共和国农业农村部",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    },
+    {
+      "title": "Leptospirosis - WOAH - World Organisation for Animal Health",
+      "url": "https://www.woah.org/en/disease/leptospirosis/",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    },
+    {
+      "title": "WOAH Terrestrial Manual chapter: Leptospirosis",
+      "url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.01.12_LEPTO.pdf",
+      "publisher": "World Organisation for Animal Health (WOAH)",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    },
+    {
+      "title": "国家标准：GB/T 45106-2024 动物钩端螺旋体病诊断技术",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0BFBE42DA04B55D0BDC83933CAB0AD6F",
+      "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    },
+    {
+      "title": "钩端螺旋体病诊断标准 WS 290-2008",
+      "url": "https://www.nhc.gov.cn/wjw/s9491/200801/38802.shtml",
+      "publisher": "中华人民共和国国家卫生健康委员会",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    },
+    {
+      "title": "中华人民共和国卫生部通告 卫通〔2008〕2号",
+      "url": "https://www.nhc.gov.cn/bgt/pw10803/200805/c5e6985f24844fbb9e6d675cdaf8b5d8.shtml",
+      "publisher": "中华人民共和国国家卫生健康委员会",
+      "accessed_at": "2026-05-11T00:00:00+08:00",
+      "official_domain_confirmed": true
+    }
+  ],
+  "summary": {
+    "disease_identity": "钩端螺旋体病为由 Leptospira 属致病性钩端螺旋体引起的动物和人共患感染。对猪病知识库可将其作为猪可感染、具公共卫生意义的细菌性/螺旋体性疾病条目处理。",
+    "china_animal_disease_classification": "农业农村部公告第573号《一、二、三类动物疫病病种名录》将“钩端螺旋体病”列入三类动物疫病中的多种动物共患病。",
+    "international_authority": "WOAH 设有 Leptospirosis 疾病页面，并发布 Terrestrial Manual 钩端螺旋体病章节，可作为国际动物卫生诊断和疾病说明的权威来源。",
+    "standard_sources": "全国标准信息公共服务平台显示 GB/T 45106-2024《动物钩端螺旋体病诊断技术》为现行推荐性国家标准，发布日期为2024-12-31，实施日期为2025-07-01，主管部门和归口部门为农业农村部，发布单位为国家市场监督管理总局、国家标准化管理委员会。NHC 页面显示 WS 290-2008《钩端螺旋体病诊断标准》为人间钩端螺旋体病诊断标准，发布于2008-01-16，实施于2008-08-01。",
+    "mrl_boundary": "本次检索未获得可直接支持 DIS-045 疾病条目下某项治疗药物或某种猪组织 MRL 数值的官方网页证据。MRL 只能引用食品安全国家标准或兽药残留官方公告的具体药物、动物种属和组织矩阵，不应从疾病名、病原体、动物诊断技术标准或人间诊断标准外推。"
+  },
+  "supported_claims": [
+    {
+      "claim": "中国农业农村部现行《一、二、三类动物疫病病种名录》将钩端螺旋体病列入三类动物疫病的多种动物共患病。",
+      "supporting_source_url": "https://www.moa.gov.cn/govpublic/xmsyj/202206/t20220629_6403635.htm"
+    },
+    {
+      "claim": "农业农村部公告第573号自发布之日起施行，并废止2008年农业部公告第1125号、2011年农业部公告第1663号、2013年农业部公告第1950号。",
+      "supporting_source_url": "https://www.moa.gov.cn/govpublic/xmsyj/202206/t20220629_6403635.htm"
+    },
+    {
+      "claim": "WOAH 官方网站设有 Leptospirosis 疾病页面，可作为国际动物卫生层面的疾病权威入口。",
+      "supporting_source_url": "https://www.woah.org/en/disease/leptospirosis/"
+    },
+    {
+      "claim": "WOAH Terrestrial Manual 包含 Leptospirosis 章节，可作为钩端螺旋体病实验室诊断和动物卫生技术资料的官方来源。",
+      "supporting_source_url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.01.12_LEPTO.pdf"
+    },
+    {
+      "claim": "GB/T 45106-2024《动物钩端螺旋体病诊断技术》为现行推荐性国家标准，发布日期为2024-12-31，实施日期为2025-07-01，主管部门和归口部门为农业农村部，发布单位为国家市场监督管理总局、国家标准化管理委员会。",
+      "supporting_source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0BFBE42DA04B55D0BDC83933CAB0AD6F"
+    },
+    {
+      "claim": "WS 290-2008《钩端螺旋体病诊断标准》为卫生行业标准，NHC 页面列示发布时间为2008-01-16、实施时间为2008-08-01；该来源适用于人间疾病诊断信息边界，不可直接替代动物诊断标准。",
+      "supporting_source_url": "https://www.nhc.gov.cn/wjw/s9491/200801/38802.shtml"
+    },
+    {
+      "claim": "卫生部通告卫通〔2008〕2号发布 WS 290-2008《钩端螺旋体病诊断标准》等强制性卫生行业标准，并明确相关标准于2008-08-01实施。",
+      "supporting_source_url": "https://www.nhc.gov.cn/bgt/pw10803/200805/c5e6985f24844fbb9e6d675cdaf8b5d8.shtml"
+    },
+    {
+      "claim": "本次官方网页核验没有取得可直接绑定到 DIS-045 的具体 MRL 数值；MRL 信息需要另以具体兽药成分、食品动物种属和组织矩阵查询国家食品安全标准或官方残留限量公告。",
+      "supporting_source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=0BFBE42DA04B55D0BDC83933CAB0AD6F"
+    }
+  ],
+  "do_not_extrapolate": [
+    "不要把农业农村部动物疫病分类名录解释为疾病诊断标准、治疗方案或防控操作规范。",
+    "不要把 WOAH 疾病页面或 Terrestrial Manual 章节中的诊断/病原信息外推为中国法定防控要求。",
+    "不要把人间钩端螺旋体病诊断、防控资料直接外推为猪群诊断标准或养殖场处置规范。",
+    "不要从“钩端螺旋体病”疾病名称推断任何兽药 MRL；MRL 必须按药物活性成分、动物种属、组织/产品矩阵和标准版本逐项引用。",
+    "不要把公开标准检索入口替代为具体标准条款；只有打开并核验具体标准详情或全文后，才可抽取标准编号、发布日期、实施日期和条款。",
+    "不要将“多种动物共患病”理解为所有动物种属均有相同易感性、临床表现、流行病学意义或管理要求。"
+  ],
+  "extraction_method": "使用 web-access skill；已执行依赖检查并确认 node v24.4.1、Chrome 9222 端口、CDP proxy ready。尝试通过 CDP proxy 打开农业农村部公告页并读取 title，但目标附着返回 No target with given id found；随后采用 web-access 允许的公开网页静态读取和官方域名限定检索核验。重点核验 moa.gov.cn、woah.org、openstd.samr.gov.cn、nhc.gov.cn/gov.cn 等官方域名；未使用非官方来源作为证据。"
+}

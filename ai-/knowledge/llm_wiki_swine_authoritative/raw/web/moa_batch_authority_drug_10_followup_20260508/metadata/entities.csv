@@ -1,0 +1,11 @@
+﻿entity_id,name,entity_type,aliases,priority
+MANUAL-001,阿莫西林,drug,['阿莫西林'],manual
+MANUAL-002,磺胺类,drug,['磺胺类'],manual
+MANUAL-003,林可霉素,drug,['林可霉素'],manual
+MANUAL-004,磺胺二甲嘧啶,drug,['磺胺二甲嘧啶'],manual
+MANUAL-005,磺胺二甲氧嘧啶,drug,['磺胺二甲氧嘧啶'],manual
+MANUAL-006,磺胺噻唑,drug,['磺胺噻唑'],manual
+MANUAL-007,氨苄西林,drug,['氨苄西林'],manual
+MANUAL-008,头孢喹肟,drug,['头孢喹肟'],manual
+MANUAL-009,替米考星,drug,['替米考星'],manual
+MANUAL-010,克拉维酸,drug,['克拉维酸'],manual

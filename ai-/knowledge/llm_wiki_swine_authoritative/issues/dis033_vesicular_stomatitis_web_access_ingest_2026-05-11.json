@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-11T16:43:18+08:00",
+  "raw_json": "raw/web/web_access_dis033_vesicular_stomatitis_20260511/SRC-DIS033-VS-WEB-20260511.json",
+  "source_id": "A0-USDA-APHIS-VS-2026",
+  "source_page": "wiki/sources/A0-USDA-APHIS-VS-2026.md",
+  "facts_changed": 5,
+  "fact_ids": [
+    "DIS033-WEB-001-aphis-swine-host-boundary",
+    "DIS033-WEB-002-aphis-vector-transmission",
+    "DIS033-WEB-003-aphis-lesion-sites",
+    "DIS033-WEB-004-aphis-us-reporting-boundary",
+    "DIS033-WEB-005-aphis-movement-trade-impact"
+  ],
+  "disease_page": "wiki/diseases/DIS-033-vesicular-stomatitis-viruses.md",
+  "boundary": "No treatment, dose, course, withdrawal, MRL, food-safety, China-specific regulatory action, quarantine, culling, or movement-control conclusion added."
+}

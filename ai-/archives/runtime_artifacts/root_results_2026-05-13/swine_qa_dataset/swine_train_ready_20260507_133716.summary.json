@@ -1,0 +1,9 @@
+{
+  "input_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_qa_dataset_20260507_130918_usable_candidates.csv",
+  "output_jsonl": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_20260507_133716.jsonl",
+  "rejects_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_train_ready_rejects_20260507_133716.csv",
+  "accepted": 1,
+  "rejected": 13,
+  "min_score": 85.0,
+  "min_standard_citations": 3
+}

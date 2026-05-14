@@ -1,0 +1,8 @@
+{
+  "input_json": "results\\swine_parallel_pilot\\swine_parallel_pilot_20260507_130540.json",
+  "output_csv": "D:\\XF-ChongQin\\ai-\\results\\swine_qa_dataset\\swine_qa_dataset_20260507_130918.csv",
+  "rows": 16,
+  "pass": 4,
+  "review": 11,
+  "reject": 1
+}

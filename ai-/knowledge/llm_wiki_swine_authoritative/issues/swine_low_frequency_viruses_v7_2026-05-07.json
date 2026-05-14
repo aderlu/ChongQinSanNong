@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-07T05:05:11.588451+00:00",
+  "pages_reinforced": [
+    "DIS-003-anelloviruses-torque-teno-sus-viruses.md",
+    "DIS-004-astroviruses.md",
+    "DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md",
+    "DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md",
+    "DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md",
+    "DIS-016-west-nile-virus-and-other-flaviviruses.md",
+    "DIS-017-hepatitis-e-virus.md"
+  ],
+  "fact_source": "knowledge_facts.json HUMAN_REVIEWED facts from Diseases of Swine 11e plus existing boundary facts",
+  "authoritative_fact_mutation": "none"
+}

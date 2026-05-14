@@ -1,0 +1,150 @@
+﻿kind,title,path,evidence_status,has_a0_moa,needs_review,china_pending,empty_auto_facets,local_only,raw_moa_saved_pages,severity,reasons
+drug,Praziquantel / 吡喹酮,wiki\drugs\DRUG-075-praziquantel.md,NEEDS_REVIEW,False,True,False,0,False,0,6,drug_needs_review;drug_a0_moa_missing
+drug,Altrenogest / 烯丙孕素,wiki\drugs\DRUG-068-altrenogest.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Amikacin / 阿米卡星,wiki\drugs\DRUG-074-amikacin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Aminoglycosides / 氨基糖苷类,wiki\drugs\DRUG-033-aminoglycosides.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Amitraz / 双甲脒,wiki\drugs\DRUG-058-amitraz.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Amoxicillin / 阿莫西林,wiki\drugs\DRUG-010-amoxicillin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Amoxicillin/clavulanic acid / 阿莫西林克拉维酸,wiki\drugs\DRUG-043-amoxicillin-clavulanic-acid.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Ampicillin / 氨苄西林,wiki\drugs\DRUG-042-ampicillin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Amprolium HCl / 盐酸氨丙啉,wiki\drugs\DRUG-062-amprolium.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Anticoccidials / 抗球虫药,wiki\drugs\DRUG-006-anticoccidials.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Apramycin / 安普霉素,wiki\drugs\DRUG-025-apramycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Avermectins / 阿维菌素类,wiki\drugs\DRUG-001-avermectins.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Bacitracin methylene disalicylate / 亚甲基双水杨酸杆菌肽,wiki\drugs\DRUG-053-bacitracin-methylene-disalicylate.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Benzimidazoles / 苯并咪唑类,wiki\drugs\DRUG-005-benzimidazoles.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Beta-lactams / β-内酰胺类,wiki\drugs\DRUG-035-beta-lactams.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Cefquinome / 头孢喹肟,wiki\drugs\DRUG-044-cefquinome.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Ceftiofur / 头孢噻呋,wiki\drugs\DRUG-011-ceftiofur.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Danofloxacin / Marbofloxacin / 达氟沙星/马波沙星,wiki\drugs\DRUG-051-danofloxacin-marbofloxacin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Dexamethasone / 地塞米松,wiki\drugs\DRUG-066-dexamethasone.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Dichlorvos / 敌敌畏,wiki\drugs\DRUG-076-dichlorvos.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Doramectin / 多拉菌素,wiki\drugs\DRUG-003-doramectin.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Erythromycin / 红霉素,wiki\drugs\DRUG-073-erythromycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Fenbendazole / 芬苯达唑,wiki\drugs\DRUG-004-fenbendazole.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Flunixin meglumine / 氟尼辛葡甲胺,wiki\drugs\DRUG-064-flunixin-meglumine.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Gentamicin / 庆大霉素,wiki\drugs\DRUG-023-gentamicin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Iron dextran / 右旋糖酐铁,wiki\drugs\DRUG-028-iron-dextran.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Ivermectin / 伊维菌素,wiki\drugs\DRUG-002-ivermectin.md,HUMAN_REVIEWED,False,False,False,0,False,0,3,drug_a0_moa_missing
+drug,Ketoprofen / Sodium salicylate / Indomethacin / 酮洛芬/水杨酸钠/吲哚美辛,wiki\drugs\DRUG-065-ketoprofen-sodium-salicylate-indomethacin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Levamisole / 左旋咪唑,wiki\drugs\DRUG-056-levamisole.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Lincomycin / 林可霉素,wiki\drugs\DRUG-014-lincomycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Lincosamides / 林可酰胺类,wiki\drugs\DRUG-036-lincosamides.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Macrolides / 大环内酯类,wiki\drugs\DRUG-031-macrolides.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Meloxicam / 美洛昔康,wiki\drugs\DRUG-063-meloxicam.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Moxidectin / 莫昔克丁,wiki\drugs\DRUG-055-moxidectin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,NSAIDs / 非甾体抗炎药,wiki\drugs\DRUG-029-nsaids.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Neomycin / 新霉素,wiki\drugs\DRUG-024-neomycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Oxytocin / 缩宫素,wiki\drugs\DRUG-067-oxytocin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Penicillin G / 青霉素G,wiki\drugs\DRUG-009-penicillin-g.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Permethrin / Deltamethrin / 氯菊酯/溴氰菊酯,wiki\drugs\DRUG-060-permethrin-deltamethrin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Phosmet / Coumaphos / 伏杀硫磷/蝇毒磷,wiki\drugs\DRUG-059-phosmet-coumaphos.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Piperazine / Pyrantel tartrate / 哌嗪/酒石酸噻嘧啶,wiki\drugs\DRUG-057-piperazine-pyrantel.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Pleuromutilins / 截短侧耳素类,wiki\drugs\DRUG-032-pleuromutilins.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Ponazuril / 泊那珠利,wiki\drugs\DRUG-061-ponazuril.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Spectinomycin / 壮观霉素,wiki\drugs\DRUG-026-spectinomycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Streptomycin / 链霉素,wiki\drugs\DRUG-071-streptomycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Sulfadimethoxine / 磺胺二甲氧嘧啶,wiki\drugs\DRUG-039-sulfadimethoxine.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Sulfonamide-trimethoprim combinations / 磺胺-甲氧苄啶类组合,wiki\drugs\DRUG-022-sulfonamide-trimethoprim.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Sulfonamides / 磺胺类,wiki\drugs\DRUG-034-sulfonamides.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Tetracyclines / 四环素类,wiki\drugs\DRUG-030-tetracyclines.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Tildipirosin / 替地匹罗星,wiki\drugs\DRUG-072-tildipirosin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Toltrazuril / 托曲珠利,wiki\drugs\DRUG-027-toltrazuril.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Trimethoprim + sulfadiazine / 甲氧苄啶-磺胺嘧啶,wiki\drugs\DRUG-038-trimethoprim-sulfadiazine.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Trimethoprim + sulfadimidine + sulfathiazole / 甲氧苄啶-磺胺二甲嘧啶-磺胺噻唑组合,wiki\drugs\DRUG-041-sulfadimidine-sulfathiazole-combinations.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Trimethoprim + sulfamethoxazole / 甲氧苄啶-磺胺甲噁唑,wiki\drugs\DRUG-040-trimethoprim-sulfamethoxazole.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Triptorelin / 曲普瑞林,wiki\drugs\DRUG-069-triptorelin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Tulathromycin / 泰拉霉素,wiki\drugs\DRUG-017-tulathromycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Tylosin / 泰乐菌素,wiki\drugs\DRUG-015-tylosin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Tylvalosin / 泰万菌素,wiki\drugs\DRUG-016-tylvalosin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Valnemulin / 沃尼妙林,wiki\drugs\DRUG-046-valnemulin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+drug,Virginiamycin / 维吉尼亚霉素,wiki\drugs\DRUG-054-virginiamycin.md,NEEDS_REVIEW,True,True,False,0,False,0,3,drug_needs_review
+disease,仔猪梭菌性肠炎,wiki\diseases\DIS-039-clostridial-diseases.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,仔猪水肿病,wiki\diseases\DIS-042-edema-disease-e-coli.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,仔猪黄白痢,wiki\diseases\DIS-041-neonatal-post-weaning-colibacillosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,副猪嗜血杆菌病,wiki\diseases\DIS-044-gl-sser-s-disease.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,塞内卡病毒A感染,wiki\diseases\DIS-027-senecavirus-a-picornaviruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪亚硝酸盐中毒,wiki\diseases\DIS-072-nitrite-toxicosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪副黏病毒相关感染,wiki\diseases\DIS-022-paramyxoviruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪反转录病毒相关感染,wiki\diseases\DIS-031-retroviruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪后圆线虫病,wiki\diseases\DIS-063-metastrongylus-lungworms.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪呕吐毒素/DON中毒,wiki\diseases\DIS-068-don-trichothecene-toxicosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪呼吸道冠状病毒感染,wiki\diseases\DIS-012-porcine-respiratory-coronavirus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪多杀性巴氏杆菌病,wiki\diseases\DIS-047-pasteurellosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪大肠杆菌病,wiki\diseases\DIS-040-colibacillosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪富马毒素中毒,wiki\diseases\DIS-070-fumonisin-toxicosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪巨细胞病毒感染,wiki\diseases\DIS-019-porcine-cytomegalovirus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪恶性卡他热相关感染,wiki\diseases\DIS-020-malignant-catarrhal-fever-ovine-herpesvirus-2.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪托罗病毒感染,wiki\diseases\DIS-013-porcine-torovirus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪支原体肺炎,wiki\diseases\DIS-046-mycoplasmosis-enzootic-pneumonia.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪放线杆菌败血症,wiki\diseases\DIS-036-actinobacillus-suis-septicemia-pleuropneumonia.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪有毒气体与通风失败损伤,wiki\diseases\DIS-073-toxic-gases-ventilation-failure.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪杂项细菌感染,wiki\diseases\DIS-054-miscellaneous-bacterial-infections.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪水疱性口炎,wiki\diseases\DIS-033-vesicular-stomatitis-viruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪沙门氏菌病,wiki\diseases\DIS-049-salmonellosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪狂犬病风险,wiki\diseases\DIS-032-rabies-virus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪玉米赤霉烯酮中毒,wiki\diseases\DIS-069-zearalenone-toxicosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪甲病毒相关感染,wiki\diseases\DIS-034-togaviruses-getah-sagiyama-ross-river-eee.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪疥螨病,wiki\diseases\DIS-055-external-parasites-mange.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪痘,wiki\diseases\DIS-029-swinepox-virus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪矿物质与化学物中毒,wiki\diseases\DIS-071-toxic-minerals-chemicals-plants-and-gases.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪类圆线虫病,wiki\diseases\DIS-062-strongyloides-internal-parasites.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪结核病,wiki\diseases\DIS-053-tuberculosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪肾虫病,wiki\diseases\DIS-064-stephanurus-dentatus-kidney-worm.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪腺病毒感染,wiki\diseases\DIS-001-adenoviruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪萎缩性鼻炎,wiki\diseases\DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪营养缺乏与过量综合征,wiki\diseases\DIS-065-nutrient-deficiencies-and-excesses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪葡萄球菌病,wiki\diseases\DIS-050-staphylococcosis-exudative-epidermitis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪虱病,wiki\diseases\DIS-056-external-parasites-lice.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪蛔虫病,wiki\diseases\DIS-060-ascaris-suum-internal-parasites.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪血凝性脑脊髓炎,wiki\diseases\DIS-011-hemagglutinating-encephalomyelitis-virus.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪轮状病毒病,wiki\diseases\DIS-030-rotaviruses-and-reoviruses.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪钩端螺旋体病,wiki\diseases\DIS-045-leptospirosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪隐孢子虫病,wiki\diseases\DIS-059-cryptosporidiosis-protozoa.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪霉菌毒素中毒,wiki\diseases\DIS-066-mycotoxins-in-grains-and-feeds.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪鞭虫病,wiki\diseases\DIS-061-trichuris-suis-internal-parasites.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,猪黄曲霉毒素中毒,wiki\diseases\DIS-067-aflatoxin-toxicosis.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+disease,非典型猪瘟病毒感染,wiki\diseases\DIS-025-atypical-porcine-pestivirus-pestivirus-infections.md,NEEDS_REVIEW,False,True,False,0,False,0,2,disease_a0_moa_missing
+drug,Carbadox / 卡巴氧,wiki\drugs\DRUG-048-carbadox.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Chloramphenicol / 氯霉素,wiki\drugs\DRUG-047-chloramphenicol.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Chlortetracycline / 金霉素,wiki\drugs\DRUG-020-chlortetracycline.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Colistin / 黏菌素,wiki\drugs\DRUG-052-colistin.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Dimetridazole / Ronidazole / 二甲硝咪唑/罗硝唑,wiki\drugs\DRUG-050-dimetridazole-ronidazole.md,NEEDS_REVIEW,True,True,False,0,False,5,2,drug_needs_review;raw_moa_saved_5
+drug,Doxycycline / 多西环素,wiki\drugs\DRUG-021-doxycycline.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Enrofloxacin / 恩诺沙星,wiki\drugs\DRUG-018-enrofloxacin.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Florfenicol / 氟苯尼考,wiki\drugs\DRUG-012-florfenicol.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Olaquindox / 喹乙醇,wiki\drugs\DRUG-049-olaquindox.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Oxytetracycline / 土霉素,wiki\drugs\DRUG-019-oxytetracycline.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Ractopamine / 莱克多巴胺,wiki\drugs\DRUG-070-ractopamine.md,NEEDS_REVIEW,True,True,False,0,False,5,2,drug_needs_review;raw_moa_saved_5
+drug,Sulfamethazine / 磺胺二甲嘧啶,wiki\drugs\DRUG-037-sulfamethazine.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Tiamulin / 泰妙菌素,wiki\drugs\DRUG-013-tiamulin.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+drug,Tilmicosin / 替米考星,wiki\drugs\DRUG-045-tilmicosin.md,NEEDS_REVIEW,True,True,False,0,False,3,2,drug_needs_review;raw_moa_saved_3
+disease,猪δ冠状病毒感染,wiki\diseases\DIS-010-porcine-deltacoronavirus.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪丝状病毒相关感染,wiki\diseases\DIS-014-filoviruses-reston-ebolavirus-zaire-ebolavirus.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪丹毒,wiki\diseases\DIS-043-erysipelas.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪乙型脑炎,wiki\diseases\DIS-015-japanese-encephalitis-virus.md,NEEDS_REVIEW,True,True,False,0,False,2,0,raw_moa_saved_2
+disease,猪传染性胃肠炎,wiki\diseases\DIS-009-transmissible-gastroenteritis-virus.md,NEEDS_REVIEW,True,True,False,0,False,1,0,raw_moa_saved_1
+disease,猪伪狂犬病,wiki\diseases\DIS-018-pseudorabies-aujeszky-disease.md,NEEDS_REVIEW,True,True,False,0,False,3,0,raw_moa_saved_3
+disease,猪口蹄疫,wiki\diseases\DIS-026-foot-and-mouth-disease-picornaviruses.md,NEEDS_REVIEW,True,True,False,0,False,6,0,raw_moa_saved_6
+disease,猪圆环病毒相关疾病,wiki\diseases\DIS-007-circoviruses-pcvad.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪增生性肠炎,wiki\diseases\DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪布尼亚病毒相关感染,wiki\diseases\DIS-005-bunyaviruses-akabane-lumbo-oya-tahyna.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪布鲁氏菌病,wiki\diseases\DIS-038-brucella-suis-brucellosis.md,NEEDS_REVIEW,True,True,False,0,False,3,0,raw_moa_saved_3
+disease,猪弓形虫病,wiki\diseases\DIS-058-toxoplasmosis-protozoa.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪戊型肝炎,wiki\diseases\DIS-017-hepatitis-e-virus.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪星状病毒感染,wiki\diseases\DIS-004-astroviruses.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪杯状病毒感染,wiki\diseases\DIS-006-caliciviruses-norovirus-sapovirus-vesicular-exanthema-virus.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪流感,wiki\diseases\DIS-021-influenza-viruses.md,NEEDS_REVIEW,True,True,False,0,False,3,0,raw_moa_saved_3
+disease,猪流行性腹泻,wiki\diseases\DIS-008-porcine-epidemic-diarrhea-virus.md,NEEDS_REVIEW,True,True,False,0,False,1,0,raw_moa_saved_1
+disease,猪环曲病毒/托克特诺病毒感染,wiki\diseases\DIS-003-anelloviruses-torque-teno-sus-viruses.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪球虫病,wiki\diseases\DIS-057-coccidia-and-other-protozoa.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪痢疾,wiki\diseases\DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪瘟,wiki\diseases\DIS-024-classical-swine-fever-pestiviruses.md,NEEDS_REVIEW,True,True,False,0,False,6,0,raw_moa_saved_6
+disease,猪繁殖与呼吸综合征,wiki\diseases\DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md,NEEDS_REVIEW,True,True,False,0,False,7,0,raw_moa_saved_7
+disease,猪细小病毒病,wiki\diseases\DIS-023-parvoviruses.md,NEEDS_REVIEW,True,True,False,0,False,1,0,raw_moa_saved_1
+disease,猪胸膜肺炎,wiki\diseases\DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪西尼罗病毒相关感染,wiki\diseases\DIS-016-west-nile-virus-and-other-flaviviruses.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+disease,猪链球菌病,wiki\diseases\DIS-051-streptococcosis-streptococcus-suis.md,NEEDS_REVIEW,True,True,False,0,False,3,0,raw_moa_saved_3
+disease,非洲猪瘟,wiki\diseases\DIS-002-african-swine-fever-virus.md,NEEDS_REVIEW,True,True,False,0,False,0,0,
+drug,Antimicrobials / 抗菌药,wiki\drugs\DRUG-007-antimicrobials.md,HUMAN_REVIEWED,True,False,False,0,False,0,0,
+drug,食品动物禁用药清单,wiki\drugs\DRUG-008-food-animal-banned-drug-list.md,HUMAN_REVIEWED,True,False,False,0,False,0,0,

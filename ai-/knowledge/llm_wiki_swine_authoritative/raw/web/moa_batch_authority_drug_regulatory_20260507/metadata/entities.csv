@@ -1,0 +1,16 @@
+﻿entity_id,name,entity_type,aliases,priority
+MANUAL-001,氯霉素,drug,['氯霉素'],manual
+MANUAL-002,卡巴氧,disease,['卡巴氧'],manual
+MANUAL-003,喹乙醇,disease,['喹乙醇'],manual
+MANUAL-004,二甲硝咪唑,disease,['二甲硝咪唑'],manual
+MANUAL-005,罗硝唑,disease,['罗硝唑'],manual
+MANUAL-006,莱克多巴胺,disease,['莱克多巴胺'],manual
+MANUAL-007,黏菌素,drug,['黏菌素'],manual
+MANUAL-008,土霉素,drug,['土霉素'],manual
+MANUAL-009,金霉素,drug,['金霉素'],manual
+MANUAL-010,多西环素,drug,['多西环素'],manual
+MANUAL-011,磺胺二甲嘧啶,drug,['磺胺二甲嘧啶'],manual
+MANUAL-012,替米考星,disease,['替米考星'],manual
+MANUAL-013,泰妙菌素,drug,['泰妙菌素'],manual
+MANUAL-014,阿莫西林,drug,['阿莫西林'],manual
+MANUAL-015,头孢噻呋,disease,['头孢噻呋'],manual

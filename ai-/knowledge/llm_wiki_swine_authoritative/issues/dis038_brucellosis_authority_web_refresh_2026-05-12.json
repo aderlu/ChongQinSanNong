@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-12T00:42:25+08:00",
+  "target": "DIS-038 brucella suis brucellosis",
+  "mode": "web_access_authority_refresh",
+  "crud_action": "update",
+  "sources_updated": [
+    "A1-USDA-APHIS-SWINE-BRUCELLOSIS",
+    "A1-WOAH-BRUCELLOSIS",
+    "A2-CDC-BRUCELLOSIS"
+  ],
+  "facts_added": [
+    "DIS038-WEB-001-aphis-causation-reproductive-zoonotic",
+    "DIS038-WEB-002-aphis-wild-swine-and-report-routing",
+    "DIS038-WEB-003-woah-listed-transmission-diagnostic",
+    "DIS038-WEB-004-cdc-occupational-public-health-boundary"
+  ],
+  "source_pages": [
+    "wiki/sources/A1-USDA-APHIS-SWINE-BRUCELLOSIS.md",
+    "wiki/sources/A1-WOAH-BRUCELLOSIS.md",
+    "wiki/sources/A2-CDC-BRUCELLOSIS.md"
+  ],
+  "runtime_page": "wiki/diseases/DIS-038-brucella-suis-brucellosis.md",
+  "evidence_expansion": "wiki/evidence_expansions/diseases/phase4_runtime_compaction/DIS-038-brucella-suis-brucellosis/003-Authority-Web-Refresh-2026-05-12.md",
+  "old_data_handling": "keep",
+  "runtime_impact": "update",
+  "gold_dataset_impact": "update via rebuilt fact status/readiness indexes",
+  "boundary": "A1/A2 sources do not replace China A0 execution rules."
+}

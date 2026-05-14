@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-05-14T09:10:23+08:00",
+  "phase": "phase16_export_layered_training_sets",
+  "input_samples": 28,
+  "accepted": 20,
+  "review": 1,
+  "rejected": 7,
+  "accept_reject_counts": {
+    "accepted": 20,
+    "rejected": 7
+  },
+  "accept_review_reject_counts": {
+    "accepted": 20,
+    "review": 1,
+    "rejected": 7
+  },
+  "phase15_decision_counts": {
+    "accepted": 21,
+    "rejected": 7
+  },
+  "phase18_semantic_decision_counts": {
+    "accepted": 25,
+    "rejected": 2,
+    "review": 1
+  },
+  "phase18_judge_status_counts": {
+    "passed": 25,
+    "rejected": 2,
+    "review": 1
+  },
+  "phase18_judge_a_status_counts": {
+    "passed": 25,
+    "review": 1
+  },
+  "phase18_judge_b_status_counts": {
+    "passed": 26
+  },
+  "phase18_arbiter_status_counts": {
+    "passed": 8,
+    "review": 1
+  },
+  "decision_counts": {
+    "accepted": 20,
+    "rejected": 7,
+    "review": 1
+  },
+  "layer_counts": {
+    "L1_retrieval_grounded": 9,
+    "L2_diagnosis_support": 3,
+    "L3_differential_support": 5,
+    "L4_control_boundary": 3,
+    "L5_drug_boundary_negative": 0,
+    "L6_regulatory_guardrail": 1,
+    "L7_judge_calibration": 28,
+    "L1_L4_high_value": 0,
+    "L1_L4_borderline": 20,
+    "boundary_refusal_train": 0,
+    "format_repair_queue": 5,
+    "review_queue": 1,
+    "rejected_queue": 7,
+    "sft_l1_retrieval_grounded.jsonl": 9,
+    "sft_l2_diagnosis_support.jsonl": 3,
+    "sft_l3_differential_support.jsonl": 5,
+    "sft_l4_control_boundary.jsonl": 3,
+    "sft_l5_drug_boundary_negative.jsonl": 0,
+    "eval_l6_regulatory_guardrail.jsonl": 1,
+    "eval_l7_judge_calibration.jsonl": 28,
+    "sft_l1_l4_high_value.jsonl": 0,
+    "sft_l1_l4_borderline.jsonl": 20,
+    "sft_boundary_refusal_train.jsonl": 0,
+    "training_set_format_repair_queue.jsonl": 5,
+    "training_set_review_queue.jsonl": 1,
+    "training_set_rejected_queue.jsonl": 7
+  },
+  "files": {
+    "L1_retrieval_grounded": "exports/training_sets/sft_l1_retrieval_grounded.jsonl",
+    "L2_diagnosis_support": "exports/training_sets/sft_l2_diagnosis_support.jsonl",
+    "L3_differential_support": "exports/training_sets/sft_l3_differential_support.jsonl",
+    "L4_control_boundary": "exports/training_sets/sft_l4_control_boundary.jsonl",
+    "L5_drug_boundary_negative": "exports/training_sets/sft_l5_drug_boundary_negative.jsonl",
+    "L6_regulatory_guardrail": "exports/training_sets/eval_l6_regulatory_guardrail.jsonl",
+    "L7_judge_calibration": "exports/training_sets/eval_l7_judge_calibration.jsonl",
+    "L1_L4_high_value": "exports/training_sets/sft_l1_l4_high_value.jsonl",
+    "L1_L4_borderline": "exports/training_sets/sft_l1_l4_borderline.jsonl",
+    "boundary_refusal_train": "exports/training_sets/sft_boundary_refusal_train.jsonl",
+    "format_repair_queue": "exports/training_sets/training_set_format_repair_queue.jsonl",
+    "review_queue": "exports/training_sets/training_set_review_queue.jsonl",
+    "rejected_queue": "exports/training_sets/training_set_rejected_queue.jsonl",
+    "production_csv": "exports/training_sets/swine_wiki_training_dataset_production_20260514_quality_harden_smoke_v2.csv",
+    "production_train_ready_csv": "exports/training_sets/swine_wiki_training_dataset_production_train_ready_20260514_quality_harden_smoke_v2.csv"
+  },
+  "input_files": {
+    "evaluated": "exports/evaluated_samples/fact_evaluated_samples_20260514_quality_harden_smoke_v2.jsonl",
+    "generated": "exports/generated_samples/naturalized_samples_20260514_quality_harden_smoke_v2.jsonl",
+    "phase18": "exports/semantic_evaluated_samples/semantic_evaluated_samples_20260514_real30_audit.jsonl"
+  },
+  "input_file_hashes": {
+    "evaluated_sha256": "23cc72dd68655518ae96299d412ce3fcdc8c96a4845e17c07490faeba00965ab",
+    "generated_sha256": "b8f1b39de9bcfee3a4f284f217e57eb595653da744f1b6286e3c9e2fc43dfb51",
+    "phase18_sha256": "b3fe8fc9d3814b10a8f551f5cf21d262f11305be8b4694b7ae04f05eea2151ed"
+  },
+  "phase18": {
+    "source_mode": "external_file",
+    "semantic_decision_counts": {
+      "accepted": 25,
+      "rejected": 2,
+      "review": 1
+    },
+    "judge_status_counts": {
+      "passed": 25,
+      "rejected": 2,
+      "review": 1
+    },
+    "judge_a_status_counts": {
+      "passed": 25,
+      "review": 1
+    },
+    "judge_b_status_counts": {
+      "passed": 26
+    },
+    "arbiter_status_counts": {
+      "passed": 8,
+      "review": 1
+    }
+  },
+  "empty_layer_reasons": {
+    "L5_drug_boundary_negative": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "L1_L4_high_value": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch.",
+    "boundary_refusal_train": "No eligible Phase15+Phase18 accepted or calibration samples for this layer in current input batch."
+  },
+  "manifest": "exports/training_sets/training_set_manifest_20260514_quality_harden_smoke_v2.json",
+  "passed": true
+}

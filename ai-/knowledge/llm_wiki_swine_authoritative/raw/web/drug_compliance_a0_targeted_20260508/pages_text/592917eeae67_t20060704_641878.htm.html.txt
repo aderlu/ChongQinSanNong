@@ -1,0 +1,86 @@
+URL: https://www.moa.gov.cn/gk/tzgg_1/gg/200607/t20060704_641878.htm
+TITLE: ??????661? ?????????????
+ENTITY: ????
+FIELD: ??/????;????;???/??
+DRUG_PAGE: wiki/drugs/DRUG-044-cefquinome.md
+
+中华人民共和国农业部公告 第661号
+$(function(){ if($(window).width() > 800){ $(".demo-y").mCustomScrollbar(); } })
+高级检索
+中华人民共和国农业部公告 第661号
+发布时间：2006-06-06
+字体：[大 中 小]
+中华人民共和国农业部公告
+第661号
+根据《兽药管理条例》和《兽药注册办法》规定，经审核，批准英特威国际有限公司、德国勃林格殷格翰动物保健有限公司美国生产厂申请注册的硫酸头孢喹肟注射液、长效土霉素注射液在我国注册，现核发《进口兽药注册证书》发布质量标准、标签和说明书，质量标准自发布之日起执行；批准英特威国际有限公司的盐霉素钠预混剂在我国再注册及变更注册，现核发《进口兽药注册证书》，发布修订的质量标准，质量标准自发布之日起执行。原发布的同品种质量标准自本公告发布之日起废止。
+特此公告
+附件：1.进口兽药注册目录
+2
+.
+质量标准
+、
+标签和说明书
+二〇〇六年六月一日
+附件
+1：
+进口兽药注册目录
+兽药名称
+生产厂家
+证书号
+有效期限
+备注
+硫酸头孢喹肟注射液（
+2.5%）
+（商品名：克百特注射液
+2.5%）
+Cefquinome sulfate Injection (Cobactan 2.5%)
+英特威国际有限公司
+Intervet
+International
+GmbH
+（
+2006）
+外兽药
+证字
+17
+号
+2006.05
+-
+2011.04
+注册
+长效土霉素注射液（
+20%）(商品名：百福他®200)
+Oxytetracycline Long Acting Injection (20%)
+德国勃林格殷格翰动物保健有限公司美国生产厂
+Boehringer Ingelheim Vetmedica Inc.,
+（
+2006）
+外兽药
+证字
+18
+号
+2006.05
+-
+2011.04
+注册
+盐霉素钠预混剂（
+12%）
+（商品名：赛可喜、赛利兴）
+Salinomycin Sodium Premix (12%) (SACOX、 SALOCIN)
+山德士工业品有限公司
+Sandoz Industrial Products GmbH
+（
+2006）
+外兽药
+证字
+19号
+2006.05
+-
+2011.04
+再注册及变更注册
+变更生产厂名称和质量标准
+解读：
+附件：
+$(function(){ var fileArray = ''; if (fileArray==''){ $("#tbl_file").css("display","none"); }; var filejdlj = ''; if (filejdlj==''){ $("#jdlj").css("display","none"); }; })
+扫一扫在手机打开当前页
+var _trackDataType = "web";var _trackData = _trackData || [];

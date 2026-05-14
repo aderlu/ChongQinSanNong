@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-05-14T00:52:20+08:00",
+  "phase": "phase14b_naturalize_grounded_answers",
+  "input_generated": "exports/generated_samples/real_api_samples_20260514_real30_audit_30.jsonl",
+  "output": "exports/generated_samples/naturalized_samples_20260514_quality_harden_smoke_v2.jsonl",
+  "samples": 28,
+  "rewritten_samples": 12,
+  "rewrite_counts": {
+    "dict_like_to_prose": 12
+  },
+  "passed": true
+}

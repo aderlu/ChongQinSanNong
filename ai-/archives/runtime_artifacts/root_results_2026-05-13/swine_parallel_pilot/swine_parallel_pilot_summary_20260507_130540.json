@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260507_130542",
+  "sample_count": 16,
+  "score_avg": 78.69,
+  "score_min": 65.0,
+  "score_max": 90.0,
+  "pass_count": 4,
+  "review_count": 11,
+  "reject_count": 1,
+  "fatal_count": 1,
+  "specific_dose_count": 1,
+  "specific_withdrawal_count": 0,
+  "answer_anchor_avg": 3.06,
+  "elapsed_avg_seconds": 63.6,
+  "elapsed_p50_seconds": 57.15,
+  "elapsed_p90_seconds": 107.77,
+  "parallel": 8,
+  "wall_seconds": 203.93,
+  "throughput_cases_per_minute": 4.71
+}

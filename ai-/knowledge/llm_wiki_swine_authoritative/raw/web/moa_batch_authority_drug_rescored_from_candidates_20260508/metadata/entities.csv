@@ -1,0 +1,9 @@
+﻿entity_id,name,entity_type,aliases,priority
+RESCUE-001,卡巴氧,drug,['卡巴氧'],rescued
+RESCUE-002,二甲硝咪唑,drug,['二甲硝咪唑'],rescued
+RESCUE-003,罗硝唑,drug,['罗硝唑'],rescued
+RESCUE-004,阿莫西林,drug,['阿莫西林'],rescued
+RESCUE-005,头孢噻呋,drug,['头孢噻呋'],rescued
+RESCUE-006,替米考星,drug,['替米考星'],rescued
+RESCUE-007,喹乙醇,drug,['喹乙醇'],rescued
+RESCUE-008,莱克多巴胺,drug,['莱克多巴胺'],rescued

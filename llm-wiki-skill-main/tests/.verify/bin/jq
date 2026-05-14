@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /d/XF-ChongQin/llm-wiki-skill-main/tests/.verify/node_modules/node-jq/bin/jq.exe -b "$@"

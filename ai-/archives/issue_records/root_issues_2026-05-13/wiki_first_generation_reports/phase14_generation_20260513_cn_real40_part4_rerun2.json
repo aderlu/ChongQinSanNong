@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-13T17:28:45+08:00",
+  "phase": "phase14_generate_two_stage_samples",
+  "mode": "real-api",
+  "generation_model": "hunyuan-turbos-20250926",
+  "prompt_version": "phase14.two_stage.v3_cn_clinical",
+  "input_skeletons": "knowledge/llm_wiki_swine_authoritative/exports/answer_skeletons/wiki_answer_skeletons_20260513_cn_real40_part4.jsonl",
+  "input_plan": "knowledge/llm_wiki_swine_authoritative/exports/planned_samples/wiki_sample_plan_20260513_cn_real40_part4.jsonl",
+  "output": "exports/generated_samples/two_stage_samples_20260513_cn_real40_part4_rerun2.jsonl",
+  "samples": 10,
+  "samples_generated": 10,
+  "ability_layer_counts": {
+    "L1_retrieval_grounded": 6,
+    "L2_diagnosis_support": 1,
+    "L3_differential_support": 1,
+    "L4_control_boundary": 1,
+    "L6_regulatory_guardrail": 1
+  },
+  "missing_anchors": [],
+  "missing_grounded_citations": [
+    "GEN-000001",
+    "GEN-000002",
+    "GEN-000009",
+    "GEN-000010"
+  ],
+  "fallback_samples": [],
+  "passed": false
+}

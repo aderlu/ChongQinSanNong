@@ -1,0 +1,11 @@
+[
+  {
+    "fact_id": "DIS-026-DEMO-001",
+    "fact_type": "disease",
+    "subject": "口蹄疫",
+    "predicate": "diagnosis_standard_anchor",
+    "object": "baseline reviewed swine reference",
+    "evidence_source_id": "SRC-0001",
+    "evidence_status": "HUMAN_REVIEWED"
+  }
+]

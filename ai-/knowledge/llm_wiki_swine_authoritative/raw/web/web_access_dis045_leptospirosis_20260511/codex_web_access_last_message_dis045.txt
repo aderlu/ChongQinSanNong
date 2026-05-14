@@ -1,0 +1,10 @@
+已完成并写入 UTF-8 JSON：
+
+[SRC-DIS045-LEPTO-WEB-20260511.json](D:/XF-ChongQin/ai-/knowledge/llm_wiki_swine_authoritative/raw/web/web_access_dis045_leptospirosis_20260511/SRC-DIS045-LEPTO-WEB-20260511.json)
+
+已校验 JSON 可解析，包含：
+- `official_sources`: 6 条
+- `supported_claims`: 8 条
+- `do_not_extrapolate`: 6 条
+
+检索与抽取记录已写入 `extraction_method`，包括 web-access skill、CDP 依赖检查结果，以及本次未将 DIS-045 外推到 MRL 数值的边界说明。

@@ -1,0 +1,667 @@
+URL: https://www.moa.gov.cn/nybgb/2019/201907/202001/t20200106_6334358.htm
+TITLE: ????????183? ???????????????
+ENTITY: ??????/????
+FIELD: ????+????????;????????
+DRUG_PAGE: wiki/drugs/DRUG-041-sulfadimidine-sulfathiazole-combinations.md
+
+中华人民共和国农业农村部公告 第183号
+table{margin-right: auto!important;margin-left: auto!important;} .imgcon img {margin: auto;}
+var isPC=IsPC();//获取是否为PC端 if(isPC){//如果是PC端加载PC的js和css $(".mobileStyle").remove(); }else{//如果是移动端加载移动端的js和css $(".stylefile").remove(); //dynamicLoadCss('http://www.moa.gov.cn/nybgb/images/base_yidong.css') //dynamicLoadJs('http://www.moa.gov.cn/nybgb/images/nyb_phone.js') //dynamicLoadCss('http://www.moa.gov.cn/nybgb/images/nyb_hdxwPhone.css') } function IsPC() {//获取设备是否为PC的方法 var userAgentInfo = navigator.userAgent; var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"]; var flag = true; for (var v = 0; v < Agents.length; v++) { if (userAgentInfo.indexOf(Agents[v]) >= 0) { flag = false; break; } } return flag; }; function dynamicLoadCss(url) {//加载css方法 var head = document.getElementsByTagName('head')[0]; var link = document.createElement('link'); link.type='text/css'; link.rel = 'stylesheet'; link.href = url; head.appendChild(link); } function dynamicLoadJs(url, callback) {//加载js方法 var head = document.getElementsByTagName('head')[0]; var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; if(typeof(callback)=='function'){ script.onload = script.onreadystatechange = function () { if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete"){ callback(); script.onload = script.onreadystatechange = null; } }; } head.appendChild(script); }
+中文
+English
+无障碍
+农业农村部邮箱
+中国农业农村信息网
+.aglink{ background: url(/images/agri_link.png) no-repeat left center; padding: 0 0 0 25px; color:#CE751D; background-size: 22px 19px; font-weight: bold; }
+中国农业农村信息网
+搜索
+首页
+机构
+新闻
+公开
+政务服务
+专题
+互动
+数据
+业务管理
+$(function(){ $(".logoBox input").focus(function(){ var val=$(this).val(); if(val==="请输入关键字"){ $(this).val(""); } }) $(".logoBox input").blur(function(){ var val=$(this).val(); if(val===""){ $(this).val("请输入关键字"); } }) }) function submitSearchnew(){ $("#loginname").val($("#loginname").val().replace(/[\-\_\,\!\|\~\`\(\)\#\$\%\^\&\*\{\}\:\;\"\L\<\>\?]/g, '')); var search_input = document.getElementById("loginname").value; if(search_input == "请输入关键字" || search_input == "" ) { alert("请输入检索词！"); return false; } }
+<!--头部导航点击添加class效果--> //jQuery(function($){ // function nav_nav(){ var src="https://www.moa.gov.cn/nybgb/2019/201907/"; if(src.indexOf("jg")!==-1){ $(".nav ul li:eq(1)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("xw")!==-1) {$(".nav ul li:eq(2)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("gk")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("govpublic")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("nybgb")!==-1){ $(".nav ul li:eq(3)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("fw")!==-1){ $(".nav ul li:eq(4)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("zt")!==-1){ $(".nav ul li:eq(5)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("hd")!==-1){ $(".nav ul li:eq(6)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("sj")!==-1){ $(".nav ul li:eq(7)").addClass("nav-active").siblings().removeClass("nav-active"); }else if(src.indexOf("yw")!==-1){ $(".nav ul li:eq(8)").addClass("nav-active").siblings().removeClass("nav-active"); }else{ $(".nav ul li:eq(0)").addClass("nav-active").siblings().removeClass("nav-active"); } // }nav_nav(); // });
+当前位置：
+首页
+>
+2019
+> 第7期
+中华人民共和国农业农村部公告 第183号
+日期：
+2020-01-06 10:56
+作者：
+来源：
+农业农村部
+字号：
+大
+中
+小
+【字号：
+大
+中
+小
+】
+打印本页
+根据《兽药管理条例》和《兽药注册办法》规定，经审查， 批准法国维克有限公司等2家公司生产的复方磺胺嘧啶混悬液等2种兽药产品在我国再注册，核发《进口兽药注册证书》，并发布修订后的产品质量标准、说明书、标签以及磺胺嘧啶、甲氧苄啶残留检测方法标准（试行），自发布之日起执行。此前发布的上述产品兽药质量标准、说明书和标签同时废止。
+特此公告。
+附件：1.进口兽药注册目录
+2.质量标准
+3.说明书和标签
+4.磺胺嘧啶、甲氧苄啶残留检测方法标准（试行）
+农业农村部
+2019年6月10日
+附件1
+进口兽药注册目录
+兽药名称
+生产厂名称
+国别
+进口兽药注册证书号
+有效期限
+备注
+复方磺胺
+嘧啶混悬液Compound
+Sulfadiazine
+Suspension
+法国维克有限公司VIRBAC
+法国
+(2019 )
+外兽药证字55号
+2019.6.10-2024.6.9
+再注册
+猪伪狂犬
+病活疫苗
+(Bartha K-61株)
+Swine PseudorabiesVaccine, Live( Strain BarthaK-61 )
+西班牙海博莱
+生物大药厂LABORATORIOS
+HIPRA, S.A.
+西班牙
+(2019)
+西班牙外兽药证字5
+6
+号
+2019.6.10-2024.6.9
+再注册
+附件2
+复方磺胺嘧啶混悬液等2种兽药产品质量标准
+一、复方磺胺嘧啶混悬液
+复方磺胺嘧啶混悬液
+Compound Sulfadiazine Suspension
+Fufang Huang'an Midin gHunxuanye
+本品为磺胺嘧啶、甲氧苄啶的混悬液。含磺胺嘧啶(CgHnN.OSS)、甲氧苄啶(CuHaN4O)均应为标示量的90.0%~10.0%
+[性状]
+本品为白色至演黄色混悬液。
+[鉴别]
+在含量测定项下记录的色谱图中，供试品溶液两主峰的保留时间应分别与对照品溶液两主峰的保留时间致。
+[检查]
+pH值取本品，摇匀，依法测定(附录0631)，应为9.5-~11.5.相对密度本品的相对密度(附录0601)应为1.180~.220.
+装量
+按最低装量检查法(附录0942)检查，每个包装应为200~220ml.
+乙二胺四醋酸二钠
+照高效液相色谱法(附录0512)测定。
+色谱条件与系统适用性试验
+用十八烷基硅烷键合硅胶为填充剂:以0.2%四丁基硫酸氢铵溶液[将2g四丁基硫酸氢铵溶解于1000ml水中(约5.9mmol/1)。]-甲醇(94:6)为流动相:检测波长为256nm。理论板数按乙二胺四醋酸二钠峰计算应不低于1000。
+测定法
+精密量取本品20ml,置200ml量瓶中，加水20ml,加三氯化铁试液0.5ml和醋酸1ml,置超声浴中超声15分钟，冷却，加水稀释至刻度，摇匀，离心，精密量取上清液20μl注入液相色谱仪，记录色谱图;另精密称取乙二胺四醋酸二钠对照品5Smg,置200ml量瓶中，加水20ml,加三氧化铁试液0.5ml和醋酸Iml,振摇使溶解，用水稀释至刻度，摇匀，精密量取5ml,置25ml量瓶中，用水稀释至刻度，摇匀，同法测定。供试品溶液中乙二胺四醋酸二钠峰面积不得大于对照品溶液中主峰的峰面积。
+其他
+应符合内服混悬剂项下有关的各项规定(附录0111)。
+[含量测定]
+照高效液相色谱法(附录0512)测定。
+色谱条件与系统适用性试验
+用十八烷基硅烷键合硅胶为填充剂:以磷酸盐溶液(磷酸二氢钾1.09g与三乙胺0.8g.加水800ml,并用磷酸调节pH值至4.040.1,加甲醇稀释成1000ml)为流动相:检测波长为250nm.理论板数按磺胺嘧啶峰计算应不低于1000
+测定法
+磺胺嘧啶取本品0.75g,精密称定，置100ml量瓶中，加1mol/L盐酸溶液soml,置超声洛中超声15分钟，冷却，用Imol/L盐酸溶液稀释至刻度，掘匀，离心;精密量取上清液1ml,置100ml量瓶中，加流动相稀释至刻度，摇匀，精密量取20ul,注入液相色谱仪，记录色谱图:另取磺胺嘧啶对照品，同法测定。同时测定本品的相对密度，将供试品的重量换算成毫升数，按外标法以磺胺嘧啶峰面积计算，即得。
+甲氧苄啶取本品0.4g，精密称定，置50ml量瓶中，加二甲基亚砜25ml.超声15分钟，冷却，用二甲基亚砜稀释至刻度，摇匀:精密量取Sml,置50ml量瓶中，用二甲基亚砜稀释至刻度，摇匀;精密量取20ul,注入液相色谱仪，记录色谱图:另精密称取经105C干燥至恒重的甲氧苄啶对照品50mg.置100ml量瓶中，同法测定。同时测定本品的相对密度，将供试品的重量换算成毫升数，按外标法以甲氧苄啶峰面积计算，即得。
+[作用与用途]
+磺胺类抗菌药。主要用于防治鸡大肠杆菌、沙门氏菌感染。
+[用法与用量]
+以本品计，混饮:每1L水，鸡0.2-~0.4ml,连用5~7天。
+[不良反应]
+按规定的用法用量使用尚未见不良反应。
+[注意事项]
+1.使用前振摇，避免起泡沫。
+2.本品的有效成分磺胺嘧啶在体内的代谢产物乙酰磺胺的溶解度低，易在泌尿系统中析出结晶。
+[休药期]
+鸡5日:蛋鸡产蛋期禁用。
+[规格]
+200ml:磺胺嘧啶80g+甲氧苄啶16g[包装]
+[贮藏]
+阴凉干燥处保存。[有效期]36个月。
+[生产企业]
+法国维克有限公司(VIRBAC)
+二、猪伪狂犬病活疫苗(BarthaK-61株)质量标准
+猪伪狂犬病活疫苗(BarthaK-61株)
+Zhu Weituanguanbing Huyimiao(BrthaK-61Zhu)
+Swine Pseudorabies Vacine,Live(StrainBarthaK-61)
+本品系用猪伪狂火病病毒BarthaK-61株接种PK-15细胞系培养，收获含毒细胞液，加入适宜稳定剂，经冷冻真空干燥制成。用于预防猪伪狂大病，
+[性状]
+黄白色海绵状疏松团块，易与瓶壁脱离，加稀释液后迅速溶解。
+[无菌检验]
+按现行《中国曾药典》附录进行检验，应无菌生长.
+[支原体检验]
+按现行《中国兽药典》附录进行检验，应无支原体生长。
+[外源病毒检验]
+按现行(中国兽药典》附录进行检验，应无外源病毒污染。
+[安全检验]
+用10~12周龄无猪伪狂大病病毒抗体的健康猪2头，各颈部肌肉注射疫苗2ml(含10头份)，观察14日。应不出现任何全身或局部异常反应。
+[病毒含量测定]
+按附注在PK-15细胞单层上进行病毒含量测定。每头份疫苗的病毒含量应不低于10STCIDso
+[剩余水分测定]
+按照KarlFischer法进行测定，应≤2%。
+[真空度测定]
+按现行《中国兽药典》附录进行测定，应符合规定。
+[作用与用途]
+用于预防猪伪狂犬病。
+[用法与用量]
+可采用颈部肌肉注射或滴鼻途径进行接种。所有年龄、体重和性别的猪均接种2ml(含1头份)。
+采用肌肉注射途径进行接种时，可以用红色稀释液(W)或白色稀释液(A3)稀释后进行接种:采用滴鼻途径进行接种时，用红色稀释液稀释后，每个鼻孔接种Iml.
+推荐的接种程序:
+育肥猪:
+在一般地区使用时，每头猪于12~13周龄时接种1头份(2ml);在流行地区使用时，每头猪于10~11周龄时接种1头份，13~14周龄时再接种1头份。
+种猪:
+以3~4周的时间间隔接种2次，此后，每隔4个月再接种1次，或在每次分娩前4~6周再接种1次。
+在进行紧急接种时，对所有猪(包括母猪、公猪和仔猪)均接种1头份。
+[注意事项]
+(1)
+仅用于接种健康猪。
+(2)疫苗应避光保存，不要冷冻。
+(3)使用前应使疫苗充分溶解。
+(4)疫苗稀释后，应在1小时内用完。
+(5)注射时，应使用灭菌注射器和针头，并采用常规无菌操作方法。
+(6)用过的疫苗瓶器具和未用完的疫苗等应进行无害化处理。
+[规格]
+(1)10头份/瓶
+(
+2)25头份瓶
+(3)50头份)瓶
+(
+4)100头份/瓶
+[贮藏与有效期]
+2~8C保存，有效期为30个月。
+[生产企业]
+西班牙海博莱生物大药厂(LABORATORIOSHIPRA,S.A)
+附注:病毒含量测定
+按瓶签注明头份，用疫苗稀释液将疫苗进行溶解，再用含有10%胎牛血清的MEM培养基(Glasgow)对疫苗进行10倍系列稀释，取适宜稀释度接种96孔细胞培养板(稀释度中必须至少包含一个出现100%阳性孔的稀释度和-个出现100%阴性孔的稀释度)，每个稀释度接种8孔，每孔100ul。并设细胞对照孔，每孔加入培养基100ul.然后从对照细胞孔开始，每孔加入PK-15细胞悬液(含3X104~5X10*个细胞/m)100ul,置5%CO2、37C培养箱中培养，连续观察7日。根据出现细胞病变(CPE)的孔数，按照Karber法计算TCIDso,每头份疫苗的病毒含量应不低于10TCID50.
+附件3
+复方磺胺嘧啶混悬液等2种兽药产品说明书和标签
+一、复方磺胺嘧啶混悬液说明书和标签
+（一）复方磺胺嘧啶混悬液说明书
+兽用
+【兽药名称】
+通用名称：复方磺胺嘧啶混悬液
+商品名称：速服宁（Sulfaprim?）
+英文名称：Compound Sulfadiazine Suspension
+汉语拼音：Fufang Huang’an Miding Hunxuanye
+【主要成分】 磺胺嘧啶、甲氧苄啶
+【性状】本品为白色至淡黄色混悬液。
+【药理作用】 磺胺嘧啶对大多数革兰氏阳性菌和部分革兰氏阴性菌有效，对衣原体和某些原虫也有效，属广谱抑菌药。甲氧苄啶为抗菌增效剂，其抗菌谱与磺胺类相似，而活性较强。与磺胺药及某些抗菌剂联合应用，可产生协同作用。
+【适应证】主要用于防治鸡大肠杆菌、沙门氏菌感染。
+【用法与用量】 以本品计。混饮：每1L水，鸡0.2～0.4ml，连用5～7天。
+【不良反应】按规定的用法用量使用尚未见不良反应。
+【注意事项】
+1.使用前振摇，避免起泡沫。
+2.本品的有效成分磺胺嘧啶在体内的代谢产物乙酰磺胺的溶解度低，易在泌尿系统中析出结晶。
+【休药期】 鸡5日；蛋鸡产蛋期禁用。
+【规格】200ml：磺胺嘧啶80g+甲氧苄啶16g
+【包装】
+【贮藏】阴凉干燥处保存。
+【有效期】36个月。
+【进口兽药注册证号】
+【生产企业】法国维克有限公司（VIRBAC）
+地址：8-10 RUE DES AULNAIES, 95420 MAGNY EN VEXIN
+（二）复方磺胺嘧啶混悬液标签
+兽用
+【兽药名称】
+通用名称：复方磺胺嘧啶混悬液
+商品名称：速服宁（Sulfaprim?）
+英文名称：Compound Sulfadiazine Suspension
+汉语拼音：Fufang Huang’an Miding Hunxuanye
+【主要成分】磺胺嘧啶、甲氧苄啶
+【性状】本品为白色至淡黄色混悬液。
+【适应证】主要用于防治鸡大肠杆菌、沙门氏菌感染。
+【用法与用量】以本品计。混饮：每1L水，鸡0.2～0.4ml，连用5～7天。
+【规格】200ml：磺胺嘧啶80g+甲氧苄啶16g
+【进口兽药注册证号】
+【生产日期】
+【生产批号】
+【有效期】 至
+【休药期】鸡5日；蛋鸡产蛋期禁用。
+【贮藏】阴凉干燥处保存。
+【包装】
+【生产企业】法国维克有限公司（VIRBAC）
+地址：8-10 RUE DES AULNAIES, 95420 MAGNY EN VEXIN
+二、猪伪狂犬病活疫苗（Bartha K-61株）说明书和内包装标签
+（一）猪伪狂犬病活疫苗（Bartha K-61株）说明书
+兽用
+【兽药名称】
+通用名 猪伪狂犬病活疫苗（Bartha K-61株）
+商品名 喜可净
+英文名 Swine Pseudorabies Vaccine, Live（Strain Bartha K-61）
+汉语拼音 Zhu Weikuangquanbing Huoyimiao（Bartha K-61 Zhu）
+【主要成分与含量】每头份疫苗中含猪伪狂犬病病毒Bartha K-61株至少105.5TCID50。
+【性状】白色海绵状疏松团块，易与瓶壁脱离，加稀释液后迅速溶解。
+【作用与用途】用于预防猪伪狂犬病。
+【用法与用量】可采用颈部肌肉注射或滴鼻途径进行接种。所有年龄、体重和性别的猪均接种2ml（含1头份）。
+采用肌肉注射途径进行接种时，可以用红色稀释液（W）或白色稀释液（A3）稀释后进行接种；采用滴鼻途径进行接种时，用红色稀释液稀释后，每个鼻孔接种1ml。
+推荐的接种程序：
+育肥猪：
+在一般地区使用时，每头猪于12～13周龄时接种1头份（2ml）；在流行地区使用时，每头猪于10～11周龄时接种1头份，13～14周龄时再接种1头份。
+种猪：
+以3～4周的时间间隔接种2次，此后，每隔4个月再接种1次，或在每次分娩前4～6周再接种1次。
+在进行紧急接种时，对所有猪（包括母猪、公猪和仔猪）均接种1头份。
+【不良反应】一般无可见的不良反应。
+【注意事项】
+（1）仅用于接种健康猪。
+（2）疫苗应避光保存，不要冷冻。
+（3）使用前应使疫苗充分溶解。
+（4）疫苗稀释后，应在1小时内用完。
+（5）注射时，应使用灭菌注射器和针头，并采用常规无菌操作方法。
+（6）用过的疫苗瓶器具和未用完的疫苗等应进行无害化处理。
+【规格】
+（1）10头份/瓶
+（2）25头份/瓶
+（3）50头份/瓶
+（4）100头份/瓶
+【包装】
+（1）1瓶/盒
+（2）10瓶/盒
+【贮藏与有效期】2～8℃保存，有效期为30个月。
+【《进口兽药注册证书》证号】
+【生产企业】西班牙海博莱生物大药厂（LABORATORIOS HIPRA, S.A.）
+地址：Avda. La Selva, 135. 17170—Amer (Girona) Spain
+电话：0034972430660 传真：0034972430061
+仅在兽医指导下使用
+（二）猪伪狂犬病活疫苗（Bartha K-61株）内包装标签
+兽用
+喜可净
+猪伪狂犬病活疫苗（Bartha K-61株）
+10（25、50、100）头份/瓶 《进口兽药注册证书》证号：
+批 号：
+有效期至：
+【作用与用途】用于预防猪伪狂犬病。
+【用法与用量】用颈部肌肉注射或滴鼻途径进行接种。每头猪2ml（含1头份）。
+【贮藏与有效期】2～8℃保存，有效期为30个月。
+【生产企业】西班牙海博莱生物大药厂（LABORATORIOS HIPRA, S.A.）
+仅在兽医指导下使用
+附件4
+磺胺嘧啶、甲氧苄啶残留检测方法标准
+（试行）
+鸡皮和脂肪中磺胺嘧啶、甲氧苄啶残留量的测定
+液相色谱-串联质谱法
+1 范围
+本标准规定了鸡皮和脂肪中磺胺嘧啶、甲氧苄啶残留量检测的制样和超高效液相色谱-串联质谱法的测定方法。
+本标准适用于鸡皮和脂肪中磺胺嘧啶、甲氧苄啶残留量的检测。
+2 规范性引用文件
+下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。
+GB/T 6682 分析实验室用水规格和试验方法。
+3 原理
+试料中残留的磺胺嘧啶、甲氧苄啶，经乙腈提取，正己烷脱脂，液相色谱-串联质谱仪测定，基质匹配外标法定量。
+4 试剂与材料
+以下所用试剂，除特别注明外均为分析纯；水为符合GB/T6682规定的一级水。
+4.1 乙腈：色谱纯。
+4.2 甲酸：色谱纯。
+4.3 甲醇：色谱纯。
+4.4 正己烷。
+4.5 0.1 %甲酸水溶液：取1mL甲酸，用水稀释至1000mL。
+4.6 磺胺嘧啶、甲氧苄啶：纯度≥95.0%。
+4.7 标准储备液配制：分别准确称取适量的标准物质，用甲醇溶解，配制成1mg/mL的标准储备溶液（-18℃保存，有效期2个月）。
+4.8 混合标准中间液：分别准确移取各标准储备液各1.0mL，置于100mL容量瓶中，用甲醇定容至刻度。该溶液中各药物浓度为10μg/mL，2～8℃保存，有效期1周。
+4.9 标准工作液：准确移取混合标准中间液适量，用乙腈-0.1%甲酸水溶液（10:90）稀释成浓度为0.5、2.5、5、20、50和100 μg/L的系列标准工作溶液，现用现配。
+5 仪器和设备
+5.1 超高效液相色谱-串联质谱仪：
+配电喷雾离子源。
+5.2 分析天平：
+感量0.01mg。
+5.3 天平：
+感量0.01g。
+5.4 组织匀浆器
+5.5 旋涡混合器
+5.6 多管涡旋振荡器
+5.7 高速冷冻离心机
+5.8 氮吹仪
+5.9 尼龙微孔滤膜：
+0.22μm。
+5.10 离心管：
+50mL。
+5.11 移液器：
+100μL、200μL、1000μL、5000μL。
+6 试料的制备与保存
+6.1 试料的制备
+取适量新鲜或解冻的空白或供试皮和脂肪组织，绞碎，并使均质。
+——取均质的供试样品，作为供试试料。
+——取均质的空白样品，作为空白试料。
+——取均质的空白样品，添加适宜浓度的标准溶液，作为空白添加试料。
+6.2 试料的保存
+-18℃以下保存。
+7 测定步骤
+7.1 提取
+称取试料（2±0.02）g，置于50mL塑料离心管，加乙腈15mL，50℃水浴5分钟，涡旋混匀，涡旋振荡10min，8000r/min离心10min，取上层液体于另一离心管中；加乙腈10mL重复提取一次，合并上清液，于50℃水浴氮气吹干。
+在残留物中加入乙腈-0.1 %甲酸水溶液（10:90）2mL，正己烷5mL，涡旋10 s，8000r/min离心5min，弃去正己烷，用正己烷重复脱脂一次，过0.22μm滤膜供液相色谱-串联质谱测定。
+7.2 基质匹配混合标准工作液的制备
+称取空白试料（2±0.02），按7.1步骤操作，氮气吹干后添加系列标准工作溶液2.0mL溶解残渣，涡旋混匀后，正己烷5mL脱脂，弃去正己烷，用正己烷重复脱脂一次，过0.22μm滤膜，供液相色谱-串联质谱测定。以测试药物的特征离子质量色谱峰面积为纵坐标，溶液浓度为横坐标绘制标准曲线。求回归方程和相关系数。
+7.3测定
+7.3.1 液相色谱参考条件
+色谱柱： C18色谱柱（2.1×100mm，1.7μm），或相当者；
+流动相：A：乙腈，B：0.1%甲酸水溶液，梯度洗脱程序见表1；
+流速：0.25mL/min；
+柱温：30℃；
+进样量：5μL。
+表1 流动相梯度洗脱条件
+时间
+min
+乙腈
+%
+0.1%甲酸水溶液
+%
+0
+5
+95
+0.8
+20
+80
+2
+60
+40
+2.9
+95
+5
+3
+5
+95
+7.3.2 质谱参考条件
+离子源：电喷雾（ESI）离子源；
+扫描方式：正离子扫描
+检测方式：多反应监测；
+电离电压：2.0kV；
+锥孔电压：8V；
+源温：150℃；
+脱溶剂气温度：450℃；
+锥孔气流速：150L/Hr；
+脱溶剂气流速：800L/Hr；
+定性、定量离子对、锥孔电压和碰撞能量见表2。
+表2 定性、定量离子对、锥孔电压和碰撞能量
+化合物名称
+定性离子对
+（m/z）
+锥孔电压（V）
+碰撞能量（eV）
+磺胺嘧啶
+*251.0 >185.0
+251.0> 92.0
+22
+15
+25
+甲氧苄啶
+*291.0>230.0
+291.0 > 261.0
+22
+22
+15
+注：表“*”为定量离子对
+7.3.3 测定法
+7.3.3.1 定性测定
+在同样测试条件下，试样液中药物的保留时间与标准工作液中药物的保留时间之比，偏差在±2.5%以内，且检测到的离子的相对丰度，应当与浓度相当的校正标准溶液相对丰度一致。其允许偏差应符合表3要求。
+表3 定性确证时相对离子丰度的允许偏差
+相对离子丰度/（%）
+允许偏差/（%）
+>
+50
+±20
+>
+20～50
+±25
+>
+10～20
+±30
+≤10
+±50
+7.3.3.2 定量测定
+在仪器最佳工作条件下，基质匹配混合标准工作液与试样交替进样，采用基质校准外标法定量。试样溶液中待测物的响应值均应在仪器测定的线性范围内，当试样的上机液浓度超过线性范围时，需根据测定浓度，稀释后进行重新测定。上述色谱和质谱条件下，2种药物标准溶液的特征离子质量色谱图见附录A.1。
+7.4 空白试验
+除不加试料外，均按上述测定步骤进行。
+8 结果计算和表述
+试样中药物的含量，以质量分数表示，单位为微克每千克（μg/kg)，按式（1）或式（2）计算：
+公式（1）
+（2）
+9 检测方法的灵敏度、准确度和精密度
+9.1 灵敏度
+本方法在鸡皮和鸡脂肪中磺胺嘧啶、甲氧苄啶的检测限为0.5μg/kg；定量限为1.0μg/kg。
+9.2 准确度
+本方法在鸡皮和鸡脂肪中添加范围在1～200μg/kg时，磺胺嘧啶、甲氧苄啶的回收率为60%～120%。
+9.3 精密度
+本方法的批内相对标准偏差≤15 %，批间相对标准偏差≤20%。
+附录A
+（资料性附录）
+图A1 50 ng/mL磺胺嘧啶和甲氧苄啶基质匹配标准溶液色谱图 (1、2为甲氧苄啶，3、4为磺胺嘧啶)
+图A2 磺胺嘧啶和甲氧苄啶鸡皮和脂肪空白色谱图
+图A3 鸡皮和脂肪添加50μg/kg磺胺嘧啶和甲氧苄啶色谱图（1、2为磺胺嘧啶，3、4为甲氧苄啶）
+扫一扫在手机打开当前页
+附件下载：
+机关子站
+直属单位网站
+国务院各部门网站
+地方农业管理部门网站
+办公厅（对台湾农业事务办公室）
+人事司（党组巡视工作领导小组办公室）
+法规司
+政策与改革司
+发展规划司
+计划财务司
+种植业管理司（农药管理司）
+畜牧兽医局
+渔业渔政管理局
+乡村产业发展司（农产品加工指导司）
+乡村建设促进司
+农村社会事业促进司
+农村合作经济指导司
+帮扶司
+区域协作促进司（革命老区工作办公室）
+监督检查司
+市场与信息化司
+国际合作司
+科学技术司（农业转基因生物安全管理办公室）
+农产品质量安全监管司
+农垦局
+种业管理司
+农业机械化管理司
+农田建设管理司
+机关党委
+离退休干部局
+长江流域渔政监督管理办公室
+农业农村部机关服务中心( 农业农村部机关服务局 )
+中国农业科学院
+中国水产科学研究院
+中国热带农业科学院
+全国农业展览馆（中国农业博物馆）
+中国农业电影电视中心
+农民日报社
+中国农业出版社有限公司（农村读物出版社）
+中国农村杂志社
+全国乡村振兴宣传教育中心
+中央农业干部教育培训中心（农业农村部管理干部学院、中国共产党农业农村部党校）
+农业农村部人力资源开发中心、中国农学会
+农业农村部农村经济研究中心
+农业农村部信息中心
+农业农村部农产品质量安全中心
+中国绿色食品发展中心
+农业农村部规划设计研究院
+中国乡村振兴发展中心
+农业农村部大数据发展中心
+农业农村部工程建设服务中心
+农业农村部财会服务中心、中华农业科教基金会
+农业农村部对外经济合作中心（中国-欧洲联盟农业技术中心）
+农业农村部农业贸易促进中心(中国国际贸易促进委员会农业行业分会、中国国际商会农业行业商会)
+中国国际减贫中心
+农业农村部国际交流服务中心
+中央农业广播电视学校(农业农村部农民科技教育培训中心)、中国农民体育协会
+农业农村部科技发展中心
+农业农村部农业生态与资源保护总站
+中国农村技术开发中心
+全国农业技术推广服务中心
+农业农村部农药检定所（国际食品法典农药残留委员会秘书处）
+农业农村部耕地质量和农田工程监督保护中心
+农业农村部农业机械化总站
+全国畜牧总站
+中国动物疫病预防控制中心（农业农村部屠宰技术中心）
+中国兽医药品监察所（农业农村部兽药评审中心）
+中国动物卫生与流行病学中心
+中国农垦经济发展中心（农业农村部南亚热带作物中心）
+农业农村部农村社会事业发展中心（农业农村部乡镇企业发展中心）
+农业农村部乡村振兴监测中心
+全国水产技术推广总站、中国水产学会
+农业农村部渔政保障中心
+外交部
+国防部
+国家发展和改革委员会
+教育部
+科学技术部
+工业和信息化部
+国家民族事务委员会
+公安部
+国家安全部
+民政部
+司法部
+财政部
+人力资源和社会保障部
+自然资源部
+生态环境部
+住房和城乡建设部
+交通运输部
+水利部
+农业农村部
+商务部
+文化和旅游部
+国家卫生健康委员会
+退役军人事务部
+应急管理部
+中国人民银行
+审计署
+国家语言文字工作委员会
+国家航天局
+国家原子能机构
+国家外国专家局
+国家海洋局
+国家核安全局
+国家乡村振兴局
+国务院国有资产监督管理委员会
+海关总署
+国家税务总局
+国家市场监督管理总局
+国家金融监督管理总局
+中国证券监督管理委员会
+国家广播电视总局
+国家体育总局
+国家信访局
+国家统计局
+国家知识产权局
+国家国际发展合作署
+国家医疗保障局
+国务院参事室
+国家机关事务管理局
+国家反垄断局
+国家认证认可监督管理委员会
+国家标准化管理委员会
+国家新闻出版署（国家版权局）
+国家宗教事务局
+国务院研究室
+国务院侨务办公室
+国务院港澳事务办公室
+国务院台湾事务办公室
+国家互联网信息办公室
+国务院新闻办公室
+新华通讯社
+中国科学院
+中国社会科学院
+中国工程院
+国务院发展研究中心
+中央广播电视总台
+中国气象局
+国家行政学院
+国家粮食和物资储备局
+国家能源局
+国家数据局
+国家国防科技工业局
+国家烟草专卖局
+国家移民管理局
+国家林业和草原局
+国家铁路局
+中国民用航空局
+国家邮政局
+国家文物局
+国家中医药管理局
+国家疾病预防控制局
+国家矿山安全监察局
+国家消防救援局
+国家外汇管理局
+国家药品监督管理局
+北京农业农村局
+天津农业农村委
+河北农业农村厅
+山西农业农村厅
+内蒙古农牧厅
+辽宁农业农村厅
+吉林农业农村厅
+吉林畜牧业管理局
+黑龙江农业农村厅
+上海农业农村委
+江苏农业农村厅
+浙江农业农村厅
+安徽农业农村厅
+福建农业农村厅
+江西农业农村厅
+山东农业农村厅
+河南农业农村厅
+湖北农业农村厅
+湖南农业农村厅
+广东农业农村厅
+广西农业农村厅
+海南农业农村厅
+重庆农业农村委
+四川农业农村厅
+贵州农业农村厅
+云南农业农村厅
+西藏农业农村厅
+陕西农业农村厅
+甘肃农业农村厅
+青海农业农村厅
+宁夏农业农村厅
+新疆农业农村厅
+新疆兵团农业农村局
+主办单位：中华人民共和国农业农村部
+承办单位：农业农村部信息中心
+网站识别码bm21000007
+京ICP备05039419号-2
+京公网安备 11010502037559号
+关于我们
+|
+网站声明
+|
+网站地图
+|
+联系我们
+|
+访问分析
+主办单位：中华人民共和国农业农村部 承办单位：
+农业农村部信息中心
+网站识别码bm21000007
+京ICP备05039419号-2
+京公网安备 11010502037559号
+网站保留所有权，未经允许不得复制镜像
+document.write(unescape("%3Cspan id='_jiucuo_' sitecode='bm21000007' %3E%3C/span%3E%3Cscript src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js' type='text/javascript'%3E%3C/script%3E"));
+$(function(){ $(function () { $("[href='javascript:void(0)']").removeAttr("href"); }); $(".gov-jgzz").on("mouseenter",function(){ $("#gov-jgzz").toggleClass("none"); $("#num").hide(); $("#gov-jgzz").on("mouseenter",function(){ $(this).removeClass("none"); }).on("mouseleave",function(){ $(this).addClass("none"); }) }).on("mouseleave",function(){ $("#gov-jgzz").addClass("none"); $("#num").show(); }) $(".gov-zsdwwz").on("mouseenter",function(){ $("#gov-zsdwwz").toggleClass("none"); $("#num").hide(); $("#gov-zsdwwz").on("mouseenter",function(){ $(this).removeClass("none"); }).on("mouseleave",function(){ $(this).addClass("none"); }) }).on("mouseleave",function(){ $("#gov-zsdwwz").addClass("none"); $("#num").show(); }) $(".gov-gwy").on("mouseenter",function(){ $("#gov-gwy").toggleClass("none"); $("#num").hide(); $("#gov-gwy").on("mouseenter",function(){ $(this).removeClass("none"); }).on("mouseleave",function(){ $(this).addClass("none"); }) }).on("mouseleave",function(){ $("#gov-gwy").addClass("none"); $("#num").show(); }) $(".gov-df").on("mouseenter",function(){ $("#gov-df").toggleClass("none"); $("#num").hide(); $("#gov-df").on("mouseenter",function(){ $(this).removeClass("none"); }).on("mouseleave",function(){ $(this).addClass("none"); }) }).on("mouseleave",function(){ $("#gov-df").addClass("none"); $("#num").show(); }) });
+$(document).ready(function(){ $('a[href="javascript:void(0)"]').removeAttr('href target'); });
+//$(document).ready(function(){ var isPC=IsPC();//获取是否为PC端 if(isPC){//如果是PC端加载PC的js和css var dftSize=$(".font_size.ahc .adc_4").attr('data-ftsz'); $('.arc_body').find('*').css('font-size',dftSize) $(".font_size.ahc").find('a').click(function(){ var thisSize= $(this).attr('data-ftsz'); $(this).addClass('adc_4').siblings('a').removeClass('adc_4'); $('.arc_body').find('*').css('font-size',thisSize) }) }else{ var dftSize=$(".font_size.ahc .adc_4").attr('data-ftsz'); $('.arc_body').find('*').css('font-size','.32rem') $(".font_size.ahc").find('a').click(function(){ var thisSize= $(this).attr('data-ftsz'); if(thisSize == '14px'){ thisSize = '.28rem' }else if(thisSize == '16px'){ thisSize = '.32rem' }else if(thisSize == '18px'){ thisSize = '.36rem' } $(this).addClass('adc_4').siblings('a').removeClass('adc_4'); $('.arc_body').find('*').css('font-size',thisSize) }) //20181116 add by yyp to mobile_table setTimeout(function(){ var winWidth=($(window).width())*0.92; $("table").each(function(i){ var thisWidth = ($(this).width()); $(this).css({'zoom':winWidth/thisWidth}); }); },200) //20181116 add end } //})
+//$(function (){ var fujian=$(".fujian_download_nr"); if(fujian.children().length>0){ fujian.parents(".fujian_download").removeClass('none'); } //});
+var _trackDataType = "web";var _trackData = _trackData || [];
+#pop{display:none;} #pop_goNotGov_bg2{position:fixed;top:0;left:0;width:100%; height:100%; z-index:300; background-color:#cccccc; filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;} #pop_goNotGov{position:fixed; width:100%; top:150px; z-index:9999;} .pop_main{width:360px;margin:0 auto;} .pop_main .pop_tit{height:25px;line-height:25px;background:#c40001;color:#ffff00;font-weight:bold;font-size:14px;padding:0 0 0 10px;} .pop_main .pop_tit img{float:right;cursor:pointer;} .pop_main .pop_txt{font-size:16px;/*line-height:40px;*/background:url(/images/pop_ico.png) no-repeat 15px center;font-weight:bold;padding:0 0 0 55px;} .pop_main .pop_con{height:120px;background:url(/images/body_goNotGov.jpg) no-repeat;padding:55px 0 0;} .pop_main .pop_btn{text-align:center;padding:35px 0 0;overflow:hidden;} .pop_main .pop_btn span{display:inline-block;width:60px;height:30px;line-height:30px;text-align:center;background:#c40001;border:1px solid #7d0000;color:#fff;font-size:14px;margin:0 20px;cursor:pointer;} .pop_main .pop_btn span:hover{background:#ffff00;color:#000;}
+提示信息
+您即将离开农业农村部门户网站，是否继续？
+确 定
+取 消
+var href; window.onload = function(){ //debugger setTimeout(function(){ //判断提示ifa() ifa() },50) } function ifa(){ bindOnclick(document); var fs= document.getElementsByTagName("iframe") for(var j=0;j<fs.length ;j++ ){ var doc= fs[j].contentWindow.document; bindOnclick(doc); } function bindOnclick(doc){ var as= doc.getElementsByTagName("a"); for(var i=0;i<as.length;i++){ as[i].onclick=function(){ if(this.href.match(/^http.*$/)){ // if(this.href.indexOf('.gov.')==-1&&this.href.indexOf('http://202.127.45')==-1&&this.href.indexOf('http://pfsc.agri.cn')==-1){ if(this.href.indexOf('.moa.gov.')==-1&&this.href.indexOf('agri.gov.cn')==-1&&this.href.indexOf('www.gov.cn')==-1&&this.href.indexOf('www.farmer.com.cn/xbpd/')==-1){ //国务院信息和时政要闻及农业部邮箱不提示 href=this.href; show('pop'); return false; } return true; } } } } function ifPop(){ } } function show(pop){ var o = document.getElementById(pop); o.style.display="block"; //o.setAttribute("style","display:block"); return false; } function go(){ window.open(href); //window.location.href=href; document.getElementById("pop").style.display="none"; } function hide(pop){ var o = document.getElementById(pop); document.getElementById("pop").style.display="none"; //o.setAttribute("style","display:none"); return false; } //$(function(){ // var bodyH = $('body').height(); // $('#pop_goNotGov_bg2').height(bodyH); //})
+$(function(){ var qrcode = new QRCode(document.getElementById("qrcode"), { width : 120,//设置宽高 height : 120 }); qrcode.makeCode("https://www.moa.gov.cn/nybgb/2019/201907/202001/t20200106_6334358.htm"); })

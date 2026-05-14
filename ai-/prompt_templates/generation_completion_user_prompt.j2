@@ -1,0 +1,11 @@
+请基于下面这条猪病问诊草稿补全诊断、处置/用药边界、休药期边界、answer_json 和 evidence_anchors。
+{% if disease_name %}
+疾病：{{ disease_name }}
+{% endif %}
+问诊草稿：
+{{ user_query }}
+
+已有 metadata：
+{{ metadata_json }}
+
+请不要改写原始 user_query，只补全 diagnosis、prescription、withdrawal_period、answer_json、evidence_anchors 和 metadata 补充内容。

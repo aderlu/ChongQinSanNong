@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-11T17:03:03+08:00",
+  "raw_json": "raw/web/web_access_dis050_exudative_epidermitis_20260511/SRC-DIS050-EE-WEB-20260511.json",
+  "source_id": "A2-MERCK-EXUDATIVE-EPIDERMITIS-PIGS-2026",
+  "source_page": "wiki/sources/A2-MERCK-EXUDATIVE-EPIDERMITIS-PIGS-2026.md",
+  "facts_changed": 7,
+  "fact_ids": [
+    "DIS050-WEB-001-merck-etiology-shyicus",
+    "DIS050-WEB-002-merck-age-stage",
+    "DIS050-WEB-003-merck-clinical-lesions",
+    "DIS050-WEB-004-merck-predisposing-factors",
+    "DIS050-WEB-005-merck-diagnosis-culture-boundary",
+    "DIS050-WEB-006-merck-differentials",
+    "DIS050-WEB-007-merck-antimicrobial-boundary"
+  ],
+  "disease_page": "wiki/diseases/DIS-050-staphylococcosis-exudative-epidermitis.md",
+  "boundary": "No executable prescription, dose, route, course, withdrawal, MRL, food-safety, or China-specific regulatory conclusion added."
+}

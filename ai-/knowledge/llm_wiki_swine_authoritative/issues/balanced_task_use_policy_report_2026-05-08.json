@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-05-08T22:11:03",
+  "policy": "balanced_source_use_v16",
+  "index": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\balanced_task_use_index.csv",
+  "rows": 154,
+  "task_use_counts": {
+    "generation_ready_limited": 134,
+    "train_ready": 20
+  },
+  "task_use_counts_by_entity_type": {
+    "disease": {
+      "generation_ready_limited": 53,
+      "train_ready": 20
+    },
+    "drug": {
+      "generation_ready_limited": 81
+    }
+  }
+}

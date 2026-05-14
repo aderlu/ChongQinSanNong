@@ -1,0 +1,34 @@
+﻿必须加载 web-access skill 并遵循指引。
+
+目标：针对 DIS-045 猪钩端螺旋体病，访问权威官方来源，获取可用于猪病 LLM Wiki 的来源信息和数据摘要。
+
+检索要求：
+- 使用疾病名加以下后缀之一或多个进行检索：通知、公告、技术指南、通报、实施方案。
+- 优先官方域名：moa.gov.cn、gov.cn、nhc.gov.cn、samr.gov.cn、openstd.samr.gov.cn、woah.org。
+- 搜索摘要只能用于定位，证据必须来自官方原文页面。
+
+必须核验和提取：
+1. 官方域名是否确认。
+2. 页面标题、URL、访问时间、发布机构、发布日期或实施日期。
+3. 页面明示支持的 DIS-045 相关信息。
+4. 来源等级建议、证据状态建议、使用边界和不得外推边界。
+5. 明确说明是否可以支持当前可执行剂量、疗程、休药期、MRL 或合规结论。
+
+禁止：
+- 不得外推治疗、用药、剂量、疗程、休药期、MRL、食品安全。
+- 不得把通用人用或公共卫生信息外推为猪病处置细则。
+- 不得把标准信息页外推为具体检测步骤或确诊结论。
+
+输出：
+- 保存 UTF-8 JSON 到：
+  D:\XF-ChongQin\ai-\knowledge\llm_wiki_swine_authoritative\raw\web\web_access_dis045_leptospirosis_20260511\SRC-DIS045-LEPTO-WEB-20260511.json
+- JSON 必须包含：
+  source_id、title、disease_id、disease_name、accessed_at、publisher、authority_level_suggestion、evidence_status_suggestion、search_terms、official_sources、summary、supported_claims、do_not_extrapolate、extraction_method。
+- source_id 固定为 SRC-DIS045-LEPTO-WEB-20260511。
+- disease_id 固定为 DIS-045。
+- disease_name 固定为 猪钩端螺旋体病。
+- official_sources 中每个来源必须包含 title、url、publisher、accessed_at、official_domain_confirmed。
+- supported_claims 中每条 claim 必须包含 claim 和 supporting_source_url。
+- extraction_method 必须说明使用了 web-access，以及实际读取方式；如果 CDP 失败，要写明失败分支。
+
+完成后只简要说明 JSON 是否写入成功，不要把网页长文贴入回答。

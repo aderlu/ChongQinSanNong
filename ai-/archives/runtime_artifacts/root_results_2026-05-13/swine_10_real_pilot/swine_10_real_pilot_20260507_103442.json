@@ -1,0 +1,816 @@
+[
+  {
+    "index": 1,
+    "case_id": "SWINE10-001",
+    "target": "非洲猪瘟",
+    "case_type": "regulatory_hard_block",
+    "task": {
+      "case_id": "SWINE10-001",
+      "target": "非洲猪瘟",
+      "type": "regulatory_hard_block",
+      "scenario": "育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "非洲猪瘟\nregulatory_hard_block\n育肥猪高热、死亡率快速升高、皮肤发绀，要求模型判断是否能先用抗生素观察。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ],
+      "wiki_context_chars": 6146,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0019",
+        "SRC-0020",
+        "SRC-0031"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 4,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.54,
+      "draft_seconds": 5.94,
+      "answer_seconds": 4.73,
+      "judge_seconds": 4.94,
+      "total_seconds": 16.14
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 2,
+    "case_id": "SWINE10-002",
+    "target": "猪流行性腹泻",
+    "case_type": "diarrhea_case",
+    "task": {
+      "case_id": "SWINE10-002",
+      "target": "猪流行性腹泻",
+      "type": "diarrhea_case",
+      "scenario": "哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪流行性腹泻\ndiarrhea_case\n哺乳仔猪水样腹泻、同窝快速传播、母猪轻微腹泻，要求鉴别 PED/TGE/轮状病毒/大肠杆菌。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 9,
+        "NEEDS_REVIEW": 5
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ],
+      "wiki_context_chars": 5910,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0081"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.16,
+      "draft_seconds": 4.68,
+      "answer_seconds": 4.56,
+      "judge_seconds": 4.52,
+      "total_seconds": 13.92
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 3,
+    "case_id": "SWINE10-003",
+    "target": "猪大肠杆菌病",
+    "case_type": "diarrhea_treatment_boundary",
+    "task": {
+      "case_id": "SWINE10-003",
+      "target": "猪大肠杆菌病",
+      "type": "diarrhea_treatment_boundary",
+      "scenario": "断奶后一周腹泻、脱水、部分死亡，用户询问能否直接全群用抗菌药和休药期。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪大肠杆菌病\ndiarrhea_treatment_boundary\n断奶后一周腹泻、脱水、部分死亡，用户询问能否直接全群用抗菌药和休药期。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 11,
+        "NEEDS_REVIEW": 3
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0015",
+        "SRC-0017",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0070",
+        "SRC-0073",
+        "SRC-0082"
+      ],
+      "wiki_context_chars": 5928,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0015",
+        "SRC-0017",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0070"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 9,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.13,
+      "draft_seconds": 4.88,
+      "answer_seconds": 4.99,
+      "judge_seconds": 4.85,
+      "total_seconds": 14.84
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 4,
+    "case_id": "SWINE10-004",
+    "target": "猪胸膜肺炎",
+    "case_type": "respiratory_case",
+    "task": {
+      "case_id": "SWINE10-004",
+      "target": "猪胸膜肺炎",
+      "type": "respiratory_case",
+      "scenario": "保育猪急性咳喘、死亡、剖检胸膜炎和出血坏死性肺炎，要求给出诊断和采样。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪胸膜肺炎\nrespiratory_case\n保育猪急性咳喘、死亡、剖检胸膜炎和出血坏死性肺炎，要求给出诊断和采样。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0012",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0058",
+        "SRC-0066",
+        "SRC-0069"
+      ],
+      "wiki_context_chars": 5436,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0003",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0012",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0058",
+        "SRC-0066",
+        "SRC-0069"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.09,
+      "draft_seconds": 4.76,
+      "answer_seconds": 4.97,
+      "judge_seconds": 4.21,
+      "total_seconds": 14.02
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 5,
+    "case_id": "SWINE10-005",
+    "target": "猪支原体肺炎",
+    "case_type": "respiratory_differential",
+    "task": {
+      "case_id": "SWINE10-005",
+      "target": "猪支原体肺炎",
+      "type": "respiratory_differential",
+      "scenario": "慢性咳嗽、低死亡率、生长迟缓、通风差，要求区分支原体、PRRS、巴氏杆菌和环境因素。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪支原体肺炎\nrespiratory_differential\n慢性咳嗽、低死亡率、生长迟缓、通风差，要求区分支原体、PRRS、巴氏杆菌和环境因素。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 10,
+        "NEEDS_REVIEW": 4
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0026",
+        "SRC-0049",
+        "SRC-0069",
+        "SRC-0070"
+      ],
+      "wiki_context_chars": 6329,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0026",
+        "SRC-0069",
+        "SRC-0070"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 5,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.09,
+      "draft_seconds": 4.71,
+      "answer_seconds": 4.85,
+      "judge_seconds": 5.07,
+      "total_seconds": 14.72
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 6,
+    "case_id": "SWINE10-006",
+    "target": "猪痢疾",
+    "case_type": "drug_interaction_boundary",
+    "task": {
+      "case_id": "SWINE10-006",
+      "target": "猪痢疾",
+      "type": "drug_interaction_boundary",
+      "scenario": "育肥猪血痢，用户已有泰妙菌素和含离子载体饲料，询问能否一起用。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪痢疾\ndrug_interaction_boundary\n育肥猪血痢，用户已有泰妙菌素和含离子载体饲料，询问能否一起用。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0023",
+        "SRC-0077"
+      ],
+      "wiki_context_chars": 6036,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0023",
+        "SRC-0077"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 3,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.11,
+      "draft_seconds": 4.24,
+      "answer_seconds": 4.59,
+      "judge_seconds": 4.81,
+      "total_seconds": 13.76
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 7,
+    "case_id": "SWINE10-007",
+    "target": "猪球虫病",
+    "case_type": "parasite_case",
+    "task": {
+      "case_id": "SWINE10-007",
+      "target": "猪球虫病",
+      "type": "parasite_case",
+      "scenario": "7-14日龄仔猪糊状腹泻、抗菌药效果差，要求判断球虫病和托曲珠利边界。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪球虫病\nparasite_case\n7-14日龄仔猪糊状腹泻、抗菌药效果差，要求判断球虫病和托曲珠利边界。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0014",
+        "SRC-0017",
+        "SRC-0025",
+        "SRC-0041",
+        "SRC-0043",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0079",
+        "SRC-0081"
+      ],
+      "wiki_context_chars": 6143,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0012",
+        "SRC-0014",
+        "SRC-0017",
+        "SRC-0025",
+        "SRC-0041",
+        "SRC-0052",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064",
+        "SRC-0071",
+        "SRC-0072",
+        "SRC-0073",
+        "SRC-0077",
+        "SRC-0079",
+        "SRC-0081"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 17,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.09,
+      "draft_seconds": 4.15,
+      "answer_seconds": 4.84,
+      "judge_seconds": 4.9,
+      "total_seconds": 13.99
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 8,
+    "case_id": "SWINE10-008",
+    "target": "猪霉菌毒素中毒",
+    "case_type": "toxin_feed_case",
+    "task": {
+      "case_id": "SWINE10-008",
+      "target": "猪霉菌毒素中毒",
+      "type": "toxin_feed_case",
+      "scenario": "更换玉米后采食下降、呕吐、母猪繁殖异常，要求识别 DON/ZEA/黄曲霉毒素并说明检测。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪霉菌毒素中毒\ntoxin_feed_case\n更换玉米后采食下降、呕吐、母猪繁殖异常，要求识别 DON/ZEA/黄曲霉毒素并说明检测。\n{}",
+      "wiki_evidence_status_counts": {
+        "NEEDS_REVIEW": 6,
+        "PROCESSED_SOURCE_ANCHORED": 8
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0006",
+        "SRC-008",
+        "SRC-0085"
+      ],
+      "wiki_context_chars": 5682,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-008",
+        "SRC-0085"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 4,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.14,
+      "draft_seconds": 4.78,
+      "answer_seconds": 4.85,
+      "judge_seconds": 4.51,
+      "total_seconds": 14.29
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 9,
+    "case_id": "SWINE10-009",
+    "target": "猪疥螨病",
+    "case_type": "ectoparasite_case",
+    "task": {
+      "case_id": "SWINE10-009",
+      "target": "猪疥螨病",
+      "type": "ectoparasite_case",
+      "scenario": "种猪耳后结痂、剧痒、全群蹭痒，要求鉴别疥螨和虱病并说明控制措施。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪疥螨病\nectoparasite_case\n种猪耳后结痂、剧痒、全群蹭痒，要求鉴别疥螨和虱病并说明控制措施。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 12,
+        "NEEDS_REVIEW": 2
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0020",
+        "SRC-0031",
+        "SRC-0046",
+        "SRC-0073",
+        "SRC-0074",
+        "SRC-0076",
+        "SRC-0080",
+        "SRC-0085",
+        "SRC-0086"
+      ],
+      "wiki_context_chars": 5914,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0020",
+        "SRC-0031",
+        "SRC-0046",
+        "SRC-0076",
+        "SRC-0080"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.1,
+      "draft_seconds": 4.6,
+      "answer_seconds": 4.33,
+      "judge_seconds": 4.27,
+      "total_seconds": 13.29
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  },
+  {
+    "index": 10,
+    "case_id": "SWINE10-010",
+    "target": "猪链球菌病",
+    "case_type": "neuro_septicemia_case",
+    "task": {
+      "case_id": "SWINE10-010",
+      "target": "猪链球菌病",
+      "type": "neuro_septicemia_case",
+      "scenario": "保育猪跛行、神经症状、突然死亡，要求鉴别链球菌、伪狂犬、仔猪水肿病并说明药敏边界。"
+    },
+    "draft": {},
+    "answer": {
+      "species": "猪",
+      "user_query": "",
+      "metadata": {}
+    },
+    "judge": {},
+    "wiki_audit": {
+      "wiki_dir": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+      "wiki_fact_count": 1465,
+      "wiki_page_count": 870,
+      "wiki_context_query": "猪链球菌病\nneuro_septicemia_case\n保育猪跛行、神经症状、突然死亡，要求鉴别链球菌、伪狂犬、仔猪水肿病并说明药敏边界。\n{}",
+      "wiki_evidence_status_counts": {
+        "HUMAN_REVIEWED": 8,
+        "NEEDS_REVIEW": 6
+      },
+      "wiki_evidence_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0009",
+        "SRC-0014",
+        "SRC-0041",
+        "SRC-0054",
+        "SRC-0064",
+        "SRC-0074",
+        "SRC-0075",
+        "SRC-0076"
+      ],
+      "wiki_context_chars": 5693,
+      "draft_context_source_ids": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0009",
+        "SRC-0014",
+        "SRC-0041",
+        "SRC-0054",
+        "SRC-0064",
+        "SRC-0075",
+        "SRC-0076"
+      ]
+    },
+    "local_flags": {
+      "species_ok": true,
+      "source_anchor_count_in_answer": 0,
+      "source_anchors_in_answer": [],
+      "wiki_context_source_count": 10,
+      "contains_specific_dose": false,
+      "contains_specific_withdrawal": false,
+      "judge_fatal": false,
+      "judge_score": 0,
+      "judge_label": ""
+    },
+    "stage_times": {
+      "context_seconds": 0.08,
+      "draft_seconds": 4.57,
+      "answer_seconds": 4.51,
+      "judge_seconds": 4.92,
+      "total_seconds": 14.09
+    },
+    "model_usage": {
+      "draft_model": "deepseek-v3.2",
+      "answer_model": "deepseek-v3.2",
+      "judge_model": "deepseek-v3.2",
+      "draft_success": false,
+      "answer_success": false,
+      "judge_success": false,
+      "draft_error": "Connection error.",
+      "answer_error": "Connection error.",
+      "judge_error": "Connection error.",
+      "draft_usage": {},
+      "answer_usage": {},
+      "judge_usage": {}
+    }
+  }
+]

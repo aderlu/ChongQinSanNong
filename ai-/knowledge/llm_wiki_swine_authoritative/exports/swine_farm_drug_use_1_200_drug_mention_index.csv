@@ -1,0 +1,539 @@
+﻿drug_mention,fact_id,source_id,page,line_start,line_end,drug_page,disease_page,chapter,heading
+舒巴坦,SFDUT1-TX-0003,SRC-0089,2,303,303,,,第一章,1.抗生素
+克拉维酸,SFDUT1-TX-0003,SRC-0089,2,303,303,,,第一章,1.抗生素
+磺胺,SFDUT1-TX-0004,SRC-0089,3,314,314,DRUG-034-sulfonamides.md,,第一章,2. 合成抗菌药
+乙酰甲喹,SFDUT1-TX-0005,SRC-0089,3,317,317,DRUG-050-dimetridazole-ronidazole.md,,第一章,2. 合成抗菌药
+喹乙醇,SFDUT1-TX-0005,SRC-0089,3,317,317,DRUG-049-olaquindox.md,,第一章,2. 合成抗菌药
+阿散酸,SFDUT1-TX-0005,SRC-0089,3,317,317,,,第一章,2. 合成抗菌药
+博落回,SFDUT1-TX-0005,SRC-0089,3,317,317,,,第一章,2. 合成抗菌药
+牛至油,SFDUT1-TX-0005,SRC-0089,3,317,317,,,第一章,2. 合成抗菌药
+小檗碱,SFDUT1-TX-0005,SRC-0089,3,317,317,,,第一章,2. 合成抗菌药
+乌洛托品,SFDUT1-TX-0005,SRC-0089,3,317,317,,,第一章,2. 合成抗菌药
+磺胺,SFDUT1-TX-0006,SRC-0089,3,338,338,DRUG-034-sulfonamides.md,,第一章,4. 抗寄生虫药
+托曲珠利,SFDUT1-TX-0006,SRC-0089,3,338,338,DRUG-027-toltrazuril.md,,第一章,4. 抗寄生虫药
+地克珠利,SFDUT1-TX-0006,SRC-0089,3,338,338,,,第一章,4. 抗寄生虫药
+肾上腺素,SFDUT1-TX-0013,SRC-0089,8,468,468,,,第一章,1. 不使用违禁药物
+土霉素,SFDUT1-TX-0018,SRC-0089,10,525,525,DRUG-019-oxytetracycline.md,,第一章,1. 不使用违禁药物
+四环素,SFDUT1-TX-0018,SRC-0089,10,525,525,DRUG-030-tetracyclines.md,,第一章,1. 不使用违禁药物
+红霉素,SFDUT1-TX-0018,SRC-0089,10,525,525,DRUG-073-erythromycin.md,,第一章,1. 不使用违禁药物
+林可霉素,SFDUT1-TX-0018,SRC-0089,10,525,525,DRUG-014-lincomycin.md,,第一章,1. 不使用违禁药物
+二氟沙星,SFDUT1-TX-0022,SRC-0089,10,556,556,DRUG-051-danofloxacin-marbofloxacin.md,,第一章,2. 严格执行国家规定的兽药休药期
+乙酰甲喹,SFDUT1-TX-0022,SRC-0089,10,556,556,DRUG-050-dimetridazole-ronidazole.md,,第一章,2. 严格执行国家规定的兽药休药期
+喹乙醇,SFDUT1-TX-0022,SRC-0089,10,556,556,DRUG-049-olaquindox.md,,第一章,2. 严格执行国家规定的兽药休药期
+青霉素,SFDUT1-TX-0023,SRC-0089,11,566,566,DRUG-009-penicillin-g.md,,第一章,1. 对症正确选药
+氨苄西林,SFDUT1-TX-0023,SRC-0089,11,566,566,DRUG-042-ampicillin.md,,第一章,1. 对症正确选药
+四环素,SFDUT1-TX-0023,SRC-0089,11,566,566,DRUG-030-tetracyclines.md,,第一章,1. 对症正确选药
+氟苯尼考,SFDUT1-TX-0023,SRC-0089,11,566,566,DRUG-012-florfenicol.md,,第一章,1. 对症正确选药
+阿托品,SFDUT1-TX-0023,SRC-0089,11,566,566,DRUG-079-atropine.md,,第一章,1. 对症正确选药
+磺胺,SFDUT1-TX-0027,SRC-0089,13,584,584,DRUG-034-sulfonamides.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+维生素,SFDUT1-TX-0027,SRC-0089,13,584,584,,,第一章,5. 合理搭配用药，注意配伍禁忌
+青霉素,SFDUT1-TX-0028,SRC-0089,13,588,588,DRUG-009-penicillin-g.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+舒巴坦,SFDUT1-TX-0028,SRC-0089,13,588,588,,,第一章,5. 合理搭配用药，注意配伍禁忌
+克拉维酸,SFDUT1-TX-0028,SRC-0089,13,588,588,,,第一章,5. 合理搭配用药，注意配伍禁忌
+四环素,SFDUT1-TX-0028,SRC-0089,13,588,588,DRUG-030-tetracyclines.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+磺胺,SFDUT1-TX-0028,SRC-0089,13,588,588,DRUG-034-sulfonamides.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+碳酸氢钠,SFDUT1-TX-0028,SRC-0089,13,588,588,,,第一章,5. 合理搭配用药，注意配伍禁忌
+维生素,SFDUT1-TX-0028,SRC-0089,13,588,588,,,第一章,5. 合理搭配用药，注意配伍禁忌
+链霉素,SFDUT1-TX-0029,SRC-0089,13,589,589,,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+卡那霉素,SFDUT1-TX-0029,SRC-0089,13,589,589,,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+庆大霉素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-023-gentamicin.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+新霉素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-024-neomycin.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+四环素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-030-tetracyclines.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+红霉素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-073-erythromycin.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+黏菌素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-052-colistin.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+多黏菌素,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-052-colistin.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+磺胺,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-034-sulfonamides.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+阿托品,SFDUT1-TX-0029,SRC-0089,13,589,589,DRUG-079-atropine.md,DIS-051-streptococcosis-streptococcus-suis.md,第一章,5. 合理搭配用药，注意配伍禁忌
+土霉素,SFDUT1-TX-0030,SRC-0089,13,590,590,DRUG-019-oxytetracycline.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+四环素,SFDUT1-TX-0030,SRC-0089,13,590,590,DRUG-030-tetracyclines.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+泰乐菌素,SFDUT1-TX-0030,SRC-0089,13,590,590,DRUG-015-tylosin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+泰妙菌素,SFDUT1-TX-0030,SRC-0089,13,590,590,DRUG-013-tiamulin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+喹乙醇,SFDUT1-TX-0030,SRC-0089,13,590,590,DRUG-049-olaquindox.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+红霉素,SFDUT1-TX-0031,SRC-0089,13,591,591,DRUG-073-erythromycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+泰乐菌素,SFDUT1-TX-0031,SRC-0089,13,591,591,DRUG-015-tylosin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+林可霉素,SFDUT1-TX-0031,SRC-0089,13,591,591,DRUG-014-lincomycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+磺胺,SFDUT1-TX-0031,SRC-0089,13,591,591,DRUG-034-sulfonamides.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+新霉素,SFDUT1-TX-0032,SRC-0089,13,596,596,DRUG-024-neomycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+四环素,SFDUT1-TX-0032,SRC-0089,13,596,596,DRUG-030-tetracyclines.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+林可霉素,SFDUT1-TX-0032,SRC-0089,13,596,596,DRUG-014-lincomycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+恩诺沙星,SFDUT1-TX-0032,SRC-0089,13,596,596,DRUG-018-enrofloxacin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+青霉素,SFDUT1-TX-0033,SRC-0089,13,599,599,DRUG-009-penicillin-g.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+红霉素,SFDUT1-TX-0033,SRC-0089,13,599,599,DRUG-073-erythromycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+林可霉素,SFDUT1-TX-0033,SRC-0089,13,599,599,DRUG-014-lincomycin.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+磺胺,SFDUT1-TX-0033,SRC-0089,13,599,599,DRUG-034-sulfonamides.md,,第一章,5. 合理搭配用药，注意配伍禁忌
+磺胺,SFDUT1-TX-0034,SRC-0089,14,605,605,DRUG-034-sulfonamides.md,,第一章,1. 充分考虑药物的特性
+维生素,SFDUT1-TX-0039,SRC-0089,16,643,643,,,第二章,1. 药物的剂量单位
+卡那霉素,SFDUT1-TX-0040,SRC-0089,16,647,647,,,第二章,2. 药物的含量表示
+卡那霉素,SFDUT1-TX-0043,SRC-0089,17,655,655,,,第二章,3. 怎样计算个体给药剂量
+卡那霉素,SFDUT1-TX-0044,SRC-0089,17,657,657,,,第二章,3. 怎样计算个体给药剂量
+安乃近,SFDUT1-TX-0048,SRC-0089,17,669,669,DRUG-029-nsaids.md,,第二章,4. 使用说明书上没标明每千克体重用量是多少怎么办
+阿托品,SFDUT1-TX-0048,SRC-0089,17,669,669,DRUG-079-atropine.md,,第二章,4. 使用说明书上没标明每千克体重用量是多少怎么办
+肾上腺素,SFDUT1-TX-0048,SRC-0089,17,669,669,,,第二章,4. 使用说明书上没标明每千克体重用量是多少怎么办
+安钠咖,SFDUT1-TX-0048,SRC-0089,17,669,669,,,第二章,4. 使用说明书上没标明每千克体重用量是多少怎么办
+安乃近,SFDUT1-TX-0049,SRC-0089,17,671,671,DRUG-029-nsaids.md,,第二章,4. 使用说明书上没标明每千克体重用量是多少怎么办
+青霉素,SFDUT1-TX-0056,SRC-0089,19,709,709,DRUG-009-penicillin-g.md,,第二章,第三节 治疗猪病要选择最适宜的给药方法
+肾上腺素,SFDUT1-TX-0056,SRC-0089,19,709,709,,,第二章,第三节 治疗猪病要选择最适宜的给药方法
+庆大霉素,SFDUT1-TX-0057,SRC-0089,19,713,713,DRUG-023-gentamicin.md,DIS-044-gl-sser-s-disease.md,第二章,1. 口服给药
+新霉素,SFDUT1-TX-0057,SRC-0089,19,713,713,DRUG-024-neomycin.md,DIS-044-gl-sser-s-disease.md,第二章,1. 口服给药
+磺胺,SFDUT1-TX-0057,SRC-0089,19,713,713,DRUG-034-sulfonamides.md,DIS-044-gl-sser-s-disease.md,第二章,1. 口服给药
+吡哌酸,SFDUT1-TX-0057,SRC-0089,19,713,713,,DIS-044-gl-sser-s-disease.md,第二章,1. 口服给药
+伊维菌素,SFDUT1-TX-0060,SRC-0089,20,721,721,DRUG-002-ivermectin.md,,第二章,2. 注射给药
+喹乙醇,SFDUT1-TX-0063,SRC-0089,20,728,728,DRUG-049-olaquindox.md,,第二章,3.混饲与饮水给药
+泰乐菌素,SFDUT1-TX-0066,SRC-0089,21,746,746,DRUG-015-tylosin.md,,第二章,1. 对因治疗
+林可霉素,SFDUT1-TX-0066,SRC-0089,21,746,746,DRUG-014-lincomycin.md,,第二章,1. 对因治疗
+恩诺沙星,SFDUT1-TX-0066,SRC-0089,21,746,746,DRUG-018-enrofloxacin.md,,第二章,1. 对因治疗
+安乃近,SFDUT1-TX-0068,SRC-0089,21,754,754,DRUG-029-nsaids.md,,第二章,3. 标本兼治
+地塞米松,SFDUT1-TX-0068,SRC-0089,21,754,754,DRUG-066-dexamethasone.md,,第二章,3. 标本兼治
+维生素,SFDUT1-TX-0068,SRC-0089,21,754,754,,,第二章,3. 标本兼治
+磺胺,SFDUT1-TX-0070,SRC-0089,22,762,762,DRUG-034-sulfonamides.md,DIS-042-edema-disease-e-coli.md,第二章,1. 要分析使用药物治疗的利弊
+磺胺,SFDUT1-TX-0071,SRC-0089,22,764,764,DRUG-034-sulfonamides.md,,第二章,1. 要分析使用药物治疗的利弊
+碳酸氢钠,SFDUT1-TX-0071,SRC-0089,22,764,764,,,第二章,1. 要分析使用药物治疗的利弊
+氨苄西林,SFDUT1-TX-0073,SRC-0089,22,772,772,DRUG-042-ampicillin.md,,第二章,3. 要掌握药物的药动学特征
+阿莫西林,SFDUT1-TX-0073,SRC-0089,22,772,772,DRUG-010-amoxicillin.md,,第二章,3. 要掌握药物的药动学特征
+地塞米松,SFDUT1-TX-0076,SRC-0089,24,794,794,DRUG-066-dexamethasone.md,,第二章,4. 禁用糖皮质激素（皮质甾体类激素）
+敌百虫,SFDUT1-TX-0080,SRC-0089,24,808,808,DRUG-076-dichlorvos.md,,第二章,7. 禁用峻泻药
+多西环素,SFDUT1-TX-0087,SRC-0089,25,824,824,DRUG-021-doxycycline.md,,第二章,7. 禁用峻泻药
+强力霉素,SFDUT1-TX-0087,SRC-0089,25,824,824,DRUG-021-doxycycline.md,,第二章,7. 禁用峻泻药
+阿散酸,SFDUT1-TX-0088,SRC-0089,25,830,830,,,第二章,7. 禁用峻泻药
+伊维菌素,SFDUT1-TX-0089,SRC-0089,25,833,833,DRUG-002-ivermectin.md,,第二章,7. 禁用峻泻药
+青霉素,SFDUT1-TX-0090,SRC-0089,25,841,841,DRUG-009-penicillin-g.md,,第三章,第一节 肆霉素类
+青霉素,SFDUT1-TX-0091,SRC-0089,26,845,845,DRUG-009-penicillin-g.md,,第三章,一、分类
+青霉素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-009-penicillin-g.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+卡那霉素,SFDUT1-TX-0092,SRC-0089,27,853,853,,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+四环素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-030-tetracyclines.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+红霉素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-073-erythromycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+泰乐菌素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-015-tylosin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+氟苯尼考,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-012-florfenicol.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+林可霉素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-014-lincomycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+泰妙菌素,SFDUT1-TX-0092,SRC-0089,27,853,853,DRUG-013-tiamulin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 属杀菌性抗生素
+青霉素,SFDUT1-TX-0093,SRC-0089,27,863,863,DRUG-009-penicillin-g.md,,第三章,3. 属时间依赖性抗生素
+青霉素,SFDUT1-TX-0094,SRC-0089,27,867,867,DRUG-009-penicillin-g.md,,第三章,4. 容易产生耐药性
+舒巴坦,SFDUT1-TX-0094,SRC-0089,27,867,867,,,第三章,4. 容易产生耐药性
+克拉维酸,SFDUT1-TX-0094,SRC-0089,27,867,867,,,第三章,4. 容易产生耐药性
+青霉素,SFDUT1-TX-0095,SRC-0089,28,871,871,DRUG-009-penicillin-g.md,,第三章,三、药物相互作用
+青霉素,SFDUT1-TX-0096,SRC-0089,28,877,877,DRUG-009-penicillin-g.md,,第三章,三、药物相互作用
+四环素,SFDUT1-TX-0096,SRC-0089,28,877,877,DRUG-030-tetracyclines.md,,第三章,三、药物相互作用
+葡萄糖,SFDUT1-TX-0096,SRC-0089,28,877,877,,,第三章,三、药物相互作用
+肾上腺素,SFDUT1-TX-0097,SRC-0089,29,884,884,,,第三章,四、不良反应
+青霉素,SFDUT1-TX-0098,SRC-0089,29,893,893,DRUG-009-penicillin-g.md,,第三章,1. 注射用青霉素钠（钾）
+青霉素,SFDUT1-TX-0099,SRC-0089,29,895,895,DRUG-009-penicillin-g.md,,第三章,1. 注射用青霉素钠（钾）
+青霉素,SFDUT1-TX-0100,SRC-0089,29,897,897,DRUG-009-penicillin-g.md,,第三章,1. 注射用青霉素钠（钾）
+葡萄糖,SFDUT1-TX-0100,SRC-0089,29,897,897,,,第三章,1. 注射用青霉素钠（钾）
+碳酸氢钠,SFDUT1-TX-0100,SRC-0089,29,897,897,,,第三章,1. 注射用青霉素钠（钾）
+青霉素,SFDUT1-TX-0101,SRC-0089,30,903,903,DRUG-009-penicillin-g.md,,第三章,（3）注意事项
+青霉素,SFDUT1-TX-0102,SRC-0089,30,904,904,DRUG-009-penicillin-g.md,,第三章,（3）注意事项
+土霉素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-019-oxytetracycline.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+金霉素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-020-chlortetracycline.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+四环素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-030-tetracyclines.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+红霉素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-073-erythromycin.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+氟苯尼考,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-012-florfenicol.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+林可霉素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-014-lincomycin.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+黏菌素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-052-colistin.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+多黏菌素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-052-colistin.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+泰妙菌素,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-013-tiamulin.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+磺胺,SFDUT1-TX-0105,SRC-0089,31,916,916,DRUG-034-sulfonamides.md,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+葡萄糖,SFDUT1-TX-0105,SRC-0089,31,916,916,,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+碳酸氢钠,SFDUT1-TX-0105,SRC-0089,31,916,916,,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+维生素,SFDUT1-TX-0105,SRC-0089,31,916,916,,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+氯丙嗪,SFDUT1-TX-0105,SRC-0089,31,916,916,,,第三章,2. 注射用氨苄西林钠（氨苄青霉素、氨苄西林）
+氨苄西林,SFDUT1-TX-0106,SRC-0089,31,921,921,DRUG-042-ampicillin.md,,第三章,3. 注射用舒巴坦钠-氨苄西林钠
+氨苄西林,SFDUT1-TX-0108,SRC-0089,31,923,923,DRUG-042-ampicillin.md,,第三章,3. 注射用舒巴坦钠-氨苄西林钠
+阿莫西林,SFDUT1-TX-0110,SRC-0089,31,928,928,DRUG-010-amoxicillin.md,,第三章,4. 阿莫西林可溶性粉（羟氨苄青霉素）
+青霉素,SFDUT1-TX-0111,SRC-0089,31,932,932,DRUG-009-penicillin-g.md,DIS-044-gl-sser-s-disease.md,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+地塞米松,SFDUT1-TX-0111,SRC-0089,31,932,932,DRUG-066-dexamethasone.md,DIS-044-gl-sser-s-disease.md,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+氨苄西林,SFDUT1-TX-0114,SRC-0089,31,938,938,DRUG-042-ampicillin.md,,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+阿莫西林,SFDUT1-TX-0114,SRC-0089,31,938,938,DRUG-010-amoxicillin.md,,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+四环素,SFDUT1-TX-0114,SRC-0089,31,938,938,DRUG-030-tetracyclines.md,,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+氟苯尼考,SFDUT1-TX-0114,SRC-0089,31,938,938,DRUG-012-florfenicol.md,,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+林可霉素,SFDUT1-TX-0114,SRC-0089,31,938,938,DRUG-014-lincomycin.md,,第三章,5. 注射用阿莫西林钠（羟氨苄青霉素）
+青霉素,SFDUT1-TX-0115,SRC-0089,32,942,942,DRUG-009-penicillin-g.md,,第三章,第二节 头孢菌素类
+青霉素,SFDUT1-TX-0116,SRC-0089,28,948,948,DRUG-009-penicillin-g.md,,第三章,一、分类
+氨苄西林,SFDUT1-TX-0116,SRC-0089,28,948,948,DRUG-042-ampicillin.md,,第三章,一、分类
+阿莫西林,SFDUT1-TX-0116,SRC-0089,28,948,948,DRUG-010-amoxicillin.md,,第三章,一、分类
+头孢喹肟,SFDUT1-TX-0118,SRC-0089,31,958,958,DRUG-044-cefquinome.md,,第三章,一、分类
+氨苄西林,SFDUT1-TX-0119,SRC-0089,34,974,974,DRUG-042-ampicillin.md,DIS-044-gl-sser-s-disease.md,第三章,1. 注射用头孢噻呋
+阿莫西林,SFDUT1-TX-0119,SRC-0089,34,974,974,DRUG-010-amoxicillin.md,DIS-044-gl-sser-s-disease.md,第三章,1. 注射用头孢噻呋
+头孢噻呋,SFDUT1-TX-0119,SRC-0089,34,974,974,DRUG-011-ceftiofur.md,DIS-044-gl-sser-s-disease.md,第三章,1. 注射用头孢噻呋
+大观霉素,SFDUT1-TX-0119,SRC-0089,34,974,974,DRUG-026-spectinomycin.md,DIS-044-gl-sser-s-disease.md,第三章,1. 注射用头孢噻呋
+林可霉素,SFDUT1-TX-0119,SRC-0089,34,974,974,DRUG-014-lincomycin.md,DIS-044-gl-sser-s-disease.md,第三章,1. 注射用头孢噻呋
+头孢噻呋,SFDUT1-TX-0124,SRC-0089,35,993,993,DRUG-011-ceftiofur.md,,第三章,2. $5\%$ 盐酸头孢噻呋混悬注射液（商品名：辉瑞“速解灵”）
+头孢喹肟,SFDUT1-TX-0132,SRC-0089,36,1043,1043,DRUG-044-cefquinome.md,,第三章,（1）作用与用途
+头孢噻呋,SFDUT1-TX-0133,SRC-0089,36,1044,1044,DRUG-011-ceftiofur.md,,第三章,（1）作用与用途
+头孢喹肟,SFDUT1-TX-0134,SRC-0089,36,1045,1045,DRUG-044-cefquinome.md,,第三章,（1）作用与用途
+氨苄西林,SFDUT1-TX-0135,SRC-0089,36,1046,1046,DRUG-042-ampicillin.md,,第三章,（1）作用与用途
+头孢噻呋,SFDUT1-TX-0135,SRC-0089,36,1046,1046,DRUG-011-ceftiofur.md,,第三章,（1）作用与用途
+链霉素,SFDUT1-TX-0136,SRC-0089,37,1050,1050,,,第三章,第三节 氨基糖苷类
+卡那霉素,SFDUT1-TX-0136,SRC-0089,37,1050,1050,,,第三章,第三节 氨基糖苷类
+庆大霉素,SFDUT1-TX-0136,SRC-0089,37,1050,1050,DRUG-023-gentamicin.md,,第三章,第三节 氨基糖苷类
+新霉素,SFDUT1-TX-0136,SRC-0089,37,1050,1050,DRUG-024-neomycin.md,,第三章,第三节 氨基糖苷类
+阿米卡星,SFDUT1-TX-0136,SRC-0089,37,1050,1050,,,第三章,第三节 氨基糖苷类
+青霉素,SFDUT1-TX-0137,SRC-0089,38,1066,1066,DRUG-009-penicillin-g.md,,第三章,1. 属杀菌性抗生素
+庆大霉素,SFDUT1-TX-0141,SRC-0089,39,1092,1092,DRUG-023-gentamicin.md,DIS-041-neonatal-post-weaning-colibacillosis.md,第三章,7. 内服极少吸收，只可作为肠道感染用药
+新霉素,SFDUT1-TX-0141,SRC-0089,39,1092,1092,DRUG-024-neomycin.md,DIS-041-neonatal-post-weaning-colibacillosis.md,第三章,7. 内服极少吸收，只可作为肠道感染用药
+阿托品,SFDUT1-TX-0141,SRC-0089,39,1092,1092,DRUG-079-atropine.md,DIS-041-neonatal-post-weaning-colibacillosis.md,第三章,7. 内服极少吸收，只可作为肠道感染用药
+链霉素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,,,第三章,1. 肾毒性
+卡那霉素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,,,第三章,1. 肾毒性
+庆大霉素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,DRUG-023-gentamicin.md,,第三章,1. 肾毒性
+新霉素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,DRUG-024-neomycin.md,,第三章,1. 肾毒性
+阿米卡星,SFDUT1-TX-0144,SRC-0089,40,1116,1116,,,第三章,1. 肾毒性
+黏菌素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,DRUG-052-colistin.md,,第三章,1. 肾毒性
+多黏菌素,SFDUT1-TX-0144,SRC-0089,40,1116,1116,DRUG-052-colistin.md,,第三章,1. 肾毒性
+杆菌肽,SFDUT1-TX-0144,SRC-0089,40,1116,1116,,,第三章,1. 肾毒性
+链霉素,SFDUT1-TX-0145,SRC-0089,40,1126,1126,,,第三章,3. 神经肌肉阻滞作用
+卡那霉素,SFDUT1-TX-0145,SRC-0089,40,1126,1126,,,第三章,3. 神经肌肉阻滞作用
+新霉素,SFDUT1-TX-0145,SRC-0089,40,1126,1126,DRUG-024-neomycin.md,,第三章,3. 神经肌肉阻滞作用
+链霉素,SFDUT1-TX-0146,SRC-0089,40,1130,1130,,,第三章,4. 过敏反应
+地塞米松,SFDUT1-TX-0146,SRC-0089,40,1130,1130,DRUG-066-dexamethasone.md,,第三章,4. 过敏反应
+肾上腺素,SFDUT1-TX-0146,SRC-0089,40,1130,1130,,,第三章,4. 过敏反应
+青霉素,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-009-penicillin-g.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+氨苄西林,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-042-ampicillin.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+阿莫西林,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-010-amoxicillin.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+头孢噻呋,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-011-ceftiofur.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+头孢喹肟,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-044-cefquinome.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+链霉素,SFDUT1-TX-0147,SRC-0089,41,1144,1144,,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+卡那霉素,SFDUT1-TX-0147,SRC-0089,41,1144,1144,,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+庆大霉素,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-023-gentamicin.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+地塞米松,SFDUT1-TX-0147,SRC-0089,41,1144,1144,DRUG-066-dexamethasone.md,DIS-051-streptococcosis-streptococcus-suis.md,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+青霉素,SFDUT1-TX-0148,SRC-0089,41,1146,1146,DRUG-009-penicillin-g.md,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+阿莫西林,SFDUT1-TX-0148,SRC-0089,41,1146,1146,DRUG-010-amoxicillin.md,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+庆大霉素,SFDUT1-TX-0148,SRC-0089,41,1146,1146,DRUG-023-gentamicin.md,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+庆大霉素,SFDUT1-TX-0149,SRC-0089,41,1150,1150,DRUG-023-gentamicin.md,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+阿米卡星,SFDUT1-TX-0149,SRC-0089,41,1150,1150,,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+链霉素,SFDUT1-TX-0150,SRC-0089,41,1158,1158,,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+卡那霉素,SFDUT1-TX-0150,SRC-0089,41,1158,1158,,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+庆大霉素,SFDUT1-TX-0150,SRC-0089,41,1158,1158,DRUG-023-gentamicin.md,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+阿米卡星,SFDUT1-TX-0150,SRC-0089,41,1158,1158,,,第三章,1. 本类药物与 $\beta$ -内酰胺类抗生素联用有较好协同作用但不能混合注射
+链霉素,SFDUT1-TX-0152,SRC-0089,42,1177,1177,,,第三章,1. 硫酸链霉素
+青霉素,SFDUT1-TX-0153,SRC-0089,43,1181,1181,DRUG-009-penicillin-g.md,DIS-041-neonatal-post-weaning-colibacillosis.md,第三章,2. 硫酸卡那霉素
+卡那霉素,SFDUT1-TX-0154,SRC-0089,43,1182,1182,,,第三章,2. 硫酸卡那霉素
+新霉素,SFDUT1-TX-0155,SRC-0089,43,1183,1183,DRUG-024-neomycin.md,,第三章,2. 硫酸卡那霉素
+青霉素,SFDUT1-TX-0156,SRC-0089,43,1187,1187,DRUG-009-penicillin-g.md,DIS-047-pasteurellosis.md,第三章,3. 硫酸庆大霉素（又称正泰霉素、艮他霉素）
+地塞米松,SFDUT1-TX-0156,SRC-0089,43,1187,1187,DRUG-066-dexamethasone.md,DIS-047-pasteurellosis.md,第三章,3. 硫酸庆大霉素（又称正泰霉素、艮他霉素）
+庆大霉素,SFDUT1-TX-0157,SRC-0089,43,1191,1191,DRUG-023-gentamicin.md,,第三章,3. 硫酸庆大霉素（又称正泰霉素、艮他霉素）
+卡那霉素,SFDUT1-TX-0160,SRC-0089,43,1200,1200,,,第三章,5.硫酸阿米卡星（丁胺卡那霉素）
+庆大霉素,SFDUT1-TX-0160,SRC-0089,43,1200,1200,DRUG-023-gentamicin.md,,第三章,5.硫酸阿米卡星（丁胺卡那霉素）
+阿米卡星,SFDUT1-TX-0161,SRC-0089,43,1201,1201,,,第三章,5.硫酸阿米卡星（丁胺卡那霉素）
+新霉素,SFDUT1-TX-0164,SRC-0089,44,1210,1210,DRUG-024-neomycin.md,,第三章,（2）用法与用量
+新霉素,SFDUT1-TX-0165,SRC-0089,44,1211,1211,DRUG-024-neomycin.md,,第三章,（2）用法与用量
+新霉素,SFDUT1-TX-0167,SRC-0089,44,1215,1215,DRUG-024-neomycin.md,,第三章,（2）用法与用量
+口服补液盐,SFDUT1-TX-0167,SRC-0089,44,1215,1215,,,第三章,（2）用法与用量
+新霉素,SFDUT1-TX-0168,SRC-0089,44,1217,1217,DRUG-024-neomycin.md,DIS-050-staphylococcosis-exudative-epidermitis.md,第三章,（2）用法与用量
+四环素,SFDUT1-TX-0171,SRC-0089,45,1229,1229,DRUG-030-tetracyclines.md,,第三章,7. 盐酸大观霉素（壮观霉素、奇放线菌素）
+氟苯尼考,SFDUT1-TX-0171,SRC-0089,45,1229,1229,DRUG-012-florfenicol.md,,第三章,7. 盐酸大观霉素（壮观霉素、奇放线菌素）
+安普霉素,SFDUT1-TX-0173,SRC-0089,45,1235,1235,,,第三章,8. 硫酸安普霉素（阿普拉霉素、阿布拉霉素）
+安普霉素,SFDUT1-TX-0174,SRC-0089,45,1237,1237,,,第三章,8. 硫酸安普霉素（阿普拉霉素、阿布拉霉素）
+大观霉素,SFDUT1-TX-0176,SRC-0089,45,1243,1243,DRUG-026-spectinomycin.md,,第三章,9. 盐酸林可霉素、硫酸大观霉素可溶性粉
+林可霉素,SFDUT1-TX-0176,SRC-0089,45,1243,1243,DRUG-014-lincomycin.md,,第三章,9. 盐酸林可霉素、硫酸大观霉素可溶性粉
+大观霉素,SFDUT1-TX-0177,SRC-0089,45,1245,1245,DRUG-026-spectinomycin.md,SYN-005-respiratory-distress-coughing.md,第三章,9. 盐酸林可霉素、硫酸大观霉素可溶性粉
+林可霉素,SFDUT1-TX-0177,SRC-0089,45,1245,1245,DRUG-014-lincomycin.md,SYN-005-respiratory-distress-coughing.md,第三章,9. 盐酸林可霉素、硫酸大观霉素可溶性粉
+大观霉素,SFDUT1-TX-0181,SRC-0089,45,1257,1257,DRUG-026-spectinomycin.md,,第三章,10. 盐酸林可霉素、硫酸大观霉素预混剂
+林可霉素,SFDUT1-TX-0181,SRC-0089,45,1257,1257,DRUG-014-lincomycin.md,,第三章,10. 盐酸林可霉素、硫酸大观霉素预混剂
+大观霉素,SFDUT1-TX-0182,SRC-0089,45,1258,1258,DRUG-026-spectinomycin.md,,第三章,10. 盐酸林可霉素、硫酸大观霉素预混剂
+泰乐菌素,SFDUT1-TX-0182,SRC-0089,45,1258,1258,DRUG-015-tylosin.md,,第三章,10. 盐酸林可霉素、硫酸大观霉素预混剂
+林可霉素,SFDUT1-TX-0182,SRC-0089,45,1258,1258,DRUG-014-lincomycin.md,,第三章,10. 盐酸林可霉素、硫酸大观霉素预混剂
+四环素,SFDUT1-TX-0184,SRC-0089,46,1265,1265,DRUG-030-tetracyclines.md,,第三章,第四节 四环素类
+青霉素,SFDUT1-TX-0185,SRC-0089,33,1277,1277,DRUG-009-penicillin-g.md,DIS-041-neonatal-post-weaning-colibacillosis.md,第三章,1. 本类药物属快效抑菌剂
+土霉素,SFDUT1-TX-0186,SRC-0089,48,1295,1295,DRUG-019-oxytetracycline.md,,第三章,1. 局部刺激作用
+金霉素,SFDUT1-TX-0186,SRC-0089,48,1295,1295,DRUG-020-chlortetracycline.md,,第三章,1. 局部刺激作用
+四环素,SFDUT1-TX-0186,SRC-0089,48,1295,1295,DRUG-030-tetracyclines.md,,第三章,1. 局部刺激作用
+金霉素,SFDUT1-TX-0188,SRC-0089,48,1307,1307,DRUG-020-chlortetracycline.md,,第三章,4. 本类药物对肝、肾细胞有毒效应
+土霉素,SFDUT1-TX-0190,SRC-0089,49,1321,1321,DRUG-019-oxytetracycline.md,,第三章,四、药物相互作用及注意事项
+喹乙醇,SFDUT1-TX-0190,SRC-0089,49,1321,1321,DRUG-049-olaquindox.md,,第三章,四、药物相互作用及注意事项
+碳酸氢钠,SFDUT1-TX-0190,SRC-0089,49,1321,1321,,,第三章,四、药物相互作用及注意事项
+维生素,SFDUT1-TX-0190,SRC-0089,49,1321,1321,,,第三章,四、药物相互作用及注意事项
+土霉素,SFDUT1-TX-0192,SRC-0089,32,1331,1331,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0193,SRC-0089,32,1332,1332,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0195,SRC-0089,34,1336,1336,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0196,SRC-0089,34,1337,1337,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0197,SRC-0089,34,1338,1338,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0198,SRC-0089,35,1339,1339,DRUG-019-oxytetracycline.md,,第三章,（2）用法与用量
+四环素,SFDUT1-TX-0201,SRC-0089,40,1353,1353,DRUG-030-tetracyclines.md,,第三章,（2）用法与用量
+四环素,SFDUT1-TX-0202,SRC-0089,40,1354,1354,DRUG-030-tetracyclines.md,,第三章,（2）用法与用量
+土霉素,SFDUT1-TX-0204,SRC-0089,42,1359,1359,DRUG-019-oxytetracycline.md,,第三章,（3）注意事项
+金霉素,SFDUT1-TX-0207,SRC-0089,46,1369,1369,DRUG-020-chlortetracycline.md,,第三章,（2）用法与用量
+金霉素,SFDUT1-TX-0208,SRC-0089,46,1371,1371,DRUG-020-chlortetracycline.md,,第三章,（2）用法与用量
+泰妙菌素,SFDUT1-TX-0208,SRC-0089,46,1371,1371,DRUG-013-tiamulin.md,,第三章,（2）用法与用量
+多西环素,SFDUT1-TX-0210,SRC-0089,49,1379,1379,DRUG-021-doxycycline.md,,第三章,(2）用法与用量
+强力霉素,SFDUT1-TX-0211,SRC-0089,50,1380,1380,DRUG-021-doxycycline.md,,第三章,(2）用法与用量
+葡萄糖,SFDUT1-TX-0211,SRC-0089,50,1380,1380,,,第三章,(2）用法与用量
+多西环素,SFDUT1-TX-0212,SRC-0089,50,1381,1381,DRUG-021-doxycycline.md,,第三章,(2）用法与用量
+强力霉素,SFDUT1-TX-0213,SRC-0089,50,1382,1382,DRUG-021-doxycycline.md,,第三章,(2）用法与用量
+红霉素,SFDUT1-TX-0214,SRC-0089,51,1386,1386,DRUG-073-erythromycin.md,,第三章,第五节 大环内酯类
+泰乐菌素,SFDUT1-TX-0214,SRC-0089,51,1386,1386,DRUG-015-tylosin.md,,第三章,第五节 大环内酯类
+替米考星,SFDUT1-TX-0214,SRC-0089,51,1386,1386,DRUG-045-tilmicosin.md,,第三章,第五节 大环内酯类
+青霉素,SFDUT1-TX-0215,SRC-0089,52,1394,1394,DRUG-009-penicillin-g.md,DIS-048-proliferative-enteropathy-lawsonia-intracellularis.md,第三章,1. 属高效抑菌剂
+青霉素,SFDUT1-TX-0217,SRC-0089,52,1410,1410,DRUG-009-penicillin-g.md,,第三章,4.替米考星及其换代产品乙酰异戊酰泰乐菌素可作为防治猪呼吸道病综合征（PRDC）的首选药物
+四环素,SFDUT1-TX-0217,SRC-0089,52,1410,1410,DRUG-030-tetracyclines.md,,第三章,4.替米考星及其换代产品乙酰异戊酰泰乐菌素可作为防治猪呼吸道病综合征（PRDC）的首选药物
+替米考星,SFDUT1-TX-0217,SRC-0089,52,1410,1410,DRUG-045-tilmicosin.md,,第三章,4.替米考星及其换代产品乙酰异戊酰泰乐菌素可作为防治猪呼吸道病综合征（PRDC）的首选药物
+替米考星,SFDUT1-TX-0218,SRC-0089,52,1412,1412,DRUG-045-tilmicosin.md,,第三章,4.替米考星及其换代产品乙酰异戊酰泰乐菌素可作为防治猪呼吸道病综合征（PRDC）的首选药物
+替米考星,SFDUT1-TX-0219,SRC-0089,52,1414,1414,DRUG-045-tilmicosin.md,,第三章,4.替米考星及其换代产品乙酰异戊酰泰乐菌素可作为防治猪呼吸道病综合征（PRDC）的首选药物
+青霉素,SFDUT1-TX-0221,SRC-0089,36,1444,1444,DRUG-009-penicillin-g.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 红霉素
+红霉素,SFDUT1-TX-0221,SRC-0089,36,1444,1444,DRUG-073-erythromycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第三章,1. 红霉素
+红霉素,SFDUT1-TX-0222,SRC-0089,37,1448,1448,DRUG-073-erythromycin.md,,第三章,（2）用法与用量
+红霉素,SFDUT1-TX-0223,SRC-0089,37,1449,1449,DRUG-073-erythromycin.md,,第三章,（2）用法与用量
+泰乐菌素,SFDUT1-TX-0227,SRC-0089,42,1461,1461,DRUG-015-tylosin.md,,第三章,3. 泰乐菌素
+泰乐菌素,SFDUT1-TX-0228,SRC-0089,43,1465,1465,DRUG-015-tylosin.md,,第三章,（2）用法与用量
+泰乐菌素,SFDUT1-TX-0229,SRC-0089,44,1466,1466,DRUG-015-tylosin.md,,第三章,（2）用法与用量
+泰乐菌素,SFDUT1-TX-0230,SRC-0089,44,1467,1467,DRUG-015-tylosin.md,,第三章,（2）用法与用量
+泰乐菌素,SFDUT1-TX-0231,SRC-0089,45,1468,1468,DRUG-015-tylosin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,（2）用法与用量
+磺胺,SFDUT1-TX-0231,SRC-0089,45,1468,1468,DRUG-034-sulfonamides.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,（2）用法与用量
+泰乐菌素,SFDUT1-TX-0232,SRC-0089,45,1469,1469,DRUG-015-tylosin.md,,第三章,（2）用法与用量
+替米考星,SFDUT1-TX-0234,SRC-0089,48,1477,1477,DRUG-045-tilmicosin.md,,第三章,4.替米考星
+替米考星,SFDUT1-TX-0235,SRC-0089,48,1478,1478,DRUG-045-tilmicosin.md,,第三章,4.替米考星
+强力霉素,SFDUT1-TX-0237,SRC-0089,51,1486,1486,DRUG-021-doxycycline.md,,第三章,4.替米考星
+泰乐菌素,SFDUT1-TX-0237,SRC-0089,51,1486,1486,DRUG-015-tylosin.md,,第三章,4.替米考星
+泰乐菌素,SFDUT1-TX-0239,SRC-0089,53,1490,1490,DRUG-015-tylosin.md,,第三章,4.替米考星
+氟苯尼考,SFDUT1-TX-0239,SRC-0089,53,1490,1490,DRUG-012-florfenicol.md,,第三章,4.替米考星
+林可霉素,SFDUT1-TX-0239,SRC-0089,53,1490,1490,DRUG-014-lincomycin.md,,第三章,4.替米考星
+泰妙菌素,SFDUT1-TX-0239,SRC-0089,53,1490,1490,DRUG-013-tiamulin.md,,第三章,4.替米考星
+氟苯尼考,SFDUT1-TX-0243,SRC-0089,57,1505,1505,DRUG-012-florfenicol.md,,第三章,第六节 氟苯尼考
+青霉素,SFDUT1-TX-0244,SRC-0089,58,1513,1513,DRUG-009-penicillin-g.md,,第三章,1. 药教学
+四环素,SFDUT1-TX-0244,SRC-0089,58,1513,1513,DRUG-030-tetracyclines.md,,第三章,1. 药教学
+氟苯尼考,SFDUT1-TX-0244,SRC-0089,58,1513,1513,DRUG-012-florfenicol.md,,第三章,1. 药教学
+甲砜霉素,SFDUT1-TX-0244,SRC-0089,58,1513,1513,,,第三章,1. 药教学
+氟苯尼考,SFDUT1-TX-0245,SRC-0089,58,1517,1517,DRUG-012-florfenicol.md,,第三章,2. 药动学
+葡萄糖,SFDUT1-TX-0245,SRC-0089,58,1517,1517,,,第三章,2. 药动学
+红霉素,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-073-erythromycin.md,,第三章,三、药物相互作用
+泰乐菌素,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-015-tylosin.md,,第三章,三、药物相互作用
+替米考星,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-045-tilmicosin.md,,第三章,三、药物相互作用
+氟苯尼考,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-012-florfenicol.md,,第三章,三、药物相互作用
+林可霉素,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-014-lincomycin.md,,第三章,三、药物相互作用
+泰妙菌素,SFDUT1-TX-0248,SRC-0089,36,1529,1529,DRUG-013-tiamulin.md,,第三章,三、药物相互作用
+青霉素,SFDUT1-TX-0249,SRC-0089,40,1530,1530,DRUG-009-penicillin-g.md,,第三章,三、药物相互作用
+氧氟沙星,SFDUT1-TX-0249,SRC-0089,40,1530,1530,,,第三章,三、药物相互作用
+恩诺沙星,SFDUT1-TX-0249,SRC-0089,40,1530,1530,DRUG-018-enrofloxacin.md,,第三章,三、药物相互作用
+金霉素,SFDUT1-TX-0250,SRC-0089,44,1531,1531,DRUG-020-chlortetracycline.md,,第三章,三、药物相互作用
+四环素,SFDUT1-TX-0250,SRC-0089,44,1531,1531,DRUG-030-tetracyclines.md,,第三章,三、药物相互作用
+强力霉素,SFDUT1-TX-0250,SRC-0089,44,1531,1531,DRUG-021-doxycycline.md,,第三章,三、药物相互作用
+氟苯尼考,SFDUT1-TX-0252,SRC-0089,38,1549,1549,DRUG-012-florfenicol.md,,第三章,五、常用品种的临床应用
+氟苯尼考,SFDUT1-TX-0253,SRC-0089,47,1551,1551,DRUG-012-florfenicol.md,,第三章,五、常用品种的临床应用
+氟苯尼考,SFDUT1-TX-0254,SRC-0089,52,1552,1552,DRUG-012-florfenicol.md,,第三章,五、常用品种的临床应用
+氟苯尼考,SFDUT1-TX-0255,SRC-0089,61,1556,1556,DRUG-012-florfenicol.md,,第三章,六、临床用药须知及注意事项
+卡那霉素,SFDUT1-TX-0256,SRC-0089,61,1558,1558,,,第三章,六、临床用药须知及注意事项
+庆大霉素,SFDUT1-TX-0256,SRC-0089,61,1558,1558,DRUG-023-gentamicin.md,,第三章,六、临床用药须知及注意事项
+四环素,SFDUT1-TX-0256,SRC-0089,61,1558,1558,DRUG-030-tetracyclines.md,,第三章,六、临床用药须知及注意事项
+磺胺,SFDUT1-TX-0256,SRC-0089,61,1558,1558,DRUG-034-sulfonamides.md,,第三章,六、临床用药须知及注意事项
+强力霉素,SFDUT1-TX-0257,SRC-0089,61,1560,1560,DRUG-021-doxycycline.md,DIS-044-gl-sser-s-disease.md,第三章,六、临床用药须知及注意事项
+氟苯尼考,SFDUT1-TX-0257,SRC-0089,61,1560,1560,DRUG-012-florfenicol.md,DIS-044-gl-sser-s-disease.md,第三章,六、临床用药须知及注意事项
+地塞米松,SFDUT1-TX-0257,SRC-0089,61,1560,1560,DRUG-066-dexamethasone.md,DIS-044-gl-sser-s-disease.md,第三章,六、临床用药须知及注意事项
+阿莫西林,SFDUT1-TX-0258,SRC-0089,61,1561,1561,DRUG-010-amoxicillin.md,,第三章,六、临床用药须知及注意事项
+泰乐菌素,SFDUT1-TX-0258,SRC-0089,61,1561,1561,DRUG-015-tylosin.md,,第三章,六、临床用药须知及注意事项
+氟苯尼考,SFDUT1-TX-0258,SRC-0089,61,1561,1561,DRUG-012-florfenicol.md,,第三章,六、临床用药须知及注意事项
+泰妙菌素,SFDUT1-TX-0258,SRC-0089,61,1561,1561,DRUG-013-tiamulin.md,,第三章,六、临床用药须知及注意事项
+氨苄西林,SFDUT1-TX-0261,SRC-0089,63,1606,1606,DRUG-042-ampicillin.md,,第三章,三、药物相互作用及注意事项
+卡那霉素,SFDUT1-TX-0261,SRC-0089,63,1606,1606,,,第三章,三、药物相互作用及注意事项
+葡萄糖,SFDUT1-TX-0261,SRC-0089,63,1606,1606,,,第三章,三、药物相互作用及注意事项
+青霉素,SFDUT1-TX-0262,SRC-0089,38,1613,1613,DRUG-009-penicillin-g.md,,第三章,1. 盐酸林可霉素（盐酸洁霉素）可溶性粉
+林可霉素,SFDUT1-TX-0264,SRC-0089,43,1618,1618,DRUG-014-lincomycin.md,,第三章,(2）用法与用量
+林可霉素,SFDUT1-TX-0265,SRC-0089,44,1619,1619,DRUG-014-lincomycin.md,,第三章,(2）用法与用量
+林可霉素,SFDUT1-TX-0266,SRC-0089,48,1623,1623,DRUG-014-lincomycin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,2. $11\%$ 盐酸林可霉素预混剂
+氟苯尼考,SFDUT1-TX-0269,SRC-0089,55,1630,1630,DRUG-012-florfenicol.md,,第三章,2. $11\%$ 盐酸林可霉素预混剂
+泰妙菌素,SFDUT1-TX-0269,SRC-0089,55,1630,1630,DRUG-013-tiamulin.md,,第三章,2. $11\%$ 盐酸林可霉素预混剂
+磺胺,SFDUT1-TX-0269,SRC-0089,55,1630,1630,DRUG-034-sulfonamides.md,,第三章,2. $11\%$ 盐酸林可霉素预混剂
+金霉素,SFDUT1-TX-0272,SRC-0089,66,1665,1665,DRUG-020-chlortetracycline.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,四、药物相互作用
+泰妙菌素,SFDUT1-TX-0274,SRC-0089,34,1672,1672,DRUG-013-tiamulin.md,,第三章,1. 延胡索酸泰妙菌素可溶性粉
+泰妙菌素,SFDUT1-TX-0277,SRC-0089,39,1677,1677,DRUG-013-tiamulin.md,,第三章,1. 延胡索酸泰妙菌素可溶性粉
+泰妙菌素,SFDUT1-TX-0279,SRC-0089,42,1680,1680,DRUG-013-tiamulin.md,,第三章,1. 延胡索酸泰妙菌素可溶性粉
+金霉素,SFDUT1-TX-0283,SRC-0089,59,1696,1696,DRUG-020-chlortetracycline.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+泰乐菌素,SFDUT1-TX-0283,SRC-0089,59,1696,1696,DRUG-015-tylosin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+林可霉素,SFDUT1-TX-0283,SRC-0089,59,1696,1696,DRUG-014-lincomycin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+泰妙菌素,SFDUT1-TX-0283,SRC-0089,59,1696,1696,DRUG-013-tiamulin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+金霉素,SFDUT1-TX-0284,SRC-0089,63,1700,1700,DRUG-020-chlortetracycline.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+替米考星,SFDUT1-TX-0284,SRC-0089,63,1700,1700,DRUG-045-tilmicosin.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+泰妙菌素,SFDUT1-TX-0284,SRC-0089,63,1700,1700,DRUG-013-tiamulin.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+沃尼妙林,SFDUT1-TX-0284,SRC-0089,63,1700,1700,DRUG-046-valnemulin.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+金霉素,SFDUT1-TX-0285,SRC-0089,65,1702,1702,DRUG-020-chlortetracycline.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+替米考星,SFDUT1-TX-0285,SRC-0089,65,1702,1702,DRUG-045-tilmicosin.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+沃尼妙林,SFDUT1-TX-0285,SRC-0089,65,1702,1702,DRUG-046-valnemulin.md,,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+沃尼妙林,SFDUT1-TX-0286,SRC-0089,66,1703,1703,DRUG-046-valnemulin.md,DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md,第三章,4. 盐酸沃尼妙林预混剂（远征：沃妙先）
+黏菌素,SFDUT1-TX-0287,SRC-0089,68,1709,1709,DRUG-052-colistin.md,,第三章,第九节 多肽类
+多黏菌素,SFDUT1-TX-0287,SRC-0089,68,1709,1709,DRUG-052-colistin.md,,第三章,第九节 多肽类
+杆菌肽,SFDUT1-TX-0287,SRC-0089,68,1709,1709,,,第三章,第九节 多肽类
+维吉尼霉素,SFDUT1-TX-0287,SRC-0089,68,1709,1709,,,第三章,第九节 多肽类
+恩拉霉素,SFDUT1-TX-0287,SRC-0089,68,1709,1709,,,第三章,第九节 多肽类
+黏菌素,SFDUT1-TX-0291,SRC-0089,69,1745,1745,DRUG-052-colistin.md,,第三章,6. 制剂
+黏菌素,SFDUT1-TX-0294,SRC-0089,69,1752,1752,DRUG-052-colistin.md,,第三章,（2）硫酸黏菌素预混剂
+青霉素,SFDUT1-TX-0296,SRC-0089,70,1763,1763,DRUG-009-penicillin-g.md,,第三章,2. 作用与用途
+杆菌肽,SFDUT1-TX-0299,SRC-0089,70,1782,1782,,,第三章,5. 制剂
+黏菌素,SFDUT1-TX-0300,SRC-0089,70,1786,1786,DRUG-052-colistin.md,,第三章,5. 制剂
+杆菌肽,SFDUT1-TX-0300,SRC-0089,70,1786,1786,,,第三章,5. 制剂
+恩拉霉素,SFDUT1-TX-0303,SRC-0089,71,1800,1800,,,第三章,2. 作用与用途
+恩拉霉素,SFDUT1-TX-0306,SRC-0089,71,1812,1812,,,第三章,4. 制剂
+维吉尼霉素,SFDUT1-TX-0311,SRC-0089,72,1835,1835,,,第三章,4. 制剂
+四环素,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-030-tetracyclines.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+强力霉素,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-021-doxycycline.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+泰乐菌素,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-015-tylosin.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+氟苯尼考,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-012-florfenicol.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+泰妙菌素,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-013-tiamulin.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+磺胺,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-034-sulfonamides.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+甲氧苄啶,SFDUT1-TX-0312,SRC-0089,73,1843,1843,DRUG-022-sulfonamide-trimethoprim.md,,第四章,第一节 磺胺类药物及抗菌增效剂
+二甲氧苄啶,SFDUT1-TX-0312,SRC-0089,73,1843,1843,,,第四章,第一节 磺胺类药物及抗菌增效剂
+磺胺,SFDUT1-TX-0313,SRC-0089,73,1851,1851,DRUG-034-sulfonamides.md,,第四章,1. 抗菌作用属广谱抑菌剂
+磺胺,SFDUT1-TX-0314,SRC-0089,74,1859,1859,DRUG-034-sulfonamides.md,,第四章,3. 磺胺药分类
+磺胺,SFDUT1-TX-0316,SRC-0089,75,1877,1877,DRUG-034-sulfonamides.md,,第四章,6. 用药原则
+磺胺,SFDUT1-TX-0318,SRC-0089,75,1883,1883,DRUG-034-sulfonamides.md,,第四章,7. 注意事项
+磺胺,SFDUT1-TX-0320,SRC-0089,75,1888,1888,DRUG-034-sulfonamides.md,,第四章,7. 注意事项
+磺胺,SFDUT1-TX-0321,SRC-0089,75,1889,1889,DRUG-034-sulfonamides.md,,第四章,7. 注意事项
+磺胺,SFDUT1-TX-0322,SRC-0089,75,1893,1893,DRUG-034-sulfonamides.md,,第四章,7. 注意事项
+磺胺,SFDUT1-TX-0324,SRC-0089,78,1936,1936,DRUG-034-sulfonamides.md,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+磺胺,SFDUT1-TX-0325,SRC-0089,78,1937,1937,DRUG-034-sulfonamides.md,,第四章,(2）制剂
+卡那霉素,SFDUT1-TX-0326,SRC-0089,78,1938,1938,,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+阿米卡星,SFDUT1-TX-0326,SRC-0089,78,1938,1938,,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+四环素,SFDUT1-TX-0326,SRC-0089,78,1938,1938,DRUG-030-tetracyclines.md,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+林可霉素,SFDUT1-TX-0326,SRC-0089,78,1938,1938,DRUG-014-lincomycin.md,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+磺胺,SFDUT1-TX-0326,SRC-0089,78,1938,1938,DRUG-034-sulfonamides.md,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+葡萄糖,SFDUT1-TX-0326,SRC-0089,78,1938,1938,,DIS-058-toxoplasmosis-protozoa.md,第四章,(2）制剂
+磺胺,SFDUT1-TX-0327,SRC-0089,78,1939,1939,DRUG-034-sulfonamides.md,,第四章,(2）制剂
+甲氧苄啶,SFDUT1-TX-0327,SRC-0089,78,1939,1939,DRUG-022-sulfonamide-trimethoprim.md,,第四章,(2）制剂
+磺胺,SFDUT1-TX-0329,SRC-0089,78,1946,1946,DRUG-034-sulfonamides.md,DIS-058-toxoplasmosis-protozoa.md,第四章,2. 磺胺间甲氧嘧啶（SMM，磺胺-6-甲氧嘧啶，制菌磺）
+磺胺,SFDUT1-TX-0330,SRC-0089,78,1947,1947,DRUG-034-sulfonamides.md,,第四章,2. 磺胺间甲氧嘧啶（SMM，磺胺-6-甲氧嘧啶，制菌磺）
+磺胺,SFDUT1-TX-0331,SRC-0089,78,1951,1951,DRUG-034-sulfonamides.md,,第四章,3. 磺胺氯达嗪钠（SCP）
+磺胺,SFDUT1-TX-0332,SRC-0089,78,1956,1956,DRUG-034-sulfonamides.md,,第四章,3. 磺胺氯达嗪钠（SCP）
+强力霉素,SFDUT1-TX-0333,SRC-0089,78,1958,1958,DRUG-021-doxycycline.md,,第四章,3. 磺胺氯达嗪钠（SCP）
+磺胺,SFDUT1-TX-0333,SRC-0089,78,1958,1958,DRUG-034-sulfonamides.md,,第四章,3. 磺胺氯达嗪钠（SCP）
+磺胺,SFDUT1-TX-0335,SRC-0089,79,1966,1966,DRUG-034-sulfonamides.md,,第四章,(2）制剂
+磺胺,SFDUT1-TX-0336,SRC-0089,79,1967,1967,DRUG-034-sulfonamides.md,,第四章,(2）制剂
+磺胺,SFDUT1-TX-0337,SRC-0089,79,1972,1972,DRUG-034-sulfonamides.md,,第四章,5. 磺胺噻唑（ST）
+磺胺,SFDUT1-TX-0338,SRC-0089,79,1976,1976,DRUG-034-sulfonamides.md,,第四章,6. 磺胺甲噁唑（SMZ，新诺明，磺胺甲基异噁唑）
+磺胺,SFDUT1-TX-0339,SRC-0089,79,1982,1982,DRUG-034-sulfonamides.md,,第四章,7. 磺胺对甲氧嘧啶（SMD，磺胺-5-甲氧嘧啶，消炎磺）
+甲氧苄啶,SFDUT1-TX-0339,SRC-0089,79,1982,1982,DRUG-022-sulfonamide-trimethoprim.md,,第四章,7. 磺胺对甲氧嘧啶（SMD，磺胺-5-甲氧嘧啶，消炎磺）
+二甲氧苄啶,SFDUT1-TX-0339,SRC-0089,79,1982,1982,,,第四章,7. 磺胺对甲氧嘧啶（SMD，磺胺-5-甲氧嘧啶，消炎磺）
+磺胺,SFDUT1-TX-0341,SRC-0089,79,1986,1986,DRUG-034-sulfonamides.md,,第四章,7. 磺胺对甲氧嘧啶（SMD，磺胺-5-甲氧嘧啶，消炎磺）
+吡哌酸,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+诺氟沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+氧氟沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+环丙沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+恩诺沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,DRUG-018-enrofloxacin.md,,第四章,第二节 氟喹诺酮类药物
+沙拉沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+达氟沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,DRUG-051-danofloxacin-marbofloxacin.md,,第四章,第二节 氟喹诺酮类药物
+二氟沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,DRUG-051-danofloxacin-marbofloxacin.md,,第四章,第二节 氟喹诺酮类药物
+洛美沙星,SFDUT1-TX-0344,SRC-0089,80,1998,1998,,,第四章,第二节 氟喹诺酮类药物
+庆大霉素,SFDUT1-TX-0348,SRC-0089,82,2022,2022,DRUG-023-gentamicin.md,,第四章,3. 杀菌作用有明显的浓度依赖性特征
+泰乐菌素,SFDUT1-TX-0348,SRC-0089,82,2022,2022,DRUG-015-tylosin.md,,第四章,3. 杀菌作用有明显的浓度依赖性特征
+泰妙菌素,SFDUT1-TX-0348,SRC-0089,82,2022,2022,DRUG-013-tiamulin.md,,第四章,3. 杀菌作用有明显的浓度依赖性特征
+磺胺,SFDUT1-TX-0348,SRC-0089,82,2022,2022,DRUG-034-sulfonamides.md,,第四章,3. 杀菌作用有明显的浓度依赖性特征
+林可霉素,SFDUT1-TX-0354,SRC-0089,83,2058,2058,DRUG-014-lincomycin.md,DIS-046-mycoplasmosis-enzootic-pneumonia.md,第四章,三、药物之间相互作用及使用注意事项
+口服补液盐,SFDUT1-TX-0358,SRC-0089,83,2071,2071,,,第四章,三、药物之间相互作用及使用注意事项
+恩诺沙星,SFDUT1-TX-0361,SRC-0089,43,2085,2085,DRUG-018-enrofloxacin.md,,第四章,（2）制剂及用法用量
+恩诺沙星,SFDUT1-TX-0362,SRC-0089,44,2086,2086,DRUG-018-enrofloxacin.md,,第四章,（2）制剂及用法用量
+环丙沙星,SFDUT1-TX-0364,SRC-0089,53,2094,2094,,,第四章,（2）制剂及用法用量
+环丙沙星,SFDUT1-TX-0365,SRC-0089,54,2095,2095,,,第四章,（2）制剂及用法用量
+沙拉沙星,SFDUT1-TX-0367,SRC-0089,60,2100,2100,,,第四章,3. 盐酸沙拉沙星
+达氟沙星,SFDUT1-TX-0369,SRC-0089,67,2106,2106,DRUG-051-danofloxacin-marbofloxacin.md,,第四章,3. 盐酸沙拉沙星
+二氟沙星,SFDUT1-TX-0371,SRC-0089,74,2112,2112,DRUG-051-danofloxacin-marbofloxacin.md,,第四章,3. 盐酸沙拉沙星
+诺氟沙星,SFDUT1-TX-0373,SRC-0089,83,2120,2120,,,第四章,3. 盐酸沙拉沙星
+诺氟沙星,SFDUT1-TX-0374,SRC-0089,84,2121,2121,,,第四章,3. 盐酸沙拉沙星
+磺胺,SFDUT1-TX-0375,SRC-0089,86,2125,2125,DRUG-034-sulfonamides.md,,第四章,第三节 其他合成抗菌药
+乙酰甲喹,SFDUT1-TX-0375,SRC-0089,86,2125,2125,DRUG-050-dimetridazole-ronidazole.md,,第四章,第三节 其他合成抗菌药
+喹乙醇,SFDUT1-TX-0375,SRC-0089,86,2125,2125,DRUG-049-olaquindox.md,,第四章,第三节 其他合成抗菌药
+博落回,SFDUT1-TX-0375,SRC-0089,86,2125,2125,,,第四章,第三节 其他合成抗菌药
+牛至油,SFDUT1-TX-0375,SRC-0089,86,2125,2125,,,第四章,第三节 其他合成抗菌药
+小檗碱,SFDUT1-TX-0375,SRC-0089,86,2125,2125,,,第四章,第三节 其他合成抗菌药
+四环素,SFDUT1-TX-0382,SRC-0089,87,2145,2145,DRUG-030-tetracyclines.md,,第四章,2. 制剂
+氟苯尼考,SFDUT1-TX-0382,SRC-0089,87,2145,2145,DRUG-012-florfenicol.md,,第四章,2. 制剂
+阿托品,SFDUT1-TX-0382,SRC-0089,87,2145,2145,DRUG-079-atropine.md,,第四章,2. 制剂
+口服补液盐,SFDUT1-TX-0408,SRC-0089,90,2247,2247,,,第五章,第一节 口服补液盐
+口服补液盐,SFDUT1-TX-0409,SRC-0089,90,2249,2249,,,第五章,第一节 口服补液盐
+葡萄糖,SFDUT1-TX-0410,SRC-0089,90,2253,2253,,,第五章,1. 准确掌握口服补液盐的配方
+氯化钠,SFDUT1-TX-0410,SRC-0089,90,2253,2253,,,第五章,1. 准确掌握口服补液盐的配方
+碳酸氢钠,SFDUT1-TX-0410,SRC-0089,90,2253,2253,,,第五章,1. 准确掌握口服补液盐的配方
+葡萄糖,SFDUT1-TX-0411,SRC-0089,91,2259,2259,,,第五章,2. 深刻了解口服补液盐的药理
+葡萄糖,SFDUT1-TX-0415,SRC-0089,92,2281,2281,,,第五章,7. 严重脱水者禁用
+氯化钠,SFDUT1-TX-0415,SRC-0089,92,2281,2281,,,第五章,7. 严重脱水者禁用
+庆大霉素,SFDUT1-TX-0417,SRC-0089,92,2289,2289,DRUG-023-gentamicin.md,,第五章,9. 真忘使用抗菌药物或其他药物治本
+新霉素,SFDUT1-TX-0417,SRC-0089,92,2289,2289,DRUG-024-neomycin.md,,第五章,9. 真忘使用抗菌药物或其他药物治本
+口服补液盐,SFDUT1-TX-0417,SRC-0089,92,2289,2289,,,第五章,9. 真忘使用抗菌药物或其他药物治本
+地塞米松,SFDUT1-TX-0419,SRC-0089,93,2297,2297,DRUG-066-dexamethasone.md,,第五章,第二节 地塞米松
+地塞米松,SFDUT1-TX-0420,SRC-0089,93,2299,2299,DRUG-066-dexamethasone.md,,第五章,第二节 地塞米松
+肾上腺素,SFDUT1-TX-0427,SRC-0089,94,2322,2322,,,第五章,2. 适应证
+地塞米松,SFDUT1-TX-0434,SRC-0089,96,2350,2350,DRUG-066-dexamethasone.md,,第五章,5. 用法和用量
+葡萄糖,SFDUT1-TX-0435,SRC-0089,96,2351,2351,,,第五章,5. 用法和用量
+地塞米松,SFDUT1-TX-0438,SRC-0089,96,2361,2361,DRUG-066-dexamethasone.md,,第五章,6. 使用注意事项
+地塞米松,SFDUT1-TX-0439,SRC-0089,96,2369,2369,DRUG-066-dexamethasone.md,,第五章,6. 使用注意事项
+肾上腺素,SFDUT1-TX-0439,SRC-0089,96,2369,2369,,,第五章,6. 使用注意事项
+地塞米松,SFDUT1-TX-0440,SRC-0089,96,2371,2371,DRUG-066-dexamethasone.md,,第五章,6. 使用注意事项
+地塞米松,SFDUT1-TX-0441,SRC-0089,96,2377,2377,DRUG-066-dexamethasone.md,,第五章,6. 使用注意事项
+地塞米松,SFDUT1-TX-0442,SRC-0089,96,2379,2379,DRUG-066-dexamethasone.md,DIS-024-classical-swine-fever-pestiviruses.md,第五章,6. 使用注意事项
+青霉素,SFDUT1-TX-0446,SRC-0089,98,2409,2409,DRUG-009-penicillin-g.md,,第五章,4. 选药要仔细
+安乃近,SFDUT1-TX-0446,SRC-0089,98,2409,2409,DRUG-029-nsaids.md,,第五章,4. 选药要仔细
+缩宫素,SFDUT1-TX-0448,SRC-0089,99,2417,2417,DRUG-067-oxytocin.md,,第五章,第四节 缩宫素
+缩宫素,SFDUT1-TX-0449,SRC-0089,100,2432,2432,DRUG-067-oxytocin.md,,第五章,2. 适应证与用量
+缩宫素,SFDUT1-TX-0450,SRC-0089,100,2433,2433,DRUG-067-oxytocin.md,,第五章,2. 适应证与用量
+缩宫素,SFDUT1-TX-0451,SRC-0089,100,2437,2437,DRUG-067-oxytocin.md,,第五章,2. 适应证与用量
+缩宫素,SFDUT1-TX-0452,SRC-0089,101,2438,2438,DRUG-067-oxytocin.md,,第五章,2. 适应证与用量
+缩宫素,SFDUT1-TX-0453,SRC-0089,101,2439,2439,DRUG-067-oxytocin.md,,第五章,2. 适应证与用量
+缩宫素,SFDUT1-TX-0454,SRC-0089,101,2453,2453,DRUG-067-oxytocin.md,,第五章,4. 注意事项
+泰乐菌素,SFDUT1-TX-0457,SRC-0089,102,2461,2461,DRUG-015-tylosin.md,SYN-005-respiratory-distress-coughing.md,第五章,第五节 替米考星注射液
+替米考星,SFDUT1-TX-0457,SRC-0089,102,2461,2461,DRUG-045-tilmicosin.md,SYN-005-respiratory-distress-coughing.md,第五章,第五节 替米考星注射液
+替米考星,SFDUT1-TX-0458,SRC-0089,102,2463,2463,DRUG-045-tilmicosin.md,,第五章,第五节 替米考星注射液
+替米考星,SFDUT1-TX-0459,SRC-0089,103,2465,2465,DRUG-045-tilmicosin.md,,第五章,第五节 替米考星注射液
+青霉素,SFDUT1-TX-0460,SRC-0089,103,2467,2467,DRUG-009-penicillin-g.md,,第五章,第五节 替米考星注射液
+链霉素,SFDUT1-TX-0460,SRC-0089,103,2467,2467,,,第五章,第五节 替米考星注射液
+替米考星,SFDUT1-TX-0460,SRC-0089,103,2467,2467,DRUG-045-tilmicosin.md,,第五章,第五节 替米考星注射液
+肾上腺素,SFDUT1-TX-0522,SRC-0089,118,2680,2680,,,第六章,3. 注意事项
+卡那霉素,SFDUT1-TX-0542,SRC-0089,120,2715,2715,,,第六章,3. 接种疫苗前后应特别注意的几个细节
+土霉素,SFDUT1-TX-0542,SRC-0089,120,2715,2715,DRUG-019-oxytetracycline.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+磺胺,SFDUT1-TX-0542,SRC-0089,120,2715,2715,DRUG-034-sulfonamides.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+地塞米松,SFDUT1-TX-0544,SRC-0089,120,2719,2719,DRUG-066-dexamethasone.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+肾上腺素,SFDUT1-TX-0544,SRC-0089,120,2719,2719,,,第六章,3. 接种疫苗前后应特别注意的几个细节
+卡那霉素,SFDUT1-TX-0545,SRC-0089,120,2720,2720,,,第六章,3. 接种疫苗前后应特别注意的几个细节
+庆大霉素,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-023-gentamicin.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+四环素,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-030-tetracyclines.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+氟苯尼考,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-012-florfenicol.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+磺胺,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-034-sulfonamides.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+喹乙醇,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-049-olaquindox.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+地塞米松,SFDUT1-TX-0545,SRC-0089,120,2720,2720,DRUG-066-dexamethasone.md,,第六章,3. 接种疫苗前后应特别注意的几个细节
+维生素,SFDUT1-TX-0547,SRC-0089,120,2722,2722,,,第六章,3. 接种疫苗前后应特别注意的几个细节
+伊维菌素,SFDUT1-TX-0551,SRC-0089,123,2754,2754,DRUG-002-ivermectin.md,,第六章,4. 选用合适的驱虫药物进行驱虫
+多拉菌素,SFDUT1-TX-0551,SRC-0089,123,2754,2754,DRUG-003-doramectin.md,,第六章,4. 选用合适的驱虫药物进行驱虫
+伊维菌素,SFDUT1-TX-0552,SRC-0089,123,2756,2756,DRUG-002-ivermectin.md,,第六章,4. 选用合适的驱虫药物进行驱虫
+阿维菌素,SFDUT1-TX-0552,SRC-0089,123,2756,2756,DRUG-001-avermectins.md,,第六章,4. 选用合适的驱虫药物进行驱虫
+伊维菌素,SFDUT1-TX-0553,SRC-0089,123,2758,2758,DRUG-002-ivermectin.md,DIS-055-external-parasites-mange.md,第六章,4. 选用合适的驱虫药物进行驱虫
+多拉菌素,SFDUT1-TX-0553,SRC-0089,123,2758,2758,DRUG-003-doramectin.md,DIS-055-external-parasites-mange.md,第六章,4. 选用合适的驱虫药物进行驱虫
+强力霉素,SFDUT1-TX-0627,SRC-0089,145,3091,3091,DRUG-021-doxycycline.md,DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md,第七章,6. 如何预防和控制猪蓝耳病
+泰乐菌素,SFDUT1-TX-0627,SRC-0089,145,3091,3091,DRUG-015-tylosin.md,DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md,第七章,6. 如何预防和控制猪蓝耳病
+替米考星,SFDUT1-TX-0627,SRC-0089,145,3091,3091,DRUG-045-tilmicosin.md,DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md,第七章,6. 如何预防和控制猪蓝耳病
+氟苯尼考,SFDUT1-TX-0627,SRC-0089,145,3091,3091,DRUG-012-florfenicol.md,DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md,第七章,6. 如何预防和控制猪蓝耳病
+阿莫西林,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-010-amoxicillin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+土霉素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-019-oxytetracycline.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+金霉素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-020-chlortetracycline.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+强力霉素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-021-doxycycline.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+泰乐菌素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-015-tylosin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+氟苯尼考,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-012-florfenicol.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+甲砜霉素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+林可霉素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-014-lincomycin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+泰妙菌素,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-013-tiamulin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+磺胺,SFDUT1-TX-0638,SRC-0089,151,3161,3161,DRUG-034-sulfonamides.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+氨苄西林,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-042-ampicillin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+阿莫西林,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-010-amoxicillin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+卡那霉素,SFDUT1-TX-0640,SRC-0089,152,3171,3171,,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+庆大霉素,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-023-gentamicin.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+氟苯尼考,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-012-florfenicol.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+磺胺,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-034-sulfonamides.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+安乃近,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-029-nsaids.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+地塞米松,SFDUT1-TX-0640,SRC-0089,152,3171,3171,DRUG-066-dexamethasone.md,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+维生素,SFDUT1-TX-0640,SRC-0089,152,3171,3171,,DIS-007-circoviruses-pcvad.md,第七章,5. 怎样预防和控制PMWS
+青霉素,SFDUT1-TX-0657,SRC-0089,159,3289,3289,DRUG-009-penicillin-g.md,DIS-018-pseudorabies-aujeszky-disease.md,第七章,7. 诊断
+链霉素,SFDUT1-TX-0657,SRC-0089,159,3289,3289,,DIS-018-pseudorabies-aujeszky-disease.md,第七章,7. 诊断
+头孢噻呋,SFDUT1-TX-0681,SRC-0089,169,3459,3459,DRUG-011-ceftiofur.md,DIS-015-japanese-encephalitis-virus.md,第七章,8. 病猪治疗
+阿莫西林,SFDUT1-TX-0685,SRC-0089,172,3509,3509,DRUG-010-amoxicillin.md,DIS-021-influenza-viruses.md,第七章,6. 综合防治
+金霉素,SFDUT1-TX-0685,SRC-0089,172,3509,3509,DRUG-020-chlortetracycline.md,DIS-021-influenza-viruses.md,第七章,6. 综合防治
+氟苯尼考,SFDUT1-TX-0685,SRC-0089,172,3509,3509,DRUG-012-florfenicol.md,DIS-021-influenza-viruses.md,第七章,6. 综合防治
+磺胺,SFDUT1-TX-0685,SRC-0089,172,3509,3509,DRUG-034-sulfonamides.md,DIS-021-influenza-viruses.md,第七章,6. 综合防治
+安乃近,SFDUT1-TX-0685,SRC-0089,172,3509,3509,DRUG-029-nsaids.md,DIS-021-influenza-viruses.md,第七章,6. 综合防治
+口服补液盐,SFDUT1-TX-0688,SRC-0089,176,3550,3550,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+葡萄糖,SFDUT1-TX-0688,SRC-0089,176,3550,3550,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+氯化钠,SFDUT1-TX-0688,SRC-0089,176,3550,3550,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+口服补液盐,SFDUT1-TX-0689,SRC-0089,176,3552,3552,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+葡萄糖,SFDUT1-TX-0689,SRC-0089,176,3552,3552,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+氯化钠,SFDUT1-TX-0689,SRC-0089,176,3552,3552,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+碳酸氢钠,SFDUT1-TX-0689,SRC-0089,176,3552,3552,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+口服补液盐,SFDUT1-TX-0690,SRC-0089,176,3554,3554,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+口服补液盐,SFDUT1-TX-0691,SRC-0089,176,3556,3556,,DIS-009-transmissible-gastroenteritis-virus.md,第七章,6. 防治方法
+氨苄西林,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-042-ampicillin.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+阿莫西林,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-010-amoxicillin.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+土霉素,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-019-oxytetracycline.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+强力霉素,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-021-doxycycline.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+泰乐菌素,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-015-tylosin.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+氟苯尼考,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-012-florfenicol.md,DIS-047-pasteurellosis.md,第八章,7. 治疗
+磺胺,SFDUT1-TX-0722,SRC-0089,188,3740,3740,DRUG-034-sulfonamides.md,DIS-047-pasteurellosis.md,第八章,7. 治疗

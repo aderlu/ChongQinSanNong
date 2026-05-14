@@ -1,0 +1,26 @@
+# Parallel B-task Canonical Section Normalization
+
+- `DIS-004-astroviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-007-circoviruses-pcvad.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-008-porcine-epidemic-diarrhea-virus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-009-transmissible-gastroenteritis-virus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-010-porcine-deltacoronavirus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-011-hemagglutinating-encephalomyelitis-virus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-012-porcine-respiratory-coronavirus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-013-porcine-torovirus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-015-japanese-encephalitis-virus.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-018-pseudorabies-aujeszky-disease.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-021-influenza-viruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-023-parvoviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-024-classical-swine-fever-pestiviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-026-foot-and-mouth-disease-picornaviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-027-senecavirus-a-picornaviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-028-porcine-reproductive-and-respiratory-syndrome-viruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-030-rotaviruses-and-reoviruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-033-vesicular-stomatitis-viruses.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-035-actinobacillus-pleuropneumoniae-pleuropneumonia.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-037-bordetella-bronchiseptica-nonprogressive-atrophic-rhinitis.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-039-clostridial-diseases.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-041-neonatal-post-weaning-colibacillosis.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-049-salmonellosis.md`: 传播途径, 临床症状, 剖检变化
+- `DIS-052-swine-dysentery-brachyspira-hyodysenteriae.md`: 传播途径, 临床症状, 剖检变化

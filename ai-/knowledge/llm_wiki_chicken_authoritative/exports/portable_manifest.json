@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-04-29T09:06:16.604323+00:00",
+  "package_root": "knowledge/llm_wiki_chicken_authoritative",
+  "source_count": 121,
+  "disease_count": 60,
+  "syndrome_count": 3,
+  "drug_count": 115,
+  "standard_anchor_count": 34,
+  "rule_count": 30,
+  "topic_count": 7,
+  "issue_group_count": 4,
+  "issue_detail_count": 39
+}

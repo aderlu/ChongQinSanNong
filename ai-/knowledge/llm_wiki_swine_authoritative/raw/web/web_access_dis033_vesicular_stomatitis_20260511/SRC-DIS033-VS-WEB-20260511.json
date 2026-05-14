@@ -1,0 +1,69 @@
+{
+  "source_id": "SRC-DIS033-VS-WEB-20260511",
+  "title": "Web Access official source extraction for DIS-033 vesicular stomatitis",
+  "disease_id": "DIS-033",
+  "disease_name": "Vesicular stomatitis in swine",
+  "accessed_at": "2026-05-11T16:45:00+08:00",
+  "extraction_method": "Codex web-access skill via Chrome CDP on official APHIS page",
+  "official_sources": [
+    {
+      "url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "domain": "www.aphis.usda.gov",
+      "parent_official_domain": "usda.gov",
+      "publisher": "USDA Animal and Plant Health Inspection Service",
+      "title": "Vesicular Stomatitis Virus",
+      "page_type": "official disease alert page",
+      "last_modified": "2026-05-08",
+      "official_domain_confirmed": true,
+      "explicit_dis033_support": [
+        "APHIS states that vesicular stomatitis mainly affects horses and cattle, and can occasionally infect swine, sheep, goats, llamas, alpacas, and people.",
+        "APHIS states that vesicular stomatitis is primarily transmitted by biting flies and midges.",
+        "APHIS lists blister-like lesions around the mouth, nose, sheath, udders, ears, and coronary band, with lameness possible when the coronary band is affected.",
+        "APHIS states that animal health professionals report diagnosed or suspected cases of nationally listed reportable animal diseases to APHIS Area Veterinarians in Charge and to the State animal health official as applicable under State reporting regulations.",
+        "APHIS states that the disease can impact animal movement and international trade."
+      ],
+      "limitations": [
+        "The page is a United States official APHIS disease alert and must not be extrapolated into China-specific reporting, quarantine, culling, movement-control, treatment, dose, course, withdrawal period, MRL, residue, or food-safety conclusions.",
+        "The page supports disease alert, host range, transmission, sign recognition, and U.S. reporting boundary facts only.",
+        "The page does not replace laboratory confirmation, local veterinary diagnosis, or jurisdiction-specific regulatory procedures."
+      ]
+    }
+  ],
+  "supported_claims": [
+    {
+      "fact_id": "DIS033-WEB-001-aphis-swine-host-boundary",
+      "claim": "APHIS identifies swine as an occasional host of vesicular stomatitis, while noting horses and cattle are mainly affected.",
+      "supporting_source_url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS033-WEB-002-aphis-vector-transmission",
+      "claim": "APHIS states that vesicular stomatitis is primarily transmitted by biting flies and midges.",
+      "supporting_source_url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS033-WEB-003-aphis-lesion-sites",
+      "claim": "APHIS describes blister-like lesions around the mouth, nose, sheath, udders, ears, and coronary band, with possible lameness when coronary-band lesions occur.",
+      "supporting_source_url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "risk_class": "normal_clinical"
+    },
+    {
+      "fact_id": "DIS033-WEB-004-aphis-us-reporting-boundary",
+      "claim": "APHIS states that animal health professionals report diagnosed or suspected cases of nationally listed reportable animal diseases to APHIS Area Veterinarians in Charge and State animal health officials as applicable under State regulations.",
+      "supporting_source_url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "risk_class": "high_regulatory"
+    },
+    {
+      "fact_id": "DIS033-WEB-005-aphis-movement-trade-impact",
+      "claim": "APHIS notes that vesicular stomatitis can affect animal movement and international trade.",
+      "supporting_source_url": "https://www.aphis.usda.gov/livestock-poultry-disease/cattle/vesicular-stomatitis",
+      "risk_class": "high_regulatory"
+    }
+  ],
+  "do_not_extrapolate": [
+    "Do not convert APHIS U.S. reporting language into China-specific regulatory action.",
+    "Do not generate treatment, dose, course, withdrawal period, MRL, residue, or food-safety conclusions from this source.",
+    "Do not treat the page as laboratory-confirmation guidance or a substitute for veterinary diagnosis."
+  ]
+}

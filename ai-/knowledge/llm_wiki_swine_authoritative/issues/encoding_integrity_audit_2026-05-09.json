@@ -1,0 +1,370 @@
+{
+  "summary": {
+    "generated_at": "2026-05-14T00:21:28+08:00",
+    "knowledge_base": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+    "text_files_scanned": 2532,
+    "runtime_manifest_paths_loaded": 204,
+    "encoding_ok": 2518,
+    "decode_or_replacement_damage": 3,
+    "mojibake_like_content": 0,
+    "minor_mojibake_signal": 11,
+    "runtime_damaged_count": 0
+  },
+  "damaged_or_high_signal_files": [
+    {
+      "path": "issues/phase2_encoding_quarantine_2026-05-09.json",
+      "runtime_manifest_path": false,
+      "size_bytes": 7626,
+      "status": "decode_or_replacement_damage",
+      "decode_error": null,
+      "replacement_count": 1438,
+      "mojibake_score": 0,
+      "mojibake_hits": {},
+      "suspicious_lines": [
+        {
+          "line": 16,
+          "preview": "      \"original_line\": \"- `SFDUT1-TX-0691` candidate_fact / p.176 / \\ufffd\\ufffd\\ufffd\\u023e\\ufffd\\ufffd\\u03b8\\ufffd\\ufffd\\ufffd\\ufffd: \\ufffd\\u0123\\ufffd\\ufffd\\ufffd\\ufffd\\u01f2\\ufffd\\u04ba\\ufffd\\u073c\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u0733\\ufffd\\ufffd\\ua8ec\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u02ee\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u01b5\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u0223\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u02b3\\ufffd\\ufffd\\ufffd\\u0436\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u053c\\ufffd\\ufffd\\ufffd\\ufffd\\u0730\\ufffd\\ufffd\\u4dfd\\ufffd\\ufffd\\ufffd\\u01bf\\u06b7\\ufffd\\ufffd\\ufffd\\u04ba\\ufffd\\u03a3\\ufffd\\ufffd\\ufffd\\ufffd\\u01f5\\ufffd\\ufffd\\ufffd\\u04bd\\u057e\\ufffd\\ufffd\\ufffd\\ufffd"
+        },
+        {
+          "line": 29,
+          "preview": "      \"original_line\": \"- `SFDUT1-TX-0585` vaccination_or_immunization / p.134 / \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd: \\ufffd\\ufffd1\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd $24\\\\\\\\sim 48$ \\u0421\\u02b1\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u07e3\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd3\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\xbf\\u0273\\ufffd\\ufffd\\ufffd $41^{\\\\\\\\circ}C$ \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u02b3\\ufffd"
+        },
+        {
+          "line": 42,
+          "preview": "      \"original_line\": \"- `SFDUT2-TX-0123` dose_route_course / p.227 / \\ufffd\\ufffd\\U000f39b8\\u02fe\\ufffd\\ufffd\\ufffd: \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffdORS\\ufffd\\u4dfd\\ufffd\\ufffd\\ufffd\\u023b\\ufffd\\ufffd\\u01a3\\ufffd\\u02b3\\ufffd\\u03a3\\ufffd3.5\\ufffd\\u02e3\\ufffd\\u033c\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u01a3\\ufffd\\u0421\\ufffd\\u0574\\ufffd2.5\\ufffd\\u02e3\\ufffd\\ufffd\\ufffd\\ufffd\\u4dfd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd2.9\\ufffd\\u02e3\\ufffd\\ufffd\\ufffd\\ufffd\\u023b\\ufffd\\ufffd\\ufffd1.5\\ufffd\\u02e3\\ufffd\\ufffd\\u06b7\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd2"
+        },
+        {
+          "line": 55,
+          "preview": "      \"original_line\": \"- `SFDUT2-TX-0041` treatment_or_prevention / p.201 / \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u046a\\ufffd\\u02fe\\ufffd\\ufffd\\ufffd: \\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u04aa\\ufffd\\ufffd\\ufffd\\ufffd\\u023b\\ufffd\\u013b\\ufffd\\ufffd\\ufffd\\xf2\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd $2 \\\\\\\\sim 4$ \\ufffd\\ufffd\\u0377\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ucde2\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd1\\u0377\\ufffd\\ufffd\\ufffd\\ufffd2\\ufffd\\ufffd2\\u0377\\ufffd\\ufffd\\ufffd\\ufffd3\\ufffd\\ufffd $3 \\\\\\\\sim"
+        }
+      ]
+    },
+    {
+      "path": "issues/wiki_diseases_comparisons_drugs_mojibake_audit_2026-05-08.md",
+      "runtime_manifest_path": false,
+      "size_bytes": 2797,
+      "status": "decode_or_replacement_damage",
+      "decode_error": null,
+      "replacement_count": 1,
+      "mojibake_score": 0,
+      "mojibake_hits": {},
+      "suspicious_lines": [
+        {
+          "line": 28,
+          "preview": "- Cleaned common replacement-character fragments (`\\ufffd?`) where the context was deterministic, for example `\\u8bca\\u65ad`, `\\u5206\\u7c7b`, `\\u8fb9\\u754c`, `\\u9636\\u6bb5`, `\\u8981\\u70b9`, `\\u6765\\u6e90`, `\\u951a\\u70b9`, `\\u516c\\u544a\\u7b2c250\\u53f7`, and `\\u516c\\u544a\\u7b2c573\\u53f7`."
+        }
+      ]
+    },
+    {
+      "path": "raw/md/猪场兽药使用与猪病防治技术200-363页.md",
+      "runtime_manifest_path": false,
+      "size_bytes": 286011,
+      "status": "decode_or_replacement_damage",
+      "decode_error": null,
+      "replacement_count": 1,
+      "mojibake_score": 0,
+      "mojibake_hits": {},
+      "suspicious_lines": [
+        {
+          "line": 1896,
+          "preview": "\"total\\ufffd\\u5efa\\u7acb\\u7684\\u9875\\u6570\": 1162701672,  "
+        }
+      ]
+    }
+  ],
+  "minor_signal_files": [
+    {
+      "path": "exports/knowledge_facts.json",
+      "runtime_manifest_path": false,
+      "size_bytes": 2035088,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "绛": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 43518,
+          "preview": "    \"object\": \"\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u9ea6\\u51ac\\u3001\\u7389\\u7af9\\u3001\\u5929\\u82b1\\u7c89\\u3001\\u5ddd\\u8d1d\\u6bcd\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u80ba\\u9634\\u865a\\u7684\\u80ba\\u70ed\\u71e5\\u54b3\\u3001\\u5e72\\u54b3\\u5c11\\u75f0\\u6216\\u52b3\\u4f24\\u4e45\\u54b3\\u3001\\u54bd\\u5e72\\u97f3\\u54d1\\u7b49\\u3002 \\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u9ea6\\u51ac\\u3001\\u77f3\\u659b\\u7b49\\u540c\\u7528\\uff0c\\u6709\\u517b\\u80c3\\u9634\\u3001\\u6e05\\u80c3\\u70ed\\u3001\\u751f\\u6d25\\u6db2\\u4e4b\\u529f\\uff0c\\u7528\\u4e8e\\u80c3\\u9634\\u865a\\u6216\\u70ed\\u4f24\\u80c3\\u9634\\u3001\\u6d25\\u6db2\\u4e0d\\u8db3\\u7684\\u53e3\\u6e34\\u54bd\\u5e72\\u3001\\u820c\\u8d28\\u7ea2\\u7edb\\u3001\\u80c3\\u8118\\u9690\\u75db\\u3001\\u5e72\\u5455\\u7b49\\u3002\","
+        },
+        {
+          "line": 43560,
+          "preview": "    \"object\": \"\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u6851\\u53f6\\u3001\\u674f\\u4ec1\\u3001\\u963f\\u80f6\\u7b49\\u914d\\u4f0d\\uff0c\\u5982\\u6e05\\u71e5\\u6551\\u80ba\\u6c64\\uff0c\\u7528\\u4e8e \\u71e5\\u54b3\\u75f0\\u9ecf\\u3001\\u54bd\\u5e72\\u9f3b\\u71e5\\uff1b\\u914d\\u5929\\u51ac\\uff0c\\u5982\\u300a\\u5f20\\u6c0f\\u533b\\u901a\\u300b\\u4e8c\\u51ac\\u818f\\uff0c\\u7528\\u4e8e\\u6cbb\\u7597\\u52b3\\u70ed\\u54b3\\u55fd\\u3002 \\u2461 \\u5e38\\u914d\\u7389\\u7af9\\u3001\\u6c99\\u53c2\\u7b49\\uff0c\\u5982\\u76ca\\u80c3\\u6c64\\uff0c\\u6cbb\\u70ed\\u4f24\\u80c3\\u9634\\u7684\\u53e3\\u6e34\\u54bd\\u5e72\\uff1b\\u4e0e\\u7384\\u53c2\\u3001\\u751f\\u5730\\u9ec4\\u914d\\u4f0d\\uff0c\\u5982\\u300a\\u6e29\\u75c5\\u6761\\u8fa8\\u300b\\u4e2d\\u589e\\u6db2\\u6c64\\uff0c\\u6cbb\\u7597\\u70ed\\u75c5\\u6d25\\u4f24\\u3001\\u80a0\\u71e5\\u4fbf\\u79d8\\u3002 \\u2462 \\u4e0e\\u751f\\u5730\\u9ec4\\u3001\\u9178\\u67a3\\u4ec1\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u5929\\u738b\\u8865\\u5fc3\\u4e39\\uff0c\\u6cbb\\u9634\\u865a\\u6709\\u70ed\\u7684\\u5fc3\\u70e6\\u4e0d\\u5b89\\uff1b\\u914d\\u9ec4\\u8fde\\u3001\\u751f\\u5730\\u9ec4\\u3001"
+        },
+        {
+          "line": 43854,
+          "preview": "    \"object\": \"\\u2460 \\u914d\\u9752\\u84bf\\u3001\\u79e6\\u827d\\u3001\\u77e5\\u6bcd\\u7b49\\uff0c\\u5982\\u9752\\u84bf\\u9cd6\\u7532\\u6c64\\u3001\\u79e6\\u827d\\u9cd6\\u7532\\u6563\\u7b49\\uff0c\\u7528\\u4e8e\\u9634\\u865a\\u53d1\\u70ed\\u4f5c\\u7528\\u8f83\\u9f9f\\u7532\\u4e3a\\u4f18\\uff0c\\u4e3a\\u6cbb\\u9634\\u865a\\u53d1\\u70ed\\u7684\\u8981\\u836f\\uff1b\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u7261\\u86ce\\u3001\\u83ca\\u82b1\\u7b49\\u540c\\u7528\\uff0c\\u6cbb\\u7597\\u9634\\u865a\\u9633\\u4ea2\\u3001\\u5934\\u6655\\u76ee\\u7729\\uff1b\\u5e38\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u9f9f\\u7532\\u3001\\u7261\\u86ce\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u70ed\\u75c5\\u4f24\\u9634\\u3001\\u9634\\u865a\\u98ce\\u52a8\\u3001\\u820c\\u5e72\\u7ea2\\u7edb\\u3002 \\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u4e09\\u68f1\\u3001\\u83aa\\u672f\\u3001\\u6728\\u9999\\u3001\\u6843\\u4ec1\\u3001\\u7ea2\\u82b1\\u3001\\u9752\\u76ae\\u7b49\\uff0c\\u80fd\\u8f6f\\u575a\\u6563\\u7ed3\\uff0c\\u901a\\u8840\\u8109\\u800c\\u6d88\\u75c7\\u7615\\uff0c\\u7528\\u4e8e\\u75c7\\u7615\\u79ef\\u805a\\u4f5c\\u75db\\u7b49\\u3002\","
+        }
+      ]
+    },
+    {
+      "path": "exports/knowledge_facts_status_index.json",
+      "runtime_manifest_path": false,
+      "size_bytes": 2516467,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "绛": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 55908,
+          "preview": "    \"object\": \"\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u9ea6\\u51ac\\u3001\\u7389\\u7af9\\u3001\\u5929\\u82b1\\u7c89\\u3001\\u5ddd\\u8d1d\\u6bcd\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u80ba\\u9634\\u865a\\u7684\\u80ba\\u70ed\\u71e5\\u54b3\\u3001\\u5e72\\u54b3\\u5c11\\u75f0\\u6216\\u52b3\\u4f24\\u4e45\\u54b3\\u3001\\u54bd\\u5e72\\u97f3\\u54d1\\u7b49\\u3002 \\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u9ea6\\u51ac\\u3001\\u77f3\\u659b\\u7b49\\u540c\\u7528\\uff0c\\u6709\\u517b\\u80c3\\u9634\\u3001\\u6e05\\u80c3\\u70ed\\u3001\\u751f\\u6d25\\u6db2\\u4e4b\\u529f\\uff0c\\u7528\\u4e8e\\u80c3\\u9634\\u865a\\u6216\\u70ed\\u4f24\\u80c3\\u9634\\u3001\\u6d25\\u6db2\\u4e0d\\u8db3\\u7684\\u53e3\\u6e34\\u54bd\\u5e72\\u3001\\u820c\\u8d28\\u7ea2\\u7edb\\u3001\\u80c3\\u8118\\u9690\\u75db\\u3001\\u5e72\\u5455\\u7b49\\u3002\","
+        },
+        {
+          "line": 55962,
+          "preview": "    \"object\": \"\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u6851\\u53f6\\u3001\\u674f\\u4ec1\\u3001\\u963f\\u80f6\\u7b49\\u914d\\u4f0d\\uff0c\\u5982\\u6e05\\u71e5\\u6551\\u80ba\\u6c64\\uff0c\\u7528\\u4e8e \\u71e5\\u54b3\\u75f0\\u9ecf\\u3001\\u54bd\\u5e72\\u9f3b\\u71e5\\uff1b\\u914d\\u5929\\u51ac\\uff0c\\u5982\\u300a\\u5f20\\u6c0f\\u533b\\u901a\\u300b\\u4e8c\\u51ac\\u818f\\uff0c\\u7528\\u4e8e\\u6cbb\\u7597\\u52b3\\u70ed\\u54b3\\u55fd\\u3002 \\u2461 \\u5e38\\u914d\\u7389\\u7af9\\u3001\\u6c99\\u53c2\\u7b49\\uff0c\\u5982\\u76ca\\u80c3\\u6c64\\uff0c\\u6cbb\\u70ed\\u4f24\\u80c3\\u9634\\u7684\\u53e3\\u6e34\\u54bd\\u5e72\\uff1b\\u4e0e\\u7384\\u53c2\\u3001\\u751f\\u5730\\u9ec4\\u914d\\u4f0d\\uff0c\\u5982\\u300a\\u6e29\\u75c5\\u6761\\u8fa8\\u300b\\u4e2d\\u589e\\u6db2\\u6c64\\uff0c\\u6cbb\\u7597\\u70ed\\u75c5\\u6d25\\u4f24\\u3001\\u80a0\\u71e5\\u4fbf\\u79d8\\u3002 \\u2462 \\u4e0e\\u751f\\u5730\\u9ec4\\u3001\\u9178\\u67a3\\u4ec1\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u5929\\u738b\\u8865\\u5fc3\\u4e39\\uff0c\\u6cbb\\u9634\\u865a\\u6709\\u70ed\\u7684\\u5fc3\\u70e6\\u4e0d\\u5b89\\uff1b\\u914d\\u9ec4\\u8fde\\u3001\\u751f\\u5730\\u9ec4\\u3001"
+        },
+        {
+          "line": 56340,
+          "preview": "    \"object\": \"\\u2460 \\u914d\\u9752\\u84bf\\u3001\\u79e6\\u827d\\u3001\\u77e5\\u6bcd\\u7b49\\uff0c\\u5982\\u9752\\u84bf\\u9cd6\\u7532\\u6c64\\u3001\\u79e6\\u827d\\u9cd6\\u7532\\u6563\\u7b49\\uff0c\\u7528\\u4e8e\\u9634\\u865a\\u53d1\\u70ed\\u4f5c\\u7528\\u8f83\\u9f9f\\u7532\\u4e3a\\u4f18\\uff0c\\u4e3a\\u6cbb\\u9634\\u865a\\u53d1\\u70ed\\u7684\\u8981\\u836f\\uff1b\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u7261\\u86ce\\u3001\\u83ca\\u82b1\\u7b49\\u540c\\u7528\\uff0c\\u6cbb\\u7597\\u9634\\u865a\\u9633\\u4ea2\\u3001\\u5934\\u6655\\u76ee\\u7729\\uff1b\\u5e38\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u9f9f\\u7532\\u3001\\u7261\\u86ce\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u70ed\\u75c5\\u4f24\\u9634\\u3001\\u9634\\u865a\\u98ce\\u52a8\\u3001\\u820c\\u5e72\\u7ea2\\u7edb\\u3002 \\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u4e09\\u68f1\\u3001\\u83aa\\u672f\\u3001\\u6728\\u9999\\u3001\\u6843\\u4ec1\\u3001\\u7ea2\\u82b1\\u3001\\u9752\\u76ae\\u7b49\\uff0c\\u80fd\\u8f6f\\u575a\\u6563\\u7ed3\\uff0c\\u901a\\u8840\\u8109\\u800c\\u6d88\\u75c7\\u7615\\uff0c\\u7528\\u4e8e\\u75c7\\u7615\\u79ef\\u805a\\u4f5c\\u75db\\u7b49\\u3002\","
+        }
+      ]
+    },
+    {
+      "path": "exports/veterinary_rational_use_401_600_drug_index.csv",
+      "runtime_manifest_path": false,
+      "size_bytes": 271910,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "绛": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 173,
+          "preview": "SRC-0093,\\u6c99\\u53c2,552,3982,\\u7b2c\\u5341\\u4e8c\\u8282 \\u8865\\u76ca\\u836f,\\u56db\\u3001\\u8865\\u9634\\u836f,\\u672c\\u54c1\\u7518\\u3001\\u51c9\\uff0c\\u5165\\u80ba\\u3001\\u80c3\\u7ecf\\uff0c\\u5177\\u6709\\u6da6\\u80ba\\u6b62\\u54b3\\u3001\\u517b\\u80c3\\u751f\\u6d25\\u529f\\u6548\\u3002\\u5357\\u6c99\\u53c2\\u542b\\u6c99\\u53c2\\u7682\\u82f7\\uff1b\\u674f\\u53f6\\u6c99\\u53c2\\u542b\\u544b\\u5583\\u9999\\u8c46\\u7cbe\\uff08\\u82b1\\u6912\\u6bd2\\u7d20\\uff09\\uff1b\\u5317\\u6c99\\u53c2\\u542b\\u6325\\u53d1\\u6cb9\\u3001\\u4e09\\u841c\\u9178\\u3001\\u8c46\\u753e\\u9187\\u3001 \\\\beta -\\u8c37\\u753e\\u9187\\u3001\\u751f\\u7269\\u78b1\\u548c\\u6dc0\\u7c89\\u7b49\\u3002 \\u5176\\u836f\\u7406\\u4f5c\\u7528\\u4e3a\\uff1a\\u2460\\u4e59\\u9187\\u548c\\u4e59\\u9178\\u4e59\\u916f\\u63d0\\u53d6\\u7269\\u5bf9\\u8c5a\\u9f20\\u67b8\\u6a7c\\u9178\\u5f15\\u54b3\\u5177 \\u6709\\u663e\\u8457\\u7684\\u5bf9\\u6297\\u4f5c\\u7528\\uff0c\\u4e59\\u9178\\u4e59\\u916f\\u63d0\\u53d6\\u7269\\u5e76\\u6709\\u663e\\u8457\\u5730\\u4fc3\\u8fdb\\u5c0f\\u9f20\\u915a\\u7ea2"
+        },
+        {
+          "line": 174,
+          "preview": "SRC-0093,\\u9ea6\\u51ac,553,4004,\\u7b2c\\u5341\\u4e8c\\u8282 \\u8865\\u76ca\\u836f,\\u56db\\u3001\\u8865\\u9634\\u836f,\\u672c\\u54c1\\u7518\\u3001\\u5fae\\u82e6\\u3001\\u5fae\\u5bd2\\uff0c\\u5f52\\u5fc3\\u3001\\u80ba\\u3001\\u80c3\\u7ecf\\uff0c\\u5177\\u6709\\u517b\\u9634\\u6da6\\u80ba\\u3001\\u76ca\\u80c3\\u751f\\u6d25\\u3001\\u6e05\\u5fc3\\u9664\\u70e6\\u529f\\u6548\\u3002\\u672c\\u54c1\\u4e3b\\u8981\\u542b\\u9ea6\\u51ac\\u7682\\u82f7\\uff08 \\\\mathrm{A} \\\\sim \\\\mathrm{E} \\uff09\\u548c\\u9614\\u53f6\\u9ea6\\u51ac\\u7682\\u82f7\\uff08 \\\\mathrm{A} \\\\sim \\\\mathrm{H} \\uff09\\uff0c\\u5176\\u4e3b\\u8981\\u82f7\\u5143\\u4e3a\\u85af\\u84e3\\u7682\\u82f7\\u5143\\u548c\\u9c81\\u65af\\u53ef\\u82f7\\u5143\\u4ee5\\u53ca\\u5f02\\u9ec4\\u916e\\u7b49\\u3002 \\u5176\\u836f\\u7406\\u4f5c\\u7528"
+        },
+        {
+          "line": 181,
+          "preview": "SRC-0093,\\u9cd6 \\u7532,559,4155,\\u7b2c\\u5341\\u4e8c\\u8282 \\u8865\\u76ca\\u836f,\\u56db\\u3001\\u8865\\u9634\\u836f,\\u672c\\u54c1\\u54b8\\u3001\\u5bd2\\uff0c\\u5f52\\u809d\\u3001\\u80be\\u7ecf\\uff0c\\u5177\\u6709\\u6ecb\\u9634\\u6f5c\\u9633\\u3001\\u8f6f\\u575a\\u6563\\u7ed3\\u529f\\u6548\\u3002\\u672c\\u54c1\\u4e3b\\u8981\\u542b\\u7518\\u6c28\\u9178\\u3001\\u812f\\u6c28\\u9178\\u3001\\u8c37\\u6c28\\u9178\\u3001\\u4eae\\u6c28\\u9178\\u3001\\u7cbe\\u6c28\\u9178\\u3001\\u534a\\u4e73\\u7cd6\\u3001\\u8461\\u8404\\u7cd6\\u919b\\u9178\\u3001\\u6c28\\u57fa\\u534a\\u4e73\\u7cd6\\u3001\\u9499\\u3001\\u9530\\u548c\\u78f7\\u7b49\\u3002 \\u5176\\u836f\\u7406\\u4f5c\\u7528\\u4e3a\\uff1a\\u2460\\u80fd\\u6291\\u5236\\u7ed3\\u7f14\\u7ec4\\u7ec7\\u589e\\u751f\\uff0c\\u6709\\u8f6f\\u809d\\u3001\\u813e\\u7684\\u4f5c\\u7528\\uff0c\\u6545\\u5bf9\\u809d\\u786c\\u5316\\u3001\\u813e\\u80bf\\u5927\\u6709\\u6cbb\\u7597\\u4f5c\\u7528\\uff0c\\u5e76\\u6709\\u63d0\\u9ad8\\u8840\\u6d46\\u86cb\\u767d\\u7684\\u4f5c\\u7528\\u3002\\u2461\\u5bf9 \\\\mathrm{H}_"
+        }
+      ]
+    },
+    {
+      "path": "exports/veterinary_rational_use_401_600_fact_index.csv",
+      "runtime_manifest_path": false,
+      "size_bytes": 249267,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "绛": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 305,
+          "preview": "RAU3-COMBO-3e6042ff,tcm_combination_contraindication,\\u6c99\\u53c2,has_combination_or_contraindication,\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u9ea6\\u51ac\\u3001\\u7389\\u7af9\\u3001\\u5929\\u82b1\\u7c89\\u3001\\u5ddd\\u8d1d\\u6bcd\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u80ba\\u9634\\u865a\\u7684\\u80ba\\u70ed\\u71e5\\u54b3\\u3001\\u5e72\\u54b3\\u5c11\\u75f0\\u6216\\u52b3\\u4f24\\u4e45\\u54b3\\u3001\\u54bd\\u5e72\\u97f3\\u54d1\\u7b49\\u3002 \\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u9ea6\\u51ac\\u3001\\u77f3\\u659b\\u7b49\\u540c\\u7528\\uff0c\\u6709\\u517b\\u80c3\\u9634\\u3001\\u6e05\\u80c3\\u70ed\\u3001\\u751f\\u6d25\\u6db2\\u4e4b\\u529f\\uff0c\\u7528\\u4e8e\\u80c3\\u9634\\u865a\\u6216\\u70ed"
+        },
+        {
+          "line": 307,
+          "preview": "RAU3-COMBO-05763fd0,tcm_combination_contraindication,\\u9ea6\\u51ac,has_combination_or_contraindication,\\u2460 \\u672c\\u54c1\\u5e38\\u4e0e\\u6851\\u53f6\\u3001\\u674f\\u4ec1\\u3001\\u963f\\u80f6\\u7b49\\u914d\\u4f0d\\uff0c\\u5982\\u6e05\\u71e5\\u6551\\u80ba\\u6c64\\uff0c\\u7528\\u4e8e \\u71e5\\u54b3\\u75f0\\u9ecf\\u3001\\u54bd\\u5e72\\u9f3b\\u71e5\\uff1b\\u914d\\u5929\\u51ac\\uff0c\\u5982\\u300a\\u5f20\\u6c0f\\u533b\\u901a\\u300b\\u4e8c\\u51ac\\u818f\\uff0c\\u7528\\u4e8e\\u6cbb\\u7597\\u52b3\\u70ed\\u54b3\\u55fd\\u3002 \\u2461 \\u5e38\\u914d\\u7389\\u7af9\\u3001\\u6c99\\u53c2\\u7b49\\uff0c\\u5982\\u76ca\\u80c3\\u6c64\\uff0c\\u6cbb\\u70ed\\u4f24\\u80c3\\u9634\\u7684\\u53e3\\u6e34\\u54bd"
+        },
+        {
+          "line": 321,
+          "preview": "RAU3-COMBO-c89ee886,tcm_combination_contraindication,\\u9cd6 \\u7532,has_combination_or_contraindication,\\u2460 \\u914d\\u9752\\u84bf\\u3001\\u79e6\\u827d\\u3001\\u77e5\\u6bcd\\u7b49\\uff0c\\u5982\\u9752\\u84bf\\u9cd6\\u7532\\u6c64\\u3001\\u79e6\\u827d\\u9cd6\\u7532\\u6563\\u7b49\\uff0c\\u7528\\u4e8e\\u9634\\u865a\\u53d1\\u70ed\\u4f5c\\u7528\\u8f83\\u9f9f\\u7532\\u4e3a\\u4f18\\uff0c\\u4e3a\\u6cbb\\u9634\\u865a\\u53d1\\u70ed\\u7684\\u8981\\u836f\\uff1b\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u7261\\u86ce\\u3001\\u83ca\\u82b1\\u7b49\\u540c\\u7528\\uff0c\\u6cbb\\u7597\\u9634\\u865a\\u9633\\u4ea2\\u3001\\u5934\\u6655\\u76ee\\u7729\\uff1b\\u5e38\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u9f9f\\u7532\\u3001\\u7261"
+        }
+      ]
+    },
+    {
+      "path": "raw/md/兽药合理应用与联用手册1-200页.md",
+      "runtime_manifest_path": false,
+      "size_bytes": 354739,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 2,
+      "mojibake_hits": {
+        "绛": 2
+      },
+      "suspicious_lines": [
+        {
+          "line": 2493,
+          "preview": "b. \\u7edb\\u77fe\\u4e38\\uff08\\u542b\\u7edb\\u77fe\\u3001\\u82cd\\u672f\\u3001\\u9648\\u76ae\\u3001\\u539a\\u6734\\u3001\\u7518\\u8349\\u3001\\u7ea2\\u67a3\\uff09\\uff1a\\u8054\\u7528\\u751f\\u6210\\u96be\\u6eb6\\u6027\\u7edc\\u5408\\u7269\\uff0c\\u964d\\u4f4e\\u56db\\u73af\\u7d20\\u7c7b\\u7684\\u6297\\u83cc\\u4f5c\\u7528\\u3002  "
+        }
+      ]
+    },
+    {
+      "path": "raw/md/兽药合理应用与联用手册201-400页.md",
+      "runtime_manifest_path": false,
+      "size_bytes": 370348,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 6,
+      "mojibake_hits": {
+        "绛": 6
+      },
+      "suspicious_lines": [
+        {
+          "line": 4221,
+          "preview": "\\u2461 \\u4e0e\\u91d1\\u94f6\\u82b1\\u3001\\u8584\\u8377\\u3001\\u725b\\u84a1\\u5b50\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u94f6\\u7fd8\\u6563\\uff0c\\u7528\\u4e8e\\u5916\\u611f\\u98ce\\u70ed\\u3001\\u6e29\\u75c5\\u521d\\u8d77\\uff1b\\u5e38\\u4e0e\\u7384\\u53c2\\u3001\\u7261\\u4e39\\u76ae\\u3001\\u91d1\\u94f6\\u82b1\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u8425\\u6c64\\uff0c\\u4ee5\\u6e05\\u70ed\\u89e3\\u6bd2\\u3001\\u900f\\u70ed\\u8f6c\\u6c14\\uff0c\\u6cbb\\u70ed\\u5165\\u8425\\u8840\\u3001\\u820c\\u7edb\\u795e\\u660f\\uff1b\\u5e38\\u7528\\u6e05\\u5fc3\\u6cfb\\u706b\\u7684\\u8fde\\u7fd8\\u5fc3\\u4e0e\\u9ea6\\u51ac\\u3001\\u83b2\\u5b50\\u5fc3\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u5bab\\u6c64\\uff0c\\u6cbb\\u70ed\\u5165\\u5fc3\\u5305\\u3001\\u9ad8\\u70ed\\u795e\\u660f\\u3002  "
+        },
+        {
+          "line": 4552,
+          "preview": "\\u6e05\\u70ed\\u51c9\\u8840\\u836f\\uff0c\\u591a\\u4e3a\\u7518\\u82e6\\u54b8\\u5bd2\\u4e4b\\u54c1\\uff0c\\u54b8\\u80fd\\u5165\\u8840\\uff0c\\u5bd2\\u80fd\\u6e05\\u70ed\\u3002\\u591a\\u5f52\\u5fc3\\u3001\\u809d\\u7ecf\\uff0c\\u5fc3\\u4e3b\\u8840\\uff0c\\u809d\\u85cf\\u8840\\uff0c\\u6545\\u672c\\u7c7b\\u836f\\u7269\\u5177\\u6709\\u6e05\\u89e3\\u8425\\u5206\\u3001\\u8840\\u5206\\u70ed\\u90aa\\u7684\\u4f5c\\u7528\\uff0c\\u4e3b\\u8981\\u7528\\u4e8e\\u8425\\u5206\\u3001\\u8840\\u5206\\u7b49\\u5b9e\\u70ed\\u8bc1\\u3002\\u5982\\u6e29\\u70ed\\u75c5\\u70ed\\u5165\\u8425\\u5206\\uff0c\\u70ed\\u707c\\u8425\\u9634\\uff0c\\u5fc3\\u795e\\u88ab\\u6270\\uff0c\\u75c7\\u89c1\\u820c\\u7edb\\u3001\\u8eab\\u70ed\\u591c\\u751a\\u3001\\u5fc3\\u70e6\\u4e0d\\u5bd0\\u3001\\u8109\\u7ec6\\u6570\\uff0c\\u751a\\u5219\\u795e\\u660f\\u8c35\\u8bed\\u3001\\u6591\\u75b9\\u9690\\u9690\\uff1b\\u90aa\\u9677\\u5fc3\\u5305\\uff0c\\u795e\\u660f\\u8c35\\u8bed\\u3001\\u820c\\u8e47\\u80a2\\u53a5\\u3001\\u820c\\u8d28\\u7ea2\\u7edb\\uff1b\\u70ed\\u5165\\u8840\\u5206\\uff0c\\u70ed\\u76db\\u8feb\\u8840\\uff0c\\u5fc3\\u795e\\u6270\\u4e71\\uff0c\\u75c7\\u89c1\\u820c\\u8272\\u6df1\\u7edb\\u3001\\u5410\\u8840\\u8844\\u8840\\u3001\\u5c3f\\u8840\\u4fbf\\u8840\\u3001\\u6591\\u75b9\\u7d2b\\u6697"
+        },
+        {
+          "line": 4568,
+          "preview": "\\u2460 \\u4e0e\\u7384\\u53c2\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u8425\\u6c64\\uff0c\\u7528\\u4e8e\\u6cbb\\u7597\\u6e7f\\u70ed\\u75c5\\u70ed\\u5165\\u8425\\u8840\\u3001\\u58ee\\u70ed\\u795e\\u660f\\u3001\\u53e3\\u5e72\\u820c\\u7edb\\uff1b\\u4e0e\\u9cd6\\u7532\\u3001\\u9752\\u84bf\\u3001\\u77e5\\u6bcd\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u9752\\u84bf\\u9cd6\\u7532\\u6c64\\uff0c\\u53ef\\u6cbb\\u6e29\\u75c5\\u540e\\u671f\\u3001\\u4f59\\u70ed\\u672a\\u5c3d\\u3001\\u9634\\u6db2\\u5df2\\u4f24\\u3001\\u591c\\u70ed\\u65e9\\u51c9\\u3001\\u820c\\u7ea2\\u8109\\u6570\\u8005\\u3002"
+        },
+        {
+          "line": 4638,
+          "preview": "\\u2460 \\u5e38\\u4e0e\\u751f\\u5730\\u9ec4\\u3001\\u9ea6\\u51ac\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u8425\\u6c64\\uff0c\\u7528\\u4e8e\\u6cbb\\u6e29\\u75c5\\u70ed\\u5165\\u8425\\u5206\\uff0c\\u8eab\\u70ed\\u591c\\u751a\\u3001\\u5fc3\\u70e6\\u53e3\\u6e34\\u3001\\u820c\\u7edb\\u8109\\u6570\\uff1b\\u4e0e\\u9ea6\\u51ac\\u3001\\u8fde\\u7fd8\\u5fc3\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u5bab\\u6c64\\uff0c\\u53ef\\u6cbb\\u6e29\\u75c5\\u90aa\\u9677\\u5fc3\\u5305\\uff0c\\u795e\\u660f\\u8c35\\u8bed\\uff1b\\u5e38\\u4e0e\\u77f3\\u818f\\u3001\\u77e5\\u6bcd\\u540c\\u7528\\uff0c\\u5982\\u5316\\u6591\\u6c64\\uff0c\\u7528\\u4e8e\\u6e29\\u70ed\\u75c5\\u6c14\\u8840\\u4e24\\u71d4\\uff0c\\u53d1\\u6591\\u53d1\\u75b9\\u3002  "
+        }
+      ]
+    },
+    {
+      "path": "raw/md/兽药合理应用与联用手册401-600页.md",
+      "runtime_manifest_path": false,
+      "size_bytes": 366544,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "绛": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 3997,
+          "preview": "\\u2461 \\u672c\\u54c1\\u5e38\\u914d\\u9ea6\\u51ac\\u3001\\u77f3\\u659b\\u7b49\\u540c\\u7528\\uff0c\\u6709\\u517b\\u80c3\\u9634\\u3001\\u6e05\\u80c3\\u70ed\\u3001\\u751f\\u6d25\\u6db2\\u4e4b\\u529f\\uff0c\\u7528\\u4e8e\\u80c3\\u9634\\u865a\\u6216\\u70ed\\u4f24\\u80c3\\u9634\\u3001\\u6d25\\u6db2\\u4e0d\\u8db3\\u7684\\u53e3\\u6e34\\u54bd\\u5e72\\u3001\\u820c\\u8d28\\u7ea2\\u7edb\\u3001\\u80c3\\u8118\\u9690\\u75db\\u3001\\u5e72\\u5455\\u7b49\\u3002"
+        },
+        {
+          "line": 4021,
+          "preview": "\\u2462 \\u4e0e\\u751f\\u5730\\u9ec4\\u3001\\u9178\\u67a3\\u4ec1\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u5929\\u738b\\u8865\\u5fc3\\u4e39\\uff0c\\u6cbb\\u9634\\u865a\\u6709\\u70ed\\u7684\\u5fc3\\u70e6\\u4e0d\\u5b89\\uff1b\\u914d\\u9ec4\\u8fde\\u3001\\u751f\\u5730\\u9ec4\\u3001\\u7af9\\u53f6\\u5fc3\\u7b49\\u540c\\u7528\\uff0c\\u5982\\u6e05\\u8425\\u6c64\\uff0c\\u6cbb\\u90aa\\u6270\\u5fc3\\u8425\\u3001\\u8eab\\u70ed\\u70e6\\u8e81\\u3001\\u820c\\u7edb\\u800c\\u5e72\\u7b49\\u3002  "
+        },
+        {
+          "line": 4167,
+          "preview": "\\u2460 \\u914d\\u9752\\u84bf\\u3001\\u79e6\\u827d\\u3001\\u77e5\\u6bcd\\u7b49\\uff0c\\u5982\\u9752\\u84bf\\u9cd6\\u7532\\u6c64\\u3001\\u79e6\\u827d\\u9cd6\\u7532\\u6563\\u7b49\\uff0c\\u7528\\u4e8e\\u9634\\u865a\\u53d1\\u70ed\\u4f5c\\u7528\\u8f83\\u9f9f\\u7532\\u4e3a\\u4f18\\uff0c\\u4e3a\\u6cbb\\u9634\\u865a\\u53d1\\u70ed\\u7684\\u8981\\u836f\\uff1b\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u7261\\u86ce\\u3001\\u83ca\\u82b1\\u7b49\\u540c\\u7528\\uff0c\\u6cbb\\u7597\\u9634\\u865a\\u9633\\u4ea2\\u3001\\u5934\\u6655\\u76ee\\u7729\\uff1b\\u5e38\\u914d\\u751f\\u5730\\u9ec4\\u3001\\u9f9f\\u7532\\u3001\\u7261\\u86ce\\u7b49\\u540c\\u7528\\uff0c\\u7528\\u4e8e\\u70ed\\u75c5\\u4f24\\u9634\\u3001\\u9634\\u865a\\u98ce\\u52a8\\u3001\\u820c\\u5e72\\u7ea2\\u7edb\\u3002  "
+        }
+      ]
+    },
+    {
+      "path": "tools/audit/audit_encoding_integrity.py",
+      "runtime_manifest_path": false,
+      "size_bytes": 6929,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 16,
+      "mojibake_hits": {
+        "鐚": 1,
+        "鍏": 1,
+        "銆": 1,
+        "锛": 1,
+        "鈥": 1,
+        "绛": 1,
+        "鏉": 1,
+        "闃": 1,
+        "浣": 1,
+        "涓": 1,
+        "灏": 1,
+        "璇": 1,
+        "鑽": 1,
+        "鐥": 1,
+        "楠": 1,
+        "浠": 1
+      },
+      "suspicious_lines": [
+        {
+          "line": 43,
+          "preview": "    \"\\u941a\","
+        },
+        {
+          "line": 44,
+          "preview": "    \"\\u934f\","
+        },
+        {
+          "line": 45,
+          "preview": "    \"\\u9286\","
+        },
+        {
+          "line": 46,
+          "preview": "    \"\\u951b\","
+        },
+        {
+          "line": 47,
+          "preview": "    \"\\u9225\","
+        }
+      ]
+    },
+    {
+      "path": "tools/extract_veterinary_treatment_of_pigs.py",
+      "runtime_manifest_path": false,
+      "size_bytes": 26424,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 3,
+      "mojibake_hits": {
+        "鈥": 3
+      },
+      "suspicious_lines": [
+        {
+          "line": 153,
+          "preview": "    s = s.replace(\"\\u9225?\", \"-\").replace(\"\\u2013\", \"-\").replace(\"\\u2014\", \"-\")"
+        },
+        {
+          "line": 200,
+          "preview": "        m = re.match(r\"(.+?)\\\\s+((?:\\\\d{1,3}(?:[\\u9225?\\\\-\\u2013]\\\\d{1,3})?)(?:,\\\\s*\\\\d{1,3}(?:[\\u9225?\\\\-\\u2013]\\\\d{1,3})?)*)$\", c)"
+        }
+      ]
+    },
+    {
+      "path": "tools/pipeline/phase13_build_answer_skeletons.py",
+      "runtime_manifest_path": false,
+      "size_bytes": 15484,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 5,
+      "mojibake_hits": {
+        "鐚": 1,
+        "銆": 1,
+        "锛": 1,
+        "涓": 1,
+        "璇": 1
+      },
+      "suspicious_lines": [
+        {
+          "line": 16,
+          "preview": "MOJIBAKE_RE = re.compile(r\"[\\\\uFFFD]|\\u951b\\\\?|\\u9286\\\\?|\\u93c8\\ue100|\\u7487\\u30e6|\\u941a\\ue044|\\u6d93\\u5d85|\\u7459\\u52ee\\u5bd6\")"
+        }
+      ]
+    },
+    {
+      "path": "tools/pipeline/phase14_generate_two_stage_samples.py",
+      "runtime_manifest_path": false,
+      "size_bytes": 36852,
+      "status": "minor_mojibake_signal",
+      "decode_error": null,
+      "replacement_count": 0,
+      "mojibake_score": 5,
+      "mojibake_hits": {
+        "鐚": 1,
+        "銆": 1,
+        "锛": 1,
+        "涓": 1,
+        "璇": 1
+      },
+      "suspicious_lines": [
+        {
+          "line": 23,
+          "preview": "MOJIBAKE_RE = re.compile(r\"[\\\\uFFFD]|\\u951b\\\\?|\\u9286\\\\?|\\u93c8\\ue100|\\u7487\\u0e22\\u0e39|\\u941a\\ue044|\\u6d93\\u5d85|\\u7459\\u52ee\\u5bd6\")"
+        }
+      ]
+    }
+  ]
+}

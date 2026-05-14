@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-13T00:18:07+08:00",
+  "phase": "Phase 6 and Phase 7",
+  "review_status_policy": {
+    "primary_gate_fields": [
+      "source_trust",
+      "evidence_coverage",
+      "usage_scope",
+      "authority_level",
+      "risk_class"
+    ],
+    "rule": "Generation, evaluation, and audit gates are derived from the simplified fact/page contract."
+  },
+  "entries": 204,
+  "drug_entries": 80,
+  "usage_scope_counts": {
+    "retrieval": 204,
+    "gap_routing": 40,
+    "audit_only": 40,
+    "control_support": 66,
+    "differential_support": 67,
+    "regulatory_boundary": 36,
+    "diagnosis_support": 53,
+    "gold_candidate": 153,
+    "drug_boundary": 72,
+    "negative_trap": 71,
+    "treatment_boundary": 25
+  },
+  "blocked_reason_counts": {},
+  "outputs": {
+    "gold_dataset_readiness_index": "exports/gold_dataset_readiness_index.csv",
+    "drug_gold_role_index": "exports/drug_gold_role_index.csv"
+  }
+}
