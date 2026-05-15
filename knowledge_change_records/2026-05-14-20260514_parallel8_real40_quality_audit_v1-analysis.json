@@ -1,0 +1,180 @@
+{
+  "files": {
+    "gen": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\generated_samples\\naturalized_samples_20260514_parallel8_real40_quality_audit_v1.jsonl",
+    "rawgen": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\generated_samples\\two_stage_samples_20260514_parallel8_real40_quality_audit_v1.jsonl",
+    "eval": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\evaluated_samples\\fact_evaluated_samples_20260514_parallel8_real40_quality_audit_v1.jsonl",
+    "sem": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\semantic_evaluated_samples\\semantic_evaluated_samples_20260514_parallel8_real40_quality_audit_v1.jsonl",
+    "csv": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\training_sets\\swine_wiki_training_dataset_production_20260514_parallel8_real40_quality_audit_v1.csv",
+    "train": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\training_sets\\swine_wiki_training_dataset_production_train_ready_20260514_parallel8_real40_quality_audit_v1.csv",
+    "main": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\training_sets\\swine_wiki_training_main_20260514_parallel8_real40_quality_audit_v1.csv",
+    "main_ready": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative\\exports\\training_sets\\swine_wiki_training_main_train_ready_20260514_parallel8_real40_quality_audit_v1.csv"
+  },
+  "counts": {
+    "raw_generated": 40,
+    "naturalized": 40,
+    "phase15": 40,
+    "phase18": 40,
+    "production_csv": 40,
+    "train_ready_csv": 15,
+    "training_main_csv": 40,
+    "training_main_ready_csv": 15
+  },
+  "qa_quality": {
+    "empty_count": 0,
+    "short_lt120_count": 16,
+    "audit_leak_count": 0,
+    "weak_query_count": 0,
+    "fallback_count": 17,
+    "generation_error_count": 17
+  },
+  "phase15_counts": {
+    "rejected": 17,
+    "accepted": 23
+  },
+  "semantic_counts": {
+    "rejected": 25,
+    "accepted": 15
+  },
+  "route_counts_observed": {
+    "": 40
+  },
+  "needed_arbitration": 23,
+  "hard_skipped_count": 0,
+  "final_label_counts": {
+    "invalid": 25,
+    "repairable": 15
+  },
+  "judge_gap": {
+    "count": 23,
+    "avg": 55.41,
+    "max": 97.0,
+    "ge15": 16
+  },
+  "samples": {
+    "short": [
+      [
+        "GEN-000001",
+        59,
+        "猪腺病毒感染；category；病毒病; 猪腺病毒感染；textbook_chapter_start_page；462"
+      ],
+      [
+        "GEN-000002",
+        55,
+        "非洲猪瘟；category；病毒病; 非洲猪瘟；textbook_chapter_start_page；467"
+      ],
+      [
+        "GEN-000003",
+        55,
+        "非洲猪瘟；category；病毒病; 非洲猪瘟；textbook_chapter_start_page；467"
+      ],
+      [
+        "GEN-000004",
+        55,
+        "非洲猪瘟；category；病毒病; 非洲猪瘟；textbook_chapter_start_page；467"
+      ],
+      [
+        "GEN-000005",
+        55,
+        "非洲猪瘟；category；病毒病; 非洲猪瘟；textbook_chapter_start_page；467"
+      ],
+      [
+        "GEN-000006",
+        55,
+        "非洲猪瘟；category；病毒病; 非洲猪瘟；textbook_chapter_start_page；467"
+      ],
+      [
+        "GEN-000007",
+        75,
+        "猪环曲病毒/托克特诺病毒感染；category；病毒病; 猪环曲病毒/托克特诺病毒感染；textbook_chapter_start_page；477"
+      ],
+      [
+        "GEN-000008",
+        61,
+        "猪星状病毒感染；category；病毒病; 猪星状病毒感染；textbook_chapter_start_page；481"
+      ],
+      [
+        "GEN-000015",
+        65,
+        "猪圆环病毒相关疾病；category；病毒病; 猪圆环病毒相关疾病；textbook_chapter_start_page；497"
+      ],
+      [
+        "GEN-000023",
+        61,
+        "猪传染性胃肠炎；category；病毒病; 猪传染性胃肠炎；textbook_chapter_start_page；512"
+      ]
+    ],
+    "leaks": [],
+    "weak_query": [],
+    "generation_errors": [
+      [
+        "GEN-000001",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000002",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000003",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000004",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000005",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000006",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000007",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000008",
+        "APIConnectionError: Connection error."
+      ],
+      [
+        "GEN-000015",
+        "JSONDecodeError: Invalid control character at: line 2 column 348 (char 349)"
+      ],
+      [
+        "GEN-000020",
+        "JSONDecodeError: Invalid control character at: line 2 column 350 (char 351)"
+      ]
+    ],
+    "fallback": [
+      "GEN-000001",
+      "GEN-000002",
+      "GEN-000003",
+      "GEN-000004",
+      "GEN-000005",
+      "GEN-000006",
+      "GEN-000007",
+      "GEN-000008",
+      "GEN-000015",
+      "GEN-000020",
+      "GEN-000023",
+      "GEN-000024",
+      "GEN-000025",
+      "GEN-000027",
+      "GEN-000028",
+      "GEN-000029",
+      "GEN-000039"
+    ]
+  },
+  "csv_header_has_new_fields": {
+    "user_persona": true,
+    "question_style": true,
+    "information_completeness": true,
+    "urgency_level": true,
+    "consultation_intent": true,
+    "misconception_type": true,
+    "actionability_level": true,
+    "prescription_support_level": true
+  }
+}

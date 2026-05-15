@@ -1,0 +1,37 @@
+﻿[
+    {
+        "phase":  "phase12_plan",
+        "seconds":  0.393,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase13_skeletons",
+        "seconds":  0.354,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase14_generate_parallel8",
+        "seconds":  27.551,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase14b_naturalize",
+        "seconds":  0.457,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase15_fact_eval",
+        "seconds":  0.358,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase18_dual_judge_parallel8",
+        "seconds":  60.943,
+        "exit_code":  0
+    },
+    {
+        "phase":  "phase16_export_csv",
+        "seconds":  0.316,
+        "exit_code":  0
+    }
+]
