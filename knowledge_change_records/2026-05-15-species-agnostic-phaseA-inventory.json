@@ -1,0 +1,76 @@
+{
+  "phase": "A",
+  "generated_at": "2026-05-15",
+  "swine_pipeline": {
+    "wiki_root": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_swine_authoritative",
+    "entrypoints": [
+      "tools/pipeline/phase12_plan_samples_from_wiki.py",
+      "tools/pipeline/phase13_build_answer_skeletons.py",
+      "tools/pipeline/phase14_generate_two_stage_samples.py",
+      "tools/pipeline/phase14b_naturalize_grounded_answers.py",
+      "tools/pipeline/phase15_fact_level_evaluate_samples.py",
+      "tools/pipeline/phase16_export_layered_training_sets.py",
+      "tools/pipeline/phase18_dual_judge_and_arbitrate.py",
+      "tools/pipeline/baseline_validation/run_baseline_experiment.py"
+    ],
+    "baseline_contract_file": "tools/pipeline/baseline_validation/baseline_validation_common.py",
+    "baseline_contract": {
+      "standard_sample_fields": 51,
+      "comparison_key_fields": 3,
+      "standard_comparison_fields": 54
+    },
+    "baseline_default_order": [
+      "phase14_generate_two_stage_samples.py",
+      "phase14b_naturalize_grounded_answers.py",
+      "phase15_fact_level_evaluate_samples.py",
+      "phase18_dual_judge_and_arbitrate.py"
+    ],
+    "phase12_runtime_dependencies": [
+      "exports/runtime_core_manifest.json",
+      "exports/gold_dataset_readiness_index.csv",
+      "exports/drug_gold_role_index.csv",
+      "exports/exporter_hard_block_rules.json"
+    ],
+    "phase16_hardcoded_observations": [
+      "case_id uses swine-wiki-* namespace",
+      "species field is hardcoded to 猪"
+    ],
+    "phase18_hardcoded_observations": [
+      "judge_swine_* model keys are hardcoded",
+      "swine_runtime_selection is directly referenced"
+    ]
+  },
+  "chicken_wiki": {
+    "wiki_root": "D:\\XF-ChongQin\\ai-\\knowledge\\llm_wiki_chicken_authoritative",
+    "available_exports": [
+      "disease_index.csv",
+      "drug_page_index.csv",
+      "knowledge_facts.json",
+      "rule_index.csv",
+      "source_index.csv",
+      "portable_manifest.json"
+    ],
+    "missing_runtime_files": [
+      "runtime_core_manifest.json",
+      "runtime_exclude_patterns.json",
+      "gold_dataset_readiness_index.csv",
+      "drug_gold_role_index.csv",
+      "exporter_hard_block_rules.json"
+    ]
+  },
+  "chicken_data_synthesis_reuse": {
+    "reusable_now": [
+      "infrastructure.llm",
+      "infrastructure.evaluation.normalizers",
+      "infrastructure.persistence.snapshots"
+    ],
+    "reference_only_now": [
+      "interfaces.cli",
+      "application.use_cases.pipeline_runtime"
+    ],
+    "known_risk": [
+      "pipeline_runtime still emits swine_disease_dataset_* naming"
+    ]
+  }
+}
+
