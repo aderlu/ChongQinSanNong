@@ -721,143 +721,413 @@ Export layer:
 - `main_issues`
 - `repair_suggestion`
 
-## 7. Implementation Plan
+## 7. Phased Execution Plan
 
-### 7.1 Minimum Viable Implementation
+This plan is intentionally staged. A later phase must not begin until the previous phase has passed its acceptance gate, except for harmless documentation or test scaffolding. Each phase must leave the existing Wiki-first workflow runnable as a control.
 
-1. Add `workflow_mode=llm_first` to generated samples.
-2. Add a species runtime registry that maps each supported species to its Wiki root, runtime manifest, fact index, drug index, rule-card index, source authority index, allowed entity prefixes, allowed fact/rule/source prefixes, forbidden cross-species terms, forbidden Wiki roots, prompt lens, drug namespace, regulatory namespace, and provenance validation data.
-3. Bind every case seed to a single `species_profile_id` before prompt generation.
-4. Create raw consultation generation without evidence anchors in prompt input.
-5. Add prompt isolation checks before every LLM call.
-6. Add claim extraction with schema validation and species-isolation flags.
-7. Add post-generation retrieval and claim-to-evidence matching scoped to the bound species runtime only.
-8. Add `evaluate_claim_fact_and_safety_governance.py` as the `llm_first` claim-governance phase.
-9. Keep existing Phase15 for Wiki-first control samples; do not route raw `llm_first` records through its pre-anchored sample schema.
-10. Add remediation and re-evaluation loop with repeated claim extraction, evidence retrieval, and species-isolation validation.
-11. Add cleaning, artifact standardization, and filename validation before export.
-12. Add a `llm_first` export adapter that writes `final_export_decision`, `final_training_use_tag`, and `queue_routing` as separate fields.
-13. Reuse existing semantic review, arbitration, and baseline comparison only after normalized `llm_first` records are produced.
+### 7.1 Phase 0: Baseline Lock and Compatibility Inventory
 
-### 7.2 Backward Compatibility
+Purpose: freeze the current behavior before new `llm_first` work begins.
 
-- Existing Wiki-grounded outputs remain supported.
-- Existing historical script names may remain as compatibility wrappers.
-- New implementation modules and new reports must use functional names.
-- Existing baseline 54-field comparison contract remains unchanged.
-- Main training export may add new governance metadata, but comparison CSV must stay stable.
-- Existing species-aware wrappers may continue to call historical implementation modules, but they must validate species runtime binding before reading or writing artifacts.
-- Historical artifacts that contain older lifecycle naming may remain read-only compatibility inputs. New `llm_first` artifacts must use the functional naming and species-isolation contract in this spec.
+Scope:
 
-### 7.3 Required Tests
+- Identify the current Wiki-first entrypoints, Phase15 fact-evaluation entrypoints, Phase16 export entrypoints, species configuration files, and baseline comparison writers.
+- Record the current required fields for Wiki-first samples, including `skeleton_id`, `stage_2_grounded`, `evidence_anchors`, `source_trust`, and `evidence_coverage`.
+- Record the current 51 sample fields + 3 comparison keys contract.
+- Mark existing Wiki-first tests for `must_include_claims` and pre-generation `evidence_anchors` as control-workflow tests.
 
-Unit tests:
+Deliverables:
 
-- Species runtime registry resolves the correct Wiki root, runtime manifest, fact index, drug index, rule-card index, and source authority index for each species.
-- Species runtime registry rejects unknown species and missing runtime indexes.
-- Species runtime registry exposes `species_profile_id`, `species_runtime_namespace`, `wiki_root`, `fact_index_path`, `drug_index_path`, `rule_card_index_path`, `source_authority_index_path`, `allowed_entity_id_prefixes`, `forbidden_species_terms`, and `forbidden_wiki_roots`.
-- Prompt isolation rejects prompts containing another species' Wiki root, animal-group wording, entity prefix, disease examples, or drug/regulatory assumptions.
+- Baseline inventory note or test fixture documenting current Wiki-first contracts.
+- Regression test command list for Wiki-first control workflow.
+- Compatibility decision that Phase15 and Phase16 remain available for Wiki-first/control artifacts.
+
+Acceptance gate:
+
+- Existing Wiki-first tests still pass without requiring any `llm_first` fields.
+- The 54-field comparison CSV contract is documented and protected by a test.
+- No `llm_first` implementation has changed Wiki-first required input schema.
+- Phase15 is explicitly classified as Wiki-first/control unless invoked through a future adapter.
+- Phase16 is explicitly classified as legacy export/control unless invoked through a future normalized export adapter.
+
+Blockers:
+
+- Do not proceed if the current control workflow cannot run or its comparison-field contract is unknown.
+- Do not proceed if new `llm_first` fields are required by Wiki-first tests.
+
+### 7.2 Phase 1: Species Runtime Registry and Isolation Foundation
+
+Purpose: make species isolation executable before any new raw generation or retrieval work.
+
+Scope:
+
+- Add `species_runtime_registry.py` or extend the existing species schema with independently validated runtime fields.
+- Add `species_profile_id`, `species_runtime_namespace`, `wiki_root`, `runtime_manifest_path`, `fact_index_path`, `drug_index_path`, `rule_card_index_path`, `source_authority_index_path`, `hard_block_rule_path`, allowed ID prefixes, forbidden species terms, forbidden Wiki roots, prompt lens, drug namespace, and regulatory namespace.
+- Add path-resolution checks that require runtime files to live under the selected species runtime root.
+- Add isolation validators for prompts, evidence anchors, page paths, manifest membership, source index files, rule-card index files, drug index files, runtime namespace, and artifact provenance hash.
+
+Deliverables:
+
+- Species runtime registry.
+- Species profile resolver.
+- Species isolation validator.
+- Unit tests for swine and chicken profiles.
+
+Acceptance gate:
+
+- Registry resolves every supported species to exactly one runtime profile.
+- Unknown species and missing runtime files fail closed.
+- Swine and chicken profiles resolve to different `species_profile_id`, `species_runtime_namespace`, and `wiki_root`.
+- Cross-species Wiki roots, forbidden terms, page paths, rule cards, source paths, or drug constraints produce `species_isolation_status=failed`.
+- Validation does not rely only on generic ID prefixes such as `DIS-*`, `DRUG-*`, `RC-*`, or `SRC-*`.
+
+Blockers:
+
+- Do not proceed if any species can run without a profile.
+- Do not proceed if evidence or prompt validation can pass with another species' Wiki root or runtime namespace.
+
+### 7.3 Phase 2: LLM-First Raw Generation and Prompt Isolation
+
+Purpose: produce raw consultation records without Wiki-first evidence injection.
+
+Scope:
+
+- Add `workflow_mode=llm_first`.
+- Bind every case seed to one `species_profile_id` before prompt rendering.
+- Add `generate_llm_first_raw_consultations.py`.
+- Generate raw user query, case context, generation policy, and raw assistant answer.
+- Validate prompts before every model call.
+
+Deliverables:
+
+- Raw generation module.
+- Prompt renderer bound to species profile.
+- Prompt isolation tests.
+- Small deterministic fixture set for raw records.
+
+Acceptance gate:
+
 - Raw generation prompts contain no `source=`, `fact=`, `rule=`, `page=`, `DIS-`, `DRUG-`, `RC-`, `SRC-`, Wiki page path, or evidence-anchor identifier.
-- Existing Wiki-first tests for `must_include_claims` and pre-generation `evidence_anchors` remain scoped to the Wiki-first control workflow.
-- Evidence retrieval refuses candidate facts, pages, rule cards, and source paths outside the bound species runtime namespace.
-- Cross-species evidence anchors are counted as isolation failures, not as low-confidence evidence.
-- Cross-species validation checks resolved Wiki root, manifest membership, page path, fact-index source file, drug-index source file, rule-card-index source file, source-authority-index source file, runtime namespace, and provenance hash, not only ID prefix.
-- Claim extraction schema validation.
-- High-risk claim classification.
-- Claim extraction detects dosage/course, withdrawal/residue, regulatory action, food-safety, specific-drug, and public-health claims.
-- Claim-to-evidence matching.
-- Unsupported high-risk claim rejection.
-- High-risk claim without adequate A0, label-level, or rule-card evidence is rejected or routed to repair, never admitted.
-- Contradicted claim rejection.
-- Safe low-risk unsupported claim routing.
-- Remediation removes or downgrades unsafe claims.
-- Remediation re-evaluation catches newly introduced claims.
-- Remediation re-evaluation blocks a revised answer that adds a new unsupported high-risk claim.
-- Cleaning strips audit artifacts from final answers.
-- Cleaning rejects final answers containing forbidden cross-species terms.
-- Final export decision and training-use tag remain separate fields.
-- Export adapter maps legacy `export_decision` to `final_export_decision`, maps only true training tags from `sft_admission` to `final_training_use_tag`, and maps queue values only to `queue_routing`.
-- Filename validator rejects new artifact names containing ordinal lifecycle wording.
-- Filename validator rejects data artifact and report names that are not lowercase ASCII kebab-case.
+- Raw records include `workflow_mode=llm_first`, `species_profile_id`, `species_key`, `species_runtime_namespace`, `case_seed_id`, `raw_user_query`, and `raw_assistant_answer`.
+- Prompt rendering uses only the selected species profile and rejects forbidden cross-species terms.
+- Raw records are not required to contain `skeleton_id`, `stage_2_grounded`, or pre-existing `evidence_anchors`.
+- Wiki-first generation still produces its existing skeleton and evidence-anchor outputs.
 
-Integration tests:
+Blockers:
 
-- 30-record `llm_first` smoke run completes.
-- 30-record `llm_first` smoke run completes independently for each supported species.
-- 30-record Wiki-grounded control run still completes.
-- Raw `llm_first` records pass through claim extraction and claim governance without requiring `skeleton_id`, `stage_2_grounded`, or pre-existing `evidence_anchors`.
-- 30-record comparison CSV preserves 54 fields.
-- 500-record expanded run completes without schema drift.
-- 500-record expanded run reports species-isolation pass/fail counts by species.
-- High-risk samples are either rejected or safely remediated before admission.
-- No admitted final answer contains leaked evidence anchors, internal IDs, or serialized JSON fragments.
-- No admitted final answer contains forbidden cross-species terms.
+- Do not proceed if any raw-generation prompt includes Wiki facts, source IDs, page paths, rule-card IDs, or another species' prompt lens.
+- Do not proceed if raw records cannot preserve the original model answer unchanged.
+
+### 7.4 Phase 3: Claim Extraction and Claim Schema Validation
+
+Purpose: convert raw answers into auditable claim records.
+
+Scope:
+
+- Add `extract_consultation_answer_claims.py`.
+- Extract `claims[]` with claim type, risk level, evidence need, source span, normalized subject/predicate/object, case-context flag, authoritative-knowledge flag, `species_key`, and `species_profile_id`.
+- Combine LLM extraction with deterministic detectors for dosage, course, withdrawal, residue, regulatory action, food safety, specific drug, and public health claims.
+- Mark forbidden cross-species terminology as claim-level species-isolation violation.
+
+Deliverables:
+
+- Claim extraction module.
+- Claim schema validator.
+- High-risk claim classifier.
+- Unit tests for clinical, medication, food-safety, regulatory, and safe-boundary claims.
+
+Acceptance gate:
+
+- Claim extraction validates schema for every raw record.
+- Dosage/course, withdrawal/residue, regulatory action, food-safety, specific-drug, and public-health claims are detected as high risk by default.
+- Case-context observations are separated from authoritative knowledge claims.
+- Forbidden cross-species terms produce claim-level isolation violation.
+- Extraction output is deterministic enough for repeated fixture tests.
+
+Blockers:
+
+- Do not proceed if high-risk claims can bypass `needs_evidence=true`.
+- Do not proceed if extraction cannot preserve source spans from the raw answer.
+
+### 7.5 Phase 4: Claim Evidence Retrieval and Matching
+
+Purpose: retrieve Wiki/rule evidence after claims are known and only from the selected species runtime.
+
+Scope:
+
+- Add `retrieve_wiki_evidence_for_claims.py`.
+- Search disease facts, drug constraints, rule cards, withdrawal/residue constraints, food-safety boundaries, and regulatory boundaries.
+- Match evidence to claim IDs.
+- Validate every candidate evidence item against the selected species runtime.
+
+Deliverables:
+
+- Claim-scoped evidence retrieval module.
+- Claim-to-evidence matcher.
+- Evidence anchor schema.
+- Cross-species evidence rejection tests.
+
+Acceptance gate:
+
+- Retrieval reads only the bound `wiki_root`, runtime manifest, fact index, drug index, rule-card index, and source authority index.
+- Every evidence anchor includes `claim_id`, `species_key`, `species_profile_id`, `wiki_root`, `species_runtime_namespace`, source/fact/rule identifiers, page path, authority level, trust, coverage, and usage scope.
+- Cross-species evidence is recorded as isolation failure, not low-confidence support.
+- High-risk claims without adequate A0, label-level, or rule-card evidence remain unsupported.
+- Prefix, path, manifest, namespace, index-source, and provenance checks are all exercised by tests.
+
+Blockers:
+
+- Do not proceed if retrieval can read another species' Wiki root or rule-card index.
+- Do not proceed if unsupported high-risk claims are silently downgraded.
+
+### 7.6 Phase 5: Claim Fact and Safety Governance
+
+Purpose: decide whether the raw answer can be admitted, remediated, or rejected.
+
+Scope:
+
+- Add `evaluate_claim_fact_and_safety_governance.py`.
+- Consume raw records, extracted claims, retrieved evidence, and species-runtime binding.
+- Produce `claim_reviews[]`, scores, unsupported counts, unsafe counts, raw-answer admission decision, and reject reasons.
+- Keep existing Phase15 for Wiki-first control; do not route raw `llm_first` records through Phase15's pre-anchored schema.
+
+Deliverables:
+
+- Claim governance module.
+- Per-claim review labels.
+- Raw-answer admission decision logic.
+- Unit tests for supported, unsupported, contradicted, unsafe, and case-context-only claims.
+
+Acceptance gate:
+
+- Raw `llm_first` records pass governance without `skeleton_id`, `stage_2_grounded`, or pre-existing `evidence_anchors`.
+- Unsupported high-risk claims are rejected or routed to repair, never admitted.
+- Unsafe advice, contradicted high-risk advice, fabricated dosage, fabricated withdrawal period, and fabricated regulatory execution are rejected or routed to repair.
+- Cross-species evidence never supports a claim.
+- Wiki-first Phase15 tests still pass as control tests.
+
+Blockers:
+
+- Do not proceed if any unsupported high-risk claim can produce raw admission.
+- Do not proceed if species-isolation failure can produce direct training admission.
+
+### 7.7 Phase 6: Remediation and Remediation Re-Evaluation
+
+Purpose: repair only safe and repairable answers, then re-run governance.
+
+Scope:
+
+- Add `remediate_answers_with_wiki_evidence.py`.
+- Add `review_remediated_answers.py`.
+- Remove, soften, or boundary-correct unsafe or unsupported claims.
+- Re-run claim extraction, evidence retrieval, claim governance, and species-isolation validation on revised answers.
+
+Deliverables:
+
+- Remediation module.
+- Remediation re-evaluation module.
+- Revision lineage fields.
+- Tests for removed claims, downgraded claims, added boundary statements, and newly introduced claim blocking.
+
+Acceptance gate:
+
+- Remediated answers preserve raw answer lineage and revision reasons.
+- Re-evaluation catches any new unsupported high-risk claim introduced by remediation.
+- Remediated final answers do not expose internal evidence anchors, IDs, page paths, or serialized audit fragments.
+- Remediation cannot change species profile.
+- Remediation introducing cross-species terminology, evidence, runtime path, rule-card reference, or drug/regulatory assumption is rejected.
+
+Blockers:
+
+- Do not proceed if remediation can be admitted without re-extraction and re-governance.
+- Do not proceed if raw lineage is overwritten or lost.
+
+### 7.8 Phase 7: Cleaning, Artifact Standardization, and Filename Validation
+
+Purpose: normalize records and enforce new artifact naming before export.
+
+Scope:
+
+- Add `clean_and_standardize_training_candidates.py`.
+- Add artifact writer for `llm_first` outputs.
+- Add filename validator for lowercase ASCII kebab-case data artifacts and reports.
+- Strip leaked audit anchors, object fragments, JSON leakage, markdown tables, internal field names, and forbidden cross-species terms from final user-facing answers.
+
+Deliverables:
+
+- Cleaning module.
+- Artifact writer.
+- Filename validator.
+- Artifact inventory report.
+- Schema validation report.
+
+Acceptance gate:
+
+- New `llm_first` artifacts use functional kebab-case names.
+- New executable modules use lowercase ASCII snake_case names.
+- Historical snake_case artifacts remain read-only compatibility inputs only.
+- Final answers contain no `source=`, `fact=`, `rule=`, `page=`, `DIS-`, `RC-`, serialized object fragments, or internal audit labels.
+- Rejected and repair-queue records still preserve raw, revised, final, and decision lineage.
+
+Blockers:
+
+- Do not proceed if new `llm_first` writers emit ordinal lifecycle names or snake_case data artifact names.
+- Do not proceed if cleaning removes governance lineage needed for audit.
+
+### 7.9 Phase 8: Final Admission and Export Adapter
+
+Purpose: produce train-ready outputs with separated decision, training-use, and queue-routing semantics.
+
+Scope:
+
+- Add `export_admitted_training_datasets.py` or a `llm_first` export adapter around existing export utilities.
+- Normalize legacy fields into `final_export_decision`, `final_training_use_tag`, and `queue_routing`.
+- Keep `sft_admission` only as a legacy compatibility mirror when required by downstream readers.
+
+Deliverables:
+
+- LLM-first export adapter.
+- Final admission decision tests.
+- Export schema tests.
+- Queue routing tests.
+
+Acceptance gate:
+
+- `final_export_decision` contains only `accepted`, `review`, or `rejected`.
+- `final_training_use_tag` contains only `main_sft`, `low_weight_sft`, `boundary_refusal_train`, `evaluation_only`, or `do_not_train`.
+- `queue_routing` contains only `none`, `repair_queue`, `review_queue`, or `rejected_queue`.
+- Queue values never appear in `final_export_decision` or `final_training_use_tag`.
+- Accepted records have `species_isolation_status=passed`, `unsupported_high_risk_claim_count=0`, `unsafe_claim_count=0`, and complete raw/claim/evidence/final decision lineage.
+- Records with `species_isolation_status=failed` are rejected or routed to repair, never admitted to training.
+
+Blockers:
+
+- Do not proceed if `sft_admission` still carries queue semantics in `llm_first` exports.
+- Do not proceed if accepted outputs include unsupported high-risk, unsafe, or cross-species violations.
+
+### 7.10 Phase 9: Smoke Runs and Per-Species Validation
+
+Purpose: prove the new pipeline works at small scale before expanded runs.
+
+Scope:
+
+- Run 30-record `llm_first` smoke for each supported species.
+- Run 30-record Wiki-first control.
+- Validate schema, artifacts, species isolation, final answer cleaning, and export semantics.
+
+Deliverables:
+
+- Per-species smoke artifacts.
+- Smoke governance report.
+- Smoke artifact inventory.
+- Smoke comparison summary.
+
+Acceptance gate:
+
+- 30-record `llm_first` smoke completes independently for each supported species.
+- 30-record Wiki-first control still completes.
+- No admitted sample contains forbidden cross-species terms.
 - No admitted evidence anchor references another species Wiki root, runtime namespace, page path, rule card, fact ID, source ID, or drug constraint.
-- Accepted records use `final_export_decision=accepted`; repairable records use `final_export_decision=review` plus `queue_routing=repair_queue`; rejected records use `final_export_decision=rejected`.
+- High-risk samples are rejected or safely remediated before admission.
+- Raw `llm_first` records pass through claim extraction and governance without Wiki-first skeleton fields.
+- All new smoke artifacts pass filename validation.
 
-## 8. Acceptance Gates
+Blockers:
 
-The implementation is acceptable only if all gates pass:
+- Do not proceed to expanded runs if any admitted record has species-isolation failure.
+- Do not proceed if the Wiki-first control fails after `llm_first` additions.
 
-- 30-record smoke run completes for `llm_first`.
-- 500-record expanded run completes for `llm_first`.
-- Existing Wiki-grounded workflow remains runnable as a control.
+### 7.11 Phase 10: Expanded Validation and Workflow Comparison
+
+Purpose: validate scale, schema stability, and comparison behavior.
+
+Scope:
+
+- Run 500-record `llm_first` expanded validation.
+- Run or reuse matched Wiki-grounded, no-Wiki, and metadata-only controls.
+- Generate stable comparison CSV and detailed governance reports separately.
+
+Deliverables:
+
+- 500-record expanded artifacts.
+- `workflow-comparison-standard-{run_date}-{run_label}.csv`.
+- Workflow comparison summary/report.
+- Species-isolation pass/fail metrics by species.
+- Final acceptance report.
+
+Acceptance gate:
+
+- 500-record `llm_first` run completes without schema drift.
 - Stable comparison CSV keeps exactly 54 fields.
-- Every admitted sample has raw answer lineage, claim review lineage, evidence lineage, and final decision lineage.
+- Detailed governance fields remain in JSONL/report artifacts, not in the comparison CSV.
+- All admitted records have raw answer lineage, claim review lineage, evidence lineage, and final decision lineage.
+- `cross_species_claim_count=0`, `cross_species_evidence_count=0`, and `cross_species_violation_count=0` for all admitted records.
+- Every remediated admitted sample has a successful remediation re-evaluation record.
+- Acceptance, repair, rejection, unsafe-claim, unsupported-high-risk, semantic-quality, naturalness, and traceability metrics are reported.
+
+Blockers:
+
+- Do not declare implementation complete if the 54-field comparison contract changes without a separate approved migration.
+- Do not declare implementation complete if any admitted record violates species isolation, high-risk evidence support, export semantics, or lineage requirements.
+
+## 8. Cross-Phase Acceptance Matrix
+
+The implementation is acceptable only if all phase gates and the final matrix pass:
+
+- Existing Wiki-first workflow remains runnable as a control through all phases.
+- Every `llm_first` record binds to exactly one `species_profile_id`.
 - Every admitted sample has `species_profile_id`, `species_key`, `species_runtime_namespace`, and `species_isolation_status=passed`.
 - Every admitted evidence anchor belongs to the same `species_profile_id` and `species_runtime_namespace` as the sample.
-- `cross_species_claim_count=0` for all admitted records.
-- `cross_species_evidence_count=0` for all admitted records.
-- `cross_species_violation_count=0` for all admitted records.
-- Every remediated admitted sample has a successful remediation re-evaluation record.
+- Cross-species evidence, rule-card, drug constraint, Wiki root, prompt lens, or terminology leakage never produces direct admission.
 - `unsupported_high_risk_claim_count=0` for all admitted records.
 - `unsafe_claim_count=0` for all admitted records.
-- Final user-facing answers contain no `source=`, `fact=`, `rule=`, `page=`, `DIS-`, `RC-`, serialized object fragments, or internal audit labels.
-- New artifact names follow functional enterprise naming.
-- `final_export_decision` uses only `accepted`, `review`, or `rejected`.
-- `repair_queue`, `review_queue`, and `rejected_queue` appear only in `queue_routing`, not in `final_export_decision`.
-- `main_sft`, `low_weight_sft`, `boundary_refusal_train`, `evaluation_only`, and `do_not_train` appear only in `final_training_use_tag`, not in `final_export_decision`.
-- Any sample with `species_isolation_status=failed` has `final_export_decision=rejected` or `final_export_decision=review` with `queue_routing=repair_queue`.
+- Final user-facing answers contain no internal evidence markers or serialized governance artifacts.
+- New artifact names follow functional lowercase ASCII kebab-case.
+- `final_export_decision`, `final_training_use_tag`, and `queue_routing` remain separate concepts in all new exports.
+- Stable comparison CSV keeps exactly 54 fields unless a separate migration is approved.
 
-## 9. Key Risks and Controls
+## 9. Risk Controls by Phase
 
-Risk: posthoc retrieval misses a relevant Wiki/rule anchor.
+Phase 0 risk: baseline behavior becomes ambiguous.
 
-Control: use conservative routing. If high-risk support is not found, route to rejection or repair, not admission.
+Control: freeze control contracts and keep Wiki-first tests separate from `llm_first` tests.
 
-Risk: claim extraction misses a dangerous claim.
+Phase 1 risk: species configuration remains display-only.
 
-Control: combine LLM extraction with deterministic regex/rule detectors for dosage, withdrawal, residue, regulatory execution, food safety, and public health claims.
+Control: require runtime registry fields and fail closed on missing profile, missing runtime files, or cross-species runtime references.
 
-Risk: remediation introduces new unsupported claims.
+Phase 2 risk: raw generation accidentally becomes Wiki-first again.
 
-Control: re-run extraction, retrieval, and governance after remediation.
+Control: prompt isolation rejects source IDs, fact IDs, rule IDs, page paths, evidence anchors, and forbidden species terms.
 
-Risk: final answers become generic templates.
+Phase 3 risk: claim extraction misses dangerous claims.
 
-Control: semantic review must score consultation naturalness, case responsiveness, actionability, and training utility.
+Control: combine LLM extraction with deterministic detectors for dosage, withdrawal, residue, regulatory execution, food safety, specific drugs, and public health.
 
-Risk: schema and filenames drift during parallel development.
+Phase 4 risk: evidence retrieval crosses species boundaries.
 
-Control: add cleaning validation, artifact inventory, filename validation, and stable comparison-field tests.
+Control: validate root, path, namespace, manifest membership, index source, and provenance; fail as isolation error rather than low confidence.
 
-Risk: species cross-contamination leaks evidence or terminology across swine and chicken workflows.
+Phase 5 risk: governance admits unsupported high-risk content.
 
-Control: bind every record to a species runtime profile, scope all retrieval to that profile, validate all prompts and evidence anchors against the profile, and fail closed on any cross-species violation.
+Control: high-risk support is mandatory; unsupported or contradicted high-risk claims route to repair or rejection.
 
-## 10. Final Recommendation
+Phase 6 risk: remediation introduces new unsupported claims.
 
-This workflow is executable and aligned with the target only if the new post-generation claim extraction, evidence matching, remediation re-evaluation, and cleaning/standardization components are implemented. Merely relaxing generation prompts is insufficient and unsafe.
+Control: re-run extraction, retrieval, governance, and species-isolation validation after remediation.
 
-Recommended execution order:
+Phase 7 risk: artifacts and schemas drift.
 
-1. Build the `llm_first` raw generation path.
-2. Build the species runtime registry and evidence-isolation binding.
-3. Add prompt and evidence isolation validators.
-4. Build claim extraction and evidence matching.
-5. Connect governance gates and high-risk rejection.
-6. Add remediation and remediation re-evaluation.
-7. Add cleaning and artifact standardization.
-8. Run per-species 30-record smoke validation.
-9. Run 500-record expanded validation with species-isolation metrics.
-10. Compare against Wiki-grounded, no-Wiki, and metadata-only controls.
+Control: enforce artifact writer, filename validator, schema validation report, and artifact inventory.
+
+Phase 8 risk: export semantics mix admission, training use, and queues.
+
+Control: export adapter writes `final_export_decision`, `final_training_use_tag`, and `queue_routing` independently.
+
+Phase 9 and 10 risk: small tests pass but scale or comparison fails.
+
+Control: require per-species smoke, Wiki-first control, 500-record expanded validation, and stable comparison CSV validation.
+
+## 10. Final Execution Rule
+
+This workflow must be delivered as a staged `llm_first` system running beside the existing Wiki-first control. A phase is complete only when its deliverables exist, its tests pass, and its acceptance gate is satisfied. The implementation is not complete until Phase 10 passes and the cross-phase acceptance matrix remains true.
